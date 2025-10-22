@@ -1,0 +1,32 @@
+{
+  "last_updated": "2024-10-22 09:00:00",
+  "articles": [
+    {
+      "id": 1,
+      "title": "Neural circuits underlying social behavior decoded",
+      "url": "https://www.nature.com/articles/example1",
+      "source": "Nature",
+      "category": "Neuroscience",
+      "date": "2024-10-22",
+      "summary_kr": "연구진이 사회적 행동을 조절하는 뇌의 신경 회로를 처음으로 상세히 규명했습니다. 이 발견은 자폐 스펙트럼 장애와 같은 사회적 상호작용 장애를 이해하는 데 중요한 단서를 제공합니다."
+    },
+    {
+      "id": 2,
+      "title": "Breakthrough in Alzheimer's early detection",
+      "url": "https://www.science.org/articles/example2",
+      "source": "Science",
+      "category": "Neuroscience",
+      "date": "2024-10-21",
+      "summary_kr": "과학자들이 혈액 검사만으로 알츠하이머병을 증상 발현 20년 전에 감지할 수 있는 새로운 바이오마커를 개발했습니다."
+    },
+    {
+      "id": 3,
+      "title": "뇌-컴퓨터 인터페이스 최신 연구",
+      "url": "https://www.youtube.com/watch?v=example",
+      "source": "YouTube",
+      "category": "Video",
+      "date": "2024-10-22",
+      "summary_kr": "스탠포드 대학 연구팀이 개발한 최신 뇌-컴퓨터 인터페이스를 통해 전신 마비 환자가 생각만으로 문장을 작성하는 데 성공했습니다."
+    }
+  ]
+}
