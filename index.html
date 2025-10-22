@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>일일 읽을거리</title>
+    <title>📚 일일 읽을거리</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,25 +13,29 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #f5f5f5;
+            font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f4f7f6;
             padding-bottom: 20px;
+            overscroll-behavior-y: none;
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #5E72EB 0%, #3C4E8C 100%);
             color: white;
             padding: 20px;
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             position: sticky;
             top: 0;
             z-index: 100;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
         }
         
         .header h1 {
             font-size: 24px;
             margin-bottom: 5px;
+            font-weight: 700;
         }
         
         .last-updated {
@@ -38,45 +43,41 @@
             opacity: 0.9;
         }
         
-        .refresh-btn {
-            background: white;
-            color: #667eea;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 20px;
-            margin-top: 10px;
-            font-size: 14px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-        
         .filter-tabs {
             display: flex;
             gap: 10px;
             padding: 15px;
             overflow-x: auto;
-            background: white;
+            background: #f4f7f6;
             border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 90px; /* 헤더 높이에 맞게 조정 */
+            z-index: 99;
+            scrollbar-width: none; /* Firefox */
         }
         
         .filter-tabs::-webkit-scrollbar {
-            display: none;
+            display: none; /* Safari and Chrome */
         }
         
         .filter-tab {
             padding: 8px 16px;
             border-radius: 20px;
-            background: #f0f0f0;
-            border: none;
+            background: #ffffff;
+            border: 1px solid #ddd;
             white-space: nowrap;
             cursor: pointer;
             font-size: 14px;
+            font-weight: 500;
+            color: #555;
             transition: all 0.3s;
         }
         
         .filter-tab.active {
-            background: #667eea;
+            background: #5E72EB;
             color: white;
+            border-color: #5E72EB;
+            font-weight: 600;
         }
         
         .articles-container {
@@ -85,130 +86,193 @@
         
         .article-card {
             background: white;
-            border-radius: 12px;
-            padding: 16px;
+            border-radius: 16px;
+            padding: 20px;
             margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.07);
             cursor: pointer;
-            transition: transform 0.2s;
+            transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+            border: 1px solid #e0e0e0;
         }
         
-        .article-card:active {
-            transform: scale(0.98);
+        .article-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
         }
         
         .article-header {
             display: flex;
             justify-content: space-between;
             align-items: start;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
         }
         
         .article-source {
             background: #e3f2fd;
             color: #1976d2;
-            padding: 4px 10px;
-            border-radius: 12px;
+            padding: 5px 12px;
+            border-radius: 20px;
             font-size: 11px;
-            font-weight: 600;
+            font-weight: 700;
+            flex-shrink: 0;
         }
         
-        .article-source.nature {
-            background: #e8f5e9;
-            color: #2e7d32;
-        }
-        
-        .article-source.science {
-            background: #fff3e0;
-            color: #e65100;
-        }
-        
-        .article-source.youtube {
-            background: #ffebee;
-            color: #c62828;
-        }
+        .article-source.nature { background: #e8f5e9; color: #2e7d32; }
+        .article-source.science { background: #fff3e0; color: #e65100; }
+        .article-source.cell { background: #fce4ec; color: #ad1457; }
+        .article-source.the.transmitter { background: #ede7f6; color: #5e35b1; }
+        .article-source.youtube { background: #ffebee; color: #c62828; }
         
         .article-date {
-            color: #999;
+            color: #777;
             font-size: 12px;
+            margin-left: 10px;
         }
         
         .article-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
+            font-size: 17px;
+            font-weight: 700;
+            color: #222;
             margin: 8px 0;
             line-height: 1.4;
         }
         
-        .article-summary {
-            color: #666;
-            font-size: 14px;
-            line-height: 1.5;
-            margin-top: 8px;
+        .article-category {
+            color: #667eea;
+            font-size: 13px;
+            font-weight: 600;
         }
         
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+            overflow-y: auto;
+            animation: fadeIn 0.3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: white;
+            margin: 20px;
+            border-radius: 16px;
+            padding: 24px;
+            max-width: 600px;
+            width: 90%;
+            animation: slideUp 0.3s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateY(30px) scale(0.98); opacity: 0; }
+            to { transform: translateY(0) scale(1); opacity: 1; }
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+        
+        .modal-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.4;
+            flex: 1;
+        }
+        
+        .close-btn {
+            background: #f0f0f0;
+            border: none;
+            font-size: 20px;
+            color: #777;
+            cursor: pointer;
+            padding: 0;
+            margin-left: 10px;
+            line-height: 1;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-weight: 700;
+        }
+        
+        .modal-summary {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            line-height: 1.7;
+            color: #444;
+            font-size: 15px;
+        }
+        
+        .modal-link {
+            display: block;
+            padding: 14px;
+            background: #5E72EB;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+
+        .modal-link:hover {
+            background: #4a5cc7;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
             color: #999;
+            font-size: 14px;
         }
-        
-        .stats {
-            display: flex;
-            justify-content: space-around;
-            padding: 15px;
-            background: white;
-            margin: 15px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-        
-        .stat-item {
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 24px;
-            font-weight: 700;
-            color: #667eea;
-        }
-        
-        .stat-label {
-            font-size: 12px;
-            color: #999;
-            margin-top: 4px;
-        }
+
     </style>
 </head>
 <body>
     <div class="header">
         <h1>📚 오늘의 읽을거리</h1>
         <div class="last-updated">마지막 업데이트: <span id="lastUpdated">로딩중...</span></div>
-        <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
     </div>
     
-    <div class="stats">
-        <div class="stat-item">
-            <div class="stat-number" id="totalCount">0</div>
-            <div class="stat-label">전체 항목</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number" id="readingTime">0</div>
-            <div class="stat-label">예상 시간(분)</div>
-        </div>
-    </div>
-    
-    <div class="filter-tabs">
+    <div class="filter-tabs" id="filterTabs">
         <button class="filter-tab active" onclick="filterArticles('all')">전체</button>
-        <button class="filter-tab" onclick="filterArticles('Neuroscience')">신경과학</button>
-        <button class="filter-tab" onclick="filterArticles('Nature')">Nature</button>
-        <button class="filter-tab" onclick="filterArticles('Science')">Science</button>
-        <button class="filter-tab" onclick="filterArticles('Video')">유튜브</button>
+        <!-- 필터는 JSON 로드 후 동적 생성 -->
     </div>
     
     <div class="articles-container" id="articlesContainer">
         <div class="loading">데이터를 불러오는 중...</div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-summary" id="modalSummary"></div>
+            <a class="modal-link" id="originalLink" href="#" target="_blank">🔗 원문 기사 보기</a>
+        </div>
     </div>
     
     <script>
@@ -216,25 +280,52 @@
         let currentFilter = 'all';
         
         async function loadArticles() {
+            const container = document.getElementById('articlesContainer');
+            container.innerHTML = '<div class="loading">최신 기사를 불러오는 중...</div>';
+            
             try {
-                const response = await fetch('articles.json');
+                // 캐시 방지를 위해 타임스탬프 추가
+                const response = await fetch(`articles.json?t=${new Date().getTime()}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const data = await response.json();
+                
                 allArticles = data.articles;
                 document.getElementById('lastUpdated').textContent = data.last_updated;
-                updateStats();
+                
+                renderFilterTabs();
                 renderArticles();
+                
             } catch (error) {
                 console.error('데이터 로드 오류:', error);
-                document.getElementById('articlesContainer').innerHTML = 
-                    '<div class="loading">데이터를 불러올 수 없습니다. articles.json 파일을 확인하세요.</div>';
+                container.innerHTML = 
+                    '<div class="loading">데이터를 불러올 수 없습니다. <br> GitHub Actions가 실행 중이거나 오류가 발생했습니다.</div>';
             }
         }
         
-        function updateStats() {
-            document.getElementById('totalCount').textContent = allArticles.length;
-            document.getElementById('readingTime').textContent = allArticles.length * 5;
+        function renderFilterTabs() {
+            const tabsContainer = document.getElementById('filterTabs');
+            const categories = [...new Set(allArticles.map(a => a.category))];
+            const sources = [...new Set(allArticles.map(a => a.source))];
+            
+            let tabsHTML = '<button class="filter-tab active" onclick="filterArticles(this, \'all\')">전체</button>';
+            
+            categories.forEach(category => {
+                if (category) {
+                    tabsHTML += `<button class="filter-tab" onclick="filterArticles(this, '${category}')">${category}</button>`;
+                }
+            });
+
+            sources.forEach(source => {
+                if (source) {
+                    tabsHTML += `<button class="filter-tab" onclick="filterArticles(this, '${source}')">${source}</button>`;
+                }
+            });
+            
+            tabsContainer.innerHTML = tabsHTML;
         }
-        
+
         function renderArticles() {
             const container = document.getElementById('articlesContainer');
             const filtered = currentFilter === 'all' 
@@ -247,27 +338,49 @@
             }
             
             container.innerHTML = filtered.map(article => {
-                const sourceClass = article.source.toLowerCase();
+                // 소스 이름에 .이 들어가는 경우(The.Transmitter)를 위해 클래스명 정제
+                const sourceClass = article.source.toLowerCase().replace(/[^a-z0-9]/g, '-');
+                
                 return `
-                <div class="article-card" onclick="window.open('${article.url}', '_blank')">
+                <div class="article-card" onclick='openModal(${JSON.stringify(article).replace(/'/g, "&#39;")})'>
                     <div class="article-header">
                         <span class="article-source ${sourceClass}">${article.source}</span>
                         <span class="article-date">${article.date}</span>
                     </div>
                     <h3 class="article-title">${article.title}</h3>
-                    <div class="article-summary">${article.summary_kr}</div>
+                    <div class="article-category">${article.category}</div>
                 </div>
             `}).join('');
         }
         
-        function filterArticles(filter) {
+        function filterArticles(element, filter) {
             currentFilter = filter;
             document.querySelectorAll('.filter-tab').forEach(tab => {
                 tab.classList.remove('active');
             });
-            event.target.classList.add('active');
+            element.classList.add('active');
             renderArticles();
         }
+        
+        function openModal(article) {
+            document.getElementById('modalTitle').textContent = article.title;
+            document.getElementById('modalSummary').textContent = article.summary_kr || "요약 정보가 없습니다.";
+            document.getElementById('originalLink').href = article.url;
+            document.getElementById('modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // 모달 바깥 영역 클릭 시 닫기
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
         
         loadArticles();
     </script>
