@@ -1,32 +1,104 @@
 {
-  "last_updated": "2024-10-22 09:00:00",
+  "last_updated": "2025-10-22 20:33:10",
   "articles": [
     {
-      "id": 1,
-      "title": "Neural circuits underlying social behavior decoded",
-      "url": "https://www.nature.com/articles/example1",
+      "id": 1337148340546426534,
+      "title": "Google claims ‘quantum advantage’ again — but researchers are sceptical",
+      "url": "https://www.nature.com/articles/d41586-025-03300-4",
       "source": "Nature",
       "category": "Neuroscience",
-      "date": "2024-10-22",
-      "summary_kr": "연구진이 사회적 행동을 조절하는 뇌의 신경 회로를 처음으로 상세히 규명했습니다. 이 발견은 자폐 스펙트럼 장애와 같은 사회적 상호작용 장애를 이해하는 데 중요한 단서를 제공합니다."
+      "date": "2025-10-22",
+      "summary_kr": "The firm says it has solved a problem on a quantum processor faster than a classical computer, and is optimistic about future scientific applications."
     },
     {
-      "id": 2,
-      "title": "Breakthrough in Alzheimer's early detection",
-      "url": "https://www.science.org/articles/example2",
-      "source": "Science",
+      "id": 7771559612633183224,
+      "title": "People with some cancers live longer after a COVID vaccine",
+      "url": "https://www.nature.com/articles/d41586-025-03432-7",
+      "source": "Nature",
       "category": "Neuroscience",
-      "date": "2024-10-21",
-      "summary_kr": "과학자들이 혈액 검사만으로 알츠하이머병을 증상 발현 20년 전에 감지할 수 있는 새로운 바이오마커를 개발했습니다."
+      "date": "2025-10-22",
+      "summary_kr": "mRNA vaccines seem to boost the effectiveness of an immune therapy for skin and lung cancer ― in an unexpected way."
     },
     {
-      "id": 3,
-      "title": "뇌-컴퓨터 인터페이스 최신 연구",
-      "url": "https://www.youtube.com/watch?v=example",
+      "id": 7422054804244512213,
+      "title": "Surprise meteorite debris uncovered on Moon’s far side",
+      "url": "https://www.nature.com/articles/d41586-025-03439-0",
+      "source": "Nature",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "The rare samples, uncovered by China’s Chang’e-6 mission, might help to reveal secrets of how the Solar System evolved."
+    },
+    {
+      "id": 2327031076798868334,
+      "title": "US PhD admissions shrink as fears over Trump’s cuts take hold",
+      "url": "https://www.nature.com/articles/d41586-025-03417-6",
+      "source": "Nature",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "Some doctoral programmes are admitting no students at all amid uncertainty about federal science funding."
+    },
+    {
+      "id": 2547555849207904778,
+      "title": "What’s the cap on human energy expenditure? Elite athletes reveal ‘metabolic ceiling’",
+      "url": "https://www.nature.com/articles/d41586-025-03389-7",
+      "source": "Nature",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "When athletes devote large amounts of energy to running or cycling, they unconsciously cut back on energy output elsewhere."
+    },
+    {
+      "id": 7444902463553520860,
+      "title": "TDP-43 loss induces cryptic polyadenylation in ALS/FTD",
+      "url": "https://www.nature.com/articles/s41593-025-02050-w",
+      "source": "Nature Neuroscience",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: TDP-43 loss induces cryptic polyadenylation in ALS/FTD"
+    },
+    {
+      "id": 4127284410909317862,
+      "title": "TDP-43 nuclear loss in FTD/ALS causes widespread alternative polyadenylation changes",
+      "url": "https://www.nature.com/articles/s41593-025-02049-3",
+      "source": "Nature Neuroscience",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: TDP-43 nuclear loss in FTD/ALS causes widespread alternative polyadenylation changes"
+    },
+    {
+      "id": 3325121715664890549,
+      "title": "A lateral hypothalamic neuronal population expressing leptin receptors counteracts anxiety to enable adaptive behavioral responses",
+      "url": "https://www.nature.com/articles/s41593-025-02078-y",
+      "source": "Nature Neuroscience",
+      "category": "Neuroscience",
+      "date": "2025-10-22",
+      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: A lateral hypothalamic neuronal population expressing leptin receptors counteracts anxiety to enable"
+    },
+    {
+      "id": 8101486319008562524,
+      "title": "트럼프 반년 만에, 두동강난 미국",
+      "url": "https://www.youtube.com/watch?v=J_7Xxxye-T8",
       "source": "YouTube",
       "category": "Video",
-      "date": "2024-10-22",
-      "summary_kr": "스탠포드 대학 연구팀이 개발한 최신 뇌-컴퓨터 인터페이스를 통해 전신 마비 환자가 생각만으로 문장을 작성하는 데 성공했습니다."
+      "date": "2025-10-22",
+      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
+    },
+    {
+      "id": 658528130823170133,
+      "title": "주식보다 더 올랐다. 금에 무슨 일이 일어났나",
+      "url": "https://www.youtube.com/watch?v=FLpQuW0qnvw",
+      "source": "YouTube",
+      "category": "Video",
+      "date": "2025-10-21",
+      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
+    },
+    {
+      "id": 6009246498905884811,
+      "title": "강하다. 초강력 10.15 부동산 대책",
+      "url": "https://www.youtube.com/watch?v=NgH3PoMt5JA",
+      "source": "YouTube",
+      "category": "Video",
+      "date": "2025-10-20",
+      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
     }
   ]
 }
