@@ -1,0 +1,41 @@
+name: Update Articles Daily
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 매일 21:00 UTC (한국 시간 오전 6시)
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # 파이썬 버전 명시
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # GitHub Secrets에서 API 키 가져오기
+        run: python scraper.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions-bot@github.com'
+          git add articles.json
+          # 파일이 변경되었는지 확인
+          if ! git diff --staged --quiet; then
+            git commit -m "📰 자동 업데이트: 기사 목록 갱신"
+            git push
+          else
+            echo "변경 사항이 없습니다."
+          fi
