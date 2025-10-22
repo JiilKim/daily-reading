@@ -16,7 +16,7 @@ import os
 import google.generativeai as genai
 import google.generativeai.types as genai_types
 
-# --- AI 요약 기능 (JSON 포맷으로 수정) ---
+# --- AI 요약 기능 (JSON 포맷) ---
 
 def get_gemini_summary(title_en, description_en):
     """
@@ -26,7 +26,6 @@ def get_gemini_summary(title_en, description_en):
     print(f"  [AI] '{title_en[:30]}...' 번역/요약 요청 중...")
     
     try:
-        # API 키는 GitHub Actions Secrets에서 환경 변수로 가져옵니다.
         api_key = os.environ.get('GEMINI_API_KEY')
         
         if not api_key:
@@ -35,7 +34,6 @@ def get_gemini_summary(title_en, description_en):
 
         genai.configure(api_key=api_key)
         
-        # JSON 응답을 위한 설정
         generation_config = genai.GenerationConfig(response_mime_type="application/json")
         model = genai.GenerativeModel(
             'gemini-2.5-flash-preview-09-2025',
@@ -63,9 +61,9 @@ def get_gemini_summary(title_en, description_en):
         3. 친절한 말투가 아닌, 전문적이고 간결한 뉴스체로 작성합니다.
         """
         
-        response = model.generate_content(prompt)
+        # API 호출 시 타임아웃 설정
+        response = model.generate_content(prompt, request_options={'timeout': 120})
         
-        # JSON 파싱
         data = json.loads(response.text)
         
         title_kr = data.get('title_kr', title_en)
@@ -76,29 +74,84 @@ def get_gemini_summary(title_en, description_en):
     
     except Exception as e:
         print(f"  [AI] ❌ Gemini API 오류: {e}")
-        # 오류 발생 시 영어 원본 반환
         return title_en, f"[요약 실패] API 호출 중 오류 발생. (원본: {description_en[:100]}...)"
     except json.JSONDecodeError as e:
         print(f"  [AI] ❌ JSON 파싱 오류: {e}. 응답 텍스트: {response.text[:100]}...")
         return title_en, f"[요약 실패] API 응답 형식 오류. (원본: {description_en[:100]}...)"
 
 
-# --- 웹사이트별 스크래퍼 (기사 수 제한 제거) ---
+# --- 웹사이트별 스크래퍼 ---
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
+# [수정] RSS 피드를 파싱하는 공통 함수
+def scrape_rss_feed(feed_url, source_name, category_name):
+    """
+    지정된 RSS 피드 URL을 파싱하여 기사 목록을 반환합니다.
+    """
+    articles = []
+    print(f"🔍 [{source_name}] (RSS) 크롤링 중... (URL: {feed_url})")
+    
+    try:
+        # feedparser가 User-Agent를 설정하도록 agent 전달
+        feed = feedparser.parse(feed_url, agent=HEADERS['User-Agent'])
+        
+        # 피드 파싱 실패 확인
+        if feed.bozo:
+            print(f"  ❌ RSS 피드 파싱 오류: {feed.bozo_exception}")
+            return []
+            
+        print(f"  [i] {len(feed.entries)}개 항목 찾음")
+
+        for entry in feed.entries:
+            try:
+                title_en = entry.title
+                link = entry.link
+                
+                # 'summary'가 없으면 'description' 사용
+                description_en = entry.summary if hasattr(entry, 'summary') else entry.description
+                
+                # HTML 태그 제거
+                description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
+                
+                # 날짜 파싱
+                pub_date = entry.published_parsed if hasattr(entry, 'published_parsed') else datetime.now().timetuple()
+                date_str = datetime.fromtimestamp(time.mktime(pub_date)).strftime('%Y-%m-%d')
+
+                title_kr, summary_kr = get_gemini_summary(title_en, description_text)
+                
+                articles.append({
+                    'title': title_kr,
+                    'title_en': title_en,
+                    'url': link,
+                    'source': source_name,
+                    'category': category_name,
+                    'date': date_str,
+                    'summary_kr': summary_kr
+                })
+                print(f"  ✓ {title_en[:50]}... -> {title_kr[:30]}...")
+            except Exception as e:
+                print(f"  ✗ RSS 항목 파싱 실패: {e}")
+            time.sleep(1) # API 딜레이
+            
+    except Exception as e:
+        print(f"❌ [{source_name}] RSS 크롤링 전체 오류: {e}")
+    
+    return articles
+
+
+# [유지] Nature News는 HTML 스크래핑이 잘 작동하므로 유지
 def scrape_nature_news():
     """Nature 최신 뉴스 크롤링 (제한 없음)"""
     articles = []
-    print("🔍 [Nature News] 크롤링 중...")
+    print("🔍 [Nature News] (HTML) 크롤링 중...")
     
     try:
         url = 'https://www.nature.com/nature/articles?type=news'
         response = requests.get(url, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(response.content, 'html.parser')
-        # [수정] 기사 수 제한 제거
         article_items = soup.find_all('article', class_='u-full-height')
         
         for item in article_items:
@@ -115,12 +168,11 @@ def scrape_nature_news():
                     desc_elem = item.find('div', class_='c-card__summary')
                     description_en = desc_elem.get_text(strip=True) if desc_elem else ''
                     
-                    # [수정] title_kr, summary_kr 반환
                     title_kr, summary_kr = get_gemini_summary(title_en, description_en)
                     
                     articles.append({
-                        'title': title_kr,       # 한국어 제목
-                        'title_en': title_en,    # (참고용) 영어 원본 제목
+                        'title': title_kr,
+                        'title_en': title_en,
                         'url': link,
                         'source': 'Nature',
                         'category': 'Science News',
@@ -130,173 +182,18 @@ def scrape_nature_news():
                     print(f"  ✓ {title_en[:50]}... -> {title_kr[:30]}...")
             except Exception as e:
                 print(f"  ✗ 항목 파싱 실패: {e}")
-            time.sleep(1) # API 호출 딜레이
+            time.sleep(1)
             
     except Exception as e:
         print(f"❌ [Nature News] 크롤링 오류: {e}")
     
     return articles
 
-def scrape_science_news():
-    """Science.org 최신 뉴스 크롤링 (제한 없음)"""
-    articles = []
-    print("🔍 [Science News] 크롤링 중...")
-    
-    try:
-        url = 'https://www.science.org/news'
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # [수정] 기사 수 제한 제거
-        article_items = soup.select('div.card-data')
-        
-        for item in article_items:
-            try:
-                title_elem = item.find('h2', class_='card-title')
-                link_elem = item.find('a')
-                
-                if title_elem and link_elem:
-                    title_en = title_elem.get_text(strip=True)
-                    link = link_elem.get('href', '')
-                    if link and not link.startswith('http'):
-                        link = 'https://www.science.org' + link
-                    
-                    desc_elem = item.find('p', class_='card-summary')
-                    description_en = desc_elem.get_text(strip=True) if desc_elem else title_en
-                    
-                    title_kr, summary_kr = get_gemini_summary(title_en, description_en)
-
-                    articles.append({
-                        'title': title_kr,
-                        'title_en': title_en,
-                        'url': link,
-                        'source': 'Science',
-                        'category': 'Science News',
-                        'date': datetime.now().strftime('%Y-%m-%d'),
-                        'summary_kr': summary_kr
-                    })
-                    print(f"  ✓ {title_en[:50]}... -> {title_kr[:30]}...")
-            except Exception as e:
-                print(f"  ✗ 항목 파싱 실패: {e}")
-            time.sleep(1)
-            
-    except Exception as e:
-        print(f"❌ [Science News] 크롤링 오류: {e}")
-    
-    return articles
-
-def scrape_cell_news():
-    """Cell.com 최신 뉴스 (RSS 피드 사용) (제한 없음)"""
-    articles = []
-    print("🔍 [Cell News] (RSS) 크롤링 중...")
-    
-    try:
-        rss_url = 'https://www.cell.com/rss/cell-news.xml'
-        feed = feedparser.parse(rss_url)
-        
-        # [수정] 기사 수 제한 제거
-        for entry in feed.entries:
-            try:
-                title_en = entry.title
-                link = entry.link
-                description_en = entry.summary
-                
-                description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
-                
-                title_kr, summary_kr = get_gemini_summary(title_en, description_text)
-                
-                pub_date = entry.published_parsed if hasattr(entry, 'published_parsed') else datetime.now().timetuple()
-                date_str = datetime.fromtimestamp(time.mktime(pub_date)).strftime('%Y-%m-%d')
-
-                articles.append({
-                    'title': title_kr,
-                    'title_en': title_en,
-                    'url': link,
-                    'source': 'Cell',
-                    'category': 'Science News',
-                    'date': date_str,
-                    'summary_kr': summary_kr
-                })
-                print(f"  ✓ {title_en[:50]}... -> {title_kr[:30]}...")
-            except Exception as e:
-                print(f"  ✗ 항목 파싱 실패: {e}")
-            time.sleep(1)
-            
-    except Exception as e:
-        print(f"❌ [Cell News] 크롤링 오류: {e}")
-    
-    return articles
-
-def scrape_thetransmitter():
-    """[수정] The Transmitter (신경과학 전문 뉴스) 크롤링 (제한 없음)"""
-    articles = []
-    print("🔍 [The Transmitter] 크롤링 중...")
-    
-    try:
-        url = 'https://www.thetransmitter.org/news/'
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # [수정] 선택자 변경 및 기사 수 제한 제거
-        article_items = soup.select('div.hp-post-card')
-        
-        if not article_items:
-             print("  [i] 'hp-post-card' 선택자 없음. 'article'로 재시도...")
-             article_items = soup.find_all('article')
-             
-        print(f"  [i] {len(article_items)}개 기사 카드 찾음")
-
-        for item in article_items:
-            try:
-                # [수정] 새로운 선택자
-                title_elem_a = item.select_one('h3.hp-post-card__title a')
-                
-                # 대체 선택자 (기존 방식)
-                if not title_elem_a:
-                     title_elem_a = item.find('h3').find('a') if item.find('h3') else None
-
-                if title_elem_a:
-                    title_en = title_elem_a.get_text(strip=True)
-                    link = title_elem_a.get('href', '')
-                    
-                    if link and not link.startswith('http'):
-                        link = 'https://www.thetransmitter.org' + link
-                    
-                    # [수정] 새로운 선택자
-                    desc_elem = item.select_one('p.hp-post-card__excerpt')
-                    # 대체 선택자 (기존 방식)
-                    if not desc_elem:
-                        desc_elem = item.find('p')
-                        
-                    description_en = desc_elem.get_text(strip=True) if desc_elem else title_en
-                    
-                    title_kr, summary_kr = get_gemini_summary(title_en, description_en)
-                    
-                    articles.append({
-                        'title': title_kr,
-                        'title_en': title_en,
-                        'url': link,
-                        'source': 'The Transmitter',
-                        'category': 'Neuroscience',
-                        'date': datetime.now().strftime('%Y-%m-%d'),
-                        'summary_kr': summary_kr
-                    })
-                    print(f"  ✓ {title_en[:50]}... -> {title_kr[:30]}...")
-                else:
-                    print("  ✗ 항목에서 제목/링크를 찾을 수 없음")
-            except Exception as e:
-                print(f"  ✗ 항목 파싱 실패: {e}")
-            time.sleep(1)
-            
-    except Exception as e:
-        print(f"❌ [The Transmitter] 크롤링 오류: {e}")
-    
-    return articles
-
+# [유지] Nature 자매지도 HTML 스크래핑 유지
 def scrape_nature_journal(journal_name, journal_code, category):
     """Nature 자매지 크롤링 (제한 없음)"""
     articles = []
-    print(f"🔍 [Nature {journal_name}] 크롤링 중...")
+    print(f"🔍 [Nature {journal_name}] (HTML) 크롤링 중...")
     
     try:
         url = f'https://www.nature.com/{journal_code}/news-and-comment'
@@ -308,8 +205,6 @@ def scrape_nature_journal(journal_name, journal_code, category):
             response = requests.get(url, headers=HEADERS, timeout=15)
             
         soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # [수정] 기사 수 제한 제거
         article_items = soup.find_all('article')
         
         if not article_items:
@@ -361,11 +256,13 @@ def main():
     
     all_articles = []
     
-    # 요청하신 사이트 목록 크롤링
+    # [수정] HTML 크롤링 대신 RSS 함수로 교체
+    all_articles.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'Science News'))
+    all_articles.extend(scrape_rss_feed('https://www.cell.com/rss/cell-news.xml', 'Cell', 'Science News'))
+    all_articles.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
+
+    # Nature 계열은 HTML로 유지
     all_articles.extend(scrape_nature_news())
-    all_articles.extend(scrape_science_news())
-    all_articles.extend(scrape_cell_news())
-    all_articles.extend(scrape_thetransmitter())
     all_articles.extend(scrape_nature_journal("Neuroscience", "neuro", "Neuroscience"))
     all_articles.extend(scrape_nature_journal("Drug Discovery", "nrd", "Industry News"))
     all_articles.extend(scrape_nature_journal("Medicine", "nm", "Medical News"))
@@ -374,52 +271,82 @@ def main():
     seen_urls = set()
     unique_articles = []
     
-    # 이전에 로드된 데이터를 읽어와서 중복 체크에 활용 (선택 사항)
+    # [개선] 기존 데이터를 로드하여 중복 URL을 미리 확보
     try:
         with open('articles.json', 'r', encoding='utf-8') as f:
             old_data = json.load(f)
+            # 최근 7일간의 기사만 URL 체크 (너무 오래된 기사까지 다루면 seen_urls가 너무 커짐)
             for old_article in old_data.get('articles', []):
-                seen_urls.add(old_article['url'])
-        print(f"[i] 기존 {len(seen_urls)}개의 URL을 로드했습니다. 새로운 기사만 추가합니다.")
+                try:
+                    article_date = datetime.strptime(old_article.get('date', '1970-01-01'), '%Y-%m-%d')
+                    if (datetime.now() - article_date).days <= 7:
+                        seen_urls.add(old_article['url'])
+                except ValueError:
+                    continue # 날짜 형식이 다르면 무시
+        print(f"[i] 기존 {len(seen_urls)}개의 URL (최근 7일)을 로드했습니다. 새로운 기사만 추가/요약합니다.")
     except FileNotFoundError:
         print("[i] 'articles.json' 파일이 없습니다. 새로 생성합니다.")
     
     
-    new_article_count = 0
+    new_articles = []
+    existing_articles_count = 0
+    
     for article in all_articles:
         if article['url'] not in seen_urls:
             seen_urls.add(article['url'])
-            unique_articles.append(article)
-            new_article_count += 1
+            new_articles.append(article)
+        else:
+            existing_articles_count += 1
     
-    print(f"\n[i] {new_article_count}개의 새로운 기사를 찾았습니다.")
+    print(f"\n[i] {len(new_articles)}개의 새로운 기사를 찾았습니다. (중복/기존 기사 {existing_articles_count}개 제외)")
     
-    # 기존 데이터와 새로운 데이터를 합침 (선택 사항: 여기서는 새 기사만 저장)
-    # 여기서는 매번 새로 덮어쓰는 방식을 유지하되, 중복 제거된 전체 목록을 사용
-    # 날짜순 정렬 (최신순)
-    unique_articles.sort(key=lambda x: x['date'], reverse=True)
+    # [개선] 기존 데이터와 새로운 데이터를 합침
+    # 1. 기존 데이터 로드 (최근 7일치만)
+    final_article_list = []
+    if 'old_data' in locals():
+        for old_article in old_data.get('articles', []):
+             try:
+                article_date = datetime.strptime(old_article.get('date', '1970-01-01'), '%Y-%m-%d')
+                if (datetime.now() - article_date).days <= 7:
+                    final_article_list.append(old_article)
+             except ValueError:
+                continue
+    
+    # 2. 새로운 기사 추가
+    final_article_list.extend(new_articles)
+    
+    # 3. 합친 목록에서 다시 중복 제거 (혹시 모를 경우 대비)
+    final_seen_urls = set()
+    deduplicated_list = []
+    for article in final_article_list:
+        if article['url'] not in final_seen_urls:
+            final_seen_urls.add(article['url'])
+            deduplicated_list.append(article)
+
+    # 4. 날짜순 정렬 (최신순)
+    deduplicated_list.sort(key=lambda x: x.get('date', '1970-01-01'), reverse=True)
     
     # JSON 파일로 저장
     output = {
         'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        'articles': unique_articles # 모든 기사 (중복 제거됨)
+        'articles': deduplicated_list
     }
     
     with open('articles.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
     print("\n" + "="*60)
-    print(f"✅ 완료! 총 {len(unique_articles)}개 항목 수집 및 요약")
+    print(f"✅ 완료! 총 {len(deduplicated_list)}개 항목 저장 (최근 7일 + 신규)")
     print(f"📁 articles.json 파일 업데이트됨")
     print("="*60 + "\n")
     
     sources = {}
-    for article in unique_articles:
+    for article in deduplicated_list:
         source = article['source']
         sources[source] = sources.get(source, 0) + 1
     
-    print("📊 소스별 수집 현황:")
-    for source, count in sources.items():
+    print("📊 소스별 수집 현황 (최근 7일 + 신규):")
+    for source, count in sorted(sources.items()):
         print(f"  • {source}: {count}개")
 
 
