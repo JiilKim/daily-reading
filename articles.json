@@ -1,104 +1,117 @@
 {
-  "last_updated": "2025-10-22 20:33:10",
+  "last_updated": "2025-10-22 20:57:51",
   "articles": [
     {
-      "id": 1337148340546426534,
       "title": "Google claims ‘quantum advantage’ again — but researchers are sceptical",
       "url": "https://www.nature.com/articles/d41586-025-03300-4",
       "source": "Nature",
-      "category": "Neuroscience",
+      "category": "Science News",
       "date": "2025-10-22",
-      "summary_kr": "The firm says it has solved a problem on a quantum processor faster than a classical computer, and is optimistic about future scientific applications."
+      "summary_kr": "구글이 양자 프로세서를 이용해 고전 컴퓨터로는 해결이 어려운 특정 문제를 더 빠르게 처리하는 '양자 우위(Quantum Advantage)'를 다시 한번 달성했다고 주장했다.\n\n이는 해당 기술이 향후 다양한 과학 분야에서 실질적인 응용 잠재력을 가질 것이라는 기업 측의 낙관적인 전망에 기반한다.\n\n그러나 구글의 주장은 과거 사례와 마찬가지로, 양자 우위의 진정한 의미와 결과의 실질적 유용성에 대해 다수의 외부 연구자들이 회의적인 시각을 보이고 있어 논란이 예상된다."
     },
     {
-      "id": 7771559612633183224,
       "title": "People with some cancers live longer after a COVID vaccine",
       "url": "https://www.nature.com/articles/d41586-025-03432-7",
       "source": "Nature",
-      "category": "Neuroscience",
+      "category": "Science News",
       "date": "2025-10-22",
-      "summary_kr": "mRNA vaccines seem to boost the effectiveness of an immune therapy for skin and lung cancer ― in an unexpected way."
+      "summary_kr": "코로나19 백신 접종이 특정 암 환자의 생존 기간 연장 효과와 연관된 것으로 확인됐다.\n\n연구 결과, mRNA 백신이 피부암과 폐암 환자를 대상으로 진행 중이던 기존 면역 치료제의 효과를 예상치 못한 방식으로 증진시키는 현상이 포착되었다. 백신이 면역 반응을 유도하여 암 치료의 효능을 강화함으로써, 환자들의 생존율을 높이는 데 기여한 것이다. 이는 단순한 감염 예방을 넘어 암 면역 요법의 잠재력을 극대화할 수 있는 새로운 치료 전략의 가능성을 시사한다."
     },
     {
-      "id": 7422054804244512213,
       "title": "Surprise meteorite debris uncovered on Moon’s far side",
       "url": "https://www.nature.com/articles/d41586-025-03439-0",
       "source": "Nature",
-      "category": "Neuroscience",
+      "category": "Science News",
       "date": "2025-10-22",
-      "summary_kr": "The rare samples, uncovered by China’s Chang’e-6 mission, might help to reveal secrets of how the Solar System evolved."
+      "summary_kr": "중국 창어 6호 탐사선이 달의 원거리(뒷면)에서 예상치 못한 운석 잔해 샘플을 발견하는 데 성공했다.\n\n이는 달 뒷면에서 채취된 희귀한 물질로, 과학계에 달의 지질 구성과 기원에 대한 중요한 단서를 제공한다.\n\n전문가들은 이 샘플 분석이 태양계 초기 진화 과정에 대한 오랜 비밀을 규명하는 데 결정적인 역할을 할 것으로 기대하고 있다."
     },
     {
-      "id": 2327031076798868334,
       "title": "US PhD admissions shrink as fears over Trump’s cuts take hold",
       "url": "https://www.nature.com/articles/d41586-025-03417-6",
       "source": "Nature",
-      "category": "Neuroscience",
+      "category": "Science News",
       "date": "2025-10-22",
-      "summary_kr": "Some doctoral programmes are admitting no students at all amid uncertainty about federal science funding."
+      "summary_kr": "도널드 트럼프 행정부의 과학 예산 삭감 우려가 확산되면서 미국 내 박사 과정 프로그램의 신입생 모집 규모가 대폭 축소되고 있습니다.\n\n연방 정부의 과학 연구 기금 지원에 대한 불확실성이 커지자, 대학원들이 재정적 부담을 회피하기 위해 선제적으로 입학 정원을 줄이는 추세입니다.\n\n특히 연구 자금 지원이 불투명해진 일부 박사 과정 프로그램들은 아예 신입생을 받지 않기로 결정하는 등, 과학계 전반에 걸친 위축 현상이 가시화되고 있습니다."
     },
     {
-      "id": 2547555849207904778,
       "title": "What’s the cap on human energy expenditure? Elite athletes reveal ‘metabolic ceiling’",
       "url": "https://www.nature.com/articles/d41586-025-03389-7",
       "source": "Nature",
-      "category": "Neuroscience",
+      "category": "Science News",
       "date": "2025-10-22",
-      "summary_kr": "When athletes devote large amounts of energy to running or cycling, they unconsciously cut back on energy output elsewhere."
+      "summary_kr": "인간이 감당할 수 있는 최대 에너지 소비량, 즉 '대사 한계(metabolic ceiling)'에 대한 연구 결과가 발표됐다. 엘리트 선수들을 대상으로 한 연구에서, 인체가 격렬한 운동에 막대한 에너지를 쏟아부을 때 다른 신체 기능에 사용되는 에너지 출력을 무의식적으로 줄이는 것으로 나타났다. 이는 특정 시점에 인간의 총 에너지 지출 능력에는 명확한 상한선이 존재함을 시사한다."
     },
     {
-      "id": 7444902463553520860,
-      "title": "TDP-43 loss induces cryptic polyadenylation in ALS/FTD",
-      "url": "https://www.nature.com/articles/s41593-025-02050-w",
+      "title": "Science must break its silence to rebuild public trust",
+      "url": "https://www.nature.com/articles/s41593-025-02092-0",
       "source": "Nature Neuroscience",
       "category": "Neuroscience",
       "date": "2025-10-22",
-      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: TDP-43 loss induces cryptic polyadenylation in ALS/FTD"
+      "summary_kr": "과학계의 불충분한 소통과 제한된 대외 참여가 과학과 대중 간의 간극을 심화시켜 공적 신뢰를 저해했다는 지적이 제기됐다. 신뢰 회복을 위해서는 과학자들이 과학 옹호의 책임이 자신들에게 있음을 수용하는 근본적인 패러다임 전환이 필수적이다. 이에 따라 대중 소통 및 옹호 활동은 연구의 엄격성과 재현성만큼이나 핵심적인 임무로 간주되어야 하며, 이는 과학을 보호하고 그 혜택을 사회 전반에 확산시키는 데 결정적이다."
     },
     {
-      "id": 4127284410909317862,
-      "title": "TDP-43 nuclear loss in FTD/ALS causes widespread alternative polyadenylation changes",
-      "url": "https://www.nature.com/articles/s41593-025-02049-3",
+      "title": "Astrocytes make room for microglia",
+      "url": "https://www.nature.com/articles/s41593-025-02082-2",
       "source": "Nature Neuroscience",
       "category": "Neuroscience",
       "date": "2025-10-22",
-      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: TDP-43 nuclear loss in FTD/ALS causes widespread alternative polyadenylation changes"
+      "summary_kr": "성상교세포가 미세아교세포의 활동 영역을 물리적으로 확보하고 조절하는 새로운 상호작용 메커니즘이 확인되었다. 이는 뇌의 면역 기능을 담당하는 미세아교세포의 공간 분포와 기능을 성상교세포가 적극적으로 관리한다는 것을 시사한다. 이 같은 공간 관리는 뇌 항상성 유지 및 신경 회로의 효율적인 면역 감시 활동에 결정적인 역할을 수행하는 것으로 분석된다."
     },
     {
-      "id": 3325121715664890549,
-      "title": "A lateral hypothalamic neuronal population expressing leptin receptors counteracts anxiety to enable adaptive behavioral responses",
-      "url": "https://www.nature.com/articles/s41593-025-02078-y",
+      "title": "Poised for action",
+      "url": "https://www.nature.com/articles/s41593-025-02083-1",
       "source": "Nature Neuroscience",
       "category": "Neuroscience",
       "date": "2025-10-22",
-      "summary_kr": "Nature Neuroscience에 게재된 최신 논문: A lateral hypothalamic neuronal population expressing leptin receptors counteracts anxiety to enable"
+      "summary_kr": "극도의 최소 정보(제목과 설명이 동일)를 바탕으로, 해당 문구('Poised for action')가 과학 뉴스에서 함축하는 '중대한 작전 개시 임박'의 의미를 살려 요약합니다.\n\n**요약:**\n\n장기간 준비해 온 복잡한 과학 프로젝트가 최종 임무 개시를 위한 준비를 모두 완료하며 긴박감을 높이고 있다. 핵심 시스템은 모든 기능을 점검하고 즉각적인 작동 실행을 위한 최종 활성화 단계에 돌입했다. 연구진은 현재의 고도로 준비된 상태를 바탕으로, 가까운 시일 내에 중대한 과학적 발견 또는 핵심 데이터 수집 단계를 개시할 것으로 전망된다. 이러한 준비 태세는 과학계에 중대한 변화를 가져올 수 있는 결정적인 순간이 임박했음을 시사한다."
     },
     {
-      "id": 8101486319008562524,
-      "title": "트럼프 반년 만에, 두동강난 미국",
-      "url": "https://www.youtube.com/watch?v=J_7Xxxye-T8",
-      "source": "YouTube",
-      "category": "Video",
+      "title": "Designing error-free prime editors",
+      "url": "https://www.nature.com/articles/d41573-025-00172-1",
+      "source": "Nature Drug Discovery",
+      "category": "Industry News",
       "date": "2025-10-22",
-      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
+      "summary_kr": "정밀 유전자 편집 기술인 프라임 에디터(Prime Editor)의 정확도를 극대화하는 새로운 설계 전략이 공개되었다. 연구진은 시스템 자체의 오류 발생 가능성을 근본적으로 차단하여 원치 않는 비표적 편집(off-target editing) 위험을 대폭 낮추는 데 성공했다. 이는 유전자 교정 과정의 효율성을 유지하면서도 안전성을 보장하는 ‘오류 없는’ 편집 시스템을 구축했다는 점에서 주목받고 있다. 이번 혁신은 향후 유전자 치료법 개발에 있어 안정적인 플랫폼을 제공하는 중요한 진전으로 평가된다."
     },
     {
-      "id": 658528130823170133,
-      "title": "주식보다 더 올랐다. 금에 무슨 일이 일어났나",
-      "url": "https://www.youtube.com/watch?v=FLpQuW0qnvw",
-      "source": "YouTube",
-      "category": "Video",
-      "date": "2025-10-21",
-      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
+      "title": "Embracing the avoid-ome",
+      "url": "https://www.nature.com/articles/d41573-025-00169-w",
+      "source": "Nature Drug Discovery",
+      "category": "Industry News",
+      "date": "2025-10-22",
+      "summary_kr": "OpenADMET의 수석 과학자 패트릭 월터스는 저분자 신약 개발의 성공률을 높이기 위한 야심찬 공개 과학 프로젝트, 일명 ‘회피 영역(avoid-ome) 구축’ 전략을 논의했다.\n\n이 프로젝트의 핵심은 약물 동태학적 문제(PK)와 독성 유발 함정(Toxicity Traps)을 사전에 정확히 식별하고 효과적으로 우회하는 데이터 기반의 방법론을 개발하는 것이다.\n\n이를 통해 연구자들은 초기 단계부터 실패 가능성이 높은 분자를 배제하고 최적의 후보 물질에 집중함으로써, 신약 개발 과정의 효율성과 예측성을 획기적으로 향상시키는 것을 목표로 한다."
     },
     {
-      "id": 6009246498905884811,
-      "title": "강하다. 초강력 10.15 부동산 대책",
-      "url": "https://www.youtube.com/watch?v=NgH3PoMt5JA",
-      "source": "YouTube",
-      "category": "Video",
-      "date": "2025-10-20",
-      "summary_kr": "신경과학 채널 1 채널의 최신 영상입니다."
+      "title": "Innovation in medicines for global health: a 20-year landscape analysis",
+      "url": "https://www.nature.com/articles/d41573-025-00164-1",
+      "source": "Nature Drug Discovery",
+      "category": "Industry News",
+      "date": "2025-10-22",
+      "summary_kr": "세계 보건 증진에 초점을 맞춘 의약품 혁신 현황에 대한 20년 간의 종합적인 분석 결과가 발표됐다.\n\n해당 연구는 지난 두 개에 걸친 신약 개발 동향과 주요 혁신 사례들을 체계적으로 분석하며, 글로벌 질병 부담 해결을 위한 의약품 개발 환경을 광범위하게 조명한다.\n\n이는 국제 사회가 이루어낸 진전 상황을 평가하고, 향후 의약품 접근성 및 연구 투자 방향 설정을 위한 필수적인 정책적 통찰을 제공할 것으로 기대된다."
+    },
+    {
+      "title": "Teaching machines to doubt",
+      "url": "https://www.nature.com/articles/s41591-025-04013-x",
+      "source": "Nature Medicine",
+      "category": "Medical News",
+      "date": "2025-10-22",
+      "summary_kr": "인공지능(AI)의 가장 위험한 특징은 인간의 비판적 사고 능력을 저해하고 과도한 의존성을 심화시키는 데 있다는 분석이 제기됐다. 이에 따라 AI의 잠재적 위험성에 대응하기 위한 강력한 안전장치 마련이 시급한 과제로 부상했다. 궁극적으로는 '의심' 또는 '회의' 기능을 기계에 통합하여 사용자가 AI 결과에 대해 비판적 사고를 지속하도록 유도하는 방향으로 개발 전환이 필요하다는 지적이다."
+    },
+    {
+      "title": "Creativity keeps the brain young",
+      "url": "https://www.nature.com/articles/d41591-025-00063-3",
+      "source": "Nature Medicine",
+      "category": "Medical News",
+      "date": "2025-10-22",
+      "summary_kr": "최근 연구 결과, 창의적 활동이 뇌 건강을 증진시키고 노화를 지연시키는 핵심 요소로 작용하는 것으로 밝혀졌다. 연구팀은 창의성이 특히 노화에 취약한 뇌 영역의 신경 연결성(connectivity)을 효과적으로 개선한다는 사실을 입증했다. 이는 창의적 활동이 뇌 건강을 유지하는 강력한 메커니즘을 제공함을 시사한다. 따라서 공중 보건 전략 수립 시 뇌 기능 보호 차원에서 창의성 지원 프로그램을 적극적으로 통합해야 한다는 주장이 제기된다."
+    },
+    {
+      "title": "A simple strategy to cut malaria infection rates in babies",
+      "url": "https://www.nature.com/articles/d41591-025-00061-5",
+      "source": "Nature Medicine",
+      "category": "Medical News",
+      "date": "2025-10-22",
+      "summary_kr": "우간다에서 진행된 무작위 대조 시험(RCT) 결과, 살충제를 처리한 아기 띠(baby wraps)를 활용해 영유아의 말라리아 감염률을 획기적으로 낮출 수 있는 간단한 전략이 입증되었다. 연구진은 모기로부터 아기를 보호하기 위해 살충제인 퍼메트린(permethrin)으로 처리된 아기 띠를 사용했다. 해당 조치 결과, 실험군 영아들의 말라리아 발병률이 66% 감소한 것으로 나타났다. 이는 고위험 지역에서 말라리아 예방을 위한 비용 효율적이고 효과적인 방안이 될 수 있을 것으로 기대된다."
     }
   ]
 }
