@@ -1,0 +1,500 @@
+<!-- 
+===========================================
+파일 1: index.html (메인 페이지)
+Repository 루트에 저장하세요
+===========================================
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일일 읽을거리</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            padding-bottom: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .last-updated {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .refresh-btn {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            overflow-x: auto;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 120px;
+            z-index: 99;
+        }
+        
+        .filter-tabs::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .filter-tab {
+            padding: 8px 16px;
+            border-radius: 20px;
+            background: #f0f0f0;
+            border: none;
+            white-space: nowrap;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .filter-tab.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .articles-container {
+            padding: 15px;
+        }
+        
+        .article-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .article-card:active {
+            transform: scale(0.98);
+        }
+        
+        .article-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 8px;
+        }
+        
+        .article-source {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .article-source.nature { background: #e8f5e9; color: #2e7d32; }
+        .article-source.science { background: #fff3e0; color: #e65100; }
+        .article-source.youtube { background: #ffebee; color: #c62828; }
+        
+        .article-date {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .article-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin: 8px 0;
+            line-height: 1.4;
+        }
+        
+        .article-category {
+            color: #666;
+            font-size: 13px;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            overflow-y: auto;
+            animation: fadeIn 0.3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .modal.active {
+            display: block;
+        }
+        
+        .modal-content {
+            background: white;
+            margin: 20px;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            animation: slideUp 0.3s;
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+        
+        .modal-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.4;
+            flex: 1;
+        }
+        
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: #999;
+            cursor: pointer;
+            padding: 0;
+            margin-left: 10px;
+            line-height: 1;
+        }
+        
+        .modal-summary {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .modal-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .modal-link {
+            display: block;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .modal-link.secondary {
+            background: #764ba2;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .full-text {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+            line-height: 1.8;
+            color: #444;
+            font-size: 14px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            background: white;
+            margin: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📚 오늘의 읽을거리</h1>
+        <div class="last-updated">마지막 업데이트: <span id="lastUpdated">로딩중...</span></div>
+        <button class="refresh-btn" onclick="loadArticles()">🔄 새로고침</button>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-number" id="totalCount">0</div>
+            <div class="stat-label">전체 항목</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="readingTime">0</div>
+            <div class="stat-label">예상 시간(분)</div>
+        </div>
+    </div>
+    
+    <div class="filter-tabs">
+        <button class="filter-tab active" onclick="filterArticles('all')">전체</button>
+        <button class="filter-tab" onclick="filterArticles('Neuroscience')">신경과학</button>
+        <button class="filter-tab" onclick="filterArticles('Nature')">Nature</button>
+        <button class="filter-tab" onclick="filterArticles('Science')">Science</button>
+        <button class="filter-tab" onclick="filterArticles('Video')">유튜브</button>
+        <button class="filter-tab" onclick="filterArticles('General')">일반 뉴스</button>
+    </div>
+    
+    <div class="articles-container" id="articlesContainer">
+        <div class="loading">데이터를 불러오는 중...</div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-summary" id="modalSummary"></div>
+            <div class="modal-links">
+                <a class="modal-link" id="originalLink" href="#" target="_blank">🔗 원문 보기 →</a>
+                <button class="modal-link secondary" onclick="toggleFullText()">📄 전문 번역 보기</button>
+            </div>
+            <div class="full-text" id="fullText" style="display: none;"></div>
+        </div>
+    </div>
+    
+    <script>
+        let allArticles = [];
+        let currentFilter = 'all';
+        let currentArticle = null;
+        
+        async function loadArticles() {
+            try {
+                const response = await fetch('articles.json');
+                const data = await response.json();
+                allArticles = data.articles;
+                document.getElementById('lastUpdated').textContent = data.last_updated;
+                updateStats();
+                renderArticles();
+            } catch (error) {
+                console.error('데이터 로드 오류:', error);
+                document.getElementById('articlesContainer').innerHTML = 
+                    '<div class="loading">데이터를 불러올 수 없습니다.</div>';
+            }
+        }
+        
+        function updateStats() {
+            document.getElementById('totalCount').textContent = allArticles.length;
+            document.getElementById('readingTime').textContent = allArticles.length * 5;
+        }
+        
+        function renderArticles() {
+            const container = document.getElementById('articlesContainer');
+            const filtered = currentFilter === 'all' 
+                ? allArticles 
+                : allArticles.filter(a => a.category === currentFilter || a.source === currentFilter);
+            
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="loading">표시할 항목이 없습니다.</div>';
+                return;
+            }
+            
+            container.innerHTML = filtered.map(article => {
+                const sourceClass = article.source.toLowerCase();
+                return `
+                <div class="article-card" onclick='openModal(${JSON.stringify(article).replace(/'/g, "&#39;")})'>
+                    <div class="article-header">
+                        <span class="article-source ${sourceClass}">${article.source}</span>
+                        <span class="article-date">${article.date}</span>
+                    </div>
+                    <h3 class="article-title">${article.title}</h3>
+                    <div class="article-category">${article.category}</div>
+                </div>
+            `}).join('');
+        }
+        
+        function filterArticles(filter) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            renderArticles();
+        }
+        
+        function openModal(article) {
+            currentArticle = article;
+            document.getElementById('modalTitle').textContent = article.title;
+            document.getElementById('modalSummary').textContent = article.summary_kr;
+            document.getElementById('originalLink').href = article.url;
+            document.getElementById('fullText').textContent = article.full_text_kr;
+            document.getElementById('fullText').style.display = 'none';
+            document.getElementById('modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        function toggleFullText() {
+            const fullText = document.getElementById('fullText');
+            fullText.style.display = fullText.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+        
+        loadArticles();
+    </script>
+</body>
+</html>
+
+
+<!-- 
+===========================================
+파일 2: articles.json (데이터 파일)
+Repository 루트에 저장하세요
+===========================================
+-->
+
+{
+  "last_updated": "2024-10-22 09:00:00",
+  "articles": [
+    {
+      "id": 1,
+      "title": "Neural circuits underlying social behavior decoded",
+      "url": "https://www.nature.com/articles/example1",
+      "source": "Nature",
+      "category": "Neuroscience",
+      "date": "2024-10-22",
+      "summary_kr": "연구진이 사회적 행동을 조절하는 뇌의 신경 회로를 처음으로 상세히 규명했습니다. 이 발견은 자폐 스펙트럼 장애와 같은 사회적 상호작용 장애를 이해하는 데 중요한 단서를 제공합니다.",
+      "full_text_kr": "최신 연구에서 과학자들은 사회적 행동을 제어하는 뇌의 복잡한 신경 회로를 처음으로 상세하게 매핑했습니다. 이 획기적인 발견은 사회적 상호작용 장애를 겪는 사람들을 위한 새로운 치료법 개발의 길을 열 수 있습니다."
+    },
+    {
+      "id": 2,
+      "title": "Breakthrough in Alzheimer's early detection using blood biomarkers",
+      "url": "https://www.science.org/articles/example2",
+      "source": "Science",
+      "category": "Neuroscience",
+      "date": "2024-10-21",
+      "summary_kr": "과학자들이 혈액 검사만으로 알츠하이머병을 증상 발현 20년 전에 감지할 수 있는 새로운 바이오마커를 개발했습니다. 이 검사는 95% 이상의 정확도를 보입니다.",
+      "full_text_kr": "알츠하이머병 연구에 획기적인 발전이 있었습니다. 국제 연구팀이 간단한 혈액 검사로 알츠하이머병을 증상이 나타나기 수십 년 전에 감지할 수 있는 새로운 바이오마커 패널을 개발했습니다."
+    }
+  ]
+}
+
+
+<!-- 
+===========================================
+파일 3: .github/workflows/update.yml
+자동 업데이트용 (선택사항)
+.github/workflows/ 폴더 만들고 그 안에 저장하세요
+===========================================
+-->
+
+name: Update Articles Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 자정 (UTC)
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 feedparser
+      
+      - name: Run scraper
+        run: python scraper.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add articles.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update articles"
+          git push
