@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-지정된 HTML 및 RSS 피드에서 뉴스/논문/영상을 크롤링하고
+[영구 버전]
+지정된 RSS 피드 및 YouTube에서 뉴스/논문/영상을 크롤링하고
 Gemini API를 이용해 번역/요약한 후
-articles.json을 업데이트합니다.
+articles.json을 업데이트합니다. (하루 50개 제한)
 """
 
 import requests
@@ -13,8 +14,8 @@ from datetime import datetime
 import feedparser
 import time
 import os
-import google.generativeai as genai
-import google.generativeai.types as genai_types
+import google.genai as genai
+import google.genai.types as genai_types
 # YouTube 스크립트 API 임포트
 from youtube_transcript_api import YouTubeTranscriptApi
 # URL 파싱을 위한 라이브러리
@@ -82,9 +83,7 @@ def get_gemini_summary(title_en, description_en):
              print(f"  [AI] ❌ Gemini API - 콘텐츠 차단 오류: {e}")
              return title_en, "[요약 실패] API가 콘텐츠를 차단했습니다."
         
-        # 그 외 다른 API 오류
         print(f"  [AI] ❌ Gemini API 오류: {e}")
-        # API 할당량 초과(ResourceExhausted) 등의 오류를 여기서 잡음
         return title_en, f"[요약 실패] API 호출 중 오류 발생. (원본: {description_en[:100]}...)"
     
     except json.JSONDecodeError as e:
@@ -98,143 +97,11 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
-# 1. HTML 페이지 스크래핑 함수 (Nature News)
-def scrape_nature_news_html():
-    """<기사> https://www.nature.com/nature/articles?type=news"""
-    articles = []
-    base_url = 'https://www.nature.com'
-    url = f'{base_url}/nature/articles?type=news'
-    print(f"🔍 [Nature News] (HTML) 크롤링 중...: {url}")
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        article_items = soup.find_all('li', class_='app-article-list__item')
-        print(f"  [i] {len(article_items)}개 잠재적 기사 항목 찾음 (li.app-article-list__item)")
-
-        if not article_items:
-             print("  [i] 'li.app-article-list__item' 없음. 'article[data-track-component=results-article]'로 재시도...")
-             article_items = soup.select('article[data-track-component="results-article"]')
-
-        
-        for item in article_items:
-            try:
-                article_tag = item.find('article')
-                if not article_tag:
-                    article_tag = item
-
-                title_elem = article_tag.find('h3', {'data-test': 'article-title'}) or article_tag.find('h3')
-                link_elem = article_tag.find('a', {'data-track-action': 'view article'}) or article_tag.find('a', href=True)
-                
-                if title_elem and link_elem:
-                    title_en = title_elem.get_text(strip=True)
-                    link = urljoin(base_url, link_elem.get('href', ''))
-                    
-                    desc_elem = article_tag.find('div', {'data-test': 'article-description'}) or article_tag.find('div', class_='c-card__summary')
-                    description_en = desc_elem.get_text(strip=True) if desc_elem else ''
-                    
-                    image_url = None
-                    img_elem = article_tag.find('img')
-                    if img_elem:
-                        image_url = img_elem.get('data-src') or img_elem.get('src')
-                        if image_url:
-                            image_url = urljoin(base_url, image_url)
-                    
-                    articles.append({
-                        'title_en': title_en,
-                        'description_en': description_en,
-                        'url': link,
-                        'source': 'Nature',
-                        'category': 'News',
-                        'date': datetime.now().strftime('%Y-%m-%d'),
-                        'image_url': image_url
-                    })
-            except Exception as e:
-                print(f"  ✗ 항목 파싱 실패: {e}")
-            
-    except Exception as e:
-        print(f"❌ [Nature News] 크롤링 오류: {e}")
-    
-    return articles
-
-# 2. HTML 페이지 스크래핑 함수 (Science News)
-def scrape_science_news_html():
-    """<기사> https://www.science.org/news/all-news"""
-    articles = []
-    base_url = 'https://www.science.org'
-    url = f'{base_url}/news/all-news'
-    print(f"🔍 [Science News] (HTML) 크롤링 중...: {url}")
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        list_container = soup.find('div', {'data-type': 'search-result-list'})
-        if list_container:
-            article_items = list_container.find_all('article', class_='card')
-            print(f"  [i] {len(article_items)}개 잠재적 기사 항목 찾음 (div[data-type=search-result-list] article.card)")
-        else:
-            print("  [i] 'search-result-list' 컨테이너 없음. 'article.card'로 재시도...")
-            article_items = soup.select('article.card')
-            
-        if not article_items:
-             print("  [i] 'article.card' 없음. 'article[class*=\"card\"]'로 재시도...")
-             article_items = soup.select('article[class*="card"]')
-
-        
-        for item in article_items:
-            try:
-                title_elem = item.find('h3', class_='card-title') or item.find(['h2', 'h3'])
-                link_elem = item.find('a', href=True)
-                
-                title_en = ""
-                if title_elem:
-                    title_en = title_elem.get_text(strip=True)
-                    link_elem_inner = title_elem.find('a', href=True)
-                    if link_elem_inner:
-                        link_elem = link_elem_inner
-                
-                if not link_elem or 'href' not in link_elem.attrs:
-                    link_elem = item.find('a', href=True)
-
-                if not title_en or not link_elem:
-                    continue
-
-                link = urljoin(base_url, link_elem.get('href', ''))
-                
-                desc_elem = item.find('div', class_='card-text') or item.find('p')
-                description_en = desc_elem.get_text(strip=True) if desc_elem else title_en
-                
-                image_url = None
-                img_elem = item.find('img')
-                if img_elem:
-                    image_url = img_elem.get('data-src') or img_elem.get('src')
-                    if image_url:
-                        image_url = urljoin(base_url, image_url)
-
-                articles.append({
-                    'title_en': title_en,
-                    'description_en': description_en,
-                    'url': link,
-                    'source': 'Science',
-                    'category': 'News',
-                    'date': datetime.now().strftime('%Y-%m-%d'),
-                    'image_url': image_url
-                })
-            except Exception as e:
-                print(f"  ✗ 항목 파싱 실패: {e}")
-            
-    except Exception as e:
-        print(f"❌ [Science News] 크롤링 오류: {e}")
-    
-    return articles
-
-# 3. RSS 피드를 파싱하는 공통 함수
+# 1. RSS 피드를 파싱하는 공통 함수
 def scrape_rss_feed(feed_url, source_name, category_name):
     """
     지정된 RSS 피드 URL을 파싱하여 기사 목록을 반환합니다.
-    (Transmitter 및 모든 논문 사이트에서 사용)
+    (모든 기사/논문 사이트에서 사용)
     """
     articles = []
     print(f"🔍 [{source_name}] (RSS) 크롤링 중... (URL: {feed_url})")
@@ -287,11 +154,11 @@ def scrape_rss_feed(feed_url, source_name, category_name):
     
     return articles
 
-# 4. YouTube 채널 스크립트 크롤링 함수
+# 2. YouTube 채널 스크립트 크롤링 함수
 def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
     """
     YouTube 채널 RSS를 확인하고, *새로운* 영상의 스크립트를 가져와 요약합니다.
-    (requests를 사용하여 차단 우회)
+    (로컬에서 실행되므로 차단 위험 낮음)
     """
     articles = []
     print(f"🔍 [{source_name}] (YouTube) 크롤링 중...")
@@ -301,7 +168,13 @@ def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
         response = requests.get(feed_url, headers=HEADERS, timeout=15)
         content_type = response.headers.get('Content-Type', '')
         
-        if 'application/xml' not in content_type and 'application/atom+xml' not in content_type:
+        if response.status_code != 200:
+            print(f"  ❌ YouTube RSS가 오류를 반환했습니다. (Status: {response.status_code})")
+            print(f"  [i] 응답 내용 (첫 200자): {response.text[:200]}")
+            return []
+        
+        # [수정] 'text/xml'도 유효한 XML로 인식하도록 'xml' 키워드만 확인
+        if 'xml' not in content_type:
             print(f"  ❌ YouTube RSS가 XML이 아닌 응답을 반환했습니다. (Content-Type: {content_type})")
             return []
             
@@ -312,15 +185,17 @@ def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
             return []
         
         print(f"  [i] 최신 {len(feed.entries)}개 영상 확인...")
-
+        
+        new_video_found = False
         for entry in feed.entries:
             try:
                 title_en = entry.title
                 link = entry.link
                 
                 if link in seen_urls:
-                    continue
+                    continue # 이미 처리한 영상
                 
+                new_video_found = True
                 print(f"  [i] ✨ 새로운 영상 발견: {title_en[:50]}...")
                 
                 description_en = entry.summary if hasattr(entry, 'summary') else entry.description
@@ -360,6 +235,9 @@ def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
             except Exception as e:
                 print(f"  ✗ YouTube 항목 파싱 실패: {e}")
             time.sleep(1) # API 딜레이
+            
+        if not new_video_found:
+            print("  [i] 새로운 YouTube 영상이 없습니다.")
     
     except Exception as e:
         print(f"❌ [{source_name}] YouTube 크롤링 전체 오류: {e}")
@@ -376,11 +254,10 @@ def main():
     
     all_articles_to_check = []
     
-    # <기사> (HTML)
-    all_articles_to_check.extend(scrape_nature_news_html())
-    all_articles_to_check.extend(scrape_science_news_html())
-    
+    # [수정] 불안정한 HTML 스크래핑 대신 모두 RSS로 변경
     # <기사> (RSS)
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
 
     # <논문> (RSS)
@@ -415,7 +292,7 @@ def main():
     new_articles = [] 
     existing_articles_count = 0
     
-    # 1. RSS/HTML로 수집된 기사들 요약 처리
+    # 1. RSS로 수집된 기사들 요약 처리
     
     # [수정] API 할당량 초과를 막기 위해 한 번에 처리할 새 기사 수 제한
     new_article_count = 0
@@ -423,10 +300,9 @@ def main():
     
     for article_data in all_articles_to_check:
         
-        # [수정] 새 기사 처리 개수 제한
         if new_article_count >= MAX_NEW_ARTICLES_PER_RUN:
             print(f"  [i] API 할당량을 위해 최대 {MAX_NEW_ARTICLES_PER_RUN}개 까지만 요약합니다. 나머지는 다음 실행으로 넘어갑니다.")
-            break # 새 기사 처리를 중단
+            break
             
         if article_data.get('url') and article_data['url'] not in seen_urls:
             print(f"  [i] ✨ 새로운 기사 발견 ({new_article_count + 1}/{MAX_NEW_ARTICLES_PER_RUN}): {article_data['title_en'][:50]}...")
@@ -434,7 +310,6 @@ def main():
             
             title_kr, summary_kr = get_gemini_summary(article_data['title_en'], article_data['description_en'])
             
-            # API 오류가 발생하지 않았을 때만 리스트에 추가 (요약 실패 시에도 추가는 됨)
             article_data['title'] = title_kr
             article_data['summary_kr'] = summary_kr
             
@@ -442,18 +317,17 @@ def main():
                 del article_data['description_en']
             
             new_articles.append(article_data)
-            new_article_count += 1 # [수정] 처리한 새 기사 카운트 증가
+            new_article_count += 1
             time.sleep(1) # API 딜레이
             
         elif article_data.get('url'):
             existing_articles_count += 1
     
-    print(f"\n[i] {len(new_articles)}개의 새로운 (RSS/HTML) 기사를 요약했습니다. (중복/기존 기사 {existing_articles_count}개 제외)")
+    print(f"\n[i] {len(new_articles)}개의 새로운 (RSS) 기사를 요약했습니다. (중복/기존 기사 {existing_articles_count}개 제외)")
     
     # 2. YouTube 채널 확인 (seen_urls 전달)
-    # [수정] YouTube는 새 기사 카운트와 별도로 실행 (영상은 보통 하루에 1~2개이므로)
     new_youtube_videos = scrape_youtube_channel(
-        'UC-SgS0O2-j9p1Oa3mXgXFrw', 
+        'UCWgXoKQ4rl7SY9UHuAwxvzQ', 
         'B_ZCF YouTube', 
         'Video', 
         seen_urls
