@@ -32,17 +32,4 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add articles.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 자동 업데이트: $(date +'%Y-%m-%d %H:%M')" && git push)
-```
-
----
-
-## 📂 전체 파일 구조
-```
-daily-reading/
-├── index.html                    ← 이미 만듦
-├── articles.json                 ← 이미 만듦
-├── scraper.py                    ← 👈 새로 추가
-├── requirements.txt              ← 👈 새로 추가
-└── .github/
-    └── workflows/
-        └── daily-update.yml      ← 👈 새로 추가
+        
