@@ -256,18 +256,18 @@ def main():
     
     # [수정] 불안정한 HTML 스크래핑 대신 모두 RSS로 변경
     # <기사> (RSS)
+    all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
-    all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
-
-    # <논문> (RSS)
-    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
+    
+    # <논문> (RSS)    
     all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nm/current_issue/rss', 'Nature Medicine', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
     
     seen_urls = set()
     final_article_list = [] 
