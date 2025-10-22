@@ -2,3 +2,4 @@ requests
 beautifulsoup4
 feedparser
 google-generativeai
+youtube_transcript_api
