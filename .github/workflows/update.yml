@@ -2,7 +2,7 @@ name: Update Articles Daily
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # 매일 21:00 UTC (한국 시간 오전 6시)
+    - cron: '0 10 * * *'  # 매일 오전 10시 (UTC) / 팔로알토(PDT) 새벽 3시
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
@@ -39,3 +39,4 @@ jobs:
           else
             echo "변경 사항이 없습니다."
           fi
+
