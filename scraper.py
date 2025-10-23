@@ -23,10 +23,12 @@ from urllib.parse import urljoin
 
 # --- AI 요약 기능 (JSON 포맷) ---
 
-def get_gemini_summary(title_en, description_en):
+# [수정] link=None 매개변수 추가
+def get_gemini_summary(title_en, content_to_summarize, is_video_description=False, link=None):
     """
     Gemini API를 호출하여 제목과 설명을 한글로 번역 및 요약합니다.
     결과를 JSON 형식으로 받습니다.
+    is_video_description 플래그로 프롬프트를 분기합니다.
     """
     print(f"  [AI] '{title_en[:30]}...' 번역/요약 요청 중...")
     
@@ -35,37 +37,63 @@ def get_gemini_summary(title_en, description_en):
         
         if not api_key:
             print("  [AI] ❌ GEMINI_API_KEY가 설정되지 않았습니다. 요약을 건너뜁니다.")
-            return title_en, f"[요약 실패] API 키가 없습니다. (원본: {description_en[:100]}...)"
+            return title_en, f"[요약 실패] API 키가 없습니다. (원본: {content_to_summarize[:100]}...)"
 
         genai.configure(api_key=api_key)
         
         generation_config = genai.GenerationConfig(response_mime_type="application/json")
         model = genai.GenerativeModel(
-            'gemini-2.5-flash-preview-09-2025',
+            'gemini-1.5-flash-preview-05-2024',
             generation_config=generation_config
         )
         
-        prompt = f"""
-        당신은 전문 과학 뉴스 편집자입니다.
-        아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성하세요.
-        최대한 자연스럽고 부드럽게 번역하세요.
-        결과는 반드시 지정된 JSON 형식으로 제공해야 됩니다.
+        prompt = ""
+        
+        if is_video_description and link:
+            # [수정] 사용자가 요청한 대로 프롬프트에 link 변수 포함
+            print("      (유튜브 스크립트 없음. 영상 설명을 기반으로 요약합니다.)")
+            prompt = f"""
+            당신은 전문 과학/기술 콘텐츠 큐레이터입니다.
+            '영상 설명' 텍스트를 기반으로 {link} 에 있는 영상의 핵심 내용을 유추하여 한국어 제목과 한국어 요약본을 작성하세요.
 
-        [입력]
-        - title_en: "{title_en}"
-        - description_en: "{description_en}"
+            [입력]
+            - title_en: "{title_en}"
+            - description_en: "{content_to_summarize}"
 
-        [JSON 출력 형식]
-        {{
-          "title_kr": "여기에 한국어 번역 제목을 작성",
-          "summary_kr": "여기에 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
-        }}
+            [JSON 출력 형식]
+            {{
+              "title_kr": "여기에 한국어 번역 제목을 작성",
+              "summary_kr": "여기에 5-6 문장으로 구성된 상세한 한국어 요약본을 작성 (영상 설명을 기반으로)"
+            }}
 
-        [규칙]
-        1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
-        2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 5-6 문장의 한국어로 요약합니다.
-        3. 친절한 말투가 아닌, 전문적이고 간결한 뉴스체로 작성합니다.
-        """
+            [규칙]
+            1. "description_en"은 영상의 전체 스크립트가 아닌, 영상 하단의 설명란 텍스트입니다.
+            2. 이 설명 텍스트를 최대한 활용하여 영상의 전체 내용을 추측하고 요약합니다.
+            3. 전문적이고 간결한 뉴스체로 작성합니다.
+            """
+        else:
+            # [기존] 기사 텍스트 또는 성공한 유튜브 스크립트 요약
+            prompt = f"""
+            당신은 전문 과학 뉴스 편집자입니다.
+            아래의 영어 기사 제목과 설명(본문 또는 스크립트)을 바탕으로, 한국어 제목과 한국어 요약본을 작성하세요.
+            최대한 자연스럽고 부드럽게 번역하세요.
+            결과는 반드시 지정된 JSON 형식으로 제공해야 됩니다.
+
+            [입력]
+            - title_en: "{title_en}"
+            - description_en: "{content_to_summarize}"
+
+            [JSON 출력 형식]
+            {{
+              "title_kr": "여기에 한국어 번역 제목을 작성",
+              "summary_kr": "여기에 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
+            }}
+
+            [규칙]
+            1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+            2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 5-6 문장의 한국어로 요약합니다.
+            3. 친절한 말투가 아닌, 전문적이고 간결한 뉴스체로 작성합니다.
+            """
         
         # API 호출 시 타임아웃 설정
         response = model.generate_content(prompt, request_options={'timeout': 120})
@@ -73,23 +101,22 @@ def get_gemini_summary(title_en, description_en):
         data = json.loads(response.text)
         
         title_kr = data.get('title_kr', title_en)
-        summary_kr = data.get('summary_kr', f"[요약 실패] API 응답 오류. (원본: {description_en[:100]}...)")
+        summary_kr = data.get('summary_kr', f"[요약 실패] API 응답 오류. (원본: {content_to_summarize[:100]}...)")
         
         print(f"  [AI] ✓ 요약 완료: {title_kr[:30]}...")
         return title_kr, summary_kr
     
     except Exception as e:
-        # [수정] 'BlockedPromptError'가 아닌 'BlockedPromptException'으로 수정
         if isinstance(e, genai_types.generation_types.BlockedPromptException):
              print(f"  [AI] ❌ Gemini API - 콘텐츠 차단 오류: {e}")
              return title_en, "[요약 실패] API가 콘텐츠를 차단했습니다."
         
         print(f"  [AI] ❌ Gemini API 오류: {e}")
-        return title_en, f"[요약 실패] API 호출 중 오류 발생. (원본: {description_en[:100]}...)"
+        return title_en, f"[요약 실패] API 호출 중 오류 발생. (원본: {content_to_summarize[:100]}...)"
     
     except json.JSONDecodeError as e:
         print(f"  [AI] ❌ JSON 파싱 오류: {e}. 응답 텍스트: {response.text[:100]}...")
-        return title_en, f"[요약 실패] API 응답 형식 오류. (원본: {description_en[:100]}...)"
+        return title_en, f"[요약 실패] API 응답 형식 오류. (원본: {content_to_summarize[:100]}...)"
 
 
 # --- 웹사이트별 스크래퍼 ---
@@ -210,16 +237,20 @@ def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
                 
                 video_id = link.split('v=')[-1]
                 summary_kr = ""
-                try:                    
-                    transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'a.en']) 
+                try:
+                    # [수정] 올바른 클래스/메서드 호출
+                    transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'a.en'])
                     transcript_text = " ".join([item['text'] for item in transcript_list])
                     print(f"  [i] 스크립트 로드 완료 (약 {len(transcript_text)}자)")
                     
-                    title_kr, summary_kr = get_gemini_summary(title_en, transcript_text)
+                    # [수정] 스크립트(본문)를 요약하도록 호출 (link 전달)
+                    title_kr, summary_kr = get_gemini_summary(title_en, transcript_text, is_video_description=False, link=link)
 
                 except Exception as e:
                     print(f"  [i] ⚠️ 스크립트를 가져올 수 없음: {e}. 영상 설명을 대신 요약합니다.")
-                    title_kr, summary_kr = get_gemini_summary(title_en, description_text)
+                    
+                    # [수정] '영상 설명'을 요약하도록 is_video_description=True 플래그와 함께 호출 (link 전달)
+                    title_kr, summary_kr = get_gemini_summary(title_en, description_text, is_video_description=True, link=link)
 
                 articles.append({
                     'title': title_kr,
@@ -309,7 +340,13 @@ def main():
             print(f"  [i] ✨ 새로운 기사 발견 ({new_article_count + 1}/{MAX_NEW_ARTICLES_PER_RUN}): {article_data['title_en'][:50]}...")
             seen_urls.add(article_data['url'])
             
-            title_kr, summary_kr = get_gemini_summary(article_data['title_en'], article_data['description_en'])
+            # [수정] RSS 기사 요약 시 (link 전달)
+            title_kr, summary_kr = get_gemini_summary(
+                article_data['title_en'], 
+                article_data['description_en'], 
+                is_video_description=False, 
+                link=article_data['url']
+            )
             
             article_data['title'] = title_kr
             article_data['summary_kr'] = summary_kr
@@ -376,4 +413,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
