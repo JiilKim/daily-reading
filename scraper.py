@@ -297,7 +297,7 @@ def main():
     
     # [수정] API 할당량 초과를 막기 위해 한 번에 처리할 새 기사 수 제한
     new_article_count = 0
-    MAX_NEW_ARTICLES_PER_RUN = 5 # 하루 250개 한도보다 훨씬 적게 설정
+    MAX_NEW_ARTICLES_PER_RUN = 1 # 하루 250개 한도보다 훨씬 적게 설정
     
     for article_data in all_articles_to_check:
         
