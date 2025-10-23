@@ -17,7 +17,7 @@ import os
 import google.generativeai as genai
 import google.generativeai.types as genai_types
 # YouTube 스크립트 API 임포트
-from youtube_transcript_api import get_transcript
+from youtube_transcript_api import YouTubeTranscriptApi
 # URL 파싱을 위한 라이브러리
 from urllib.parse import urljoin
 
@@ -211,7 +211,7 @@ def scrape_youtube_channel(channel_id, source_name, category_name, seen_urls):
                 video_id = link.split('v=')[-1]
                 summary_kr = ""
                 try:                    
-                    transcript_list = get_transcript(video_id, languages=['en', 'a.en'])
+                    transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'a.en']) 
                     transcript_text = " ".join([item['text'] for item in transcript_list])
                     print(f"  [i] 스크립트 로드 완료 (약 {len(transcript_text)}자)")
                     
