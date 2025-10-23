@@ -14,8 +14,8 @@ from datetime import datetime
 import feedparser
 import time
 import os
-import google.genai as genai
-import google.genai.types as genai_types
+import google.generativeai as genai
+import google.generativeai.types as genai_types
 # YouTube 스크립트 API 임포트
 from youtube_transcript_api import YouTubeTranscriptApi
 # URL 파싱을 위한 라이브러리
