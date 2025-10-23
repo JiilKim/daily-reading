@@ -36,9 +36,9 @@
                     },
                     colors: {
                         primary: {
-                            DEFAULT: '#6366F1', // indigo-500
-                            light: '#818CF8',   // indigo-400
-                            dark: '#4F46E5',    // indigo-600
+                            DEFAULT: '#4F46E5', // indigo-600
+                            light: '#6366F1',   // indigo-500
+                            dark: '#3730A3',    // indigo-800
                         },
                         secondary: '#EC4899', // pink-500
                     }
@@ -50,15 +50,18 @@
 <body class="bg-gray-100 min-h-screen">
 
     <!-- 헤더 -->
-    <header class="bg-gradient-to-r from-primary-dark to-secondary text-white p-5 shadow-lg sticky top-0 z-50">
+    <!-- [수정] 배너 색상을 세련된 파란색 계열로 변경 -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-5 shadow-lg sticky top-0 z-50">
         <div class="container mx-auto max-w-4xl text-center">
             <h1 class="text-2xl md:text-3xl font-bold">📚 오늘의 읽을거리</h1>
-            <p class="text-sm opacity-90 mt-1">마지막 업데이트: <span id="lastUpdated">로딩중...</span></p>
+            <p class="text-sm opacity-90 mt-1">
+                마지막 업데이트 (Palo Alto): <span id="lastUpdated">로딩중...</span>
+            </p>
         </div>
     </header>
 
     <!-- 필터 탭 -->
-    <nav class="bg-white shadow-sm sticky top-[76px] z-40">
+    <nav class="bg-white shadow-sm sticky top-[84px] md:top-[88px] z-40">
         <div class="container mx-auto max-w-4xl p-3 overflow-x-auto no-scrollbar">
             <div id="filterTabs" class="flex space-x-2 whitespace-nowrap">
                 <!-- 탭은 JS로 동적 생성 -->
@@ -68,11 +71,12 @@
     </nav>
 
     <!-- 기사 컨테이너 -->
+    <!-- [수정] 카드 간격을 gap-3로 줄임 -->
     <main class="container mx-auto max-w-4xl p-3 md:p-5">
-        <div id="articlesContainer" class="grid grid-cols-1 gap-4">
+        <div id="articlesContainer" class="grid grid-cols-1 gap-3">
             <!-- 로딩 스피너 -->
             <div id="loadingSpinner" class="flex justify-center items-center py-20">
-                <svg class="animate-spin h-8 w-8 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <svg class="animate-spin h-8 w-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                     <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
@@ -108,7 +112,7 @@
 
             <!-- 모달 푸터 -->
             <footer class="p-4 border-t border-gray-200 bg-gray-50 rounded-b-xl">
-                <a id="originalLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center block bg-primary text-white font-semibold py-3 px-5 rounded-lg hover:bg-primary-dark transition-colors shadow-sm">
+                <a id="originalLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center block bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-5 rounded-lg transition-colors shadow-sm">
                     🔗 원문 기사 보기
                 </a>
             </footer>
@@ -119,6 +123,7 @@
     <script>
         let allArticles = [];
         let currentFilter = 'all';
+        let favoriteArticles = []; // [신규] 즐겨찾기 목록
 
         // 소스별 색상/이름 매핑
         const sourceMeta = {
@@ -139,12 +144,22 @@
         // 필터 탭 스타일
         const tabBaseStyle = "px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer";
         const tabInactiveStyle = "bg-gray-100 text-gray-700 hover:bg-gray-200";
+        // [수정] 활성 탭 색상을 primary로 통일
         const tabActiveStyle = "bg-primary text-white shadow-md";
 
+        // [신규] 즐겨찾기 localStorage 키 (매일 자동 리셋)
+        const getFavoritesKey = () => new Date().toISOString().split('T')[0] + '-favorites';
+
         document.addEventListener('DOMContentLoaded', () => {
+            loadFavorites();
             loadArticles();
             setupModalListeners();
         });
+
+        // [신규] localStorage에서 즐겨찾기 로드
+        function loadFavorites() {
+            favoriteArticles = JSON.parse(localStorage.getItem(getFavoritesKey())) || [];
+        }
 
         async function loadArticles() {
             try {
@@ -163,7 +178,24 @@
                      allArticles = data.articles;
                 }
 
-                document.getElementById('lastUpdated').textContent = data.last_updated || 'N/A';
+                // [수정] Palo Alto 시간대 (America/Los_Angeles)로 변환
+                if (data.last_updated) {
+                    try {
+                        const utcDate = new Date(data.last_updated.replace(' ', 'T') + 'Z'); // UTC로 가정
+                        const paloAltoTime = new Intl.DateTimeFormat('ko-KR', {
+                            timeZone: 'America/Los_Angeles',
+                            dateStyle: 'short',
+                            timeStyle: 'short'
+                        }).format(utcDate);
+                        document.getElementById('lastUpdated').textContent = paloAltoTime;
+                    } catch(e) {
+                        console.error("날짜 변환 오류:", e);
+                        document.getElementById('lastUpdated').textContent = data.last_updated || 'N/A';
+                    }
+                } else {
+                    document.getElementById('lastUpdated').textContent = 'N/A';
+                }
+
                 
                 // 날짜 기준 내림차순 정렬 (데이터가 있는 경우에만)
                 if(allArticles.length > 0) {
@@ -193,10 +225,11 @@
             const categories = [...new Set(allArticles.map(a => a.category))];
             const sources = [...new Set(allArticles.map(a => a.source))];
             
-            const filters = ['all', ...categories, ...sources];
-            
-            // 기존 탭 제거 (전체 탭 제외)
-            tabsContainer.innerHTML = `<button class="filter-tab ${tabBaseStyle} ${tabActiveStyle}" data-filter="all">전체</button>`;
+            // [수정] '즐겨찾기' 탭 추가
+            tabsContainer.innerHTML = `
+                <button class="filter-tab ${tabBaseStyle} ${tabActiveStyle}" data-filter="all">전체</button>
+                <button class="filter-tab ${tabBaseStyle} ${tabInactiveStyle}" data-filter="favorites">⭐ 즐겨찾기</button>
+            `;
 
             // 카테고리 탭 (News, Paper, Video...)
             categories.forEach(filter => {
@@ -222,9 +255,15 @@
         function renderArticles() {
             const container = document.getElementById('articlesContainer');
             
-            const filtered = currentFilter === 'all' 
-                ? allArticles 
-                : allArticles.filter(a => a.category === currentFilter || a.source === currentFilter);
+            // [수정] 즐겨찾기 필터 로직 추가
+            let filtered = [];
+            if (currentFilter === 'all') {
+                filtered = allArticles;
+            } else if (currentFilter === 'favorites') {
+                filtered = allArticles.filter(a => favoriteArticles.includes(a.url));
+            } else {
+                filtered = allArticles.filter(a => a.category === currentFilter || a.source === currentFilter);
+            }
             
             if (filtered.length === 0) {
                 // 로딩이 끝났는데도 articles가 비어있는 경우
@@ -246,22 +285,38 @@
                 const meta = sourceMeta[article.source] || sourceMeta.default;
                 
                 // article 객체를 JSON 문자열로 변환 (따옴표 문제 해결)
-                // article 객체가 null이 아닌지 확인
                 if (!article) return '';
+                
+                // [신규] 즐겨찾기 여부 확인
+                const isFavorited = favoriteArticles.includes(article.url);
+                const articleId = (article.url || Math.random()).hashCode();
 
                 return `
-                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-pointer" 
-                         onclick='openModal(JSON.parse(decodeURIComponent("${encodeURIComponent(JSON.stringify(article))}")))'
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex" 
                          role="button"
-                         aria-labelledby="title-${(article.url || Math.random()).hashCode()}">
-                    <div class="p-5">
+                         aria-labelledby="title-${articleId}">
+                    
+                    <!-- [수정] 본문 클릭 시 모달 열기 -->
+                    <div class="flex-1 p-4 cursor-pointer" onclick='openModal(JSON.parse(decodeURIComponent("${encodeURIComponent(JSON.stringify(article))}")))'>
                         <div class="flex justify-between items-center mb-2">
                             <span class="text-xs font-medium px-2.5 py-0.5 rounded-full ${meta.color}">${meta.name}</span>
                             <span class="text-xs text-gray-500">${article.date}</span>
                         </div>
-                        <h3 id="title-${(article.url || Math.random()).hashCode()}" class="text-lg font-semibold text-gray-800 hover:text-primary transition-colors">${article.title}</h3>
-                        <p class="text-sm text-gray-500 mt-1">${article.category}</p>
+                        <!-- [수정] 폰트 크기 text-md로 줄임 -->
+                        <h3 id="title-${articleId}" class="text-md font-semibold text-gray-800 hover:text-primary transition-colors">${article.title}</h3>
+                        <!-- [수정] 폰트 크기 text-xs로 줄임 -->
+                        <p class="text-xs text-gray-500 mt-1">${article.category}</p>
                     </div>
+
+                    <!-- [신규] 즐겨찾기 버튼 -->
+                    <button 
+                        onclick="toggleFavorite(event, '${article.url}')" 
+                        class="p-4 flex items-center justify-center ${isFavorited ? 'text-yellow-400' : 'text-gray-300'} hover:text-yellow-400 transition-colors"
+                        aria-label="즐겨찾기 ${isFavorited ? '해제' : '추가'}">
+                        <svg class="w-6 h-6" fill="${isFavorited ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118L2.04 10.099c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                        </svg>
+                    </button>
                 </article>
                 `;
             }).join('');
@@ -292,6 +347,31 @@
             
             renderArticles();
         }
+
+        // [신규] 즐겨찾기 토글 함수
+        function toggleFavorite(event, articleUrl) {
+            event.stopPropagation(); // 모달이 열리는 것을 방지
+            
+            const key = getFavoritesKey();
+            let currentFavorites = JSON.parse(localStorage.getItem(key)) || [];
+            
+            const index = currentFavorites.indexOf(articleUrl);
+            
+            if (index > -1) {
+                // 이미 있으면 제거
+                currentFavorites.splice(index, 1);
+            } else {
+                // 없으면 추가
+                currentFavorites.push(articleUrl);
+            }
+            
+            localStorage.setItem(key, JSON.stringify(currentFavorites));
+            favoriteArticles = currentFavorites; // 전역 변수 업데이트
+            
+            // 화면 즉시 새로고침
+            renderArticles();
+        }
+
 
         // --- 모달 로직 ---
         const modal = document.getElementById('modal');
@@ -349,4 +429,3 @@
     </script>
 </body>
 </html>
-
