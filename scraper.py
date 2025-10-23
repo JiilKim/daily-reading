@@ -43,7 +43,7 @@ def get_gemini_summary(title_en, content_to_summarize, is_video_description=Fals
         
         generation_config = genai.GenerationConfig(response_mime_type="application/json")
         model = genai.GenerativeModel(
-            'gemini-1.5-flash-preview-05-2024',
+            'gemini-2.5-flash-preview-09-2025',
             generation_config=generation_config
         )
         
