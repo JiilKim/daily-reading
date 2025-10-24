@@ -129,6 +129,130 @@
         </div>
     </div>
 
+    <!-- [신규] Firebase SDK 추가 -->
+    <script type="module">
+        // Firebase 서비스 import
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, onSnapshot, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // --- Firebase/App 설정 ---
+        // (Canvas 환경에서 자동으로 __firebase_config, __app_id, __initial_auth_token 변수를 제공합니다)
+        const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        
+        let app, auth, db;
+        let userId = null;
+        let favoritesDocRef = null; // 즐겨찾기 데이터가 저장될 Firestore 문서 참조
+
+        // --- 전역 함수 연결 ---
+        // 모듈 스크립트의 함수를 일반 스크립트에서 사용할 수 있도록 window 객체에 연결
+        window.globalFirebase = {
+            toggleFavorite_Firestore: toggleFavorite_Firestore,
+            getFavoritesDocRef: () => favoritesDocRef
+        };
+        
+        // --- Firebase 초기화 ---
+        try {
+            app = initializeApp(firebaseConfig);
+            auth = getAuth(app);
+            db = getFirestore(app);
+            setLogLevel('Debug'); // Firestore 로그 활성화
+            console.log("Firebase initialized.");
+            signInUser(); // 인증 시작
+        } catch (e) {
+            console.error("Firebase initialization failed:", e);
+            // firebaseConfig가 비어있으면(로컬 테스트 등) 여기서 오류 발생
+        }
+
+        // --- Firebase 인증 ---
+        // 인증 상태 변경 리스너
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                userId = user.uid;
+                // 현재 유저의 개인 즐겨찾기 문서 경로 설정
+                favoritesDocRef = doc(db, 'artifacts', appId, 'users', userId, 'favorites', 'data');
+                console.log("User authenticated:", userId, "App ID:", appId);
+                loadFavoritesFromFirestore(); // 인증 완료 후 Firestore에서 즐겨찾기 로드
+            } else {
+                console.log("User not authenticated.");
+                userId = null;
+                favoritesDocRef = null;
+            }
+        });
+
+        // 인증 실행 함수
+        async function signInUser() {
+            try {
+                if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+                    console.log("Signing in with custom token...");
+                    await signInWithCustomToken(auth, __initial_auth_token);
+                } else {
+                    console.log("Signing in anonymously...");
+                    await signInAnonymously(auth);
+                }
+            } catch (error) {
+                console.error("Authentication error:", error);
+            }
+        }
+
+        // --- Firestore 데이터 함수 ---
+
+        // Firestore에서 즐겨찾기 목록 실시간 로드
+        function loadFavoritesFromFirestore() {
+            if (!favoritesDocRef) {
+                console.log("Firestore ref not ready, aborting load.");
+                return;
+            }
+            console.log("Setting up Firestore snapshot listener...");
+
+            // onSnapshot: 클라우드 데이터가 변경될 때마다 실시간으로 호출됨
+            onSnapshot(favoritesDocRef, (docSnap) => {
+                let serverFavorites;
+                if (docSnap.exists()) {
+                    const data = docSnap.data();
+                    serverFavorites = new Set(data.urls || []); // Firestore에서 Set으로 변환
+                    console.log("Favorites loaded from Firestore:", serverFavorites.size);
+                } else {
+                    console.log("No favorites document. Creating one.");
+                    serverFavorites = new Set();
+                    // 새 유저를 위해 빈 문서 생성 (await 안함)
+                    setDoc(favoritesDocRef, { urls: [] }); 
+                }
+                
+                // [중요] Firestore 데이터와 LocalStorage 데이터를 병합
+                window.syncFavorites(serverFavorites);
+
+            }, (error) => {
+                console.error("Error loading favorites snapshot:", error);
+            });
+        }
+        
+        // Firestore에 즐겨찾기 목록 저장
+        async function toggleFavorite_Firestore(url, isFavorite) {
+            if (!favoritesDocRef) {
+                console.warn("Firestore not ready. Favorite not saved to cloud.");
+                return;
+            }
+            
+            // 현재 브라우저의 최신 즐겨찾기 목록(Set)을 가져옴
+            const localFavs = window.getCurrentFavorites();
+            
+            // Firestore는 Array만 저장 가능하므로 Set을 Array로 변환
+            const favoritesArray = Array.from(localFavs);
+            
+            try {
+                // setDoc: 문서 전체를 덮어쓰기 (즐겨찾기 목록 전체 업데이트)
+                await setDoc(favoritesDocRef, { urls: favoritesArray });
+                console.log("Favorites updated in Firestore.");
+            } catch (error) {
+                console.error("Error updating favorites in Firestore:", error);
+            }
+        }
+
+    </script>
+
+    <!-- [수정] 기존 스크립트 (Firebase와 연동되도록 수정) -->
     <script>
         let allArticles = []; // 모든 기사 원본
         let currentFilteredArticles = []; // 현재 필터링된 기사 목록
@@ -150,17 +274,49 @@
             { id: 'Nature Biotechnology', name: 'Nature Biotech' }
         ];
 
+        // --- [신규] Firebase 연동 함수들 ---
+        // Firestore(서버) 데이터와 localStorage(로컬) 데이터를 병합
+        window.syncFavorites = (serverFavorites) => {
+            const localFavs = new Set(JSON.parse(localStorage.getItem('dailyReadingFavorites') || '[]'));
+            
+            // 병합: 서버 Set과 로컬 Set을 합침 (중복 자동 제거)
+            const mergedFavs = new Set([...serverFavorites, ...localFavs]);
+            
+            favoriteArticles = mergedFavs; // 전역 변수 업데이트
+            localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(mergedFavs)));
+            
+            console.log("Favorites synced. Total:", mergedFavs.size);
+            
+            // 병합된 목록으로 UI 새로고침
+            if (window.renderArticles) { 
+                window.renderArticles();
+            }
+            
+            // 병합된 최종본을 다시 Firestore에 저장 (한 번만)
+            if (window.globalFirebase && window.globalFirebase.getFavoritesDocRef()) {
+                 // toggleFavorite_Firestore는 현재 localFavs(getCurrentFavorites)를 읽어서 저장함
+                 window.globalFirebase.toggleFavorite_Firestore(null, false);
+            }
+        };
+        // 현재 즐겨찾기 Set을 모듈 스크립트에 제공
+        window.getCurrentFavorites = () => favoriteArticles;
+        // renderArticles 함수를 전역에서 접근 가능하게 함
+        window.renderArticles = renderArticles;
+
+
         // --- 초기화 ---
         document.addEventListener('DOMContentLoaded', () => {
-            loadFavorites();
+            loadFavorites(); // 1. 로컬 즐겨찾기 먼저 로드 (빠른 UI)
             renderFilterTabs();
             loadArticles();
+            // 2. Firebase 초기화는 <script type="module">에서 자동으로 실행됨
         });
 
-        // --- 즐겨찾기 로드 ---
+        // --- [수정] 즐겨찾기 로드 (localStorage) ---
         function loadFavorites() {
             const favs = localStorage.getItem('dailyReadingFavorites');
             favoriteArticles = new Set(favs ? JSON.parse(favs) : []);
+            // (참고: 잠시 후 Firestore 데이터와 병합됨)
         }
 
         // --- 필터 탭 렌더링 ---
@@ -227,7 +383,12 @@
                 
                 // 로딩 스켈레톤 제거
                 document.querySelectorAll('.loading-skeleton').forEach(el => el.remove());
-                renderArticles();
+                
+                // renderArticles()는 이제 Firestore 로드 완료 후 syncFavorites에서 호출됨
+                // (단, Firestore 로드가 실패할 경우를 대비해 여기서 한 번 호출)
+                if (!window.globalFirebase.getFavoritesDocRef()) {
+                    renderArticles();
+                }
 
             } catch (error) {
                 console.error('데이터 로드 오류:', error);
@@ -289,10 +450,13 @@
             // 3. HTML 생성
             container.innerHTML = currentFilteredArticles.map((article, index) => {
                 
-                const imageUrl = article.image_url || null;
-                const isFavorite = favoriteArticles.has(article.url);
+                // [수정] article이 null이 아닌지 확인
+                if (!article) return ''; 
 
-                // --- [수정] 썸네일 HTML을 조건부로 생성 ---
+                const imageUrl = article.image_url || null;
+                const isFavorite = favoriteArticles.has(article.url); // 전역 Set에서 확인
+
+                // --- 썸네일 HTML을 조건부로 생성 ---
                 const imageContainerHtml = imageUrl
                     ? `<!-- Thumbnail (h-36) -->
                        <div class="relative w-full h-36 overflow-hidden">
@@ -305,7 +469,7 @@
                                           ${isFavorite ? 'text-yellow-400 bg-black/50' : 'text-white/70 bg-black/40'} 
                                           hover:text-yellow-300 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519 4.674z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" />
                                 </svg>
                            </button>
                            
@@ -331,12 +495,12 @@
                     tabindex="0"
                     aria-label="${article.title || '기사 제목 없음'}">
                     
-                    ${imageContainerHtml} <!-- [수정] 조건부 썸네일 HTML 삽입 -->
+                    ${imageContainerHtml} <!-- 조건부 썸네일 HTML 삽입 -->
 
                     <!-- 텍스트 영역 (p-3 md:p-4) -->
                     <div class="p-3 md:p-4 flex flex-col flex-1">
                         
-                        <!-- [수정] 썸네일이 없을 때만 날짜/즐겨찾기 버튼을 여기에 표시 -->
+                        <!-- 썸네일이 없을 때만 날짜/즐겨찾기 버튼을 여기에 표시 -->
                         ${!imageUrl ? `
                         <div class="flex justify-between items-center mb-2">
                             <!-- 날짜 (텍스트 카드용) -->
@@ -350,7 +514,7 @@
                                            ${isFavorite ? 'text-yellow-400' : 'text-slate-400'} 
                                            hover:text-yellow-400 transition-colors">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519 4.674z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" />
                                 </svg>
                             </button>
                         </div>
@@ -377,35 +541,54 @@
             }).join('');
         }
 
-        // --- 즐겨찾기 토글 함수 ---
-        function toggleFavorite(url, buttonEl) {
-            if (!url) return; 
-
-            const svg = buttonEl.querySelector('svg');
-            
-            // [수정] 텍스트 카드 즐겨찾기 버튼 스타일 동기화
+        // --- [신규] 즐겨찾기 버튼 UI 업데이트 헬퍼 ---
+        function updateFavoriteButtonUI(url, isFavorite) {
             const allFavoriteButtons = document.querySelectorAll(`button[onclick*="'${url}'"]`);
+            allFavoriteButtons.forEach(btn => {
+                const svg = btn.querySelector('svg');
+                if (!svg) return;
 
-            if (favoriteArticles.has(url)) {
-                favoriteArticles.delete(url);
-                allFavoriteButtons.forEach(btn => {
-                    btn.querySelector('svg')?.setAttribute('fill', 'none');
-                    btn.classList.add('text-white/70', 'text-slate-400'); // 이미지용, 텍스트용
-                    btn.classList.remove('text-yellow-400', 'bg-black/50');
-                });
-            } else {
-                favoriteArticles.add(url);
-                allFavoriteButtons.forEach(btn => {
-                    btn.querySelector('svg')?.setAttribute('fill', 'currentColor');
+                if (isFavorite) {
+                    svg.setAttribute('fill', 'currentColor');
                     btn.classList.remove('text-white/70', 'text-slate-400');
                     btn.classList.add('text-yellow-400');
                     if (btn.classList.contains('absolute')) { // 이미지용 버튼
                         btn.classList.add('bg-black/50');
                     }
-                });
+                } else {
+                    svg.setAttribute('fill', 'none');
+                    btn.classList.add('text-white/70', 'text-slate-400'); // 이미지용, 텍스트용
+                    btn.classList.remove('text-yellow-400', 'bg-black/50');
+                }
+            });
+        }
+        
+        // --- [수정] 즐겨찾기 토글 함수 (Firebase 연동) ---
+        function toggleFavorite(url, buttonEl) {
+            if (!url) return; 
+
+            const newIsFavorite = !favoriteArticles.has(url); // 원하는 새 상태
+            
+            // 1. 로컬 Set 상태 즉시 업데이트
+            if (newIsFavorite) {
+                favoriteArticles.add(url);
+            } else {
+                favoriteArticles.delete(url);
             }
+
+            // 2. UI 즉시 업데이트
+            updateFavoriteButtonUI(url, newIsFavorite);
+
+            // 3. localStorage에 즉시 저장 (백업)
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
             
+            // 4. Firestore에 비동기 저장
+            if (window.globalFirebase) {
+                // (모듈 스크립트의 함수 호출)
+                window.globalFirebase.toggleFavorite_Firestore(url, newIsFavorite);
+            }
+            
+            // 현재 '즐겨찾기' 탭을 보고 있다면, 목록 새로고침
             if (currentFilter === 'favorite') {
                 renderArticles();
             }
@@ -442,16 +625,18 @@
             document.getElementById('modalLink').href = url;
 
             const imgEl = document.getElementById('modalImage');
-            // [수정] 모달에서도 썸네일 없으면 숨기기
+            const modalBody = imgEl.closest('.flex'); // 부모 .flex 컨테이너
+
+            // 모달 썸네일 표시/숨기기
             if (imageUrl) {
                 imgEl.src = imageUrl;
                 imgEl.style.display = 'block'; // 보이게
-                imgEl.parentElement.parentElement.classList.remove('md:flex-row'); // 버그 방지
-                imgEl.parentElement.parentElement.classList.add('md:flex-row'); // 기본값
+                modalBody.classList.add('md:flex-row'); // 가로 정렬
+                modalBody.classList.remove('md:flex-col'); // 세로 정렬(숨김 시)
             } else {
                 imgEl.style.display = 'none'; // 숨기기
-                // 이미지가 없을 때 요약본이 전체 너비를 사용하도록
-                imgEl.parentElement.parentElement.classList.remove('md:flex-row');
+                modalBody.classList.remove('md:flex-row'); // 가로 정렬 제거
+                modalBody.classList.add('md:flex-col'); // 세로 정렬(숨김 시)
             }
 
             document.getElementById('modal').classList.remove('hidden');
