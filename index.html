@@ -3,164 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📚 오늘의 읽을거리</title>
-    <!-- 폰트 로드 (Inter) -->
+    <title>📚 일일 읽을거리</title>
+    <!-- 폰트: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     
     <!-- Tailwind CSS 로드 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Noto Sans KR 폰트를 기본으로 하되, Inter 폰트 fallback */
+        /* Noto Sans KR (한글)과 Inter (영어/숫자) 폰트 적용 */
         body {
             font-family: 'Inter', 'Noto Sans KR', sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+            background-color: #f8fafc; /* Tailwind 'slate-50' */
         }
-        /* 스크롤바 숨기기 (Tailwind 유틸리티로도 가능하지만, CSS가 더 확실함) */
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
+        
+        /* 스크롤바 디자인 (선택 사항) */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
         }
-        .no-scrollbar {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
+        ::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1; /* Tailwind 'slate-300' */
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        /* [중요] 요약 실패 시 텍스트 스타일 */
+        .summary-failed {
+            color: #ef4444; /* Tailwind 'red-500' */
+            font-style: italic;
+            font-weight: 500;
         }
     </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
-                    },
-                    colors: {
-                        primary: {
-                            DEFAULT: '#4F46E5', // indigo-600
-                            light: '#6366F1',   // indigo-500
-                            dark: '#3730A3',    // indigo-800
-                        },
-                        secondary: '#EC4899', // pink-500
-                    }
-                }
-            }
-        }
-    </script>
 </head>
-<body class="bg-gray-100 min-h-screen">
+<body class="text-slate-800">
 
     <!-- 헤더 -->
-    <!-- [수정] 배너 색상을 세련된 파란색 계열로 변경 -->
-    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-5 shadow-lg sticky top-0 z-50">
-        <div class="container mx-auto max-w-4xl text-center">
-            <h1 class="text-2xl md:text-3xl font-bold">📚 오늘의 읽을거리</h1>
-            <p class="text-sm opacity-90 mt-1">
-                마지막 업데이트 (Palo Alto): <span id="lastUpdated">로딩중...</span>
+    <header class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 sticky top-0 z-20 shadow-lg">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-2xl font-bold">📚 오늘의 읽을거리</h1>
+            <p class="text-sm text-indigo-100 mt-1">
+                마지막 업데이트: <span id="lastUpdated">로딩중...</span>
             </p>
         </div>
     </header>
 
     <!-- 필터 탭 -->
-    <nav class="bg-white shadow-sm sticky top-[84px] md:top-[88px] z-40">
-        <div class="container mx-auto max-w-4xl p-3 overflow-x-auto no-scrollbar">
+    <nav class="bg-white sticky top-[72px] z-10 border-b border-slate-200 shadow-sm">
+        <div class="max-w-4xl mx-auto px-3 py-2.5 overflow-x-auto">
             <div id="filterTabs" class="flex space-x-2 whitespace-nowrap">
-                <!-- 탭은 JS로 동적 생성 -->
-                <button class="filter-tab active" data-filter="all">전체</button>
+                <!-- 탭은 JS로 동적 생성됩니다 -->
+                <button class="filter-tab skeleton h-8 w-20 rounded-full bg-slate-200 animate-pulse"></button>
+                <button class="filter-tab skeleton h-8 w-24 rounded-full bg-slate-200 animate-pulse"></button>
+                <button class="filter-tab skeleton h-8 w-16 rounded-full bg-slate-200 animate-pulse"></button>
             </div>
         </div>
     </nav>
 
-    <!-- 기사 컨테이너 -->
-    <!-- [수정] 카드 간격을 gap-3로 줄임 -->
-    <main class="container mx-auto max-w-4xl p-3 md:p-5">
-        <div id="articlesContainer" class="grid grid-cols-1 gap-3">
-            <!-- 로딩 스피너 -->
-            <div id="loadingSpinner" class="flex justify-center items-center py-20">
-                <svg class="animate-spin h-8 w-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                <span class="ml-3 text-gray-600">데이터를 불러오는 중...</span>
+    <!-- 메인 콘텐츠 -->
+    <main class="max-w-4xl mx-auto p-3 md:p-4">
+        <!-- [수정] 촘촘하게 gap-3 md:gap-4 로 변경 -->
+        <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            <!-- 로딩 스켈레톤 -->
+            <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
+                <div class="h-32 bg-slate-200 rounded"></div>
+                <div class="h-5 bg-slate-300 rounded w-full"></div>
+                <div class="h-4 bg-slate-200 rounded w-1/3"></div>
             </div>
-            <!-- 기사 카드는 JS로 동적 생성 -->
+            <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
+                <div class="h-32 bg-slate-200 rounded"></div>
+                <div class="h-5 bg-slate-300 rounded w-full"></div>
+                <div class="h-4 bg-slate-200 rounded w-1/3"></div>
+            </div>
         </div>
+        <div id="loadingMessage" class="text-center text-slate-500 py-10 hidden"></div>
     </main>
 
-    <!-- 모달 -->
-    <div id="modal" class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-[100] flex items-center justify-center p-4 hidden" role="dialog" aria-modal="true">
-        <div id="modalContent" class="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col transform transition-all opacity-0 -translate-y-10">
+    <!-- 모달 (요약창) -->
+    <div id="modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden" onclick="closeModal()">
+        <div id="modalContent" class="bg-white w-full max-w-2xl max-h-[90vh] rounded-xl shadow-2xl flex flex-col overflow-hidden" onclick="event.stopPropagation()">
+            
             <!-- 모달 헤더 -->
-            <header class="flex justify-between items-center p-4 border-b border-gray-200">
-                <h2 id="modalTitle" class="text-xl font-semibold text-gray-800 flex-1 pr-4">모달 제목</h2>
-                <button id="closeModal" class="text-gray-400 hover:text-gray-600 transition-colors" aria-label="Close modal">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            <header class="p-4 border-b border-slate-200 flex justify-between items-start">
+                <!-- [수정] 글자 크기 축소 -->
+                <h2 id="modalTitle" class="text-lg md:text-xl font-bold text-slate-900 pr-4"></h2>
+                <button class="text-slate-400 hover:text-slate-700 transition-colors" onclick="closeModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
                 </button>
             </header>
-            
-            <!-- 모달 본문 (스크롤) -->
-            <div class="p-5 overflow-y-auto">
-                <div class="mb-4">
-                    <span id="modalSource" class="text-xs font-medium px-2.5 py-0.5 rounded-full bg-indigo-100 text-indigo-800"></span>
-                    <span id="modalDate" class="ml-2 text-xs text-gray-500"></span>
+
+            <!-- 모달 본문 -->
+            <div class="p-4 md:p-5 overflow-y-auto">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <!-- 썸네일 (있을 경우) -->
+                    <img id="modalImage" src="" alt="기사 썸네일" class="w-full md:w-1/3 h-auto object-cover rounded-lg shadow hidden" onerror="this.style.display='none'">
+                    
+                    <!-- 요약 -->
+                    <div class="flex-1">
+                        <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">한글 요약</h3>
+                        <!-- [수정] 글자 크기 축소 -->
+                        <p id="modalSummary" class="text-sm/relaxed text-slate-700 mt-2 bg-slate-50 p-3 rounded-lg border border-slate-200"></p>
+                    </div>
                 </div>
-                <h3 class="text-lg font-semibold text-gray-700 mb-2">한글 요약</h3>
-                <p id="modalSummary" class="text-gray-600 leading-relaxed bg-gray-50 p-4 rounded-lg whitespace-pre-line"></p>
                 
-                <h3 class="text-lg font-semibold text-gray-700 mt-5 mb-2">원본 제목</h3>
-                <p id="modalTitleEn" class="text-gray-500 italic bg-gray-50 p-4 rounded-lg"></p>
+                <!-- 원본 정보 -->
+                <div class="mt-4 pt-4 border-t border-slate-200">
+                    <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">원본 정보</h3>
+                    <!-- [수정] 글자 크기 축소 -->
+                    <p id="modalTitleEn" class="text-xs text-slate-600 mt-2"></p>
+                    <div class="flex gap-2 text-xs mt-2">
+                        <span id="modalSource" class="font-medium text-indigo-600"></span>
+                        <span class="text-slate-400">&bull;</span>
+                        <span id="modalDate" class="text-slate-500"></span>
+                    </div>
+                </div>
             </div>
 
-            <!-- 모달 푸터 -->
-            <footer class="p-4 border-t border-gray-200 bg-gray-50 rounded-b-xl">
-                <a id="originalLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center block bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-5 rounded-lg transition-colors shadow-sm">
-                    🔗 원문 기사 보기
+            <!-- 모달 푸터 (버튼) -->
+            <footer class="p-4 bg-slate-50 border-t border-slate-200 flex justify-end">
+                <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg transition-colors shadow-sm text-sm">
+                    원문 보러가기 &rarr;
                 </a>
             </footer>
         </div>
     </div>
 
-
     <script>
-        let allArticles = [];
-        let currentFilter = 'all';
-        let favoriteArticles = []; // [신규] 즐겨찾기 목록
-
-        // 소스별 색상/이름 매핑
-        const sourceMeta = {
-            'Nature': { color: 'bg-green-100 text-green-800', name: 'Nature' },
-            'Nature (Paper)': { color: 'bg-green-100 text-green-800', name: 'Nature (논문)' },
-            'Science': { color: 'bg-blue-100 text-blue-800', name: 'Science' },
-            'Science (Paper)': { color: 'bg-blue-100 text-blue-800', name: 'Science (논문)' },
-            'Cell': { color: 'bg-red-100 text-red-800', name: 'Cell' },
-            'The Transmitter': { color: 'bg-purple-100 text-purple-800', name: 'The Transmitter' },
-            'Nature Neuroscience': { color: 'bg-teal-100 text-teal-800', name: 'Nature Neuro' },
-            'Nature Medicine': { color: 'bg-cyan-100 text-cyan-800', name: 'Nature Med' },
-            'Nature Drug Discovery': { color: 'bg-yellow-100 text-yellow-800', name: 'Nature Drug Disc' },
-            'Nature Biotechnology': { color: 'bg-orange-100 text-orange-800', name: 'Nature Biotech' },
-            'B_ZCF YouTube': { color: 'bg-red-100 text-red-800', name: 'YouTube' },
-            'default': { color: 'bg-gray-100 text-gray-800', name: 'Unknown' }
-        };
+        let allArticles = []; // 모든 기사 원본
+        let currentFilteredArticles = []; // 현재 필터링된 기사 목록
+        let currentFilter = 'all'; // 현재 선택된 필터
+        let favoriteArticles = new Set(); // 즐겨찾기 목록 (URL 저장)
         
-        // 필터 탭 스타일
-        const tabBaseStyle = "px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer";
-        const tabInactiveStyle = "bg-gray-100 text-gray-700 hover:bg-gray-200";
-        // [수정] 활성 탭 색상을 primary로 통일
-        const tabActiveStyle = "bg-primary text-white shadow-md";
+        // 필터 탭 정의
+        const filterTabsDefinition = [
+            { id: 'all', name: '전체' },
+            { id: 'favorite', name: '⭐ 즐겨찾기' },
+            { id: 'News', name: 'News' },
+            { id: 'Paper', name: 'Paper' },
+            { id: 'Video', name: 'Video' },
+            { id: 'Neuroscience', name: 'Neuroscience' },
+            { id: 'Nature', name: 'Nature' },
+            { id: 'Science', name: 'Science' },
+            { id: 'Cell', name: 'Cell' },
+            { id: 'The Transmitter', name: 'The Transmitter' },
+            { id: 'Nature Biotechnology', name: 'Nature Biotech' }
+        ];
 
-        // [신규] 즐겨찾기 localStorage 키 (매일 자동 리셋)
-        const getFavoritesKey = () => new Date().toISOString().split('T')[0] + '-favorites';
-
+        // --- 초기화 ---
         document.addEventListener('DOMContentLoaded', () => {
             loadFavorites();
+            renderFilterTabs();
             loadArticles();
-            setupModalListeners();
         });
 
-        // [신규] localStorage에서 즐겨찾기 로드
+        // --- 즐겨찾기 로드 ---
         function loadFavorites() {
-            favoriteArticles = JSON.parse(localStorage.getItem(getFavoritesKey())) || [];
+            const favs = localStorage.getItem('dailyReadingFavorites');
+            favoriteArticles = new Set(favs ? JSON.parse(favs) : []);
         }
 
+        // --- 필터 탭 렌더링 ---
+        function renderFilterTabs() {
+            const container = document.getElementById('filterTabs');
+            container.innerHTML = filterTabsDefinition.map(tab => `
+                <button 
+                    class="filter-tab whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-medium transition-colors duration-200
+                           ${tab.id === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}"
+                    data-filter="${tab.id}"
+                    onclick="filterArticles('${tab.id}')">
+                    ${tab.name}
+                </button>
+            `).join('');
+        }
+
+        // --- [수정] 팔로알토 시간 변환 함수 ---
+        function convertToPaloAltoTime(utcString) {
+            if (!utcString) return '알 수 없음';
+            try {
+                const date = new Date(utcString.replace(' ', 'T') + 'Z'); // UTC 시간으로 파싱
+                
+                // 'America/Los_Angeles' (팔로알토 시간)으로 포맷
+                const options = {
+                    timeZone: 'America/Los_Angeles',
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false // 24시간제
+                };
+                
+                const formatter = new Intl.DateTimeFormat('ko-KR', options);
+                const parts = formatter.formatToParts(date);
+                
+                // "YYYY. MM. DD. HH:MM" 형식을 "YYYY-MM-DD HH:MM (Palo Alto)"로 재조립
+                const partValues = parts.reduce((acc, part) => {
+                    acc[part.type] = part.value;
+                    return acc;
+                }, {});
+
+                return `${partValues.year}-${partValues.month}-${partValues.day} ${partValues.hour}:${partValues.minute} (Palo Alto)`;
+
+            } catch (e) {
+                console.error('시간 변환 오류:', e);
+                return utcString; // 변환 실패 시 원본 표시
+            }
+        }
+
+        // --- 데이터 로드 ---
         async function loadArticles() {
             try {
                 // 캐시 방지를 위해 타임스탬프 추가
@@ -170,262 +225,217 @@
                 }
                 const data = await response.json();
                 
-                // articles 키가 없는 경우 또는 배열이 아닌 경우 처리
-                if (!data.articles || !Array.isArray(data.articles)) {
-                    console.warn("'articles' 키가 없거나 배열이 아닙니다.", data);
-                    allArticles = [];
-                } else {
-                     allArticles = data.articles;
-                }
-
-                // [수정] Palo Alto 시간대 (America/Los_Angeles)로 변환
-                if (data.last_updated) {
-                    try {
-                        const utcDate = new Date(data.last_updated.replace(' ', 'T') + 'Z'); // UTC로 가정
-                        const paloAltoTime = new Intl.DateTimeFormat('ko-KR', {
-                            timeZone: 'America/Los_Angeles',
-                            dateStyle: 'short',
-                            timeStyle: 'short'
-                        }).format(utcDate);
-                        document.getElementById('lastUpdated').textContent = paloAltoTime;
-                    } catch(e) {
-                        console.error("날짜 변환 오류:", e);
-                        document.getElementById('lastUpdated').textContent = data.last_updated || 'N/A';
-                    }
-                } else {
-                    document.getElementById('lastUpdated').textContent = 'N/A';
-                }
-
+                allArticles = data.articles || [];
                 
-                // 날짜 기준 내림차순 정렬 (데이터가 있는 경우에만)
-                if(allArticles.length > 0) {
-                    allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
-                }
+                // [수정] 시간 변환 함수 호출
+                document.getElementById('lastUpdated').textContent = convertToPaloAltoTime(data.last_updated);
                 
-                document.getElementById('loadingSpinner').classList.add('hidden');
-                
-                generateFilterTabs();
+                // 로딩 스켈레톤 제거
+                document.querySelectorAll('.loading-skeleton').forEach(el => el.remove());
                 renderArticles();
 
             } catch (error) {
                 console.error('데이터 로드 오류:', error);
-                document.getElementById('articlesContainer').innerHTML = 
-                    `<div class="text-center p-10 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-semibold text-red-600">데이터 로드 실패</h3>
-                        <p class="text-gray-600 mt-2">articles.json 파일을 불러올 수 없습니다.</p>
-                        <p class="text-gray-500 text-sm mt-1">콘솔(F12)에서 오류를 확인하세요.</p>
-                    </div>`;
+                document.querySelectorAll('.loading-skeleton').forEach(el => el.remove());
+                const msgEl = document.getElementById('loadingMessage');
+                msgEl.textContent = '😢 기사를 불러오는 데 실패했습니다. articles.json 파일을 확인해주세요.';
+                msgEl.className = 'text-center text-red-500 font-medium py-10';
             }
         }
 
-        function generateFilterTabs() {
-            const tabsContainer = document.getElementById('filterTabs');
-            
-            // 카테고리와 소스로 탭 생성
-            const categories = [...new Set(allArticles.map(a => a.category))];
-            const sources = [...new Set(allArticles.map(a => a.source))];
-            
-            // [수정] '즐겨찾기' 탭 추가
-            tabsContainer.innerHTML = `
-                <button class="filter-tab ${tabBaseStyle} ${tabActiveStyle}" data-filter="all">전체</button>
-                <button class="filter-tab ${tabBaseStyle} ${tabInactiveStyle}" data-filter="favorites">⭐ 즐겨찾기</button>
-            `;
+        // --- 필터링 함수 ---
+        function filterArticles(filter) {
+            currentFilter = filter;
 
-            // 카테고리 탭 (News, Paper, Video...)
-            categories.forEach(filter => {
-                if (filter) { // null이나 undefined 방지
-                    tabsContainer.innerHTML += `<button class="filter-tab ${tabBaseStyle} ${tabInactiveStyle}" data-filter="${filter}">${filter}</button>`;
+            // 탭 스타일 업데이트
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                if (tab.dataset.filter === filter) {
+                    tab.classList.add('bg-indigo-600', 'text-white');
+                    tab.classList.remove('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
+                } else {
+                    tab.classList.remove('bg-indigo-600', 'text-white');
+                    tab.classList.add('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
                 }
             });
 
-            // 소스 탭 (Nature, Science...)
-            sources.forEach(filter => {
-                 if (filter) {
-                    const meta = sourceMeta[filter] || sourceMeta.default;
-                    tabsContainer.innerHTML += `<button class="filter-tab ${tabBaseStyle} ${tabInactiveStyle}" data-filter="${filter}">${meta.name}</button>`;
-                 }
-            });
-
-            // 탭 클릭 리스너 추가
-            document.querySelectorAll('.filter-tab').forEach(tab => {
-                tab.addEventListener('click', () => filterArticles(tab.dataset.filter));
-            });
+            renderArticles();
         }
 
+        // --- 기사 카드 렌더링 ---
         function renderArticles() {
             const container = document.getElementById('articlesContainer');
-            
-            // [수정] 즐겨찾기 필터 로직 추가
-            let filtered = [];
+            const msgEl = document.getElementById('loadingMessage');
+
+            // 1. 필터링
             if (currentFilter === 'all') {
-                filtered = allArticles;
-            } else if (currentFilter === 'favorites') {
-                filtered = allArticles.filter(a => favoriteArticles.includes(a.url));
+                currentFilteredArticles = allArticles;
+            } else if (currentFilter === 'favorite') { // 즐겨찾기 필터
+                currentFilteredArticles = allArticles.filter(a => favoriteArticles.has(a.url));
             } else {
-                filtered = allArticles.filter(a => a.category === currentFilter || a.source === currentFilter);
+                currentFilteredArticles = allArticles.filter(a => 
+                    a.category === currentFilter || a.source === currentFilter
+                );
             }
-            
-            if (filtered.length === 0) {
-                // 로딩이 끝났는데도 articles가 비어있는 경우
-                if (allArticles.length === 0 && document.getElementById('loadingSpinner').classList.contains('hidden')) {
-                     container.innerHTML = `<div class="text-center p-10 bg-white rounded-lg shadow">
-                                          <h3 class="text-xl font-semibold text-gray-700">새 기사를 수집 중입니다</h3>
-                                          <p class="text-gray-500 mt-2">잠시 후 새로고침 해주세요.</p>
-                                      </div>`;
+
+            // 2. 내용 없음 메시지
+            if (currentFilteredArticles.length === 0) {
+                container.innerHTML = '';
+                if (currentFilter === 'favorite') {
+                    msgEl.textContent = '⭐ 별 아이콘을 눌러 기사를 즐겨찾기에 추가하세요.';
                 } else {
-                     container.innerHTML = `<div class="text-center p-10 bg-white rounded-lg shadow">
-                                          <h3 class="text-xl font-semibold text-gray-700">표시할 항목이 없습니다</h3>
-                                          <p class="text-gray-500 mt-2">선택한 필터에 해당하는 기사가 없습니다.</p>
-                                      </div>`;
+                    msgEl.textContent = '표시할 항목이 없습니다.';
                 }
+                msgEl.className = 'text-center text-slate-500 py-10';
                 return;
             }
-            
-            container.innerHTML = filtered.map(article => {
-                const meta = sourceMeta[article.source] || sourceMeta.default;
-                
-                // article 객체를 JSON 문자열로 변환 (따옴표 문제 해결)
-                if (!article) return '';
-                
-                // [신규] 즐겨찾기 여부 확인
-                const isFavorited = favoriteArticles.includes(article.url);
-                const articleId = (article.url || Math.random()).hashCode();
 
+            msgEl.className = 'hidden';
+
+            // 3. HTML 생성
+            container.innerHTML = currentFilteredArticles.map((article, index) => {
+                
+                const imageUrl = article.image_url || null;
+                const imageHtml = imageUrl
+                    ? `<img src="${imageUrl}" alt="썸네일" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.style.display='none'">`
+                    : '<div class="absolute inset-0 bg-slate-100"></div>';
+
+                // 소스별 색상
+                let sourceColor = 'bg-slate-100 text-slate-600';
+                if (article.source?.includes('Nature')) sourceColor = 'bg-green-100 text-green-700';
+                if (article.source?.includes('Science')) sourceColor = 'bg-blue-100 text-blue-700';
+                if (article.source?.includes('Cell')) sourceColor = 'bg-orange-100 text-orange-700';
+                if (article.source?.includes('YouTube')) sourceColor = 'bg-red-100 text-red-700';
+                
+                const isFavorite = favoriteArticles.has(article.url);
+                
+                // [수정] 안정적인 클릭을 위해 index 사용
                 return `
-                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex" 
-                         role="button"
-                         aria-labelledby="title-${articleId}">
+                <article 
+                    class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+                    onclick='openModal(${index})' 
+                    role="button"
+                    tabindex="0"
+                    aria-label="${article.title || '기사 제목 없음'}">
                     
-                    <!-- [수정] 본문 클릭 시 모달 열기 -->
-                    <div class="flex-1 p-4 cursor-pointer" onclick='openModal(JSON.parse(decodeURIComponent("${encodeURIComponent(JSON.stringify(article))}")))'>
-                        <div class="flex justify-between items-center mb-2">
-                            <span class="text-xs font-medium px-2.5 py-0.5 rounded-full ${meta.color}">${meta.name}</span>
-                            <span class="text-xs text-gray-500">${article.date}</span>
-                        </div>
-                        <!-- [수정] 폰트 크기 text-md로 줄임 -->
-                        <h3 id="title-${articleId}" class="text-md font-semibold text-gray-800 hover:text-primary transition-colors">${article.title}</h3>
-                        <!-- [수정] 폰트 크기 text-xs로 줄임 -->
-                        <p class="text-xs text-gray-500 mt-1">${article.category}</p>
+                    <!-- 썸네일 (h-36, 촘촘하게) -->
+                    <div class="relative w-full h-36 overflow-hidden">
+                        ${imageHtml}
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        
+                        <!-- 즐겨찾기 버튼 -->
+                        <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)" 
+                                class="absolute top-2 left-2 p-1.5 rounded-full z-10 
+                                       ${isFavorite ? 'text-yellow-400 bg-black/50' : 'text-white/70 bg-black/40'} 
+                                       hover:text-yellow-300 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519-4.674z" />
+                            </svg>
+                        </button>
+                        
+                        <!-- 날짜 (촘촘하게) -->
+                        <span class="absolute top-2 right-2 bg-black/50 text-white text-[11px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm">
+                            ${article.date || '날짜 없음'}
+                        </span>
                     </div>
 
-                    <!-- [신규] 즐겨찾기 버튼 -->
-                    <button 
-                        onclick="toggleFavorite(event, '${article.url}')" 
-                        class="p-4 flex items-center justify-center ${isFavorited ? 'text-yellow-400' : 'text-gray-300'} hover:text-yellow-400 transition-colors"
-                        aria-label="즐겨찾기 ${isFavorited ? '해제' : '추가'}">
-                        <svg class="w-6 h-6" fill="${isFavorited ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118L2.04 10.099c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
-                        </svg>
-                    </button>
+                    <!-- 텍스트 영역 (p-3 md:p-4, 촘촘하게) -->
+                    <div class="p-3 md:p-4 flex flex-col flex-1">
+                        <!-- 제목 (text-base) -->
+                        <h3 class="font-bold text-base text-slate-900 group-hover:text-indigo-600 transition-colors">
+                            ${article.title || '제목 없음'}
+                        </h3>
+                        
+                        <!-- 메타 정보 (pt-3, 촘촘하게) -->
+                        <div class="mt-auto pt-3 flex gap-2 items-center">
+                            <!-- 뱃지 (px-2 py-0.5, 촘촘하게) -->
+                            <span class="text-xs font-bold px-2 py-0.5 rounded-full ${sourceColor}">
+                                ${article.source || '출처 없음'}
+                            </span>
+                            <span class="text-xs font-medium text-slate-500">
+                                ${article.category || ''}
+                            </span>
+                        </div>
+                    </div>
                 </article>
                 `;
             }).join('');
         }
-        
-        // String.hashCode() - 간단한 해시 함수 (고유 ID용)
-        String.prototype.hashCode = function() {
-            var hash = 0, i, chr;
-            if (this.length === 0) return hash;
-            for (i = 0; i < this.length; i++) {
-                chr   = this.charCodeAt(i);
-                hash  = ((hash << 5) - hash) + chr;
-                hash |= 0; // Convert to 32bit integer
-            }
-            return Math.abs(hash);
-        };
 
-        function filterArticles(filter) {
-            currentFilter = filter;
-            
-            document.querySelectorAll('.filter-tab').forEach(tab => {
-                if (tab.dataset.filter === filter) {
-                    tab.className = `filter-tab ${tabBaseStyle} ${tabActiveStyle}`;
-                } else {
-                    tab.className = `filter-tab ${tabBaseStyle} ${tabInactiveStyle}`;
-                }
-            });
-            
-            renderArticles();
-        }
+        // --- 즐겨찾기 토글 함수 ---
+        function toggleFavorite(url, buttonEl) {
+            // [수정] url이 유효한지 확인
+            if (!url) return; 
 
-        // [신규] 즐겨찾기 토글 함수
-        function toggleFavorite(event, articleUrl) {
-            event.stopPropagation(); // 모달이 열리는 것을 방지
-            
-            const key = getFavoritesKey();
-            let currentFavorites = JSON.parse(localStorage.getItem(key)) || [];
-            
-            const index = currentFavorites.indexOf(articleUrl);
-            
-            if (index > -1) {
-                // 이미 있으면 제거
-                currentFavorites.splice(index, 1);
+            const svg = buttonEl.querySelector('svg');
+            if (favoriteArticles.has(url)) {
+                favoriteArticles.delete(url);
+                svg.setAttribute('fill', 'none');
+                buttonEl.classList.add('text-white/70');
+                buttonEl.classList.remove('text-yellow-400', 'bg-black/50');
             } else {
-                // 없으면 추가
-                currentFavorites.push(articleUrl);
+                favoriteArticles.add(url);
+                svg.setAttribute('fill', 'currentColor');
+                buttonEl.classList.remove('text-white/70');
+                buttonEl.classList.add('text-yellow-400', 'bg-black/50');
             }
+            // localStorage에 저장
+            localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
             
-            localStorage.setItem(key, JSON.stringify(currentFavorites));
-            favoriteArticles = currentFavorites; // 전역 변수 업데이트
-            
-            // 화면 즉시 새로고침
-            renderArticles();
+            // 만약 현재 '즐겨찾기' 탭을 보고 있다면, 목록을 바로 갱신
+            if (currentFilter === 'favorite') {
+                renderArticles();
+            }
         }
 
+        // --- 모달 열기 (안정성 강화) ---
+        function openModal(index) {
+            const article = currentFilteredArticles[index];
+            if (!article) return; // 데이터 없으면 중단
 
-        // --- 모달 로직 ---
-        const modal = document.getElementById('modal');
-        const modalContent = document.getElementById('modalContent');
-        const closeModalBtn = document.getElementById('closeModal');
+            // [수정] null 또는 undefined일 경우 기본값 설정
+            const title = article.title || "제목 없음";
+            const titleEn = article.title_en || "원본 제목 없음";
+            const summary = article.summary_kr || "[요약 정보 없음]";
+            const source = article.source || "출처 없음";
+            const date = article.date || "날짜 없음";
+            const url = article.url || "#";
+            const imageUrl = article.image_url || null;
 
-        function openModal(article) {
-            if (!article) return; // 비정상적인 데이터 방지
-
-            document.getElementById('modalTitle').textContent = article.title || '제목 없음';
-            document.getElementById('modalSummary').textContent = article.summary_kr || '요약 없음';
-            document.getElementById('modalTitleEn').textContent = article.title_en || 'Original title not available';
-            document.getElementById('originalLink').href = article.url || '#';
-            document.getElementById('modalDate').textContent = article.date || '날짜 없음';
-
-            const meta = sourceMeta[article.source] || sourceMeta.default;
-            const sourceEl = document.getElementById('modalSource');
-            sourceEl.textContent = meta.name;
-            sourceEl.className = `text-xs font-medium px-2.5 py-0.5 rounded-full ${meta.color}`;
-
-            modal.classList.remove('hidden');
-            document.body.classList.add('overflow-hidden'); // 배경 스크롤 방지
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('modalTitleEn').textContent = titleEn;
             
-            // 애니메이션 효과
-            setTimeout(() => {
-                modalContent.classList.remove('opacity-0', '-translate-y-10');
-            }, 10); // 브라우저가 'hidden' 제거를 인지할 시간을 줌
+            const summaryEl = document.getElementById('modalSummary');
+            summaryEl.textContent = summary;
+            
+            // [수정] 클래스 제어 방식 변경 (안정성)
+            if (summary.includes('[요약')) {
+                summaryEl.classList.add('summary-failed');
+            } else {
+                summaryEl.classList.remove('summary-failed');
+            }
+
+            document.getElementById('modalSource').textContent = source;
+            document.getElementById('modalDate').textContent = date;
+            document.getElementById('modalLink').href = url;
+
+            const imgEl = document.getElementById('modalImage');
+            if (imageUrl) {
+                imgEl.src = imageUrl;
+                imgEl.style.display = 'block';
+            } else {
+                imgEl.style.display = 'none';
+            }
+
+            document.getElementById('modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // 뒷배경 스크롤 방지
         }
 
+        // --- 모달 닫기 ---
         function closeModal() {
-            modalContent.classList.add('opacity-0', '-translate-y-10');
-            setTimeout(() => {
-                modal.classList.add('hidden');
-                document.body.classList.remove('overflow-hidden');
-            }, 200); // 200ms는 transition 시간과 일치
-        }
-
-        function setupModalListeners() {
-            closeModalBtn.addEventListener('click', closeModal);
-
-            // 모달 바깥쪽 클릭 시 닫기
-            modal.addEventListener('click', (e) => {
-                if (e.target === modal) {
-                    closeModal();
-                }
-            });
-
-            // ESC 키로 닫기
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-                    closeModal();
-                }
-            });
+            document.getElementById('modal').classList.add('hidden');
+            document.body.style.overflow = 'auto'; // 스크롤 복구
         }
     </script>
 </body>
 </html>
+
