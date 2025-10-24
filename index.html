@@ -31,7 +31,7 @@
             background-color: transparent;
         }
 
-        /* [중요] 요약 실패 시 텍스트 스타일 */
+        /* 요약 실패 시 텍스트 스타일 */
         .summary-failed {
             color: #ef4444; /* Tailwind 'red-500' */
             font-style: italic;
@@ -65,18 +65,17 @@
 
     <!-- 메인 콘텐츠 -->
     <main class="max-w-4xl mx-auto p-3 md:p-4">
-        <!-- [수정] 촘촘하게 gap-3 md:gap-4 로 변경 -->
         <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-            <!-- 로딩 스켈레톤 -->
+            <!-- 로딩 스켈레톤 (이제 썸네일 없는 버전도 추가) -->
             <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
                 <div class="h-32 bg-slate-200 rounded"></div>
                 <div class="h-5 bg-slate-300 rounded w-full"></div>
                 <div class="h-4 bg-slate-200 rounded w-1/3"></div>
             </div>
             <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
-                <div class="h-32 bg-slate-200 rounded"></div>
                 <div class="h-5 bg-slate-300 rounded w-full"></div>
                 <div class="h-4 bg-slate-200 rounded w-1/3"></div>
+                <div class="h-4 bg-slate-200 rounded w-1/2 mt-4"></div>
             </div>
         </div>
         <div id="loadingMessage" class="text-center text-slate-500 py-10 hidden"></div>
@@ -88,7 +87,6 @@
             
             <!-- 모달 헤더 -->
             <header class="p-4 border-b border-slate-200 flex justify-between items-start">
-                <!-- [수정] 글자 크기 축소 -->
                 <h2 id="modalTitle" class="text-lg md:text-xl font-bold text-slate-900 pr-4"></h2>
                 <button class="text-slate-400 hover:text-slate-700 transition-colors" onclick="closeModal()">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -106,7 +104,6 @@
                     <!-- 요약 -->
                     <div class="flex-1">
                         <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">한글 요약</h3>
-                        <!-- [수정] 글자 크기 축소 -->
                         <p id="modalSummary" class="text-sm/relaxed text-slate-700 mt-2 bg-slate-50 p-3 rounded-lg border border-slate-200"></p>
                     </div>
                 </div>
@@ -114,7 +111,6 @@
                 <!-- 원본 정보 -->
                 <div class="mt-4 pt-4 border-t border-slate-200">
                     <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">원본 정보</h3>
-                    <!-- [수정] 글자 크기 축소 -->
                     <p id="modalTitleEn" class="text-xs text-slate-600 mt-2"></p>
                     <div class="flex gap-2 text-xs mt-2">
                         <span id="modalSource" class="font-medium text-indigo-600"></span>
@@ -181,7 +177,7 @@
             `).join('');
         }
 
-        // --- [수정] 팔로알토 시간 변환 함수 ---
+        // --- 팔로알토 시간 변환 함수 ---
         function convertToPaloAltoTime(utcString) {
             if (!utcString) return '알 수 없음';
             try {
@@ -227,7 +223,6 @@
                 
                 allArticles = data.articles || [];
                 
-                // [수정] 시간 변환 함수 호출
                 document.getElementById('lastUpdated').textContent = convertToPaloAltoTime(data.last_updated);
                 
                 // 로딩 스켈레톤 제거
@@ -261,7 +256,7 @@
             renderArticles();
         }
 
-        // --- 기사 카드 렌더링 ---
+        // --- 기사 카드 렌더링 (핵심 수정) ---
         function renderArticles() {
             const container = document.getElementById('articlesContainer');
             const msgEl = document.getElementById('loadingMessage');
@@ -295,9 +290,31 @@
             container.innerHTML = currentFilteredArticles.map((article, index) => {
                 
                 const imageUrl = article.image_url || null;
-                const imageHtml = imageUrl
-                    ? `<img src="${imageUrl}" alt="썸네일" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.style.display='none'">`
-                    : '<div class="absolute inset-0 bg-slate-100"></div>';
+                const isFavorite = favoriteArticles.has(article.url);
+
+                // --- [수정] 썸네일 HTML을 조건부로 생성 ---
+                const imageContainerHtml = imageUrl
+                    ? `<!-- Thumbnail (h-36) -->
+                       <div class="relative w-full h-36 overflow-hidden">
+                           <img src="${imageUrl}" alt="썸네일" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.style.display='none'">
+                           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                           
+                           <!-- 즐겨찾기 버튼 (이미지 위에) -->
+                           <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)" 
+                                   class="absolute top-2 left-2 p-1.5 rounded-full z-10 
+                                          ${isFavorite ? 'text-yellow-400 bg-black/50' : 'text-white/70 bg-black/40'} 
+                                          hover:text-yellow-300 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519 4.674z" />
+                                </svg>
+                           </button>
+                           
+                           <!-- 날짜 (이미지 위에) -->
+                           <span class="absolute top-2 right-2 bg-black/50 text-white text-[11px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm">
+                               ${article.date || '날짜 없음'}
+                           </span>
+                       </div>`
+                    : ''; // 이미지가 없으면 빈 문자열
 
                 // 소스별 색상
                 let sourceColor = 'bg-slate-100 text-slate-600';
@@ -306,9 +323,6 @@
                 if (article.source?.includes('Cell')) sourceColor = 'bg-orange-100 text-orange-700';
                 if (article.source?.includes('YouTube')) sourceColor = 'bg-red-100 text-red-700';
                 
-                const isFavorite = favoriteArticles.has(article.url);
-                
-                // [수정] 안정적인 클릭을 위해 index 사용
                 return `
                 <article 
                     class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
@@ -317,37 +331,39 @@
                     tabindex="0"
                     aria-label="${article.title || '기사 제목 없음'}">
                     
-                    <!-- 썸네일 (h-36, 촘촘하게) -->
-                    <div class="relative w-full h-36 overflow-hidden">
-                        ${imageHtml}
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                        
-                        <!-- 즐겨찾기 버튼 -->
-                        <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)" 
-                                class="absolute top-2 left-2 p-1.5 rounded-full z-10 
-                                       ${isFavorite ? 'text-yellow-400 bg-black/50' : 'text-white/70 bg-black/40'} 
-                                       hover:text-yellow-300 transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519-4.674z" />
-                            </svg>
-                        </button>
-                        
-                        <!-- 날짜 (촘촘하게) -->
-                        <span class="absolute top-2 right-2 bg-black/50 text-white text-[11px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm">
-                            ${article.date || '날짜 없음'}
-                        </span>
-                    </div>
+                    ${imageContainerHtml} <!-- [수정] 조건부 썸네일 HTML 삽입 -->
 
-                    <!-- 텍스트 영역 (p-3 md:p-4, 촘촘하게) -->
+                    <!-- 텍스트 영역 (p-3 md:p-4) -->
                     <div class="p-3 md:p-4 flex flex-col flex-1">
+                        
+                        <!-- [수정] 썸네일이 없을 때만 날짜/즐겨찾기 버튼을 여기에 표시 -->
+                        ${!imageUrl ? `
+                        <div class="flex justify-between items-center mb-2">
+                            <!-- 날짜 (텍스트 카드용) -->
+                            <span class="text-slate-500 text-[11px] font-semibold">
+                                ${article.date || '날짜 없음'}
+                            </span>
+                            
+                            <!-- 즐겨찾기 버튼 (텍스트 카드용) -->
+                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)" 
+                                    class="p-1 rounded-full z-10 
+                                           ${isFavorite ? 'text-yellow-400' : 'text-slate-400'} 
+                                           hover:text-yellow-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519 4.674z" />
+                                </svg>
+                            </button>
+                        </div>
+                        ` : ''}
+
                         <!-- 제목 (text-base) -->
                         <h3 class="font-bold text-base text-slate-900 group-hover:text-indigo-600 transition-colors">
                             ${article.title || '제목 없음'}
                         </h3>
                         
-                        <!-- 메타 정보 (pt-3, 촘촘하게) -->
+                        <!-- 메타 정보 (pt-3) -->
                         <div class="mt-auto pt-3 flex gap-2 items-center">
-                            <!-- 뱃지 (px-2 py-0.5, 촘촘하게) -->
+                            <!-- 뱃지 (px-2 py-0.5) -->
                             <span class="text-xs font-bold px-2 py-0.5 rounded-full ${sourceColor}">
                                 ${article.source || '출처 없음'}
                             </span>
@@ -363,36 +379,44 @@
 
         // --- 즐겨찾기 토글 함수 ---
         function toggleFavorite(url, buttonEl) {
-            // [수정] url이 유효한지 확인
             if (!url) return; 
 
             const svg = buttonEl.querySelector('svg');
+            
+            // [수정] 텍스트 카드 즐겨찾기 버튼 스타일 동기화
+            const allFavoriteButtons = document.querySelectorAll(`button[onclick*="'${url}'"]`);
+
             if (favoriteArticles.has(url)) {
                 favoriteArticles.delete(url);
-                svg.setAttribute('fill', 'none');
-                buttonEl.classList.add('text-white/70');
-                buttonEl.classList.remove('text-yellow-400', 'bg-black/50');
+                allFavoriteButtons.forEach(btn => {
+                    btn.querySelector('svg')?.setAttribute('fill', 'none');
+                    btn.classList.add('text-white/70', 'text-slate-400'); // 이미지용, 텍스트용
+                    btn.classList.remove('text-yellow-400', 'bg-black/50');
+                });
             } else {
                 favoriteArticles.add(url);
-                svg.setAttribute('fill', 'currentColor');
-                buttonEl.classList.remove('text-white/70');
-                buttonEl.classList.add('text-yellow-400', 'bg-black/50');
+                allFavoriteButtons.forEach(btn => {
+                    btn.querySelector('svg')?.setAttribute('fill', 'currentColor');
+                    btn.classList.remove('text-white/70', 'text-slate-400');
+                    btn.classList.add('text-yellow-400');
+                    if (btn.classList.contains('absolute')) { // 이미지용 버튼
+                        btn.classList.add('bg-black/50');
+                    }
+                });
             }
-            // localStorage에 저장
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
             
-            // 만약 현재 '즐겨찾기' 탭을 보고 있다면, 목록을 바로 갱신
             if (currentFilter === 'favorite') {
                 renderArticles();
             }
         }
 
+
         // --- 모달 열기 (안정성 강화) ---
         function openModal(index) {
             const article = currentFilteredArticles[index];
-            if (!article) return; // 데이터 없으면 중단
+            if (!article) return; 
 
-            // [수정] null 또는 undefined일 경우 기본값 설정
             const title = article.title || "제목 없음";
             const titleEn = article.title_en || "원본 제목 없음";
             const summary = article.summary_kr || "[요약 정보 없음]";
@@ -407,7 +431,6 @@
             const summaryEl = document.getElementById('modalSummary');
             summaryEl.textContent = summary;
             
-            // [수정] 클래스 제어 방식 변경 (안정성)
             if (summary.includes('[요약')) {
                 summaryEl.classList.add('summary-failed');
             } else {
@@ -419,21 +442,26 @@
             document.getElementById('modalLink').href = url;
 
             const imgEl = document.getElementById('modalImage');
+            // [수정] 모달에서도 썸네일 없으면 숨기기
             if (imageUrl) {
                 imgEl.src = imageUrl;
-                imgEl.style.display = 'block';
+                imgEl.style.display = 'block'; // 보이게
+                imgEl.parentElement.parentElement.classList.remove('md:flex-row'); // 버그 방지
+                imgEl.parentElement.parentElement.classList.add('md:flex-row'); // 기본값
             } else {
-                imgEl.style.display = 'none';
+                imgEl.style.display = 'none'; // 숨기기
+                // 이미지가 없을 때 요약본이 전체 너비를 사용하도록
+                imgEl.parentElement.parentElement.classList.remove('md:flex-row');
             }
 
             document.getElementById('modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // 뒷배경 스크롤 방지
+            document.body.style.overflow = 'hidden'; 
         }
 
         // --- 모달 닫기 ---
         function closeModal() {
             document.getElementById('modal').classList.add('hidden');
-            document.body.style.overflow = 'auto'; // 스크롤 복구
+            document.body.style.overflow = 'auto'; 
         }
     </script>
 </body>
