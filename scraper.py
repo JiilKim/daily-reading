@@ -298,6 +298,18 @@ def main():
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
+    
+    all_articles_to_check.extend(scrape_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.the-scientist.com/rss', 'The Scientist', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://arstechnica.com/science/feed/', 'Ars Technica', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://neurosciencenews.com/feed/', 'Neuroscience News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml', 'FDA', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://endpts.com/feed/', 'Endpoints News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://jamanetwork.com/rss/site_3/mostRead.xml', 'JAMA', 'Paper'))
       
     seen_urls = set()
     final_article_list = [] 
