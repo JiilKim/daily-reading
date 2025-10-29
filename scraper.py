@@ -217,9 +217,9 @@ def main():
 
     # --- [수정] RSS 피드 목록 (오류 수정 및 전체 포함) ---
     # 기존 목록
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'))
@@ -232,18 +232,14 @@ def main():
     # 새로 추가/수정된 목록
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
     # [수정] The Scientist: 공식 웹사이트의 RSS 링크 사용
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.the-scientist.com/feeds/rss2/articles.xml', 'The Scientist', 'News'))
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://arstechnica.com/science/feed/', 'Ars Technica', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News'))
     # [수정] Neuroscience News: 잘 작동하는 주소 유지
     all_articles_to_check.extend(scrape_robust_rss_feed('https://neurosciencenews.com/feed/', 'Neuroscience News', 'News'))
-    # [수정] FDA: Drugs Press Releases 공식 피드 주소
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.fda.gov/media/news-events/rss.xml?topic=/drugs', 'FDA', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://endpts.com/feed/', 'Endpoints News', 'News'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper'))
-    # [수정] JAMA: 공식 웹사이트의 'JAMA Network Latest Content' 피드
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://jamanetwork.com/rss/mostRecent.xml', 'JAMA', 'Paper'))
 
 
     seen_urls = set()
