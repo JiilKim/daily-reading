@@ -217,10 +217,8 @@ def main():
 
     # --- [수정] RSS 피드 목록 (오류 수정 및 전체 포함) ---
     # 기존 목록
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))    
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))    
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper'))
@@ -228,6 +226,8 @@ def main():
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper'))
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
+    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
 
     # 새로 추가/수정된 목록
     all_articles_to_check.extend(scrape_robust_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
