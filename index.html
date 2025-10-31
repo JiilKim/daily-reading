@@ -363,28 +363,10 @@
 
                 allArticles = data.articles || [];
 
-                // --- [!!!여기 수정!!!] Sort articles: Prioritize 'The Transmitter', then by date ---
-                allArticles.sort((a, b) => {
-                    // Check if articles exist and have a source property
-                    const sourceA = a ? a.source : '';
-                    const sourceB = b ? b.source : '';
-                    const dateA = a ? new Date(a.date) : new Date(0); // Default to epoch if date missing
-                    const dateB = b ? new Date(b.date) : new Date(0);
-
-                    const aIsTransmitter = sourceA === 'The Transmitter';
-                    const bIsTransmitter = sourceB === 'The Transmitter';
-
-                    if (aIsTransmitter && !bIsTransmitter) {
-                        return -1; // 'a' (Transmitter) comes before 'b'
-                    } else if (!aIsTransmitter && bIsTransmitter) {
-                        return 1;  // 'b' (Transmitter) comes before 'a'
-                    } else {
-                        // If both are/aren't Transmitter, sort by date (newest first)
-                        // Handle potential invalid dates by comparing timestamps
-                        return dateB.getTime() - dateA.getTime();
-                    }
-                });
-                // --- [END NEW SORT] ---
+                // --- [!!!여기 수정!!!] ---
+                // "The Transmitter" 우선 정렬 코드 블록이 여기서 제거되었습니다.
+                // 기사는 이제 articles.json에 저장된 순서(기본적으로 날짜 역순)대로 표시됩니다.
+                // --- [수정 완료] ---
 
                 document.getElementById('lastUpdated').textContent = convertToPaloAltoTime(data.last_updated);
 
