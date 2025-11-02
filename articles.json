@@ -1,6 +1,61 @@
 {
-  "last_updated": "2025-11-01 10:27:09",
+  "last_updated": "2025-11-02 10:21:06",
   "articles": [
+    {
+      "title_en": "Extracellular Vesicles: How the Body’s Text Message System Affects Health and Disease",
+      "url": "https://www.the-scientist.com/extracellular-vesicles-how-the-body-s-text-message-system-affects-health-and-disease-73688",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "세포외 소포(EVs): 신체 내 통신 시스템으로서 건강과 질병에 미치는 영향 분석",
+      "summary_kr": "세포외 소포(Extracellular Vesicles, EVs)는 세포가 생성하는 생체 활성 물질을 담은 미세한 운반체로, 신체 내 세포 간 통신에 핵심적인 역할을 수행한다. 이 작은 소포들은 DNA, RNA, 단백질 등 다양한 생물학적 정보를 전달하며, 이를 통해 신체의 건강 유지 및 질병 발생 과정에 광범위하게 관여한다. 연구자들은 EVs를 신체의 '문자 메시지 시스템'으로 간주하며 그 역할을 심층적으로 분석하고 있다. 특히 EVs가 종양 미세 환경에서 작용하는 방식을 분석하여 암세포의 전이 메커니즘을 이해하는 데 중요한 진전을 이루고 있다. 또한, 세포외 소포의 특성을 이용해 심혈관 질환과 같은 주요 질환에 대한 진단 바이오마커를 발굴하고 새로운 치료법을 개발하기 위한 노력이 활발히 이어지고 있다. 궁극적으로 EVs 연구는 정밀 의학 및 재생 의학 분야에 혁명적인 발전을 가져올 잠재력을 지닌 것으로 평가된다.",
+      "summary_en": "Tiny packages of bioactive cargo produced by cells are helping researchers understand tumor metastasis and create therapies for cardiovascular disease.​"
+    },
+    {
+      "title_en": "Building the Future of Alzheimer’s Disease Diagnosis and Care",
+      "url": "https://www.the-scientist.com/building-the-future-of-alzheimer-s-disease-diagnosis-and-care-73671",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "알츠하이머병 진단 및 치료의 미래를 위한 설계",
+      "summary_kr": "Danaher Diagnostics의 Nicole Selenko-Gebauer는 알츠하이머병 진단 및 환자 관리의 발전을 위한 전략과 혁신을 소개했다. 이 발표는 특히 혈액 기반 바이오마커(Blood-based biomarkers) 기술이 진단 정확도를 획기적으로 향상시키는 방안에 초점을 맞추었다. Selenko-Gebauer는 이러한 최신 진단 기술이 연구 개발 단계를 넘어 상용화에 성공하기 위해서는 전략적 파트너십이 필수적임을 강조했다. 혈액 기반 바이오마커는 기존의 침습적이거나 복잡했던 진단 과정을 간소화하여 조기 진단 접근성을 높인다. 궁극적으로 이러한 진단 도구의 혁신은 알츠하이머병 환자의 치료 결과를 개선하고 미래의 효과적인 의료 시스템을 구축하는 데 중요한 기여를 할 것으로 기대된다.",
+      "summary_en": "Nicole Selenko-Gebauer from Danaher Diagnostics discusses how strategic partnerships and innovations in blood-based biomarkers improve diagnostics and patient outcomes."
+    },
+    {
+      "title_en": "Goiter, Bounding Pulses, and Thyroid Bruit in Thyroid Storm",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2509136?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "갑상선 폭풍: 갑상선종, 도약맥, 그리고 갑상선 잡음",
+      "summary_kr": "본 연구는 갑상선 기능 항진증의 치명적인 합병증인 갑상선 폭풍(Thyroid Storm) 발생 시 핵심적인 임상 징후들을 조명한다. 미국 최고의 의학 학술지인 뉴잉글랜드 저널 오브 메디신(NEJM)에 곧 발표될 예정인(Ahead of Print) 이 보고서는 관련 증상들의 중요성을 강조한다. 주요 증상으로는 갑상선이 커지는 갑상선종(Goiter)과 심박출량 증가로 인해 맥박이 매우 강하게 느껴지는 도약맥(Bounding Pulses)이 포함된다. 특히 갑상선 폭풍 환자에게서 청진 시 들리는 혈류 잡음인 갑상선 잡음(Thyroid Bruit)의 존재는 중요한 진단적 단서가 될 수 있다. 이러한 신체 검진 소견들은 갑상선 폭풍의 신속한 진단과 조기 치료 개입을 위해 필수적이며, 환자의 예후에 결정적인 영향을 미친다. 해당 연구는 중증 내분비 위기 상황에서 신속한 진단 및 처치를 위한 신체 검진의 가치를 재조명했다는 점에서 의의가 있다.",
+      "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
+    {
+      "title_en": "The Antitrust Antidote to Hospital and Nursing Home Corporatization — Promises and Pitfalls",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2505020?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "병원 및 요양원 기업화에 맞선 반독점 대책: 기대 효과와 위험 요소",
+      "summary_kr": "의학 전문지 뉴잉글랜드 저널 오브 메디신(NEJM)에 실릴 예정인 논문은 병원 및 요양원 부문의 증가하는 기업화에 대응하기 위한 독점 금지법의 적용 가능성을 심층적으로 분석했다. 의료 시설의 지속적인 합병과 통합은 경쟁을 위축시키고 환자 치료 품질을 저하시키며 의료비 상승을 초래할 수 있다는 우려가 제기되고 있다. 연구진은 반독점 규정을 엄격하게 적용하는 것이 독점적 관행을 막고 의료 시장 내 균형을 회복할 수 있는 중요한 대책이 될 수 있다고 제언한다. 그러나 논문은 복잡한 의료 환경에 기존의 반독점 법적 틀을 적용하는 과정에서 발생할 수 있는 상당한 실질적, 법적 난관들을 함께 지적한다. 여기에는 관련 시장을 정의하는 문제와 비영리 기관에서 소비자 피해를 입증하는 어려움 등 주요 과제들이 포함된다. 궁극적으로, 반독점법이 기업화에 대한 효과적인 '해독제' 역할을 수행하기 위해서는 신중한 정책 조정과 목표에 맞춘 입법 조치가 필수적이라고 저자들은 강조했다.",
+      "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
+    {
+      "title_en": "Medicaid Cuts and U.S. Children’s Health — Fixing a Broken System",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2509878?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "메디케이드 삭감과 미국 아동 건강 문제 — 고장 난 시스템의 개선 방안",
+      "summary_kr": "이 논평은 세계 최고 권위의 학술지인 뉴잉글랜드 의학 저널(NEJM)에 게재될 예정인 최신 분석 보고서이다. 해당 보고서는 미국 아동의 건강 결과에 미치는 메디케이드(Medicaid) 예산 삭감의 심각한 부정적 영향을 면밀히 검토한다. 저자들은 급격한 정책 변화와 예산 축소가 특히 취약 계층 아동들의 필수 의료 접근성을 심각하게 저해하고 있음을 지적한다. 나아가 현행 메디케이드 제도가 구조적 결함으로 인해 아동 건강을 안정적으로 지원하는 본래의 기능을 수행하지 못하고 있다는 비판을 제기한다. 따라서 논평은 정책 결정자들이 아동의 건강권을 최우선에 두도록 시스템을 재정비할 것을 강력히 촉구한다. 이는 건강 불평등을 해소하고 모든 아동에게 지속 가능한 의료 혜택을 제공하기 위한 근본적인 해결책을 모색해야 함을 의미한다.",
+      "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
     {
       "title_en": "A flood of Chinese graduate students in STEM was a boon to U.S. students",
       "url": "https://www.science.org/content/article/flood-chinese-graduate-students-stem-was-boon-u-s-students",
@@ -363,6 +418,94 @@
       "title": "노보, 메세라 인수 시동; 금주의 주요 빅딜 및 제약사 실적 발표 총정리",
       "summary_kr": "이번 엔드포인트 위클리는 11월을 맞아 글로벌 제약 산업의 주요 동향을 심층 분석했다. 주간은 엘리 릴리, 머크, 노바티스, 브리스톨 마이어스 스퀴브를 포함한 다수 대형 제약사들의 분기별 실적 발표로 본격적인 시즌을 알렸다. 이들 기업의 실적 결과는 현재 제약 시장의 재정 건전성 및 주요 파이프라인의 성과를 가늠하는 핵심 지표로 작용했다. 한편, 금주 후반부에는 노보(Novo)와 관련된 주요 거래 소식이 업계를 이끌었다. 목요일에 노보가 바이오텍 기업 메세라(Metsera) 인수를 위한 공식적인 움직임을 보이면서 인수합병 시장에 큰 파장을 예고했다. 이 외에도 다양한 빅딜 소식과 더불어 실적 시즌을 관통하는 심층적인 분석이 함께 다루어졌다.",
       "summary_en": "Welcome back to Endpoints Weekly, and welcome to November. This week kicked off with quarterly earnings results from a handful of companies, including Eli Lilly, Merck, Novartis and Bristol Myers Squibb. Then on Thursday, Novo ..."
+    },
+    {
+      "title_en": "STAT+: Medicare finalizes rule to lower payments for surgeries",
+      "url": "https://www.statnews.com/2025/11/01/medicare-payments-reduced-surgeries-outpatient-procedures/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/06/AdobeStock_533699257_Editorial_Use_Only-645x645.jpeg",
+      "title": "메디케어, 수술 수가 인하 최종 규칙 확정",
+      "summary_kr": "미국 메디케어(Medicare)는 최근 수술 관련 지급액을 인하하는 최종 규칙을 확정 발표했다. 이번 조치는 오랫동안 의료 시술 가격 책정 방식을 통제해 온 강력한 의사 로비 단체에 상당한 타격을 줄 것으로 분석된다. 그동안 이들 로비는 메디케어의 수가 결정 과정에 막대한 영향력을 행사하며 의료 서비스의 수익 구조를 유지해 왔다. 그러나 정부는 재정 안정화 및 의료비 지출 효율화를 목표로 이번 수가 인하를 단행했다. 이는 의료계 전반의 수익 구조 변화를 예고하며 공급자들의 반발을 사고 있다. 메디케어는 그럼에도 불구하고 효율적인 의료 자원 배분을 위해 확정된 규칙을 예정대로 시행할 방침이다.",
+      "summary_en": "This move is a blow to the powerful physician lobby that has long controlled how procedures are priced."
+    },
+    {
+      "title_en": "STAT+: States reject Dr. Oz’s claims of Medicaid spending on undocumented immigrants",
+      "url": "https://www.statnews.com/2025/11/01/dr-oz-cms-medicaid-undocumented-immigrants-states/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/GettyImages-2222937186-645x645.jpg",
+      "title": "주 정부들, 닥터 오즈의 ‘미등록 이민자 메디케이드 지출’ 주장 일축",
+      "summary_kr": "콜로라도, 일리노이, 오리건, 워싱턴주 등 미국의 주요 주 정부 관계자들이 메디케이드 지출과 관련하여 CMS 행정관 메흐멧 오즈(Mehmet Oz)가 소셜 미디어 플랫폼 X(구 트위터)에 게시한 수치가 부정확하다고 공식적으로 반박했다. 이 논란은 오즈가 미등록 이민자들을 위한 메디케이드 지출액에 대해 구체적인 수치를 제시하며 주 정부 재정에 부담을 가중시킨다는 주장을 펼친 것에서 비롯되었다. 해당 주 정부 당국자들은 오즈의 주장이 자신들의 공식적인 재정 기록 및 실제 지출 내역과 전혀 일치하지 않는다고 강력히 반발했다. 주 관계자들은 오즈가 공적 지위를 이용해 잘못된 통계를 인용함으로써 대중에게 허위 정보를 전달하고 있다고 비판했다. 이들은 오즈가 인용한 수치가 실제 지출 내역을 과장하거나 잘못 해석한 것이라며 즉각적인 정보 수정을 요구하는 상황이다. 이번 사건은 주요 공인 및 정치 인사의 공적 발언에 대한 정확한 사실 확인의 중요성을 다시 한번 부각시키고 있다.",
+      "summary_en": "Officials from Colorado, Illinois, Oregon, and Washington say CMS Administrator Mehmet Oz posted incorrect figures about their Medicaid spending on X."
+    },
+    {
+      "title_en": "Delays and uncertainty around SNAP; health care subsidies expire",
+      "url": "https://www.statnews.com/2025/11/01/snap-benefits-court-ruling-health-care-subsidies-expire-shutdown/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AP25300778196167-645x645.jpg",
+      "title": "SNAP 지연 및 불확실성 고조, 건강 보험 보조금 기한 만료",
+      "summary_kr": "워싱턴에서 연방정부 셧다운 논쟁이 격화되면서 핵심적인 위기 상황들이 주말을 기점으로 절정에 달했다. 특히 연방 식량 지원 프로그램(SNAP)이 예산 공백으로 인한 지연 사태에 직면하면서 수백만 명의 저소득층 미국인들이 필수적인 식량 지원을 받지 못할 위기에 놓였다. SNAP은 평소 약 4,200만 명의 수혜자에게 영양 지원을 제공하는 핵심 프로그램이기에, 이 프로그램의 불확실성은 취약 계층에 즉각적인 생계 위협으로 다가왔다. 이와 동시에, 셧다운 장기화로 인해 저소득층을 위한 건강 관리 보조금 지원 기간까지 만료되면서 의료 접근성 문제 또한 심각하게 대두되었다. 정부 기능 마비가 복지 및 의료 시스템에 미치는 영향이 커지면서, 셧다운 갈등의 직격탄을 맞은 미국인들의 불안감이 고조되고 있다.",
+      "summary_en": "WASHINGTON — The crises at the heart of the government shutdown fight in Washington were coming to a head Saturday as the federal food assistance program faced delays and millions of Americans were set…"
+    },
+    {
+      "title_en": "Opinion: A global health expert on Covid’s lessons — and warnings — for the future",
+      "url": "https://www.statnews.com/2025/11/01/seth-berkley-interview-transcript-fair-doses/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/FOP_Ep5_Wordpress_Transcript_Featured_Image-645x645.jpg",
+      "title": "글로벌 보건 전문가 기고: 코로나19의 교훈과 미래 팬데믹 대비 경고",
+      "summary_kr": "글로벌 보건 전문가인 세스 버클리(Seth Berkley)는 인류가 미래의 팬데믹 위협에 대해 강력하게 경고하는 기고문을 발표했다. 그는 진화론적 관점에서 볼 때 더 많은 발병과 대유행이 발생하는 것은 필연적이라고 강조했다. 특히, 다가올 팬데믹은 코로나19가 야기했던 위기보다 훨씬 더 심각할 수 있다는 냉철한 전망을 제시하며 즉각적인 대비책 마련을 촉구했다. 버클리는 코로나19 사태를 통해 얻은 교훈을 바탕으로 전 세계적인 보건 시스템을 근본적으로 재정비해야 할 시점이라고 지적했다. 국제 사회는 다음 위협에 효과적으로 대응하기 위해 조기 경보 시스템 구축 및 백신 개발 역량 강화에 시급히 투자해야 한다. 이 기고문은 인류가 과거의 경험을 발판 삼아 미래의 치명적인 보건 위협에 철저히 대비해야 함을 역설한다.",
+      "summary_en": "“It is evolutionarily certain that we will have more outbreaks, more pandemics, and frankly, they could be significantly worse than Covid,” says global health expert Seth Berkley."
+    },
+    {
+      "title_en": "Research roundup: 6 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2025/11/research-roundup-6-cool-science-stories-we-almost-missed-3/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/karnak1-500x500.jpg",
+      "title": "놓쳐서는 안 될 6가지 주목할 만한 과학 연구 성과 총정리",
+      "summary_kr": "본 연구 동향 기사는 주류 언론에서 놓칠 뻔했던 6가지 흥미롭고 중요한 과학 연구 결과를 심층적으로 다룬다. 주요 연구 성과에는 일상 식재료의 과학적 분석이 포함되며, 특히 일반 스파게티와 글루텐 프리 스파게티의 물리적 특성 차이에 대한 상세 분석 결과가 보고되었다. 생물학 분야에서는 첨단 초고속 촬영 기술을 이용해 맹독사의 물기 동작 메커니즘을 정확하게 포착하고 분석한 연구가 주목받는다. 이처럼 식생활 과학부터 생체 역학에 이르기까지 폭넓은 영역에서 진행된 독창적인 연구들이 소개된다. 이 총정리는 과학 독자들에게 새로운 지평을 열어줄 다양한 분야의 최신 성과를 간결하고 전문적인 뉴스체로 제공한다.",
+      "summary_en": "Also: the science of regular vs. gluten-free spaghetti, catching high-speed snake bites in action, etc."
+    },
+    {
+      "title_en": "Climate Change Made Hurricane Melissa 4 Times More Likely, Study Suggests",
+      "url": "https://www.wired.com/story/climate-change-made-hurricane-melissa-four-times-more-likely-study-suggests/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://media.wired.com/photos/6904ade560b82c8ef03c4d77/master/pass/GettyImages-2243471161.jpg",
+      "title": "연구, 기후 변화로 허리케인 멜리사 발생 가능성 4배 증가",
+      "summary_kr": "최근 기록된 최악의 허리케인 중 하나인 허리케인 멜리사를 분석한 새로운 연구 결과가 발표되었다. 이 폭풍은 이례적으로 따뜻했던 해수 온도에 의해 강력한 에너지를 공급받으며 발생했다. 해당 연구는 인간 활동으로 인한 기후 변화가 이와 같은 극심한 폭풍의 발생 가능성을 크게 높였음을 시사한다. 연구팀은 기후 변화가 허리케인 멜리사의 발생 확률을 최소 4배 이상 증가시킨 것으로 추정했다. 이는 기후 변화가 극한 기상 현상의 빈도와 강도에 미치는 영향을 명확히 보여주는 기상학적 증거다.",
+      "summary_en": "Unusually warm ocean temperatures fueled one of the worst hurricanes on record. New research finds climate change increased the storm’s likelihood."
+    },
+    {
+      "title_en": "The ‘10 Martini’ Proof Connects Quantum Mechanics With Infinitely Intricate Mathematical Structures",
+      "url": "https://www.wired.com/story/the-10-martini-proof-connects-quantum-mechanics-with-infinitely-intricate-mathematical-structures/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://media.wired.com/photos/68f0d247576040ebb4dfbc42/master/pass/TenMartinis-crWei-AnJin-Lede.jpeg",
+      "title": "'10 마티니' 정리, 양자 역학과 무한히 복잡한 수학적 구조의 연관성 입증",
+      "summary_kr": "이른바 ‘10 마티니 증명’이라고 불리는 난해한 수학적 정리가 양자 역학과 무한히 복잡한 수학적 구조 사이의 관계를 규명하는 데 성공했다. 이 증명은 난이도가 매우 높아 과거 한 수학자가 이를 해결하는 사람에게 마티니 10잔을 제공하겠다고 제안하여 이름 붙여졌을 정도로 악명이 높다. 연구진은 이 난제를 해결하기 위해 정수론(number theory)의 강력한 도구를 핵심적으로 활용했다. 특히 이 새로운 접근법은 양자 역학에서 관찰되는 양자 프랙탈(quantum fractals) 현상의 복잡한 패턴을 설명하는 데 결정적인 역할을 수행했다. 궁극적으로 이 정리는 양자 물리학의 미묘한 거동이 무한한 복잡성을 지닌 수학적 구조와 깊이 연결되어 있음을 보여주며 물리학과 수학 분야의 오랜 간극을 좁히는 데 기여했다.",
+      "summary_en": "The proof, known to be so hard that a mathematician once offered 10 martinis to whoever could figure it out, uses number theory to explain quantum fractals."
+    },
+    {
+      "title_en": "How Chocolate’s Puckering Taste May Stimulate the Brain",
+      "url": "https://neurosciencenews.com/falvanols-sour-brain-29882/",
+      "source": "Neuroscience News",
+      "category": "News",
+      "date": "2025-11-01",
+      "image_url": "https://neurosciencenews.com/files/2025/11/source-chocolate-taste-neuroscincce-1155x770.jpg",
+      "title": "초콜릿의 떫은맛(수렴성)이 뇌를 활성화하는 작동 원리 규명",
+      "summary_kr": "일본 연구진이 코코아 플라바놀의 떫은맛(수렴성)이 뇌를 자극하는 방식을 발견하며 그 메커니즘을 밝혀냈다. 이 화합물이 혈류로 극히 소량만 흡수됨에도 불구하고 뇌 자극 효과가 발생하는 원인이 규명되었다는 점에서 주목받는다. 연구팀은 쥐를 대상으로 한 실험에서 이 떫은맛의 감각 자체가 핵심적인 역할을 수행함을 확인했다. 구체적으로, 수렴성 감각은 특정 감각 신경을 자극하는 것으로 나타났다. 이 신경 자극은 동기 부여, 경계심, 기억력 등과 관련된 신경전달물질의 분비를 유도했다. 이러한 발견은 초콜릿 섭취가 인지 기능 및 각성에 미치는 영향에 대한 새로운 과학적 이해를 제공한다.",
+      "summary_en": "Japanese researchers have uncovered how the astringent “bite” of cocoa flavanols can activate the brain—even though little of the compound enters the bloodstream. In mice, the sensation of astringency triggered sensory nerves that stimulated neurotransmitters linked to motivation, alertness, and memory."
     },
     {
       "title_en": "Exclusive: Future of chronic disease journal in limbo after cuts at CDC",
@@ -8665,8 +8808,8 @@
       "category": "News",
       "date": "2025-10-25",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/03/whale1-500x500-1741439774.jpg",
-      "title": "Whale and dolphin migrations are being disrupted by climate change",
-      "summary_kr": "[요약 실패] API 호출 중 오류 발생. (원본: Marine mammals are being forced into new and more dangerous waters, scientists warn....)",
+      "title": "기후변화, 고래·돌고래 이동 경로 교란…위험 수역으로 밀려나",
+      "summary_kr": "과학자들은 기후변화로 인해 고래와 돌고래를 포함한 해양 포유류의 전통적인 이동 경로가 심각하게 교란되고 있다고 경고했다. 해수 온도 상승과 해양 환경의 변화는 이들의 주요 먹이 공급원의 위치를 변화시키는 핵심 요인으로 작용한다. 이로 인해 해양 포유류는 생존을 위해 먹이를 찾아 이전에는 접근하지 않던 새롭고 낯선 수역으로 강제로 이동하고 있다. 전문가들은 이러한 새로운 수역이 종종 선박 통행량이 많거나 오염도가 높은 지역이어서 포유류에게 더 큰 위험을 초래한다고 지적했다. 특히, 낯선 환경에서의 먹이 부족과 인간 활동과의 충돌 가능성이 높아져 이들 종의 개체 수 감소로 이어질 수 있다는 우려가 제기된다. 이에 따라 해양 생태계 보호를 위한 즉각적인 국제적 협력과 보존 대책 마련이 시급한 상황이다.",
       "summary_en": "Marine mammals are being forced into new and more dangerous waters, scientists warn."
     },
     {
@@ -8676,8 +8819,8 @@
       "category": "Neuroscience",
       "date": "2025-10-24",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-edward-kravitz-obituary.png",
-      "title": "GABA 개척자 에드워드 크라비츠, 그의 업적을 기리다",
-      "summary_kr": "지난달 92세의 나이로 세상을 떠난 생화학자 에드워드 크라비츠(Edward Kravitz)의 주요 업적이 조명되고 있다. 그는 신경과학 분야의 역사를 쓴 인물로 평가받으며, 특히 세계 최초의 신경생물학 부서(neurobiology department) 설립에 참여했던 핵심 멤버였다. 크라비츠 박사의 가장 기념비적인 업적은 신경전달물질인 감마-아미노부티르산(GABA)의 기능을 밝혀낸 것이다. 그는 실험을 통해 GABA가 억제성 신경전달물질(inhibitory neurotransmitter)임을 명확히 입증했다. 이 결정적인 발견은 신경과학의 기초 확립에 지대한 공헌을 한 것으로 평가된다.",
+      "title": "GABA 선구자 에드워드 크래비츠를 기리며",
+      "summary_kr": "지난달 92세의 나이로 별세한 생화학자 에드워드 크래비츠(Edward Kravitz)는 신경과학 분야의 초기 발전에 지대한 공헌을 했다. 그는 세계 최초로 설립된 신경생물학과의 일원이었으며, 해당 학문의 제도적 기반을 다지는 데 핵심적인 역할을 수행했다. 크래비츠 박사의 가장 중요한 업적은 신경전달물질인 감마-아미노부티르산(GABA)의 기능을 규명한 것이다. 그의 연구를 통해 GABA가 억제성 신경전달물질로 작용한다는 사실이 과학적으로 입증되었다. 이는 뇌의 흥분과 억제 메커니즘을 이해하는 데 필수적인 기초 지식을 제공했다. 그의 선구적인 발견은 신경 활동 조절 연구 및 다양한 신경정신 질환의 치료법 개발에 근본적인 영향을 미쳤다.",
       "summary_en": "The biochemist, who died last month at age 92, was part of the first neurobiology department in the world and showed that gamma-aminobutyric acid is inhibitory."
     },
     {
@@ -8687,8 +8830,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/abstractdna-500x500.jpg",
-      "title": "최적의 항체 보편적 공급 기술, 임상 시험 개시",
-      "summary_kr": "현재 모든 사람이 가장 효과적인 항체를 확보할 수 있도록 설계된 혁신적인 기술에 대한 임상 시험이 진행 중이다. 이 기술의 핵심 목표는 특정 질병에 대해 탁월한 효능을 보이는 항체의 DNA 염기 서열을 정확히 식별하는 것이다. 일단 고성능 항체의 DNA 정보가 확인되면, 해당 정보를 활용하여 치료용 항체를 대량으로 합성하거나 수혜자 체내에서 직접 생성하도록 유도할 수 있다. 이는 전통적인 면역 반응을 기다릴 필요 없이, 필요한 항체를 즉시 제조하여 투여할 수 있게 만드는 획기적인 접근 방식이다. 결과적으로, 이 기술은 개인이 특정 항체를 직접 생산하는 데 걸리는 시간과 제약을 줄여 항체 치료의 보편성과 효율성을 극대화할 잠재력을 가진다. 임상적으로 성공할 경우, 면역 취약 계층이 신종 감염병 등 위협에 신속하게 대응할 수 있는 최적의 면역 방어 능력을 갖추게 될 것으로 기대된다.",
+      "title": "최적의 항체를 보편적으로 제공하는 기술의 임상 시험 개시",
+      "summary_kr": "이 기술은 가장 효과적인 항체의 DNA 염기 서열을 정확히 식별하는 것을 핵심 목표로 한다. 연구팀은 일단 특정 항체의 우수한 유전자 서열(DNA)이 확인되면, 이를 활용하여 누구나 해당 항체를 대량으로 혹은 맞춤형으로 생산할 수 있게 된다고 설명했다. 현재 이 혁신적인 항체 접근법의 안전성과 효능을 평가하기 위한 임상 시험이 진행되고 있다. 이는 기존의 수동적인 항체 치료 방식에서 벗어나, 가장 강력한 면역 반응을 유도하는 항체를 신속하게 복제할 수 있는 길을 열어줄 것으로 기대된다. 해당 기술이 성공적으로 입증될 경우, 특정 질병에 대한 '최고의 항체'를 모든 환자에게 공평하게 공급할 수 있는 치료 패러다임의 변화가 예상된다.",
       "summary_en": "If we ID the DNA for a great antibody, anyone can now make it."
     },
     {
@@ -8698,8 +8841,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-4-500x500.jpeg",
-      "title": "박쥐, 공중에서 새를 포획해 즉시 섭취하는 사냥 방식 포착",
-      "summary_kr": "특정 박쥐 종이 새를 사냥하는 포식자라는 사실은 알려져 있었으나, 그 구체적인 사냥 방식은 미스터리로 남아 있었다. 최근 첨단 센서 장비를 활용한 연구를 통해 이들의 독특한 사냥 전략이 상세히 밝혀졌다. 해당 박쥐들은 비행 중인 새를 공중에서 정확하게 낚아채는 능력을 보여주었다. 특히 주목할 점은 이들이 포획한 먹이를 지면에 내려앉지 않고 날개를 퍼덕이며 공중에서 즉시 섭취한다는 사실이다. 이 새로운 센서 데이터는 박쥐가 새를 사냥하는 과정에서의 비행 역학 및 고도로 전문화된 포식 행위에 대한 중요한 통찰력을 제공한다.",
+      "title": "박쥐, 비행 중인 새 공중 포획 후 섭취 확인: 센서 데이터로 사냥 전략 규명",
+      "summary_kr": "특정 박쥐 종들이 새를 사냥한다는 사실은 이미 알려져 있었으나, 이들이 비행 중에 어떻게 사냥을 수행하는지에 대한 구체적인 메커니즘은 불분명했다. 최근 새로운 센서 데이터를 활용한 연구를 통해, 박쥐들이 날아가는 새를 공중에서 잡아채는 정교한 사냥 전략이 포착되었다. 연구 결과에 따르면, 이 박쥐들은 빠른 속도로 비행하는 새를 추격하여 날개 또는 발을 이용해 포획한 후, 먹이를 안정적으로 제어하면서 비행을 지속하는 것으로 확인됐다. 이는 박쥐의 뛰어난 비행 능력과 반향정위(Echolocation) 기술이 단순히 곤충 포획을 넘어 척추동물 사냥에도 효율적으로 활용됨을 입증한다. 이번 센서 데이터 분석은 희귀하고 관찰하기 어려웠던 박쥐의 포식 행동을 명확히 규명함으로써, 이들의 생태학적 역할에 대한 이해를 높이는 데 중요한 과학적 기반을 제공했다.",
       "summary_en": "A handful of bat species hunt birds, and new sensor data tells us how."
     },
     {
@@ -8709,8 +8852,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/napoleon2-500x500-1760798550.jpg",
-      "title": "DNA 분석으로 나폴레옹 군대를 몰살시킨 병원균 확인",
-      "summary_kr": "최근 연구에서 DNA 분석을 통해 나폴레옹 군대의 대규모 사망 원인이 된 주요 병원체가 밝혀졌다. 연구진은 매장된 유해에서 추출한 미생물 DNA를 정밀 분석하여 병사들을 괴롭혔던 감염병의 흔적을 추적했다. 분석 결과에 따르면, 당시 병사들은 파라티푸스열(paratyphoid fever)과 재귀열(relapsing fever)을 포함한 다수의 심각한 질병에 노출되었던 것으로 확인되었다. 이러한 질병들은 혹독한 원정 환경과 위생 불량 상태 속에서 급속도로 확산되었을 것으로 추정된다. 이 DNA 증거는 역사적인 기록을 보강하며, 전투 외적인 질병 요인이 군사 역사에 얼마나 치명적인 영향을 미쳤는지를 과학적으로 입증한다.",
+      "title": "DNA 분석으로 나폴레옹 군대를 전멸시킨 유력 병원체 규명",
+      "summary_kr": "최근 DNA 분석 결과, 1812년 러시아 원정 당시 나폴레옹 군대의 대규모 사망 원인이 되었던 유력한 병원체들이 규명되었다. 연구팀은 전사자 유해에서 추출한 미생물 DNA를 분석하여 당시 군인들이 겪었던 질병의 종류를 정밀하게 추적했다. 미생물 DNA 증거에 따르면, 군대는 파라티푸스열(Paratyphoid fever)과 재귀열(Relapsing fever)을 포함한 여러 치명적인 감염병으로 고통받았던 것으로 확인됐다. 이 질병들은 열악한 위생 환경과 겹치면서 군대의 건강 상태를 급격히 악화시키고 전투력을 무력화하는 핵심 요인으로 작용했다. 이번 연구는 질병이 단순히 병력 손실을 넘어 역사적 사건의 흐름을 바꿀 수 있음을 과학적으로 입증한다. 이 고대 DNA 연구는 나폴레옹 시대 군인들의 사망 원인에 대한 오랜 논쟁에 결정적인 과학적 증거를 제시했다.",
       "summary_en": "Microbial DNA suggests troops suffered from paratyphoid fever and relapsing fever, among other diseases."
     },
     {
@@ -8720,8 +8863,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/artemisiistacked-500x500.jpg",
-      "title": "로켓 리포트: 중국, 팰컨 9 유사 로켓 시험 및 NASA 달 로켓 최종 조립 완료",
-      "summary_kr": "이번 주 로켓 소식은 중국의 새로운 발사체 시험과 NASA 달 탐사 로켓의 진전에 초점이 맞춰져 있다. 특히 중국은 미국의 스페이스X 팰컨 9 로켓과 유사한 외형과 기능을 갖춘 신형 로켓의 시험 비행을 성공적으로 진행했다. 한편, NASA의 아르테미스 임무에 사용될 차세대 달 탐사 로켓인 우주발사시스템(SLS)의 최종 조립이 완료되었다. SLS는 현재 발사대에 완전하게 적층된 상태이며, 곧 다가올 궤도 비행 테스트를 위한 최종 점검 단계에 돌입했다. 이와 더불어, 아시아 지역의 우주 개발 경쟁이 가속화되는 가운데, 한국의 한 신생 로켓 기업이 곧 저궤도(LEO) 진입을 목표로 하는 첫 발사 시도를 준비하고 있어 주목된다.",
+      "title": "로켓 리포트: 중국판 팔콘 9 시험 비행과 NASA 달 로켓 최종 스택 완료 소식",
+      "summary_kr": "국내 로켓 스타트업이 곧 저궤도(LEO) 진입을 위한 첫 시험 발사에 나설 예정이다. 이는 민간 주도 우주 개발 시대에 한국이 상업 발사체 분야의 경쟁력을 확보하려는 중요한 발걸음으로 평가된다. 해당 스타트업은 자체 개발한 발사체를 이용해 기술 검증과 소형 위성 운송 능력을 입증하는 것을 목표로 하고 있다. 발사 성공 시, 한국은 자체 로켓 기술을 보유한 몇 안 되는 민간 기업을 배출하게 되며, 이는 글로벌 우주 시장 진출의 교두보를 마련하는 계기가 될 것이다. 업계 전문가들은 이번 첫 궤도 진입 시도가 향후 한국 우주 산업 생태계 전반의 성장을 촉진할 것으로 기대하고 있다.",
       "summary_en": "A South Korean rocket startup will soon make its first attempt to reach low-Earth orbit."
     },
     {
@@ -8731,8 +8874,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa92670f48aeee5d43d096/master/pass/GettyImages-2229876195.jpg",
-      "title": "천문학자들이 지구의 최신 준위성(Quasi-Moon)을 발견하다",
-      "summary_kr": "천문학자들이 지구의 궤도 역학에 포획된 새로운 소행성, 즉 '준위성'을 공식적으로 확인했다. 흥미롭게도 이 천체는 인류가 달 착륙 계획을 세우던 1960년대 무렵 지구에 접근하기 시작한 것으로 분석된다. 해당 소행성은 지구의 중력에 영향을 받으면서도 태양 주위를 도는 복잡한 궤도를 유지하고 있다. 이 준위성은 수십 년간 지구의 중력적 근처(vicinity)를 떠나지 않고 계속 공전해 왔다. 이는 지구와 궤도를 공유하지만 엄밀한 의미의 위성은 아닌 독특한 형태로 분류된다. 연구진은 이 천체의 지속적인 관측을 통해 지구 근접 천체(NEO)의 움직임에 대한 이해를 높일 것으로 기대하고 있다.",
+      "title": "천문학자들, 지구의 최신 준위성 발견",
+      "summary_kr": "천문학자들이 지구 궤도 근처에서 오랫동안 머물러 온 새로운 준위성(quasi-satellite)을 발견했다. 이 소행성은 인류가 아폴로 계획을 통해 최초의 달 착륙을 준비하던 1960년대에 지구에 접근하기 시작한 것으로 파악된다. 흥미롭게도 해당 천체는 반세기 이상이 지난 현재까지도 지구 곁을 떠나지 않고 특정 궤도에서 맴돌고 있다. 준위성은 지구를 중심으로 공전하는 것처럼 보이지만, 실제로는 태양의 중력에 더 크게 영향을 받는 궤도 역학적 특징을 가진다. 이번 발견은 지구 근접 소행성(NEA)이 태양계 내에서 장기간에 걸쳐 궤도를 유지하는 메커니즘을 이해하는 데 중요한 통찰을 제공할 것으로 기대된다.",
       "summary_en": "As mankind was planning the first moon landing in the 1960s, an asteroid approached Earth—and still hasn’t left."
     },
     {
@@ -8742,8 +8885,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa93b40f48aeee5d43d099/master/pass/GettyImages-1026002098.jpg",
-      "title": "궤도 비행의 역설: 속도를 높이려면 속도를 줄여라",
-      "summary_kr": "우주선의 궤도 항법은 행성 표면에서의 운전 방식과 근본적으로 다르며, 지상에서의 직관적인 물리 법칙이 적용되지 않는다. 물리학자들은 행성 주변을 공전하는 동안 발생하는 이 역설적인 궤도 이동 원리를 상세히 설명한다. 특히 궤도에 있는 우주선이 속도를 높여 더 높은 궤도로 이동하기 위해서는 일시적으로 엔진을 역분사하여 속도를 늦춰야 한다. 이 감속 과정은 궤도 고도를 낮춰 중력의 영향권 아래로 진입하게 하며, 이로 인해 낮은 궤도에서 결과적으로 더 빠른 속도를 얻게 된다. 이처럼 속도를 낮춰 획득한 더 빠른 운동 에너지를 활용해야만 원하는 고고도 궤도로 효율적으로 진입할 수 있다. 이러한 궤도 역설의 정확한 이해는 모든 우주 탐사 임무와 궤도 조종의 성공적인 수행에 필수적인 요소로 간주된다.",
+      "title": "궤도 비행의 역설: 가속을 위한 감속 전략",
+      "summary_kr": "우주 공간에서 행성 주위를 운항하는 우주선의 조종 방식은 지상에서 차량을 운전하는 것과 근본적으로 다르며, 궤도 항법에는 역설적인 원리가 적용된다. 최근 한 물리학자는 궤도 이동의 핵심 원리를 설명하며 일반적인 상식을 뒤엎는 개념을 제시했다. 궤도에서 실제로 속도를 높여 더 빠른 궤도로 진입하기 위해서는 추진력을 이용해 잠시 감속해야 하는 역설이 발생한다. 이는 순간적인 감속이 우주선을 중력 중심에 더 가깝게 만들어 궤도를 낮추고, 위치 에너지를 운동 에너지로 전환시키기 때문이다. 결과적으로 우주선은 더 낮은 궤도에서 더 빠른 각속도와 궤도 속도를 갖게 되며, 이는 우주선의 궤도 변경 및 이동의 핵심 전략으로 활용된다. 이러한 반직관적인 궤도 역학의 이해는 우주 탐사 미션의 성공을 위해 필수적이다.",
       "summary_en": "Driving a spacecraft around a planet isn’t anything like driving on a planet. A physicist explains orbital navigation."
     },
     {
@@ -8753,8 +8896,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa86a6990dd48e2caff084/master/pass/102725_Palestine-Robotics-V2.jpg",
-      "title": "로봇 공학 금메달에 도전하는 팔레스타인 청소년들: STEM 교육을 향한 염원",
-      "summary_kr": "다음 주, 다섯 명의 팔레스타인 청소년들이 세계 최대 규모의 청소년 로봇 공학 대회에 참가하기 위해 파나마로 출국할 예정이다. 이들은 치열한 경쟁 속에서 최고 성적, 즉 금메달 획득을 목표로 하고 있다. 하지만 이들의 도전은 단순한 기술 경쟁을 넘어선 인도주의적 의미를 담고 있다. 이들의 궁극적인 목표는 대회 우승을 통해 얻은 경험과 지식을 활용하여 STEM 교육 프로그램을 마련하는 것이다. 특히 이 교육은 이스라엘-하마스 전쟁으로 인해 실향민이 된 팔레스타인 청소년 동료들에게 과학 및 기술 교육 기회를 제공하는 데 중점을 둔다. 이 청소년 팀은 로봇 공학을 통해 희망을 전파하고 동료들의 미래를 재건하려는 사명을 지니고 있다.",
+      "title": "로봇 공학 금메달에 도전하는 팔레스타인 청소년 5인: 전쟁으로 피난당한 동료 교육 목표",
+      "summary_kr": "다음 주, 팔레스타인 출신의 10대 청소년 5명이 세계 최대 규모의 청소년 로봇 공학 대회에 참가하기 위해 파나마로 출국한다. 이들은 이번 국제 대회에서 우승하여 로봇 공학 분야의 재능을 세계 무대에 입증하는 것을 목표로 한다. 그러나 이들의 도전에는 단순한 우승 이상의 사회적 목적이 담겨있다. 이들은 대회가 끝난 후, 이스라엘-하마스 전쟁으로 인해 실향민이 된 동료 청소년들에게 STEM(과학, 기술, 공학, 수학) 교육을 전수할 계획이다. 이번 프로젝트는 전쟁으로 교육 기회가 단절된 팔레스타인 지역 사회에 희망과 실용적인 기술을 제공하는 데 중점을 둔다. 팀원들은 금메달 획득을 통해 얻은 성과를 교육 역량 강화에 활용하며 미래 세대의 과학 기술 역량을 끌어올리기를 희망하고 있다.",
       "summary_en": "Next week, five teens from Palestine will head to Panama to compete in one of the world’s largest youth robotics competitions. The goal? To win—and then teach STEM to their peers displaced by the Israel-Hamas war."
     },
     {
@@ -8764,8 +8907,8 @@
       "category": "Neuroscience",
       "date": "2025-10-23",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-human-specific-neurodevelopment.png",
-      "title": "시냅스 발달 속도 조절하는 '단백질 경쟁', 인간 뇌를 차별화하는 핵심 기제 규명",
-      "summary_kr": "최근 연구에서 시냅스 발달 속도를 제어하고 인간의 뇌가 다른 종과 구별되는 핵심 메커니즘이 밝혀졌다. 이 과정의 중심에는 SRGAP2의 인간 특이적 복제본과 자폐증과 관련된 단백질인 SYNGAP 간의 복잡한 상호작용이 있다. SYNGAP 단백질은 일반적으로 시냅스 성장을 늦추는 역할을 수행하며 발달 속도를 조절하는 것으로 알려져 있다. 하지만 인간 특이적으로 복제된 SRGAP2는 SYNGAP의 기능을 조작하여 그 작용을 방해하는 것으로 나타났다. 이러한 길항 작용의 결과, 인간은 피질 발달 기간이 연장되며, 이는 더 복잡한 신경 회로를 형성하는 기반이 된다. 궁극적으로 이 단백질 간의 '줄다리기' 현상은 인간 뇌의 발달 과정 및 진화적 차이를 이해하는 데 중요한 통찰력을 제공한다.",
+      "title": "단백질 힘겨루기가 시냅스 발달 속도를 제어하고 인간 뇌를 차별화하는 기전 규명",
+      "summary_kr": "연구 결과, 인간 뇌의 시냅스 발달 속도를 결정하는 핵심적인 단백질 경쟁 메커니즘이 확인되었다. 이 과정의 중심에는 인간에게 특이적으로 복제된 SRGAP2 유전자 복제본이 핵심적인 역할을 수행한다. SRGAP2 복제본은 시냅스 성장을 늦추는 것으로 알려진 SYNGAP 단백질을 조작하여 그 기능을 제어한다. SYNGAP은 자폐증과도 연관성이 있는 단백질로, 그 기능이 조절됨으로써 시냅스 성장이 의도적으로 지연된다. 이러한 단백질 상호작용은 인간의 대뇌 피질 발달 기간을 연장시키는 결과를 초래한다. 발달 기간의 연장은 인간 뇌가 다른 종과 구별되는 주요한 특징이며, 고도의 인지 능력을 발휘하는 기반이 된다.",
       "summary_en": "Human-specific duplicates of SRGAP2 prolong cortical development by manipulating SYNGAP, an autism-linked protein that slows synaptic growth."
     },
     {
@@ -8775,8 +8918,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1386002288-500x500.jpg",
-      "title": "공룡, 소행성 충돌 직전까지 번성했을 가능성 제기",
-      "summary_kr": "기존의 가설들은 공룡의 멸종이 소행성 충돌 이전에 이미 서서히 진행되고 있었다고 주장해왔다. 하지만 최근 뉴멕시코 지역의 백악기 말기 화석층에 대한 연구 결과는 이와 상반되는 증거를 제시한다. 해당 화석층에서는 멸종 사건이 발생하기 직전까지 다양한 공룡 종들이 생태계 내에서 여전히 활발하게 존재했음이 확인되었다. 연구진은 이러한 화석 기록이 공룡들이 충돌 직전까지 성공적인 번성 상태를 유지하고 있었음을 강력히 시사한다고 분석했다. 이는 공룡의 대규모 멸종이 환경 변화로 인한 장기간의 쇠퇴가 아닌, 소행성 충돌이라는 단일하고 급격한 재앙의 결과였을 가능성에 무게를 싣는다. 이 발견은 백악기-팔레오기 경계에서의 생물학적 역동성을 이해하는 데 중요한 통찰력을 제공한다.",
+      "title": "공룡, 소행성 충돌 직전까지 번성하며 멸종 직전까지 건재했을 가능성 시사",
+      "summary_kr": "최근 발표된 화석 연구 결과는 공룡의 멸종이 소행성 충돌 수백만 년 전부터 서서히 진행되었다는 기존 학설에 이의를 제기한다. 연구진은 미국 뉴멕시코 지역에서 발견된 후기 백악기 지층의 화석 기록을 면밀히 분석했다. 분석 결과, 해당 지층에는 소행성 충돌 직전까지 다양한 종류의 공룡 종들이 높은 다양성을 유지하며 생존했음을 보여주는 증거가 포착되었다. 이는 소행성 충돌 이전부터 공룡 개체군의 생물 다양성이 감소하는 추세였다는 일반적인 가설과 상반되는 것이다. 이 발견은 공룡들이 마지막 순간까지 생태학적으로 건재한 상태였으며, 멸종이 외부 충격에 의한 급격한 환경 변화에 전적으로 기인했을 가능성을 뒷받침한다. 따라서 공룡 멸종의 원인을 이해하는 데 있어 '느린 쇠퇴'가 아닌 '갑작스러운 사건'의 중요성이 더욱 강조되고 있다.",
       "summary_en": "Fossil beds in New Mexico show diverse species present in the late Cretaceous."
     },
     {
@@ -8786,8 +8929,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1291108057-500x500.jpg",
-      "title": "NIH 국장, MAHA 이직 후 JD 밴스 측근 인사가 후임으로 임명",
-      "summary_kr": "국립보건원(NIH)의 한 고위직 이사가 MAHA로 자리를 옮긴 후, 그 후임에 JD 밴스 상원의원의 측근 인사가 임명되면서 인사 배경에 관심이 쏠리고 있다. 이 직위는 국가 독성학 프로그램(NTP)을 포함한 주요 연구 기관들에 대한 감독 권한을 가지고 있다. NTP는 그동안 논란의 여지가 많은 연구 결과들을 발표하며 과학적, 정치적 논쟁의 중심에 서 왔다. 특히, NTP가 발표한 휴대폰 방사능 노출 위험성 관련 연구는 대규모의 공중 보건 논란을 야기했다. 이와 더불어 수돗물 불소화의 안전성 여부를 다룬 연구 결과 역시 광범위한 논쟁을 불러일으킨 바 있다. 새롭게 임명된 인사가 향후 NTP의 연구 방향과 정책 결정에 어떤 영향을 미칠지 귀추가 주목된다.",
+      "title": "NIH 국장 이동 후 JD 밴스 측근이 후임에, 과학 기관 인사 논란",
+      "summary_kr": "미국 국립 독성 프로그램(NTP)은 과거 휴대폰 방사선과 불소의 안전성에 대해 논란이 많은 연구 결과를 발표하며 공중 보건 커뮤니티의 주목을 받았습니다. 이러한 연구와 연관된 위치에 있던 국립보건원(NIH)의 고위 책임자가 최근 MAHA로 자리를 옮긴 것으로 확인되었습니다. 이로 인해 발생한 NIH의 공석에는 상원의원 JD 밴스의 가까운 측근이 후임으로 임명되면서 논란이 일고 있습니다. 과학적 독립성이 요구되는 핵심 기관의 인사에 정치적 연줄이 개입되었다는 지적이 제기되며, 향후 연구 방향에 대한 우려가 커지고 있습니다. 새로운 책임자가 NTP의 과거 논란성 연구 및 공중 보건 이슈에 대해 어떤 입장을 취할지에 대해 과학계의 귀추가 주목됩니다.",
       "summary_en": "The NTP produced controversial studies on cellphone radiation and fluoride."
     },
     {
@@ -8797,8 +8940,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/rsosSimosthenurus_occidentalis-500x500.jpg",
-      "title": "호주 대륙의 첫 발자국: 그들은 고대의 '화석 사냥꾼'이었다",
-      "summary_kr": "최근 연구 결과, 호주 대륙에 최초로 정착한 원주민들이 유럽인들보다 훨씬 앞서 화석 수집 활동을 수행했던 것으로 밝혀져 학계의 주목을 받고 있다. 기존의 학계에서는 화석 및 광물 표본 수집이 유럽 탐험가들과 정착민들에 의해 호주에 도입된 것으로 여겨져 왔다. 하지만 고고학적 증거와 원주민들의 구전 역사를 통해, 최초의 호주인들이 이미 자연사적 중요성을 인식하고 선사시대 유물을 수집하고 보존했음이 확인되었다. 이는 유럽인들이 호주에 도착하기 수만 년 전부터 과학적 탐구가 시작되었음을 시사하며, 역사적 내러티브를 뒤집는 중요한 발견이다. 이처럼 선행된 수집 행위는 초기 호주 원주민들이 주변 환경에 대한 깊은 지식과 탐구심을 지니고 있었음을 방증한다. 이 연구는 호주 과학사와 원주민 문화 연구의 초기 서사를 재정립하는 데 결정적인 역할을 할 것으로 기대된다.",
+      "title": "호주 대륙에 발을 디딘 최초의 인류는 '화석 수집가'였다",
+      "summary_kr": "최근 발표된 연구 결과에 따르면, 유럽인들이 호주에 도착하기 수만 년 전부터 원주민들이 광물 및 고대 생물의 잔해를 수집해 왔던 것으로 밝혀졌다. 이는 호주 대륙에 발을 디딘 최초의 인류가 단순한 생존을 넘어 고대의 흔적에 지적 호기심을 보인 '화석 수집가'였다는 사실을 시사한다. 고고학자들은 발견된 유물 분석을 통해 이 초기 인류가 화석을 도구 제작 목적이 아닌, 미적 가치나 순수한 호기심으로 채집했을 가능성이 높다고 분석했다. 이러한 발견은 유럽인들이 호주에서 최초로 자연사를 기록했다는 기존의 통념을 뒤집는다. 나아가 이번 연구는 호주 원주민들이 이미 심오한 자연사 지식과 수집 활동을 영위했음을 입증하는 중요한 증거를 제시한다. 결과적으로 초기 인류의 지적 활동 범위에 대한 재평가와 호주 고고학 역사의 수정이 필요하다는 목소리가 나오고 있다.",
       "summary_en": "Europeans weren't the first people to collect fossils in Australia."
     },
     {
@@ -8808,8 +8951,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/apex_sbi-500x500.jpg",
-      "title": "캘리포니아 스타트업, 자체 자금으로 우주 무기 시연 추진",
-      "summary_kr": "미국 캘리포니아에 기반을 둔 한 스타트업이 독자적으로 개발한 우주 무기 시스템의 실증 작업을 자체 비용을 투입해 진행할 예정이라고 발표했다. 이번 시연은 국방 예산이나 외부 지원 없이 순전히 민간 자본으로 추진된다는 점에서 우주 안보 산업의 새로운 흐름을 예고하고 있다. 해당 스타트업은 이 무기 시스템을 구동하고 실제 환경에서 운용하는 데 필요한 모든 핵심 기술 요소가 이미 확보된 상태라고 강조하며 기술적 실현 가능성에 자신감을 내비쳤다. 이러한 움직임은 군사적 능력을 갖춘 우주 기술의 상업화 및 민간 주도 개발 경쟁이 심화되고 있음을 시사한다. 전문가들은 자체적인 무기 시연이 우주 공간에서의 군비 경쟁 관련 국제 규제 논의를 가속화할 수 있다고 분석하고 있으며, 향후 국제 안보 환경에 미칠 영향에 관심이 집중된다.",
+      "title": "캘리포니아 스타트업, 자체 비용 투입해 우주 무기 시연 계획 발표",
+      "summary_kr": "캘리포니아에 위치한 한 신생 기업이 자체 비용을 투자하여 우주 무기 시스템을 시연할 계획을 발표하며 업계의 주목을 받고 있다. 이들은 기술적으로 우주에서 잠재적 군사적 활용이 가능한 시스템을 구현하는 데 필요한 모든 요소들이 이미 갖춰져 있다고 자신하고 있다. 일반적으로 정부나 군의 지원을 받는 고비용의 우주 개발 사업과는 달리, 해당 스타트업은 기술력에 대한 확신을 바탕으로 전액 자비를 들여 시연을 강행하는 이례적인 행보를 보이고 있다. 이는 상업 우주 산업이 첨단 군사 기술 개발 영역에까지 깊숙이 침투하고 있음을 보여주는 사례로 평가된다. 다가오는 시연은 해당 우주 무기 기술의 실질적인 작동 능력과 효용성을 입증하는 데 초점을 맞출 예정이며, 성공 여부에 따라 향후 투자 유치 및 국방 계약 가능성이 결정될 것이다. 이러한 민간 주도의 군사 기술 개발은 우주 안보 및 전략에 중대한 변화를 예고한다.",
       "summary_en": "\"All of the pieces that are required to make it viable exist.\""
     },
     {
@@ -8819,20 +8962,9 @@
       "category": "Neuroscience",
       "date": "2025-10-22",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-nociceptors-motochondrial-electron-transport.png",
-      "title": "뉴런, 유해 자극 맹공격 생존을 위해 전자전달계 조율",
-      "summary_kr": "통각 수용체(Nociceptors)는 열, 화학적 자극원 또는 독소와 같은 유해 자극에 노출될 때 중요한 생존 반응을 보인다. 연구에 따르면, 이러한 신경 세포들은 유해 자극에 대응하여 활성 산소종(ROS)의 생성을 적극적으로 억제하는 것으로 나타났다. 이러한 억제 메커니즘의 핵심은 세포 내 에너지 생산을 담당하는 미토콘드리아의 전자전달계(ETC)를 미세하게 조절하는 데 있다. ROS는 일반적으로 높은 수준에서 세포에 손상을 입히지만, 뉴런은 ETC의 속도를 조절함으로써 스트레스 상황에서도 세포 손상을 최소화한다. 이 자기 방어적인 조절 과정은 통각 수용체가 극심한 자극의 공격 속에서도 기능적 온전함을 유지하고 생존할 수 있도록 돕는 핵심 전략이다. 해당 메커니즘의 이해는 신경 보호 전략 및 통증 치료 연구에 기여할 것으로 기대된다.",
+      "title": "뉴런, 유해 자극 생존을 위해 전자 전달계(ETC) 조율 메커니즘 규명",
+      "summary_kr": "통증을 감지하는 신경세포인 통각 수용체(Nociceptors)가 유해한 자극으로부터 스스로를 보호하는 새로운 생존 전략이 발견되었다. 연구에 따르면, 통각 수용체는 외부의 열, 화학적 자극제 또는 독소에 노출될 때 미토콘드리아 내의 전자 전달계(ETC) 활동을 정교하게 조율한다. 이러한 대사 조율은 세포 호흡 과정의 부산물인 활성 산소종(ROS)의 과도한 생성을 효과적으로 억제하는 역할을 수행한다. 활성 산소종은 신경 세포에 심각한 손상을 일으키는 것으로 알려져 있으며, 격렬한 유해 자극에 노출될 경우 세포 사멸을 촉진하는 주요 원인이 된다. 통각 수용체는 ETC의 활동을 늦춰 ROS의 생성을 낮춤으로써, 유해 자극의 맹공격 속에서도 신경 세포가 생존할 수 있는 능력을 확보하는 것으로 확인되었다.",
       "summary_en": "Nociceptors tamp down the production of reactive oxygen species in response to heat, chemical irritants or toxins."
-    },
-    {
-      "title_en": "Google has a useful quantum algorithm that outperforms a supercomputer",
-      "url": "https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/",
-      "source": "Ars Technica",
-      "category": "News",
-      "date": "2025-10-22",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GoogleQuantumAI_WillowChip_Closeup03-500x500.jpg",
-      "title": "구글, 슈퍼컴퓨터 성능을 뛰어넘는 유용한 양자 알고리즘 공개",
-      "summary_kr": "구글이 슈퍼컴퓨터의 처리 속도를 압도적으로 능가하는 새로운 양자 알고리즘을 개발하며 양자 컴퓨팅 분야에서 중요한 진전을 이루었다. 구글은 이 접근 방식을 '양자 에코(quantum echoes)'라고 명명했으며, 이는 특정 계산 문제를 해결하는 데 있어 혁신적인 효율성을 제공한다. 연구 결과에 따르면, 동일한 계산 작업을 기존의 최신 슈퍼컴퓨터가 수행할 경우 양자 에코 알고리즘보다 약 13,000배나 더 긴 시간이 소요되는 것으로 나타났다. 이러한 엄청난 속도 차이는 양자 컴퓨팅이 복잡한 과학적 시뮬레이션 및 데이터 처리 분야에서 기존 컴퓨팅의 한계를 돌파할 잠재력을 입증한다. 이번 성과는 실용적인 양자 우위(quantum advantage) 실현에 한 발짝 다가선 것으로 평가되며, 향후 다양한 산업 분야에 걸쳐 응용될 가능성이 주목된다.",
-      "summary_en": "An approach it calls \"quantum echoes\" takes 13,000 times longer on a supercomputer."
     },
     {
       "title_en": "NASA’s Boss Just Shook Up the Agency’s Plans to Land on the Moon",
@@ -8841,8 +8973,8 @@
       "category": "News",
       "date": "2025-10-22",
       "image_url": "https://media.wired.com/photos/68f7cabfd7b0b6e1b9e53c99/master/pass/NASA-Boss-Shook-Up-Moon-Landing-Plans-Science-2231496815.jpg",
-      "title": "NASA 국장, 달 착륙 계획에 대대적 변화 예고",
-      "summary_kr": "NASA의 션 더피 국장은 최근 공식 브리핑에서 스페이스X(SpaceX)가 추진 중인 달 착륙선 개발 프로젝트가 예정보다 지연되고 있다고 강하게 비판했다. 더피 국장은 스페이스X의 진척도에 대한 우려를 표명하며, NASA의 달 착륙 목표 달성에 차질이 생길 가능성을 지적했다. 이에 따라 NASA는 더 이상 단일 기업에만 의존하는 방식으로는 계획을 진행할 수 없다는 결론을 내렸다. 더피 국장은 달 착륙선 개발 일정을 준수하기 위해 스페이스X와의 계약 외에도 대안적인 옵션을 모색할 것임을 명확히 했다. 이러한 결정은 NASA가 추진하는 달 유인 탐사 계획인 아르테미스(Artemis) 프로그램의 구조에 큰 수정이 가해질 수 있음을 의미하며 우주 개발 업계에 주목할 만한 변화를 예고하고 있다.",
+      "title": "NASA 수장, 달 착륙 계획에 전면적 변화 예고",
+      "summary_kr": "션 더피 NASA 국장이 최근 달 착륙 계획에 대한 중대한 변화를 시사하며 우주 산업계에 파문을 일으켰다. 더피 국장은 특히 달 착륙선 개발을 담당하고 있는 스페이스X(SpaceX)를 겨냥하여 강한 비판의 목소리를 냈다. 그는 스페이스X가 해당 달 착륙선 개발 일정을 \"예정보다 늦추고 있다(behind schedule)\"고 공식적으로 지적했다. 이러한 지연 상황에 대응하여, 더피 국장은 달 착륙 임무를 완수하기 위해 \"다른 옵션들을 모색할 것\"이라고 명확히 밝혔다. 이는 NASA가 스페이스X와의 계약 외에 다른 우주 기업과의 협력을 고려할 수 있음을 암시하며, 아르테미스(Artemis) 프로그램의 미래에 중대한 영향을 미칠 전망이다.",
       "summary_en": "Sean Duffy called out SpaceX for being “behind schedule” on a lunar lander and said he’d explore other options."
     },
     {
@@ -8852,8 +8984,8 @@
       "category": "News",
       "date": "2025-10-22",
       "image_url": "https://media.wired.com/photos/68f12b770a02f3f0cf5506e5/master/pass/2140991326",
-      "title": "항생제보다 빠르게 확산하는 내성균: 세계 보건 위협 가속화",
-      "summary_kr": "세계보건기구(WHO)의 보고에 따르면, 항생제 내성 박테리아의 확산 속도가 항생제 개발 속도를 능가하며 인류 건강에 대한 위협이 심화되고 있다. 특히 2023년 한 해 동안 실험실에서 확인된 박테리아 감염 사례 중 여섯 건당 한 건꼴로 항생제 치료에 저항성을 보이는 것으로 나타났다. 이는 전 세계적으로 흔하게 발생하는 다양한 일반 질병과 연관된 박테리아에 대한 통계로, 감염 치료의 난이도가 상승하고 있음을 의미한다. 과거에는 간단하게 치료할 수 있었던 감염조차도 이제는 치명적인 결과를 초래할 수 있는 상황이다. 이 결과는 항생제 내성(AMR) 문제가 더 이상 미래의 위협이 아닌 현재의 위기로 자리 잡았음을 보여준다. WHO는 각국 정부가 항생제 오용을 줄이고 새로운 치료법 개발에 시급히 투자할 것을 촉구하고 있다.",
+      "title": "항생제 개발 속도를 추월하는 내성 박테리아의 확산",
+      "summary_kr": "세계보건기구(WHO)의 최근 보고에 따르면, 항생제에 대한 내성균의 확산 속도가 신약 개발 속도를 앞지르고 있어 심각한 공중 보건 위협으로 떠오르고 있다. WHO가 집계한 2023년 실험실 확진 사례 중, 박테리아 감염 사례 6건 중 1건이 항생제 치료에 내성을 보이는 것으로 확인되었다. 이는 전체 확진 사례의 약 16.7%에 달하는 높은 수치로, 항생제 내성 문제의 심각성을 방증한다. 특히, 내성을 보인 박테리아들은 전 세계적으로 흔하게 발생하는 다양한 일반 질병과 연관되어 있다는 점에서 우려가 커지고 있다. 이러한 현상은 기존 항생제의 효능을 떨어뜨리고 치료 옵션을 제한하며, 감염 관리에 중대한 도전 과제를 제시한다. 전문가들은 항생제 내성(AMR) 문제가 더 이상 미래의 위협이 아닌 현재의 위기임을 강조하며, 효과적인 치료제 확보를 위한 국제적 대응 강화가 시급하다고 촉구했다.",
       "summary_en": "One in six laboratory-confirmed bacteria in 2023 proved resistant to antibiotic treatment, according to the World Health Organization—all related to a variety of common diseases globally."
     },
     {
@@ -8863,31 +8995,9 @@
       "category": "News",
       "date": "2025-10-22",
       "image_url": "https://media.wired.com/photos/68f67b35328039a7a6b7066c/master/pass/World-Not-Doing-Anything-About-Climate-Change-Science-2205540770.jpg",
-      "title": "기후 변화 둔화 노력, 효과 보이나 속도 매우 더뎌… 신규 보고서 발표",
-      "summary_kr": "기후 단체 연합이 발표한 새로운 보고서에 따르면, 기후 변화에 맞서기 위한 전 세계적 노력이 대부분의 핵심 지표에서 너무 느리게 진행되고 있는 것으로 나타났다. 보고서는 지구 온난화 방지 목표를 달성하기 위해 필요한 진전 속도에 비해 현재의 조치가 현저히 미흡하다고 지적했다. 기후 변화를 늦추려는 노력 자체가 무의미하지는 않지만, 그 실행 속도가 기후 위기의 심각성을 따라가지 못하고 있는 실정이다. 더욱이 일부 사례에서는 상황이 개선되기는커녕 오히려 역방향으로 나아가고 있어 심각한 우려를 낳고 있다. 보고서는 현행 추세가 지속될 경우 국제적인 기후 목표 달성이 불가능해질 것이라 경고하며, 즉각적인 정책 강화와 이행 속도 가속화를 촉구했다.",
+      "title": "신규 보고서: 기후 변화 둔화 노력, 효과 보지만 진행 속도는 '미흡'",
+      "summary_kr": "기후 단체 연합이 발표한 새로운 보고서에 따르면, 기후 변화에 맞서 싸우려는 전 세계적 노력은 거의 모든 주요 지표에서 매우 느리게 진행되고 있다. 이 보고서는 일부 긍정적인 발전이 있었음을 인정하면서도, 지구 온난화 목표 달성을 위해서는 현재의 속도가 치명적으로 부족하다고 지적했다. 특히 에너지 전환 및 배출량 감축과 같은 핵심 부문에서 기대했던 만큼의 신속한 진전이 이루어지지 않고 있는 것으로 분석된다. 더 나아가, 보고서는 일부 사례에서는 오히려 상황이 악화되어 노력이 잘못된 방향으로 움직이는 것으로 나타났다고 경고했다. 이는 전 세계가 파리 협정의 목표를 달성하고 재앙적인 기후 변화를 피하기 위해서는 훨씬 더 강력하고 즉각적인 조치가 필요함을 시사한다.",
       "summary_en": "By virtually every key metric, efforts to fight climate change are going too slowly, according to findings by a coalition of climate groups. In some cases, things are moving in the wrong direction."
-    },
-    {
-      "title_en": "Sperm From Older Men Have More Genetic Mutations",
-      "url": "https://www.wired.com/story/sperm-from-older-men-have-more-genetic-mutations/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-10-21",
-      "image_url": "https://media.wired.com/photos/68f7a52caa1691057805f8f7/master/pass/esperma.jpg",
-      "title": "고령 남성의 정자, 유전자 돌연변이 축적 위험 증가 확인",
-      "summary_kr": "연구진은 정자 세포가 남성의 생애에 걸쳐 유전적 돌연변이를 지속적으로 축적한다는 사실을 명확히 확인했다. 이러한 유전자 변이의 누적은 남성의 연령이 증가할수록 자녀에게 특정 유전 질환을 전달할 위험을 높이는 주요 요인으로 작용한다. 정자는 평생 동안 끊임없이 분열하는 세포이므로, 나이가 들수록 DNA 복제 과정에서 발생하는 오류가 누적될 가능성이 커진다. 특히 이러한 돌연변이는 정신분열증 및 특정 발달 장애와 같은 복합적인 질환의 발병률과 연관성이 있는 것으로 알려져 있다. 해당 연구는 남성 생식 노화와 후대에 미치는 유전적 영향 사이의 상관관계를 이해하는 데 중요한 과학적 근거를 제시한다. 따라서 고령 출산을 고려하는 부모들에게는 유전적 위험에 대한 심층적인 평가와 상담이 필수적이라는 전문가들의 의견이 제기되고 있다.",
-      "summary_en": "Researchers confirmed that sperm accumulate mutations over the years, increasing the risk of transmitting diseases to offspring."
-    },
-    {
-      "title_en": "Easter Island’s Moai Statues May Have Walked to Where They Now Stand",
-      "url": "https://www.wired.com/story/easter-islands-moai-statues-may-have-walked-to-where-they-now-stand/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-10-21",
-      "image_url": "https://media.wired.com/photos/68f12bbe0c68c00ae87a1d8e/master/pass/620497234",
-      "title": "이스터 섬 모아이 석상, '걸어서' 현 위치까지 이동했을 가능성 제기",
-      "summary_kr": "이스터 섬에 세워진 거대 석상인 모아이(Moai)가 어떻게 채석장에서 섬 전체로 운반되었는지는 수세기 동안 고고학계의 주요 수수께끼로 남아 있었다. 최근 연구 결과는 이 거대한 석상들이 밧줄을 이용해 앞뒤로 흔들며 마치 '걷듯이' 이동했을 것이라는 기존의 가설에 다시 한번 무게를 실어주고 있다. 연구팀은 모아이 석상들의 독특한 형태, 특히 무게 중심과 하단 구조가 이러한 수직 운반 방식에 최적화되어 있음을 과학적으로 입증했다. 이는 단순히 석상을 눕혀서 끌어당기는 전통적인 운반 방식으로는 설명할 수 없었던 고대 폴리네시아인들의 정교한 기술력을 시사한다. 새로운 모델링과 실험을 통해 모아이 운반에 관한 구체적인 경로와 방법이 밝혀지면서, 이 고고학적 난제가 해결되는 데 중요한 진전이 이루어졌다.",
-      "summary_en": "An archaeological mystery gets one step closer to being solved."
     }
   ]
 }
