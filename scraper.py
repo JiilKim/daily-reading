@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-[영구 버전 - GitHub Actions용]
-지정된 RSS 피드에서 뉴스/논문을 크롤링하고
-Gemini API를 이용해 번역/요약한 후
-articles.json을 업데이트합니다. (하루 300개 제한)
-YouTube는 update_youtube_locally.py로 별도 실행합니다.
+Daily Science News Crawler with Gemini AI Translation & Summarization
+- Crawls RSS feeds and YouTube channels
+- Translates and summarizes content using Gemini API
+- Supports YouTube video analysis via URL Context
+- Maintains a rolling 7-day archive
+- GitHub Actions compatible
 """
 
 import requests
@@ -15,153 +16,198 @@ from datetime import datetime
 import feedparser
 import time
 import os
-import google.generativeai as genai
-import google.generativeai.types as genai_types
+from google import genai
+from google.genai import types
 from urllib.parse import urljoin
 import sys
 
-# --- 설정 ---
-# [수정] 하루에 요약할 새 기사/논문의 최대 개수 (300개로 변경)
+# ============================================================================
+# Configuration
+# ============================================================================
+
 MAX_NEW_ARTICLES_PER_RUN = 300
+ARCHIVE_DAYS = 7
+API_DELAY_SECONDS = 1
 
-# --- AI 요약 기능 ---
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    'Accept': 'application/xml,application/rss+xml,text/xml;q=0.9,*/*;q=0.5',
+    'Accept-Language': 'en-US,en;q=0.9,ko;q=0.8',
+    'Cache-Control': 'no-cache',
+}
 
-def get_gemini_summary(title_en, description_en):
+# ============================================================================
+# AI Translation & Summarization
+# ============================================================================
+
+def get_gemini_summary(article_data):
     """
-    Gemini API를 호출하여 제목과 설명을 한글로 번역 및 요약합니다.
+    Translates and summarizes article content using Gemini API.
+    For YouTube videos, analyzes video content directly via URL.
+    
+    Args:
+        article_data (dict): Article metadata including title_en, description_en, url, source
+        
+    Returns:
+        tuple: (translated_title_kr, summary_kr)
     """
-    print(f"  [AI] '{title_en[:30]}...' 번역/요약 요청 중...")
+    title_en = article_data['title_en']
+    description_en = article_data['description_en']
+    url = article_data['url']
+    source = article_data.get('source', '')
 
     try:
         api_key = os.environ.get('GEMINI_API_KEY')
-
+        
         if not api_key:
-            print("  [AI] ❌ GEMINI_API_KEY가 설정되지 않았습니다. 요약을 건너뜁니다.")
-            return title_en, f"[요약 실패] API 키가 없습니다. (원본: {description_en[:100]}...)"
+            print("  [AI] ❌ GEMINI_API_KEY not found. Skipping translation.")
+            return title_en, f"[Translation Failed] No API key. (Original: {description_en[:100]}...)"
 
-        genai.configure(api_key=api_key)
+        client = genai.Client(api_key=api_key)
 
-        generation_config = genai.GenerationConfig(response_mime_type="application/json")
-        model = genai.GenerativeModel(
-            'gemini-2.5-flash-preview-09-2025',
-            generation_config=generation_config
-        )
+        # YouTube videos: Analyze video content directly
+        if 'YouTube' in source:
+            print(f"  [AI] 🎥 Analyzing YouTube video: '{title_en[:40]}...'")
+            
+            prompt = f"""
+You are a video summarizer. Analyze the YouTube video and create a Korean title and Korean summary.
+Output MUST be in the specified JSON format.
 
-        prompt = f"""
-        당신은 전문 과학 뉴스 편집자입니다.
-        아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
-        결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+[Input]
+- title_en: "{title_en}"
 
-        [입력]
-        - title_en: "{title_en}"
-        - description_en: "{description_en}"
+[JSON Output Format]
+{{
+  "title_kr": "Write professional Korean translation of the title",
+  "summary_kr": "Extract the key points, and write detailed 10 sentences Korean summary of video content"
+}}
 
-        [JSON 출력 형식]
-        {{
-          "title_kr": "여기에 한국어 번역 제목을 작성",
-          "summary_kr": "여기에 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
-        }}
+[Rules]
+1. "title_kr": Translate "title_en" into natural, professional Korean
+2. "summary_kr": Provide detailed 10 sentence summary in natural Korean style
+3. Use general writing style, not conversational tone
+"""
 
-        [규칙]
-        1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
-        2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 5-6 문장의 한국어로 요약합니다.
-        3. 친절한 말투가 아닌, 전문적이고 간결한 뉴스체로 작성합니다.
-        """
+            response = client.models.generate_content(
+                model='gemini-2.0-flash-exp',
+                contents=[
+                    prompt,
+                    types.Part.from_uri(
+                        file_uri=url,
+                        mime_type="video/youtube"
+                    )
+                ],
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                )
+            )
+            
+        # Text articles: Translate and summarize from description
+        else:
+            print(f"  [AI] 📝 Translating article: '{title_en[:40]}...'")
+            
+            prompt = f"""
+You are a professional science news editor. Translate and summarize the article in Korean.
+Output MUST be in the specified JSON format.
 
-        # API 호출 시 타임아웃 설정
-        response = model.generate_content(prompt, request_options={'timeout': 120})
+[Input]
+- title_en: "{title_en}"
+- description_en: "{description_en}"
 
+[JSON Output Format]
+{{
+  "title_kr": "Write professional Korean translation of the title",
+  "summary_kr": "Write detailed 5-6 sentence Korean summary"
+}}
+
+[Rules]
+1. "title_kr": Translate "title_en" into natural, professional Korean
+2. "summary_kr": Summarize key points from "description_en" in 5-6 sentences
+3. Use professional news writing style, not conversational tone
+"""
+            
+            response = client.models.generate_content(
+                model='gemini-2.0-flash-exp',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                )
+            )
+
+        # Parse JSON response
         data = json.loads(response.text)
-
         title_kr = data.get('title_kr', title_en)
-        summary_kr = data.get('summary_kr', f"[요약 실패] API 응답 오류. (원본: {description_en[:100]}...)")
+        summary_kr = data.get('summary_kr', f"[Translation Failed] API error. (Original: {description_en[:100]}...)")
 
-        print(f"  [AI] ✓ 요약 완료: {title_kr[:30]}...")
+        print(f"  [AI] ✓ Translation complete: {title_kr[:40]}...")
         return title_kr, summary_kr
 
-    except Exception as e:
-        # 'BlockedPromptError'가 아닌 'BlockedPromptException'으로 수정
-        if isinstance(e, genai_types.generation_types.BlockedPromptException):
-             print(f"  [AI] ❌ Gemini API - 콘텐츠 차단 오류: {e}")
-             return title_en, "[요약 실패] API가 콘텐츠를 차단했습니다."
-
-        print(f"  [AI] ❌ Gemini API 오류: {e}")
-        # API 할당량 초과(ResourceExhausted) 등의 오류 포함
-        return title_en, f"[요약 실패] API 호출 중 오류 발생. (원본: {description_en[:100]}...)"
-
     except json.JSONDecodeError as e:
-        print(f"  [AI] ❌ JSON 파싱 오류: {e}. 응답 텍스트: {response.text[:100]}...")
-        return title_en, f"[요약 실패] API 응답 형식 오류. (원본: {description_en[:100]}...)"
+        print(f"  [AI] ❌ JSON parsing error: {e}")
+        return title_en, f"[Translation Failed] Invalid API response. (Original: {description_en[:100]}...)"
+    
+    except Exception as e:
+        print(f"  [AI] ❌ API error: {e}")
+        return title_en, f"[Translation Failed] API call failed. (Original: {description_en[:100]}...)"
 
 
-# --- 웹사이트별 스크래퍼 ---
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-    'Accept': 'application/xml,application/rss+xml,text/xml;q=0.9,text/html;q=0.8,*/*;q=0.5',
-    'Accept-Language': 'en-US,en;q=0.9,ko;q=0.8',
-    'Cache-Control': 'no-cache',
-    'Pragma': 'no-cache',
-}
+# ============================================================================
+# RSS Feed Scraper
+# ============================================================================
 
-# 봇 차단 및 오류에 강한 RSS 피드 파싱 함수
-def scrape_robust_rss_feed(feed_url, source_name, category_name):
+def scrape_rss_feed(feed_url, source_name, category_name):
     """
-    requests로 먼저 콘텐츠를 가져온 후 feedparser로 파싱하여 안정성을 높인 함수.
+    Scrapes articles from RSS feed with robust error handling.
+    
+    Args:
+        feed_url (str): RSS feed URL
+        source_name (str): Source name for identification
+        category_name (str): Article category (News/Paper/Video)
+        
+    Returns:
+        list: List of article dictionaries
     """
     articles = []
-    print(f"🔍 [{source_name}] (RSS) 크롤링 중... (URL: {feed_url})")
+    print(f"🔍 [{source_name}] Crawling RSS... (URL: {feed_url})")
 
     try:
-        # requests로 먼저 접속 시도
         response = requests.get(feed_url, headers=HEADERS, timeout=20)
-
-        # HTTP 오류 확인 (예: 404, 500)
         response.raise_for_status()
 
-        # Content-Type 확인 (XML/RSS가 맞는지)
         content_type = response.headers.get('Content-Type', '').lower()
-        if 'xml' not in content_type and 'rss' not in content_type and 'atom' not in content_type:
-            print(f"  ❌ RSS 피드가 XML/RSS/ATOM이 아닌 응답을 반환했습니다. (Content-Type: {content_type})")
-            print(f"     응답 내용 (첫 200자): {response.text[:200]}...")
-            return [] # 빈 리스트 반환
+        if not any(ct in content_type for ct in ['xml', 'rss', 'atom']):
+            print(f"  ❌ Invalid content type: {content_type}")
+            print(f"     Response preview: {response.text[:200]}...")
+            return []
 
-        # requests로 가져온 콘텐츠를 feedparser로 파싱
         feed = feedparser.parse(response.content)
 
-        # feedparser 파싱 오류 확인 (bozo 플래그)
         if feed.bozo:
-            print(f"  ⚠️ RSS 피드 파싱 중 오류 발생 (bozo): {feed.bozo_exception}")
-            # 오류가 있어도 최대한 파싱된 항목은 처리 시도
+            print(f"  ⚠️ Feed parsing warning: {feed.bozo_exception}")
 
-        print(f"  [i] {len(feed.entries)}개 항목 찾음")
+        print(f"  [i] Found {len(feed.entries)} items")
 
         for entry in feed.entries:
             try:
-                # 제목/링크 누락 시 건너뛰기
                 if not entry.get('title') or not entry.get('link'):
-                    print("    ⚠️ 제목 또는 링크 누락. 항목 건너뜀.")
+                    print("    ⚠️ Missing title or link. Skipping.")
                     continue
 
                 title_en = entry.title
                 link = entry.link
-
-                # 설명: summary > description > title 순서로 찾기
-                description_en = entry.summary if entry.get('summary') else (entry.description if entry.get('description') else title_en)
-
-                # HTML 태그 제거
+                description_en = entry.get('summary') or entry.get('description') or title_en
                 description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
 
-                # 날짜 파싱 (오류 발생 시 오늘 날짜로 대체)
+                # Parse publication date
                 date_str = datetime.now().strftime('%Y-%m-%d')
                 if entry.get('published_parsed'):
                     try:
-                        # struct_time을 datetime 객체로 변환 후 포맷팅
                         dt_obj = datetime.fromtimestamp(time.mktime(entry.published_parsed))
                         date_str = dt_obj.strftime('%Y-%m-%d')
-                    except (TypeError, ValueError) as date_err:
-                        print(f"    ⚠️ 날짜 파싱 오류: {date_err}, 오늘 날짜 사용.")
+                    except (TypeError, ValueError):
+                        pass
 
-                # 이미지 추출 (media_thumbnail, enclosure, description 내 img 태그 순)
+                # Extract image URL
                 image_url = None
                 if entry.get('media_thumbnail'):
                     image_url = entry.media_thumbnail[0].get('url')
@@ -170,16 +216,13 @@ def scrape_robust_rss_feed(feed_url, source_name, category_name):
                         if e_link.get('rel') == 'enclosure' and e_link.get('type', '').startswith('image/'):
                             image_url = e_link.get('href')
                             break
-                if not image_url and description_en: # 설명 필드에 HTML이 있을 경우
+                
+                if not image_url and description_en:
                     desc_soup = BeautifulSoup(description_en, 'html.parser')
                     img_tag = desc_soup.find('img')
-                    if img_tag:
-                        # 상대 URL일 수 있으므로 절대 URL로 변환 시도
-                        img_src = img_tag.get('src')
-                        if img_src:
-                            image_url = urljoin(link, img_src) # 기사 링크 기준으로 절대 URL 생성
+                    if img_tag and img_tag.get('src'):
+                        image_url = urljoin(link, img_tag.get('src'))
 
-                # 제목에서 HTML 태그 제거 (<Emphasis> 등)
                 title_en = BeautifulSoup(title_en, 'html.parser').get_text(strip=True)
 
                 articles.append({
@@ -193,147 +236,227 @@ def scrape_robust_rss_feed(feed_url, source_name, category_name):
                 })
 
             except Exception as item_err:
-                # 개별 항목 파싱 오류는 로그만 남기고 계속 진행
-                print(f"  ✗ RSS 개별 항목 파싱 실패: {item_err}")
+                print(f"  ✗ Failed to parse item: {item_err}")
 
     except requests.exceptions.RequestException as req_err:
-        # requests 관련 오류 (연결 실패, 타임아웃, HTTP 오류 등)
-        print(f"❌ [{source_name}] RSS 요청 실패: {req_err}")
+        print(f"❌ [{source_name}] Request failed: {req_err}")
     except Exception as e:
-        # 그 외 예기치 못한 전체 오류
-        print(f"❌ [{source_name}] RSS 크롤링 중 예기치 못한 오류: {e}")
+        print(f"❌ [{source_name}] Unexpected error: {e}")
 
     return articles
 
 
+# ============================================================================
+# YouTube Channel Scraper
+# ============================================================================
+
+def scrape_youtube_videos(channel_id, source_name, category_name):
+    """
+    Scrapes latest videos from YouTube channel RSS feed.
+    Video content will be analyzed by AI using URL Context.
+    
+    Args:
+        channel_id (str): YouTube channel ID
+        source_name (str): Source name for identification
+        category_name (str): Article category
+        
+    Returns:
+        list: List of video dictionaries
+    """
+    articles = []
+    print(f"🔍 [{source_name}] Crawling YouTube... (Channel: {channel_id})")
+    feed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
+
+    try:
+        response = requests.get(feed_url, headers=HEADERS, timeout=20)
+        response.raise_for_status()
+
+        content_type = response.headers.get('Content-Type', '').lower()
+        if 'xml' not in content_type:
+            print(f"  ❌ Invalid content type: {content_type}")
+            return []
+
+        feed = feedparser.parse(response.content)
+
+        if feed.bozo:
+            print(f"  ⚠️ Feed parsing warning: {feed.bozo_exception}")
+
+        print(f"  [i] Found {len(feed.entries)} latest videos")
+
+        for entry in feed.entries:
+            try:
+                if not entry.get('title') or not entry.get('link'):
+                    print("    ⚠️ Missing title or link. Skipping.")
+                    continue
+
+                title_en = entry.title
+                link = entry.link
+                video_id = link.split('v=')[-1]
+
+                # Parse publication date
+                date_str = datetime.now().strftime('%Y-%m-%d')
+                if entry.get('published_parsed'):
+                    dt_obj = datetime.fromtimestamp(time.mktime(entry.published_parsed))
+                    date_str = dt_obj.strftime('%Y-%m-%d')
+
+                # Get high-quality thumbnail
+                image_url = None
+                if entry.get('media_thumbnail') and entry.media_thumbnail:
+                    image_url = entry.media_thumbnail[0]['url'].replace('default.jpg', 'hqdefault.jpg')
+
+                # Use RSS description as supplementary info for AI
+                description_en = entry.get('media_description', entry.get('summary', title_en))
+                description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
+                
+                print(f"    [i] Video {video_id} loaded. AI will analyze URL directly.")
+
+                articles.append({
+                    'title_en': title_en,
+                    'description_en': description_text,
+                    'url': link,
+                    'source': source_name,
+                    'category': category_name,
+                    'date': date_str,
+                    'image_url': image_url
+                })
+
+            except Exception as item_err:
+                print(f"  ✗ Failed to parse video: {item_err}")
+
+    except requests.exceptions.RequestException as req_err:
+        print(f"❌ [{source_name}] Request failed: {req_err}")
+    except Exception as e:
+        print(f"❌ [{source_name}] Unexpected error: {e}")
+
+    return articles
+
+
+# ============================================================================
+# Main Execution
+# ============================================================================
+
 def main():
-    """메인 실행 함수"""
+    """Main execution function for GitHub Actions workflow"""
+    
     print("\n" + "="*60)
-    print("📰 일일 읽을거리 자동 수집 및 요약 시작")
-    print(f"🕐 시작 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("📰 Daily Science News Crawler - Starting")
+    print(f"🕐 Start Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*60 + "\n")
 
+    # ========================================================================
+    # 1. Crawl all sources
+    # ========================================================================
+    
     all_articles_to_check = []
-
-    # --- [수정] RSS 피드 목록 (오류 수정 및 전체 포함) ---
-    # 기존 목록
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))    
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))    
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nm/current_issue/rss', 'Nature Medicine', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
-
-    # 새로 추가/수정된 목록
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
-    # [수정] The Scientist: 공식 웹사이트의 RSS 링크 사용
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://arstechnica.com/science/feed/', 'Ars Technica', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News'))
-    # [수정] Neuroscience News: 잘 작동하는 주소 유지
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://neurosciencenews.com/feed/', 'Neuroscience News', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://endpts.com/feed/', 'Endpoints News', 'News'))
-    all_articles_to_check.extend(scrape_robust_rss_feed('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper'))
-
-
+    
+    # YouTube Channels
+    all_articles_to_check.extend(
+        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video')
+    )
+    
+    # News Sources
+    all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
+    
+    # ========================================================================
+    # 2. Load existing articles (last 7 days only)
+    # ========================================================================
+    
     seen_urls = set()
-    final_article_list = [] # 최종 저장될 리스트 (기존 + 신규)
+    final_article_list = []
 
     try:
         with open('articles.json', 'r', encoding='utf-8') as f:
             old_data = json.load(f)
-            # 최근 7일간의 기사만 URL 체크 및 최종 리스트에 추가
             for old_article in old_data.get('articles', []):
                 try:
                     article_date = datetime.strptime(old_article.get('date', '1970-01-01'), '%Y-%m-%d')
-                    if (datetime.now() - article_date).days <= 7:
+                    if (datetime.now() - article_date).days <= ARCHIVE_DAYS:
                         if old_article.get('url'):
                             seen_urls.add(old_article['url'])
                             final_article_list.append(old_article)
                 except ValueError:
-                    continue # 날짜 형식이 다르면 무시
-        print(f"\n[i] 기존 {len(seen_urls)}개의 URL (최근 7일)을 로드했습니다. 새로운 기사만 추가/요약합니다.")
+                    continue
+                    
+        print(f"\n[i] Loaded {len(seen_urls)} existing URLs (last {ARCHIVE_DAYS} days)")
+        
     except FileNotFoundError:
-        print("\n[i] 'articles.json' 파일이 없습니다. 새로 생성합니다.")
+        print("\n[i] 'articles.json' not found. Creating new file.")
     except json.JSONDecodeError:
-        print("\n[i] ❌ 'articles.json' 파일이 손상되었습니다. 새로 생성합니다.")
+        print("\n[i] ❌ 'articles.json' is corrupted. Creating new file.")
         final_article_list = []
         seen_urls = set()
 
-
-    new_articles = [] # 새로 요약된 기사만 임시 보관
+    # ========================================================================
+    # 3. Process new articles with AI translation
+    # ========================================================================
+    
+    new_articles = []
     existing_articles_count = 0
     new_article_count = 0
-    api_errors = 0 # API 오류 횟수
+    api_errors = 0
 
-    print(f"\n[i] 총 {len(all_articles_to_check)}개의 (RSS) 항목을 확인합니다 (최대 {MAX_NEW_ARTICLES_PER_RUN}개까지 요약).")
+    print(f"\n[i] Checking {len(all_articles_to_check)} items (max {MAX_NEW_ARTICLES_PER_RUN} new articles)")
 
     for article_data in all_articles_to_check:
-
-        # URL 누락 또는 빈 URL 체크
+        
         if not article_data.get('url'):
-            print(f"  ⚠️ URL이 없는 항목 발견 (Source: {article_data.get('source', 'N/A')}). 건너뜁니다.")
+            print(f"  ⚠️ Missing URL (Source: {article_data.get('source', 'N/A')}). Skipping.")
             continue
 
         if article_data['url'] not in seen_urls:
-
+            
             if new_article_count >= MAX_NEW_ARTICLES_PER_RUN:
-                print(f"  [i] API 할당량 보호를 위해 {MAX_NEW_ARTICLES_PER_RUN}개 도달. 나머지는 다음 실행으로...")
-                break # 하루 최대치에 도달하면 루프 중단
+                print(f"  [i] Reached limit ({MAX_NEW_ARTICLES_PER_RUN} articles). Stopping for quota protection.")
+                break
 
             new_article_count += 1
-            print(f"  [i] ✨ 새로운 기사 발견 ({new_article_count}/{MAX_NEW_ARTICLES_PER_RUN}): {article_data['title_en'][:50]}...")
+            print(f"  [i] ✨ New item found ({new_article_count}/{MAX_NEW_ARTICLES_PER_RUN}): {article_data['title_en'][:50]}...")
 
-            # API 호출로 번역 및 요약
-            title_kr, summary_kr = get_gemini_summary(article_data['title_en'], article_data['description_en'])
+            # Translate and summarize with AI
+            title_kr, summary_kr = get_gemini_summary(article_data)
 
-            # API 요약 실패 시 오류 카운트 증가
-            if "[요약 실패]" in summary_kr:
+            if "[Translation Failed]" in summary_kr or "[요약 실패]" in summary_kr:
                 api_errors += 1
 
+            # Prepare final article object
             article_data['title'] = title_kr
             article_data['summary_kr'] = summary_kr
-
-            # 원본 영어 제목/설명도 저장
-            article_data['title_en'] = article_data['title_en']
             article_data['summary_en'] = article_data['description_en']
-            del article_data['description_en'] # 중복 필드 제거
+            del article_data['description_en']
 
             new_articles.append(article_data)
             seen_urls.add(article_data['url'])
 
-            time.sleep(1) # API 딜레이
+            time.sleep(API_DELAY_SECONDS)
 
-        elif article_data.get('url'):
+        else:
             existing_articles_count += 1
 
-    print(f"\n[i] {new_article_count}개의 새로운 (RSS) 기사를 요약 시도했습니다.")
-    print(f"    (성공: {new_article_count - api_errors}개, API 오류: {api_errors}개)")
-    print(f"    (중복/기존 기사 {existing_articles_count}개 제외)")
+    print(f"\n[i] Processed {new_article_count} new articles")
+    print(f"    (Success: {new_article_count - api_errors}, API Errors: {api_errors})")
+    print(f"    (Skipped {existing_articles_count} existing articles)")
 
-
-    # 3. 기존 데이터와 새로운 데이터를 합침
+    # ========================================================================
+    # 4. Merge and deduplicate articles
+    # ========================================================================
+    
     final_article_list.extend(new_articles)
 
-    # 4. 합친 목록에서 다시 중복 제거 (혹시 모를 경우 대비)
+    # Remove any remaining duplicates
     final_seen_urls = set()
     deduplicated_list = []
     for article in final_article_list:
-        if article.get('url') not in final_seen_urls:
-            if article.get('url'):
-                final_seen_urls.add(article['url'])
-                deduplicated_list.append(article)
+        if article.get('url') and article['url'] not in final_seen_urls:
+            final_seen_urls.add(article['url'])
+            deduplicated_list.append(article)
 
-    # 5. 날짜순 정렬 (최신순)
+    # Sort by date (newest first)
     deduplicated_list.sort(key=lambda x: x.get('date', '1970-01-01'), reverse=True)
 
-    # JSON 파일로 저장
+    # ========================================================================
+    # 5. Save to JSON file
+    # ========================================================================
+    
     output = {
         'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         'articles': deduplicated_list
@@ -343,22 +466,31 @@ def main():
     try:
         with open(json_file_path, 'w', encoding='utf-8') as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
-        print(f"\n✅ 완료! 총 {len(deduplicated_list)}개 항목 저장 (최근 7일 + 신규)")
-        print(f"📁 '{json_file_path}' 파일 업데이트됨")
+        print(f"\n✅ Success! Saved {len(deduplicated_list)} articles (last {ARCHIVE_DAYS} days + new)")
+        print(f"📁 '{json_file_path}' updated")
     except Exception as write_err:
-        print(f"\n❌ JSON 파일 저장 실패: {write_err}")
-        sys.exit(1) # 오류 코드와 함께 종료
+        print(f"\n❌ Failed to save JSON: {write_err}")
+        sys.exit(1)
 
-    print("\n" + "="*60 + "\n")
-
+    # ========================================================================
+    # 6. Print statistics
+    # ========================================================================
+    
+    print("\n" + "="*60)
+    print("📊 Collection Statistics (last 7 days + new):")
+    print("="*60)
+    
     sources = {}
     for article in deduplicated_list:
         source = article.get('source', 'Unknown')
         sources[source] = sources.get(source, 0) + 1
 
-    print("📊 소스별 수집 현황 (최근 7일 + 신규):")
     for source, count in sorted(sources.items()):
-        print(f"  • {source}: {count}개")
+        print(f"  • {source}: {count} articles")
+    
+    print("\n" + "="*60)
+    print(f"🕐 End Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("="*60 + "\n")
 
 
 if __name__ == '__main__':
