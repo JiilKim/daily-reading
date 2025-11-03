@@ -356,7 +356,27 @@ def main():
     
     # News Sources
     all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://arstechnica.com/science/feed/', 'Ars Technica', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://neurosciencenews.com/feed/', 'Neuroscience News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://endpts.com/feed/', 'Endpoints News', 'News'))
     
+    # Scientific Papers
+    all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nm/current_issue/rss', 'Nature Medicine', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper'))
+
     # ========================================================================
     # 2. Load existing articles (last 7 days only)
     # ========================================================================
