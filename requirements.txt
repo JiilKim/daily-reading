@@ -1,7 +1,7 @@
 requests
 beautifulsoup4
 feedparser
-google-generativeai
+google-genai
 youtube_transcript_api==0.6.2
 python-dotenv
 packaging
