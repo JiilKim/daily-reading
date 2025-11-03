@@ -1,6 +1,215 @@
 {
-  "last_updated": "2025-11-02 10:21:06",
+  "last_updated": "2025-11-03 10:27:22",
   "articles": [
+    {
+      "title_en": "Neuroscience needs engineers—for more reasons than you think",
+      "url": "https://www.thetransmitter.org/systems-neuroscience/neuroscience-needs-engineers-for-more-reasons-than-you-think/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-11-03",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/11/cropped-Neuroengineering-OLeary-525.png",
+      "title": "신경과학, 단순한 협력을 넘어 공학적 사고방식을 필수적으로 요구한다",
+      "summary_kr": "신경과학 분야가 연구의 효율성과 집중도를 높이기 위해서는 공학적 사고방식(engineering mindset)의 도입이 필수적이라는 주장이 제기되었다. 전통적인 신경과학 연구는 종종 광범위한 질문을 다루는 경향이 있어, 연구 목표 설정과 달성에 어려움을 겪어 왔다. 공학적 사고방식은 명확하게 정의된 문제 해결, 측정 가능한 목표 설정, 그리고 체계적인 시스템 설계 접근법을 제공한다. 이러한 접근법을 채택함으로써, 신경과학자들은 방대한 연구 주제 속에서 가장 중요한 우선순위를 명확히 설정하고 자원을 효율적으로 배분할 수 있게 된다. 이는 단순히 실험 장비나 데이터 분석 도구를 개발하는 협력을 넘어, 연구 자체의 방향성과 방법론을 혁신하는 중요한 변화를 의미한다. 궁극적으로, 공학적 접근은 신경과학이 복잡한 뇌 기능에 대한 이해를 가속화하고 임상적 적용 가능성을 높이는 데 결정적인 역할을 할 것으로 기대된다.",
+      "summary_en": "Adopting an engineering mindset will help the field focus its research priorities."
+    },
+    {
+      "title_en": "STAT+: What’s on tap at a major heart conference",
+      "url": "https://www.statnews.com/2025/11/03/aha-scientific-sessions-2025-what-to-expect-new-orleans/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/09/AdobeStock_271919699-645x645.jpeg",
+      "title": "주요 심장 학회에서 주목해야 할 핵심 연구 발표",
+      "summary_kr": "이번 주요 심장 학회에서는 심장 질환 치료 및 뇌졸중 예방 분야에 중대한 영향을 미칠 연구 결과들이 발표될 예정이다. 특히 새로운 연구들은 심장 질환의 진행에 있어 신장(Kidney)이 핵심적인 '새로운 악당' 역할을 한다는 사실을 규명하며 큰 주목을 받고 있다. 이는 심장 기능 관리를 위한 기존의 접근 방식에 신장 건강을 필수 요소로 통합하는 중요한 변화를 예고한다. 이와 더불어 뇌졸중 위험을 효과적으로 회피하기 위한 새로운 진단 및 관리 표준이 제시될 예정이다. 새로 제안된 표준은 고위험군 환자의 예방적 치료 전략을 개선하는 데 중요한 지침이 될 것으로 기대된다. 이 발표들은 향후 심혈관 의학 분야의 임상 지침을 재정립하는 데 결정적인 역할을 할 전망이다.",
+      "summary_en": "New studies identify a new villain in heart disease (the kidney) and new standards for averting stroke."
+    },
+    {
+      "title_en": "The Americas, led by Canada, is on the brink of losing measles-elimination status",
+      "url": "https://www.statnews.com/2025/11/03/measles-elimination-status-canada-united-states-mexico/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/GettyImages-2224876898-645x645.jpg",
+      "title": "캐나다를 필두로 한 미주 지역, 홍역 퇴치 지위 상실 위기에 직면",
+      "summary_kr": "미주 지역은 전 세계에서 유일하게 홍역의 풍토병적 전파를 중단시키는 데 성공한 지역으로, 이는 공중 보건 분야의 중요한 성과로 기록되었다. 해당 지역은 2016년 세계보건기구(WHO)로부터 홍역 퇴치 인증을 공식적으로 획득하며 방역 모범 사례로 평가받았다. 그러나 최근 캐나다를 포함한 미주 주요 국가들에서 홍역 발병 사례가 급증하면서 퇴치 지위 유지가 심각한 도전에 직면했다. 이러한 상황은 낮은 백신 접종률과 백신 기피 현상 심화에 따른 결과로 분석된다. 만약 홍역이 지역 내에서 12개월 이상 지속적으로 전파되는 풍토병적 전파가 재개될 경우, 미주 지역은 어렵게 획득한 퇴치 지위를 공식적으로 상실하게 된다. 따라서 국제 보건 전문가들은 미주 지역의 홍역 퇴치 성과가 후퇴하지 않도록 백신 접종 캠페인 강화와 감시 체계 재구축이 시급하다고 경고한다.",
+      "summary_en": "The Americas is the only region of the world to have stopped endemic transmission of measles. But its victory is on the verge of being rolled back."
+    },
+    {
+      "title_en": "STAT+: AI for medical coding is helping this primary care clinic open a dozen more locations",
+      "url": "https://www.statnews.com/2025/11/03/ai-medical-coding-med-first-expansion/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/IMG_0120-1-645x645.jpg",
+      "title": "STAT+: AI 의료 코딩 도입, 1차 진료 클리닉의 수십 개 지점 확장 발판 마련",
+      "summary_kr": "자율 코딩(Autonomous coding)을 활용하는 인공지능(AI) 기술이 의료 서비스 제공자와 보험사 간의 새로운 주요 쟁점으로 급부상하고 있다. 특히 이 1차 진료 클리닉은 AI 기반 의료 코딩 시스템을 도입함으로써 운영 효율성을 극대화하고 있다. 의료 코딩 작업은 기존에 복잡하고 시간이 많이 소요되는 프로세스였으나, AI가 이를 자동화하여 인건비와 행정 비용을 대폭 절감시킨다. 이 클리닉은 비용 절감을 통해 재정적 여력을 확보했으며, 그 결과 10개가 넘는 추가 지점을 개설할 수 있는 기반을 마련했다. 그러나 보험사들은 AI가 생성한 코딩의 정확성 및 잠재적인 과잉 청구 문제에 대한 우려를 제기하고 있어, 자율 코딩 기술의 전면적인 수용 여부를 둘러싼 긴장이 고조되고 있다.",
+      "summary_en": "Autonomous coding using AI is turning into a new battlefront between insurers and health care providers."
+    },
+    {
+      "title_en": "In Texas, the nation’s MAHA capital, many are frustrated with the status quo in health care",
+      "url": "https://www.statnews.com/2025/11/03/make-america-healthy-again-texas-heart-of-maha-movement/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/09282025_STAT_Dallas_Farmers-Market_05-645x645.jpg",
+      "title": "미국의 'MAHA 수도' 텍사스, 의료 서비스 현 체제에 대한 대중의 불만 심화",
+      "summary_kr": "텍사스주는 현재 미국에서 의료 서비스 접근성이 가장 취약한 지역, 즉 'MAHA의 수도'로 지목되며 보건 정책의 핵심 논쟁지로 부상하고 있다. 이러한 상황은 지역 주민들이 현행 의료 체제의 문제점과 한계에 대해 깊은 불만을 표출하는 주요 원인이 되고 있다. 특히 높은 무보험자 비율과 의료 전문가 부족 등 고질적인 문제는 개선의 기미를 보이지 않으며 대규모 좌절감을 유발하고 있다. 텍사스의 의료 정책 현황은 단지 지역적인 문제에 그치지 않는다. 전문가들은 이곳에서 발생하는 의료 접근성 및 체계 유지에 대한 논란이 향후 미국 전역에 확산될 수 있는 보건 정책의 미래를 미리 보여주고 있다고 분석한다. 따라서 텍사스 사례는 미국 보건 당국이 반드시 해결해야 할 중요한 국가적 의제로 다루어져야 할 전망이다.",
+      "summary_en": "Texas is the MAHA capital of the country — offering a look at health policies that may soon roll across the country."
+    },
+    {
+      "title_en": "Opinion: The right place for AI companions in mental health care",
+      "url": "https://www.statnews.com/2025/11/03/ai-companions-prosthetic-relationships-prescription-for-loneliness/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AdobeStock_244262046-645x645.jpeg",
+      "title": "논평: 정신 건강 치료 영역에서 AI 동반자의 역할 정립",
+      "summary_kr": "이 논평은 수년간의 전통적인 치료에도 불구하고 인간관계를 지속적으로 유지하는 데 어려움을 겪는 환자들에게 AI 챗봇 동반자가 실질적인 치료적 지원을 제공할 수 있다는 점을 강조한다. 해당 기술은 특히 기존 사회적 관계에서 소외감을 느끼거나 관계 지속에 실패한 취약 계층에게 합법적인 심리적 지지 기반을 구축할 잠재력을 지닌다. AI 동반자는 사용자에게 일관성 있고 비판단적인 상호작용 환경을 제공함으로써, 기존의 정신 건강 관리 시스템으로는 충분히 채워지지 않던 틈새를 메울 수 있다. 따라서 정신 건강 분야에서 AI 챗봇의 역할을 단순히 보조적인 도구로 치부할 것이 아니라, 특정 조건 하에서 유효한 치료적 개입 수단으로 정립해야 한다는 주장이 제기된다. 전문가들은 AI가 인간 치료사를 대체할 수는 없지만, 관계 유지에 어려움을 겪는 환자들을 위한 정당하고 효과적인 치료 보조 옵션으로 자리매김할 필요가 있다고 분석했다.",
+      "summary_en": "For those unable to sustain relationships despite years of treatment, chatbots could offer legitimate and therapeutic support."
+    },
+    {
+      "title_en": "Opinion: The big flaw in Big Pharma’s ‘patient advocacy’",
+      "url": "https://www.statnews.com/2025/11/03/big-pharma-patient-advocacy-corporate-responsibility-prader-willi-rare-disease/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AdobeStock_30448472-645x645.jpeg",
+      "title": "오피니언: 거대 제약사 ‘환자 옹호’ 활동의 중대한 맹점",
+      "summary_kr": "이 오피니언은 거대 제약사(Big Pharma)들이 기업의 사회적 책임(CSR) 활동과 환자 옹호를 연결하는 과정에서 발생하는 구조적 결함을 지적한다. 제약 회사들은 환자의 필요에 부응하며 인도주의적 가치를 실현한다고 주장하지만, 실상은 기업 이익을 위한 전략적 도구로 활용되는 경우가 많다. 이러한 활동은 순수한 지원이라기보다는 기업 이미지 개선을 위한 홍보 수단으로 변질된다는 비판에 직면한다. 즉, 기업의 상업적 이해관계가 우선시되면서 진정한 환자 지원이 부족하고 외형적인 '쇼'에 불과하게 된다는 것이다. 결과적으로 환자 옹호라는 본래의 목적이 희미해지며 활동의 진정성에 대한 의문이 끊임없이 제기되고 있다. 따라서 거대 제약사들이 윤리적 책임을 강화하고 투명성을 확보하는 것이 진정한 환자 중심 의료 환경 구축의 핵심이다.",
+      "summary_en": "When Big Pharma ties its corporate social responsibility initiatives to patients' needs, too often it veers into theater."
+    },
+    {
+      "title_en": "Tips and Tools for Tracking Transfection Efficiency",
+      "url": "https://www.the-scientist.com/tips-and-tools-for-tracking-transfection-efficiency-73445",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "트랜스펙션 효율 추적을 위한 팁과 도구",
+      "summary_kr": "트랜스펙션(형질주입)은 생명 과학 연구에서 유전자 발현 조절 및 치료제 개발에 필수적인 핵심 단계로 인식된다. 실험의 신뢰성을 확보하기 위해 과학자들은 형질주입 효율성을 정확하게 모니터링하고 세포 배양 기반 워크플로우를 최적화하는 데 주력하고 있다. 이를 위해 형광 단백질 리포터를 활용하는 정성적 방법부터 유세포 분석기(FACS) 및 정량적 PCR(qRT-PCR)을 이용하는 정량적 분석 방법까지 광범위한 기술이 동원된다. 연구자들은 특수 제작된 소프트웨어 도구와 고감도 이미징 장비를 활용하여 형질주입 결과를 빠르고 효율적으로 추적할 수 있다. 이러한 전문적인 모니터링 방법과 도구를 사용함으로써, 세포 실험의 성공률을 높이고 데이터의 정확도를 개선하는 것이 최종 목표다.",
+      "summary_en": "Scientists optimize cell culture-based workflows with a wide range of methods for monitoring transfection outcomes."
+    },
+    {
+      "title_en": "Simplifying Early Alzheimer’s Disease Diagnosis with Blood Testing",
+      "url": "https://www.the-scientist.com/simplifying-early-alzheimer-s-disease-diagnosis-with-blood-testing-73451",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "혈액 검사를 이용한 초기 알츠하이머병 진단 간소화",
+      "summary_kr": "초기 알츠하이머병 진단은 환자의 예후를 개선하는 데 핵심적인 요소로 평가받고 있으며, 진단 과정의 간소화가 요구되고 있다. 최근 후지레비오(Fujirebio)는 알츠하이머 진단 과정을 획기적으로 단축할 잠재력을 지닌 새로운 혈액 검사를 발표했다. 해당 기술은 'Lumipulse® G pTau217/β-Amyloid 1-42 혈장 비율 검사'로, 주요 알츠하이머 생체 지표들의 비율을 측정한다. 이 검사는 높은 진단 성능을 보이면서도 기존의 복잡한 진단 방식 대비 접근성이 매우 높다는 장점을 갖는다. 결과적으로, 환자들은 복잡한 뇌 영상 촬영이나 척수액 검사 과정을 거치지 않고도 신속하게 진단받을 수 있게 된다. 이러한 진단 여정의 단축은 의료진이 알츠하이머병에 대한 개입 시기를 앞당겨 치료 효과를 극대화하는 데 기여할 것으로 기대된다.",
+      "summary_en": "Fujirebio's Lumipulse® G pTau217/β-Amyloid 1-42 Plasma Ratio test has the potential to shorten the Alzheimer's disease diagnostic journey and enable earlier intervention through its accessibility and high diagnostic performance."
+    },
+    {
+      "title_en": "Understanding the Molecular Mechanisms of Synthetic Cannabinoid Receptor Agonists",
+      "url": "https://www.the-scientist.com/understanding-the-molecular-mechanisms-of-synthetic-cannabinoid-receptor-73470",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "합성 카나비노이드 수용체 작용제의 분자 메커니즘 규명",
+      "summary_kr": "최근 기술 연구는 합성 카나비노이드 수용체 작용제(SCRA)가 G 단백질 연결 수용체(GPCR)를 활성화하는 방식을 조명하고 있다. 이 과정에서 바이오센싱 기술은 필수적인 역할을 수행하며 분자 기전 연구의 근간을 이룬다. 합성 카나비노이드 작용제는 중추신경계에 강력한 효과를 유발하지만, 정확한 분자 수준의 상호작용 이해는 복잡한 과제였다. 연구진은 바이오센서 기반 기술을 활용하여 수용체 활성화에 필요한 미세한 분자 변화를 실시간으로 관찰하는 데 성공했다. 이러한 정밀한 메커니즘 이해는 합성 카나비노이드의 독성 및 오용 연구에 필수적이다. 더 나아가, 이는 새로운 치료제 개발을 위한 수용체 표적화 전략을 수립하는 데 결정적인 단서를 제공할 것으로 기대된다.",
+      "summary_en": "Biosensing plays a fundamental role in the latest technology that sheds light on how G protein-coupled receptors are activated by synthetic cannabinoid receptor agonists."
+    },
+    {
+      "title_en": "Stall Catchers: Play for Progress in Alzheimer’s Disease Research",
+      "url": "https://www.the-scientist.com/stall-catchers-play-for-progress-in-alzheimer-s-disease-research-73548",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "알츠하이머병 연구 가속화 프로젝트 '스톨 캐처스': 시민 과학자, 게임으로 데이터 분석에 기여",
+      "summary_kr": "알츠하이머병 연구 데이터 분석의 속도를 높이기 위해 시민 과학자들의 자발적인 참여가 활발하게 활용되고 있다. 이들은 '스톨 캐처스(Stall Catchers)'라는 크라우드소싱 플랫폼을 통해 알츠하이머병 연구에 기여한다. 참가자들은 가상 현미경 인터페이스를 사용하여 알츠하이머 모델 쥐의 뇌 이미지 속에서 미세한 혈류 막힘 현상(Stalls)을 찾아낸다. 이러한 미세한 혈류 장애는 알츠하이머병 발병 기전의 중요한 요인으로 지목되고 있다. 시민 과학자들이 수행하는 방대한 양의 분류 작업은 기존 연구원들이 소요하는 데이터 분석 시간을 획기적으로 단축시킨다. 결과적으로 이 프로젝트는 데이터 처리 속도를 가속화하여 알츠하이머병 치료법 개발 연구에 결정적인 진전을 가져오는 데 중요한 역할을 하고 있다.",
+      "summary_en": "Citizen scientists search for blood flow blockages using a virtual microscope, helping researchers speedrun data analysis."
+    },
+    {
+      "title_en": "Why Do We Feel Butterflies in the Stomach?",
+      "url": "https://www.the-scientist.com/why-do-we-feel-butterflies-in-the-stomach-73552",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "'배 속 나비' 감각: 감정과 장내 미생물의 상관관계 분석",
+      "summary_kr": "불안감이나 설렘을 느낄 때 발생하는 '배 속에 나비가 날아다니는 듯한' 떨림 현상은 감정에 대한 뇌의 직접적인 반응에서 비롯된다. 이러한 복부 감각은 뇌가 특정 감정을 인지하고 자율 신경계를 통해 위장관으로 신호를 전달하면서 나타나는 신체 반응의 일부이다. 특히 과학계는 장과 뇌가 복잡하게 연결된 '장-뇌 축(Gut-Brain Axis)'을 통해 감정 상태에 상호작용한다는 사실에 주목하고 있다. 더욱이 이러한 복부의 미세한 감각은 위장관에 서식하는 장내 미생물(마이크로바이오타)에 의해 그 정도가 증폭되거나 혹은 완화될 수 있는 것으로 밝혀졌다. 연구에 따르면, 장내 미생물은 특정 신경전달물질의 생성에 관여하여 뇌로 신호를 보내며, 이는 인간의 감정적, 신체적 반응을 조절하는 핵심적인 역할을 수행한다. 따라서 이 현상은 단순한 심리적 반응을 넘어 미생물 생태계가 관여하는 생물학적 과정으로 이해해야 한다.",
+      "summary_en": "These fluttering sensations are the brain’s reaction to certain emotions, which can be amplified or soothed by the gut’s own “bugs.”"
+    },
+    {
+      "title_en": "Sparking Curiosity Through Science Communication",
+      "url": "https://www.the-scientist.com/sparking-curiosity-through-science-communication-73553",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "과학 커뮤니케이션을 통한 대중의 호기심 촉발",
+      "summary_kr": "엠마 다우스터(Emma Dauster)가 대중에게 흥미로운 과학 지식을 효과적으로 전달할 새로운 기회를 적극적으로 맡았다. 이 기회는 연구 결과의 복잡성을 해소하고 일반 대중의 이해도를 높이는 과학 커뮤니케이터로서의 역할을 심화하는 데 초점을 맞추고 있다. 현대 사회에서 과학 기술의 발전 속도가 가속화됨에 따라, 연구 분야와 대중 간의 간극을 좁히는 전문적 소통의 필요성이 더욱 중요해지고 있다. 다우스터는 이번 임무를 통해 전문 지식의 접근성을 확대하고, 대중이 과학적 사고방식을 채택하도록 유도할 계획이다. 그녀는 대중의 과학적 이해 수준을 향상시키고, 사회 전반에 걸쳐 과학 분야에 대한 지속적인 관심을 유발하는 데 기여할 것으로 전망된다.",
+      "summary_en": "Emma Dauster sank her teeth into a new chance to bring exciting science to the public."
+    },
+    {
+      "title_en": "A Neuron Tickler",
+      "url": "https://www.the-scientist.com/a-neuron-tickler-73567",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "뉴런 자극 퍼즐: 뇌 과학의 도전장",
+      "summary_kr": "이 새로운 형태의 뉴로사이언스 기반 퍼즐이 과학계의 주목을 받고 있다. 해당 퍼즐은 사용자에게 직접적으로 뇌세포를 활성화시키는 정신적 자극을 유도하도록 정교하게 설계되었다. 이는 뇌 활동의 복잡성을 이해하고 인지 능력을 극대화하기 위한 교육적 도구로 활용될 가능성이 높은 것으로 분석된다. 개발진은 이 퍼즐이 단순히 오락을 넘어선, 신경과학적 사고방식을 훈련하는 혁신적인 방법론을 제시한다고 강조했다. 전문가들은 이러한 유형의 '뇌 자극 챌린지'가 대중의 과학 참여를 증진하고 신경과학의 원리를 쉽고 재미있게 접근하도록 돕는 데 기여할 것으로 기대하고 있다.",
+      "summary_en": "Zap your brain cells with this neuroscience puzzle!"
+    },
+    {
+      "title_en": "Why Protocol-Ready Doesn’t Mean Trial-Ready in Ovarian Cancer Clinical Trials",
+      "url": "https://www.fiercebiotech.com/sponsored/why-protocol-ready-doesnt-mean-trial-ready-ovarian-cancer-clinical-trials",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "난소암 임상시험: 프로토콜 준비가 임상 실행 준비로 이어지지 않는 이유",
+      "summary_kr": "말기 난소암 관련 임상시험은 다른 임상시험과 구별되는 고유한 난관에 직면하고 있으며, 이로 인해 '프로토콜 준비 완료' 상태가 실제 임상 실행으로 이어지지 못하는 경우가 빈번하다. 연구 프로토콜이 성공적으로 확정되었더라도, 환자 모집의 어려움이나 현장의 복잡한 운영 문제 등 실질적인 실행 가능성 부족으로 인해 시험 지연 및 실패 위험이 높아진다. 이러한 문제를 해결하기 위해 임상 개발 초기 단계부터 새로운 실행 가능성 계획(Feasibility Planning)을 도입하는 것이 중요해지고 있다. 이 계획은 잠재적인 위험 요소를 사전에 식별하고, 실제 임상 현장의 자원 및 역량을 종합적으로 평가하도록 설계된다. 새로운 실행 가능성 계획은 단순히 프로토콜 준수 여부를 확인하는 것을 넘어, 운영상의 위험을 실질적인 준비 태세로 전환하는 데 초점을 맞춘다. 전문가들은 선제적인 위험 평가 및 계획 수립을 통해 난소암 임상 시험의 성공률과 효율성을 획기적으로 개선할 수 있다고 강조한다.",
+      "summary_en": "Late-stage ovarian cancer trials face unique hurdles. Learn how new feasibility planning can turn risk into readiness."
+    },
+    {
+      "title_en": "Pfizer sues Metsera over Novo's shock counteroffer, but obesity biotech stands firm",
+      "url": "https://www.fiercebiotech.com/biotech/pfizer-sues-metsera-over-novos-counter-offer-obesity-biotech-stands-firm",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "화이자, 노보의 역제안으로 멧세라 상대 소송 제기... 비만 바이오텍은 강경 대응 예고",
+      "summary_kr": "다국적 제약사 화이자가 비만 치료제 개발 생명공학사 멧세라(Metsera)를 상대로 법적 조치에 착수했다. 이는 경쟁사인 노보 노디스크(Novo Nordisk)가 개입하여 멧세라에 충격적인 역제안(counteroffer)을 제시하며 인수 협상이 불확실해진 데 따른 대응이다. 화이자는 멧세라가 자사의 영향력에서 벗어나는 것을 막기 위해 이전에 공언했던 대로 법적 위협을 현실화했다. 하지만 피소된 비만 바이오텍인 멧세라 역시 화이자의 소송에 굴복하지 않고 강경한 입장을 고수하고 있는 것으로 알려졌다. 멧세라 측은 이번 법적 분쟁에 적극적으로 임할 준비가 되어 있음을 시사하며, 양사 간의 첨예한 갈등이 불가피하게 심화될 전망이다.",
+      "summary_en": "Pfizer has lived up to its threat of taking legal action to prevent Metsera from slipping out of its grasp, but the obesity biotech also sounds up for the fight."
+    },
+    {
+      "title_en": "Italian biotech AAVantgarde adds $141M series B to fund retinal disease gene therapy trials",
+      "url": "https://www.fiercebiotech.com/biotech/italian-biotech-aavantgarde-eyes-143m-series-b-fund-retinal-disease-gene-therapy-trials",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "이탈리아 바이오텍 AAVantgarde, 망막 질환 유전자 치료 임상 위해 1억 4,100만 달러 규모 시리즈 B 투자 유치",
+      "summary_kr": "Amgen Ventures의 지원을 받는 이탈리아 바이오텍 AAVantgarde Bio가 최근 1억 4,100만 달러 규모의 시리즈 B 투자를 성공적으로 유치했다. 이번 대규모 자금 확보는 안과 질환 치료를 위한 자사의 두 가지 AAV(아데노-연관 바이러스) 유전자 치료제 파이프라인의 임상 개발을 가속화하는 데 사용될 예정이다. AAVantgarde는 이 자금을 활용하여 주요 망막 질환에 초점을 맞춘 해당 후보 물질들을 임상 단계로 진입시키고 후속 시험을 진행할 계획이다. 망막 질환은 시력 상실의 주요 원인이며, AAV 기반 유전자 치료제는 기존 치료법의 한계를 극복할 혁신적인 대안으로 주목받고 있다. 이로써 AAVantgarde는 유전자 치료 분야에서 경쟁력을 강화하고 안과 임상 목표를 달성하는 데 필요한 재정적 기반을 마련하게 되었다.",
+      "summary_en": "Amgen Ventures-backed AAVantgarde Bio has raised $141 million in series B funding that the Italian biotech will use to push its two AAV gene therapies for eye diseases through the clinic."
+    },
+    {
+      "title_en": "Amgen Ventures joins $141M Series B for Italian gene therapy biotech AAVantgarde",
+      "url": "https://endpoints.news/amgen-ventures-joins-141m-series-b-for-italian-gene-therapy-biotech-aavantgarde/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "이탈리아 유전자 치료 기업 AAVantgarde, 암젠 벤처스 참여로 1억 4,100만 달러 시리즈 B 투자 유치",
+      "summary_kr": "밀라노에 본사를 둔 유전자 치료제 개발 기업 AAVantgarde가 암젠 벤처스(Amgen Ventures)를 포함한 다수의 투자사로부터 1억 4,100만 달러(약 1,940억 원) 규모의 시리즈 B 투자를 성공적으로 유치했다. 이 자금은 주요 파이프라인인 실명 유발 유전성 망막 질환 두 가지에 대한 유전자 치료제 개발을 가속화하는 데 집중적으로 투입될 예정이다. AAVantgarde는 AAV(Adeno-Associated Virus) 벡터 기술을 활용하여, 기존의 유전자 치료제로는 접근하기 어려웠던 대형 유전자 치료제를 구현하는 혁신적인 기술력을 보유하고 있다. 특히 암젠 벤처스의 참여는 AAVantgarde가 가진 플랫폼 기술의 임상적 잠재력과 시장 가치에 대한 높은 평가를 시사한다. 회사는 이번 투자금을 통해 핵심 후보 물질의 임상시험을 진행하는 동시에, 제조 공정을 최적화하고 추가적인 파이프라인 확장을 모색할 계획이다.",
+      "summary_en": "A Milan-based drugmaker has secured $141 million in a Series B raise backed by Amgen to develop gene therapies for two inherited retinal diseases that cause blindness.\n\n AAVantgarde said it will use the funds to ..."
+    },
+    {
+      "title_en": "Tidmarsh's exit at FDA pushes an agency in transition further toward instability",
+      "url": "https://endpoints.news/tidmarshs-exit-at-fda-pushes-an-agency-in-transition-further-toward-instability/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-03",
+      "image_url": null,
+      "title": "FDA 톰 타이드마시 퇴사, 전환기 기관의 불안정성 심화",
+      "summary_kr": "수십 년 동안 미국 식품의약국(FDA)은 세계에서 가장 혁신적인 의약품에 대해 황금 표준의 규제 업무를 수행하는 안정적인 기관으로 여겨져 왔다. 하지만 최근 FDA 내부의 중요한 인물인 톰 타이드마시의 퇴사는 기관의 안정성을 크게 흔들고 있다. 현재 전환기를 겪고 있는 FDA는 이번 인사이동으로 인해 불안정성 쪽으로 더욱 밀려나는 양상이다. 이는 전통적으로 엄격하고 전문적이었던 FDA의 이미지가 대중들에게 혼란스럽게 비치고 있다는 것을 의미한다. 규제 기관으로서의 신뢰도가 흔들리면서, 올해 FDA의 모습은 이전의 확고했던 규제 기준과는 거리가 멀어지고 있다는 평가가 나온다. 이처럼 주요 인사 이동은 향후 규제 표준 확립과 혁신 신약 승인 과정에 미칠 잠재적 영향에 대한 심각한 우려를 낳고 있다.",
+      "summary_en": "For decades, the FDA has long been thought of as a steady hand of gold-standard regulatory work for the most innovative drugs in the world.\n\n This year, the agency has looked more like a reality ..."
+    },
     {
       "title_en": "Extracellular Vesicles: How the Body’s Text Message System Affects Health and Disease",
       "url": "https://www.the-scientist.com/extracellular-vesicles-how-the-body-s-text-message-system-affects-health-and-disease-73688",
@@ -55,6 +264,72 @@
       "title": "메디케이드 삭감과 미국 아동 건강 문제 — 고장 난 시스템의 개선 방안",
       "summary_kr": "이 논평은 세계 최고 권위의 학술지인 뉴잉글랜드 의학 저널(NEJM)에 게재될 예정인 최신 분석 보고서이다. 해당 보고서는 미국 아동의 건강 결과에 미치는 메디케이드(Medicaid) 예산 삭감의 심각한 부정적 영향을 면밀히 검토한다. 저자들은 급격한 정책 변화와 예산 축소가 특히 취약 계층 아동들의 필수 의료 접근성을 심각하게 저해하고 있음을 지적한다. 나아가 현행 메디케이드 제도가 구조적 결함으로 인해 아동 건강을 안정적으로 지원하는 본래의 기능을 수행하지 못하고 있다는 비판을 제기한다. 따라서 논평은 정책 결정자들이 아동의 건강권을 최우선에 두도록 시스템을 재정비할 것을 강력히 촉구한다. 이는 건강 불평등을 해소하고 모든 아동에게 지속 가능한 의료 혜택을 제공하기 위한 근본적인 해결책을 모색해야 함을 의미한다.",
       "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
+    {
+      "title_en": "STAT+: FDA’s top drug regulator resigns amid investigation",
+      "url": "https://www.statnews.com/2025/11/02/fda-george-tidmarsh-regulator-kevin-tang/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/IMG_4515-645x645.jpg",
+      "title": "FDA 최고 의약품 규제 책임자, 권한 남용 혐의 조사 도중 사임",
+      "summary_kr": "미국 식품의약국(FDA)의 최고 의약품 규제 책임자인 조지 티드마시(George Tidmarsh)가 규제 권한 남용 의혹에 휩싸이며 결국 직위에서 물러났다. 이는 STAT의 취재 결과 밝혀진 내용으로, 티드마시 국장은 해당 혐의가 제기된 직후 휴직 처분되었던 것으로 알려졌다. 최고 의약품 규제 당국자는 신약 개발 및 승인 과정에서 중추적인 역할을 담당하는 핵심 직책이다. 그의 사임은 규제 당국 내부의 윤리 기준 및 권한 행사에 대한 광범위한 조사를 촉발하고 있다. 현재 FDA는 티드마시 전 국장이 자신의 권한을 부적절하게 사용했는지 여부를 면밀히 파악하기 위한 내부 감사에 착수했다. 이번 고위직 사태는 FDA의 투명성과 공정성에 대한 대중의 신뢰 회복에 중요한 과제를 남겼다는 평가다.",
+      "summary_en": "George Tidmarsh, the FDA's top drug regulator, has been placed on leave after being accused of abusing his regulatory authority, STAT has learned."
+    },
+    {
+      "title_en": "Trump says he will help ‘Dilbert’ creator get cancer drug",
+      "url": "https://www.statnews.com/2025/11/02/scott-adams-prostate-cancer-pluvicto/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AP25139808973079-645x645.jpg",
+      "title": "트럼프, 만화 '딜버트' 작가에 암 치료제 지원 약속",
+      "summary_kr": "도널드 트럼프 전 미국 대통령이 인기 만화 '딜버트(Dilbert)'의 작가인 스콧 애덤스에게 특정 암 치료제를 확보하는 데 도움을 주겠다고 밝혔다. 트럼프 전 대통령은 자신이 설립한 소셜 미디어 플랫폼인 트루스 소셜(Truth Social)을 통해 이 같은 계획을 직접 공표했다. 애덤스가 접근하려 하는 치료제는 노바티스가 개발한 방사성 리간드 치료제인 '플루빅토(Pluvicto)'이다. 플루빅토는 특정 유형의 진행성 전립선암 환자 치료에 사용되는 전문 의약품으로 알려져 있다. 트럼프의 이번 발언은 유명인이 희귀하거나 접근이 어려운 의약품을 확보하는 과정에 공적으로 개입하겠다는 의사를 표명한 것이기에 주목받고 있다. 자세한 지원 방식이나 시기에 대해서는 아직 공개되지 않았다.",
+      "summary_en": "Trump posted on Truth Social that he will help Scott Adams of ‘Dilbert’ fame access Pluvicto."
+    },
+    {
+      "title_en": "Opinion: A sports device to ‘protect the brain’ illustrates a major problem with the FDA de novo pathway",
+      "url": "https://www.statnews.com/2025/11/02/q-collar-fda-authorization-science-foia/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AP22208521584768-645x645.jpg",
+      "title": "오피니언: '뇌 보호' 스포츠 기기 사례로 드러난 FDA 드노보 심사 경로의 중대 문제점",
+      "summary_kr": "최근 논란이 된 '뇌 보호' 스포츠 장치 승인 사례는 미국 식품의약국(FDA)의 신규 의료기기(de novo) 심사 경로에 대한 심각한 비판을 촉발했다. 그러나 전문가들은 이번 문제가 단순히 해당 기기의 유효성 논란에 국한되지 않으며, 보다 근본적인 규제 시스템의 결함에 주목해야 한다고 지적한다. 비판의 핵심은 규제 기관이 스스로 만든 모호성(ambiguity) 속에서 안주하며 투명성(opacity) 뒤에 숨는 구조적 행태에 있다. FDA 드노보 경로는 혁신 기기 출시를 위해 고안되었으나, 명확한 기준 부재로 인해 심사 과정 자체가 불투명해지며 오용될 가능성이 제기된다. 이러한 기관의 불투명성은 과학적 근거가 부족한 제품에 합법적인 외관을 부여할 위험을 내포하고 있으며, 이는 궁극적으로 공중 보건에 대한 신뢰를 저해할 수 있다는 우려를 낳고 있다.",
+      "summary_en": "“This is not just about one device. It’s about what happens when institutions grow comfortable living in their own ambiguity and hiding behind opacity.”"
+    },
+    {
+      "title_en": "Physicists Create a Thermometer for Measuring ‘Quantumness’",
+      "url": "https://www.wired.com/story/physicists-create-a-thermometer-for-measuring-quantumness/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": "https://media.wired.com/photos/68f0e670ac914813c3e7b315/master/pass/Quantum-2nd-Law-cr-Daniel-Garcia-Lede.jpeg",
+      "title": "물리학자들, '양자성' 측정하는 온도계 개발",
+      "summary_kr": "물리학자들이 물질의 양자적 특성을 정량화할 수 있는 혁신적인 도구인 ‘양자성 온도계’를 개발했다. 이 측정 방식은 겉으로는 열역학 제2법칙을 위반하는 것처럼 보이는 ‘변칙적인(Anomalous)’ 열 흐름 현상을 핵심 원리로 활용한다. 연구진은 이러한 변칙적 열 전달이 시스템 내에 존재하는 양자 얽힘(Quantum Entanglement)의 직접적인 결과임을 입증했다. 이 변칙적인 열 흐름의 정도를 측정함으로써 해당 시스템의 양자적 특성, 즉 양자성의 정도를 정확히 파악할 수 있다. 이 기술의 가장 중요한 이점은 양자 상태를 붕괴시키는 기존 측정법과 달리 비파괴적인 방식으로 양자 얽힘을 감지할 수 있다는 점이다. 이 연구는 양자 정보 과학 및 양자 컴퓨팅 분야의 상태 진단 및 측정에 새로운 표준을 제시할 것으로 기대된다.",
+      "summary_en": "“Anomalous” heat flow, which at first appears to violate the second law of thermodynamics, gives physicists a way to detect quantum entanglement without destroying it."
+    },
+    {
+      "title_en": "Don’t Ignore the Winter Blues, It Could Be Seasonal Depression",
+      "url": "https://neurosciencenews.com/season-affective-disorder-psychology-28983/",
+      "source": "Neuroscience News",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": "https://neurosciencenews.com/files/2025/11/sad-winter-neuroscience-1155x770.jpg",
+      "title": "단순한 겨울 우울감 아닌 계절성 우울 장애(SAD), 방치해서는 안 된다",
+      "summary_kr": "일조량이 줄어드는 계절이 되면 많은 사람이 피로감이나 저조한 기분을 경험한다. 그러나 수백만 명에게 이러한 증상은 심각한 형태의 우울증인 계절성 정동 장애(SAD: Seasonal Affective Disorder)를 나타내는 신호일 수 있다. 햇빛의 감소는 신경전달물질인 세로토닌과 수면 호르몬인 멜라토닌 분비에 영향을 미친다. 또한, 이러한 생화학적 변화는 신체의 일주기 리듬을 교란시키는 핵심 원인으로 작용한다. 결과적으로 SAD 환자들은 절망감, 흥미 상실, 그리고 수면 패턴이나 식욕의 변화와 같은 주요 우울 증상을 겪게 된다.",
+      "summary_en": "As daylight fades, many experience fatigue or low mood—but for millions, these symptoms signal seasonal affective disorder (SAD), a serious form of depression. Reduced sunlight disrupts serotonin, melatonin, and the body’s circadian rhythm, leading to feelings of hopelessness, loss of interest, and sleep or appetite changes."
+    },
+    {
+      "title_en": "FDA drug head Tidmarsh is put on leave, according to reports",
+      "url": "https://endpoints.news/fda-drug-head-tidmarsh-is-put-on-leave-according-to-reports/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-02",
+      "image_url": null,
+      "title": "보도에 따르면, FDA 의약품 최고 책임자 티드마쉬 직무 정지 처분",
+      "summary_kr": "미국 식품의약국(FDA)의 강력한 의약품 사무소(CDER, 의약품 평가 연구 센터)를 이끄는 조지 티드마쉬(George Tidmarsh) 국장이 현재 직무 정지 상태인 것으로 알려졌다. 이는 복수의 언론 보도를 통해 확인되었으며, 티드마쉬 국장이 일시적으로 기관을 떠나게 되었음을 의미한다. 티드마쉬 국장은 FDA 내에서 신약 승인과 의약품 규제를 담당하는 핵심 부서의 수장이다. 뉴욕 타임스(The New York Times)를 포함한 보도에 따르면, 티드마쉬 국장은 이전에 특정 사안에 대해 내부적인 우려를 제기했던 것으로 전해졌다. 고위급 인사의 갑작스러운 직무 정지 조치로 인해 이번 결정의 배경과 사유에 대해 관심이 집중되고 있다.",
+      "summary_en": "George Tidmarsh, who leads the FDA's powerful drugs office known as CDER, has been placed on leave from the agency, according to reports.\n\n According to the New York Times, Tidmarsh had raised concerns about a ..."
     },
     {
       "title_en": "A flood of Chinese graduate students in STEM was a boon to U.S. students",
@@ -8791,25 +9066,14 @@
       "summary_en": "As WuXi AppTec’s manufacturing revenue recovers, it said it is selling its clinical research services business to a Hong Kong private equity firm.\n\n WuXi AppTec announced on Monday that its contract ..."
     },
     {
-      "title_en": "Music and Nature Work in Harmony to Ease Stress and Lift Mood",
-      "url": "https://neurosciencenews.com/music-nature-mental-health-29858/",
-      "source": "Neuroscience News",
-      "category": "News",
-      "date": "2025-10-26",
-      "image_url": "https://neurosciencenews.com/files/2025/10/music-nature-mental-health-neuroscience-1155x770.jpg",
-      "title": "Music and Nature Work in Harmony to Ease Stress and Lift Mood",
-      "summary_kr": "[요약 실패] API 호출 중 오류 발생. (원본: The viral phrase “touch grass” may be more than internet humor—science shows that engaging with natu...)",
-      "summary_en": "The viral phrase “touch grass” may be more than internet humor—science shows that engaging with nature and music can significantly boost emotional and physical well-being. A new review found that combining these experiences—such as listening to music outdoors, gardening while singing, or caring for animals—can improve mood, reduce stress, and ease symptoms of anxiety and depression."
-    },
-    {
       "title_en": "Whale and dolphin migrations are being disrupted by climate change",
       "url": "https://arstechnica.com/science/2025/10/whale-and-dolphin-migrations-are-being-disrupted-by-climate-change/",
       "source": "Ars Technica",
       "category": "News",
       "date": "2025-10-25",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/03/whale1-500x500-1741439774.jpg",
-      "title": "기후변화, 고래·돌고래 이동 경로 교란…위험 수역으로 밀려나",
-      "summary_kr": "과학자들은 기후변화로 인해 고래와 돌고래를 포함한 해양 포유류의 전통적인 이동 경로가 심각하게 교란되고 있다고 경고했다. 해수 온도 상승과 해양 환경의 변화는 이들의 주요 먹이 공급원의 위치를 변화시키는 핵심 요인으로 작용한다. 이로 인해 해양 포유류는 생존을 위해 먹이를 찾아 이전에는 접근하지 않던 새롭고 낯선 수역으로 강제로 이동하고 있다. 전문가들은 이러한 새로운 수역이 종종 선박 통행량이 많거나 오염도가 높은 지역이어서 포유류에게 더 큰 위험을 초래한다고 지적했다. 특히, 낯선 환경에서의 먹이 부족과 인간 활동과의 충돌 가능성이 높아져 이들 종의 개체 수 감소로 이어질 수 있다는 우려가 제기된다. 이에 따라 해양 생태계 보호를 위한 즉각적인 국제적 협력과 보존 대책 마련이 시급한 상황이다.",
+      "title": "기후 변화, 고래 및 돌고래 이동 경로 심각하게 교란시켜",
+      "summary_kr": "과학자들은 기후 변화로 인해 고래와 돌고래를 포함한 해양 포유류의 장거리 이동 패턴이 심각하게 교란되고 있다고 경고했다. 해수 온도 상승 및 해류 변화는 이들이 수백만 년 동안 의존해 온 먹이 자원과 번식지의 위치를 예측 불가능하게 만들고 있다. 이로 인해 해양 포유류들은 생존을 위해 기존 경로를 벗어나 새로운 해역으로 이동하도록 강제되고 있다. 전문가들은 이러한 비정상적인 이동이 해양 생물들을 기존보다 더 위험한 환경에 노출시키고 있다고 지적한다. 특히, 새로운 해역은 선박 충돌 위험이 높거나 어구와 얽힐 가능성이 큰 지역일 수 있어 개체수 감소를 가속화할 우려가 제기된다. 국제 연구팀은 해양 생태계 보존을 위해 이들의 변화된 이동 경로를 반영하는 새로운 보호 전략의 수립이 시급하다고 강조했다.",
       "summary_en": "Marine mammals are being forced into new and more dangerous waters, scientists warn."
     },
     {
@@ -8819,8 +9083,8 @@
       "category": "Neuroscience",
       "date": "2025-10-24",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-edward-kravitz-obituary.png",
-      "title": "GABA 선구자 에드워드 크래비츠를 기리며",
-      "summary_kr": "지난달 92세의 나이로 별세한 생화학자 에드워드 크래비츠(Edward Kravitz)는 신경과학 분야의 초기 발전에 지대한 공헌을 했다. 그는 세계 최초로 설립된 신경생물학과의 일원이었으며, 해당 학문의 제도적 기반을 다지는 데 핵심적인 역할을 수행했다. 크래비츠 박사의 가장 중요한 업적은 신경전달물질인 감마-아미노부티르산(GABA)의 기능을 규명한 것이다. 그의 연구를 통해 GABA가 억제성 신경전달물질로 작용한다는 사실이 과학적으로 입증되었다. 이는 뇌의 흥분과 억제 메커니즘을 이해하는 데 필수적인 기초 지식을 제공했다. 그의 선구적인 발견은 신경 활동 조절 연구 및 다양한 신경정신 질환의 치료법 개발에 근본적인 영향을 미쳤다.",
+      "title": "GABA 연구의 선구자, 에드워드 크래비츠(Edward Kravitz)를 기리며",
+      "summary_kr": "지난달 92세를 일기로 타계한 생화학자 에드워드 크래비츠(Edward Kravitz)는 현대 신경과학의 발전에 지대한 공헌을 한 인물로 평가받는다. 그는 신경전달물질인 감마-아미노부티르산(GABA)의 기능과 역할을 규명하는 데 결정적인 역할을 수행했다. 특히 크래비츠 박사는 GABA가 신경세포 활동을 흥분시키는 것이 아닌 억제하는 기능을 한다는 사실을 실험적으로 증명해냈다. 이러한 획기적인 발견은 신경계 질환에 대한 이해를 심화시키는 중요한 토대가 되었다. 더불어 그는 세계 최초로 설립된 신경생물학과에 소속되어 이 새로운 학문 분야의 기초를 다지는 데 기여했다. 그의 업적은 신경과학 분야의 역사를 쓰는 데 빼놓을 수 없는 핵심적인 부분으로 남아있다.",
       "summary_en": "The biochemist, who died last month at age 92, was part of the first neurobiology department in the world and showed that gamma-aminobutyric acid is inhibitory."
     },
     {
@@ -8830,8 +9094,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/abstractdna-500x500.jpg",
-      "title": "최적의 항체를 보편적으로 제공하는 기술의 임상 시험 개시",
-      "summary_kr": "이 기술은 가장 효과적인 항체의 DNA 염기 서열을 정확히 식별하는 것을 핵심 목표로 한다. 연구팀은 일단 특정 항체의 우수한 유전자 서열(DNA)이 확인되면, 이를 활용하여 누구나 해당 항체를 대량으로 혹은 맞춤형으로 생산할 수 있게 된다고 설명했다. 현재 이 혁신적인 항체 접근법의 안전성과 효능을 평가하기 위한 임상 시험이 진행되고 있다. 이는 기존의 수동적인 항체 치료 방식에서 벗어나, 가장 강력한 면역 반응을 유도하는 항체를 신속하게 복제할 수 있는 길을 열어줄 것으로 기대된다. 해당 기술이 성공적으로 입증될 경우, 특정 질병에 대한 '최고의 항체'를 모든 환자에게 공평하게 공급할 수 있는 치료 패러다임의 변화가 예상된다.",
+      "title": "최적 항체 보편적 제공 기술의 임상 시험 착수",
+      "summary_kr": "현재 최적의 효능을 가진 항체를 모든 사람에게 보편적으로 제공할 수 있는 혁신적인 기술에 대한 임상 시험이 진행 중이다. 이 기술의 핵심 원리는 특정 질병에 대해 탁월한 효과를 보이는 항체를 생성하는 유전자(DNA) 코드를 정밀하게 식별하는 데 있다. 일단 고성능 항체의 특정 DNA 서열이 확인되면, 연구자들은 이 정보를 이용하여 해당 항체를 대량 복제하거나 환자의 체내에서 직접 발현시키도록 유도할 수 있다. 이는 특정 면역 반응이 부족하거나 긴급한 고품질 항체 치료가 필요한 모든 환자에게 표준화된 최고 수준의 면역 방어를 제공할 잠재력을 가진다. 기존의 항체 치료제 개발 방식과 달리 접근성을 획기적으로 개선하며 제조 비용을 절감할 수 있을 것으로 기대된다. 연구팀은 이번 임상시험을 통해 기술의 안전성과 효능을 입증하여 미래 감염병 및 면역 질환 치료에 새로운 지평을 열고자 한다.",
       "summary_en": "If we ID the DNA for a great antibody, anyone can now make it."
     },
     {
@@ -8841,8 +9105,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-4-500x500.jpeg",
-      "title": "박쥐, 비행 중인 새 공중 포획 후 섭취 확인: 센서 데이터로 사냥 전략 규명",
-      "summary_kr": "특정 박쥐 종들이 새를 사냥한다는 사실은 이미 알려져 있었으나, 이들이 비행 중에 어떻게 사냥을 수행하는지에 대한 구체적인 메커니즘은 불분명했다. 최근 새로운 센서 데이터를 활용한 연구를 통해, 박쥐들이 날아가는 새를 공중에서 잡아채는 정교한 사냥 전략이 포착되었다. 연구 결과에 따르면, 이 박쥐들은 빠른 속도로 비행하는 새를 추격하여 날개 또는 발을 이용해 포획한 후, 먹이를 안정적으로 제어하면서 비행을 지속하는 것으로 확인됐다. 이는 박쥐의 뛰어난 비행 능력과 반향정위(Echolocation) 기술이 단순히 곤충 포획을 넘어 척추동물 사냥에도 효율적으로 활용됨을 입증한다. 이번 센서 데이터 분석은 희귀하고 관찰하기 어려웠던 박쥐의 포식 행동을 명확히 규명함으로써, 이들의 생태학적 역할에 대한 이해를 높이는 데 중요한 과학적 기반을 제공했다.",
+      "title": "공중에서 새를 낚아채 포식하는 박쥐: 센서 데이터로 사냥 전략 규명",
+      "summary_kr": "일부 박쥐 종들이 새를 사냥한다는 사실은 알려져 있었으나, 공중에서 비행 중인 먹이를 어떻게 포획하고 처리하는지에 대한 구체적인 방법은 미스터리로 남아있었다. 최근 새로운 센서 데이터와 첨단 추적 기술을 활용한 연구를 통해, 이 소수의 박쥐 종들이 사용하는 전문화된 사냥 전략이 밝혀졌다. 분석 결과, 박쥐들은 새를 발견하면 고속으로 접근하여 비행 중인 상태에서 직접 몸통이나 날개를 낚아채 포획하는 것으로 확인되었다. 특히 놀라운 점은 이 포식자들이 먹이를 땅으로 끌고 내려가지 않고, 공중 비행을 유지하며 즉시 새를 제압하고 부분적으로 소비한다는 것이다. 이 데이터는 박쥐가 단순히 곤충을 넘어선 효율적인 공중 포식자임을 입증하며, 먹이를 소비하는 과정 전체를 비행 중에 수행하는 복잡한 행동 방식을 보여준다. 이번 연구는 박쥐의 포식 행동 생태에 대한 이해를 넓히는 데 중요한 기여를 했다.",
       "summary_en": "A handful of bat species hunt birds, and new sensor data tells us how."
     },
     {
@@ -8852,8 +9116,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/napoleon2-500x500-1760798550.jpg",
-      "title": "DNA 분석으로 나폴레옹 군대를 전멸시킨 유력 병원체 규명",
-      "summary_kr": "최근 DNA 분석 결과, 1812년 러시아 원정 당시 나폴레옹 군대의 대규모 사망 원인이 되었던 유력한 병원체들이 규명되었다. 연구팀은 전사자 유해에서 추출한 미생물 DNA를 분석하여 당시 군인들이 겪었던 질병의 종류를 정밀하게 추적했다. 미생물 DNA 증거에 따르면, 군대는 파라티푸스열(Paratyphoid fever)과 재귀열(Relapsing fever)을 포함한 여러 치명적인 감염병으로 고통받았던 것으로 확인됐다. 이 질병들은 열악한 위생 환경과 겹치면서 군대의 건강 상태를 급격히 악화시키고 전투력을 무력화하는 핵심 요인으로 작용했다. 이번 연구는 질병이 단순히 병력 손실을 넘어 역사적 사건의 흐름을 바꿀 수 있음을 과학적으로 입증한다. 이 고대 DNA 연구는 나폴레옹 시대 군인들의 사망 원인에 대한 오랜 논쟁에 결정적인 과학적 증거를 제시했다.",
+      "title": "DNA 분석, 나폴레옹 군대 전멸시킨 유력 병원체 규명",
+      "summary_kr": "최근 DNA 분석 기법을 활용한 연구를 통해 나폴레옹 군대의 전멸 원인이 되었던 병원체들이 역사적으로 처음으로 밝혀졌다. 연구진은 매장지에서 발굴된 유해로부터 미생물 DNA를 추출하여 병사들이 겪었던 구체적인 질병의 종류를 추정했다. 분석 결과에 따르면, 나폴레옹 군대는 주로 파라티푸스열(paratyphoid fever)과 재귀열(relapsing fever) 등 심각한 감염병에 시달렸던 것으로 확인되었다. 이러한 병원균의 발견은 당시 군대의 열악한 위생 및 영양 상태가 질병 확산을 가속화했음을 시사한다. 특히 파라티푸스열은 장티푸스열과 유사하게 고열과 탈수를 유발하며 치사율이 높은 질병으로 알려져 있다. 이번 DNA 분석은 단순히 전투나 혹독한 환경이 아닌 질병이 나폴레옹 군대의 붕괴에 결정적인 역할을 했음을 입증하는 중요한 학술적 증거를 제시한다.",
       "summary_en": "Microbial DNA suggests troops suffered from paratyphoid fever and relapsing fever, among other diseases."
     },
     {
@@ -8863,8 +9127,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/artemisiistacked-500x500.jpg",
-      "title": "로켓 리포트: 중국판 팔콘 9 시험 비행과 NASA 달 로켓 최종 스택 완료 소식",
-      "summary_kr": "국내 로켓 스타트업이 곧 저궤도(LEO) 진입을 위한 첫 시험 발사에 나설 예정이다. 이는 민간 주도 우주 개발 시대에 한국이 상업 발사체 분야의 경쟁력을 확보하려는 중요한 발걸음으로 평가된다. 해당 스타트업은 자체 개발한 발사체를 이용해 기술 검증과 소형 위성 운송 능력을 입증하는 것을 목표로 하고 있다. 발사 성공 시, 한국은 자체 로켓 기술을 보유한 몇 안 되는 민간 기업을 배출하게 되며, 이는 글로벌 우주 시장 진출의 교두보를 마련하는 계기가 될 것이다. 업계 전문가들은 이번 첫 궤도 진입 시도가 향후 한국 우주 산업 생태계 전반의 성장을 촉진할 것으로 기대하고 있다.",
+      "title": "로켓 동향: 중국, 팔콘 9 유사 로켓 시험; NASA 달 로켓 조립 완료",
+      "summary_kr": "최근 우주 발사체 개발 경쟁이 심화되는 가운데, 국내 로켓 스타트업이 곧 저궤도(LEO) 진입을 위한 첫 번째 시험 발사를 시도할 예정이다. 한편, 중국은 자체 개발한 재사용 가능 로켓으로 추정되는 팔콘 9 유사 발사체의 시험 비행을 성공적으로 진행하며 우주 기술 역량을 과시했다. 미국 항공우주국(NASA) 역시 달 복귀 임무인 아르테미스 프로그램에 사용될 핵심 발사체인 '달 로켓(SLS)'의 최종 조립을 완료하고 발사 준비 단계에 돌입했다. 이러한 동향은 전 세계적으로 민간 기업과 국가 기관 모두 대형 및 재사용 로켓 개발에 집중하고 있음을 명확히 보여준다. 본 보고서는 한국 스타트업의 도전부터 미·중의 대형 프로젝트 현황까지, 최신 로켓 기술 동향을 포괄적으로 조명한다.",
       "summary_en": "A South Korean rocket startup will soon make its first attempt to reach low-Earth orbit."
     },
     {
@@ -8874,8 +9138,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa92670f48aeee5d43d096/master/pass/GettyImages-2229876195.jpg",
-      "title": "천문학자들, 지구의 최신 준위성 발견",
-      "summary_kr": "천문학자들이 지구 궤도 근처에서 오랫동안 머물러 온 새로운 준위성(quasi-satellite)을 발견했다. 이 소행성은 인류가 아폴로 계획을 통해 최초의 달 착륙을 준비하던 1960년대에 지구에 접근하기 시작한 것으로 파악된다. 흥미롭게도 해당 천체는 반세기 이상이 지난 현재까지도 지구 곁을 떠나지 않고 특정 궤도에서 맴돌고 있다. 준위성은 지구를 중심으로 공전하는 것처럼 보이지만, 실제로는 태양의 중력에 더 크게 영향을 받는 궤도 역학적 특징을 가진다. 이번 발견은 지구 근접 소행성(NEA)이 태양계 내에서 장기간에 걸쳐 궤도를 유지하는 메커니즘을 이해하는 데 중요한 통찰을 제공할 것으로 기대된다.",
+      "title": "천문학자들이 지구의 가장 최근 준위성을 발견했다",
+      "summary_kr": "천문학자들이 지구 궤도 주변을 공전하는 새로운 천체를 발견했으며, 이를 '준위성(Quasi-Lunar Moon)'으로 분류했다. 준위성은 지구를 공전하는 것처럼 보이지만, 태양과의 중력 상호작용으로 인해 실제로는 지구에서 멀리 떨어진 불안정한 궤도를 도는 소행성을 의미한다. 놀랍게도, 이 천체는 인류가 아폴로 임무를 통해 첫 달 착륙을 준비하던 1960년대 초반에 이미 지구에 접근하기 시작했던 것으로 확인되었다. 당시 지구 중력에 포획된 이후, 이 소행성은 60년 이상 지구 궤도 근처를 떠나지 않고 현재까지 유지되고 있다. 이번 발견은 지구 주변 소행성들의 궤도 역학에 대한 이해를 넓히는 데 중요한 정보를 제공하며, 연구팀은 해당 천체의 장기적인 궤도 안정성을 계속 주시하고 있다.",
       "summary_en": "As mankind was planning the first moon landing in the 1960s, an asteroid approached Earth—and still hasn’t left."
     },
     {
@@ -8885,8 +9149,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa93b40f48aeee5d43d099/master/pass/GettyImages-1026002098.jpg",
-      "title": "궤도 비행의 역설: 가속을 위한 감속 전략",
-      "summary_kr": "우주 공간에서 행성 주위를 운항하는 우주선의 조종 방식은 지상에서 차량을 운전하는 것과 근본적으로 다르며, 궤도 항법에는 역설적인 원리가 적용된다. 최근 한 물리학자는 궤도 이동의 핵심 원리를 설명하며 일반적인 상식을 뒤엎는 개념을 제시했다. 궤도에서 실제로 속도를 높여 더 빠른 궤도로 진입하기 위해서는 추진력을 이용해 잠시 감속해야 하는 역설이 발생한다. 이는 순간적인 감속이 우주선을 중력 중심에 더 가깝게 만들어 궤도를 낮추고, 위치 에너지를 운동 에너지로 전환시키기 때문이다. 결과적으로 우주선은 더 낮은 궤도에서 더 빠른 각속도와 궤도 속도를 갖게 되며, 이는 우주선의 궤도 변경 및 이동의 핵심 전략으로 활용된다. 이러한 반직관적인 궤도 역학의 이해는 우주 탐사 미션의 성공을 위해 필수적이다.",
+      "title": "궤도 비행의 역설: 가속하려면 감속해야 한다",
+      "summary_kr": "우주선을 행성 주위로 운항하는 방식은 지상에서 차량을 운전하는 방식과 근본적으로 다르다. 궤도 역학은 직관과 상반되는 현상을 포함하고 있으며, 특히 우주선의 속도를 높이는 과정에서 이러한 역설이 발생한다. 물리학자들은 궤도 항법의 핵심 원리를 설명하며, 우주선의 에너지 상태를 변화시키는 정교한 조작술을 해설한다. 목표 궤도에서 더 빠른 속도(더 낮은 궤도)나 더 높은 궤도(더 느린 속도)로 이동하기 위해 추진 시스템을 사용하는 방식은 지상 교통 시스템의 작동 원리와는 정반대이다. 예를 들어, 궤도 변경을 위해 우주선이 일시적으로 속도를 늦추면 중력에 의해 궤도가 낮아지고 결과적으로 더 빠른 속도로 움직이게 되는 역설적 현상을 이용해야 한다. 이러한 복잡하고 정밀한 궤도 조작의 이해는 장거리 우주 탐사 임무의 성공을 위한 필수 요소로 간주된다.",
       "summary_en": "Driving a spacecraft around a planet isn’t anything like driving on a planet. A physicist explains orbital navigation."
     },
     {
@@ -8896,8 +9160,8 @@
       "category": "News",
       "date": "2025-10-24",
       "image_url": "https://media.wired.com/photos/68fa86a6990dd48e2caff084/master/pass/102725_Palestine-Robotics-V2.jpg",
-      "title": "로봇 공학 금메달에 도전하는 팔레스타인 청소년 5인: 전쟁으로 피난당한 동료 교육 목표",
-      "summary_kr": "다음 주, 팔레스타인 출신의 10대 청소년 5명이 세계 최대 규모의 청소년 로봇 공학 대회에 참가하기 위해 파나마로 출국한다. 이들은 이번 국제 대회에서 우승하여 로봇 공학 분야의 재능을 세계 무대에 입증하는 것을 목표로 한다. 그러나 이들의 도전에는 단순한 우승 이상의 사회적 목적이 담겨있다. 이들은 대회가 끝난 후, 이스라엘-하마스 전쟁으로 인해 실향민이 된 동료 청소년들에게 STEM(과학, 기술, 공학, 수학) 교육을 전수할 계획이다. 이번 프로젝트는 전쟁으로 교육 기회가 단절된 팔레스타인 지역 사회에 희망과 실용적인 기술을 제공하는 데 중점을 둔다. 팀원들은 금메달 획득을 통해 얻은 성과를 교육 역량 강화에 활용하며 미래 세대의 과학 기술 역량을 끌어올리기를 희망하고 있다.",
+      "title": "로봇 공학 금메달에 도전하는 팔레스타인 청소년 5인",
+      "summary_kr": "다음 주, 팔레스타인 출신의 10대 5명이 세계 최대 규모의 청소년 로봇 공학 대회에 참가하기 위해 파나마로 향한다. 이들은 이번 국제 대회에서 금메달을 획득하는 것을 주요 목표로 설정했다. 그러나 이들의 도전은 단순한 수상에 그치지 않고 더욱 광범위한 사회적 목표를 담고 있다. 이 청소년 팀은 대회를 통해 얻은 지식과 경험을 활용하여 이스라엘-하마스 전쟁으로 인해 실향민이 된 또래 동료들에게 과학, 기술, 공학, 수학(STEM) 교육을 제공할 계획이다. 대회 우승이라는 성과를 바탕으로, 전쟁으로 고통받는 지역사회에 긍정적인 영향을 미치는 것이 이들의 핵심 임무이다.",
       "summary_en": "Next week, five teens from Palestine will head to Panama to compete in one of the world’s largest youth robotics competitions. The goal? To win—and then teach STEM to their peers displaced by the Israel-Hamas war."
     },
     {
@@ -8907,8 +9171,8 @@
       "category": "Neuroscience",
       "date": "2025-10-23",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-human-specific-neurodevelopment.png",
-      "title": "단백질 힘겨루기가 시냅스 발달 속도를 제어하고 인간 뇌를 차별화하는 기전 규명",
-      "summary_kr": "연구 결과, 인간 뇌의 시냅스 발달 속도를 결정하는 핵심적인 단백질 경쟁 메커니즘이 확인되었다. 이 과정의 중심에는 인간에게 특이적으로 복제된 SRGAP2 유전자 복제본이 핵심적인 역할을 수행한다. SRGAP2 복제본은 시냅스 성장을 늦추는 것으로 알려진 SYNGAP 단백질을 조작하여 그 기능을 제어한다. SYNGAP은 자폐증과도 연관성이 있는 단백질로, 그 기능이 조절됨으로써 시냅스 성장이 의도적으로 지연된다. 이러한 단백질 상호작용은 인간의 대뇌 피질 발달 기간을 연장시키는 결과를 초래한다. 발달 기간의 연장은 인간 뇌가 다른 종과 구별되는 주요한 특징이며, 고도의 인지 능력을 발휘하는 기반이 된다.",
+      "title": "단백질 줄다리기가 시냅스 발달 속도를 제어하고 인간 뇌의 특징을 규정한다",
+      "summary_kr": "새로운 연구는 인간 뇌 피질 발달의 속도와 기간을 결정하는 핵심적인 분자 메커니즘을 규명했다. 이 메커니즘은 시냅스 성장을 늦추는 것으로 알려진 SYNGAP 단백질과 관련이 있다. 특히, 자폐증과도 연관된 SYNGAP 단백질은 신경 세포 연결망 구축 속도에 중요한 제동 역할을 수행한다. 연구 결과에 따르면, 인간에게만 특이적으로 존재하는 SRGAP2 유전자의 복제본들이 SYNGAP 단백질의 활성을 정교하게 조작하는 것으로 밝혀졌다. 이 SRGAP2 복제본은 SYNGAP의 제동 기능을 약화시켜 시냅스 성숙 과정과 피질 발달 기간을 효과적으로 연장시킨다. 궁극적으로, 이러한 단백질 간의 경쟁적인 상호작용은 인간 뇌의 고유한 특징을 부여하고 복잡한 인지 기능 발달에 필요한 장기간의 시냅스 성숙을 가능하게 한다.",
       "summary_en": "Human-specific duplicates of SRGAP2 prolong cortical development by manipulating SYNGAP, an autism-linked protein that slows synaptic growth."
     },
     {
@@ -8918,8 +9182,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1386002288-500x500.jpg",
-      "title": "공룡, 소행성 충돌 직전까지 번성하며 멸종 직전까지 건재했을 가능성 시사",
-      "summary_kr": "최근 발표된 화석 연구 결과는 공룡의 멸종이 소행성 충돌 수백만 년 전부터 서서히 진행되었다는 기존 학설에 이의를 제기한다. 연구진은 미국 뉴멕시코 지역에서 발견된 후기 백악기 지층의 화석 기록을 면밀히 분석했다. 분석 결과, 해당 지층에는 소행성 충돌 직전까지 다양한 종류의 공룡 종들이 높은 다양성을 유지하며 생존했음을 보여주는 증거가 포착되었다. 이는 소행성 충돌 이전부터 공룡 개체군의 생물 다양성이 감소하는 추세였다는 일반적인 가설과 상반되는 것이다. 이 발견은 공룡들이 마지막 순간까지 생태학적으로 건재한 상태였으며, 멸종이 외부 충격에 의한 급격한 환경 변화에 전적으로 기인했을 가능성을 뒷받침한다. 따라서 공룡 멸종의 원인을 이해하는 데 있어 '느린 쇠퇴'가 아닌 '갑작스러운 사건'의 중요성이 더욱 강조되고 있다.",
+      "title": "공룡, 소행성 충돌 직전까지 번성했던 것으로 추정",
+      "summary_kr": "새로운 연구 결과가 공룡이 소행성 충돌 직전까지 왕성하게 번성했음을 시사하며 기존의 학설에 도전장을 내밀었다. 미국 뉴멕시코 지역에서 발견된 후기 백악기 지층의 화석군 분석이 이 같은 주장의 핵심 증거다. 연구진은 해당 화석층에서 발견된 다양한 종의 공룡들이 멸종 사건 바로 직전까지 생태계 내에서 활발히 활동하고 있었음을 확인했다. 이는 소행성 충돌 이전에 공룡의 다양성과 개체 수가 이미 감소하고 있었다는 기존의 '점진적 쇠퇴론'과는 상반되는 결과다. 이번 발견은 공룡 대멸종이 외부 요인(소행성 충돌)에 의한 급격한 사건이었으며, 멸종 과정이 점진적이지 않았음을 뒷받침한다. 과학계는 이번 연구를 통해 공룡 시대 말기의 생태학적 상황에 대한 새로운 관점을 제시할 것으로 기대하고 있다.",
       "summary_en": "Fossil beds in New Mexico show diverse species present in the late Cretaceous."
     },
     {
@@ -8929,8 +9193,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1291108057-500x500.jpg",
-      "title": "NIH 국장 이동 후 JD 밴스 측근이 후임에, 과학 기관 인사 논란",
-      "summary_kr": "미국 국립 독성 프로그램(NTP)은 과거 휴대폰 방사선과 불소의 안전성에 대해 논란이 많은 연구 결과를 발표하며 공중 보건 커뮤니티의 주목을 받았습니다. 이러한 연구와 연관된 위치에 있던 국립보건원(NIH)의 고위 책임자가 최근 MAHA로 자리를 옮긴 것으로 확인되었습니다. 이로 인해 발생한 NIH의 공석에는 상원의원 JD 밴스의 가까운 측근이 후임으로 임명되면서 논란이 일고 있습니다. 과학적 독립성이 요구되는 핵심 기관의 인사에 정치적 연줄이 개입되었다는 지적이 제기되며, 향후 연구 방향에 대한 우려가 커지고 있습니다. 새로운 책임자가 NTP의 과거 논란성 연구 및 공중 보건 이슈에 대해 어떤 입장을 취할지에 대해 과학계의 귀추가 주목됩니다.",
+      "title": "NIH 국장, MAHA 합류 후 JD 밴스 측근에게 자리 넘겨",
+      "summary_kr": "미국 국립 독성 프로그램(NTP)은 과거 휴대폰 방사선 및 불소 노출과 관련된 연구를 발표하며 과학계와 대중의 광범위한 논란을 야기한 바 있다. NTP는 특히 휴대폰 사용과 암 위험 간의 잠재적 연관성을 시사하는 동물 연구 결과를 공개했지만, 이 결과의 인체 적용 가능성을 두고 과학적 해석상의 큰 이견이 발생했다. 또한 식수 내 불소 안전성에 대한 NTP의 연구 역시 공중 보건 정책과 관련하여 지속적인 논쟁을 불러일으키는 핵심 쟁점이었다. 이처럼 민감하고 논란이 많은 과학적 의제를 다루는 기관의 고위직을 담당했던 NIH 국장이 MAHA로 자리를 옮기면서 행정 공백이 발생했다. 그의 후임으로 JD 밴스 상원의원의 측근이 임명됨에 따라, NTP가 관여하는 향후 과학 연구의 독립성과 방향성에 대한 관심이 집중되고 있다. 새로운 리더십이 기존의 논란 많은 연구 결과에 대해 어떤 입장을 취할지가 주요 초점이 될 전망이다.",
       "summary_en": "The NTP produced controversial studies on cellphone radiation and fluoride."
     },
     {
@@ -8940,8 +9204,8 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/rsosSimosthenurus_occidentalis-500x500.jpg",
-      "title": "호주 대륙에 발을 디딘 최초의 인류는 '화석 수집가'였다",
-      "summary_kr": "최근 발표된 연구 결과에 따르면, 유럽인들이 호주에 도착하기 수만 년 전부터 원주민들이 광물 및 고대 생물의 잔해를 수집해 왔던 것으로 밝혀졌다. 이는 호주 대륙에 발을 디딘 최초의 인류가 단순한 생존을 넘어 고대의 흔적에 지적 호기심을 보인 '화석 수집가'였다는 사실을 시사한다. 고고학자들은 발견된 유물 분석을 통해 이 초기 인류가 화석을 도구 제작 목적이 아닌, 미적 가치나 순수한 호기심으로 채집했을 가능성이 높다고 분석했다. 이러한 발견은 유럽인들이 호주에서 최초로 자연사를 기록했다는 기존의 통념을 뒤집는다. 나아가 이번 연구는 호주 원주민들이 이미 심오한 자연사 지식과 수집 활동을 영위했음을 입증하는 중요한 증거를 제시한다. 결과적으로 초기 인류의 지적 활동 범위에 대한 재평가와 호주 고고학 역사의 수정이 필요하다는 목소리가 나오고 있다.",
+      "title": "호주 최초의 정착민들, 알고 보니 '화석 사냥꾼'이었다",
+      "summary_kr": "새로운 연구 결과에 따르면, 호주에 처음 정착한 인류는 이미 화석을 수집하고 활용하는 활동에 참여했던 것으로 확인되었다. 이는 유럽 정착민들이 도착하기 수만 년 전부터 호주 토착민들이 지질학적 표본에 깊은 관심을 가지고 있었음을 시사한다. 연구팀은 고고학적 증거와 구전 역사를 면밀히 분석하여, 원주민들이 멸종된 거대 동물의 뼈나 특이한 광물 형태를 문화적 목적이나 상징적 의미로 채집했음을 밝혀냈다. 이 화석 수집 행위는 단순한 호기심을 넘어, 이들이 환경 변화와 깊은 역사를 이해하는 데 있어 고도의 지식을 갖추었음을 입증한다. 본 발견은 호주에서의 화석 발견 및 기록 역사가 유럽의 과학적 탐험보다 훨씬 오래된 토착적 기원을 가짐을 시사하는 중요한 과학적 근거를 제시한다.",
       "summary_en": "Europeans weren't the first people to collect fossils in Australia."
     },
     {
@@ -8951,20 +9215,9 @@
       "category": "News",
       "date": "2025-10-23",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/apex_sbi-500x500.jpg",
-      "title": "캘리포니아 스타트업, 자체 비용 투입해 우주 무기 시연 계획 발표",
-      "summary_kr": "캘리포니아에 위치한 한 신생 기업이 자체 비용을 투자하여 우주 무기 시스템을 시연할 계획을 발표하며 업계의 주목을 받고 있다. 이들은 기술적으로 우주에서 잠재적 군사적 활용이 가능한 시스템을 구현하는 데 필요한 모든 요소들이 이미 갖춰져 있다고 자신하고 있다. 일반적으로 정부나 군의 지원을 받는 고비용의 우주 개발 사업과는 달리, 해당 스타트업은 기술력에 대한 확신을 바탕으로 전액 자비를 들여 시연을 강행하는 이례적인 행보를 보이고 있다. 이는 상업 우주 산업이 첨단 군사 기술 개발 영역에까지 깊숙이 침투하고 있음을 보여주는 사례로 평가된다. 다가오는 시연은 해당 우주 무기 기술의 실질적인 작동 능력과 효용성을 입증하는 데 초점을 맞출 예정이며, 성공 여부에 따라 향후 투자 유치 및 국방 계약 가능성이 결정될 것이다. 이러한 민간 주도의 군사 기술 개발은 우주 안보 및 전략에 중대한 변화를 예고한다.",
+      "title": "캘리포니아 스타트업, 자체 비용으로 우주 무기 기술 시연 추진",
+      "summary_kr": "캘리포니아에 본사를 둔 한 스타트업이 정부 지원 없이 자체 자금을 투입하여 우주 무기 체계의 실물 시연을 계획하고 있다. 이 기업은 해당 시스템을 실현하는 데 필요한 모든 핵심 기술 요소들이 이미 완성되었으며 통합될 준비가 완료되었다고 강조했다. 이는 일반적으로 고비용의 국방 관련 기술 개발이 정부 주도로 이루어지는 것과 대조되는 행보로, 해당 기술의 상업적 준비도가 매우 높음을 시사한다. 이 무기 체계는 우주 기반 자산을 보호하거나 적대적인 위협을 제거하는 것을 목표로 하며, 최근 급변하는 우주 안보 환경에서 핵심 역량으로 부상하고 있다. 자체 자금을 통한 공격적인 기술 검증은 신속한 시장 진입을 목표로 하며, 성공 시 미 국방부 및 국제 동맹국을 대상으로 한 상용 판매가 본격화될 전망이다.",
       "summary_en": "\"All of the pieces that are required to make it viable exist.\""
-    },
-    {
-      "title_en": "Neurons tune electron transport chain to survive onslaught of noxious stimuli",
-      "url": "https://www.thetransmitter.org/sensory-systems/neurons-tune-electron-transport-chain-to-survive-onslaught-of-noxious-stimuli/",
-      "source": "The Transmitter",
-      "category": "Neuroscience",
-      "date": "2025-10-22",
-      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/10/cropped-525-social-nociceptors-motochondrial-electron-transport.png",
-      "title": "뉴런, 유해 자극 생존을 위해 전자 전달계(ETC) 조율 메커니즘 규명",
-      "summary_kr": "통증을 감지하는 신경세포인 통각 수용체(Nociceptors)가 유해한 자극으로부터 스스로를 보호하는 새로운 생존 전략이 발견되었다. 연구에 따르면, 통각 수용체는 외부의 열, 화학적 자극제 또는 독소에 노출될 때 미토콘드리아 내의 전자 전달계(ETC) 활동을 정교하게 조율한다. 이러한 대사 조율은 세포 호흡 과정의 부산물인 활성 산소종(ROS)의 과도한 생성을 효과적으로 억제하는 역할을 수행한다. 활성 산소종은 신경 세포에 심각한 손상을 일으키는 것으로 알려져 있으며, 격렬한 유해 자극에 노출될 경우 세포 사멸을 촉진하는 주요 원인이 된다. 통각 수용체는 ETC의 활동을 늦춰 ROS의 생성을 낮춤으로써, 유해 자극의 맹공격 속에서도 신경 세포가 생존할 수 있는 능력을 확보하는 것으로 확인되었다.",
-      "summary_en": "Nociceptors tamp down the production of reactive oxygen species in response to heat, chemical irritants or toxins."
     },
     {
       "title_en": "NASA’s Boss Just Shook Up the Agency’s Plans to Land on the Moon",
@@ -8973,8 +9226,8 @@
       "category": "News",
       "date": "2025-10-22",
       "image_url": "https://media.wired.com/photos/68f7cabfd7b0b6e1b9e53c99/master/pass/NASA-Boss-Shook-Up-Moon-Landing-Plans-Science-2231496815.jpg",
-      "title": "NASA 수장, 달 착륙 계획에 전면적 변화 예고",
-      "summary_kr": "션 더피 NASA 국장이 최근 달 착륙 계획에 대한 중대한 변화를 시사하며 우주 산업계에 파문을 일으켰다. 더피 국장은 특히 달 착륙선 개발을 담당하고 있는 스페이스X(SpaceX)를 겨냥하여 강한 비판의 목소리를 냈다. 그는 스페이스X가 해당 달 착륙선 개발 일정을 \"예정보다 늦추고 있다(behind schedule)\"고 공식적으로 지적했다. 이러한 지연 상황에 대응하여, 더피 국장은 달 착륙 임무를 완수하기 위해 \"다른 옵션들을 모색할 것\"이라고 명확히 밝혔다. 이는 NASA가 스페이스X와의 계약 외에 다른 우주 기업과의 협력을 고려할 수 있음을 암시하며, 아르테미스(Artemis) 프로그램의 미래에 중대한 영향을 미칠 전망이다.",
+      "title": "NASA 국장, 달 착륙 계획 대폭 수정 예고…스페이스X 일정 지연 공개 지적",
+      "summary_kr": "NASA 최고 책임자가 달 착륙 프로그램의 핵심 계획을 재검토할 가능성을 시사하며 우주국 내부에 충격을 주었다. 션 더피 국장은 달 착륙선 개발을 담당하는 스페이스X가 현재 “일정이 지연되고 있다”는 점을 공개적으로 지적했다. 이 같은 개발 지연은 NASA가 목표로 하는 아르테미스(Artemis) 임무의 달 착륙 시점을 위협하는 주요 요인으로 작용하고 있다. 더피 국장은 현재의 상황을 해결하기 위해 스페이스X에만 의존하지 않고 추가적인 대안을 적극적으로 모색할 것이라고 밝혔다. 이는 달 착륙을 위한 유인 착륙 시스템(HLS) 계약 구조에 중대한 변화를 가져올 수 있음을 시사하며, NASA의 달 착륙 전략에 격변이 예상된다.",
       "summary_en": "Sean Duffy called out SpaceX for being “behind schedule” on a lunar lander and said he’d explore other options."
     },
     {
@@ -8984,20 +9237,9 @@
       "category": "News",
       "date": "2025-10-22",
       "image_url": "https://media.wired.com/photos/68f12b770a02f3f0cf5506e5/master/pass/2140991326",
-      "title": "항생제 개발 속도를 추월하는 내성 박테리아의 확산",
-      "summary_kr": "세계보건기구(WHO)의 최근 보고에 따르면, 항생제에 대한 내성균의 확산 속도가 신약 개발 속도를 앞지르고 있어 심각한 공중 보건 위협으로 떠오르고 있다. WHO가 집계한 2023년 실험실 확진 사례 중, 박테리아 감염 사례 6건 중 1건이 항생제 치료에 내성을 보이는 것으로 확인되었다. 이는 전체 확진 사례의 약 16.7%에 달하는 높은 수치로, 항생제 내성 문제의 심각성을 방증한다. 특히, 내성을 보인 박테리아들은 전 세계적으로 흔하게 발생하는 다양한 일반 질병과 연관되어 있다는 점에서 우려가 커지고 있다. 이러한 현상은 기존 항생제의 효능을 떨어뜨리고 치료 옵션을 제한하며, 감염 관리에 중대한 도전 과제를 제시한다. 전문가들은 항생제 내성(AMR) 문제가 더 이상 미래의 위협이 아닌 현재의 위기임을 강조하며, 효과적인 치료제 확보를 위한 국제적 대응 강화가 시급하다고 촉구했다.",
+      "title": "항생제보다 빠르게 진화하는 내성 박테리아",
+      "summary_kr": "세계보건기구(WHO)가 발표한 최신 데이터에 따르면, 항생제 내성 문제가 심각한 수준에 도달했다. 2023년 실험실에서 확인된 박테리아 중 6분의 1이 항생제 치료에 내성을 보이는 것으로 나타났다. 이러한 내성균은 전 세계적으로 흔한 다양한 질병과 관련이 있으며, 감염 치료를 더욱 복잡하게 만들고 있다. 특히 항생제 내성(AMR)은 공중 보건의 주요 위협으로 인식되고 있으며, 기존 약물로는 더 이상 감염을 효과적으로 통제할 수 없음을 시사한다. WHO는 내성 박테리아의 진화 속도가 새로운 항생제 개발 속도를 훨씬 앞지르고 있다고 경고했다. 이에 따라 국제사회는 내성균 확산을 늦추기 위한 긴급 조치와 혁신적인 치료 전략 마련이 필요하다는 지적이다.",
       "summary_en": "One in six laboratory-confirmed bacteria in 2023 proved resistant to antibiotic treatment, according to the World Health Organization—all related to a variety of common diseases globally."
-    },
-    {
-      "title_en": "New Report Finds Efforts to Slow Climate Change Are Working—Just Not Fast Enough",
-      "url": "https://www.wired.com/story/new-report-finds-efforts-to-slow-climate-change-are-working-just-not-fast-enough/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-10-22",
-      "image_url": "https://media.wired.com/photos/68f67b35328039a7a6b7066c/master/pass/World-Not-Doing-Anything-About-Climate-Change-Science-2205540770.jpg",
-      "title": "신규 보고서: 기후 변화 둔화 노력, 효과 보지만 진행 속도는 '미흡'",
-      "summary_kr": "기후 단체 연합이 발표한 새로운 보고서에 따르면, 기후 변화에 맞서 싸우려는 전 세계적 노력은 거의 모든 주요 지표에서 매우 느리게 진행되고 있다. 이 보고서는 일부 긍정적인 발전이 있었음을 인정하면서도, 지구 온난화 목표 달성을 위해서는 현재의 속도가 치명적으로 부족하다고 지적했다. 특히 에너지 전환 및 배출량 감축과 같은 핵심 부문에서 기대했던 만큼의 신속한 진전이 이루어지지 않고 있는 것으로 분석된다. 더 나아가, 보고서는 일부 사례에서는 오히려 상황이 악화되어 노력이 잘못된 방향으로 움직이는 것으로 나타났다고 경고했다. 이는 전 세계가 파리 협정의 목표를 달성하고 재앙적인 기후 변화를 피하기 위해서는 훨씬 더 강력하고 즉각적인 조치가 필요함을 시사한다.",
-      "summary_en": "By virtually every key metric, efforts to fight climate change are going too slowly, according to findings by a coalition of climate groups. In some cases, things are moving in the wrong direction."
     }
   ]
 }
