@@ -89,7 +89,7 @@ def get_gemini_summary(article_data):
 """
 
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model='gemini-2.5-flash', # 모델 버전
                 contents=[
                     prompt,
                     types.Part.from_uri(
@@ -128,7 +128,7 @@ def get_gemini_summary(article_data):
 """
             
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model='gemini-2.5-flash', # 모델 버전
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json"
@@ -379,32 +379,38 @@ def main():
     all_articles_to_check.extend(scrape_rss_feed('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper'))
 
     # ========================================================================
-    # 2. 기존 기사 로드 (최근 7일만)
+    # 2. 기존 기사 로드 (***수정된 로직***)
     # ========================================================================
     
     seen_urls = set()
-    final_article_list = []
+    old_articles_to_keep = [] # ARCHIVE_DAYS 내의 기사만 보관할 임시 리스트
 
     try:
         with open('articles.json', 'r', encoding='utf-8') as f:
             old_data = json.load(f)
             for old_article in old_data.get('articles', []):
+                if not old_article.get('url'):
+                    continue
+                
+                # [수정] 1. 날짜와 상관없이 모든 URL을 'seen_urls'에 추가하여 API 중복 호출 방지
+                seen_urls.add(old_article['url'])
+                
+                # [수정] 2. 7일 이내의 기사인지 별도로 확인하여 최종 목록에 유지
                 try:
                     article_date = datetime.strptime(old_article.get('date', '1970-01-01'), '%Y-%m-%d')
                     if (datetime.now() - article_date).days <= ARCHIVE_DAYS:
-                        if old_article.get('url'):
-                            seen_urls.add(old_article['url'])
-                            final_article_list.append(old_article)
+                        old_articles_to_keep.append(old_article)
                 except ValueError:
-                    continue
+                    continue # 날짜 형식이 잘못된 경우 무시
                     
-        print(f"\n[i] 기존 URL {len(seen_urls)}개 로드 (최근 {ARCHIVE_DAYS}일)")
+        print(f"\n[i] 기존 URL {len(seen_urls)}개 로드 (API 중복 호출 방지용)")
+        print(f"    (그 중 {len(old_articles_to_keep)}개 기사가 {ARCHIVE_DAYS}일 이내이므로 보관)")
         
     except FileNotFoundError:
         print("\n[i] 'articles.json' 파일을 찾을 수 없습니다. 새 파일을 생성합니다.")
     except json.JSONDecodeError:
         print("\n[i] ❌ 'articles.json' 파일이 손상되었습니다. 새 파일을 생성합니다.")
-        final_article_list = []
+        old_articles_to_keep = []
         seen_urls = set()
 
     # ========================================================================
@@ -424,6 +430,7 @@ def main():
             print(f"  ⚠️ URL 누락 (소스: {article_data.get('source', 'N/A')}). 건너뜁니다.")
             continue
 
+        # [수정] 이제 seen_urls는 모든 과거 기사 URL을 포함하므로 7일이 지난 기사도 API 호출을 건너뜀
         if article_data['url'] not in seen_urls:
             
             if new_article_count >= MAX_NEW_ARTICLES_PER_RUN:
@@ -448,7 +455,7 @@ def main():
                 del article_data['description_en']
 
                 new_articles.append(article_data)
-                seen_urls.add(article_data['url'])
+                seen_urls.add(article_data['url']) # 혹시나 중복 수집될 경우를 대비해 여기서도 추가
 
             time.sleep(API_DELAY_SECONDS)
 
@@ -460,23 +467,28 @@ def main():
     print(f"    (기존 기사 {existing_articles_count}개 건너뜀)")
 
     # ========================================================================
-    # 4. 기사 병합 및 중복 제거
+    # 4. 기사 병합 및 중복 제거 (***수정된 로직***)
     # ========================================================================
     
-    final_article_list.extend(new_articles)
+    # [수정] final_article_list 대신 old_articles_to_keep에서 시작
+    deduplicated_list = old_articles_to_keep
+    deduplicated_list.extend(new_articles)
 
-    # 남은 중복 항목 제거
+    # 남은 중복 항목 제거 (혹시 모를 경우 대비)
     final_seen_urls = set()
-    deduplicated_list = []
-    for article in final_article_list:
+    final_deduplicated_list = []
+    
+    for article in deduplicated_list:
         if article.get('url') and article['url'] not in final_seen_urls:
             # [사용자 요청] 번역/요약 실패 항목이 기존 목록에 있더라도 최종 목록에는 추가하지 않음
             if "[Translation Failed]" not in article.get('summary_kr', '') and "[요약 실패]" not in article.get('summary_kr', ''):
                 final_seen_urls.add(article['url'])
-                deduplicated_list.append(article)
+                final_deduplicated_list.append(article)
             else:
                 print(f"  [i] 🗑️ 기존 목록에서 실패한 항목 제거: {article.get('title', 'N/A')[:50]}...")
 
+    # [수정] 최종 리스트를 할당
+    deduplicated_list = final_deduplicated_list
 
     # 날짜순 정렬 (최신순)
     deduplicated_list.sort(key=lambda x: x.get('date', '1970-01-01'), reverse=True)
@@ -523,3 +535,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
