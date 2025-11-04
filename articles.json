@@ -1,424 +1,6 @@
 {
   "last_updated": "2025-11-04 10:30:35",
-  "articles": [
-    {
-      "title_en": "How neuroscientists are using AI",
-      "url": "https://www.thetransmitter.org/machine-learning/how-neuroscientists-are-using-ai/",
-      "source": "The Transmitter",
-      "category": "Neuroscience",
-      "date": "2025-11-04",
-      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/11/cropped-LLMs-AI-Neuroscience-525.png",
-      "title": "신경과학자들이 인공지능을 활용하는 방법",
-      "summary_kr": "신경과학 분야에서 인공지능의 활용이 점차 확대되고 있습니다. 특히 대규모 언어 모델(LLM)은 방대한 학술 문헌 분석, 가설 설정, 복잡한 데이터세트 상호 작용 등 다양한 측면에서 연구자들에게 새로운 가능성을 제시하고 있습니다. 여덟 명의 연구자들은 인공지능을 활용하여 문헌 분석의 효율성을 높이고, 새로운 가설을 탐색하며, 복잡한 데이터로부터 의미 있는 통찰력을 얻는 방법을 설명합니다. 이들은 인공지능이 신경과학 연구의 속도와 정확성을 향상시키는 데 기여할 수 있다고 강조합니다. 인공지능은 또한 연구자들이 기존에 간과했던 연결 고리를 발견하고, 새로운 연구 방향을 설정하는 데 도움을 줄 수 있습니다.",
-      "summary_en": "Eight researchers explain how they are using large language models to analyze the literature, brainstorm hypotheses and interact with complex datasets."
-    },
-    {
-      "title_en": "Functional connectivity links with autism, not ADHD; and more",
-      "url": "https://www.thetransmitter.org/spectrum/functional-connectivity-links-with-autism-not-adhd-and-more/",
-      "source": "The Transmitter",
-      "category": "Neuroscience",
-      "date": "2025-11-04",
-      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/11/1200-spotted-20251104-1.png",
-      "title": "Functional connectivity links with autism, not ADHD; and more",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Here is a roundup of autism-related news and research spotted around the web for the week of 3 Novem...)",
-      "summary_en": "Here is a roundup of autism-related news and research spotted around the web for the week of 3 November."
-    },
-    {
-      "title_en": "Letters to scientific journals surge as ‘prolific debutante’ authors likely use AI",
-      "url": "https://www.science.org/content/article/letters-scientific-journals-surge-prolific-debutante-authors-likely-use-ai",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Letters to scientific journals surge as ‘prolific debutante’ authors likely use AI",
-      "summary_kr": "[Translation Failed] API call failed. (Original: New study reinforces worries about “mass production of junk” by unscrupulous scholars aiming to pad ...)",
-      "summary_en": "New study reinforces worries about “mass production of junk” by unscrupulous scholars aiming to pad their CVs"
-    },
-    {
-      "title_en": "This organism turns dino bones orange—making them easier to spot",
-      "url": "https://www.science.org/content/article/organism-turns-dino-bones-orange-making-them-easier-spot",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "This organism turns dino bones orange—making them easier to spot",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Paleontologists use drones and brightly colored lichen to search for fossils in the Canadian Badland...)",
-      "summary_en": "Paleontologists use drones and brightly colored lichen to search for fossils in the Canadian Badlands"
-    },
-    {
-      "title_en": "Antarctic glacier shows fastest retreat in modern history",
-      "url": "https://www.science.org/content/article/antarctic-glacier-shows-fastest-retreat-modern-history",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Antarctic glacier shows fastest retreat in modern history",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Tides and glacial earthquakes caused record ice loss at Hektoria Glacier...)",
-      "summary_en": "Tides and glacial earthquakes caused record ice loss at Hektoria Glacier"
-    },
-    {
-      "title_en": "Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome",
-      "url": "https://www.nature.com/articles/s41586-025-09815-0",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/s41586-025-09815-0Independent mechanisms of i...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/s41586-025-09815-0Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome"
-    },
-    {
-      "title_en": "Accelerating the discovery of multicatalytic cooperativity",
-      "url": "https://www.nature.com/articles/s41586-025-09813-2",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Accelerating the discovery of multicatalytic cooperativity",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/s41586-025-09813-2Accelerating the discovery ...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/s41586-025-09813-2Accelerating the discovery of multicatalytic cooperativity"
-    },
-    {
-      "title_en": "From pangolins to primates: how I use zoo facilities to treat wild animals",
-      "url": "https://www.nature.com/articles/d41586-025-03576-6",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "From pangolins to primates: how I use zoo facilities to treat wild animals",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03576-6Charlene Yeong works as a v...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03576-6Charlene Yeong works as a veterinarian with animals from zoos and those native to Singapore."
-    },
-    {
-      "title_en": "Sex, drugs and the conscious brain: Francis Crick beyond the double helix",
-      "url": "https://www.nature.com/articles/d41586-025-03573-9",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Sex, drugs and the conscious brain: Francis Crick beyond the double helix",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03573-9A thoroughly researched acc...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03573-9A thoroughly researched account of the history and relationships that shaped the scientist who co-discovered the structure of DNA."
-    },
-    {
-      "title_en": "How to fight climate change without the US: a guide to global action",
-      "url": "https://www.nature.com/articles/d41586-025-03571-x",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "How to fight climate change without the US: a guide to global action",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03571-xWith the US government abse...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03571-xWith the US government absent from the COP30 global climate summit, it will be up to others to avert catastrophe."
-    },
-    {
-      "title_en": "PhD training needs a reboot in an AI world",
-      "url": "https://www.nature.com/articles/d41586-025-03572-w",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "PhD training needs a reboot in an AI world",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03572-wAs machines get better at d...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03572-wAs machines get better at data analysis and writing tasks, doctoral training must evolve to make the most of artificial-intelligence outputs."
-    },
-    {
-      "title_en": "Alzheimer’s decline slows with just a few thousand steps a day",
-      "url": "https://www.nature.com/articles/d41586-025-03596-2",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Alzheimer’s decline slows with just a few thousand steps a day",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03596-2A modest increase in physic...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03596-2A modest increase in physical activity can delay cognitive decline by three years — or more."
-    },
-    {
-      "title_en": "Dismantling of US federal agencies will ‘destroy science’",
-      "url": "https://www.nature.com/articles/d41586-025-03575-7",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Dismantling of US federal agencies will ‘destroy science’",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03575-7From NASA to the National I...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03575-7From NASA to the National Institutes of Health, federal agencies conduct research that universities cannot. Agency scientists speak out about the irreplaceable facilities, institutional knowledge and training opportunities that the country is losing."
-    },
-    {
-      "title_en": "‘Memory foam’ skeleton in cells helps them to navigate",
-      "url": "https://www.nature.com/articles/d41586-025-03448-z",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "‘Memory foam’ skeleton in cells helps them to navigate",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03448-zCells change shape to move ...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03448-zCells change shape to move efficiently in a range of spatial environments. This response can be informed by the cell’s memory of past deformation."
-    },
-    {
-      "title_en": "My funding applications are taking up too much time. How can I stay focused on my research?",
-      "url": "https://www.nature.com/articles/d41586-025-03351-7",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "My funding applications are taking up too much time. How can I stay focused on my research?",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03351-7A young academic in China w...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03351-7A young academic in China worries that the grant-application lottery is wasted effort."
-    },
-    {
-      "title_en": "‘Biotech Barbie’ says the time has come to consider CRISPR babies. Do scientists agree?",
-      "url": "https://www.nature.com/articles/d41586-025-03554-y",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "‘Biotech Barbie’ says the time has come to consider CRISPR babies. Do scientists agree?",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03554-yA company’s plan to edit th...)",
-      "summary_en": "Nature, Published online: 03 November 2025;doi:10.1038/d41586-025-03554-yA company’s plan to edit the genomes of human embryos worries some researchers — but it might reflect the changing attitudes towards the controversial approach."
-    },
-    {
-      "title_en": "Daily briefing: Wildlife wonders and a Super Heavy — the month’s best science images",
-      "url": "https://www.nature.com/articles/d41586-025-03609-0",
-      "source": "Nature (News & Comment)",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Daily briefing: Wildlife wonders and a Super Heavy — the month’s best science images",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature, Published online: 31 October 2025;doi:10.1038/d41586-025-03609-0An illuminated swell shark e...)",
-      "summary_en": "Nature, Published online: 31 October 2025;doi:10.1038/d41586-025-03609-0An illuminated swell shark egg and a SpaceX launch are among the month’s most striking science shots. Plus, a ‘teen T. rex’ is actually a totally different dinosaur and chatbots trained on social-media junk get ‘brain rot’."
-    },
-    {
-      "title_en": "STAT+: Experts worry FDA’s credibility is being shredded by scandal and ‘soap opera’",
-      "url": "https://www.statnews.com/2025/11/04/fda-in-disarray-expert-analysis-george-tidmarsh-scandal/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/FDA_CHAOS_02-645x645.jpg",
-      "title": "STAT+: Experts worry FDA’s credibility is being shredded by scandal and ‘soap opera’",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Experts worry that the FDA’s credibility is being shredded by scandal and \"soap opera.\"...)",
-      "summary_en": "Experts worry that the FDA’s credibility is being shredded by scandal and \"soap opera.\""
-    },
-    {
-      "title_en": "STAT+: Microdosing aims to extend the lifespan of the GLP-1 compounding market",
-      "url": "https://www.statnews.com/2025/11/04/microdosing-glp-1-drugs-no-clinical-evidence-effective/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AdobeStock_387900782-645x645.jpeg",
-      "title": "STAT+: Microdosing aims to extend the lifespan of the GLP-1 compounding market",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Despite no strong evidence of clinical benefit, microdosing GLP-1s will likely continue as a strateg...)",
-      "summary_en": "Despite no strong evidence of clinical benefit, microdosing GLP-1s will likely continue as a strategy for some to profit off of the popular drug class."
-    },
-    {
-      "title_en": "Opinion: I’m a neuroscientist who works on memory manipulation. My work helps me recover from addiction",
-      "url": "https://www.statnews.com/2025/11/04/addiction-brain-healing-choice-neuroscience/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-109398258-645x645.jpg",
-      "title": "Opinion: I’m a neuroscientist who works on memory manipulation. My work helps me recover from addiction",
-      "summary_kr": "[Translation Failed] API call failed. (Original: “Sobriety didn’t restore the old version of me; it allowed me to build a new one from the driftwood ...)",
-      "summary_en": "“Sobriety didn’t restore the old version of me; it allowed me to build a new one from the driftwood of the past,” neuroscientist Steve Ramirez writes, invoking the ship of…"
-    },
-    {
-      "title_en": "Opinion: A miracle pill for Parkinson’s is 50 years old. Why can’t most of the world get it?",
-      "url": "https://www.statnews.com/2025/11/04/parkinsons-disease-treatment-greater-levodopa-access-how-to/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2024/04/AdobeStock_469865884-645x645.jpeg",
-      "title": "Opinion: A miracle pill for Parkinson’s is 50 years old. Why can’t most of the world get it?",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Parkinson's has doubled globally in 25 years. We need a coordinated response....)",
-      "summary_en": "Parkinson's has doubled globally in 25 years. We need a coordinated response."
-    },
-    {
-      "title_en": "Record-Breaking DNA Sequencing Technology Could Transform Newborn Care",
-      "url": "https://www.the-scientist.com/record-breaking-dna-sequencing-technology-could-transform-newborn-care-73696",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "신생아 치료의 혁신을 가져올 획기적인 DNA 염기서열 분석 기술",
-      "summary_kr": "연구진이 세계에서 가장 빠른 DNA 염기서열 분석 기술을 개발하여 세계 신기록을 세웠습니다. 단 4시간 이내에 전체 유전체 분석을 완료할 수 있게 된 것입니다. 이는 보다 빠르고 표적화된 치료를 제공할 수 있는 획기적인 발전입니다. 이번 기술은 신생아 집중 치료 분야에 혁명을 가져올 잠재력을 가지고 있습니다. 유전 질환의 신속한 진단을 통해 즉각적인 맞춤형 치료가 가능해질 것으로 기대됩니다. 궁극적으로 신생아의 건강과 생존율 향상에 크게 기여할 것입니다.",
-      "summary_en": "Researchers set a new world record for the fastest DNA sequencing, completing a whole genome in under four hours—a breakthrough with potential for faster, targeted care."
-    },
-    {
-      "title_en": "Research Roundtable: The Evolving World of Spatial Biology",
-      "url": "https://www.the-scientist.com/research-roundtable-the-evolving-world-of-spatial-biology-73692",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Research Roundtable: The Evolving World of Spatial Biology",
-      "summary_kr": "[Translation Failed] API call failed. (Original: In our next roundtable webinar, learn how scientists leverage spatial biology to map tissues, uncove...)",
-      "summary_en": "In our next roundtable webinar, learn how scientists leverage spatial biology to map tissues, uncover cellular interactions, and advance disease research."
-    },
-    {
-      "title_en": "Antibodies Unmask Pancreatic Tumors Hiding in Sugar-Coated Disguise",
-      "url": "https://www.the-scientist.com/antibodies-unmask-pancreatic-tumors-hiding-in-sugar-coated-disguise-73689",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "항체, 당분으로 위장한 췌장암 종양의 가면을 벗기다",
-      "summary_kr": "새로운 항체 치료법이 면역 세포를 다시 활성화시켜 종양 세포에 대한 공격을 개시합니다. 이 전략은 보다 효과적인 췌장암 치료법으로 이어질 수 있습니다. 연구진은 특정 항체를 사용하여 췌장암 세포 표면의 당분층을 제거함으로써, 면역 세포가 암세포를 더 쉽게 식별하고 공격하도록 유도했습니다. 이는 췌장암 세포가 면역 체계를 회피하기 위해 사용하는 위장술을 무력화하는 획기적인 접근 방식입니다. 이번 연구 결과는 췌장암 치료의 새로운 가능성을 제시하며, 향후 임상 시험을 통해 효과가 검증될 것으로 기대됩니다. 이 치료법은 췌장암 환자의 생존율을 향상시키는 데 크게 기여할 수 있을 것으로 보입니다.",
-      "summary_en": "A new antibody therapy reawakens immune cells to launch an attack against tumor cells. This strategy could lead to more effective pancreatic cancer treatments."
-    },
-    {
-      "title_en": "Exploring the State of the Art in Gene Editing Techniques",
-      "url": "https://www.the-scientist.com/exploring-the-state-of-the-art-in-gene-editing-techniques-73691",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Exploring the State of the Art in Gene Editing Techniques",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Discover how scientists use the latest gene editing tools to advance health research....)",
-      "summary_en": "Discover how scientists use the latest gene editing tools to advance health research."
-    },
-    {
-      "title_en": "A New Light-Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
-      "url": "https://www.wired.com/story/a-new-light-based-cancer-treatment-kills-tumor-cells-and-spares-healthy-ones/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": "https://media.wired.com/photos/6908870efd0308d4d7712bfc/master/pass/ScienceSourceImages_1528308_HighRes.jpg",
-      "title": "A New Light-Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
-      "summary_kr": "[Translation Failed] API call failed. (Original: By combining LED technology and nanomaterials, researchers have created a therapy that eliminates ca...)",
-      "summary_en": "By combining LED technology and nanomaterials, researchers have created a therapy that eliminates cancer cells using localized heat without damaging healthy tissue."
-    },
-    {
-      "title_en": "CDER chief George Tidmarsh resigns as deleted LinkedIn post prompts Aurinia lawsuit, FDA probe",
-      "url": "https://www.fiercebiotech.com/pharma/cder-chief-tidmarsh-resigns-deleted-linkedin-post-blasting-lupkynis-prompts-aurinia-lawsuit",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "FDA 고위 관계자 조지 티드마시 사임, 삭제된 링크드인 게시물로 오리니아 소송 및 FDA 조사 촉발",
-      "summary_kr": "미국 식품의약국(FDA)의 고위 관계자인 조지 티드마시 박사가 사임했다. 이는 그의 파격적인 링크드인 게시글이 발단이 되어, 그가 소송의 중심에 서고 FDA 내부 조사까지 받게 된 데 따른 것이다. 해당 게시글의 구체적인 내용은 알려지지 않았으나, 그의 행동은 고위 규제 당국자로서 부적절했다는 비판을 받았다. 현재 FDA는 티드마시 박사의 사임과 관련하여 추가적인 입장을 밝히지 않고 있다. 이번 사임은 FDA의 신뢰도에 영향을 미칠 수 있다는 분석이 제기되고 있다. 또한, 오리니아 제약과의 소송 진행 상황 및 FDA 내부 조사 결과에 귀추가 주목된다.",
-      "summary_en": "High-ranking FDA official George Tidmarsh, M.D., has tendered his resignation after an unconventional LinkedIn diatribe landed the senior drug regulator at the center of a lawsuit and an internal probe."
-    },
-    {
-      "title_en": "uniQure's ballyhooed gene therapy for Huntington's hits FDA roadblock",
-      "url": "https://www.fiercebiotech.com/biotech/uniqure-ballyhooed-gene-therapy-huntingtons-hits-fda-roadblock",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "유니큐어의 헌팅턴병 유전자 치료제, FDA의 제동에 직면",
-      "summary_kr": "유니큐어(uniQure)가 개발한 헌팅턴병 유전자 치료제가 획기적인 치료법으로 기대를 모았으나, 미국 식품의약국(FDA)이 입장을 바꿔 승인에 난항을 겪고 있는 것으로 알려졌습니다. 이 치료제는 단 한 번의 투여로 효과를 볼 수 있는 유전자 치료 후보물질입니다. FDA의 갑작스러운 태도 변화는 업계에 놀라움을 주고 있습니다. 유니큐어 측은 FDA의 우려 사항을 해소하기 위해 노력하고 있으며, 치료제 개발을 지속할 예정입니다. 헌팅턴병 환자들은 이 치료제가 가져올 변화에 큰 기대를 걸고 있었으나, FDA의 결정에 따라 치료 일정에 차질이 불가피할 것으로 예상됩니다.",
-      "summary_en": "FDA is said to be making a U-turn on uniQure’s one-time gene therapy candidate for Huntington’s disease despite the treatment being hailed as a game changer."
-    },
-    {
-      "title_en": "Tempero calls time on alcohol use disorder while mulling options, according to partner",
-      "url": "https://www.fiercebiotech.com/biotech/tempero-calls-time-alcohol-use-disorder-while-mulling-options-according-partner",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "템페로, 알코올 사용 장애 프로그램 중단 고려 중 (파트너사 발표)",
-      "summary_kr": "템페로 바이오(Tempero Bio)는 알코올 사용 장애 치료제 개발 2상 임상 프로그램을 잠정 중단하고 향후 옵션을 검토하고 있다고 해당 프로그램 파트너사가 밝혔다. 이번 결정은 템페로 바이오가 사업 전략을 재평가하는 과정에서 나온 것으로 보인다. 구체적인 중단 사유와 향후 계획은 아직 공개되지 않았지만, 파트너사는 템페로 바이오가 다양한 가능성을 열어두고 있다고 전했다. 이번 임상 중단은 알코올 사용 장애 치료제 개발 경쟁 환경에 영향을 미칠 것으로 예상된다. 템페로 바이오의 결정이 업계에 미칠 파급 효과에 관심이 쏠리고 있다.",
-      "summary_en": "Tempero Bio has hit the brakes on a phase 2-stage alcohol use disorder program while the biotech considers its options, according to the program’s partner."
-    },
-    {
-      "title_en": "Roche signs $2B pact to pilot Manifold Bio's shuttles to the brain",
-      "url": "https://www.fiercebiotech.com/biotech/roche-signs-2b-pact-pilot-manifold-bios-shuttles-brain",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "로슈, Manifold Bio의 뇌 전달 기술 활용 위해 20억 달러 규모 계약 체결",
-      "summary_kr": "로슈가 뇌로 약물을 전달하는 방법에 대해 10년 이상 연구해 왔지만, 혈액-뇌 장벽을 통과하는 새로운 경로를 모색하기 위해 Manifold Bio에 5,500만 달러를 투자하기로 결정했다. 이번 계약은 Manifold Bio의 셔틀 기술을 활용하여 뇌 질환 치료제 개발을 가속화하기 위한 로슈의 전략적 움직임으로 해석된다. Manifold Bio의 플랫폼은 특정 뇌 세포에 약물을 정확하게 전달할 수 있는 잠재력을 가지고 있어, 기존 약물 전달 방식의 한계를 극복할 수 있을 것으로 기대된다. 로슈는 이번 협력을 통해 다양한 뇌 질환 치료제 개발에 박차를 가하고, 미충족 의료 수요를 해결하는 데 기여할 것으로 보인다. 양사 간의 협력은 뇌 질환 치료제 개발 분야에 새로운 가능성을 제시할 것으로 전망된다.",
-      "summary_en": "Roche may have been exploring ways to shuttle drugs to the brain for well over a decade, but that's not stopping the pharma from handing $55 million to Manifold Bio for a fresh route through the blood-brain barrier."
-    },
-    {
-      "title_en": "TScan lays off 30% of workforce, halts phase 1 solid tumor T-cell receptor trial",
-      "url": "https://www.fiercebiotech.com/biotech/tscan-lays-30-workforce-halts-phase-1-solid-tumor-t-cell-receptor-trial",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "TScan, 인력의 30% 감원 및 고형암 T세포 수용체 1상 임상시험 중단",
-      "summary_kr": "TScan 테라퓨틱스는 T세포 수용체 치료제 개발 바이오 기업으로, 고형암 임상 1상 시험을 중단하고 혈액암 환자에 집중하기로 결정하면서 인력의 30%를 감원할 예정입니다. 이번 결정은 회사의 자원 배분을 재조정하고, 보다 성공 가능성이 높은 혈액암 치료제 개발에 집중하기 위한 전략적 선택으로 보입니다. TScan은 T세포 수용체 기술을 활용하여 암세포를 표적하는 치료법 개발에 주력해 왔습니다. 고형암 임상 중단은 일시적인 차질이지만, 혈액암 분야에서의 연구 개발 역량 강화는 장기적으로 회사의 성장 동력을 확보하는 데 기여할 것으로 예상됩니다. 회사는 앞으로 혈액암 치료제 개발에 박차를 가할 계획입니다.",
-      "summary_en": "TScan Therapeutics is laying off 30% of its workforce as the T-cell receptor therapy biotech abandons a phase 1 solid tumor trial and focuses on patients with blood cancers."
-    },
-    {
-      "title_en": "Neurocrine pens $880M deal with China's TransThera for red-hot immunology target",
-      "url": "https://www.fiercebiotech.com/biotech/neurocrine-pens-880m-deal-chinas-transthera-red-hot-immunology-target",
-      "source": "Fierce Biotech",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Neurocrine, 중국 TransThera와 8억 8천만 달러 규모의 면역학 분야 협력 계약 체결",
-      "summary_kr": "Neurocrine Biosciences가 중국의 TransThera Sciences와 뜨겁게 떠오르는 염증 타겟에 대한 억제제 개발을 위해 최대 8억 8천만 달러 규모의 계약을 체결했습니다. 이번 계약은 초기 단계의 약물 개발 단계를 포함하며, TransThera는 특정 염증 경로를 표적으로 하는 소분자 억제제를 개발하는 데 주력할 것입니다. Neurocrine은 TransThera의 혁신적인 접근 방식과 염증성 질환 치료제 개발에 대한 잠재력을 높이 평가했습니다. 이번 협력을 통해 Neurocrine은 면역학 분야에서 자사의 파이프라인을 확장하고, 새로운 치료 옵션을 모색할 수 있게 되었습니다. 계약 조건에 따라 Neurocrine은 TransThera에게 계약금과 개발, 규제, 상업적 마일스톤에 따른 추가 지급금을 제공할 예정입니다. 양사는 협력을 통해 미충족 수요가 높은 염증성 질환 치료에 기여할 것으로 기대됩니다.",
-      "summary_en": "Neurocrine Biosciences has penned a deal with China’s TransThera Sciences potentially worth more than $880 million in biobucks for inhibitors aimed at a red-hot inflammation target."
-    },
-    {
-      "title_en": "Duchenne confirmatory trial fails, but Sarepta to ask FDA for full approval anyways",
-      "url": "https://endpoints.news/duchenne-confirmatory-trial-fails-but-sarepta-to-ask-fda-for-full-approval-anyways/",
-      "source": "Endpoints News",
-      "category": "News",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "뒤셴 근이영양증 확증 임상 실패에도 불구하고 사렙타, FDA에 완전 승인 요청 예정",
-      "summary_kr": "사렙타 테라퓨틱스가 뒤셴 근이영양증 치료제인 엑손 스키핑 치료법 두 가지에 대한 오랫동안 기다려온 확증 임상 연구가 1차 평가변수를 충족하지 못했다고 월요일 발표했습니다. 하지만 이러한 결과에도 불구하고 사렙타는 FDA에 완전 승인을 요청할 계획입니다. 이번 임상 실패는 해당 치료제의 효능에 대한 의문을 제기하며, 향후 FDA의 결정에 귀추가 주목됩니다. 사렙타는 추가적인 데이터와 임상적 근거를 제시하여 승인을 얻기 위해 노력할 것으로 예상됩니다. 뒤셴 근이영양증 환자들과 가족들은 이번 소식에 실망감을 표하면서도, 새로운 치료법 개발에 대한 희망을 버리지 않고 있습니다.",
-      "summary_en": "Sarepta Therapeutics’ long-awaited confirmatory study of two of its ‘exon-skipping’ therapies for forms of Duchenne muscular dystrophy failed to meet its primary endpoint, the company announced Monday.\n\n But despite that, the company plans to ask ..."
-    },
-    {
-      "title_en": "Connectome caricatures remove large-amplitude coactivation patterns in resting-state fMRI to emphasize individual differences",
-      "url": "https://www.nature.com/articles/s41593-025-02099-7",
-      "source": "Nature Neuroscience",
-      "category": "Paper",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Connectome caricatures remove large-amplitude coactivation patterns in resting-state fMRI to emphasize individual differences",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature Neuroscience, Published online: 03 November 2025;doi:10.1038/s41593-025-02099-7Dominant coact...)",
-      "summary_en": "Nature Neuroscience, Published online: 03 November 2025;doi:10.1038/s41593-025-02099-7Dominant coactivation patterns are primarily studied in resting-state fMRI. Here, the authors study the rest of the signal, which reveals ‘caricatured’ connectomes with improved behavioral prediction."
-    },
-    {
-      "title_en": "A new blood biomarker for Alzheimer’s disease",
-      "url": "https://www.nature.com/articles/s41591-025-04028-4",
-      "source": "Nature Medicine",
-      "category": "Paper",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "A new blood biomarker for Alzheimer’s disease",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature Medicine, Published online: 03 November 2025;doi:10.1038/s41591-025-04028-4Shorena Janelidze ...)",
-      "summary_en": "Nature Medicine, Published online: 03 November 2025;doi:10.1038/s41591-025-04028-4Shorena Janelidze recalls the discovery of phosphorylated tau, from early lab work to clinical implementation."
-    },
-    {
-      "title_en": "Physical activity as a modifiable risk factor in preclinical Alzheimer’s disease",
-      "url": "https://www.nature.com/articles/s41591-025-03955-6",
-      "source": "Nature Medicine",
-      "category": "Paper",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "Physical activity as a modifiable risk factor in preclinical Alzheimer’s disease",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Nature Medicine, Published online: 03 November 2025;doi:10.1038/s41591-025-03955-6In cognitively nor...)",
-      "summary_en": "Nature Medicine, Published online: 03 November 2025;doi:10.1038/s41591-025-03955-6In cognitively normal older adults at risk for Alzheimer’s dementia, physical inactivity was associated with faster tau protein buildup and cognitive decline."
-    },
-    {
-      "title_en": "Author Correction: Simultaneous editing of three homoeoalleles in hexaploid bread wheat confers heritable resistance to powdery mildew",
-      "url": "https://www.nature.com/articles/s41587-025-02916-1",
-      "source": "Nature Biotechnology",
-      "category": "Paper",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "저자 수정: 6배체 빵밀에서 3개의 동종이형 대립형질을 동시에 편집하여 유전 가능한 흰가루병 저항성을 부여",
-      "summary_kr": "Nature Biotechnology에 게재된 논문에 대한 저자 수정 사항이 발표되었습니다. 해당 논문은 6배체 빵밀에서 세 개의 동종이형 대립형질을 동시에 편집함으로써 흰가루병에 대한 유전 가능한 저항성을 획득하는 연구 결과를 보고했습니다. 이번 수정은 기존 연구 결과의 정확성과 신뢰성을 높이는 데 기여합니다. 구체적인 수정 내용은 독자들에게 명확하게 제시되지 않았지만, 전반적인 연구 결론에는 큰 영향을 미치지 않는 것으로 판단됩니다. 흰가루병은 밀 생산에 큰 피해를 주는 주요 질병이므로, 이번 연구는 식량 안보에 중요한 의미를 가집니다. 따라서 해당 수정 사항을 인지하고 기존 연구 결과를 해석하는 데 주의를 기울여야 합니다.",
-      "summary_en": "Nature Biotechnology, Published online: 03 November 2025;doi:10.1038/s41587-025-02916-1Author Correction: Simultaneous editing of three homoeoalleles in hexaploid bread wheat confers heritable resistance to powdery mildew"
-    },
-    {
-      "title_en": "Growth-coupled microbial biosynthesis of the animal pigment xanthommatin",
-      "url": "https://www.nature.com/articles/s41587-025-02867-7",
-      "source": "Nature Biotechnology",
-      "category": "Paper",
-      "date": "2025-11-04",
-      "image_url": null,
-      "title": "미생물의 성장과 연계된 동물 색소 잔토마틴 생합성",
-      "summary_kr": "Nature Biotechnology에 2025년 11월 3일에 게재된 연구에 따르면, 토양 박테리아인 슈도모나스 푸티다(Pseudomonas putida) 내에서 잔토마틴 합성을 가능하게 하는 성장 결합 생합성 경로가 개발되었습니다. 이 경로는 미생물의 성장에 직접적으로 연결되어 잔토마틴 생산 효율을 높입니다. 잔토마틴은 동물 색소로서 다양한 생물학적 기능에 관여하며, 이번 연구는 지속 가능한 방식으로 이 중요한 색소를 생산할 수 있는 새로운 길을 제시합니다. 개발된 생합성 경로는 향후 다른 유용한 생체 분자 생산에도 응용될 수 있을 것으로 기대됩니다. 이는 생명공학 및 산업 분야에 상당한 영향을 미칠 것으로 예상됩니다.",
-      "summary_en": "Nature Biotechnology, Published online: 03 November 2025;doi:10.1038/s41587-025-02867-7A growth-coupled biosynthetic pathway enables xathommatin synthesis in the soil bacterium Pseudomonas putida."
-    },
+  "articles": [    
     {
       "title_en": "Neuroscience needs engineers—for more reasons than you think",
       "url": "https://www.thetransmitter.org/systems-neuroscience/neuroscience-needs-engineers-for-more-reasons-than-you-think/",
@@ -627,18 +209,7 @@
       "title": "FDA 톰 타이드마시 퇴사, 전환기 기관의 불안정성 심화",
       "summary_kr": "수십 년 동안 미국 식품의약국(FDA)은 세계에서 가장 혁신적인 의약품에 대해 황금 표준의 규제 업무를 수행하는 안정적인 기관으로 여겨져 왔다. 하지만 최근 FDA 내부의 중요한 인물인 톰 타이드마시의 퇴사는 기관의 안정성을 크게 흔들고 있다. 현재 전환기를 겪고 있는 FDA는 이번 인사이동으로 인해 불안정성 쪽으로 더욱 밀려나는 양상이다. 이는 전통적으로 엄격하고 전문적이었던 FDA의 이미지가 대중들에게 혼란스럽게 비치고 있다는 것을 의미한다. 규제 기관으로서의 신뢰도가 흔들리면서, 올해 FDA의 모습은 이전의 확고했던 규제 기준과는 거리가 멀어지고 있다는 평가가 나온다. 이처럼 주요 인사 이동은 향후 규제 표준 확립과 혁신 신약 승인 과정에 미칠 잠재적 영향에 대한 심각한 우려를 낳고 있다.",
       "summary_en": "For decades, the FDA has long been thought of as a steady hand of gold-standard regulatory work for the most innovative drugs in the world.\n\n This year, the agency has looked more like a reality ..."
-    },
-    {
-      "title_en": "샘알트먼 40분 전체 풀번역",
-      "url": "https://www.youtube.com/watch?v=YM45xSBu7x0",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-11-03",
-      "image_url": "https://i2.ytimg.com/vi/YM45xSBu7x0/hqhqdefault.jpg",
-      "title": "샘 알트먼 OpenAI 비전과 미래 전망 40분 전체 번역",
-      "summary_kr": "샘 알트먼은 OpenAI를 네 개의 회사가 합쳐진 형태로 설명하며, 소비자 기술 사업, 초대형 인프라 운영, 연구소, 하드웨어 기기 같은 새로운 사업들을 포함한다고 밝혔습니다. OpenAI의 비전은 사람들의 '개인 AI 구독 서비스'가 되는 것이며, 대부분의 사람들이 개인 AI를 하나씩 구독하고 필요에 따라 여러 서비스를 이용할 수 있게 하는 것을 목표로 합니다. 이를 위해서는 엄청난 규모의 인프라 구축이 필요하며, 궁극적인 목표는 AGI를 구축하여 사람들에게 매우 유용하게 만드는 것입니다. OpenAI는 데이터 센터를 통해 규모를 확장하고 있으며, 엄청난 규모로 인해 다른 용도를 염두에 두어야 할 수도 있다고 언급합니다. AGI 구축에는 엄청난 투자가 필요하지만, OpenAI는 AGI의 미래가 사람들에게 매우 유익할 것이라고 믿고 있습니다. AI와 인간의 인터페이스 미래에 대한 논의에서 알트먼은 AI가 가까운 미래에 화이트칼라 직업을 대체할 수 있다고 전망했습니다. OpenAI는 오픈 소스 모델을 지향하며, 이는 지식 공유와 협력을 통해 AI 기술 발전을 가속화할 수 있다고 믿기 때문입니다. Al이 발전하면서 사회와 기술이 공동으로 진화하는 것의 중요성을 강조하며 OpenAI는 윤리적이고 책임감 있는 AI 개발을 위해 노력할 것을 다짐했습니다.",
-      "summary_en": "누군가는 해야 할 일이라고 생각했습니다. 길고 벅찬 작업이었지만, 조금씩 꾸준히 이어가며 끝내 번역을 마치고 올립니다. 이 영상이 많은 분들에게 작은 도움이 되길 진심으로 바랍니다. 숏츠가 넘쳐나는 세상이지만, 여전히 통찰은 깊은 대화 속에 있다고 믿고 있습니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
+    },    
     {
       "title_en": "STAT+: UnitedHealth pays its own physician groups 17% more than outside ones, study shows",
       "url": "https://www.statnews.com/2025/11/03/unitedhealth-pays-its-optum-physicians-17-percent-more/?utm_campaign=rss",
@@ -1078,17 +649,6 @@
       "title": "보도에 따르면, FDA 의약품 최고 책임자 티드마쉬 직무 정지 처분",
       "summary_kr": "미국 식품의약국(FDA)의 강력한 의약품 사무소(CDER, 의약품 평가 연구 센터)를 이끄는 조지 티드마쉬(George Tidmarsh) 국장이 현재 직무 정지 상태인 것으로 알려졌다. 이는 복수의 언론 보도를 통해 확인되었으며, 티드마쉬 국장이 일시적으로 기관을 떠나게 되었음을 의미한다. 티드마쉬 국장은 FDA 내에서 신약 승인과 의약품 규제를 담당하는 핵심 부서의 수장이다. 뉴욕 타임스(The New York Times)를 포함한 보도에 따르면, 티드마쉬 국장은 이전에 특정 사안에 대해 내부적인 우려를 제기했던 것으로 전해졌다. 고위급 인사의 갑작스러운 직무 정지 조치로 인해 이번 결정의 배경과 사유에 대해 관심이 집중되고 있다.",
       "summary_en": "George Tidmarsh, who leads the FDA's powerful drugs office known as CDER, has been placed on leave from the agency, according to reports.\n\n According to the New York Times, Tidmarsh had raised concerns about a ..."
-    },
-    {
-      "title_en": "젠슨황 떡잎부터 달랐다 (15년전 인터뷰)",
-      "url": "https://www.youtube.com/watch?v=P_jovbycgBs",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-11-02",
-      "image_url": "https://i1.ytimg.com/vi/P_jovbycgBs/hqhqdefault.jpg",
-      "title": "15년 전 젠슨 황 인터뷰: 그의 뛰어난 리더십",
-      "summary_kr": "15년 전 젠슨 황 CEO의 인터뷰에서는 엔비디아가 인텔과의 법적 분쟁에 휘말린 상황이 드러난다. 엔비디아는 인텔과 관련된 두 건의 법적 분쟁을 겪고 있었으며, 그중 하나는 인텔이 먼저 소송을 제기한 건에 대한 반소였다. 첫 번째 소송은 인텔이 엔비디아의 기술을 자사 제품에 통합하려 하면서 시작되었고, 엔비디아는 GPU 시장 확대를 목표로 하고 있었다. 인텔은 엔비디아가 너무 성공적으로 성장하는 것을 막기 위해 계약상 이익을 차단하려 했고, 이에 엔비디아는 반소를 제기했다. FTC 또한 인텔의 반독점 행위에 대해 소송을 제기했으며, GPU 시장 진입을 막으려는 시도가 주요 쟁점 중 하나였다. 젠슨 황 CEO는 노트북 시장에서 인텔이 모든 부품을 통합하여 GPU 제조업체의 고객 판매를 막는다고 지적하며, 이로 인해 노트북 사용자들이 데스크탑 수준의 그래픽 성능을 누리지 못한다고 주장했다. 엔비디아는 인텔과의 분쟁에서 공정한 결과를 원하며, 법원이 잃어버린 시장 기회에 대해 정당한 보상을 내리기를 기대하고 있다. 젠슨 황 CEO는 인텔과의 조기 합의나 금전적 타협에는 관심이 없으며, 법정에서 올바른 결과를 얻기를 희망한다고 밝혔다.",
-      "summary_en": "Translated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
     },
     {
       "title_en": "A flood of Chinese graduate students in STEM was a boon to U.S. students",
@@ -1540,17 +1100,6 @@
       "title": "초콜릿의 떫은맛(수렴성)이 뇌를 활성화하는 작동 원리 규명",
       "summary_kr": "일본 연구진이 코코아 플라바놀의 떫은맛(수렴성)이 뇌를 자극하는 방식을 발견하며 그 메커니즘을 밝혀냈다. 이 화합물이 혈류로 극히 소량만 흡수됨에도 불구하고 뇌 자극 효과가 발생하는 원인이 규명되었다는 점에서 주목받는다. 연구팀은 쥐를 대상으로 한 실험에서 이 떫은맛의 감각 자체가 핵심적인 역할을 수행함을 확인했다. 구체적으로, 수렴성 감각은 특정 감각 신경을 자극하는 것으로 나타났다. 이 신경 자극은 동기 부여, 경계심, 기억력 등과 관련된 신경전달물질의 분비를 유도했다. 이러한 발견은 초콜릿 섭취가 인지 기능 및 각성에 미치는 영향에 대한 새로운 과학적 이해를 제공한다.",
       "summary_en": "Japanese researchers have uncovered how the astringent “bite” of cocoa flavanols can activate the brain—even though little of the compound enters the bloodstream. In mice, the sensation of astringency triggered sensory nerves that stimulated neurotransmitters linked to motivation, alertness, and memory."
-    },
-    {
-      "title_en": "죽지 마세요 (브라이언 존슨)",
-      "url": "https://www.youtube.com/watch?v=5uDhmuwlHoU",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-11-01",
-      "image_url": "https://i2.ytimg.com/vi/5uDhmuwlHoU/hqhqdefault.jpg",
-      "title": "죽지 마세요 (브라이언 존슨)",
-      "summary_kr": "[Translation Failed] API call failed. (Original: '죽지 않는 법'을 연구하는 브라이언 존슨이 60M (약 천억) 정도를 투자받았다고 합니다. 미국은 참 대단합니다. 아주 당연한 것들에 대해서 질문하고 (왜 우리는 죽는가? 왜 지...)",
-      "summary_en": "'죽지 않는 법'을 연구하는 브라이언 존슨이 60M (약 천억) 정도를 투자받았다고 합니다. 미국은 참 대단합니다. 아주 당연한 것들에 대해서 질문하고 (왜 우리는 죽는가? 왜 지구에 살아야만 하는가?) 그것 문제 푸는 사람들에게 돈을 줍니다. 그리고 해보라고 합니다. 그리고 어쩌다 한 번 성과가 나옵니다. 말도 안되는 비전 갖고 있는 팀이라서 영상 가져와봤습니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
     },
     {
       "title_en": "Exclusive: Future of chronic disease journal in limbo after cuts at CDC",
@@ -2972,17 +2521,6 @@
       "summary_en": "A Copenhagen-based biotech said its drug candidate has the potential to normalize levels of a key biomarker that is critical in a genetic form of neurodegeneration.\n\n A Phase 1b/2a trial was run to investigate whether ..."
     },
     {
-      "title_en": "핸드폰 안합니다 (텔레그램 창업자)",
-      "url": "https://www.youtube.com/watch?v=X7DhAAgsUHE",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-31",
-      "image_url": "https://i1.ytimg.com/vi/X7DhAAgsUHE/hqhqdefault.jpg",
-      "title": "핸드폰 안합니다 (텔레그램 창업자)",
-      "summary_kr": "[Translation Failed] API call failed. (Original: Translated by M \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright...)",
-      "summary_en": "Translated by M \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
-    {
       "title_en": "Ramping up cortical activity in early life sparks autism-like behaviors in mice",
       "url": "https://www.thetransmitter.org/spectrum/ramping-up-cortical-activity-in-early-life-sparks-autism-like-behaviors-in-mice/",
       "source": "The Transmitter",
@@ -4301,17 +3839,6 @@
       "title": "일라이 릴리, 매출 예상치 대폭 초과 달성하며 연간 실적 전망치 또다시 상향",
       "summary_kr": "일라이 릴리는 3분기 매출이 176억 달러를 기록했다고 발표했다. 이는 월스트리트 전문가들이 예상했던 컨센서스인 161억 달러를 크게 웃도는 실적이다. 이번 분기 매출액은 전년도 같은 기간 대비 무려 54% 급증한 수치로, 폭발적인 성장세를 입증했다. 이러한 강력한 실적은 릴리의 주요 의약품 판매가 지속적으로 호조를 보인 결과로 분석된다. 릴리는 예상치를 크게 상회하는 3분기 실적에 힘입어, 올해 전체 연간 실적 전망치를 다시 한번 상향 조정했다. 이는 시장에서 릴리의 재무적 안정성과 성장 잠재력에 대한 신뢰를 높이는 계기가 되고 있다.",
       "summary_en": "Eli Lilly said it reeled in $17.6 billion in third-quarter revenue, beating Wall Street's projected consensus of $16.1 billion.\n\n That's a 54% jump compared to the same period in 2024, according ..."
-    },
-    {
-      "title_en": "팔란티어CTO 12년전 강연",
-      "url": "https://www.youtube.com/watch?v=2C4KsZmYtRM",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-30",
-      "image_url": "https://i3.ytimg.com/vi/2C4KsZmYtRM/hqhqdefault.jpg",
-      "title": "팔란티어CTO 12년전 강연",
-      "summary_kr": "[Translation Failed] API call failed. (Original: 팔란티어 cto 강의인데요. 13년 전 입니다. 그 때부터 이 사람들은 이 얘기 했네요. 오늘 했다고 해도 믿을… 저 때는 뭐 돌아가는거 아무것도 없었을텐데.. 기름 흐르는 유전 ...)",
-      "summary_en": "팔란티어 cto 강의인데요. 13년 전 입니다. 그 때부터 이 사람들은 이 얘기 했네요. 오늘 했다고 해도 믿을… 저 때는 뭐 돌아가는거 아무것도 없었을텐데.. 기름 흐르는 유전 아무도 모를때 미리 가서 땅 파고 있었다가 기름 터지니까 이렇게 되네요. 13년 전 영상이라는게 여러의미로 대단합니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
     },
     {
       "title_en": "A circular economy approach for the global lithium-ion battery supply chain",
@@ -8560,17 +8087,6 @@
       "summary_en": "New research shows that during moments of lost focus after poor sleep, the brain releases a wave of cerebrospinal fluid (CSF)—the same cleansing process that normally occurs during deep sleep. Using simultaneous EEG and fMRI scans, scientists found that these fluid pulses occur precisely when attention lapses, suggesting the brain is attempting to catch up on missed “housekeeping.”"
     },
     {
-      "title_en": "타인의 욕망을 욕망한다 (피터 틸)",
-      "url": "https://www.youtube.com/watch?v=-tzXFnX92z8",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-29",
-      "image_url": "https://i2.ytimg.com/vi/-tzXFnX92z8/hqhqdefault.jpg",
-      "title": "타인의 욕망을 욕망한다 (피터 틸)",
-      "summary_kr": "[Translation Failed] API call failed. (Original: 피터틸 영상입니다. 10년은 더 넘은 것 같네요. '제로투원'의 사상적 기반인 '모방이론'과 그의 스승인 철학자 '르네 지라르'에 대한 이야기를 합니다. 오래된 빈티지 영상이라 좋...)",
-      "summary_en": "피터틸 영상입니다. 10년은 더 넘은 것 같네요. '제로투원'의 사상적 기반인 '모방이론'과 그의 스승인 철학자 '르네 지라르'에 대한 이야기를 합니다. 오래된 빈티지 영상이라 좋네요. 귀합니다. 10분 안되는 시간이지만 통찰력 가져갈 수 있네요.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
-    {
       "title_en": "Don’t overlook the plastic footprint of fireworks",
       "url": "https://www.nature.com/articles/d41586-025-03500-y",
       "source": "Nature",
@@ -9539,17 +9055,6 @@
       "summary_en": "Novartis said Tuesday it is mulling making more of its medicines available through its direct-to-consumer platform in a bid to assuage President Donald Trump’s concerns about drug pricing in the US.\n\n In September, the Swiss ..."
     },
     {
-      "title_en": "우리는 자유롭지 않다 (잭 도시)",
-      "url": "https://www.youtube.com/watch?v=G3t1QxkfA8s",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-27",
-      "image_url": "https://i4.ytimg.com/vi/G3t1QxkfA8s/hqhqdefault.jpg",
-      "title": "우리는 자유롭지 않다 (잭 도시)",
-      "summary_kr": "잭 도시는 오늘날의 경제 활동, 표현 활동, 지적인 활동은 모두 누군가에게 허락을 구해야만 가능한 세상에 우리가 살고 있다고 말합니다. 은행에 돈을 입금하는 것은 비교적 쉽지만, 돈을 인출하려면 은행원과 오랜 시간 대화를 해야 하며, 심지어 인출을 막거나 돈을 묶어두는 경우도 있습니다. 경제 활동에 참여하는 것조차 정부와 은행의 허락이 필요하며, 모든 사람에게 허락을 구해야 합니다. 이러한 과정에는 자유가 없으며, 경제 활동 참여에는 항상 마찰이 존재합니다. 물론 허락을 구하는 과정에서 범죄나 사기를 막을 수도 있지만, 대다수는 범죄 예방을 위해 상상할 수 없는 비용을 감당해야 합니다. 발언의 자유 또한 플랫폼이나 서비스에 개인 정보를 제공하고 허락을 받아야만 가능합니다. AI 기술의 발전으로 지능과 지식 또한 통제될 수 있으며, 이는 교회에서 지식을 독점했던 과거와 유사합니다. 연사는 암호화폐를 통해 개인이 금융 거래와 데이터 소유권을 되찾고, 더 자유로운 경제 활동과 지적 활동을 할 수 있다고 주장합니다. 따라서 그는 자유를 되찾기 위해 기술을 인지하고 활용하며, 스스로 경험하고 배우는 것이 중요하다고 강조합니다.",
-      "summary_en": "트위터 창업자 잭 도시입니다. 실리콘밸리 인사중에 가장 깨어있다고 느끼는 인물 중 한 명이고요. 단순히 그는 자본과 기술이 경쟁에서 승리하기 위해서가 아닌 더 많은 사람들의 자유를 확보하는 시스템이 무엇인지 투자하는 … 이 시대에 찾아보기 힘든 기인 중 한 명이라고 생각합니다. 많은 분들이 시청하시면 좋겠다는 마음으로 공유드려봅니다. 물론 그의 솔루션은 갑론을박 있을 수 있지만, 그의 문제의식은 너무나도 동의하는 바입니다.\n\nTranslated by A \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
-    {
       "title_en": "The missing half of the neurodynamical systems theory",
       "url": "https://www.thetransmitter.org/neural-dynamics/the-missing-half-of-the-neurodynamical-systems-theory/",
       "source": "The Transmitter",
@@ -9627,17 +9132,6 @@
       "summary_en": "As millions confide in ChatGPT about their most intimate problems, these relationships are even stranger, more moving, and more insidious than we've imagined."
     },
     {
-      "title_en": "천재 50명만 모은다 (저커버그)",
-      "url": "https://www.youtube.com/watch?v=blhf1lQJjNM",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-26",
-      "image_url": "https://i3.ytimg.com/vi/blhf1lQJjNM/hqhqdefault.jpg",
-      "title": "저커버그, 단 50명만 모아 최고의 AI 연구소를 만든 이유",
-      "summary_kr": "마크 저커버그는 메타의 미래를 위해 최고의 AI 연구소를 설립하고 싶어했으며, 그 이유를 밝혔다. 그는 라마 4의 부진이 그 계기가 되었다고 말하며, 라마 4가 기대 수준에 미치지 못했다고 설명했다. 저커버그는 소규모 정예 팀을 구성하여 연구를 수행하는 것을 선호하며, 이를 통해 조직 내 인재 밀도를 높이고 싶어 한다. 또한, 연구소 설립 시 가장 중요하게 생각한 것은 최고의 인재를 확보하는 것이었다고 강조했다.  그는 이를 위해 직접 AI 연구자들을 만나고 관계를 맺는 데 집중했다. 연구소 운영 시에는 데드라인을 강요하지 않고, 연구자들에게 자율성을 부여하는 것을 중요하게 생각한다. AI 기술이 미래에 가장 중요한 기술이 될 것이라고 믿으며, 새로운 시대에 창의적인 결과물을 만들어내는 데 기여하고 싶다고 밝혔다. 메타의 연구소는 장기적인 연구를 진행할 때 데드라인을 강요하지 않고, 연구원들이 자율적으로 연구에 몰두할 수 있도록 지원한다.",
-      "summary_en": "미국은 지금 세계 최고 기업 만든 창업자들 대부분 젊을 때 시작했다. 메타 저커버그(84년생), 구글 래리 페이지(73년생), 일론 머스크(71년생). 20대에 사업 시작해 산업 전환 다 겪으며 성장했고, 지금도 흐름 바뀔 때마다 앞장선다. 그 에너지와 추진력이 그들을 계속 앞서 나가게 한다.. 어릴 때부터 창업할 수 있는 환경이 얼마나 중요한지 시간이 지나 보니 더 느껴진다. 한국엔 20대에 시작해 끝까지 올라간 회사 거의 없다. 최근에야 하나 정도 떠오를 뿐이다.\n\nTranslated by A\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
-    {
       "title_en": "대학 꼭 가야돼?",
       "url": "https://www.youtube.com/shorts/PJsOMhCxjmw",
       "source": "B_ZCF YouTube",
@@ -9680,17 +9174,6 @@
       "title": "Whale and dolphin migrations are being disrupted by climate change",
       "summary_kr": "[Translation Failed] API call failed. (Original: Marine mammals are being forced into new and more dangerous waters, scientists warn....)",
       "summary_en": "Marine mammals are being forced into new and more dangerous waters, scientists warn."
-    },
-    {
-      "title_en": "젊을 수록 성공 가능성이 높다 (인바디 차기철 회장님)",
-      "url": "https://www.youtube.com/shorts/r7W0WGmCFbU",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-24",
-      "image_url": "https://i3.ytimg.com/vi/r7W0WGmCFbU/hqhqdefault.jpg",
-      "title": "젊을수록 성공 가능성이 높을까? (인바디 차기철 회장)",
-      "summary_kr": "차기철 회장은 대기업 임원을 내보내는 것보다 젊은 인재에게 기회를 주는 것이 성공 가능성이 높다고 말한다. 그는 젊은 세대에게 5천만 원을 주며 라면 가게 운영을 제안하면 적극적으로 달려들어 성공적인 결과를 만들어낼 것이라고 믿는다. 반면, 50대에게 같은 제안을 하면 실패할 확률이 높다고 본다. 사업을 하다 보면 예상치 못한 문제들이 많이 발생하는데, 나이 든 사람들은 틀에 박힌 사고방식으로 새로운 문제에 대한 적응력이 떨어지기 때문이다. 많은 사람들이 경험과 경력을 중요시하지만, 차기철 회장은 젊음의 열정이 훨씬 더 가치 있다고 생각한다. 젊은 세대는 새로운 문제를 받아들이고 해석하는 데 더 유연하며, 이는 일의 효율성을 높이는 데 기여한다. 따라서 그는 경력보다는 열정을 가진 젊은 인재에게 더 큰 가능성을 부여한다. 젊음의 열정과 도전정신은 성공적인 결과를 이끌어내는 데 중요한 요소임을 강조한다. 이러한 관점을 통해 기업은 젊은 인재를 적극적으로 발굴하고 지원하여 혁신적인 성장을 이룰 수 있을 것이다.",
-      "summary_en": ""
     },
     {
       "title_en": "Clinical trial of a technique that could give everyone the best antibodies",
@@ -9834,17 +9317,6 @@
       "title": "The first people to set foot in Australia were fossil hunters",
       "summary_kr": "[Translation Failed] API call failed. (Original: Europeans weren't the first people to collect fossils in Australia....)",
       "summary_en": "Europeans weren't the first people to collect fossils in Australia."
-    },
-    {
-      "title_en": "돈버는게 제일 쉬웠어요 (루시 구오)",
-      "url": "https://www.youtube.com/watch?v=fd-bQUrQeAs",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-10-21",
-      "image_url": "https://i3.ytimg.com/vi/fd-bQUrQeAs/hqhqdefault.jpg",
-      "title": "돈버는게 제일 쉬웠어요 (루시 구오)",
-      "summary_kr": "[Translation Failed] API call failed. (Original: 94년생입니다. 미국 대단한 이유는 어린 창업가들이 대박 성공을 하고, 그들이 다시 투자자가 되서 자신하고 비슷한 부류 사람들에게 재투자해주면서 그 순환 돌기 때문이라고 생각합니다...)",
-      "summary_en": "94년생입니다. 미국 대단한 이유는 어린 창업가들이 대박 성공을 하고, 그들이 다시 투자자가 되서 자신하고 비슷한 부류 사람들에게 재투자해주면서 그 순환 돌기 때문이라고 생각합니다. 물론 백인 위주 사회인 것도 맞지만 동시에 아시아권 계 사람들도 이렇게 성공하는 경우 생기고요. (한국에서 아직 성공한 동남아 사업가 but 한국인)은 보지 못했습니다 저는. 그것이 미국 생태계의 대단함 아닐까 생각합니다. \n\nTranslated by M \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is only for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose.\n- If you request deletion, removal, correction, etc. due to inconvenience caused by the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
     }
   ]
 }
