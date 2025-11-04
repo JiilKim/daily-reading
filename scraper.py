@@ -107,23 +107,24 @@ Output MUST be in the specified JSON format.
             print(f"  [AI] 📝 Translating article: '{title_en[:40]}...'")
             
             prompt = f"""
-You are a professional science news editor. Translate and summarize the article in Korean.
-Output MUST be in the specified JSON format.
-
-[Input]
+당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
+아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
+결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+ 
+[입력]
 - title_en: "{title_en}"
 - description_en: "{description_en}"
 
-[JSON Output Format]
+[JSON 출력 형식]
 {{
-  "title_kr": "Write professional Korean translation of the title",
-  "summary_kr": "Write detailed 5-6 sentence Korean summary"
+  "title_kr": "여기에 한국어 번역 제목을 작성",
+  "summary_kr": "여기에 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
 }}
 
-[Rules]
-1. "title_kr": Translate "title_en" into natural, professional Korean
-2. "summary_kr": Summarize key points from "description_en" in 5-6 sentences
-3. Use professional news writing style, not conversational tone
+[규칙]
+1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
+3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
 """
             
             response = client.models.generate_content(
