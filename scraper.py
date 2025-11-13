@@ -25,7 +25,7 @@ import sys
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 300
+MAX_NEW_ARTICLES_PER_RUN = 500
 ARCHIVE_DAYS = 7
 API_DELAY_SECONDS = 1
 
