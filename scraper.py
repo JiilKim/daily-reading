@@ -25,7 +25,7 @@ import sys
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 500
+MAX_NEW_ARTICLES_PER_RUN = 8000
 ARCHIVE_DAYS = 7
 API_DELAY_SECONDS = 1
 
@@ -356,9 +356,7 @@ def main():
     )
     
     # 뉴스 소스
-    all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))
-    all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
-    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'))    
     all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.statnews.com/feed/', 'STAT News', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News'))
@@ -367,6 +365,8 @@ def main():
     all_articles_to_check.extend(scrape_rss_feed('https://neurosciencenews.com/feed/', 'Neuroscience News', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'))
     all_articles_to_check.extend(scrape_rss_feed('https://endpts.com/feed/', 'Endpoints News', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/rss/news_current.xml', 'Science', 'News'))
+    all_articles_to_check.extend(scrape_rss_feed('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'))
     
     # 과학 논문
     all_articles_to_check.extend(scrape_rss_feed('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'))
