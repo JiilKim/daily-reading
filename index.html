@@ -7,34 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Noto Sans KR (한글)과 Inter (영어/숫자) 폰트 적용 */
-        body {
-            font-family: 'Inter', 'Noto Sans KR', sans-serif;
-            background-color: #f8fafc; /* Tailwind 'slate-50' */
-        }
-
-        /* 스크롤바 디자인 (선택 사항) */
-        ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background-color: #cbd5e1; /* Tailwind 'slate-300' */
-            border-radius: 3px;
-        }
-        ::-webkit-scrollbar-track {
-            background-color: transparent;
-        }
-
-        /* 요약 실패 시 텍스트 스타일 */
-        .summary-failed {
-            color: #ef4444; /* Tailwind 'red-500' */
-            font-style: italic;
-            font-weight: 500;
-        }
+        body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f8fafc; }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
+        .summary-failed { color: #ef4444; font-style: italic; }
+        .log-entry { font-family: 'Courier New', monospace; font-size: 0.85rem; }
     </style>
 </head>
 <body class="text-slate-800">
@@ -43,7 +22,7 @@
         <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-2xl font-bold">📚 오늘의 읽을거리</h1>
             <p class="text-sm text-indigo-100 mt-1">
-                마지막 업데이트: <span id="lastUpdated">로딩중...</span>
+                마지막 업데이트: <span id="lastUpdated">로딩중...</span> (Palo Alto Time)
             </p>
         </div>
     </header>
@@ -51,597 +30,281 @@
     <nav class="bg-white sticky top-[72px] z-10 border-b border-slate-200 shadow-sm">
         <div class="max-w-4xl mx-auto px-3 py-2.5 overflow-x-auto">
             <div id="filterTabs" class="flex space-x-2 whitespace-nowrap">
-                <button class="filter-tab skeleton h-8 w-20 rounded-full bg-slate-200 animate-pulse"></button>
-                <button class="filter-tab skeleton h-8 w-24 rounded-full bg-slate-200 animate-pulse"></button>
-                <button class="filter-tab skeleton h-8 w-16 rounded-full bg-slate-200 animate-pulse"></button>
-            </div>
+                </div>
         </div>
     </nav>
 
     <main class="max-w-4xl mx-auto p-3 md:p-4">
-        <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-            <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
-                <div class="h-32 bg-slate-200 rounded"></div>
-                <div class="h-5 bg-slate-300 rounded w-full"></div>
-                <div class="h-4 bg-slate-200 rounded w-1/3"></div>
-            </div>
-            <div class="loading-skeleton bg-white p-4 rounded-lg shadow border border-slate-200 space-y-3 animate-pulse">
-                <div class="h-5 bg-slate-300 rounded w-full"></div>
-                <div class="h-4 bg-slate-200 rounded w-1/3"></div>
-                <div class="h-4 bg-slate-200 rounded w-1/2 mt-4"></div>
-            </div>
+        <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4"></div>
+        
+        <div id="logsContainer" class="hidden bg-slate-900 text-slate-300 p-4 rounded-lg shadow-inner overflow-x-auto">
+            <h3 class="text-lg font-bold text-white mb-4 border-b border-slate-700 pb-2">📋 오늘의 실행 로그</h3>
+            <div id="logContent" class="space-y-1"></div>
         </div>
-        <div id="loadingMessage" class="text-center text-slate-500 py-10 hidden"></div>
+
+        <div id="loadingMessage" class="text-center text-slate-500 py-10">데이터를 불러오는 중...</div>
     </main>
 
     <div id="modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden" onclick="closeModal()">
-        <div id="modalContent" class="bg-white w-full max-w-2xl max-h-[90vh] rounded-xl shadow-2xl flex flex-col overflow-hidden" onclick="event.stopPropagation()">
-
+        <div class="bg-white w-full max-w-2xl max-h-[90vh] rounded-xl shadow-2xl flex flex-col overflow-hidden" onclick="event.stopPropagation()">
             <header class="p-4 border-b border-slate-200 flex justify-between items-start">
                 <h2 id="modalTitle" class="text-lg md:text-xl font-bold text-slate-900 pr-4"></h2>
-                <button class="text-slate-400 hover:text-slate-700 transition-colors" onclick="closeModal()">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
+                <button class="text-slate-400 hover:text-slate-700" onclick="closeModal()">✕</button>
             </header>
-
             <div class="p-4 md:p-5 overflow-y-auto">
                 <div class="flex flex-col md:flex-row gap-4">
-                    <img id="modalImage" src="" alt="기사 썸네일" class="w-full md:w-1/3 h-auto object-cover rounded-lg shadow hidden" onerror="this.style.display='none'">
-
+                    <img id="modalImage" src="" class="w-full md:w-1/3 h-auto object-cover rounded-lg shadow hidden">
                     <div class="flex-1">
                         <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">한글 요약</h3>
                         <p id="modalSummary" class="text-sm/relaxed text-slate-700 mt-2 bg-slate-50 p-3 rounded-lg border border-slate-200"></p>
                     </div>
                 </div>
-
                 <div class="mt-4 pt-4 border-t border-slate-200">
-                    <h3 class="font-semibold text-slate-500 text-xs uppercase tracking-wider">원본 정보</h3>
                     <p id="modalTitleEn" class="text-xs text-slate-600 mt-2"></p>
                     <div class="flex gap-2 text-xs mt-2">
                         <span id="modalSource" class="font-medium text-indigo-600"></span>
-                        <span class="text-slate-400">&bull;</span>
                         <span id="modalDate" class="text-slate-500"></span>
                     </div>
                 </div>
             </div>
-
             <footer class="p-4 bg-slate-50 border-t border-slate-200 flex justify-end">
-                <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg transition-colors shadow-sm text-sm">
-                    원문 보러가기 &rarr;
-                </a>
+                <a id="modalLink" href="#" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg text-sm">원문 보러가기 &rarr;</a>
             </footer>
         </div>
     </div>
 
     <script type="module">
-        // Firebase 서비스 import
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, doc, setDoc, onSnapshot, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-        // --- Firebase/App 설정 ---
-        // (Canvas 환경에서 자동으로 __firebase_config, __app_id, __initial_auth_token 변수를 제공합니다)
         const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        
+        let app, auth, db, userId, favoritesDocRef;
 
-        let app, auth, db;
-        let userId = null;
-        let favoritesDocRef = null; // 즐겨찾기 데이터가 저장될 Firestore 문서 참조
-
-        // --- 전역 함수 연결 ---
-        // 모듈 스크립트의 함수를 일반 스크립트에서 사용할 수 있도록 window 객체에 연결
         window.globalFirebase = {
-            toggleFavorite_Firestore: toggleFavorite_Firestore,
+            toggleFavorite_Firestore: async (url, isFavorite) => {
+                if (!favoritesDocRef) return;
+                const localFavs = Array.from(window.getCurrentFavorites());
+                try { await setDoc(favoritesDocRef, { urls: localFavs }); } catch (e) { console.error(e); }
+            },
             getFavoritesDocRef: () => favoritesDocRef
         };
 
-        // --- Firebase 초기화 ---
         try {
             app = initializeApp(firebaseConfig);
             auth = getAuth(app);
             db = getFirestore(app);
-            setLogLevel('Debug'); // Firestore 로그 활성화
-            console.log("Firebase initialized.");
-            signInUser(); // 인증 시작
-        } catch (e) {
-            console.error("Firebase initialization failed:", e);
-            // firebaseConfig가 비어있으면(로컬 테스트 등) 여기서 오류 발생
-        }
-
-        // --- Firebase 인증 ---
-        // 인증 상태 변경 리스너
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                userId = user.uid;
-                // 현재 유저의 개인 즐겨찾기 문서 경로 설정
-                favoritesDocRef = doc(db, 'artifacts', appId, 'users', userId, 'favorites', 'data');
-                console.log("User authenticated:", userId, "App ID:", appId);
-                loadFavoritesFromFirestore(); // 인증 완료 후 Firestore에서 즐겨찾기 로드
-            } else {
-                console.log("User not authenticated.");
-                userId = null;
-                favoritesDocRef = null;
-            }
-        });
-
-        // 인증 실행 함수
-        async function signInUser() {
-            try {
-                if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
-                    console.log("Signing in with custom token...");
-                    await signInWithCustomToken(auth, __initial_auth_token);
-                } else {
-                    console.log("Signing in anonymously...");
-                    await signInAnonymously(auth);
+            onAuthStateChanged(auth, (user) => {
+                if (user) {
+                    userId = user.uid;
+                    favoritesDocRef = doc(db, 'artifacts', appId, 'users', userId, 'favorites', 'data');
+                    onSnapshot(favoritesDocRef, (docSnap) => {
+                        const serverFavorites = new Set(docSnap.exists() ? docSnap.data().urls : []);
+                        window.syncFavorites(serverFavorites);
+                    });
                 }
-            } catch (error) {
-                console.error("Authentication error:", error);
-            }
-        }
-
-        // --- Firestore 데이터 함수 ---
-
-        // Firestore에서 즐겨찾기 목록 실시간 로드
-        function loadFavoritesFromFirestore() {
-            if (!favoritesDocRef) {
-                console.log("Firestore ref not ready, aborting load.");
-                return;
-            }
-            console.log("Setting up Firestore snapshot listener...");
-
-            // onSnapshot: 클라우드 데이터가 변경될 때마다 실시간으로 호출됨
-            onSnapshot(favoritesDocRef, (docSnap) => {
-                let serverFavorites;
-                if (docSnap.exists()) {
-                    const data = docSnap.data();
-                    serverFavorites = new Set(data.urls || []); // Firestore에서 Set으로 변환
-                    console.log("Favorites loaded from Firestore:", serverFavorites.size);
-                } else {
-                    console.log("No favorites document. Creating one.");
-                    serverFavorites = new Set();
-                    // 새 유저를 위해 빈 문서 생성 (await 안함)
-                    setDoc(favoritesDocRef, { urls: [] });
-                }
-
-                // [중요] Firestore 데이터와 LocalStorage 데이터를 병합
-                window.syncFavorites(serverFavorites);
-
-            }, (error) => {
-                console.error("Error loading favorites snapshot:", error);
             });
-        }
-
-        // Firestore에 즐겨찾기 목록 저장
-        async function toggleFavorite_Firestore(url, isFavorite) {
-            if (!favoritesDocRef) {
-                console.warn("Firestore not ready. Favorite not saved to cloud.");
-                return;
-            }
-
-            // 현재 브라우저의 최신 즐겨찾기 목록(Set)을 가져옴
-            const localFavs = window.getCurrentFavorites();
-
-            // Firestore는 Array만 저장 가능하므로 Set을 Array로 변환
-            const favoritesArray = Array.from(localFavs);
-
-            try {
-                // setDoc: 문서 전체를 덮어쓰기 (즐겨찾기 목록 전체 업데이트)
-                await setDoc(favoritesDocRef, { urls: favoritesArray });
-                console.log("Favorites updated in Firestore.");
-            } catch (error) {
-                console.error("Error updating favorites in Firestore:", error);
-            }
-        }
-
+            if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) signInWithCustomToken(auth, __initial_auth_token);
+            else signInAnonymously(auth);
+        } catch (e) { console.error("Firebase error", e); }
     </script>
 
     <script>
-        let allArticles = []; // 모든 기사 원본
-        let currentFilteredArticles = []; // 현재 필터링된 기사 목록
-        let currentFilter = 'all'; // 현재 선택된 필터
-        let favoriteArticles = new Set(); // 즐겨찾기 목록 (URL 저장)
+        let allArticles = [];
+        let executionLogs = [];
+        let currentFilter = 'all';
+        let favoriteArticles = new Set();
+        let todayDateString = "";
 
-        // 필터 탭 정의
-        const filterTabsDefinition = [
-            { id: 'all', name: '전체' },
-            { id: 'favorite', name: '⭐ 즐겨찾기' },
-            { id: 'News', name: 'News' },
-            { id: 'Paper', name: 'Paper' },
-            { id: 'Video', name: 'Video' },
-            { id: 'Neuroscience', name: 'Neuroscience' },
-            { id: 'Nature', name: 'Nature' },
-            { id: 'Science', name: 'Science' },
-            { id: 'Cell', name: 'Cell' },
-            { id: 'The Transmitter', name: 'The Transmitter' },
-            { id: 'Nature Biotechnology', name: 'Nature Biotech' }
-        ];
-
-        // --- [신규] Firebase 연동 함수들 ---
-        // Firestore(서버) 데이터와 localStorage(로컬) 데이터를 병합
         window.syncFavorites = (serverFavorites) => {
             const localFavs = new Set(JSON.parse(localStorage.getItem('dailyReadingFavorites') || '[]'));
-
-            // 병합: 서버 Set과 로컬 Set을 합침 (중복 자동 제거)
-            const mergedFavs = new Set([...serverFavorites, ...localFavs]);
-
-            favoriteArticles = mergedFavs; // 전역 변수 업데이트
-            localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(mergedFavs)));
-
-            console.log("Favorites synced. Total:", mergedFavs.size);
-
-            // 병합된 목록으로 UI 새로고침
-            if (window.renderArticles) {
-                window.renderArticles();
-            }
-
-            // 병합된 최종본을 다시 Firestore에 저장 (한 번만)
-            if (window.globalFirebase && window.globalFirebase.getFavoritesDocRef()) {
-                 // toggleFavorite_Firestore는 현재 localFavs(getCurrentFavorites)를 읽어서 저장함
-                 window.globalFirebase.toggleFavorite_Firestore(null, false);
-            }
+            favoriteArticles = new Set([...serverFavorites, ...localFavs]);
+            localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
+            renderContent();
         };
-        // 현재 즐겨찾기 Set을 모듈 스크립트에 제공
         window.getCurrentFavorites = () => favoriteArticles;
-        // renderArticles 함수를 전역에서 접근 가능하게 함
-        window.renderArticles = renderArticles;
 
-
-        // --- 초기화 ---
         document.addEventListener('DOMContentLoaded', () => {
-            loadFavorites(); // 1. 로컬 즐겨찾기 먼저 로드 (빠른 UI)
-            renderFilterTabs();
-            loadArticles();
-            // 2. Firebase 초기화는 <script type="module">에서 자동으로 실행됨
-        });
-
-        // --- [수정] 즐겨찾기 로드 (localStorage) ---
-        function loadFavorites() {
             const favs = localStorage.getItem('dailyReadingFavorites');
             favoriteArticles = new Set(favs ? JSON.parse(favs) : []);
-            // (참고: 잠시 후 Firestore 데이터와 병합됨)
-        }
+            loadData();
+        });
 
-        // --- 필터 탭 렌더링 ---
-        function renderFilterTabs() {
-            const container = document.getElementById('filterTabs');
-            container.innerHTML = filterTabsDefinition.map(tab => `
-                <button
-                    class="filter-tab whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-medium transition-colors duration-200
-                           ${tab.id === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}"
-                    data-filter="${tab.id}"
-                    onclick="filterArticles('${tab.id}')">
-                    ${tab.name}
-                </button>
-            `).join('');
-        }
-
-        // --- 팔로알토 시간 변환 함수 ---
-        function convertToPaloAltoTime(utcString) {
-            if (!utcString) return '알 수 없음';
+        async function loadData() {
             try {
-                const date = new Date(utcString.replace(' ', 'T') + 'Z'); // UTC 시간으로 파싱
-
-                // 'America/Los_Angeles' (팔로알토 시간)으로 포맷
-                const options = {
-                    timeZone: 'America/Los_Angeles',
-                    year: 'numeric',
-                    month: '2-digit',
-                    day: '2-digit',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    hour12: false // 24시간제
-                };
-
-                const formatter = new Intl.DateTimeFormat('ko-KR', options);
-                const parts = formatter.formatToParts(date);
-
-                // "YYYY. MM. DD. HH:MM" 형식을 "YYYY-MM-DD HH:MM (Palo Alto)"로 재조립
-                const partValues = parts.reduce((acc, part) => {
-                    acc[part.type] = part.value;
-                    return acc;
-                }, {});
-
-                return `${partValues.year}-${partValues.month}-${partValues.day} ${partValues.hour}:${partValues.minute} (Palo Alto)`;
-
-            } catch (e) {
-                console.error('시간 변환 오류:', e);
-                return utcString; // 변환 실패 시 원본 표시
-            }
-        }
-
-        // --- 데이터 로드 ---
-        async function loadArticles() {
-            try {
-                // 캐시 방지를 위해 타임스탬프 추가
                 const response = await fetch(`articles.json?v=${new Date().getTime()}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
                 const data = await response.json();
-
+                
                 allArticles = data.articles || [];
-
-                // --- [!!!여기 수정!!!] ---
-                // "The Transmitter" 우선 정렬 코드 블록이 여기서 제거되었습니다.
-                // 기사는 이제 articles.json에 저장된 순서(기본적으로 날짜 역순)대로 표시됩니다.
-                // --- [수정 완료] ---
-
-                document.getElementById('lastUpdated').textContent = convertToPaloAltoTime(data.last_updated);
-
-                // 로딩 스켈레톤 제거
-                document.querySelectorAll('.loading-skeleton').forEach(el => el.remove());
-
-                // renderArticles()는 이제 Firestore 로드 완료 후 syncFavorites에서 호출됨
-                // (단, Firestore 로드가 실패할 경우를 대비해 여기서 한 번 호출)
-                if (!window.globalFirebase || !window.globalFirebase.getFavoritesDocRef()) {
-                   console.log("Firebase not ready yet, rendering initial articles from local data.")
-                   renderArticles();
-                } else {
-                   console.log("Firebase is ready, syncFavorites will trigger render.")
+                executionLogs = data.logs || [];
+                
+                // 마지막 업데이트 시간 표시
+                document.getElementById('lastUpdated').textContent = data.last_updated;
+                
+                // "오늘" 날짜 기준 설정 (데이터의 last_updated 기준)
+                if (data.last_updated) {
+                    todayDateString = data.last_updated.split(' ')[0]; // "YYYY-MM-DD"
                 }
 
-
+                renderTabs();
+                renderContent();
             } catch (error) {
-                console.error('데이터 로드 오류:', error);
-                document.querySelectorAll('.loading-skeleton').forEach(el => el.remove());
-                const msgEl = document.getElementById('loadingMessage');
-                msgEl.textContent = '😢 기사를 불러오는 데 실패했습니다. articles.json 파일을 확인해주세요.';
-                msgEl.className = 'text-center text-red-500 font-medium py-10';
+                document.getElementById('loadingMessage').textContent = '데이터 로드 실패';
             }
         }
 
-        // --- 필터링 함수 ---
-        function filterArticles(filter) {
-            currentFilter = filter;
+        function renderTabs() {
+            const sources = [...new Set(allArticles.map(a => a.source))].sort();
+            const container = document.getElementById('filterTabs');
+            
+            let html = `
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700'}" onclick="setFilter('all')">전체</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'favorite' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700'}" onclick="setFilter('favorite')">⭐ 즐겨찾기</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'logs' ? 'bg-red-600 text-white' : 'bg-slate-100 text-red-700 border border-red-200'}" onclick="setFilter('logs')">📋 오늘의 로그</button>
+            `;
 
-            // 탭 스타일 업데이트
-            document.querySelectorAll('.filter-tab').forEach(tab => {
-                if (tab.dataset.filter === filter) {
-                    tab.classList.add('bg-indigo-600', 'text-white');
-                    tab.classList.remove('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
-                } else {
-                    tab.classList.remove('bg-indigo-600', 'text-white');
-                    tab.classList.add('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
-                }
+            sources.forEach(source => {
+                const isActive = currentFilter === source;
+                html += `<button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${isActive ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('${source}')">${source}</button>`;
             });
 
-            renderArticles();
+            container.innerHTML = html;
         }
 
-        // --- 기사 카드 렌더링 (핵심 수정) ---
-        function renderArticles() {
-            const container = document.getElementById('articlesContainer');
+        function setFilter(filter) {
+            currentFilter = filter;
+            renderTabs();
+            renderContent();
+        }
+
+        function renderContent() {
+            const articleContainer = document.getElementById('articlesContainer');
+            const logContainer = document.getElementById('logsContainer');
             const msgEl = document.getElementById('loadingMessage');
 
-            // 1. 필터링
-            if (currentFilter === 'all') {
-                currentFilteredArticles = allArticles;
-            } else if (currentFilter === 'favorite') { // 즐겨찾기 필터
-                currentFilteredArticles = allArticles.filter(a => a && favoriteArticles.has(a.url)); // null 체크 추가
-            } else {
-                currentFilteredArticles = allArticles.filter(a =>
-                    a && (a.category === currentFilter || a.source === currentFilter) // null 체크 추가
-                );
-            }
+            msgEl.classList.add('hidden');
 
-            // 2. 내용 없음 메시지
-            if (currentFilteredArticles.length === 0) {
-                container.innerHTML = '';
-                if (currentFilter === 'favorite') {
-                    msgEl.textContent = '⭐ 별 아이콘을 눌러 기사를 즐겨찾기에 추가하세요.';
-                } else {
-                    msgEl.textContent = '표시할 항목이 없습니다.';
-                }
-                msgEl.className = 'text-center text-slate-500 py-10';
+            if (currentFilter === 'logs') {
+                articleContainer.classList.add('hidden');
+                logContainer.classList.remove('hidden');
+                renderLogs();
                 return;
             }
 
-            msgEl.className = 'hidden';
+            articleContainer.classList.remove('hidden');
+            logContainer.classList.add('hidden');
 
-            // 3. HTML 생성
-            container.innerHTML = currentFilteredArticles.map((article, index) => {
+            let filtered = [];
+            if (currentFilter === 'all') filtered = allArticles;
+            else if (currentFilter === 'favorite') filtered = allArticles.filter(a => favoriteArticles.has(a.url));
+            else filtered = allArticles.filter(a => a.source === currentFilter);
 
-                // [수정] article이 null이 아닌지 확인
-                if (!article) return '';
+            if (filtered.length === 0) {
+                articleContainer.innerHTML = '';
+                msgEl.textContent = '표시할 항목이 없습니다.';
+                msgEl.classList.remove('hidden');
+                return;
+            }
 
-                const imageUrl = article.image_url || null;
-                const isFavorite = favoriteArticles.has(article.url); // 전역 Set에서 확인
+            // 오늘 기사 총 개수 계산 (전체 목록 기준)
+            const todayArticlesTotal = allArticles.filter(a => a.date === todayDateString).length;
+            
+            // 오늘 기사 중 현재 기사의 순서 계산 (역순이므로 total - index)
+            // 주의: 전체 목록(allArticles) 내에서의 인덱스를 찾아야 정확함
+            
+            articleContainer.innerHTML = filtered.map((article, idx) => {
+                const isFavorite = favoriteArticles.has(article.url);
+                let counterHtml = '';
+                
+                // 오늘 날짜 기사라면 카운터 표시
+                if (article.date === todayDateString) {
+                    // 전체 리스트에서 이 기사가 오늘 기사 중 몇 번째인지 찾기
+                    const todayList = allArticles.filter(a => a.date === todayDateString);
+                    const myIndex = todayList.findIndex(a => a.url === article.url);
+                    if (myIndex !== -1) {
+                        // 최신순 정렬이므로 (1번이 가장 최신) -> myIndex + 1
+                        counterHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100">Today ${myIndex + 1} / ${todayArticlesTotal}</span>`;
+                    }
+                }
 
-                // --- 썸네일 HTML을 조건부로 생성 ---
-                const imageContainerHtml = imageUrl
-                    ? `<div class="relative w-full h-36 overflow-hidden">
-                           <img src="${imageUrl}" alt="썸네일" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.style.display='none'">
-                           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-
-                           <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)"
-                                   class="absolute top-2 left-2 p-1.5 rounded-full z-10
-                                          ${isFavorite ? 'text-yellow-400 bg-black/50' : 'text-white/70 bg-black/40'}
-                                          hover:text-yellow-300 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" />
-                                </svg>
-                           </button>
-
-                           <span class="absolute top-2 right-2 bg-black/50 text-white text-[11px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm">
-                               ${article.date || '날짜 없음'}
-                           </span>
-                       </div>`
-                    : ''; // 이미지가 없으면 빈 문자열
-
-                // 소스별 색상
                 let sourceColor = 'bg-slate-100 text-slate-600';
-                if (article.source?.includes('Nature')) sourceColor = 'bg-green-100 text-green-700';
-                if (article.source?.includes('Science')) sourceColor = 'bg-blue-100 text-blue-700';
-                if (article.source?.includes('Cell')) sourceColor = 'bg-orange-100 text-orange-700';
                 if (article.source?.includes('YouTube')) sourceColor = 'bg-red-100 text-red-700';
 
                 return `
-                <article
-                    class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
-                    onclick='openModal(${index})'
-                    role="button"
-                    tabindex="0"
-                    aria-label="${article.title || '기사 제목 없음'}">
-
-                    ${imageContainerHtml} <div class="p-3 md:p-4 flex flex-col flex-1">
-
-                        ${!imageUrl ? `
-                        <div class="flex justify-between items-center mb-2">
-                            <span class="text-slate-500 text-[11px] font-semibold">
-                                ${article.date || '날짜 없음'}
-                            </span>
-
-                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}', this)"
-                                    class="p-1 rounded-full z-10
-                                           ${isFavorite ? 'text-yellow-400' : 'text-slate-400'}
-                                           hover:text-yellow-400 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" />
-                                </svg>
+                <article class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all" onclick='openModal("${article.url}")'>
+                    ${article.image_url ? `
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="${article.image_url}" class="w-full h-full object-cover" onerror="this.parentElement.style.display='none'">
+                        <div class="absolute top-2 right-2 flex gap-2">
+                            <span class="bg-black/60 text-white text-[10px] px-2 py-1 rounded-full">${article.date}</span>
+                        </div>
+                    </div>` : ''}
+                    
+                    <div class="p-4 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-2">
+                            ${counterHtml ? counterHtml : `<span class="text-xs text-slate-400">${article.date}</span>`}
+                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="${isFavorite ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
+                                ★
                             </button>
                         </div>
-                        ` : ''}
-
-                        <h3 class="font-bold text-base text-slate-900 group-hover:text-indigo-600 transition-colors">
-                            ${article.title || '제목 없음'}
-                        </h3>
-
-                        <div class="mt-auto pt-3 flex gap-2 items-center">
-                            <span class="text-xs font-bold px-2 py-0.5 rounded-full ${sourceColor}">
-                                ${article.source || '출처 없음'}
-                            </span>
-                            <span class="text-xs font-medium text-slate-500">
-                                ${article.category || ''}
-                            </span>
+                        <h3 class="font-bold text-lg mb-2 leading-snug text-slate-800">${article.title}</h3>
+                        <div class="mt-auto pt-2 flex items-center gap-2">
+                            <span class="text-[10px] px-2 py-0.5 rounded-full ${sourceColor}">${article.source}</span>
                         </div>
                     </div>
-                </article>
-                `;
+                </article>`;
             }).join('');
         }
 
-        // --- [신규] 즐겨찾기 버튼 UI 업데이트 헬퍼 ---
-        function updateFavoriteButtonUI(url, isFavorite) {
-            // URL 인코딩 문제 방지를 위해 querySelectorAll에서 URL을 제대로 이스케이프 처리
-            const escapedUrl = CSS.escape(url);
-            const allFavoriteButtons = document.querySelectorAll(`button[onclick*="'${escapedUrl}'"]`);
-            allFavoriteButtons.forEach(btn => {
-                const svg = btn.querySelector('svg');
-                if (!svg) return;
-
-                if (isFavorite) {
-                    svg.setAttribute('fill', 'currentColor');
-                    btn.classList.remove('text-white/70', 'text-slate-400');
-                    btn.classList.add('text-yellow-400');
-                    if (btn.classList.contains('absolute')) { // 이미지용 버튼
-                        btn.classList.add('bg-black/50');
-                    }
-                } else {
-                    svg.setAttribute('fill', 'none');
-                    // Ensure both potential classes are added initially before removing specific ones
-                    btn.classList.add('text-white/70', 'text-slate-400'); // Add both potential default states
-                    if (isFavorite) { // If it *was* favorite, remove yellow and bg
-                         btn.classList.remove('text-yellow-400', 'bg-black/50');
-                    } else { // If it *was not* favorite, ensure yellow and bg are removed just in case
-                         btn.classList.remove('text-yellow-400', 'bg-black/50');
-                         // Depending on context, decide which class to keep
-                         if (btn.closest('.relative')) { // Image button context
-                            btn.classList.remove('text-slate-400'); // Keep white/70
-                         } else { // Text button context
-                            btn.classList.remove('text-white/70'); // Keep slate-400
-                         }
-                    }
-                }
-            });
+        function renderLogs() {
+            const container = document.getElementById('logContent');
+            if (executionLogs.length === 0) {
+                container.innerHTML = '<div class="text-slate-500">로그 기록이 없습니다.</div>';
+                return;
+            }
+            
+            container.innerHTML = executionLogs.map(log => {
+                let colorClass = 'text-slate-300';
+                if (log.level === 'ERROR') colorClass = 'text-red-400 font-bold';
+                if (log.level === 'WARNING') colorClass = 'text-yellow-400';
+                
+                return `<div class="log-entry border-b border-slate-800 py-1 ${colorClass}">
+                    <span class="opacity-50 mr-2">[${log.time}]</span>
+                    <span>${log.message}</span>
+                </div>`;
+            }).join('');
         }
 
-        // --- [수정] 즐겨찾기 토글 함수 (Firebase 연동) ---
-        function toggleFavorite(url, buttonEl) {
-            if (!url) return;
-
-            const newIsFavorite = !favoriteArticles.has(url); // 원하는 새 상태
-
-            // 1. 로컬 Set 상태 즉시 업데이트
-            if (newIsFavorite) {
-                favoriteArticles.add(url);
-            } else {
-                favoriteArticles.delete(url);
-            }
-
-            // 2. UI 즉시 업데이트
-            updateFavoriteButtonUI(url, newIsFavorite);
-
-            // 3. localStorage에 즉시 저장 (백업)
+        function toggleFavorite(url) {
+            if (favoriteArticles.has(url)) favoriteArticles.delete(url);
+            else favoriteArticles.add(url);
+            
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
-
-            // 4. Firestore에 비동기 저장
-            if (window.globalFirebase) {
-                // (모듈 스크립트의 함수 호출)
-                window.globalFirebase.toggleFavorite_Firestore(url, newIsFavorite);
-            }
-
-            // 현재 '즐겨찾기' 탭을 보고 있다면, 목록 새로고침
-            if (currentFilter === 'favorite') {
-                renderArticles();
-            }
+            if (window.globalFirebase) window.globalFirebase.toggleFavorite_Firestore(url, favoriteArticles.has(url));
+            renderContent();
         }
 
-
-        // --- 모달 열기 (안정성 강화) ---
-        function openModal(index) {
-            const article = currentFilteredArticles[index];
+        // 모달 관련 함수는 기존 로직과 유사하게 구현 (생략 가능하나 안정성을 위해 포함)
+        window.openModal = (url) => {
+            const article = allArticles.find(a => a.url === url);
             if (!article) return;
-
-            const title = article.title || "제목 없음";
-            const titleEn = article.title_en || "원본 제목 없음";
-            const summary = article.summary_kr || "[요약 정보 없음]";
-            const source = article.source || "출처 없음";
-            const date = article.date || "날짜 없음";
-            const url = article.url || "#";
-            const imageUrl = article.image_url || null;
-
-            document.getElementById('modalTitle').textContent = title;
-            document.getElementById('modalTitleEn').textContent = titleEn;
-
-            const summaryEl = document.getElementById('modalSummary');
-            summaryEl.textContent = summary;
-
-            if (summary.includes('[요약')) {
-                summaryEl.classList.add('summary-failed');
-            } else {
-                summaryEl.classList.remove('summary-failed');
-            }
-
-            document.getElementById('modalSource').textContent = source;
-            document.getElementById('modalDate').textContent = date;
-            document.getElementById('modalLink').href = url;
-
-            const imgEl = document.getElementById('modalImage');
-            const modalBody = imgEl.closest('.flex'); // 부모 .flex 컨테이너
-
-            // 모달 썸네일 표시/숨기기
-            if (imageUrl) {
-                imgEl.src = imageUrl;
-                imgEl.style.display = 'block'; // 보이게
-                modalBody.classList.add('md:flex-row'); // 가로 정렬
-                modalBody.classList.remove('md:flex-col'); // 세로 정렬(숨김 시)
-            } else {
-                imgEl.style.display = 'none'; // 숨기기
-                modalBody.classList.remove('md:flex-row'); // 가로 정렬 제거
-                modalBody.classList.add('md:flex-col'); // 세로 정렬(숨김 시)
-            }
-
+            
+            document.getElementById('modalTitle').textContent = article.title;
+            document.getElementById('modalTitleEn').textContent = article.title_en;
+            document.getElementById('modalSummary').textContent = article.summary_kr;
+            document.getElementById('modalSource').textContent = article.source;
+            document.getElementById('modalDate').textContent = article.date;
+            document.getElementById('modalLink').href = article.url;
+            
+            const img = document.getElementById('modalImage');
+            if(article.image_url) { img.src = article.image_url; img.classList.remove('hidden'); }
+            else { img.classList.add('hidden'); }
+            
             document.getElementById('modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-
-        // --- 모달 닫기 ---
-        function closeModal() {
-            document.getElementById('modal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
-        }
+        };
+        window.closeModal = () => document.getElementById('modal').classList.add('hidden');
     </script>
 </body>
 </html>
