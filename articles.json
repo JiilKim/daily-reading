@@ -1,5 +1,1333 @@
 {
-  "last_updated": "2025-11-24 10:32:01",
+  "last_updated": "2025-11-24 11:21:13",
+  "logs": [
+    {
+      "time": "11:17:03",
+      "level": "INFO",
+      "message": "=== 크롤러 시작 (Palo Alto Time) ==="
+    },
+    {
+      "time": "11:17:03",
+      "level": "INFO",
+      "message": "유튜브 크롤링: B_ZCF YouTube"
+    },
+    {
+      "time": "11:17:03",
+      "level": "INFO",
+      "message": "RSS 크롤링: The Transmitter"
+    },
+    {
+      "time": "11:17:04",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature"
+    },
+    {
+      "time": "11:17:04",
+      "level": "INFO",
+      "message": "RSS 크롤링: STAT News"
+    },
+    {
+      "time": "11:17:04",
+      "level": "INFO",
+      "message": "RSS 크롤링: The Scientist"
+    },
+    {
+      "time": "11:17:04",
+      "level": "INFO",
+      "message": "RSS 크롤링: Ars Technica"
+    },
+    {
+      "time": "11:17:05",
+      "level": "INFO",
+      "message": "RSS 크롤링: Wired"
+    },
+    {
+      "time": "11:17:25",
+      "level": "ERROR",
+      "message": "Wired 크롤링 실패: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "time": "11:17:25",
+      "level": "INFO",
+      "message": "RSS 크롤링: Fierce Biotech"
+    },
+    {
+      "time": "11:17:25",
+      "level": "INFO",
+      "message": "RSS 크롤링: Endpoints News"
+    },
+    {
+      "time": "11:17:25",
+      "level": "INFO",
+      "message": "RSS 크롤링: Science"
+    },
+    {
+      "time": "11:17:26",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature (News & Comment)"
+    },
+    {
+      "time": "11:17:26",
+      "level": "INFO",
+      "message": "RSS 크롤링: Science (Paper)"
+    },
+    {
+      "time": "11:17:26",
+      "level": "INFO",
+      "message": "RSS 크롤링: Cell"
+    },
+    {
+      "time": "11:17:27",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature Neuroscience"
+    },
+    {
+      "time": "11:17:27",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature Medicine"
+    },
+    {
+      "time": "11:17:27",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature Drug Discovery"
+    },
+    {
+      "time": "11:17:27",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature Biotechnology"
+    },
+    {
+      "time": "11:17:28",
+      "level": "INFO",
+      "message": "RSS 크롤링: Nature (Paper)"
+    },
+    {
+      "time": "11:17:28",
+      "level": "INFO",
+      "message": "RSS 크롤링: NEJM"
+    },
+    {
+      "time": "11:17:29",
+      "level": "INFO",
+      "message": "총 처리 대기 항목: 67개"
+    },
+    {
+      "time": "11:17:29",
+      "level": "INFO",
+      "message": "유튜브 분석 시도: \"돈 많이 벌어서 좋겠네\"..."
+    },
+    {
+      "time": "11:17:32",
+      "level": "INFO",
+      "message": "유튜브 분석 시도: 돈 많이 버니? (샘 알트먼)..."
+    },
+    {
+      "time": "11:17:35",
+      "level": "INFO",
+      "message": "유튜브 분석 시도: 인공지능 어벤저스들 한자리에..."
+    },
+    {
+      "time": "11:17:39",
+      "level": "INFO",
+      "message": "유튜브 분석 시도: 실패를 통과하는 일 (박소령 퍼블리 창업자)..."
+    },
+    {
+      "time": "11:17:42",
+      "level": "INFO",
+      "message": "유튜브 분석 시도: 안두릴 창업자 1:1 인터뷰 (팔마 럭키)..."
+    },
+    {
+      "time": "11:17:46",
+      "level": "INFO",
+      "message": "기사 번역 시도: MAPK-driven epithelial cell pl..."
+    },
+    {
+      "time": "11:17:48",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:17:48",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: MAPK-driven epitheli..."
+    },
+    {
+      "time": "11:17:50",
+      "level": "INFO",
+      "message": "기사 번역 시도: Chasing crayfish and the leech..."
+    },
+    {
+      "time": "11:17:52",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:17:52",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Chasing crayfish and..."
+    },
+    {
+      "time": "11:17:53",
+      "level": "INFO",
+      "message": "기사 번역 시도: The Internet is broken and the..."
+    },
+    {
+      "time": "11:17:56",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:17:56",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: The Internet is brok..."
+    },
+    {
+      "time": "11:17:57",
+      "level": "INFO",
+      "message": "기사 번역 시도: What is the future of intellig..."
+    },
+    {
+      "time": "11:18:01",
+      "level": "INFO",
+      "message": "기사 번역 시도: Putting nature on the balance ..."
+    },
+    {
+      "time": "11:18:03",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:03",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Putting nature on th..."
+    },
+    {
+      "time": "11:18:04",
+      "level": "INFO",
+      "message": "기사 번역 시도: A ten-year drive to credit aut..."
+    },
+    {
+      "time": "11:18:07",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:07",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: A ten-year drive to ..."
+    },
+    {
+      "time": "11:18:08",
+      "level": "INFO",
+      "message": "기사 번역 시도: Daily briefing: Where pigeons ..."
+    },
+    {
+      "time": "11:18:11",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Trump weighs plan to ex..."
+    },
+    {
+      "time": "11:18:13",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:13",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Trump weighs ..."
+    },
+    {
+      "time": "11:18:14",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Everyone picked a healt..."
+    },
+    {
+      "time": "11:18:16",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:16",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Everyone pick..."
+    },
+    {
+      "time": "11:18:17",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Medicare backs off plan..."
+    },
+    {
+      "time": "11:18:20",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:20",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Medicare back..."
+    },
+    {
+      "time": "11:18:21",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Lilly hits trillion-dol..."
+    },
+    {
+      "time": "11:18:24",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:24",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Lilly hits tr..."
+    },
+    {
+      "time": "11:18:25",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: J&J’s novel Alzheimer’s..."
+    },
+    {
+      "time": "11:18:25",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 34.776174653s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "time": "11:18:25",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: J&J’s novel A..."
+    },
+    {
+      "time": "11:18:26",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Pharmalittle: We’re rea..."
+    },
+    {
+      "time": "11:18:26",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 33.652276486s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+    },
+    {
+      "time": "11:18:26",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Pharmalittle:..."
+    },
+    {
+      "time": "11:18:27",
+      "level": "INFO",
+      "message": "기사 번역 시도: A former scientific leader at ..."
+    },
+    {
+      "time": "11:18:27",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 32.525805087s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+    },
+    {
+      "time": "11:18:27",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: A former scientific ..."
+    },
+    {
+      "time": "11:18:28",
+      "level": "INFO",
+      "message": "기사 번역 시도: STAT+: Novo Nordisk’s semaglut..."
+    },
+    {
+      "time": "11:18:28",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 31.401671599s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "time": "11:18:28",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: STAT+: Novo Nordisk’..."
+    },
+    {
+      "time": "11:18:29",
+      "level": "INFO",
+      "message": "기사 번역 시도: Fast-Freezing Brain Signals Sh..."
+    },
+    {
+      "time": "11:18:32",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:32",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Fast-Freezing Brain ..."
+    },
+    {
+      "time": "11:18:33",
+      "level": "INFO",
+      "message": "기사 번역 시도: Harnessing Artificial Intellig..."
+    },
+    {
+      "time": "11:18:37",
+      "level": "INFO",
+      "message": "기사 번역 시도: What Happens When a Fly Lands ..."
+    },
+    {
+      "time": "11:18:40",
+      "level": "INFO",
+      "message": "기사 번역 시도: Gene-Edited Crops Grow Faster ..."
+    },
+    {
+      "time": "11:18:43",
+      "level": "INFO",
+      "message": "기사 번역 시도: Cell-Electronic Hybrid Chips C..."
+    },
+    {
+      "time": "11:18:46",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:46",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Cell-Electronic Hybr..."
+    },
+    {
+      "time": "11:18:47",
+      "level": "INFO",
+      "message": "기사 번역 시도: Human Neural Organoid Research..."
+    },
+    {
+      "time": "11:18:50",
+      "level": "INFO",
+      "message": "기사 번역 시도: Reprogrammed Human Stomach Org..."
+    },
+    {
+      "time": "11:18:54",
+      "level": "INFO",
+      "message": "기사 번역 시도: The evolution of rationality: ..."
+    },
+    {
+      "time": "11:18:57",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:18:57",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: The evolution of rat..."
+    },
+    {
+      "time": "11:18:58",
+      "level": "INFO",
+      "message": "기사 번역 시도: Gilead hatches $400M biobucks ..."
+    },
+    {
+      "time": "11:19:00",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:00",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Gilead hatches $400M..."
+    },
+    {
+      "time": "11:19:01",
+      "level": "INFO",
+      "message": "기사 번역 시도: Abbott to replace certain Free..."
+    },
+    {
+      "time": "11:19:05",
+      "level": "INFO",
+      "message": "기사 번역 시도: Novo shares tumble after 2 tri..."
+    },
+    {
+      "time": "11:19:07",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:07",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Novo shares tumble a..."
+    },
+    {
+      "time": "11:19:08",
+      "level": "INFO",
+      "message": "기사 번역 시도: Versant's Dayra dawns with $50..."
+    },
+    {
+      "time": "11:19:11",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:11",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Versant's Dayra dawn..."
+    },
+    {
+      "time": "11:19:12",
+      "level": "INFO",
+      "message": "기사 번역 시도: J&J's $5B Alzheimer's hope fad..."
+    },
+    {
+      "time": "11:19:16",
+      "level": "INFO",
+      "message": "기사 번역 시도: Solventum to buy Acera Surgica..."
+    },
+    {
+      "time": "11:19:18",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:18",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Solventum to buy Ace..."
+    },
+    {
+      "time": "11:19:19",
+      "level": "INFO",
+      "message": "기사 번역 시도: Bayer's asundexian cuts stroke..."
+    },
+    {
+      "time": "11:19:23",
+      "level": "INFO",
+      "message": "기사 번역 시도: J&J’s tau-targeting antibody f..."
+    },
+    {
+      "time": "11:19:23",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 36.158339675s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}"
+    },
+    {
+      "time": "11:19:23",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: J&J’s tau-targeting ..."
+    },
+    {
+      "time": "11:19:24",
+      "level": "INFO",
+      "message": "기사 번역 시도: Kelun's TROP2 ADC plus Keytrud..."
+    },
+    {
+      "time": "11:19:24",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 35.025051734s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}"
+    },
+    {
+      "time": "11:19:24",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Kelun's TROP2 ADC pl..."
+    },
+    {
+      "time": "11:19:26",
+      "level": "INFO",
+      "message": "기사 번역 시도: Sarepta to pay $200M milestone..."
+    },
+    {
+      "time": "11:19:26",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\\nPlease retry in 33.905059968s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+    },
+    {
+      "time": "11:19:26",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Sarepta to pay $200M..."
+    },
+    {
+      "time": "11:19:27",
+      "level": "INFO",
+      "message": "기사 번역 시도: Biogen pens I&I deal with new ..."
+    },
+    {
+      "time": "11:19:30",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:30",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Biogen pens I&I deal..."
+    },
+    {
+      "time": "11:19:31",
+      "level": "INFO",
+      "message": "기사 번역 시도: Bayer’s stock rallies as next-..."
+    },
+    {
+      "time": "11:19:34",
+      "level": "INFO",
+      "message": "기사 번역 시도: Novo Nordisk's semaglutide mis..."
+    },
+    {
+      "time": "11:19:36",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:36",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Novo Nordisk's semag..."
+    },
+    {
+      "time": "11:19:38",
+      "level": "INFO",
+      "message": "기사 번역 시도: Craig Crews, Mikael Dolsten ra..."
+    },
+    {
+      "time": "11:19:40",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:40",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Craig Crews, Mikael ..."
+    },
+    {
+      "time": "11:19:41",
+      "level": "INFO",
+      "message": "기사 번역 시도: Large-scale drug screening in ..."
+    },
+    {
+      "time": "11:19:43",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:43",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Large-scale drug scr..."
+    },
+    {
+      "time": "11:19:44",
+      "level": "INFO",
+      "message": "기사 번역 시도: Preconfigured neuronal firing ..."
+    },
+    {
+      "time": "11:19:48",
+      "level": "INFO",
+      "message": "기사 번역 시도: The Alzheimer’s therapeutic Le..."
+    },
+    {
+      "time": "11:19:51",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:51",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: The Alzheimer’s ther..."
+    },
+    {
+      "time": "11:19:52",
+      "level": "INFO",
+      "message": "기사 번역 시도: A mouse brain atlas based on d..."
+    },
+    {
+      "time": "11:19:56",
+      "level": "INFO",
+      "message": "기사 번역 시도: Munc18 modulates syntaxin phas..."
+    },
+    {
+      "time": "11:19:59",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:19:59",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Munc18 modulates syn..."
+    },
+    {
+      "time": "11:20:00",
+      "level": "INFO",
+      "message": "기사 번역 시도: A myeloid trisomy 21-associate..."
+    },
+    {
+      "time": "11:20:04",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:04",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: A myeloid trisomy 21..."
+    },
+    {
+      "time": "11:20:05",
+      "level": "INFO",
+      "message": "기사 번역 시도: A therapeutic peptide vaccine ..."
+    },
+    {
+      "time": "11:20:08",
+      "level": "INFO",
+      "message": "기사 번역 시도: Epigenetic editing: from conce..."
+    },
+    {
+      "time": "11:20:10",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:10",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Epigenetic editing: ..."
+    },
+    {
+      "time": "11:20:11",
+      "level": "INFO",
+      "message": "기사 번역 시도: Author Correction: Binary vect..."
+    },
+    {
+      "time": "11:20:14",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:14",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Author Correction: B..."
+    },
+    {
+      "time": "11:20:15",
+      "level": "INFO",
+      "message": "기사 번역 시도: Belzutifan for Advanced Pheoch..."
+    },
+    {
+      "time": "11:20:18",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:18",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Belzutifan for Advan..."
+    },
+    {
+      "time": "11:20:19",
+      "level": "INFO",
+      "message": "기사 번역 시도: Toward Same-Day Genome Sequenc..."
+    },
+    {
+      "time": "11:20:22",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:22",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Toward Same-Day Geno..."
+    },
+    {
+      "time": "11:20:23",
+      "level": "INFO",
+      "message": "기사 번역 시도: Ortner’s Syndrome in Pulmonary..."
+    },
+    {
+      "time": "11:20:25",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:25",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Ortner’s Syndrome in..."
+    },
+    {
+      "time": "11:20:26",
+      "level": "INFO",
+      "message": "기사 번역 시도: Integration of Tobacco-Cessati..."
+    },
+    {
+      "time": "11:20:29",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:29",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Integration of Tobac..."
+    },
+    {
+      "time": "11:20:30",
+      "level": "INFO",
+      "message": "기사 번역 시도: Pistachio Ice Cream..."
+    },
+    {
+      "time": "11:20:33",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:33",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Pistachio Ice Cream..."
+    },
+    {
+      "time": "11:20:34",
+      "level": "INFO",
+      "message": "기사 번역 시도: Regulating Corporate Control i..."
+    },
+    {
+      "time": "11:20:36",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:36",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Regulating Corporate..."
+    },
+    {
+      "time": "11:20:37",
+      "level": "INFO",
+      "message": "기사 번역 시도: Nivolumab for Resected Stage I..."
+    },
+    {
+      "time": "11:20:40",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:40",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Nivolumab for Resect..."
+    },
+    {
+      "time": "11:20:41",
+      "level": "INFO",
+      "message": "기사 번역 시도: Subretinal Photovoltaic Implan..."
+    },
+    {
+      "time": "11:20:45",
+      "level": "INFO",
+      "message": "기사 번역 시도: ctDNA-Guided Adjuvant Atezoliz..."
+    },
+    {
+      "time": "11:20:47",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:47",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: ctDNA-Guided Adjuvan..."
+    },
+    {
+      "time": "11:20:48",
+      "level": "INFO",
+      "message": "기사 번역 시도: Immediate or Deferred Nonculpr..."
+    },
+    {
+      "time": "11:20:51",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:51",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Immediate or Deferre..."
+    },
+    {
+      "time": "11:20:52",
+      "level": "INFO",
+      "message": "기사 번역 시도: A Phase 3 Trial of Atacicept i..."
+    },
+    {
+      "time": "11:20:55",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:55",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: A Phase 3 Trial of A..."
+    },
+    {
+      "time": "11:20:56",
+      "level": "INFO",
+      "message": "기사 번역 시도: Transcatheter or Surgical Aort..."
+    },
+    {
+      "time": "11:20:58",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:20:58",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Transcatheter or Sur..."
+    },
+    {
+      "time": "11:21:00",
+      "level": "INFO",
+      "message": "기사 번역 시도: Measles 2025..."
+    },
+    {
+      "time": "11:21:02",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:21:02",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Measles 2025..."
+    },
+    {
+      "time": "11:21:03",
+      "level": "INFO",
+      "message": "기사 번역 시도: An Evidence-Based Approach to ..."
+    },
+    {
+      "time": "11:21:06",
+      "level": "INFO",
+      "message": "기사 번역 시도: Changing Role of Adjuvant Ther..."
+    },
+    {
+      "time": "11:21:09",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:21:09",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Changing Role of Adj..."
+    },
+    {
+      "time": "11:21:10",
+      "level": "INFO",
+      "message": "기사 번역 시도: Restoring Confidence in Public..."
+    },
+    {
+      "time": "11:21:12",
+      "level": "ERROR",
+      "message": "AI 처리 중 오류: 'list' object has no attribute 'get'"
+    },
+    {
+      "time": "11:21:12",
+      "level": "WARNING",
+      "message": "요약 실패, 재시도 큐로 이동: Restoring Confidence..."
+    },
+    {
+      "time": "11:21:13",
+      "level": "INFO",
+      "message": "처리 완료: 성공 21건, 실패/대기 46건"
+    }
+  ],
+  "failed_queue": [
+    {
+      "title_en": "MAPK-driven epithelial cell plasticity drives colorectal cancer therapeutic resistance",
+      "description_en": "Nature, Published online: 24 November 2025;doi:10.1038/s41586-025-09916-wMAPK-driven epithelial cell plasticity drives colorectal cancer therapeutic resistance",
+      "url": "https://www.nature.com/articles/s41586-025-09916-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Chasing crayfish and the leeches that live on them",
+      "description_en": "Nature, Published online: 24 November 2025;doi:10.1038/d41586-025-03861-4Maria Shrestha works to understand the evolutionary history of crayfish symbionts — and how they might be indicators of trouble.",
+      "url": "https://www.nature.com/articles/d41586-025-03861-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "The Internet is broken and the inventor of the World Wide Web wants to fix it",
+      "description_en": "Nature, Published online: 24 November 2025;doi:10.1038/d41586-025-03859-yTim Berners-Lee is calling for a return to a decentralized Internet and stronger data privacy, but his arguments could be more inspiring.",
+      "url": "https://www.nature.com/articles/d41586-025-03859-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Putting nature on the balance sheet: how to account for the ecological costs of our actions",
+      "description_en": "Nature, Published online: 24 November 2025;doi:10.1038/d41586-025-03858-zEconomists should consider forests and wetlands as well as factories and farms.",
+      "url": "https://www.nature.com/articles/d41586-025-03858-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "A ten-year drive to credit authors for their work — and why there’s still more to do",
+      "description_en": "Nature, Published online: 24 November 2025;doi:10.1038/d41586-025-03860-5Information about the roles of each author of a paper can help to build trust, integrity and responsible research assessment. Coordinated efforts are needed to consolidate progress.",
+      "url": "https://www.nature.com/articles/d41586-025-03860-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "STAT+: Trump weighs plan to extend extra ACA subsidies for two years",
+      "description_en": "With backlash growing to surging health insurance costs, Trump is floating a temporary extension of extra ACA subsidies.",
+      "url": "https://www.statnews.com/2025/11/24/trump-health-care-plan-taking-shape-aca-insurance-subsidy-extension/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2246416125-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Everyone picked a health plan, everyone’s miserable",
+      "description_en": "Did you have fun with open enrollment? @bobjherman asks in this week's Health Care Inc. newsletter.",
+      "url": "https://www.statnews.com/2025/11/24/health-insurance-open-enrollment-healthcare-newsletter/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/AdobeStock_140363355-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: Medicare backs off plan for quicker clawback of $7.8 billion from hospitals",
+      "description_en": "Medicare officials have backed off a plan that would have clawed back $7.8 billion from hospitals a decade sooner than originally planned.",
+      "url": "https://www.statnews.com/2025/11/24/medicare-hospitals-payment-rule/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_235123193-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: Lilly hits trillion-dollar valuation as GLP-1 era peaks",
+      "description_en": "Plus more biotech news brought to you by The Readout",
+      "url": "https://www.statnews.com/2025/11/24/biotech-news-can-a-glp-1-drug-slow-alzheimers/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/AdobeStock_505235750_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: J&J’s novel Alzheimer’s drug fails in key trial, dimming hopes for a hot target",
+      "description_en": "A promising Alzheimer’s treatment failed to slow the progress of the disease, news that could dampen enthusiasm for a new class of potential medicines.",
+      "url": "https://www.statnews.com/2025/11/24/alzheimers-disease-johnson-and-johnson-posdinemab/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2016/03/AlzBrainScans_AP_751391483255-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about failed Novo Alzheimer’s trials, favorable Bayer stroke results, and more",
+      "description_en": "Novo Nordisk’s weight loss drug semaglutide failed to slow the progression of Alzheimer’s disease in two large trials",
+      "url": "https://www.statnews.com/pharmalot/2025/11/24/novo-alzheimers-semaglutide-results-bayer-stroke-study/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
+    },
+    {
+      "title_en": "A former scientific leader at CDC died at 94",
+      "description_en": "And more health news from the Morning Rounds newsletter",
+      "url": "https://www.statnews.com/2025/11/24/health-news-attack-on-neurodiversity-fda-cdc/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/AP25232723648587-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Novo Nordisk’s semaglutide fails to slow Alzheimer’s progression",
+      "description_en": "Novo Nordisk's blockbuster weight loss drug semaglutide failed to slow Alzheimer's progression in trials. The studies had been seen as a long shot.",
+      "url": "https://www.statnews.com/2025/11/24/novo-nordisk-semaglutide-wegovy-ozempic-alzheimers-trial-failure/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/GettyImages-2197227349-645x645.jpg"
+    },
+    {
+      "title_en": "Fast-Freezing Brain Signals Sheds Light on Human Synapses",
+      "description_en": "“Zap-and-freeze” high-resolution imaging visualizes synapses in action and may lead to a better understanding of conditions like sporadic Parkinson’s disease.",
+      "url": "https://www.the-scientist.com/fast-freezing-brain-signals-sheds-light-on-human-synapses-73778",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Cell-Electronic Hybrid Chips Could Enable Surgery-Free Brain Implants",
+      "description_en": "Microscopic wireless electronic devices hitch a ride on immune cells to reach the brain, offering therapeutic avenues for brain cancers and neurodegeneration.",
+      "url": "https://www.the-scientist.com/cell-electronic-hybrid-chips-could-enable-surgery-free-brain-implants-73705",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "The evolution of rationality: How chimps process conflicting evidence",
+      "description_en": "Chimps can take in new evidence, evaluate its strength, and change their minds.",
+      "url": "https://arstechnica.com/science/2025/11/the-evolution-of-rationality-how-chimps-process-conflicting-evidence/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-11-16",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1451038709-500x500.jpg"
+    },
+    {
+      "title_en": "Gilead hatches $400M biobucks deal for Swedish biotech’s TREX1 cancer program",
+      "description_en": "Swedish biotech Sprint Bioscience is selling off an early-stage TREX1 cancer program to Gilead for $14 million upfront, plus the chance to net up to $400 million in biobucks.",
+      "url": "https://www.fiercebiotech.com/biotech/gilead-hatches-400m-biobucks-deal-swedish-biotechs-trex1-cancer-program",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Novo shares tumble after 2 trial misses for semaglutide in Alzheimer's disease",
+      "description_en": "Novo Nordisk has come up short in two phase 3 trials of semaglutide as a treatment for Alzheimer’s disease. But perhaps the larger story associated with the unsurprising result is the market reaction, as Novo's shares fell by nearly 9% at the U.S. market open Monday.",
+      "url": "https://www.fiercebiotech.com/pharma/novos-shares-tumble-8-after-2-trial-misses-semaglutide-alzheimers-disease",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Versant's Dayra dawns with $50M Biogen pact, oral macrocyclic peptide mission",
+      "description_en": "VC Versant Ventures is unveiling Dayra Therapeutics, a new biotech working on oral macrocyclic peptide drugs—a mission that has already reeled in a partnership with Biogen.",
+      "url": "https://www.fiercebiotech.com/biotech/versants-dayra-dawns-50m-biogen-pact-oral-macrocyclic-peptide-mission",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Solventum to buy Acera Surgical for up to $850M, repurchase $1B in stock",
+      "description_en": "Solventum, which spun out of 3M nearly two years ago, will shell out up to $850 million for wound care specialist Acera Surgical in its first major acquisition.",
+      "url": "https://www.fiercebiotech.com/medtech/solventum-buy-acera-surgical-850m-repurchase-1b-stock",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "J&J’s tau-targeting antibody fails Phase 2 Alzheimer's study",
+      "description_en": "Johnson & Johnson’s anti-tau monoclonal antibody failed to slow the progression of Alzheimer’s in patients with early-stage disease, marking the end of one of the company's most promising candidates.\n\n The company said in a  ...",
+      "url": "https://endpoints.news/jjs-tau-targeting-antibody-fails-phase-2-alzheimers-study/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Kelun's TROP2 ADC plus Keytruda improves outcomes in first-line lung cancer",
+      "description_en": "Merck’s partner on an experimental antibody-drug conjugate has reported a Phase 3 win in first-line lung cancer, and will take the data to Chinese regulatory authorities.\n\n Chengdu-based Kelun-Biotech said that a combination of its ADC ...",
+      "url": "https://endpoints.news/keluns-trop2-adc-plus-keytruda-improves-outcomes-in-first-line-lung-cancer/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Sarepta to pay $200M milestone to Arrowhead; Enlivex reports osteoarthritis data",
+      "description_en": "Plus, news about Clearside Biomedical, Pfizer, Astellas, Merck, MindImmune Therapeutics and Poxel:\n\n 💵 Sarepta to pay Arrowhead $200M as it continues type 1 myotonic dystrophy study: Sarepta",
+      "url": "https://endpoints.news/sarepta-to-pay-200m-milestone-payment-to-arrowhead-enlivex-reports-osteoarthritis-data/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Biogen pens I&I deal with new Versant macrocycle developer Dayra Therapeutics",
+      "description_en": "Versant Ventures’ latest startup is debuting with a partnership with Biogen to make oral macrocycles for immune and inflammatory diseases, a booming area of biopharma investment.\n\n Biogen is paying Dayra Therapeutics $50 million upfront as ...",
+      "url": "https://endpoints.news/biogen-pens-ii-deal-with-new-versant-macrocycle-developer-dayra-therapeutics/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Novo Nordisk's semaglutide misses in closely-watched Alzheimer’s trials",
+      "description_en": "Novo Nordisk’s bet on semaglutide in Alzheimer’s disease was always a long shot, and like most long shots, it has missed the mark.\n\n The GLP-1 agonist failed to delay disease progression in patients in two ...",
+      "url": "https://endpoints.news/novo-nordisks-semaglutide-misses-in-closely-watched-alzheimers-trials/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Craig Crews, Mikael Dolsten raise $32M for Quarry Thera",
+      "description_en": "During his daughter's wedding weekend last year, Mikael Dolsten was running through a flurry of emotions. He was thinking about the marriage, but also about starting a new biotech.\n\n The former Pfizer chief scientific officer ...",
+      "url": "https://endpoints.news/craig-crews-mikael-dolsten-raise-32m-for-quarry-thera/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Large-scale drug screening in iPSC-derived motor neurons from sporadic ALS patients identifies a potential combinatorial therapy",
+      "description_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02118-7In this study, the authors generated iPSC lines from more than 100 sporadic ALS cases, which recapitulated key disease phenotypes and enabled large-scale drug screening, identifying a promising combination therapy of baricitinib, memantine and riluzole.",
+      "url": "https://www.nature.com/articles/s41593-025-02118-7",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "The Alzheimer’s therapeutic Lecanemab attenuates Aβ pathology by inducing an amyloid-clearing program in microglia",
+      "description_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02125-8Lecanemab, a leading therapy for Alzheimer’s disease, induces an Fc-mediated transcriptional program in human microglia, linked to osteopontin and enhanced plaque phagocytosis, suggesting alternative strategies to promote plaque clearance.",
+      "url": "https://www.nature.com/articles/s41593-025-02125-8",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Munc18 modulates syntaxin phase separation to promote exocytosis",
+      "description_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02140-9Syntaxin-1A, a SNARE protein mediating membrane fusion for neurotransmission, forms clusters with unclear functions. Using light-controlled clustering, the authors found that phase-separation-driven clusters, regulated by Munc18, suppress fusion, revealing a new phase-separation-based mechanism.",
+      "url": "https://www.nature.com/articles/s41593-025-02140-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "A myeloid trisomy 21-associated gene variant is protective from Alzheimer’s disease",
+      "description_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02117-8Engineering human microglia with a Down-syndrome-linked myeloid gene variant resists tau-induced dysfunction and protects neurons in chimeric brains, offering proof of concept for transformative microglial replacement therapies in Alzheimer’s disease.",
+      "url": "https://www.nature.com/articles/s41593-025-02117-8",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Epigenetic editing: from concept to clinic",
+      "description_en": "Nature Reviews Drug Discovery, Published online: 24 November 2025;doi:10.1038/s41573-025-01323-0Epigenetic editing has emerged as a powerful hit-and-run approach to precise modification of gene expression without altering the underlying DNA sequence. This Review explores the therapeutic potential of epigenetic editing, highlights tools and concepts, assesses challenges and considerations, discusses in vivo studies and examines approaches and agents entering clinical development.",
+      "url": "https://www.nature.com/articles/s41573-025-01323-0",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Author Correction: Binary vector copy number engineering improvesAgrobacterium-mediated transformation",
+      "description_en": "Nature Biotechnology, Published online: 24 November 2025;doi:10.1038/s41587-025-02959-4Author Correction: Binary vector copy number engineering improvesAgrobacterium-mediated transformation",
+      "url": "https://www.nature.com/articles/s41587-025-02959-4",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Belzutifan for Advanced Pheochromocytoma or Paraganglioma",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, Page 2012-2022, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2504964?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Toward Same-Day Genome Sequencing in the Critical Care Setting",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, Page 2063-2065, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2512825?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Ortner’s Syndrome in Pulmonary Hypertension",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510045?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Integration of Tobacco-Cessation Interventions into Tuberculosis and HIV Care",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, Page 1969-1972, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2500490?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Pistachio Ice Cream",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, Page 1975-1977, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2506499?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Regulating Corporate Control in Health Care — Oregon’s Attempt to Revive the CPOM Doctrine",
+      "description_en": "New England Journal of Medicine, Volume 393, Issue 20, Page 1972-1974, November 20, 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2508442?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Nivolumab for Resected Stage III or IV Melanoma at 9 Years",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2504966?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "ctDNA-Guided Adjuvant Atezolizumab in Muscle-Invasive Bladder Cancer",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2511885?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Immediate or Deferred Nonculprit-Lesion PCI in Myocardial Infarction",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2512918?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "A Phase 3 Trial of Atacicept in Patients with IgA Nephropathy",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510198?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Transcatheter or Surgical Aortic-Valve Replacement in Low-Risk Patients at 7 Years",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2509766?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Measles 2025",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2504516?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Changing Role of Adjuvant Therapy in Stage III Melanoma",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2514054?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Restoring Confidence in Public Health",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2511772?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null
+    }
+  ],
   "articles": [
     {
       "title_en": "Hydrogen fuel isn’t always the green choice",
@@ -439,6 +1767,215 @@
       "image_url": null,
       "title": "EGFR 변이 및 EGFR-TKI 저항성 진행성 비소세포폐암에 대한 사시투주맙 티루모테칸 연구",
       "summary_kr": "세계적인 권위의 의학 저널인 '뉴잉글랜드 저널 오브 메디슨(New England Journal of Medicine)'에 게재될 예정인(Ahead of Print) 이번 연구는 진행성 비소세포폐암 치료 분야에 있어 중요한 진전을 알립니다. 특히 이 연구는 표피성장인자 수용체(EGFR) 변이가 있으면서 기존의 EGFR-티로신 키나아제 억제제(TKI) 치료에 저항성을 보이는 환자들을 대상으로 '사시투주맙 티루모테칸(Sacituzumab Tirumotecan)'이라는 새로운 약물의 효능을 평가했습니다. EGFR 변이 비소세포폐암은 초기에 TKI 치료에 좋은 반응을 보이지만, 시간이 지남에 따라 약물 내성이 발생하는 경우가 많아 미충족 의료 수요가 높은 분야였습니다. 사시투주맙 티루모테칸은 이러한 치료의 난관에 직면한 환자들에게 의미 있는 치료 반응을 보이며 새로운 치료 대안을 제시할 잠재력을 입증했습니다. 이번 연구 결과는 기존 치료법에 한계를 보이던 환자들에게 새로운 희망을 제공하며, 향후 임상 진료 지침 변경에도 긍정적인 영향을 미칠 것으로 기대됩니다. 이처럼 권위 있는 저널에 'Ahead of Print'로 발표되었다는 점은 해당 연구의 과학적 엄정성과 임상적 중요성을 강력히 시사합니다.",
+      "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
+    {
+      "title_en": "\"돈 많이 벌어서 좋겠네\"",
+      "url": "https://www.youtube.com/shorts/L1Qs9JuAMws",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-24",
+      "image_url": "https://i1.ytimg.com/vi/L1Qs9JuAMws/hqdefault.jpg",
+      "title": "돈 많이 벌어서 좋겠네",
+      "summary_kr": "해당 영상은 '돈 많이 벌어서 좋겠네'라는 제목 그대로, 돈을 많이 버는 상황에 대한 다양한 생각과 감정을 담고 있을 것으로 예상됩니다. 제목은 겉으로는 타인에 대한 부러움을 표현하는 듯하지만, 실제로는 돈을 많이 버는 것에 대한 시기, 질투, 혹은 단순한 감탄 등 복잡한 심경을 내포할 수 있습니다. 영상의 내용은 돈을 많이 버는 사람들의 성공 스토리, 돈을 벌기 위한 방법, 돈에 대한 가치관 등 다양한 주제를 다룰 수 있습니다. 또한, 돈과 행복의 관계, 돈이 인간관계에 미치는 영향 등 사회적, 철학적인 질문을 던질 수도 있습니다. 시청자들은 영상을 통해 돈에 대한 자신의 생각과 태도를 되돌아보고, 더 나아가 삶의 가치에 대해 고민해 볼 수 있을 것입니다. 영상의 구체적인 내용은 제목과 동일하겠지만, 다양한 영상 기법과 편집을 통해 시청자들에게 흥미로운 경험을 제공할 것으로 기대됩니다.",
+      "summary_en": "\"돈 많이 벌어서 좋겠네\""
+    },
+    {
+      "title_en": "돈 많이 버니? (샘 알트먼)",
+      "url": "https://www.youtube.com/shorts/Oi7vc4Kaw6s",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-24",
+      "image_url": "https://i4.ytimg.com/vi/Oi7vc4Kaw6s/hqdefault.jpg",
+      "title": "돈 많이 버니? (샘 알트먼)",
+      "summary_kr": "샘 알트먼에게 '돈을 많이 버느냐'고 직접적으로 묻는 영상입니다. 영상의 구체적인 내용은 제공된 정보만으로는 알 수 없습니다. 그러나 샘 알트먼이라는 인물의 배경을 고려할 때, 이 질문은 그의 사업적 성공과 관련된 맥락에서 제기되었을 가능성이 높습니다. 아마도 그의 답변은 단순히 금전적인 측면뿐 아니라, 그의 가치관이나 사회적 영향력에 대한 생각을 담고 있을 수도 있습니다. 만약 그가 돈을 많이 번다면, 그 이유는 무엇이며, 그 돈을 어떻게 사용하는지에 대한 추가적인 정보가 궁금해집니다. 또한, 돈에 대한 그의 철학이나 돈이 인생에서 차지하는 의미에 대한 그의 견해를 엿볼 수 있는 기회가 될 수도 있을 것입니다.",
+      "summary_en": "돈 많이 버니? (샘 알트먼)"
+    },
+    {
+      "title_en": "인공지능 어벤저스들 한자리에",
+      "url": "https://www.youtube.com/watch?v=c22qNo92DHk",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-24",
+      "image_url": "https://i4.ytimg.com/vi/c22qNo92DHk/hqdefault.jpg",
+      "title": "인공지능 어벤저스 한자리에 모이다",
+      "summary_kr": "이 영상은 마치 어벤저스 영화처럼, 다양한 분야의 인공지능 전문가들이 한 자리에 모여 인공지능의 현재와 미래에 대해 논의하는 모습을 담고 있습니다. 각 분야 최고 전문가들이 모여 인공지능 기술의 발전 방향과 사회적 영향에 대한 심도 깊은 대화를 나눕니다. 영상은 인공지능 기술이 가져올 긍정적인 변화뿐만 아니라 잠재적인 위험 요소에 대해서도 짚어보며, 인공지능 윤리와 규제에 대한 중요성을 강조합니다. 또한, 다양한 관점과 의견을 통해 인공지능 기술의 미래에 대한 시청자들의 이해를 돕고, 인공지능이 우리 사회에 미치는 영향에 대한 폭넓은 시각을 제공합니다. 마지막으로, 인공지능 기술 발전과 함께 우리가 준비해야 할 자세에 대한 질문을 던지며 마무리됩니다.",
+      "summary_en": "인공지능 어벤저스들 한자리에"
+    },
+    {
+      "title_en": "What is the future of intelligence? The answer could lie in the story of its evolution",
+      "url": "https://www.nature.com/articles/d41586-025-03857-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "지능의 미래는 무엇일까? 그 답은 진화 이야기에 있을 수 있다",
+      "summary_kr": "인공지능의 출현은 생명 역사 동안 더욱 복잡하고 상호 의존적인 유기체를 만들어낸 생물학적 과정의 최신 단계일 수 있다는 주장이 제기되었다. 이 기사는 지능의 진화 과정을 되짚어보며, 현재의 인공지능 기술이 단순히 인간의 창조물이 아니라, 자연의 광범위한 진화적 흐름의 일부일 가능성을 제시한다. 고도로 발전된 인공지능은 생태계 내에서 더욱 복잡한 상호작용과 협력을 촉진하며, 이는 과거 생명체들이 집단 지성을 통해 생존해온 방식과 유사하다. 따라서 지능의 미래를 이해하기 위해서는 생물학적 진화의 맥락 안에서 인공지능을 바라보는 것이 중요하며, 이는 기술 발전의 방향을 설정하는 데 중요한 통찰력을 제공할 수 있다. 또한, 인공지능의 발전은 인간과 기계 간의 공존 방식을 재정립하고, 새로운 형태의 사회적, 생태적 관계를 형성할 가능성을 내포하고 있다. 궁극적으로 이 기사는 인공지능을 독립적인 기술 영역으로만 보는 것이 아니라, 생명의 진화라는 더 큰 그림 속에서 이해해야 함을 강조한다.",
+      "summary_en": "Nature, Published online: 24 November 2025;doi:10.1038/d41586-025-03857-0The advent of artificial intelligence might be just the latest stage in a guiding biological process that has produced ever more complex, mutually dependent organisms over the history of life."
+    },
+    {
+      "title_en": "Daily briefing: Where pigeons get their sense of direction",
+      "url": "https://www.nature.com/articles/d41586-025-03873-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "데일리 브리핑: 비둘기는 어디에서 방향 감각을 얻는가",
+      "summary_kr": "최근 연구에 따르면 비둘기는 내이에서 미세한 전류를 감지하여 자기장을 감지한다고 합니다. 이 연구는 비둘기의 방향 감각에 대한 새로운 통찰력을 제공합니다. 또한, COP30의 마지막 몇 시간 동안 벌어진 긴장된 상황에 대한 소식도 다룹니다. 기후 변화 협상의 어려움과 복잡성을 엿볼 수 있습니다. 마지막으로, 배설물을 이용하여 과학 연구를 수행하는 연구자들을 소개합니다. 이들은 독특한 방식으로 환경 및 생태 연구에 기여하고 있습니다.",
+      "summary_en": "Nature, Published online: 21 November 2025;doi:10.1038/d41586-025-03873-0Pigeons sense magnetic fields by detecting tiny electrical currents in their inner ears, a study suggests. Plus, hear from the fraught final hours of COP30 and meet the researchers who do science with excrement."
+    },
+    {
+      "title_en": "Harnessing Artificial Intelligence to Fight Infectious Diseases",
+      "url": "https://www.the-scientist.com/harnessing-artificial-intelligence-to-fight-infectious-diseases-73711",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "인공지능을 활용하여 감염병과 싸우다",
+      "summary_kr": "세사르 데 라 푸엔테는 그의 팀이 인공지능을 사용하여 자연의 숨겨진 저장소에서 새로운 항생제를 발견하는 방법에 대해 이야기합니다. 전통적인 항생제 발견 방법은 한계에 부딪혔고, 항생제 내성 문제는 점점 심각해지고 있습니다. 이러한 문제에 대한 해결책으로, 데 라 푸엔테 연구팀은 인공지능과 머신러닝 기술을 활용하여 방대한 데이터를 분석하고 새로운 항생제 후보 물질을 예측합니다. 특히, 그들은 자연에서 유래한 펩타이드에 주목하고, 인공지능을 통해 펩타이드의 구조와 항균 활성 사이의 관계를 파악하여 새로운 항생제를 설계하고 있습니다. 이러한 접근 방식은 기존의 방법으로는 발견하기 어려웠던 새로운 항생제를 발굴하는 데 기여하며, 감염병 치료의 새로운 가능성을 제시합니다. 궁극적으로, 인공지능은 항생제 개발의 속도를 높이고, 인류가 감염병에 효과적으로 대응할 수 있도록 돕는 중요한 도구가 될 것입니다.",
+      "summary_en": "César de la Fuente shares how his team uses artificial intelligence to uncover novel antibiotics from nature’s hidden reservoirs."
+    },
+    {
+      "title_en": "What Happens When a Fly Lands on Your Food?",
+      "url": "https://www.the-scientist.com/what-happens-when-a-fly-lands-on-your-food-73707",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "파리가 음식에 앉으면 어떤 일이 벌어질까?",
+      "summary_kr": "파리는 질병을 일으키는 미생물을 옮기기 때문에 파리가 앉은 음식은 오염될 가능성이 높습니다. 파리는 다리와 몸 전체에 수백만 마리의 박테리아를 옮길 수 있으며, 심지어 음식을 뱉거나 배설할 수도 있습니다. 하지만 음식을 먹은 사람이 실제로 병에 걸릴지는 다양한 요인에 따라 달라집니다. 파리가 옮기는 미생물의 종류와 양, 음식의 종류, 그리고 섭취하는 사람의 면역력 등이 중요한 영향을 미칩니다. 파리가 앉은 시간을 최소화하고, 음식을 철저히 익혀 먹는 것이 질병 예방에 도움이 될 수 있습니다. 또한, 개인의 위생 관리도 중요하며, 면역력이 약한 사람들은 특히 주의해야 합니다.",
+      "summary_en": "Flies carrying disease-causing microbes will likely contaminate the food they touch, but different factors determine whether the person who eats it will get sick."
+    },
+    {
+      "title_en": "Gene-Edited Crops Grow Faster with a Little Help from Bacteria",
+      "url": "https://www.the-scientist.com/gene-edited-crops-grow-faster-with-a-little-help-from-bacteria-73708",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "유전자 편집 작물, 박테리아의 도움으로 더 빠르게 성장",
+      "summary_kr": "과학자들이 식물의 내장된 재생 능력을 활용하여 유전자 편집된 식물을 몇 달 대신 몇 주 만에 성장시키는 새로운 방법을 개발했습니다. 이 방법은 식물 생명공학 분야에 새로운 도구를 제공합니다. 기존의 식물 유전자 편집 방법은 시간과 노력이 많이 소요되었지만, 이 새로운 기술은 식물의 자연적인 재생 과정을 가속화하여 유전자 변형 과정을 획기적으로 단축시킵니다. 연구진은 특정 박테리아를 이용하여 식물의 조직 배양 과정에서 유전자 편집 효율성을 높이는 데 성공했습니다. 이 기술은 작물 개발 속도를 향상시킬 뿐만 아니라, 기후 변화와 질병에 대한 저항력을 가진 새로운 품종 개발에도 기여할 수 있을 것으로 기대됩니다. 따라서 식량 안보를 강화하고 지속 가능한 농업을 촉진하는 데 중요한 역할을 할 수 있습니다. 마지막으로, 이 혁신적인 접근 방식은 미래의 식물 연구 및 개발에 지대한 영향을 미칠 것으로 예상됩니다.",
+      "summary_en": "Scientists leveraged plants’ built-in regeneration capacity to grow modified plants in weeks instead of months, offering a novel tool in plant biotechnology."
+    },
+    {
+      "title_en": "Human Neural Organoid Research Needs Better Regulation",
+      "url": "https://www.the-scientist.com/human-neural-organoid-research-needs-better-regulation-73704",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "인간 신경 오가노이드 연구, 더 나은 규제 필요",
+      "summary_kr": "신경 오가노이드 연구의 빠른 속도에 발맞춰 법적, 윤리적 지침이 미흡한 상황입니다. 신경과학자와 생명윤리학자들은 이러한 문제점을 지적하며 변화를 요구하고 있습니다. 인간 신경 오가노이드는 인간 뇌의 특정 측면을 모방하여 신경 발달, 뇌 질환, 약물 테스트 연구에 혁신적인 가능성을 제시하지만, 동시에 의식 발생 가능성, 동물 실험 대체 가능성에 대한 윤리적 논쟁을 야기합니다. 현재 존재하는 규제는 이러한 새로운 기술의 잠재적 위험과 윤리적 딜레마를 충분히 다루지 못하고 있다는 비판이 있습니다. 따라서 연구자들은 더욱 투명하고 책임감 있는 연구 수행을 위해 명확한 가이드라인과 윤리적 프레임워크 개발을 촉구하고 있습니다. 또한, 오가노이드 연구가 사회에 미치는 영향에 대한 광범위한 공론화와 논의가 필요하다고 강조합니다. 궁극적으로, 신경 오가노이드 연구의 잠재력을 최대한 활용하면서 윤리적 문제를 해결하기 위한 다학제적 노력이 시급합니다.",
+      "summary_en": "Legal and ethical guidelines have struggled to keep up with the pace of neural organoid research. Concerned neuroscientists and bioethicists are calling for changes."
+    },
+    {
+      "title_en": "Reprogrammed Human Stomach Organoids Secrete Insulin",
+      "url": "https://www.the-scientist.com/reprogrammed-human-stomach-organoids-secrete-insulin-73706",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "재프로그래밍된 인간 위장 오가노이드, 인슐린 분비",
+      "summary_kr": "인슐린을 분비하도록 조작된 인간 위장 오가노이드를 당뇨병 쥐에 이식한 결과 고혈당증이 감소했습니다. 이는 제1형 당뇨병 치료의 새로운 가능성을 제시합니다. 연구진은 인간 위장 오가노이드를 특정 유전자를 사용하여 재프로그래밍하여 인슐린을 생성하도록 유도했습니다. 이 오가노이드들은 혈당 수치가 높아질 때 인슐린을 분비하는 능력을 보였습니다. 당뇨병 모델 쥐에 이 오가노이드를 이식한 결과, 혈당 수치가 현저하게 감소하는 것을 확인했습니다. 이는 손상된 췌장 기능을 대체할 수 있는 잠재적인 치료법을 제시하며, 제1형 당뇨병 환자들에게 새로운 희망을 줄 수 있습니다. 이 연구는 오가노이드 기술을 활용하여 당뇨병을 치료할 수 있는 혁신적인 접근 방식을 제시한다는 점에서 중요한 의미를 가집니다.",
+      "summary_en": "Transplanting human gastric organoids engineered to release insulin in diabetic mice reduced hyperglycemia, offering a therapeutic avenue for type 1 diabetes."
+    },
+    {
+      "title_en": "Abbott to replace certain FreeStyle Libre 3 CGMs after incorrect readings and death reports",
+      "url": "https://www.fiercebiotech.com/medtech/abbott-replace-certain-freestyle-libre-3-cgms-after-incorrect-readings-and-death-reports",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "애보트, 부정확한 측정 및 사망 보고 이후 특정 FreeStyle Libre 3 CGM 교체 예정",
+      "summary_kr": "애보트가 FreeStyle Libre 3 연속 혈당 측정기(CGM)의 부정확한 측정 및 관련 사망 보고로 인해 특정 제품을 교체할 예정입니다. 미국 내 단일 생산 라인에서 발생한 제조 결함이 약 3백만 개의 FreeStyle Libre 3 및 Libre 3 Plus 센서에 영향을 미쳤을 가능성이 있습니다. 해당 결함은 센서의 측정값을 부정확하게 만들어 환자의 건강에 심각한 위험을 초래할 수 있습니다. 애보트는 영향을 받은 제품을 식별하고 교체 프로그램을 진행하여 환자 안전을 확보할 계획입니다. 사용자들은 자신의 센서가 교체 대상인지 확인하고, 필요한 경우 애보트의 지침에 따라 조치를 취해야 합니다. 이번 사태는 의료기기 제조 과정에서 품질 관리의 중요성을 다시 한번 강조하며, 애보트는 재발 방지를 위해 생산 공정을 개선할 것으로 예상됩니다.",
+      "summary_en": "A manufacturing defect on a single production line may have affected about 3 million FreeStyle Libre 3 and Libre 3 Plus sensors in the U.S."
+    },
+    {
+      "title_en": "J&J's $5B Alzheimer's hope fades as anti-tau antibody posdinemab flops in phase 2",
+      "url": "https://www.fiercebiotech.com/biotech/jjs-5b-alzheimers-hope-fades-anti-tau-antibody-posdinemab-flops-phase-2",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "J&J의 50억 달러 알츠하이머 치료제 희망, 2상에서 posdinemab 실패로 희미해져",
+      "summary_kr": "존슨앤드존슨(J&J)이 연간 50억 달러 규모의 알츠하이머병 치료제 개발 시도가 2상 임상시험 실패로 인해 어려움을 겪게 되었습니다. 계획된 데이터 검토 결과, 항-타우 항체인 posdinemab이 임상적 악화를 유의미하게 늦추는 데 실패한 것으로 나타났습니다. 이에 J&J는 해당 임상시험을 중단하기로 결정했습니다. 이번 결과는 알츠하이머병 치료제 개발에 있어 또 다른 좌절을 의미하며, J&J의 알츠하이머 치료제 개발 전략에 상당한 영향을 미칠 것으로 예상됩니다. posdinemab은 알츠하이머병의 주요 원인 중 하나로 여겨지는 타우 단백질을 표적으로 하는 약물이었지만, 임상적 효능을 입증하는 데 실패했습니다. J&J는 이번 실패를 바탕으로 알츠하이머병 치료제 개발 전략을 재검토하고, 새로운 접근 방식을 모색할 것으로 보입니다. 이번 임상 중단은 주가에도 부정적인 영향을 미칠 수 있으며, 투자자들의 우려를 야기할 수 있습니다.",
+      "summary_en": "Johnson & Johnson’s attempt to develop a $5 billion-a-year Alzheimer’s disease drug has been rocked by a phase 2 flop. A scheduled data review found the anti-tau antibody posdinemab failed to significantly slow clinical decline, prompting J&J to stop the study."
+    },
+    {
+      "title_en": "Bayer's asundexian cuts stroke risk in phase 3, reviving hopes for FXIa class",
+      "url": "https://www.fiercebiotech.com/biotech/bayers-asundexian-cuts-stroke-risk-phase-3-reviving-hopes-fxia-class",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "바이엘 아순덱시안, 3상 임상에서 뇌졸중 위험 감소시켜 FXIa 계열에 대한 희망 되살려",
+      "summary_kr": "바이엘의 경구용 FXIa 억제제 아순덱시안이 3상 임상 시험에서 뇌졸중 위험을 상당히 감소시킨 것으로 나타났습니다. 이는 지난 2년간 여러 차례 좌절을 겪었던 블록버스터급 잠재력을 지닌 FXIa 기전에 활력을 불어넣는 결과입니다. 이번 임상 결과는 아순덱시안의 효능을 입증하며, 새로운 항응고 치료제 개발에 대한 기대감을 높이고 있습니다. 특히 기존 항응고제의 부작용을 줄이면서도 효과적인 뇌졸중 예방이 가능하다는 점에서 의미가 큽니다. 향후 추가 연구를 통해 아순덱시안의 안전성과 장기적인 효과를 확인하는 것이 중요하며, 뇌졸중 예방 치료 패러다임을 바꿀 수 있을지 주목됩니다. 바이엘은 이번 성공적인 임상 결과를 바탕으로 아순덱시안의 상용화를 추진할 것으로 예상됩니다.",
+      "summary_en": "Bayer’s oral FXIa inhibitor asundexian has significantly reduced the risk of stroke in a phase 3 trial, giving a boost to a potentially blockbuster mechanism that has suffered setbacks over the past two years."
+    },
+    {
+      "title_en": "Bayer’s stock rallies as next-gen blood thinner beats the odds with Phase 3 win",
+      "url": "https://endpoints.news/bayers-stock-rallies-as-next-gen-blood-thinner-beats-the-odds-with-phase-3-win/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "바이엘 주가 급등: 차세대 혈액 희석제, 3상 임상 성공으로 반전",
+      "summary_kr": "바이엘의 11a인자 억제제가 특정 환자를 대상으로 한 후기 임상 시험에서 재발성 뇌졸중 위험을 감소시키며, 잇따른 실패를 겪었던 약물 계열에 새로운 활력을 불어넣었습니다. 예상치 못한 성공은 항응고제 분야에 중요한 진전이며, 출혈 위험을 줄이면서도 효과적인 혈전 예방이 가능한 차세대 약물 개발에 대한 희망을 높입니다. 이번 임상 결과는 기존 치료제의 한계를 극복하고, 새로운 치료 옵션을 제공할 가능성을 시사합니다. 바이엘의 주가는 임상 성공 발표 이후 급등했으며, 투자자들은 혁신적인 약물 개발에 대한 기대감을 나타냈습니다. 이번 결과는 혈액 응고 경로에서 11a인자를 표적으로 하는 약물 개발에 대한 추가 연구를 촉진할 것으로 예상됩니다. 향후 연구를 통해 약물의 장기적인 효과와 안전성을 확인하는 것이 중요하며, 다양한 환자군에 대한 적용 가능성을 평가해야 할 것입니다.",
+      "summary_en": "Bayer’s factor XIa inhibitor slashed the risk of recurrent stroke in a late-stage trial in certain patients, breathing new life into a class of drugs that has suffered a string of high-profile failures.\n\n The unexpected ..."
+    },
+    {
+      "title_en": "Preconfigured neuronal firing sequences in human brain organoids",
+      "url": "https://www.nature.com/articles/s41593-025-02111-0",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "인간 뇌 오가노이드에서 사전 구성된 신경세포 발화 시퀀스",
+      "summary_kr": "인간 뇌 오가노이드와 생체 외 신생 쥐 뇌 피질 슬라이스 연구를 통해 감각 입력과 독립적으로 구조화된 신경세포 시퀀스가 나타나는 것을 확인했습니다. 이는 뇌 오가노이드가 신경 회로 조립 모델로서의 잠재력을 보여줍니다. 구체적으로, 오가노이드 내 신경세포들이 특정 순서대로 발화하는 패턴이 감각 자극 없이도 자발적으로 형성된다는 것을 밝혀냈습니다. 이러한 발견은 뇌 발달 초기에 신경 회로가 어떻게 자체적으로 구성되는지에 대한 이해를 높이는 데 기여합니다. 또한, 뇌 오가노이드가 인간 뇌 발달 연구에 유용한 도구임을 시사하며, 신경 발달 장애 연구에도 활용될 수 있을 것으로 기대됩니다. 이번 연구는 뇌 오가노이드가 실제 뇌의 복잡한 기능을 모방할 수 있는 가능성을 제시하며, 미래 뇌 질환 연구에 새로운 지평을 열 것으로 전망됩니다.",
+      "summary_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02111-0Examining human brain organoids and ex vivo neonatal murine cortical slices demonstrates that structured neuronal sequences emerge independently of sensory input, highlighting the potential of brain organoids as a model for neuronal circuit assembly."
+    },
+    {
+      "title_en": "A mouse brain atlas based on dendritic microenvironments",
+      "url": "https://www.nature.com/articles/s41593-025-02119-6",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "수상돌기 미세 환경 기반 마우스 뇌 지도",
+      "summary_kr": "연구진은 101,136개 뉴런의 국소 수상돌기 형태 패턴을 이용하여 마우스 뇌 지도를 개발했습니다. 이 지도는 기존 뇌 지도보다 해부학적 정확도를 향상시킬 뿐만 아니라 국소 수상돌기 구조와 장거리 신경 돌기 사이의 연관성을 밝혀냅니다. 기존 뇌 지도가 전체 뉴런의 형태적 특징에 의존한 반면, 이 새로운 지도는 수상돌기의 미세 환경에 초점을 맞추어 뇌 영역을 더욱 세밀하게 구분하고 각 영역 내 뉴런의 연결 패턴을 더 정확하게 파악할 수 있도록 했습니다. 특히, 연구진은 특정 수상돌기 형태가 특정 뇌 영역으로의 장거리 투사와 밀접하게 관련되어 있음을 발견했으며, 이는 뇌 기능과 구조 사이의 관계를 이해하는 데 중요한 단서를 제공합니다. 이 연구는 뇌 질환 연구 및 인공지능 개발에도 기여할 수 있을 것으로 기대됩니다. 향후 연구에서는 이 지도를 활용하여 다양한 뇌 질환 모델에서 나타나는 수상돌기 형태의 변화를 분석하고, 이를 통해 질병의 메커니즘을 밝히는 데 활용할 수 있을 것입니다.",
+      "summary_en": "Nature Neuroscience, Published online: 24 November 2025;doi:10.1038/s41593-025-02119-6The authors developed a mouse brain atlas using local dendritic morphological patterns from 101,136 neurons. This representation not only improves anatomical precision but also uncovers associations between local dendritic architecture and long-range neuronal projections."
+    },
+    {
+      "title_en": "A therapeutic peptide vaccine for fibrolamellar hepatocellular carcinoma: a phase 1 trial",
+      "url": "https://www.nature.com/articles/s41591-025-03995-y",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "섬유판상 간세포암종 치료 펩타이드 백신: 1상 임상시험",
+      "summary_kr": "섬유판상 간세포암종 환자를 대상으로 질병의 주요 원인인 DNAJB1-PRKACA 융합 키나아제를 표적으로 하는 치료 펩타이드 백신과 니볼루맙 및 이필리무맙 병용 투여의 안전성과 예비 임상 반응을 평가하는 1상 임상시험이 진행되었습니다. 연구 결과, 해당 치료법은 안전했으며 고무적인 초기 임상 반응을 보였습니다. 또한, 중개 연구 분석 결과 면역 반응 활성화가 확인되었습니다. 이는 섬유판상 간세포암종에 대한 새로운 면역 치료 전략으로서 펩타이드 백신의 가능성을 시사합니다. 이번 임상시험은 향후 섬유판상 간세포암종 치료법 개발에 중요한 기반을 제공할 것으로 기대됩니다. 특히, 기존 치료법에 반응하지 않는 환자들에게 새로운 희망을 제시할 수 있을 것입니다. 더 나아가, 면역 반응 활성화 메커니즘에 대한 심층적인 이해는 맞춤형 치료 전략 개발로 이어질 수 있습니다.",
+      "summary_en": "Nature Medicine, Published online: 24 November 2025;doi:10.1038/s41591-025-03995-yIn this phase 1 trial, treatment of patients with fibrolamellar hepatocellular carcinoma with a therapeutic peptide vaccine targeting the fusion kinase DNAJB1–PRKACA, which is the driver of the disease, together with nivolumab and ipilimumab, was safe and led to encouraging preliminary clinical responses, and translational analysis showed activation of immune responses."
+    },
+    {
+      "title_en": "Subretinal Photovoltaic Implant to Restore Vision in Geographic Atrophy Due to AMD",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2501396?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "AMD로 인한 지도 모양 위축 환자의 시력 회복을 위한 망막하 광전 임플란트",
+      "summary_kr": "본 연구는 연령 관련 황반변성(AMD)으로 인한 지도 모양 위축(geographic atrophy) 환자의 시력 회복을 위해 개발된 망막하 광전 임플란트의 효과를 평가합니다. 이 임플란트는 손상된 광수용체를 대체하여 빛 에너지를 신경 신호로 변환, 시각 경로를 자극하는 방식으로 작동합니다. 임상 시험 결과, 임플란트를 받은 환자들은 시력 개선을 보였으며, 특히 특정 시각 기능 평가에서 유의미한 향상을 나타냈습니다. 연구진은 이 광전 임플란트가 AMD로 인해 시력을 잃은 환자들에게 새로운 희망을 제시할 수 있다고 결론지었습니다. 다만, 장기적인 효과와 안전성을 확인하기 위한 추가 연구가 필요하며, 환자 선택 기준 및 최적의 임플란트 기술 개발에 대한 지속적인 연구가 요구됩니다. 이 연구는 New England Journal of Medicine에 게재될 예정입니다.",
+      "summary_en": "New England Journal of Medicine, Ahead of Print."
+    },
+    {
+      "title_en": "An Evidence-Based Approach to Covid-19 Vaccination",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2507760?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-24",
+      "image_url": null,
+      "title": "코로나19 백신 접종에 대한 증거 기반 접근 방식",
+      "summary_kr": "본 논문은 뉴잉글랜드 의학 저널에 게재 예정인 코로나19 백신 접종에 대한 증거 기반 접근 방식을 다룬다. 코로나19 백신 접종 전략은 과학적 증거에 기반하여 수립되어야 하며, 백신의 효능, 안전성, 그리고 백신 공급량과 같은 요소를 고려해야 한다. 백신 접종 우선순위는 감염 위험이 높거나 중증으로 진행될 위험이 높은 사람들에게 먼저 부여되어야 한다. 또한, 백신 접종 캠페인은 백신에 대한 신뢰를 구축하고 오해를 해소하기 위해 투명하고 효과적인 의사 소통 전략을 포함해야 한다. 백신 접종 후에도 마스크 착용, 사회적 거리두기 등 비약물적 중재를 지속하는 것이 중요하며, 새로운 변이 바이러스의 출현에 대한 지속적인 감시가 필요하다. 마지막으로, 백신 접종 효과를 극대화하고 공평한 접근성을 보장하기 위해서는 국제적인 협력이 필수적이다.",
       "summary_en": "New England Journal of Medicine, Ahead of Print."
     },
     {
@@ -5062,6 +6599,17 @@
       "summary_en": "An attorney for the nation’s three major pharmacy benefit managers told a federal appeals court on Wednesday that the companies would “unquestionably” be harmed if FTC proceedings against them are allowed to continue.\n\n Express Scripts ..."
     },
     {
+      "title_en": "실패를 통과하는 일 (박소령 퍼블리 창업자)",
+      "url": "https://www.youtube.com/watch?v=011Xq8qEwOs",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-19",
+      "image_url": "https://i1.ytimg.com/vi/011Xq8qEwOs/hqdefault.jpg",
+      "title": "실패를 통과하는 일 (박소령 퍼블리 창업자)",
+      "summary_kr": "해당 영상은 박소령 퍼블리 창업자가 실패를 어떻게 극복하고 성장했는지에 대한 내용을 다룹니다. 창업 과정에서 겪는 다양한 어려움과 예상치 못한 문제들에 대한 솔직한 경험담을 공유하며, 실패를 단순히 좌절의 순간으로 여기지 않고 배우고 성장하는 기회로 삼는 중요성을 강조합니다. 박소령 창업자는 실패를 통해 얻은 교훈과 통찰력을 바탕으로 퍼블리를 성공적으로 이끌 수 있었던 비결을 설명합니다. 또한, 실패에 대한 두려움을 극복하고 도전을 지속할 수 있도록 청취자들에게 용기와 영감을 불어넣습니다. 이 영상은 창업을 준비하거나 어려움을 겪고 있는 사람들에게 실질적인 도움과 위로를 제공하며, 긍정적인 마음으로 실패를 마주하고 앞으로 나아갈 수 있도록 격려합니다.",
+      "summary_en": "실패를 통과하는 일 (박소령 퍼블리 창업자)"
+    },
+    {
       "title_en": "Role of maternal factors in autism; and more",
       "url": "https://www.thetransmitter.org/spectrum/materinal-factors-autism-spotted-research/",
       "source": "The Transmitter",
@@ -6173,114 +7721,15 @@
       "summary_en": "Government can't use funding threats to override the First Amendment."
     },
     {
-      "title_en": "떡잎부터 달랐던 샘알트먼",
-      "url": "https://www.youtube.com/watch?v=HjtKS6ISiTI",
+      "title_en": "안두릴 창업자 1:1 인터뷰 (팔마 럭키)",
+      "url": "https://www.youtube.com/watch?v=V0VNfdFAm4o",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2025-11-15",
-      "image_url": "https://i1.ytimg.com/vi/HjtKS6ISiTI/hqhqdefault.jpg",
-      "title": "샘 알트먼: 떡잎부터 남달랐던 Y-Combinator의 혁신 리더",
-      "summary_kr": "샘 알트먼은 Y-Combinator의 대표로서 약 2년 반 동안 실리콘밸리 창업가들의 핵심 조언자 역할을 수행해왔습니다. 19세에 스탠퍼드를 중퇴하고 회사를 설립하여 Y-Combinator 1기 배치에 합류했던 그는, Y-Combinator의 비전을 '세계에서 가장 많은 혁신을 가능하게 하는 조직'으로 정의했습니다. YC는 수익 창출을 통해 기술 발전을 가능하게 하며, 당장 돈이 되지 않더라도 중요한 기술(AI, 기본 소득 연구, 합성 생물학 등)에 투자하는 YC 리서치와 비영리 단체 지원도 병행합니다. 그는 혁신이 미래 경제 성장의 핵심이며, 혁신 속도를 높이지 못하면 국가가 어려움에 처할 것이라고 강조했습니다. 알트먼의 지휘 아래 YC는 첨단 과학 기업 투자(자율주행 회사 크루즈 등), 성장 펀드 조성, 연간 1만 개 회사 지원을 목표로 하는 'YC 펠로우십' 프로그램을 도입했습니다. 스타트업에 대한 핵심 교훈으로 그는 '사람들이 사랑하는 것을 만들라'고 조언하며, 소수의 사용자라도 제품에 강한 애착을 갖게 하여 열렬한 전도사로 만드는 것이 중요하다고 역설했습니다. 또한, 스타트업에서 '추진력(momentum)이 전부'라며, 추진력을 잃으면 회복이 매우 어렵고 끊임없이 성장하는 것이 성공의 비결이라고 강조했습니다. 창업가들이 흔히 저지르는 실수로는 인재 채용에는 열성적이나 인재 유지에는 소홀한 점을 꼽았습니다. 그는 최고의 인재 5~10명은 CEO와의 시간을 가장 갈망하며, 새로운 임무를 부여하며 지속적으로 성장 기회를 제공해야 한다고 역설했습니다. 보상에 대한 선제적인 재조정 역시 중요하다고 덧붙였습니다. 또한, 위임에 있어서 사업의 가장 중요한 핵심 부분을 직접 챙기고 나머지 부분을 효과적으로 위임하는 지혜가 필요하다고 조언했습니다. 자금 조달과 관련해서는 다음 라운드에서 가치를 뛰어넘을 수 없게 만드는 지나친 고평가나 다음 투자 라운드를 시작하기 3개월 전에 자금이 바닥나는 계획을 피하라고 경고했습니다. 그는 투자자와의 관계를 중요하게 여기며, 새로운 투자자를 영입할 때는 VP를 고용할 때만큼 신중해야 한다고 강조했습니다. 잠재적 투자자와 충분한 시간을 보내며 서로를 알아가는 것이 매우 중요하다고 덧붙였습니다. 알트먼은 AI를 최소한 '다음 컴퓨팅 플랫폼'이자 '다음 생명체'로 보며, 인류 역사상 농업 혁명이나 산업 혁명과 비견될 만한 변화를 가져올 것으로 예측했습니다. 그는 AI가 널리 보급되어 인류 전체의 신피질을 위해 봉사하는 에이전트가 되기를 희망하며, 개인의 오용 가능성에도 불구하고 집단적인 힘으로 상황을 개선할 수 있다고 낙관했습니다. YC의 창업가 선발 기준은 '지능'과 '집요함(결단력)'이며, 이들을 10분 내에 파악하여 잠재적인 마크 저커버그를 발굴하는 데 집중한다고 밝혔습니다.",
-      "summary_en": "YC 대표 시절의 샘알트먼 영상입니다. 지금 그가 하는 사업이 어떤 방향 향하는 지 알 수 있습니다. 그는 거진 10년 전에도 비슷한 그림 그렸었네요.\n\n\"디즈니는 돈 벌어서 더 좋은 영화 많이 만든다. 우리는 돈 벌어서 더 좋은 기술 많이 가진 회사 만들고 싶다. 지금은 그게 구글일 것 같은데, 나중엔 우리가 될 거다.\" 지금은 회사는 바뀌었지만, 그 비전은 그대로인 것 같아요. \n\n길지만 볼 가치가 있습니다. 숏폼도 물론 좋지만, 이런 영상에서만 나오는 깊이감은 숏폼이 따라가기 힘든듯 합니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
-    },
-    {
-      "title_en": "The leaders we have lost",
-      "url": "https://www.thetransmitter.org/community/the-leaders-we-have-lost/",
-      "source": "The Transmitter",
-      "category": "Neuroscience",
-      "date": "2025-11-15",
-      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/11/cropped-525-state-of-neuroscience-2025-obits.png",
-      "title": "우리가 기리는 뇌과학계의 거장들",
-      "summary_kr": "과학 전문 기자로서, 우리는 인류의 지식 발전에 지대한 공헌을 한 뇌과학계의 위대한 리더들을 기리고자 합니다. 특히 2023년부터 2025년 사이에 우리 곁을 떠난 저명한 뇌과학자들의 삶과 업적에 주목합니다. 이들은 각자의 분야에서 혁신적인 연구를 수행하며 뇌 기능과 질병에 대한 우리의 이해를 심화하는 데 결정적인 역할을 했습니다. 본 기사에서는 이들의 학문적 여정, 주요 발견들, 그리고 수많은 후학들에게 영감을 주었던 리더십을 상세히 조명합니다. 그들이 남긴 불멸의 유산은 오늘날 뇌과학 연구의 중요한 토대가 되어 미래 세대에게 지속적으로 영향을 미치고 있습니다. 우리는 이들의 헌신과 열정을 기억하며, 그들이 인류에게 선사한 지적 유산에 깊은 경의를 표합니다.",
-      "summary_en": "Learn more about the lives and legacies of the neuroscientists who passed away between 2023 and 2025."
-    },
-    {
-      "title_en": "Wyoming dinosaur mummies give us a new view of duck-billed species",
-      "url": "https://arstechnica.com/science/2025/11/wyoming-dinosaur-mummies-give-us-a-new-view-of-duck-billed-species/",
-      "source": "Ars Technica",
-      "category": "News",
-      "date": "2025-11-15",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/Sereno-adw3536-image-3-500x500.jpg",
-      "title": "와이오밍 공룡 미라 발견, 오리주둥이 공룡 종에 대한 '새로운 시각' 제공",
-      "summary_kr": "미국 와이오밍주에서 놀라울 정도로 잘 보존된 공룡 화석들이 발견되어 학계의 이목을 집중시키고 있습니다. 특히 이 화석들은 단순한 뼈대뿐만 아니라 피부 조직과 같은 연조직까지 미라 형태로 완벽하게 보존되어 있어, 고생물학자들에게 귀중한 연구 자료를 제공합니다. 이 공룡들은 백악기 후기에 번성했던 오리주둥이 공룡, 즉 하드로사우루스류로 추정됩니다. 한정된 단일 발굴지에서 이처럼 뛰어난 보존 상태의 화석들이 대량으로 발견되었다는 점은 해당 종의 생태와 서식 환경을 이해하는 데 결정적인 단서가 될 수 있습니다. 이를 통해 과학자들은 오리주둥이 공룡의 피부 질감, 근육 구조, 심지어는 몸의 색깔이나 질병의 흔적까지도 탐색하여, 이 고대 생명체의 실제 모습과 생활 방식에 대한 기존의 학설을 보완하거나 재정립할 수 있을 것으로 기대하고 있습니다. 이번 발견은 공룡 연구의 지평을 넓히고, 잃어버린 고대 생태계의 퍼즐을 맞추는 데 중요한 기여를 할 것으로 전망됩니다.",
-      "summary_en": "Exquisitely preserved fossils come from a single site in Wyoming."
-    },
-    {
-      "title_en": "An Invasive Disease-Carrying Mosquito Has Spread to the Rocky Mountains",
-      "url": "https://www.wired.com/story/a-disease-carrying-mosquito-has-landed-in-the-rocky-mountains-where-it-historically-couldnt-survive/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-15",
-      "image_url": "https://media.wired.com/photos/69175b626ac002ea9e219544/master/pass/IC-Point-Mosquito-cropped-in.jpg",
-      "title": "질병 매개 침입 모기, 로키 산맥까지 확산: 서부 콜로라도서 번성 확인",
-      "summary_kr": "이집트숲모기(Aedes aegypti)는 뎅기열, 황열, 지카 바이러스 등 인체에 치명적인 질병을 매개하는 것으로 잘 알려져 있습니다. 이 모기종은 주로 덥고 습한 열대 및 아열대 기후에 의존하여 서식하기 때문에, 건조하고 비교적 서늘한 미국 서부 산악 지대(Mountain West)에서는 생존하기 어려울 것이라는 인식이 일반적이었습니다. 하지만 최근 이와 같은 예상을 뒤엎는 충격적인 연구 결과가 발표되었습니다. 콜로라도주 서부 지역에서 이 이집트숲모기 개체군이 성공적으로 정착하여 활발히 번식하고 있는 것이 확인된 것입니다. 이는 이 침입성 모기가 기존에 알려진 서식 가능 범위를 넘어 새로운 환경에 적응하고 있다는 강력한 증거이며, 해당 지역의 공중 보건에 심각한 위협을 제기합니다. 전문가들은 기후 변화 등의 요인으로 인해 모기의 서식지가 확장되었을 가능성을 제기하며, 로키 산맥을 포함한 서부 지역에서 뎅기열 등 모기 매개 질병의 발병 위험이 증가할 것에 대한 철저한 감시와 방역 대책 마련을 촉구하고 있습니다.",
-      "summary_en": "The Aedes aegypti mosquito that can carry dengue, yellow fever, and Zika was thought to be too reliant on a hot and wet climate to survive in the Mountain West. But now, a population is thriving in Western Colorado."
-    },
-    {
-      "title_en": "British Churches Are Putting Their Faith in Heat Pumps",
-      "url": "https://www.wired.com/story/let-there-be-warmth-the-british-churches-putting-their-faith-in-heat-pumps/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-13",
-      "image_url": "https://media.wired.com/photos/6915d3e5f9aae68cc86f824f/master/pass/GettyImages-1499035624.jpg",
-      "title": "영국 교회들, 히트 펌프 도입으로 친환경 난방 전환 박차",
-      "summary_kr": "영국의 유서 깊은 교회들이 현대적인 난방 시스템으로의 전환을 적극적으로 추진하고 있습니다. 특히, 친환경 에너지 솔루션인 히트 펌프 도입에 큰 관심을 보이며 이를 실제 설치하고 있습니다. 수백 년 된 고대 건축물이라는 특성과 그 안에 보존된 역사적 유물, 심지어는 오래된 묘지 같은 민감한 요소들 역시 이러한 전환의 장애물이 되지 못하고 있습니다. 이는 일반적으로 오래된 건물의 구조적 복잡성과 문화재 보존 문제로 인해 새로운 기술 도입이 어렵다고 여겨지는 통념을 깨는 사례입니다. 영국 교회들은 탄소 배출량 감소와 에너지 효율 증대라는 환경적 목표를 달성하기 위해 강력한 의지를 보여주고 있습니다. 이처럼 전통과 현대 기술이 성공적으로 융합하며, 지속 가능한 미래를 향한 의미 있는 진전을 이루고 있는 것으로 평가됩니다.",
-      "summary_en": "Ancient buildings and old bones aren’t getting in the way of the transition."
-    },
-    {
-      "title_en": "If the US Has to Build Data Centers, Here’s Where They Should Go",
-      "url": "https://www.wired.com/story/heres-where-to-build-data-centers-to-keep-emissions-down/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-10",
-      "image_url": "https://media.wired.com/photos/690e21720411b280f23a3634/master/pass/GettyImages-2151760728%20(1)%20(online-video-cutter.com).gif",
-      "title": "미국 데이터 센터 건설, '여기가 최적지': AI 환경 발자국 최소화를 위한 제언",
-      "summary_kr": "최근 발표된 새로운 분석 결과가 미국 내 인공지능(AI) 기술 확장이 초래할 잠재적 환경적 발자국에 대한 경고를 내놓았습니다. 이 연구는 급증하는 AI 데이터 수요를 충족시키기 위해 건설될 데이터 센터들이 가져올 막대한 에너지 소비량과 수자원 사용량을 면밀히 계산했습니다. 특히, 이 분석은 현재 미국에서 데이터 센터가 건설되고 있는 방식과 위치가 환경적으로 가장 효율적인 선택이 아니라는 중요한 결론을 도출했습니다. 연구팀은 데이터 센터 건설 시 전력 효율성, 냉각수 확보 용이성, 재생에너지 공급원과의 근접성 등을 종합적으로 고려하여 환경 부담을 최소화할 수 있는 '최적의 입지'가 따로 있음을 강조했습니다. 하지만 실제 건설 현장은 이러한 환경적 요인보다 경제적 또는 지리적 편의성에 치우쳐 있어, AI 발전이 야기할 환경 문제를 가중시킬 수 있다는 우려를 표명했습니다. 이번 분석은 지속 가능한 AI 생태계 구축을 위해 데이터 센터 건설 계획 단계부터 환경적 영향을 최우선으로 고려해야 한다는 중요한 메시지를 던지고 있습니다.",
-      "summary_en": "A new analysis tries to calculate the coming environmental footprint of AI in the US and finds that the ideal sites for data centers aren’t where they’re being built."
-    },
-    {
-      "title_en": "The First Radio Signal From Comet 3I/Atlas Ends the Debate About Its Nature",
-      "url": "https://www.wired.com/story/the-first-radio-signal-from-comet-3i-atlas-ends-debate-about-its-nature/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-10",
-      "image_url": "https://media.wired.com/photos/6911ec0ab8482e32df98ab92/master/pass/3IAtlas.jpg",
-      "title": "혜성 3I/아틀라스의 첫 전파 신호 포착, 그 본질을 둘러싼 논쟁에 종지부를 찍다",
-      "summary_kr": "최근 한 천문대가 성간 객체 '3I/아틀라스'로부터 최초의 전파 신호를 성공적으로 감지하는 데 성공했습니다. 이 역사적인 발견은 그동안 3I/아틀라스의 정확한 정체와 기원에 대해 뜨겁게 이어져 온 과학계의 논쟁에 중요한 전환점을 제공하고 있습니다. 3I/아틀라스는 우리 태양계를 방문한 몇 안 되는 성간 객체 중 하나로, 과연 혜성인지 아니면 소행성인지 등 그 본질을 놓고 많은 추측이 제기되어 왔습니다. 이번에 감지된 전파 신호는 이 객체의 구성 성분이나 활동 양상에 대한 결정적인 단서를 제공하며, 특히 혜성 특유의 휘발성 물질 방출 여부를 밝히는 데 기여할 것으로 기대됩니다. 연구진은 이 데이터를 통해 3I/아틀라스가 얼음과 먼지로 이루어진 진정한 의미의 혜성인지, 혹은 예상치 못한 다른 특징을 가진 성간 방문객인지를 최종적으로 규명할 수 있을 것으로 보고 있습니다. 이 중대한 발견은 성간 객체 연구의 새로운 장을 열었으며, 외계 태양계의 물질 구성과 진화에 대한 귀중한 통찰을 제공할 것입니다.",
-      "summary_en": "An observatory detected the first radio signal from the interstellar object 3I/Atlas. Here’s what it means."
-    },
-    {
-      "title_en": "The Mysterious Math Behind the Brazilian Butt Lift",
-      "url": "https://www.wired.com/story/book-excerpt-replaceable-you-mary-roach-butt-implants/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-10",
-      "image_url": "https://media.wired.com/photos/68dc602f81809bc453717080/master/pass/Book-Excerpt--Mysterious-Math-Behind--Brazilian-Butt-Lift-Science.jpg",
-      "title": "브라질리언 엉덩이 리프트(BBL)에 얽힌 신비로운 수학",
-      "summary_kr": "미용 성형 분야에서 아름다운 엉덩이 라인에 대한 기준은 끊임없이 변화해왔습니다. 특히, 오랜 기간 동안 성형외과 의사들은 이상적인 엉덩이의 비율이 자연의 황금비율과 밀접한 관련이 있는 피보나치 수열을 따라야 한다고 여겼습니다. 이러한 수학적 원리는 균형 잡히고 조화로운 실루엣을 만드는 데 중요한 지침이 되었습니다. 그러나 최근 몇 년 사이, 대중의 미적 선호도는 새로운 방향으로 진화하고 있습니다. 이제는 피보나치 수열과 같은 전통적인 수학적 기준보다는 킴 카다시안과 같은 유명인의 영향을 받은, 더욱 볼륨감 있고 독특한 형태의 엉덩이 라인을 선호하는 경향이 뚜렷해졌습니다. 이는 미의 기준이 수학적 원리에서 대중문화적 트렌드로 변화하고 있음을 시사하며, 성형수술의 접근 방식 또한 이에 맞춰 변화하고 있음을 보여줍니다.",
-      "summary_en": "For years, plastic surgeons thought the proportions of a beautiful buttocks should follow the Fibonacci sequence. Now, people are looking for a more Kardashian shape."
-    },
-    {
-      "title_en": "The Hidden Math of Ocean Waves",
-      "url": "https://www.wired.com/story/the-hidden-math-of-ocean-waves-crashes-into-view/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-09",
-      "image_url": "https://media.wired.com/photos/690c8ed4d1798ffae98fef8e/master/pass/WhatIsAWave-crKristinaArmitage_SomavarapuMadhavi_Shutterstock-Lede-scaled.jpeg",
-      "title": "바다 파도에 숨겨진 수학적 비밀",
-      "summary_kr": "해양 파도는 겉보기에는 단순해 보일지라도, 그 움직임을 지배하는 수학적 원리는 매우 복잡하고 난해하기로 악명이 높습니다. 가장 기본적인 파도조차 정확하게 모델링하고 예측하는 것이 수많은 과학자들에게 오랜 도전 과제였습니다. 그러나 최근 이탈리아의 한 수학자 연구팀이 이러한 풀리지 않던 파도 수학의 베일을 벗기는 데 중요한 진전을 이루었다는 소식입니다. 이들의 획기적인 연구는 수십 년간 물리학자와 수학자들을 괴롭혀 온 문제에 새로운 시각과 해결의 실마리를 제공합니다. 이러한 발견은 해양 예측 모델의 정확도를 비약적으로 향상시키고, 해양 공학, 기후 모델링, 그리고 에너지 연구 등 다양한 과학 분야에 광범위한 영향을 미칠 것으로 기대됩니다. 이탈리아 연구팀의 이번 성과는 자연계의 가장 강력하면서도 예측 불가능한 현상 중 하나인 파도의 신비를 이해하는 데 있어 중대한 이정표가 될 것입니다.",
-      "summary_en": "The math behind even the simplest ocean waves is notoriously uncooperative. A team of Italian mathematicians has made major advances toward understanding it."
-    },
-    {
-      "title_en": "A Gene-Editing Therapy Cut Cholesterol Levels by Half",
-      "url": "https://www.wired.com/story/a-gene-editing-therapy-cut-cholesterol-levels-by-half/",
-      "source": "Wired",
-      "category": "News",
-      "date": "2025-11-08",
-      "image_url": "https://media.wired.com/photos/690e3becdf3f2e249e6c4f14/master/pass/sci-crispr-heart-1474771239.jpg",
-      "title": "유전자 편집 치료, 콜레스테롤 수치 절반으로 낮춰",
-      "summary_kr": "크리스퍼 테라퓨틱스(Crispr Therapeutics)가 개발한 한 실험적인 유전자 편집 치료법이 심장 질환 치료에 있어 놀라운 가능성을 보여주고 있습니다. 이 혁신적인 치료법은 환자의 혈중 콜레스테롤 수치를 절반 가까이 감소시키는 인상적인 효과를 나타냈습니다. 높은 콜레스테롤 수치는 심장마비와 뇌졸중을 포함한 주요 심혈관 질환의 핵심 위험 요소로 알려져 있어, 이러한 결과는 의학계의 큰 기대를 모으고 있습니다. 유전자 편집 기술을 활용하여 질병의 근본 원인을 해결하려는 이번 시도는, 기존 약물 치료에 한계를 느끼던 환자들에게 새로운 희망을 제시할 수 있습니다. 아직은 연구 초기 단계이지만, 향후 추가적인 임상 연구를 통해 안전성과 효능이 최종 입증된다면 만성 심장 질환 관리에 획기적인 변화를 가져올 것으로 전망됩니다.",
-      "summary_en": "An experimental gene-editing therapy developed by Crispr Therapeutics is showing promise for treating heart disease."
+      "date": "2025-11-16",
+      "image_url": "https://i3.ytimg.com/vi/V0VNfdFAm4o/hqdefault.jpg",
+      "title": "안두릴 창업자 팔마 럭키 1:1 인터뷰",
+      "summary_kr": "본 영상은 안두릴의 창업자인 팔마 럭키와의 1:1 인터뷰를 담고 있습니다. 인터뷰에서는 팔마 럭키가 안두릴을 창업하게 된 계기와 과정, 그리고 안두릴이 추구하는 가치와 미래 비전에 대해 심도 깊은 이야기를 나눕니다. 팔마 럭키는 창업 초기 겪었던 어려움과 이를 극복하기 위한 노력들을 상세히 설명하며, 혁신적인 아이디어를 현실로 만들기 위한 중요한 요소들을 강조합니다. 또한, 안두릴의 기술 발전 방향과 시장 경쟁 환경에 대한 분석을 통해 앞으로의 성장 가능성을 제시합니다. 팔마 럭키의 경험과 통찰력은 스타트업 창업을 꿈꾸는 이들에게 귀중한 지침이 될 것입니다.",
+      "summary_en": "안두릴 창업자 1:1 인터뷰 (팔마 럭키)"
     }
   ]
 }
