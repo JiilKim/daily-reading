@@ -1,61 +1,78 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-일일 과학 뉴스 크롤러 (개선판)
-- 팔로알토 시간 기준
-- API 에러 시 재시도 큐 관리
-- 8일 이상 된 좀비 기사 원천 차단
-- 상세 로그 기록 및 웹 표시 지원
+일일 과학 뉴스 크롤러 (최종 수정판)
+- ZoneInfo를 통한 정확한 Palo Alto 시간 적용
+- AI 응답(List/Dict) 유연한 처리 (에러 방지)
+- API 및 네트워크 에러에 대한 강한 내성 및 로깅
 """
 
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
 import feedparser
 import time
 import os
 from google import genai
 from google.genai import types
-from urllib.parse import urljoin
 import sys
-from youtube_transcript_api import YouTubeTranscriptApi
 import re
+# 타임존 처리를 위한 라이브러리 (Python 3.9+)
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    # 구버전 파이썬 대비 (GitHub Actions는 보통 최신임)
+    from datetime import timezone, timedelta
+    class ZoneInfo:
+        def __init__(self, key): pass
+        def utcoffset(self, dt): return timedelta(hours=-8)
+        def tzname(self, dt): return "PST"
+        def dst(self, dt): return timedelta(0)
 
 # ============================================================================
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 8000 # API 할당량
+MAX_NEW_ARTICLES_PER_RUN = 8000
 ARCHIVE_DAYS = 7
-API_DELAY_SECONDS = 1
+API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
 
-# 팔로알토 시간대 설정 (UTC-8)
-PALO_ALTO_TZ = timezone(timedelta(hours=-8))
+# 팔로알토 시간대 (썸머타임 자동 적용)
+try:
+    PALO_ALTO_TZ = ZoneInfo("America/Los_Angeles")
+except:
+    PALO_ALTO_TZ = timezone(timedelta(hours=-8)) # fallback
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-    'Accept': 'application/xml,application/rss+xml,text/xml;q=0.9,*/*;q=0.5',
-    'Accept-Language': 'en-US,en;q=0.9,ko;q=0.8',
-    'Cache-Control': 'no-cache',
+    'Accept': 'application/xml,application/rss+xml,text/xml;q=0.9,*/*;q=0.5'
 }
 
-# 로그 저장용 리스트
+# 실행 로그 전역 변수
 execution_logs = []
 
 def log(message, level="INFO"):
     """로그를 기록하고 출력합니다."""
-    timestamp = datetime.now(PALO_ALTO_TZ).strftime('%H:%M:%S')
-    log_entry = f"[{timestamp}] [{level}] {message}"
-    print(log_entry)
-    execution_logs.append({"time": timestamp, "level": level, "message": message})
+    now = datetime.now(PALO_ALTO_TZ)
+    timestamp = now.strftime('%H:%M:%S')
+    
+    # 콘솔 출력 (GitHub Actions 로그용)
+    print(f"[{timestamp}] [{level}] {message}")
+    
+    # 파일 저장용 로그 (웹 표시용)
+    execution_logs.append({
+        "time": timestamp,
+        "level": level,
+        "message": message
+    })
 
 # ============================================================================
 # AI 번역 및 요약
 # ============================================================================
 
 def clean_json_text(text):
-    """JSON 응답 텍스트에서 마크다운 코드 블록을 제거합니다."""
+    """JSON 응답 텍스트 정제"""
     text = re.sub(r'```json\s*', '', text)
     text = re.sub(r'```\s*', '', text)
     return text.strip()
@@ -63,90 +80,99 @@ def clean_json_text(text):
 def get_gemini_summary(article_data):
     title_en = article_data['title_en']
     description_en = article_data['description_en']
-    url = article_data['url']
     source = article_data.get('source', '')
 
     try:
         api_key = os.environ.get('GEMINI_API_KEY')
         if not api_key:
-            log("GEMINI_API_KEY 없음", "ERROR")
+            log("GEMINI_API_KEY가 설정되지 않았습니다.", "ERROR")
             return title_en, "[요약 실패] API 키 없음"
 
         client = genai.Client(api_key=api_key)
 
+        # 프롬프트 구성
         if 'YouTube' in source:
-            log(f"유튜브 분석 시도: {title_en[:30]}...", "INFO")
-            prompt = f"""
-다음 유튜브 영상의 제목과 설명을 바탕으로 한국어 제목과 상세한 요약을 JSON으로 작성해 주세요.
-[입력 제목]: {title_en}
-[입력 설명]: {description_en}
+            prompt_text = f"""
+다음 유튜브 영상 정보를 바탕으로 한국어 제목과 상세 요약을 JSON으로 작성하세요.
+[제목]: {title_en}
+[설명]: {description_en}
 
-[JSON 출력 형식]
+Output JSON format:
 {{
   "title_kr": "한국어 제목",
-  "summary_kr": "한국어 상세 요약 (최소 5문장 이상)"
+  "summary_kr": "한국어 상세 요약 (최소 5문장, 평어체)"
 }}
 """
-            contents = [prompt] # 텍스트만 전달 (자막 없으면 설명 의존)
-            
         else:
-            log(f"기사 번역 시도: {title_en[:30]}...", "INFO")
-            prompt = f"""
-당신은 전문 과학 기자입니다. 아래 기사를 한국어로 번역하고 요약하세요.
+            prompt_text = f"""
+다음 기사 정보를 바탕으로 한국어 제목과 상세 요약을 JSON으로 작성하세요.
 [제목]: {title_en}
 [내용]: {description_en}
 
-[JSON 출력 형식]
+Output JSON format:
 {{
   "title_kr": "한국어 제목",
-  "summary_kr": "한국어 상세 요약 (최소 5-6문장)"
+  "summary_kr": "한국어 상세 요약 (최소 5-6문장, 평어체)"
 }}
 """
-            contents = prompt
 
         response = client.models.generate_content(
-            model='gemini-2.0-flash', 
-            contents=contents,
+            model='gemini-2.0-flash',
+            contents=prompt_text,
             config=types.GenerateContentConfig(response_mime_type="application/json")
         )
 
         cleaned_text = clean_json_text(response.text)
         data = json.loads(cleaned_text)
-        
-        return data.get('title_kr', title_en), data.get('summary_kr', "[요약 실패] 내용 없음")
+
+        # [중요 수정] Gemini가 가끔 리스트로 반환하는 경우 처리 ([{...}])
+        if isinstance(data, list):
+            if len(data) > 0:
+                data = data[0]
+            else:
+                data = {}
+
+        title_kr = data.get('title_kr', title_en)
+        summary_kr = data.get('summary_kr', "[요약 실패] AI 응답 형식이 올바르지 않습니다.")
+
+        return title_kr, summary_kr
 
     except Exception as e:
-        log(f"AI 처리 중 오류: {str(e)}", "ERROR")
+        log(f"AI 처리 실패 ({title_en[:15]}...): {str(e)}", "ERROR")
         return title_en, f"[요약 실패] {str(e)}"
 
 # ============================================================================
-# 스크래퍼 (RSS & YouTube)
+# 스크래퍼
 # ============================================================================
 
-def scrape_rss_feed(feed_url, source_name, category_name):
+def scrape_feed(feed_url, source_name, category_name, is_youtube=False):
     articles = []
-    log(f"RSS 크롤링: {source_name}", "INFO")
+    log(f"크롤링 시작: {source_name}", "INFO")
 
     try:
-        response = requests.get(feed_url, headers=HEADERS, timeout=20)
+        # 타임아웃 10초 설정 (Wired 등 느린 사이트 대기 시간 제한)
+        response = requests.get(feed_url, headers=HEADERS, timeout=10)
         feed = feedparser.parse(response.content)
         
         palo_alto_now = datetime.now(PALO_ALTO_TZ)
 
         for entry in feed.entries:
-            if not entry.get('title') or not entry.get('link'): continue
+            # 필수 필드 체크
+            if not entry.get('link') or not entry.get('title'):
+                continue
 
-            # 날짜 파싱 및 8일 이상 된 기사 차단
+            # 날짜 파싱 (Palo Alto 시간 기준)
             published_date = palo_alto_now
             if entry.get('published_parsed'):
                 try:
                     dt_utc = datetime.fromtimestamp(time.mktime(entry.published_parsed), timezone.utc)
                     published_date = dt_utc.astimezone(PALO_ALTO_TZ)
-                except: pass
+                except:
+                    pass # 파싱 실패시 현재 시간 유지
             
+            # 8일 지난 기사 차단 (좀비 기사 방지)
             days_diff = (palo_alto_now - published_date).days
             if days_diff > 8:
-                # log(f"오래된 기사 패스 ({days_diff}일 전): {entry.title[:20]}...", "DEBUG")
                 continue
 
             date_str = published_date.strftime('%Y-%m-%d')
@@ -154,18 +180,23 @@ def scrape_rss_feed(feed_url, source_name, category_name):
             # 이미지 추출
             image_url = None
             if entry.get('media_thumbnail'):
-                image_url = entry.media_thumbnail[0].get('url')
+                image_url = entry.media_thumbnail[0]['url']
             elif entry.get('links'):
-                for e_link in entry.links:
-                    if e_link.get('type', '').startswith('image/'):
-                        image_url = e_link.get('href')
+                for link in entry.links:
+                    if link.get('type', '').startswith('image/'):
+                        image_url = link.get('href')
                         break
             
-            description_text = BeautifulSoup(entry.get('summary', entry.title), 'html.parser').get_text(strip=True)
+            # 내용 추출
+            desc = entry.get('summary', '')
+            if is_youtube:
+                desc = entry.get('media_description', entry.get('summary', ''))
+            
+            clean_desc = BeautifulSoup(desc, 'html.parser').get_text(strip=True)
 
             articles.append({
-                'title_en': BeautifulSoup(entry.title, 'html.parser').get_text(strip=True),
-                'description_en': description_text,
+                'title_en': entry.title,
+                'description_en': clean_desc,
                 'url': entry.link,
                 'source': source_name,
                 'category': category_name,
@@ -173,175 +204,140 @@ def scrape_rss_feed(feed_url, source_name, category_name):
                 'image_url': image_url
             })
 
+    except requests.exceptions.Timeout:
+        log(f"{source_name}: 연결 시간 초과 (Timeout)", "ERROR")
     except Exception as e:
-        log(f"{source_name} 크롤링 실패: {e}", "ERROR")
-
-    return articles
-
-def scrape_youtube_videos(channel_id, source_name, category_name):
-    articles = []
-    log(f"유튜브 크롤링: {source_name}", "INFO")
-    feed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
-
-    try:
-        feed = feedparser.parse(feed_url)
-        palo_alto_now = datetime.now(PALO_ALTO_TZ)
-
-        for entry in feed.entries:
-            published_date = palo_alto_now
-            if entry.get('published_parsed'):
-                dt_utc = datetime.fromtimestamp(time.mktime(entry.published_parsed), timezone.utc)
-                published_date = dt_utc.astimezone(PALO_ALTO_TZ)
-            
-            if (palo_alto_now - published_date).days > 8: continue
-
-            image_url = entry.media_thumbnail[0]['url'] if entry.get('media_thumbnail') else None
-            
-            articles.append({
-                'title_en': entry.title,
-                'description_en': entry.get('media_description', entry.title),
-                'url': entry.link,
-                'source': source_name,
-                'category': category_name,
-                'date': published_date.strftime('%Y-%m-%d'),
-                'image_url': image_url
-            })
-    except Exception as e:
-        log(f"유튜브 실패: {e}", "ERROR")
+        log(f"{source_name} 크롤링 중 오류: {e}", "ERROR")
 
     return articles
 
 # ============================================================================
-# 메인 실행 로직
+# 메인 실행
 # ============================================================================
 
 def main():
-    log("=== 크롤러 시작 (Palo Alto Time) ===", "INFO")
-    
-    # 1. 기존 데이터 로드
+    start_time = datetime.now(PALO_ALTO_TZ)
+    log(f"=== 스크립트 시작 (날짜: {start_time.strftime('%Y-%m-%d')}) ===", "INFO")
+
+    # 1. 데이터 로드
     seen_urls = set()
-    old_articles_to_keep = []
-    failed_urls_queue = [] # 재시도 대상
+    old_articles = []
+    failed_queue = []
 
     try:
         with open('articles.json', 'r', encoding='utf-8') as f:
-            old_data = json.load(f)
-            
-            # 기존 성공한 기사 로드
-            for art in old_data.get('articles', []):
-                if not art.get('url'): continue
-                # 최근 7일 데이터만 유지
+            data = json.load(f)
+            # 기존 기사 중 7일 이내 것만 유지
+            for art in data.get('articles', []):
                 try:
-                    art_date = datetime.strptime(art.get('date', '1970-01-01'), '%Y-%m-%d')
-                    if (datetime.now() - art_date).days <= ARCHIVE_DAYS:
-                        old_articles_to_keep.append(art)
+                    art_date = datetime.strptime(art.get('date', ''), '%Y-%m-%d')
+                    # 날짜 비교 시 시간대 정보가 없는 경우를 위해 날짜만 비교
+                    days_diff = (start_time.date() - art_date.date()).days
+                    if days_diff <= ARCHIVE_DAYS:
+                        old_articles.append(art)
                         seen_urls.add(art['url'])
-                except: pass
+                except:
+                    pass # 날짜 형식 에러시 제외
             
-            # 이전 실패 목록 로드 (재시도 위해)
-            failed_urls_queue = old_data.get('failed_queue', [])
+            # 이전 실패 목록 로드
+            failed_queue = data.get('failed_queue', [])
             
-    except (FileNotFoundError, json.JSONDecodeError):
-        log("기존 데이터 없음. 새로 시작.", "INFO")
+    except Exception:
+        log("기존 데이터 파일 없음 또는 손상됨. 새로 시작.", "WARNING")
 
-    # 2. 소스 정의 및 수집
+    # 2. 수집 소스 정의
     sources = [
-        # (URL, Source, Category, Type)
-        ('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video', 'youtube'),
-        ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience', 'rss'),
-        ('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News', 'rss'),
-        ('https://www.statnews.com/feed/', 'STAT News', 'News', 'rss'),
-        ('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News', 'rss'),
-        ('https://arstechnica.com/science/feed/', 'Ars Technica', 'News', 'rss'),
-        ('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News', 'rss'),
-        ('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News', 'rss'),
-        ('https://endpts.com/feed/', 'Endpoints News', 'News', 'rss'),
-        ('https://www.science.org/rss/news_current.xml', 'Science', 'News', 'rss'),
-        ('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News', 'rss'),
-        ('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper', 'rss'),
-        ('https://www.cell.com/cell/current.rss', 'Cell', 'Paper', 'rss'),
-        ('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper', 'rss'),
-        ('https://www.nature.com/nm/current_issue/rss', 'Nature Medicine', 'Paper', 'rss'),
-        ('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper', 'rss'),
-        ('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper', 'rss'),
-        ('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper', 'rss'),
-        ('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper', 'rss')
+        ('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video', True),
+        ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience', False),
+        ('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News', False),
+        ('https://www.statnews.com/feed/', 'STAT News', 'News', False),
+        ('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News', False),
+        ('https://arstechnica.com/science/feed/', 'Ars Technica', 'News', False),
+        ('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News', False),
+        ('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News', False),
+        ('https://endpts.com/feed/', 'Endpoints News', 'News', False),
+        ('https://www.science.org/rss/news_current.xml', 'Science', 'News', False),
+        ('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News', False),
+        ('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper', False),
+        ('https://www.cell.com/cell/current.rss', 'Cell', 'Paper', False),
+        ('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper', False),
+        ('https://www.nature.com/nm/current_issue/rss', 'Nature Medicine', 'Paper', False),
+        ('https://www.nature.com/nrd/current_issue/rss', 'Nature Drug Discovery', 'Paper', False),
+        ('https://www.nature.com/nbt/current_issue/rss', 'Nature Biotechnology', 'Paper', False),
+        ('https://www.nature.com/nature/research-articles.rss', 'Nature (Paper)', 'Paper', False),
+        ('https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss', 'NEJM', 'Paper', False)
     ]
 
-    collected_candidates = []
-
-    # 2-1. 재시도 대상 먼저 추가
-    if failed_urls_queue:
-        log(f"재시도 대상 {len(failed_urls_queue)}개 로드됨", "INFO")
-        for item in failed_urls_queue:
-            # 중복 체크 없이 우선 후보군에 넣음 (아래에서 seen_urls 체크함)
+    # 3. 크롤링 및 후보 선정
+    candidates = []
+    
+    # 3-1. 실패했던 것 우선 추가
+    if failed_queue:
+        log(f"지난 실행 실패 항목 {len(failed_queue)}개 재시도 대기", "INFO")
+        for item in failed_queue:
             if item['url'] not in seen_urls:
-                collected_candidates.append(item)
+                candidates.append(item)
 
-    # 2-2. 신규 크롤링
-    for s_url, s_name, s_cat, s_type in sources:
-        if s_type == 'youtube':
-            items = scrape_youtube_videos(s_url, s_name, s_cat)
-        else:
-            items = scrape_rss_feed(s_url, s_name, s_cat)
-        
+    # 3-2. 신규 크롤링
+    for url, source, cat, is_yt in sources:
+        items = scrape_feed(url, source, cat, is_yt)
         for item in items:
             if item['url'] not in seen_urls:
-                collected_candidates.append(item)
+                candidates.append(item)
 
-    # 중복 제거 (URL 기준)
-    unique_candidates = {v['url']: v for v in collected_candidates}.values()
-    log(f"총 처리 대기 항목: {len(unique_candidates)}개", "INFO")
+    # 중복 제거
+    unique_candidates = {v['url']: v for v in candidates}.values()
+    log(f"총 처리 대상: {len(unique_candidates)}건", "INFO")
 
-    # 3. API 처리
+    # 4. AI 처리
     new_articles = []
     new_failed_queue = []
-    processed_count = 0
+    processed_cnt = 0
 
-    for article_data in unique_candidates:
-        if processed_count >= MAX_NEW_ARTICLES_PER_RUN:
-            log("API 일일 할당량 도달. 중단합니다.", "WARNING")
-            # 처리 못한 나머지 항목은 다음을 위해 실패 큐에 저장
-            new_failed_queue.append(article_data)
+    for art in unique_candidates:
+        if processed_cnt >= MAX_NEW_ARTICLES_PER_RUN:
+            log(f"할당량({MAX_NEW_ARTICLES_PER_RUN}) 초과. 남은 {len(unique_candidates) - processed_cnt}건은 다음으로 미룸.", "WARNING")
+            new_failed_queue.append(art)
             continue
 
-        try:
-            processed_count += 1
-            title_kr, summary_kr = get_gemini_summary(article_data)
+        processed_cnt += 1
+        title_kr, summary_kr = get_gemini_summary(art)
 
-            if "[요약 실패]" in summary_kr:
-                log(f"요약 실패, 재시도 큐로 이동: {article_data['title_en'][:20]}...", "WARNING")
-                new_failed_queue.append(article_data)
-            else:
-                article_data['title'] = title_kr
-                article_data['summary_kr'] = summary_kr
-                article_data['summary_en'] = article_data['description_en'] # 원문 백업
-                del article_data['description_en']
-                new_articles.append(article_data)
-                
-            time.sleep(API_DELAY_SECONDS)
+        if "[요약 실패]" in summary_kr:
+            # 실패시 큐에 저장 (다음 실행때 최우선 처리)
+            new_failed_queue.append(art)
+        else:
+            art['title'] = title_kr
+            art['summary_kr'] = summary_kr
+            # 원문은 저장하지 않음 (용량 절약) or 필요시 art['summary_en'] = ...
+            if 'description_en' in art: del art['description_en']
+            new_articles.append(art)
+        
+        time.sleep(API_DELAY_SECONDS)
 
-        except Exception as e:
-            log(f"치명적 에러 ({article_data['url']}): {e}", "ERROR")
-            new_failed_queue.append(article_data)
+    # 5. 결과 저장 (이 부분이 가장 중요. 에러가 나도 반드시 저장되도록 try-finally나 안전장치 필요)
+    log(f"오늘 처리 결과: 성공 {len(new_articles)}건, 실패/보류 {len(new_failed_queue)}건", "INFO")
 
-    # 4. 저장
-    final_articles = old_articles_to_keep + new_articles
-    final_articles.sort(key=lambda x: x.get('date', '1970-01-01'), reverse=True)
+    final_list = old_articles + new_articles
+    # 날짜 내림차순 정렬
+    final_list.sort(key=lambda x: x.get('date', ''), reverse=True)
 
-    log(f"처리 완료: 성공 {len(new_articles)}건, 실패/대기 {len(new_failed_queue)}건", "INFO")
-    
-    output = {
+    output_data = {
         'last_updated': datetime.now(PALO_ALTO_TZ).strftime('%Y-%m-%d %H:%M:%S'),
-        'logs': execution_logs, # 로그 저장
-        'failed_queue': new_failed_queue, # 실패 목록 저장
-        'articles': final_articles
+        'logs': execution_logs, # 여기에 실행 로그 포함
+        'failed_queue': new_failed_queue,
+        'articles': final_list
     }
 
-    with open('articles.json', 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    log("articles.json 업데이트 완료", "INFO")
+    try:
+        with open('articles.json', 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        log("데이터 저장 완료 (articles.json)", "INFO")
+    except Exception as e:
+        log(f"치명적 오류: 파일 저장 실패 - {e}", "ERROR")
+        # 저장 실패시 로그라도 출력
+        print(json.dumps(execution_logs, indent=2))
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()
