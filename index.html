@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📚 일일 읽을거리</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -13,7 +11,11 @@
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
         .summary-failed { color: #ef4444; font-style: italic; }
-        .log-entry { font-family: 'Courier New', monospace; font-size: 0.85rem; }
+        /* 로그 스타일 */
+        .log-entry { font-family: 'Courier New', monospace; font-size: 0.85rem; border-left: 4px solid transparent; }
+        .log-error { border-left-color: #ef4444; background-color: #450a0a; color: #fca5a5; }
+        .log-warning { border-left-color: #eab308; background-color: #422006; color: #fde047; }
+        .log-info { border-left-color: #3b82f6; color: #e2e8f0; }
     </style>
 </head>
 <body class="text-slate-800">
@@ -37,9 +39,12 @@
     <main class="max-w-4xl mx-auto p-3 md:p-4">
         <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4"></div>
         
-        <div id="logsContainer" class="hidden bg-slate-900 text-slate-300 p-4 rounded-lg shadow-inner overflow-x-auto">
-            <h3 class="text-lg font-bold text-white mb-4 border-b border-slate-700 pb-2">📋 오늘의 실행 로그</h3>
-            <div id="logContent" class="space-y-1"></div>
+        <div id="logsContainer" class="hidden bg-slate-900 text-slate-300 p-4 rounded-lg shadow-inner">
+            <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-2">
+                <h3 class="text-lg font-bold text-white">📋 오늘의 실행 로그</h3>
+                <span id="logSummary" class="text-xs text-slate-400"></span>
+            </div>
+            <div id="logContent" class="space-y-1 max-h-[600px] overflow-y-auto pr-2"></div>
         </div>
 
         <div id="loadingMessage" class="text-center text-slate-500 py-10">데이터를 불러오는 중...</div>
@@ -80,35 +85,31 @@
 
         const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-        
-        let app, auth, db, userId, favoritesDocRef;
+        let favoritesDocRef;
 
         window.globalFirebase = {
             toggleFavorite_Firestore: async (url, isFavorite) => {
                 if (!favoritesDocRef) return;
                 const localFavs = Array.from(window.getCurrentFavorites());
                 try { await setDoc(favoritesDocRef, { urls: localFavs }); } catch (e) { console.error(e); }
-            },
-            getFavoritesDocRef: () => favoritesDocRef
+            }
         };
 
         try {
-            app = initializeApp(firebaseConfig);
-            auth = getAuth(app);
-            db = getFirestore(app);
+            const app = initializeApp(firebaseConfig);
+            const auth = getAuth(app);
+            const db = getFirestore(app);
             onAuthStateChanged(auth, (user) => {
                 if (user) {
-                    userId = user.uid;
-                    favoritesDocRef = doc(db, 'artifacts', appId, 'users', userId, 'favorites', 'data');
+                    favoritesDocRef = doc(db, 'artifacts', appId, 'users', user.uid, 'favorites', 'data');
                     onSnapshot(favoritesDocRef, (docSnap) => {
-                        const serverFavorites = new Set(docSnap.exists() ? docSnap.data().urls : []);
-                        window.syncFavorites(serverFavorites);
+                        window.syncFavorites(new Set(docSnap.exists() ? docSnap.data().urls : []));
                     });
                 }
             });
             if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) signInWithCustomToken(auth, __initial_auth_token);
             else signInAnonymously(auth);
-        } catch (e) { console.error("Firebase error", e); }
+        } catch (e) { console.error("Firebase init error", e); }
     </script>
 
     <script>
@@ -139,19 +140,17 @@
                 
                 allArticles = data.articles || [];
                 executionLogs = data.logs || [];
-                
-                // 마지막 업데이트 시간 표시
                 document.getElementById('lastUpdated').textContent = data.last_updated;
                 
-                // "오늘" 날짜 기준 설정 (데이터의 last_updated 기준)
+                // 업데이트된 날짜 기준 (YYYY-MM-DD)
                 if (data.last_updated) {
-                    todayDateString = data.last_updated.split(' ')[0]; // "YYYY-MM-DD"
+                    todayDateString = data.last_updated.split(' ')[0];
                 }
 
                 renderTabs();
                 renderContent();
             } catch (error) {
-                document.getElementById('loadingMessage').textContent = '데이터 로드 실패';
+                document.getElementById('loadingMessage').textContent = '데이터를 불러올 수 없습니다.';
             }
         }
 
@@ -160,16 +159,15 @@
             const container = document.getElementById('filterTabs');
             
             let html = `
-                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700'}" onclick="setFilter('all')">전체</button>
-                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'favorite' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700'}" onclick="setFilter('favorite')">⭐ 즐겨찾기</button>
-                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'logs' ? 'bg-red-600 text-white' : 'bg-slate-100 text-red-700 border border-red-200'}" onclick="setFilter('logs')">📋 오늘의 로그</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('all')">전체</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'favorite' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('favorite')">⭐ 즐겨찾기</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'logs' ? 'bg-red-600 text-white' : 'bg-slate-100 text-red-700 border border-red-200 hover:bg-slate-200'}" onclick="setFilter('logs')">📋 오늘의 로그</button>
             `;
 
             sources.forEach(source => {
                 const isActive = currentFilter === source;
                 html += `<button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${isActive ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('${source}')">${source}</button>`;
             });
-
             container.innerHTML = html;
         }
 
@@ -186,6 +184,7 @@
 
             msgEl.classList.add('hidden');
 
+            // 로그 탭 처리
             if (currentFilter === 'logs') {
                 articleContainer.classList.add('hidden');
                 logContainer.classList.remove('hidden');
@@ -208,50 +207,51 @@
                 return;
             }
 
-            // 오늘 기사 총 개수 계산 (전체 목록 기준)
-            const todayArticlesTotal = allArticles.filter(a => a.date === todayDateString).length;
-            
-            // 오늘 기사 중 현재 기사의 순서 계산 (역순이므로 total - index)
-            // 주의: 전체 목록(allArticles) 내에서의 인덱스를 찾아야 정확함
-            
-            articleContainer.innerHTML = filtered.map((article, idx) => {
+            // 오늘 기사 총 개수 및 인덱싱
+            const todayList = allArticles.filter(a => a.date === todayDateString);
+            const todayTotal = todayList.length;
+
+            articleContainer.innerHTML = filtered.map((article) => {
                 const isFavorite = favoriteArticles.has(article.url);
-                let counterHtml = '';
+                let badgeHtml = '';
                 
-                // 오늘 날짜 기사라면 카운터 표시
+                // 오늘 날짜 기사면 1/40 형태 뱃지 표시
                 if (article.date === todayDateString) {
-                    // 전체 리스트에서 이 기사가 오늘 기사 중 몇 번째인지 찾기
-                    const todayList = allArticles.filter(a => a.date === todayDateString);
+                    // 최신순 정렬이므로 index 0이 1번이 되도록
                     const myIndex = todayList.findIndex(a => a.url === article.url);
                     if (myIndex !== -1) {
-                        // 최신순 정렬이므로 (1번이 가장 최신) -> myIndex + 1
-                        counterHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100">Today ${myIndex + 1} / ${todayArticlesTotal}</span>`;
+                        badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${todayDateString} (${myIndex + 1}/${todayTotal})</span>`;
                     }
+                } else {
+                    badgeHtml = `<span class="text-xs text-slate-400 font-medium">${article.date}</span>`;
                 }
 
                 let sourceColor = 'bg-slate-100 text-slate-600';
                 if (article.source?.includes('YouTube')) sourceColor = 'bg-red-100 text-red-700';
+                else if (article.source?.includes('Nature')) sourceColor = 'bg-green-100 text-green-700';
+                else if (article.source?.includes('Science')) sourceColor = 'bg-blue-100 text-blue-700';
 
                 return `
-                <article class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all" onclick='openModal("${article.url}")'>
+                <article class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all duration-200 hover:-translate-y-1" onclick='openModal("${article.url}")'>
                     ${article.image_url ? `
-                    <div class="relative h-40 overflow-hidden">
-                        <img src="${article.image_url}" class="w-full h-full object-cover" onerror="this.parentElement.style.display='none'">
-                        <div class="absolute top-2 right-2 flex gap-2">
-                            <span class="bg-black/60 text-white text-[10px] px-2 py-1 rounded-full">${article.date}</span>
+                    <div class="relative h-40 overflow-hidden group">
+                        <img src="${article.image_url}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.parentElement.style.display='none'">
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-md shadow-sm">${article.date}</span>
                         </div>
                     </div>` : ''}
                     
                     <div class="p-4 flex-1 flex flex-col">
-                        <div class="flex justify-between items-start mb-2">
-                            ${counterHtml ? counterHtml : `<span class="text-xs text-slate-400">${article.date}</span>`}
-                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="${isFavorite ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
-                                ★
+                        <div class="flex justify-between items-center mb-3">
+                            ${badgeHtml}
+                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="p-1 rounded-full transition-colors ${isFavorite ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" /></svg>
                             </button>
                         </div>
-                        <h3 class="font-bold text-lg mb-2 leading-snug text-slate-800">${article.title}</h3>
+                        <h3 class="font-bold text-lg mb-3 leading-snug text-slate-800 line-clamp-2 group-hover:text-indigo-600 transition-colors">${article.title}</h3>
                         <div class="mt-auto pt-2 flex items-center gap-2">
-                            <span class="text-[10px] px-2 py-0.5 rounded-full ${sourceColor}">${article.source}</span>
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${sourceColor}">${article.source}</span>
+                            ${article.category ? `<span class="text-xs text-slate-400 font-medium">${article.category}</span>` : ''}
                         </div>
                     </div>
                 </article>`;
@@ -260,18 +260,25 @@
 
         function renderLogs() {
             const container = document.getElementById('logContent');
+            const summaryEl = document.getElementById('logSummary');
+            
             if (executionLogs.length === 0) {
-                container.innerHTML = '<div class="text-slate-500">로그 기록이 없습니다.</div>';
+                container.innerHTML = '<div class="text-slate-500 p-4 text-center">로그 기록이 없습니다.</div>';
                 return;
             }
+
+            const errors = executionLogs.filter(l => l.level === 'ERROR').length;
+            const warns = executionLogs.filter(l => l.level === 'WARNING').length;
+            summaryEl.textContent = `에러: ${errors}건 | 경고: ${warns}건`;
             
             container.innerHTML = executionLogs.map(log => {
-                let colorClass = 'text-slate-300';
-                if (log.level === 'ERROR') colorClass = 'text-red-400 font-bold';
-                if (log.level === 'WARNING') colorClass = 'text-yellow-400';
+                let typeClass = 'log-info';
+                if (log.level === 'ERROR') typeClass = 'log-error';
+                else if (log.level === 'WARNING') typeClass = 'log-warning';
                 
-                return `<div class="log-entry border-b border-slate-800 py-1 ${colorClass}">
-                    <span class="opacity-50 mr-2">[${log.time}]</span>
+                return `<div class="log-entry p-2 mb-1 rounded bg-slate-800 ${typeClass}">
+                    <span class="opacity-60 mr-2 font-mono">[${log.time}]</span>
+                    <span class="font-bold mr-2">[${log.level}]</span>
                     <span>${log.message}</span>
                 </div>`;
             }).join('');
@@ -280,28 +287,23 @@
         function toggleFavorite(url) {
             if (favoriteArticles.has(url)) favoriteArticles.delete(url);
             else favoriteArticles.add(url);
-            
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
             if (window.globalFirebase) window.globalFirebase.toggleFavorite_Firestore(url, favoriteArticles.has(url));
             renderContent();
         }
 
-        // 모달 관련 함수는 기존 로직과 유사하게 구현 (생략 가능하나 안정성을 위해 포함)
         window.openModal = (url) => {
             const article = allArticles.find(a => a.url === url);
             if (!article) return;
-            
             document.getElementById('modalTitle').textContent = article.title;
             document.getElementById('modalTitleEn').textContent = article.title_en;
             document.getElementById('modalSummary').textContent = article.summary_kr;
             document.getElementById('modalSource').textContent = article.source;
             document.getElementById('modalDate').textContent = article.date;
             document.getElementById('modalLink').href = article.url;
-            
             const img = document.getElementById('modalImage');
             if(article.image_url) { img.src = article.image_url; img.classList.remove('hidden'); }
             else { img.classList.add('hidden'); }
-            
             document.getElementById('modal').classList.remove('hidden');
         };
         window.closeModal = () => document.getElementById('modal').classList.add('hidden');
