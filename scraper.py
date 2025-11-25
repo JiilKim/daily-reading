@@ -78,68 +78,116 @@ def clean_json_text(text):
     return text.strip()
 
 def get_gemini_summary(article_data):
+    """
+    Gemini API를 사용하여 기사 콘텐츠를 번역하고 요약합니다.
+    유튜브 영상의 경우 URL을 통해 직접 영상 콘텐츠를 분석합니다.
+    
+    Args:
+        article_data (dict): title_en, description_en, url, source를 포함한 기사 메타데이터
+        
+    Returns:
+        tuple: (translated_title_kr, summary_kr)
+    """
     title_en = article_data['title_en']
     description_en = article_data['description_en']
+    url = article_data['url']
     source = article_data.get('source', '')
 
     try:
         api_key = os.environ.get('GEMINI_API_KEY')
+        
         if not api_key:
-            log("GEMINI_API_KEY가 설정되지 않았습니다.", "ERROR")
-            return title_en, "[요약 실패] API 키 없음"
+            print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
+            return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
 
         client = genai.Client(api_key=api_key)
 
-        # 프롬프트 구성
+        # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
         if 'YouTube' in source:
-            prompt_text = f"""
-다음 유튜브 영상 정보를 바탕으로 한국어 제목과 상세 요약을 JSON으로 작성하세요.
-[제목]: {title_en}
-[설명]: {description_en}
+            print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
+            
+            prompt = f"""
+당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
+출력은 반드시 지정된 JSON 형식을 따라야 합니다.
 
-Output JSON format:
+[입력]
+- title_en: "{title_en}"
+
+[JSON 출력 형식]
 {{
-  "title_kr": "한국어 제목",
-  "summary_kr": "한국어 상세 요약 (최소 5문장, 평어체)"
+  "title_kr": "여기에 제목의 전문적인 한국어 번역을 작성합니다",
+  "summary_kr": "핵심 요점을 추출하여, 영상 콘텐츠에 대한 상세하고 최소 10문장 분량의 한국어 요약문을 작성합니다"
 }}
+
+[규칙]
+1. "title_kr": "title_en"을 자연스럽고 전문적인 한국어로 번역합니다.
+2. "summary_kr": 자연스러운 한국어 문체로 상세한 최소 10문장 요약을 제공합니다.
+3. 대화체가 아닌 일반적인 글쓰기 문체를 사용합니다.
 """
+
+            response = client.models.generate_content(
+                model='gemini-2.5-flash', # 모델 버전
+                contents=[
+                    prompt,
+                    types.Part.from_uri(
+                        file_uri=url,
+                        mime_type="video/youtube"
+                    )
+                ],
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                )
+            )
+            
+        # 텍스트 기사: 설명을 바탕으로 번역 및 요약
         else:
-            prompt_text = f"""
-다음 기사 정보를 바탕으로 한국어 제목과 상세 요약을 JSON으로 작성하세요.
-[제목]: {title_en}
-[내용]: {description_en}
+            print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
+            
+            prompt = f"""
+당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
+아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
+결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+ 
+[입력]
+- title_en: "{title_en}"
+- description_en: "{description_en}"
 
-Output JSON format:
+[JSON 출력 형식]
 {{
-  "title_kr": "한국어 제목",
-  "summary_kr": "한국어 상세 요약 (최소 5-6문장, 평어체)"
+  "title_kr": "여기에 한국어 번역 제목을 작성",
+  "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
 }}
+
+[규칙]
+1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
+3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
 """
+            
+            response = client.models.generate_content(
+                model='gemini-2.5-flash', # 모델 버전
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                )
+            )
 
-        response = client.models.generate_content(
-            model='gemini-2.0-flash',
-            contents=prompt_text,
-            config=types.GenerateContentConfig(response_mime_type="application/json")
-        )
-
-        cleaned_text = clean_json_text(response.text)
-        data = json.loads(cleaned_text)
-
-        # [중요 수정] Gemini가 가끔 리스트로 반환하는 경우 처리 ([{...}])
-        if isinstance(data, list):
-            if len(data) > 0:
-                data = data[0]
-            else:
-                data = {}
-
+        # JSON 응답 파싱
+        data = json.loads(response.text)
         title_kr = data.get('title_kr', title_en)
-        summary_kr = data.get('summary_kr', "[요약 실패] AI 응답 형식이 올바르지 않습니다.")
+        summary_kr = data.get('summary_kr', f"[요약 실패] API 오류. (원본: {description_en[:100]}...)")
 
+        print(f"  [AI] ✓ 번역 완료: {title_kr[:40]}...")
         return title_kr, summary_kr
 
+    except json.JSONDecodeError as e:
+        print(f"  [AI] ❌ JSON 파싱 오류: {e}")
+        return title_en, f"[요약 실패] 잘못된 API 응답. (원본: {description_en[:100]}...)"
+    
     except Exception as e:
-        log(f"AI 처리 실패 ({title_en[:15]}...): {str(e)}", "ERROR")
-        return title_en, f"[요약 실패] {str(e)}"
+        print(f"  [AI] ❌ API 오류: {e}")
+        return title_en, f"[요약 실패] API 호출 실패. (원본: {description_en[:100]}...)"
+
 
 # ============================================================================
 # 스크래퍼
