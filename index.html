@@ -6,12 +6,11 @@
     <title>📚 일일 읽을거리</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f8fafc; }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
-        .summary-failed { color: #ef4444; font-style: italic; }
-        /* 로그 스타일 */
         .log-entry { font-family: 'Courier New', monospace; font-size: 0.85rem; border-left: 4px solid transparent; }
         .log-error { border-left-color: #ef4444; background-color: #450a0a; color: #fca5a5; }
         .log-warning { border-left-color: #eab308; background-color: #422006; color: #fde047; }
@@ -39,9 +38,22 @@
     <main class="max-w-4xl mx-auto p-3 md:p-4">
         <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4"></div>
         
+        <div id="historyContainer" class="hidden space-y-6">
+            <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-lg font-bold mb-4 text-slate-700">📅 일별 요약 기사 수</h3>
+                <canvas id="dailyChart"></canvas>
+            </div>
+            <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-lg font-bold mb-4 text-slate-700">📊 출처별 분포</h3>
+                <div class="h-64 flex justify-center">
+                    <canvas id="sourceChart"></canvas>
+                </div>
+            </div>
+        </div>
+
         <div id="logsContainer" class="hidden bg-slate-900 text-slate-300 p-4 rounded-lg shadow-inner">
             <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-2">
-                <h3 class="text-lg font-bold text-white">📋 오늘의 실행 로그</h3>
+                <h3 class="text-lg font-bold text-white">📋 실행 로그</h3>
                 <span id="logSummary" class="text-xs text-slate-400"></span>
             </div>
             <div id="logContent" class="space-y-1 max-h-[600px] overflow-y-auto pr-2"></div>
@@ -118,12 +130,14 @@
         let currentFilter = 'all';
         let favoriteArticles = new Set();
         let todayDateString = "";
+        let charts = {}; // 차트 인스턴스 저장용
 
         window.syncFavorites = (serverFavorites) => {
             const localFavs = new Set(JSON.parse(localStorage.getItem('dailyReadingFavorites') || '[]'));
             favoriteArticles = new Set([...serverFavorites, ...localFavs]);
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
-            renderContent();
+            if(currentFilter === 'favorite') renderContent();
+            else { /* 전체 리스트에서도 별 아이콘 업데이트를 위해 필요하면 리렌더링 */ renderContent(); }
         };
         window.getCurrentFavorites = () => favoriteArticles;
 
@@ -142,7 +156,6 @@
                 executionLogs = data.logs || [];
                 document.getElementById('lastUpdated').textContent = data.last_updated;
                 
-                // 업데이트된 날짜 기준 (YYYY-MM-DD)
                 if (data.last_updated) {
                     todayDateString = data.last_updated.split(' ')[0];
                 }
@@ -150,6 +163,7 @@
                 renderTabs();
                 renderContent();
             } catch (error) {
+                console.error(error);
                 document.getElementById('loadingMessage').textContent = '데이터를 불러올 수 없습니다.';
             }
         }
@@ -161,7 +175,8 @@
             let html = `
                 <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('all')">전체</button>
                 <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'favorite' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}" onclick="setFilter('favorite')">⭐ 즐겨찾기</button>
-                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'logs' ? 'bg-red-600 text-white' : 'bg-slate-100 text-red-700 border border-red-200 hover:bg-slate-200'}" onclick="setFilter('logs')">📋 오늘의 로그</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'history' ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-emerald-700 border border-emerald-200 hover:bg-slate-200'}" onclick="setFilter('history')">📊 통계</button>
+                <button class="filter-tab px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${currentFilter === 'logs' ? 'bg-red-600 text-white' : 'bg-slate-100 text-red-700 border border-red-200 hover:bg-slate-200'}" onclick="setFilter('logs')">📋 로그</button>
             `;
 
             sources.forEach(source => {
@@ -180,20 +195,30 @@
         function renderContent() {
             const articleContainer = document.getElementById('articlesContainer');
             const logContainer = document.getElementById('logsContainer');
+            const historyContainer = document.getElementById('historyContainer');
             const msgEl = document.getElementById('loadingMessage');
 
             msgEl.classList.add('hidden');
+            articleContainer.classList.add('hidden');
+            logContainer.classList.add('hidden');
+            historyContainer.classList.add('hidden');
 
-            // 로그 탭 처리
+            // 1. 로그 탭
             if (currentFilter === 'logs') {
-                articleContainer.classList.add('hidden');
                 logContainer.classList.remove('hidden');
                 renderLogs();
                 return;
             }
 
+            // 2. 통계 탭
+            if (currentFilter === 'history') {
+                historyContainer.classList.remove('hidden');
+                renderHistory();
+                return;
+            }
+
+            // 3. 기사 목록 탭
             articleContainer.classList.remove('hidden');
-            logContainer.classList.add('hidden');
 
             let filtered = [];
             if (currentFilter === 'all') filtered = allArticles;
@@ -207,23 +232,32 @@
                 return;
             }
 
-            // 오늘 기사 총 개수 및 인덱싱
-            const todayList = allArticles.filter(a => a.date === todayDateString);
-            const todayTotal = todayList.length;
+            // 날짜별로 그룹화하여 전체 개수 계산 (Badge 기능용)
+            const articlesByDate = {};
+            allArticles.forEach(a => {
+                if (!articlesByDate[a.date]) articlesByDate[a.date] = [];
+                articlesByDate[a.date].push(a.url);
+            });
 
             articleContainer.innerHTML = filtered.map((article) => {
                 const isFavorite = favoriteArticles.has(article.url);
-                let badgeHtml = '';
                 
-                // 오늘 날짜 기사면 1/40 형태 뱃지 표시
-                if (article.date === todayDateString) {
-                    // 최신순 정렬이므로 index 0이 1번이 되도록
-                    const myIndex = todayList.findIndex(a => a.url === article.url);
+                // 배지 생성 로직 수정: 모든 날짜에 대해 표시
+                let badgeHtml = '';
+                if (article.date && articlesByDate[article.date]) {
+                    const dayList = articlesByDate[article.date];
+                    const totalInDay = dayList.length;
+                    // allArticles는 최신순 정렬이라고 가정.
+                    // 해당 날짜 리스트 내에서의 인덱스를 찾음
+                    const myIndex = dayList.indexOf(article.url);
+                    
                     if (myIndex !== -1) {
-                        badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${todayDateString} (${myIndex + 1}/${todayTotal})</span>`;
+                        // 최신 글이 1번이 되도록 (0 -> 1)
+                        const displayIndex = myIndex + 1;
+                        badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${article.date} (${displayIndex}/${totalInDay})</span>`;
+                    } else {
+                        badgeHtml = `<span class="text-xs text-slate-400 font-medium">${article.date}</span>`;
                     }
-                } else {
-                    badgeHtml = `<span class="text-xs text-slate-400 font-medium">${article.date}</span>`;
                 }
 
                 let sourceColor = 'bg-slate-100 text-slate-600';
@@ -245,7 +279,7 @@
                         <div class="flex justify-between items-center mb-3">
                             ${badgeHtml}
                             <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="p-1 rounded-full transition-colors ${isFavorite ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363 1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" /></svg>
                             </button>
                         </div>
                         <h3 class="font-bold text-lg mb-3 leading-snug text-slate-800 line-clamp-2 group-hover:text-indigo-600 transition-colors">${article.title}</h3>
@@ -284,11 +318,95 @@
             }).join('');
         }
 
+        function renderHistory() {
+            // 1. 일별 기사 수 데이터 가공
+            const dailyCounts = {};
+            allArticles.forEach(article => {
+                const d = article.date;
+                if (d) {
+                    dailyCounts[d] = (dailyCounts[d] || 0) + 1;
+                }
+            });
+            // 날짜 오름차순 정렬
+            const sortedDates = Object.keys(dailyCounts).sort();
+            const dailyValues = sortedDates.map(d => dailyCounts[d]);
+
+            // 2. 소스별 분포 데이터 가공
+            const sourceCounts = {};
+            allArticles.forEach(article => {
+                const s = article.source || 'Unknown';
+                sourceCounts[s] = (sourceCounts[s] || 0) + 1;
+            });
+            const sortedSources = Object.keys(sourceCounts).sort((a,b) => sourceCounts[b] - sourceCounts[a]); // 많은 순
+            const sourceValues = sortedSources.map(s => sourceCounts[s]);
+
+            // 차트 렌더링 (이미 있으면 파괴 후 재생성)
+            if (charts['daily']) charts['daily'].destroy();
+            if (charts['source']) charts['source'].destroy();
+
+            // 일별 차트 (Line)
+            const ctxDaily = document.getElementById('dailyChart').getContext('2d');
+            charts['daily'] = new Chart(ctxDaily, {
+                type: 'line',
+                data: {
+                    labels: sortedDates,
+                    datasets: [{
+                        label: '요약된 기사 수',
+                        data: dailyValues,
+                        borderColor: '#4f46e5', // Indigo-600
+                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                        tension: 0.3,
+                        fill: true,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#fff',
+                        pointBorderColor: '#4f46e5'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, ticks: { stepSize: 1 } }
+                    }
+                }
+            });
+
+            // 소스별 차트 (Doughnut)
+            const ctxSource = document.getElementById('sourceChart').getContext('2d');
+            // 색상 팔레트 생성
+            const colors = [
+                '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', 
+                '#ec4899', '#6366f1', '#14b8a6', '#f97316', '#64748b'
+            ];
+            charts['source'] = new Chart(ctxSource, {
+                type: 'doughnut',
+                data: {
+                    labels: sortedSources,
+                    datasets: [{
+                        data: sourceValues,
+                        backgroundColor: colors.slice(0, sortedSources.length),
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'right', labels: { boxWidth: 12, font: { size: 11 } } }
+                    }
+                }
+            });
+        }
+
         function toggleFavorite(url) {
             if (favoriteArticles.has(url)) favoriteArticles.delete(url);
             else favoriteArticles.add(url);
             localStorage.setItem('dailyReadingFavorites', JSON.stringify(Array.from(favoriteArticles)));
             if (window.globalFirebase) window.globalFirebase.toggleFavorite_Firestore(url, favoriteArticles.has(url));
+            
+            // 현재 탭에 따라 화면 갱신
             renderContent();
         }
 
