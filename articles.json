@@ -1,154 +1,171 @@
 {
-  "last_updated": "2025-11-27 02:44:42",
+  "last_updated": "2025-11-27 14:07:00",
   "logs": [
     {
-      "time": "02:21:42",
+      "time": "13:52:12",
       "level": "INFO",
       "message": "=== 스크립트 시작 (날짜: 2025-11-27) ==="
     },
     {
-      "time": "02:21:42",
+      "time": "13:52:12",
       "level": "INFO",
-      "message": "지난 실행 실패 항목 1개 재시도 대기"
+      "message": "지난 실행 실패 항목 3개 재시도 대기"
     },
     {
-      "time": "02:21:42",
-      "level": "INFO",
-      "message": "크롤링 시작: B_ZCF YouTube"
-    },
-    {
-      "time": "02:21:42",
-      "level": "ERROR",
-      "message": "B_ZCF YouTube 크롤링 중 오류: Invalid URL 'UCWgXoKQ4rl7SY9UHuAwxvzQ': No scheme supplied. Perhaps you meant https://UCWgXoKQ4rl7SY9UHuAwxvzQ?"
-    },
-    {
-      "time": "02:21:42",
+      "time": "13:52:12",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "02:21:42",
+      "time": "13:52:13",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "02:21:43",
+      "time": "13:52:13",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "02:21:43",
+      "time": "13:52:13",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "02:21:43",
+      "time": "13:52:14",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "02:21:44",
+      "time": "13:52:14",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "02:21:44",
+      "time": "13:52:14",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "02:21:44",
+      "time": "13:52:14",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "02:21:45",
+      "time": "13:52:15",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "02:21:45",
+      "time": "13:52:16",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "02:21:45",
+      "time": "13:52:16",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "02:21:46",
+      "time": "13:52:17",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "02:21:46",
+      "time": "13:52:17",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "02:21:46",
+      "time": "13:52:18",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "02:21:46",
+      "time": "13:52:18",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "02:21:46",
+      "time": "13:52:18",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "02:21:47",
+      "time": "13:52:18",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "02:21:48",
+      "time": "13:52:20",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "02:21:48",
+      "time": "13:52:20",
       "level": "INFO",
-      "message": "총 처리 대상: 134건"
+      "message": "총 처리 대상: 66건"
     },
     {
-      "time": "02:44:42",
+      "time": "14:07:00",
       "level": "INFO",
-      "message": "오늘 처리 결과: 성공 131건, 실패/보류 3건"
+      "message": "오늘 처리 결과: 성공 60건, 실패/보류 6건"
     }
   ],
   "failed_queue": [
     {
-      "title_en": "Building compositional tasks with shared neural subspaces",
-      "description_en": "Nature, Published online: 26 November 2025;doi:10.1038/s41586-025-09805-2The brain can flexibly perform multiple tasks by compositionally combining task-relevant neural representations.",
-      "url": "https://www.nature.com/articles/s41586-025-09805-2",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-11-27",
-      "image_url": null
+      "title_en": "구글 대표와 1:1 대화",
+      "description_en": "Translated by A\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=9Q1b574YjfE",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-26",
+      "image_url": "https://i2.ytimg.com/vi/9Q1b574YjfE/hqhqdefault.jpg"
     },
     {
-      "title_en": "Weighing up the wild-meat harvest in Amazonia",
-      "description_en": "Nature, Published online: 26 November 2025;doi:10.1038/d41586-025-03454-1An assessment of the food hunted across the Amazon rainforest reveals its crucial role and how human pressures, particularly deforestation, threaten the resource.",
-      "url": "https://www.nature.com/articles/d41586-025-03454-1",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-11-27",
-      "image_url": null
+      "title_en": "인공지능과 계급충돌 (알렉스 카프)",
+      "description_en": "알렉스 카프는 AI를 둘러싼 혼란의 본질을 꿰뚫고 있다. AI를 단순히 기술적 혁신의 차원이 아닌, 굳어진 사회 질서를 다시 짜는 '권력 재분배 사건'으로 해석하고 있다. 보다 정확히는 '두 엘리트 계층의 충돌'로 바라보고 있다.\n\n겉으로는 “기술 윤리”, “민주주의 위기”, “빅테크 규제” 같은 언어로 논쟁이 전개되지만, 실제로는 서로 다른 방식으로 영향력을 행사해온 두 집단이 '미래의 주도권'을 두고 부딪히고 있다는 것이다. 우리가 요즘 정치와 공적 담론에서 느끼는 긴장과 극단적인 흐름은, 이 구조적 충돌이 표면으로 떠오른 결과에 가깝다.\n\n언어와 문서를 기반으로 영향력을 행사해온 계층은 오랫동안 사회의 ‘해석 권력’을 독점해왔다. 보고서를 쓰고, 논평을 만들고, 정책을 해석하고, 기준과 규범의 언어를 설계하는 사람들이었다. 이들은 현실을 직접 만드는 대신, 현실을 설명하고 분류하고 평가함으로써 힘을 가졌다. 그런데 AI가 논리 구조화, 문서 작성, 분석 정리, 심지어 초안 작성과 편집까지 수행하기 시작하면서, 이들의 고유 영역이 더 이상 고유하지 않게 된다. 카프는 바로 이 지점에서 강한 압박감과 불안이 발생한다고 본다. 이들에게 기술은 단순한 효율성 도구가 아니라, 역할과 지위를 잠식하는 경쟁자다. 기술을 정면으로 막을 수 없기 때문에, 자연스럽게 “윤리”, “책임”, “위험”과 같은 도덕적 언어가 방패로 앞에 서게 된다. AI의 위험, 규제의 필요성, 기술 기업의 책임을 강조하는 목소리 뒤에는, 실제로는 자신들의 기능이 대체될지도 모른다는 직업적, 계급적 공포가 겹쳐 있다는 것이 카프의 해석이다.\n\n반대로 기술과 시스템을 직접 다뤄온 직군은 같은 변화를 완전히 다른 방식으로 체감한다. 이들은 칩과 소프트웨어, 데이터와 인프라, 군사, 정보, 물류 시스템과 같은 ‘실제 세계를 움직이는 구조물’을 설계하고 유지해온 사람들이다. 이 관점에서 AI는 자신의 역량을 증폭시키는 레버리지다. 더 적은 인력으로 더 복잡한 시스템을 운용하고, 국가와 기업의 경쟁력을 끌어올리고, 새로운 산업과 조직 형태를 실험하게 해주는 힘이다. 그래서 이들에게 AI는 위협이 아니라 생존과 직결된 기회다. 이들의 언어가 “윤리”보다 “효율, 성능, 안정성, 우위(advantage)”에 가깝고, 이상론보다 “실제로 돌아가느냐”를 먼저 묻는 것도 같은 이유에서 나온다. 같은 기술을 두고 한쪽은 속도를 늦추려 하고, 다른 한쪽은 가속을 원하면서, 사회 전체는 점점 서로 다른 언어를 쓰기 시작하고, 그때부터 충돌은 '피하기 어려운 것'이 된다.\n\n카프는 이 충돌을 단순한 기술 논쟁으로 보지 않는다. 그는 이것을 “서로 다른 두 엘리트 집단이 자신들의 역할을 지키거나 확대하려는 운동”으로 본다. 언어 기반 엘리트는 규범과 도덕의 언어를 통해 속도를 늦추려 하고, 기술 기반 직군은 안보, 경쟁, 산업 전략의 언어로 속도를 붙이려 한다. 겉으로는 윤리 논쟁처럼 보이고, 민주주의의 위기처럼 보이고, 기업 권력 비판처럼 보이지만, 그 밑바닥에는 “누가 미래의 질서를 설계하고 운영할 것인가”를 둘러싼 심리적, 계급적 경쟁이 깔려 있다. 양측 모두 스스로를 ‘공익의 대변자’로 말하지만 실제로는 자기 계층의 영향력을 방어하고 있다는 점이 카프의 해석이다.\n\n이 지점에서 카프의 전략이 드러난다. 그는 기술, 안보, 현장의 능력을 중심에 두면서도 이 변화의 방향을 특정 기술 엘리트의 이익으로 포장하지 않는다. 오히려 사회의 절대 다수, 다시 말해 언어로 권력을 행사하는 엘리트도 아니고 실리콘밸리의 기술 엘리트도 아닌 사람들의 삶과 곧바로 연결한다. 산업 현장의 노동자, 군인과 정보와 보안 요원, 의료와 구호 인력, 물류와 공급망을 실제로 움직이는 사람들처럼 몸으로 시스템을 지탱하는 이들을 이야기의 중심에 세운다. AI 가속의 필요성을 기술자들의 꿈이 아니라 현재 위험을 감당하는 사람들이 더 안전하고, 더 효율적으로, 더 덜 위험하게 일할 수 있는 방식으로 설명한다. 도덕적 언어보다 생존, 안전, 일자리, 국가적 안정 같은 현실적 가치를 전면에 내세우면서 그는 자연스럽게 대중의 생존을 자신의 서사로 끌어당긴다. 기술 가속을 엘리트의 특권이 아니라 다수의 생존 전략으로 다시 프레이밍 하는 것이다.\n\n카프는 지금의 세상을 전통적 보수와 진보의 구도로 바라보고 있지 않다. 그가 지적하는 본질은 말과 규범을 통해 권력을 행사해온 해석 엘리트와 기술, 안보, 산업 시스템을 실제로 굴리는 실행 엘리트 사이의 구조적 충돌이다. 표면적으로는 기술 정책 논쟁처럼 보이지만 실제로는 미래의 사회 질서를 설계할 권한을 누가 가져야 하는가라는 훨씬 근본적인 경쟁이다. 카프가 말하는 약자도 기존 진보가 보호해온 약자 개념과 다르다. 보고서 작성자나 정체성 담론의 주체가 아니라 위험을 감당하며 시스템을 유지하는 군인, 정보요원, 의료와 보건 인력, 물류와 기반시설 종사자 같은 실제 현장의 사람들이다. AI 경쟁에서 밀릴 경우 가장 먼저 피해를 입는 계층이 바로 이들이기 때문이다.\n\n그럼에도 카프가 보수로 오해받는 이유는 그가 기술 가속과 국가 경쟁력과 안보를 강조하기 때문일 것 같다. 겉으로 보기엔 전통 보수의 언어처럼 들린다. 그러나 그의 목적은 정반대로 보인다. 그는 중국과 러시아 같은 권위주의 국가들이 이미 AI와 감시 기술을 결합해 새로운 통제 모델을 구축하고 있다고 생각하고 있다. 서구가 기술 속도를 늦추는 순간 민주주의와 인권과 현장 노동자들의 안전 같은 진보적 가치가 구조적으로 붕괴될 위험이 커진다고 판단한다. 즉 그의 기술 가속론은 보수의 성장 담론이 아니라 권위주의 확장에 맞서는 민주주의 방어 전략이며 진짜 약자를 보호하기 위한 실전적 진보의 선택일 수 있다. 그의 전선은 어쩌면 처음부터 이념이 아니라 누가 권위주의 시대의 생존 조건을 설계할 것인가라는 구조적 질문에 놓여 있다.\n\n카프는 이 변화가 단순한 기술 발전이나 규제 논쟁이 아니라 사회적 정당성의 지형이 이동하는 과정이며 앞으로의 정치와 민주주의와 상식의 틀까지 재편할 사건이라는 점을 선명하게 보고 있다. AI를 '이해한다는 것' 은 결국 이 권력 이동을 이해하는 일에 가까울 지 모르겠다.\n\nTranslated by M\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=pi5NE5feg5U",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-25",
+      "image_url": "https://i1.ytimg.com/vi/pi5NE5feg5U/hqhqdefault.jpg"
     },
     {
-      "title_en": "Ancient DNA offers clues about mysterious prehistoric settlement in China",
-      "description_en": "Nature, Published online: 26 November 2025;doi:10.1038/d41586-025-03593-5Using genomic data, researchers have uncovered the origins and cultural practices of the people of Shimao, a 4,000-year-old fortified settlement in northern China.",
-      "url": "https://www.nature.com/articles/d41586-025-03593-5",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-11-27",
-      "image_url": null
+      "title_en": "\"삼성은 기술에 목숨 걸어야 한다\"",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/Ek4dpTLvyZ8",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-25",
+      "image_url": "https://i2.ytimg.com/vi/Ek4dpTLvyZ8/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "노동해방",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/C1fonvdb620",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-23",
+      "image_url": "https://i4.ytimg.com/vi/C1fonvdb620/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "니들이 욕해도 나는 앞으로 간다 (팔란티어)",
+      "description_en": "Translated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=aSCR0ze--HI",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-22",
+      "image_url": "https://i2.ytimg.com/vi/aSCR0ze--HI/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "질병 없는 세상 (마크 저커버그 & 프리실라 챈)",
+      "description_en": "세상을 전부 살 수 있는 돈을 얻게 되면, 사람들은 두 가지 정도 선택하는 것 같습니다. 더 큰 세계 정복하러 가거나(우주, 신대륙) 아니면 영생을 찾거나(진시황, 빌 게이츠)요.\n\n전자는 어쩌면 더 큰 정복욕 때문일 테고요. 후자는 인생이 아까워서 일까요? 이렇게 모든 것을 가졌는데 결국 나도 ‘죽어가는 한 사람’에 불과하다는 생각 때문일까요.\n\n마크 저커버그, 그리고 그의 아내 프리실라 챈이 만든 CZI(챈 저커버그 이니셔티브)에서 하는 활동을 담았습니다. 40분 정도가량 영상이에요. 내용이 깁니다. 어렵기도 하고요. 하지만 결국 인공지능으로 사람들이 질병을 해결할 수 있는 ‘플랫폼’을 만들겠다는 게 골자입니다.\n\n돈이 당장 안 됩니다. 그런데 돈이 엄청 필요한 일이고요. 그래서 미국에서 엄청나게 큰 부자들이 엄청난 시계열(몇십 년) 기준으로 자선이라는 행위로 투자하겠죠. 하지만 이것들이 실현됐을 때 가장 혜택 보는 것들도 그들일 것입니다. (big risks big return) 여러 가지 생각이 들었습니다. 저들은 말도 안 돼 보이는 꿈을 꾸는데, 저는 사소한 것에 매몰돼 있지는 않은지요. 이번 영상도 한 분에게라도 도움이 되신다면 좋은 번역이겠습니다. 즐겨주세요. 감사합니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=CkGyOIP5AkA",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-20",
+      "image_url": "https://i4.ytimg.com/vi/CkGyOIP5AkA/hqhqdefault.jpg"
     }
   ],
   "articles": [
@@ -1461,6 +1478,546 @@
       "image_url": null,
       "title": "D형 간염 치료를 위한 토베비바트 및 엘렙시란 병용 요법의 제2상 임상시험",
       "summary_kr": "D형 간염은 심각하고 치료가 어려운 만성 간 질환으로, 효과적인 치료법 개발이 절실한 미충족 의료 수요 영역입니다. 이 기사는 이러한 D형 간염 환자를 대상으로 토베비바트와 엘렙시란 병용 요법의 유효성과 안전성을 평가한 제2상 임상시험 결과를 다루고 있습니다. 제2상 임상시험은 새로운 치료법의 잠재력을 심층적으로 확인하는 중요한 단계로, 후속 대규모 임상으로의 진행 여부를 결정하는 데 핵심적인 역할을 합니다. 특히 이 연구 결과가 세계적으로 권위 있는 의학 저널인 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재되었다는 점은 해당 연구의 학술적 중요성과 신뢰도를 강력히 시사합니다. 또한 'Ahead of Print'로 미리 공개됨으로써, 최신 연구 결과가 학계와 의료 전문가들에게 신속하게 공유되고 있음을 알 수 있습니다. 이번 임상시험이 D형 간염 환자들에게 새로운 치료 희망을 제공하고 질병 관리에 긍정적인 영향을 미칠 수 있을지 그 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Building compositional tasks with shared neural subspaces",
+      "url": "https://www.nature.com/articles/s41586-025-09805-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "공유 신경 하위 공간을 활용한 복합 과제 구성",
+      "summary_kr": "뇌는 다양한 과제를 유연하게 수행할 수 있는 놀라운 능력을 가지고 있습니다. 이러한 능력의 핵심은 뇌가 과제 수행에 필요한 신경 표상(neural representations)들을 조합적으로 결합하여 새로운 과제를 구성하거나 기존 과제를 변형한다는 점입니다. 즉, 뇌는 개별 과제마다 독립적인 신경 회로를 가지기보다, 기본적인 신경 신호들을 효율적으로 재조합하여 복잡한 행동과 사고를 가능하게 합니다. 본 연구는 뇌가 이러한 복합적 과제를 수행하는 과정에서 '공유된 신경 하위 공간(shared neural subspaces)'을 어떻게 활용하는지에 대한 심층적인 메커니즘을 밝혀냅니다. 이처럼 신경 활동의 공유된 패턴을 활용하는 방식은 뇌가 새로운 상황에 빠르게 적응하고 학습하며 효율적으로 대응하는 데 필수적인 기반을 제공합니다. 이 연구는 뇌의 복잡한 인지 기능에 대한 이해를 한층 더 심화시킬 뿐만 아니라, 향후 유연하고 적응적인 인공지능 시스템 개발에도 중요한 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Weighing up the wild-meat harvest in Amazonia",
+      "url": "https://www.nature.com/articles/d41586-025-03454-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "아마존 야생육 채취: 생존의 핵심이자 위협받는 자원",
+      "summary_kr": "아마존 열대우림 전역에서 이루어지는 사냥을 통한 식량 획득에 대한 최근 평가 연구가 발표되었습니다. 이 연구는 야생육 채취가 지역 주민들의 생존과 영양 공급에 필수적인 역할을 한다는 점을 명확히 밝혀냈습니다. 그러나 이번 평가는 동시에 인간의 압력, 특히 산림 벌채가 이 귀중한 자원을 심각하게 위협하고 있음을 경고하고 있습니다. 무분별한 벌목과 서식지 파괴는 야생 동물 개체 수를 감소시키고, 결과적으로 야생육 채취를 통해 생계를 유지하는 수많은 공동체의 식량 안보를 위태롭게 합니다. 아마존의 광범위한 야생육 자원은 단순한 식량을 넘어 지역 생태계의 건강과 문화적 유산과도 밀접하게 연결되어 있어, 지속 가능한 관리 방안 마련이 시급합니다. 이 연구 결과는 아마존 야생육 자원의 보전과 현명한 사용을 위한 정책 수립에 중요한 기반 자료가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Ancient DNA offers clues about mysterious prehistoric settlement in China",
+      "url": "https://www.nature.com/articles/d41586-025-03593-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "고대 DNA, 중국 선사시대 미스터리 정착지 '시마오'의 비밀을 밝히다",
+      "summary_kr": "유명 과학 저널 '네이처'에 실린 최근 연구 결과가 중국 북부의 고대 정착지에 대한 흥미로운 단서를 제공했습니다. 연구팀은 유전체 데이터를 활용하여 약 4,000년 전 존재했던 요새화된 정착지 '시마오(石峁)' 사람들의 기원과 문화적 관습을 밝혀냈습니다. 시마오는 중국 북부 지역에 위치하며, 고고학적으로 오랫동안 많은 궁금증을 자아냈던 미스터리한 유적지였습니다. 이번 연구는 고대 DNA 분석이 과거 인류의 이동 경로, 사회 구조, 그리고 생활 방식에 대한 심층적인 이해를 어떻게 돕는지를 보여줍니다. 특히, 시마오 유적지 거주자들의 유전적 특징을 규명함으로써, 당시 동아시아 지역의 인구 이동 및 문화 교류 양상에 대한 새로운 통찰을 제시했습니다. 이러한 발견은 중국 선사시대 문명 발달사를 재구성하는 데 중요한 과학적 토대를 마련할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "\"전쟁 빼고는 다 쉬운 일\" (정주영 회장)",
+      "url": "https://www.youtube.com/shorts/hoERAs0erOU",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-27",
+      "image_url": "https://i1.ytimg.com/vi/hoERAs0erOU/hqhqdefault.jpg",
+      "title": "정주영 회장: \"전쟁 빼고는 다 쉬운 일이다\"",
+      "summary_kr": "정주영 회장은 경쟁 사회에서 편안하고 쉬운 일은 없지만, 주어진 여건을 긍정적으로 받아들이는 자세가 중요하다고 강조했습니다. 그는 가장 어려운 직업은 생명을 걸고 전쟁을 수행하는 군인이며, 군인만이 죽음을 감수하는 고통을 겪는다고 설명했습니다. 반면 사업가가 직면하는 어려움은 아무리 심각하더라도 해결책을 찾을 시간적 여유가 항상 존재한다고 보았습니다. 오늘 막힌 것처럼 보이는 일도 하룻밤 자고 나면 해결할 방도가 떠오르는 것이 사업가의 삶이라고 덧붙였습니다. 사업가나 그와 함께 일하는 동료들은 군인처럼 생명의 위협을 느끼거나 쓰러져 죽어나가는 상황에 처하지 않으므로, 이들의 고통은 전쟁에 비할 바가 아니라는 것입니다. 따라서 그는 전쟁이라는 특별한 상황을 제외하면 세상의 모든 직업이 그리 어려운 것이 아니라는 소신을 밝혔습니다. 정 회장은 자신이 약 48년간 산업계에 몸담으며 구멍가게부터 시작했다고 회고했습니다. 그는 다른 사람들이 자신을 큰 사업가나 부자로 보지만, 정작 본인은 여전히 중소기업의 관점에서 생각하며 대기업의 수장이라는 실감은 나지 않는다고 고백했습니다. 이는 그가 중소기업으로 지낸 약 30년의 시간이 대기업으로서의 10여 년보다 훨씬 길었기 때문이라고 설명했습니다. 결국 정 회장은 사람이 어떤 자리에서든 어렵게 생각하면 평생이 어렵고, 긍정적이고 즐겁게 생각하면 언제나 즐겁고 재미있게 살 수 있다는 깊은 인생 철학을 공유했습니다."
+    },
+    {
+      "title_en": "구체적으로 쪼개서 해",
+      "url": "https://www.youtube.com/watch?v=LuLrlqLX6ww",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-27",
+      "image_url": "https://i1.ytimg.com/vi/LuLrlqLX6ww/hqhqdefault.jpg",
+      "title": "구체적으로 쪼개서 실천하는 힘",
+      "summary_kr": "연사는 세계적인 수준의 예술가가 되는 방법을 묻는 질문으로 강연을 시작하며, 복잡한 브래드 피트의 초상화도 회색 사각형 하나를 그릴 수 있다면 전체를 완성할 수 있다고 비유합니다. 이는 어떤 큰 목표라도 작은 단위로 쪼개어 해결할 수 있다는 메시지를 전달합니다. 그는 테니스 선수 노박 조코비치의 사례를 들어, 경기에서 득점 성공률을 단 1-3%만 향상시켰을 뿐인데, 연간 상금 수입이 25만 달러에서 500만 달러, 나아가 1,400만 달러로 급증하고 세계 랭킹 1위에 오르는 엄청난 결과로 이어졌다고 설명합니다. 이러한 미세한 개선의 축적 효과는 우리가 일상에서 내리는 수많은 결정에도 동일하게 적용될 수 있음을 강조합니다. 연사 자신의 경험을 예로 들며, 학창 시절 C 학점 학생이었던 그는 과제를 5분에서 10분 단위로 쪼개어 집중하는 방식으로 학습 태도를 변화시켰습니다. 그 결과, 모든 학기에서 우수한 성적을 거두고 명문 대학원에 진학할 수 있었으며, 이는 전문 커리어에서도 성공적인 결과를 가져왔습니다. 개인적인 목표 달성에도 이 방식을 적용했는데, 런던에서 돌아와 11kg이 증가하고 몸매가 망가진 상태에서 새해 목표를 '33개의 등산로 완주'로 설정하며 등산 경험이 전무함에도 작은 걸음부터 시작했습니다. 또한, 출퇴근 시간을 활용해 독일어 CD 99장을 세 번씩 듣는 작은 변화를 통해 독일어를 능숙하게 구사하게 되었고, 나중에는 '얀 바밍(Yarn Bombing)'이라는 예술 활동에 도전하여 세계에서 가장 큰 코바늘 뜨개 조각으로 기네스 세계 기록을 세우기도 했습니다. 연사는 이러한 경험들을 통해 특별한 재능이나 기술 없이도 사람들이 경이로워할 만한 크고 야심 찬 프로젝트를 가장 단순한 형태로 쪼개고, 과정 중에 아주 사소한 개선들을 해나가는 것만으로도 성공 확률을 높일 수 있음을 역설합니다. 따라서 이 강연의 목적은 청중들이 각자의 원대한 꿈을 책장 속에서 꺼내어 일상 속 작은 변화를 통해 실현하기 시작하도록 영감을 주는 것입니다."
+    },
+    {
+      "title_en": "고통 스러운 일들 (손주은)",
+      "url": "https://www.youtube.com/shorts/-J67gSxjY2M",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-27",
+      "image_url": "https://i2.ytimg.com/vi/-J67gSxjY2M/hqhqdefault.jpg",
+      "title": "손주은: 고통스러운 일들의 가치",
+      "summary_kr": "이 영상에서 손주은 강사는 인생에서 쉽고 즐거운 일들이 오히려 나쁜 것일 수 있다는 역설적인 주장을 펼칩니다. 그는 밤새워 만화책을 보는 것과 같은 일시적인 즐거움은 진정한 만족이나 환희를 가져다주지 않는다고 설명합니다. 쉽게 얻을 수 있는 모든 것들은 장기적으로 볼 때 부정적인 결과를 초래할 수 있음을 경고합니다. 오히려 정말로 고통스럽고 힘든 일들 속에서 진정한 의미와 가치를 찾을 수 있다고 강조합니다. 그는 아무리 힘들고 어려운 일일지라도 그것을 해내고 나면 큰 보람과 깊은 깨달음을 얻게 된다고 말합니다. 이러한 과정을 통해 비로소 우리는 의미 있는 성장을 경험하고, 진정한 기쁨과 환희를 느낄 수 있다는 것입니다. 따라서 인생에서 고통스럽고 힘든 일들을 회피하기보다는 직접 선택하고 감당하는 지혜를 배워야 한다고 역설합니다. 이러한 선택을 통해 얻어지는 경험과 깨달음이 결국 우리 삶을 더욱 풍요롭고 가치 있게 만든다는 메시지를 전달하고 있습니다. 궁극적으로 영상은 고난을 통해 얻는 성숙과 가치의 중요성을 강조하며 시청자들에게 깊은 울림을 줍니다."
+    },
+    {
+      "title_en": "Author Correction: Nasal delivery of an IgM offers broad protection from SARS-CoV-2 variants",
+      "url": "https://www.nature.com/articles/s41586-025-09953-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "저자 정정: IgM의 비강 투여, SARS-CoV-2 변이에 광범위한 방어 효과 제공",
+      "summary_kr": "세계적인 과학 학술지 네이처(Nature)에 2025년 11월 27일 온라인으로 발표된 논문에 대한 저자 정정 사항이 공개되었습니다. 이 정정된 연구는 SARS-CoV-2 바이러스의 다양한 변이체로부터 광범위한 보호를 제공할 수 있는 혁신적인 접근 방식을 제시합니다. 주요 내용은 바로 IgM 항체의 비강 투여를 통해 코로나19 바이러스에 대한 방어 효과를 유도한다는 것입니다. 바이러스가 인체에 침투하는 주요 경로인 코 점막에 직접 항체를 전달함으로써, 초기 감염을 효과적으로 차단하고 질병의 진행을 막을 수 있는 잠재력을 보여줍니다. 특히, 여러 SARS-CoV-2 변이체에 대해 효과적인 보호 기능을 제공한다는 점에서 기존 백신이나 치료제의 한계를 극복할 수 있는 새로운 대안이 될 수 있음을 시사합니다. 이번 저자 정정은 과학적 정확성을 높이는 과정의 일환이며, 해당 연구 결과의 신뢰도를 더욱 공고히 하는 데 기여합니다."
+    },
+    {
+      "title_en": "Author Correction: Matrix viscoelasticity promotes liver cancer progression in the pre-cirrhotic liver",
+      "url": "https://www.nature.com/articles/s41586-025-09947-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "저자 정정: 간경변 전 간의 기질 점탄성이 간암 진행을 촉진한다",
+      "summary_kr": "간경변이 완전히 발병하기 전 단계의 간에서 발생하는 간암의 진행 기전을 탐구한 이 연구는 세포외 기질(ECM)의 물리적 특성이 질병 진행에 미치는 영향을 심층적으로 분석합니다. 특히, 연구는 기질의 '점탄성(viscoelasticity)'이라는 특성이 간암 세포의 성장 및 침윤을 촉진하는 중요한 요소임을 밝혀냈습니다. 이는 간이 경변증으로 완전히 진행되기 이전의 초기 단계에서부터 기질의 역학적 변화가 암 발생 및 악화에 결정적인 역할을 할 수 있음을 시사합니다. 이러한 발견은 간암 진행의 새로운 바이오마커를 식별하고, 기질의 물리적 특성을 조절하는 것을 목표로 하는 혁신적인 치료 접근법을 개발하는 데 중요한 기반을 제공합니다. 본 내용은 이전에 발표된 연구 결과에 대한 '저자 정정(Author Correction)'을 포함하고 있으며, 이는 과학적 정확성과 신뢰성 유지를 위한 지속적인 노력의 일환입니다. 결과적으로, 이 연구는 간암 진행의 복잡한 환경적 요인에 대한 이해를 넓히고, 환자 맞춤형 치료 전략을 설계하는 데 귀중한 정보를 제공합니다."
+    },
+    {
+      "title_en": "Author Correction: Inhibiting membrane rupture with NINJ1 antibodies limits tissue injury",
+      "url": "https://www.nature.com/articles/s41586-025-09955-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "저자 정정: NINJ1 항체를 이용한 막 파열 억제가 조직 손상을 제한한다",
+      "summary_kr": "이 기사는 과학 저널 '네이처'에 2025년 11월 27일 온라인으로 게재된 연구의 저자 정정 사항을 다루고 있습니다. 해당 연구의 핵심 내용은 세포막 파열을 억제하는 새로운 기전에 대한 발견에 초점을 맞추고 있습니다. 특히, NINJ1 항체가 세포막 파열 과정을 효과적으로 저해할 수 있음을 밝혀낸 것이 중요한 진전입니다. 이러한 막 파열 억제는 결과적으로 다양한 염증 반응, 감염 또는 외상과 같은 병리학적 상황에서 발생하는 조직 손상을 현저히 줄이는 데 기여합니다. 이는 세포 손상으로 유발되는 조직 파괴를 최소화할 수 있는 잠재적인 치료 전략을 제시합니다. 따라서 NINJ1 항체를 활용한 막 파열 조절은 미래 의학 분야에서 조직 손상을 예방하고 치료하는 데 있어 중요한 전환점이 될 수 있는 연구로 평가됩니다."
+    },
+    {
+      "title_en": "Large language models are biased — local initiatives are fighting for change",
+      "url": "https://www.nature.com/articles/d41586-025-03891-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "편향된 거대 언어 모델: 지역 이니셔티브, 변화를 위해 나서다",
+      "summary_kr": "최근 공개된 연구에 따르면, 기술의 눈부신 발전에도 불구하고 인공지능(AI) 모델, 특히 대규모 언어 모델(LLM)은 여전히 심각한 편향성을 내포하고 있는 것으로 드러났습니다. 이러한 모델들은 고소득 국가의 영어 사용자의 요구에 맞춰 개발되고 활용되는 경향이 강해, 전 세계 다양한 문화적, 언어적 배경을 가진 사용자들을 소외시키는 문제를 야기하고 있습니다. 이러한 편향성은 AI가 제공하는 정보의 공정성과 다양성을 저해할 뿐만 아니라, 비영어권 및 저소득 국가 사용자들에게 불이익을 초래할 수 있다는 우려를 증폭시키고 있습니다. Nature지에 게재된 이 기사는 이러한 불균형을 지적하며, AI 기술이 진정으로 포괄적이기 위한 근본적인 변화가 필요함을 강조합니다. 이에 대응하여, 전 세계 각지의 지역 사회와 이니셔티브들은 AI 모델의 공정성과 포괄성을 높이기 위한 적극적인 노력을 기울이고 있습니다. 이러한 지역 주도의 움직임은 AI 기술의 윤리적 발전과 사회적 책임 구현을 위한 중요한 발판이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Major AI conference flooded with peer reviews written fully by AI",
+      "url": "https://www.nature.com/articles/d41586-025-03506-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "주요 AI 학술대회, AI 작성 동료 심사 '봇물' 터지며 논란 가열",
+      "summary_kr": "국제적인 인공지능(AI) 학술대회에서 제출된 논문 심사평 중 상당수가 인공지능에 의해 작성된 것으로 드러나 학계에 큰 파문이 일고 있습니다. 저명한 과학 저널 네이처(Nature)의 2025년 11월 27일 온라인 발표에 따르면, 해당 학술대회에 제출된 원고 심사평 중 무려 21%가 인공지능이 생성한 것으로 확인되었습니다. 이 충격적인 사실은 학술 심사 과정의 공정성과 신뢰성에 대한 심각한 우려를 불러일으키고 있습니다. 인공지능이 학술 연구의 효율성을 높일 잠재력을 가진 것은 분명하지만, 이번 사태는 동시에 학문적 진실성과 동료 심사 제도의 본질을 훼손할 수 있다는 점을 명확히 보여줍니다. 학계는 이제 인공지능 기술의 발전 속도에 발맞춰 AI의 윤리적 활용 기준과 오용 방지 대책 마련이라는 중대한 과제에 직면하게 되었습니다. 이번 논란은 AI가 학술 영역에 미치는 영향에 대한 심도 깊은 논의와 새로운 규제 정립의 필요성을 강력히 시사하고 있습니다."
+    },
+    {
+      "title_en": "A structured system: the secrets of Germany’s scientific reputation",
+      "url": "https://www.nature.com/articles/d41586-025-03778-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "독일 과학 명성의 비결: 체계적인 시스템",
+      "summary_kr": "네이처지에 2025년 11월 27일 온라인으로 발행된 이 기사는 독일 과학계의 오랜 명성과 그 비결을 심층적으로 다룹니다. 유럽 국가 중에서도 독일은 효율성과 혁신의 모범으로 오랫동안 꾸준히 인정받아왔습니다. 본 기사는 이러한 독일의 뛰어난 과학적 성과가 어떻게 가능한지, 즉 그 연구 생태계가 어떻게 조직되어 있는지를 상세히 분석합니다. 특히, 독일이 세계적인 과학 강국으로서의 입지를 다지는 데 기여한 체계적인 시스템에 초점을 맞춥니다. 기사는 독일의 연구 시스템이 지닌 독특한 구조와 운영 방식이 어떻게 높은 효율성과 혁신을 창출하는지 구체적인 사례를 통해 설명할 것으로 예상됩니다. 이 분석은 독일의 과학 발전 모델에서 우리가 배울 수 있는 중요한 시사점을 제공할 것입니다."
+    },
+    {
+      "title_en": "A human history of machines",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec4179?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "기계와 함께 걸어온 인류의 역사",
+      "summary_kr": "\"기계와 함께 걸어온 인류의 역사\"라는 제목의 이 기사는 저명한 과학 학술지 '사이언스'에 2025년 11월, 390권 6776호의 887페이지에 게재될 예정입니다. 이 기사는 인류가 도구를 만들기 시작한 이래로 기계와 맺어온 복잡하고 긴밀한 관계를 깊이 있게 조명할 것으로 예상됩니다. 단순한 도구에서부터 현대의 정교한 인공지능 시스템에 이르기까지, 기계가 어떻게 인류 문명, 문화, 그리고 일상생활을 형성하고 변화시켜왔는지 그 연대기를 탐구할 것입니다. 또한, 인류의 끊임없는 창의성이 기계의 능력과 역할을 어떻게 재정의해왔는지 상호작용적 관점에서 분석할 것으로 보입니다. '사이언스'지에 실린 만큼, 이 글은 인간과 기계의 역사적 공진화에 대한 학술적이고 통찰력 있는 관점을 제시하며, 미래 기술 발전 방향에 대한 중요한 논의를 촉발할 수 있을 것입니다. 단일 페이지(887-887)에 걸쳐 게재되는 점을 미루어 볼 때, 심층 연구 논문보다는 간결하면서도 핵심적인 논평, 사설 또는 서평의 형태로 독자들에게 강렬한 메시지를 전달할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Whither the world’s winds",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb1373?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "지구의 바람은 어디로 향하는가?",
+      "summary_kr": "이 기사는 '지구의 바람은 어디로 향하는가?'라는 근본적인 질문을 던지며, 전 세계 바람 체계의 미래에 대한 심도 깊은 탐구를 제시합니다. 세계적으로 권위 있는 과학 저널 '사이언스(Science)' 2025년 11월호에 게재된 이 글은 지구 기후 시스템에서 바람이 수행하는 핵심적인 역할을 조명할 것으로 예상됩니다. 특히 기후 변화가 전 세계적인 대기 순환 패턴에 미치는 잠재적 영향과 그로 인한 파급 효과를 분석하는 데 중점을 둘 것으로 보입니다. 볼륨 390, 이슈 6776, 888페이지에 실린 이 연구는 기후 모델링, 날씨 예측, 그리고 해양 순환에 대한 과학적 이해를 심화시키는 데 중요한 기여를 할 것입니다. 이 논문은 미래 기후 변화에 대한 예측력을 높이고, 지구 환경 변화에 대응하는 데 필요한 과학적 기반을 제공하며 전 세계 기상학 및 기후학 연구자들에게 중요한 통찰을 선사할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Monkeys have rhythm",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adp5220?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "원숭이에게서 발견된 리듬 감각",
+      "summary_kr": "과학 저널 사이언스(Science) 390권 6776호에 실린 새로운 연구는 오랫동안 인간의 고유한 능력으로 여겨져 왔던 복잡한 리듬 인지 및 동기화 능력이 비인간 영장류에게도 나타날 수 있다는 놀라운 사실을 밝혀냈습니다. 이 연구는 특정 원숭이 종을 대상으로 정교하게 설계된 행동 실험을 통해, 이들이 청각적 자극에 맞춰 박자를 맞추거나 예측하는 능력을 보인다는 것을 관찰했습니다. 특히, 뇌 활동 분석을 통해 리듬 처리와 관련된 특정 신경 회로가 활성화되는 것을 확인하여, 리듬 능력이 단순한 모방을 넘어선 인지적 과정임을 시사했습니다. 이러한 발견은 음악의 진화적 기원을 탐구하고, 인간의 리듬감각이 어떻게 발달해왔는지 이해하는 데 중요한 단서를 제공합니다. 해당 논문은 2025년 11월에 940쪽부터 944쪽까지 게재되었으며, 영장류 인지 연구 분야에 새로운 지평을 열었다는 평가를 받고 있습니다."
+    },
+    {
+      "title_en": "Programmable higher-order nonequilibrium topological phases on a superconducting quantum processor",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adp6802?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "초전도 양자 프로세서에서 구현하는 프로그래밍 가능한 고차 비평형 위상 상",
+      "summary_kr": "이 연구는 초전도 양자 프로세서라는 첨단 플랫폼을 활용하여 새로운 물리 현상을 탐구합니다. 특히, '고차 비평형 위상 상'이라는 복잡하고 이론적으로 중요한 양자 상태를 실험적으로 구현하고 제어하는 데 성공했습니다. 비평형 상태에서의 위상 상 구현은 기존의 평형 시스템에서는 관찰하기 어려웠던 독특한 양자 특성을 밝혀냈으며, '프로그래밍 가능'하다는 점은 이들 상(相)을 자유롭게 조작하고 탐색할 수 있음을 의미합니다. 이러한 고차 위상 상은 외부 교란에 강한 양자 정보를 저장하거나 처리하는 데 활용될 수 있어, 차세대 양자 컴퓨터 및 위상 양자 컴퓨팅 개발에 중요한 진전을 가져올 것으로 기대됩니다. 본 연구는 양자 물질 과학의 지평을 넓히고, 비평형 물리학 분야에서 새로운 탐구 방향을 제시하는 한편, 복잡한 양자 시스템 제어 능력의 발전을 입증하는 획기적인 성과입니다. 이 연구 결과는 과학 분야의 권위 있는 학술지인 '사이언스(Science)' 2025년 11월호에 게재될 예정입니다."
+    },
+    {
+      "title_en": "Avian-origin influenza A viruses tolerate elevated pyrexic temperatures in mammals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adq4691?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "조류 유래 인플루엔자 A 바이러스, 포유류 고열 환경에서도 내성 입증",
+      "summary_kr": "본 연구는 조류에서 유래한 인플루엔자 A 바이러스가 포유류의 발열 반응으로 인한 고열 환경에서도 생존하고 활성을 유지할 수 있음을 밝혀냈습니다. 일반적으로 고열은 바이러스 감염에 대한 숙주의 주요 방어 기전으로 알려져 있었으나, 이번 발견은 이러한 통념에 중요한 의문을 제기합니다. 이는 조류 인플루엔자 바이러스가 종간 장벽을 넘어 포유류 숙주에 성공적으로 적응하고 효과적으로 전파될 수 있는 잠재적인 기전을 시사합니다. 특히 인간을 포함한 포유류에서 발열 반응에도 불구하고 바이러스가 체내에서 증식 능력을 유지한다는 점은 공중 보건 측면에서 중대한 의미를 가집니다. 이러한 바이러스의 열 내성 특성 이해는 향후 조류 인플루엔자 팬데믹 대비 전략 수립 및 새로운 치료법 개발에 필수적인 정보를 제공할 것으로 기대됩니다. 이 심층적인 연구 결과는 저명한 과학 저널 '사이언스' 2025년 11월 호에 게재되어 바이러스학 분야에 중요한 진전을 이뤘습니다."
+    },
+    {
+      "title_en": "The dispersal of domestic cats from North Africa to Europe around 2000 years ago",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adt2642?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "약 2000년 전, 북아프리카에서 유럽으로 확산된 집고양이의 전파",
+      "summary_kr": "이 연구는 약 2000년 전, 북아프리카 지역에서 시작하여 유럽 전역으로 퍼져나간 집고양이의 인상 깊은 확산 과정을 심층적으로 탐구합니다. 고고학적 발견과 현대 및 고대 고양이 유전체에 대한 정밀 분석을 결합하여, 연구진은 고대 로마 시대의 광범위한 교역 활동과 문화적 교류가 집고양이 이동의 핵심 동력이었음을 밝혀냈습니다. 구체적으로, 주로 이집트를 포함한 북아프리카에서 길들여진 고양이들이 지중해 무역로를 따라 유럽 대륙으로 유입되었으며, 이후 빠른 속도로 유럽 전역에 정착했음을 유전적 증거들이 명확히 보여줍니다. 이러한 집고양이의 대규모 확산은 단순히 한 생물종의 지리적 이동을 넘어, 당시 인류 문명의 발전과 더불어 인간과 동물의 동반자 관계가 어떻게 변화하고 진화했는지를 시사합니다. 본 연구는 집고양이의 복잡한 역사를 재구성하는 데 기여할 뿐만 아니라, 고대 문명 간의 상호작용과 생물종의 전 지구적 전파 패턴에 대한 귀중한 통찰을 제공하며, 저명한 과학 저널 '사이언스' 2025년 11월호에 게재될 예정입니다."
+    },
+    {
+      "title_en": "Reranking partisan animosity in algorithmic social media feeds alters affective polarization",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adu5584?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "알고리즘 소셜 미디어의 당파적 적대감 재조정, 정서적 양극화 변화시킨다",
+      "summary_kr": "2025년 11월 <사이언스(Science)>지에 게재된 이 중요한 연구는 소셜 미디어 알고리즘이 정치적 양극화에 미치는 영향을 심층적으로 분석합니다. 특히, 연구는 알고리즘 기반 소셜 미디어 피드에서 특정 정당이나 이념에 대한 반감, 즉 '당파적 적대감'(partisan animosity)을 유발하는 콘텐츠의 순위를 재조정했을 때 발생하는 변화에 주목했습니다. 핵심적으로, 이러한 콘텐츠 배열의 미세한 변화가 사용자들 간의 '정서적 양극화'(affective polarization), 즉 정치적 견해가 다른 집단에 대한 감정적 거리와 적대감에 유의미한 영향을 미친다는 사실이 밝혀졌습니다. 이는 소셜 미디어 플랫폼의 알고리즘 설계가 단순히 정보 전달 방식을 넘어, 사회 내 정치적 분열의 심화 또는 완화에 결정적인 역할을 할 수 있음을 시사합니다. 본 연구는 알고리즘적 개입이 정치적 양극화 현상에 미치는 영향을 실증적으로 보여주며, 향후 소셜 미디어 플랫폼의 책임 있는 설계와 정책 수립에 중요한 과학적 근거를 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Rapid compensatory evolution within a multiprotein complex preserves telomere integrity",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adv0657?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "다단백질 복합체 내 급속한 보상 진화가 텔로미어 온전성을 보존한다",
+      "summary_kr": "텔로미어는 염색체 말단을 보호하여 유전체 안정성과 세포의 수명을 결정하는 핵심적인 구조입니다. 본 연구는 텔로미어의 온전성을 유지하는 데 필수적인 다단백질 복합체의 놀라운 적응 능력을 조명합니다. 연구 결과에 따르면, 이 복합체 내에서 기능적 문제가 발생했을 때, 해당 구성 단백질들 사이에서 급속한 보상 진화가 일어나는 현상이 관찰되었습니다. 이러한 보상 진화는 복합체의 기능을 신속하게 복원하고, 그 결과 텔로미어의 구조적 안정성과 기능을 효과적으로 보존합니다. 이는 생체 시스템이 스트레스 상황에서도 핵심적인 생명 유지 기능을 얼마나 효율적이고 역동적으로 조절하며 진화하는지를 명확히 보여줍니다. 이러한 발견은 텔로미어 생물학과 유전체 안정성 유지 메커니즘에 대한 이해를 한층 심화시키고, 노화 및 질병 연구에 중요한 통찰력을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Realization of three- and four-body interactions between momentum states in a cavity",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adv0990?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "공동(Cavity) 내 운동량 상태 간 삼체 및 사체 상호작용 구현",
+      "summary_kr": "이 연구는 공동(cavity) 환경에서 운동량 상태를 가진 입자들 간의 삼체(three-body) 및 사체(four-body) 상호작용을 성공적으로 구현한 획기적인 성과를 다룹니다. 양자 시스템에서 다체 상호작용은 복잡한 현상을 이해하고 새로운 양자 기술을 개발하는 데 필수적인 요소이지만, 실험적으로 구현하고 제어하기 매우 어렵습니다. 특히 삼체 이상의 고차 상호작용은 양자 컴퓨터, 양자 시뮬레이션 및 정밀 측정 분야에서 핵심적인 역할을 할 잠재력을 가지고 있습니다. 연구팀은 정교한 실험 설계를 통해 공동 내에서 입자들의 운동량 상태를 정밀하게 조작하고, 이들 간의 복잡한 다체 상호작용을 유도하고 관측하는 데 성공했습니다. 이러한 성과는 양자 다체 시스템의 근본적인 이해를 심화시키는 동시에, 고도로 제어 가능한 양자 플랫폼을 구축하는 데 중요한 기반을 마련할 것으로 기대됩니다. 나아가 이는 향후 더욱 복잡한 양자 현상을 탐구하고 차세대 양자 기술 개발을 가속화하는 데 크게 기여할 것입니다. 본 연구는 Science 저널, Volume 390, Issue 6776호에 925-929페이지에 게재되었습니다."
+    },
+    {
+      "title_en": "Structural basis of T-loop–independent recognition and activation of CDKs by the CDK-activating kinase",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adw0053?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "CDK-활성화 키나아제에 의한 T-루프 독립적 CDK 인식 및 활성화의 구조적 기반",
+      "summary_kr": "세포 주기 조절에 핵심적인 역할을 하는 사이클린 의존성 키나아제(CDK)는 특정 인산화 과정을 통해 활성화됩니다. 특히, CDK 활성화 키나아제(CAK)에 의한 T-루프의 인산화는 CDK 활성화의 주요 기전으로 알려져 있었습니다. 하지만 본 연구는 CDK 활성화 키나아제가 T-루프 인산화에 의존하지 않고도 CDK를 인식하고 활성화시킬 수 있는 새로운 구조적 기반을 밝혀냈습니다. 이러한 T-루프 독립적인 활성화 경로의 구조적 이해는 세포 주기 조절의 복잡성을 한층 더 깊이 있게 설명합니다. 이는 세포 주기 이상으로 발생하는 암과 같은 질병의 새로운 치료 전략 개발에 중요한 단서를 제공할 수 있으며, 기존 CDK 활성화 기전과의 상호작용 연구에도 기여할 것으로 기대됩니다. 이 연구 결과는 CDK 활성화의 다면적인 조절 메커니즘에 대한 이해를 확장하고, 관련 분야의 후속 연구에 중요한 토대를 마련합니다."
+    },
+    {
+      "title_en": "Full utilization of noble metals by atom abstraction for propane dehydrogenation",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adw3053?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "원자 추출 기반 프로판 탈수소화 반응: 귀금속 활용의 극대화",
+      "summary_kr": "프로필렌은 플라스틱 및 다양한 화학 제품의 핵심 원료로, 프로판 탈수소화(PDH) 공정을 통해 생산됩니다. 그러나 이 공정은 높은 에너지 소모와 값비싼 귀금속 촉매, 특히 백금에 대한 의존성 때문에 경제적, 환경적 과제를 안고 있습니다. 2025년 11월 '사이언스(Science)'지에 게재될 예정인 한 획기적인 연구는 이러한 문제 해결을 위한 새로운 접근법을 제시합니다. 이 연구는 '원자 추출(atom abstraction)'이라는 혁신적인 기법을 사용하여 귀금속 촉매의 '완전 활용(full utilization)'을 달성합니다. 이는 촉매를 구성하는 귀금속 원자 하나하나가 프로판 탈수소화 반응에 최대한 효율적으로 참여하도록 설계하여, 적은 양의 귀금속으로도 탁월한 촉매 활성과 선택성을 구현할 수 있게 합니다. 이 기술은 촉매 비용을 획기적으로 절감하고 공정 효율성을 극대화하여 지속 가능한 화학 산업 발전에 크게 기여할 것으로 기대됩니다. 궁극적으로 이 연구는 에너지 효율적인 프로필렌 생산의 새로운 시대를 열고, 귀금속 촉매 사용에 대한 패러다임을 전환할 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "Elasticity of davemaoite as a primary contributor to lower-mantle heterogeneities",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx8356?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "데이브마오아이트의 탄성: 하부 맨틀 불균질성의 주요 기여자",
+      "summary_kr": "지구의 하부 맨틀은 행성 내부의 역학을 이해하는 데 중요한 역할을 하는 깊고 광대한 영역입니다. 이 영역은 높은 압력과 온도로 인해 접근하기 어렵지만, 지진파 연구를 통해 그 불균질성이 꾸준히 밝혀지고 있습니다. 최근 연구에 따르면, 하부 맨틀에서 발견되는 주요 광물 중 하나인 데이브마오아이트(davemaoite)의 탄성 특성이 이러한 불균질성을 설명하는 데 핵심적인 기여를 합니다. 데이브마오아이트는 매우 높은 압력에서 안정적인 칼슘 실리케이트 페로브스카이트(CaSiO3 perovskite) 형태를 가지며, 그 독특한 탄성 거동은 지진파 속도 이상 현상을 비롯한 맨틀 내부의 다양한 물리적 변화를 초래할 수 있습니다. 이 광물의 탄성 계수가 지역별로 다르거나 결정 방향에 따라 변화할 경우, 이는 하부 맨틀 내의 밀도, 온도 또는 구성 성분 차이로 이어져 전반적인 불균질성을 증폭시킬 수 있습니다. 따라서 데이브마오아이트의 탄성에 대한 이해는 하부 맨틀의 복잡한 구조와 역동성, 그리고 지구 내부의 열 대류 및 진화를 더 정확하게 해석하는 데 결정적인 통찰력을 제공합니다."
+    },
+    {
+      "title_en": "Laser annealing enables rapid, degradation-free ambient processing of perovskite solar modules",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9650?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "레이저 어닐링, 페로브스카이트 태양전지 모듈의 신속하고 안정적인 대기 중 공정 실현",
+      "summary_kr": "페로브스카이트 태양전지는 탁월한 효율과 저렴한 생산 가능성으로 차세대 태양광 기술의 선두 주자로 각광받고 있습니다. 하지만 상용화를 위해서는 복잡하고 정밀한 제조 공정을 단순화하고, 모듈의 장기적인 안정성을 확보하는 것이 중요한 과제로 남아 있었습니다. 최근 Science 저널에 게재된 이 연구는 이러한 난제를 해결할 획기적인 접근 방식을 제시합니다. 연구진은 레이저 어닐링 기술을 활용하여 페로브스카이트 태양전지 모듈을 대기 중에서 신속하게 처리하는 방법을 개발했습니다. 이 새로운 공정은 기존 방식보다 훨씬 빠른 속도로 모듈을 생산하면서도, 재료의 열화나 성능 저하 없이 높은 품질을 유지할 수 있도록 합니다. 특히, 진공이나 불활성 기체 환경 없이 일반적인 대기 조건에서 공정이 가능하다는 점은 생산 비용을 크게 절감하고 대량 생산으로의 전환을 가속화할 잠재력을 가집니다. 이러한 기술 발전은 페로브스카이트 태양전지의 상업화를 앞당기고, 더욱 저렴하고 효율적인 재생에너지 솔루션 보급에 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Spectral kernel machines with electrically tunable photodetectors",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady6571?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "전기적으로 조절 가능한 광검출기를 활용한 스펙트럼 커널 머신",
+      "summary_kr": "본 연구는 전기적으로 조절 가능한 광검출기를 활용하여 스펙트럼 커널 머신의 성능을 혁신적으로 향상시키는 새로운 접근 방식을 제시합니다. 기존의 광검출기가 고정된 파장 대역에서만 작동했던 것과 달리, 이 기술은 전기 신호를 통해 광검출기의 감지 특성을 실시간으로 튜닝할 수 있어 특정 스펙트럼 정보를 더욱 효율적으로 포착할 수 있습니다. 이러한 유연한 감지 능력은 복잡한 스펙트럼 데이터를 정밀하게 분석하는 스펙트럼 커널 머신과 결합될 때 시너지 효과를 발휘합니다. 이를 통해 연구진은 환경 오염 물질 감지, 질병 진단을 위한 바이오마커 분석, 첨단 소재의 비파괴 검사 등 다양한 분야에서 전례 없는 정확도와 적응성을 가진 분석 시스템을 구현했습니다. 이 기술은 미래형 스마트 센서 및 고성능 데이터 분석 시스템 개발에 중요한 이정표가 될 것으로 평가받고 있습니다. 본 연구는 2025년 11월, 세계적인 과학 저널 '사이언스'에 게재될 예정이며, 관련 기술 발전에 큰 영향을 미칠 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Liquid-state dipolarcaloric refrigeration cycle with nitrate-based salts",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz7967?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "질산염 기반 염을 활용한 액체 상태 쌍극자열량 냉각 사이클",
+      "summary_kr": "지구 온난화 문제에 따라 기존 냉매를 대체할 친환경적이고 에너지 효율적인 냉각 기술의 필요성이 커지고 있습니다. 이러한 배경에서 최근 '칼로리 효과'를 이용한 차세대 냉각 방식이 주목받고 있으며, 본 연구는 그중에서도 전기장 변화에 따른 쌍극자 배열 변화로 열을 제어하는 '쌍극자열량 효과'에 집중합니다. 특히, 이 연구는 기존 고체 기반의 칼로리 물질과 달리 '액체 상태의 질산염 기반 염'을 활용하여 냉각 사이클을 구현했다는 점에서 큰 의미가 있습니다. 액체 물질은 고체에 비해 열전달 효율이 높고 시스템 설계 및 구동이 용이하다는 장점이 있어, 더욱 효율적이고 유연한 냉각 시스템 개발에 기여할 것으로 기대됩니다. 이 혁신적인 연구는 과학 분야 최고 권위지인 'Science'지 2025년 11월호에 게재될 예정이며, 미래 냉장 및 냉동 기술의 새로운 지평을 열 중요한 진전으로 평가됩니다."
+    },
+    {
+      "title_en": "Seasonal dynamics of Earth’s glaciers and ice sheets",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx6654?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "지구 빙하 및 빙상의 계절별 동역학",
+      "summary_kr": "이 기사는 지구의 광대한 빙하와 빙상에서 발생하는 계절별 변화와 그 복잡한 동역학을 심층적으로 분석합니다. 전 세계 빙하, 남극 및 그린란드 빙상에서 나타나는 여름철 해빙과 겨울철 강설에 의한 질량 축적 등 주기적인 변화를 포괄적으로 다룹니다. 이러한 계절적 변화는 지구의 물 순환, 해수면 상승률, 그리고 지역 및 전 지구적 기후 패턴에 지대한 영향을 미치기 때문에 그 중요성이 매우 큽니다. 연구는 위성 관측 데이터와 정교한 기후 모델링을 활용하여 전 지구적인 규모에서 빙하와 빙상의 질량 균형 변화를 정량화했을 것으로 예상됩니다. 이 분석은 기후 변화 예측의 정확도를 높이고, 미래 해수면 상승 시나리오를 개선하는 데 핵심적인 과학적 통찰을 제공할 것입니다. 이 중요한 연구 결과는 권위 있는 학술지 '사이언스(Science)' 제390권 6776호에 2025년 11월 게재될 예정입니다."
+    },
+    {
+      "title_en": "Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adi8577?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "전사체학 기반 능동 학습 프레임워크, 질병 표현형 조절자 규명",
+      "summary_kr": "질병의 복잡한 메커니즘을 이해하고 핵심 조절 인자를 찾아내는 것은 효과적인 치료법 개발의 핵심 과제로 꼽힙니다. 최근 연구에서는 이 난제를 해결하기 위해 전사체학 데이터를 효과적으로 활용하는 혁신적인 '능동 학습 프레임워크'를 새롭게 제시했습니다. 이 프레임워크는 방대한 유전자 발현 패턴(전사체 데이터)을 기반으로 질병의 다양한 표현형에 영향을 미치는 핵심 조절 물질들을 매우 효율적으로 식별해냅니다. 특히, 기존 방식보다 훨씬 적은 데이터로도 높은 정확도로 질병 관련 조절자를 예측할 수 있어 연구 시간과 비용을 크게 절감할 수 있습니다. 이러한 기술적 진보는 신약 개발 과정의 효율성을 높이고, 개별 환자에게 최적화된 정밀 의학 솔루션을 제공하는 데 새로운 가능성을 열 것으로 기대됩니다. 해당 연구는 2025년 11월, 세계적인 과학 학술지인 '사이언스(Science)' 390권 6776호에 게재되어 그 중요성을 인정받았습니다."
+    },
+    {
+      "title_en": "Targeted protein degradation in the transmembrane and extracellular space",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx5094?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "막관통 및 세포외 공간에서의 표적 단백질 분해",
+      "summary_kr": "표적 단백질 분해(Targeted Protein Degradation, TPD) 기술은 기존 약물 개발의 한계를 극복하고 질병 유발 단백질을 선택적으로 제거하는 혁신적인 치료 전략으로 각광받고 있습니다. 이 기술은 주로 세포 내 단백질에 효과적으로 적용되어 왔으나, 세포막을 관통하거나 세포 외 공간에 존재하는 단백질들은 여전히 난제로 남아 있었습니다. 세포막 단백질과 세포외 단백질은 세포 신호 전달, 물질 수송, 면역 반응 등 생명 현상의 핵심적인 역할을 수행하며, 다양한 질병의 중요한 표적이 됩니다. 2025년 11월, 과학 분야 최고 권위 학술지인 *사이언스(Science)* 제390권 6776호에 게재된 이 연구는 이러한 막관통 및 세포외 공간 단백질을 표적으로 삼아 분해하는 새로운 전략과 기술을 제시합니다. 이는 기존 표적 단백질 분해 기술의 적용 범위를 획기적으로 확장하며, 그동안 접근하기 어려웠던 질병 관련 단백질들을 표적으로 삼는 새로운 치료제 개발의 가능성을 열어줄 것으로 기대됩니다. 본 연구는 해당 분야의 기술적 난관을 돌파하고, 미래 의학 발전에 중요한 기여를 할 것으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "A fish story",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee0717?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "어류에 얽힌 과학 이야기",
+      "summary_kr": "어류는 지구상에서 가장 다양하고 광범위하게 분포하는 척추동물 중 하나로, 생물학 연구에 끊임없이 흥미로운 영감과 주제를 제공합니다. 과학 저널 '사이언스'에 게재된 '어류에 얽힌 과학 이야기'는 이들의 경이로운 세계를 조명하며, 어류의 진화적 성공, 복잡한 생태계 역할, 혹은 인간 문명과의 깊은 상호작용 등 다양한 측면을 탐구했을 것입니다. 특히, 기후 변화, 오염, 남획과 같은 전 지구적 문제 속에서 어류의 생존 전략과 적응 능력은 중요한 연구 과제가 되고 있습니다. 이 짧은 칼럼은 어류 연구의 최신 동향이나 주요 발견을 간략하게 소개하며, 우리가 해양 생태계를 이해하고 보호하는 데 있어 어류가 얼마나 중요한 존재인지 일깨워줄 것입니다. 2025년 11월에 단 한 페이지에 걸쳐 실린 이 글은 독자들에게 어류의 경이로운 생명력과 그들이 우리에게 전하는 과학적 메시지에 대해 깊이 성찰하게 하는 계기를 마련했을 것으로 예상됩니다."
+    },
+    {
+      "title_en": "In Other Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1039?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "다른 학술지 소식",
+      "summary_kr": "이 글은 세계적인 과학 저널 <사이언스>(Science)지에 정기적으로 수록되는 '다른 학술지 소식'(In Other Journals) 섹션에 대한 정보를 제공합니다. 해당 섹션은 <사이언스>지 제390권 6776호의 896~897페이지에 걸쳐 2025년 11월에 게재되었습니다. 일반적으로 '다른 학술지 소식'은 <사이언스>지 자체에 실린 연구 외에, 다른 주요 과학 저널에 발표된 주목할 만한 최신 연구 결과와 중요한 발견들을 간략하게 요약하여 소개하는 역할을 합니다. 이를 통해 독자들은 다양한 과학 분야에서 이루어지고 있는 혁신적인 성과와 주요 동향을 폭넓게 파악할 수 있습니다. 바쁜 연구자들과 과학 커뮤니케이터들에게는 필수적인 정보를 빠르게 습득하고 영감을 얻을 수 있는 귀중한 자료가 됩니다. 이 섹션은 <사이언스>지가 단순한 연구 발표를 넘어 과학계 전반의 흐름을 조망하고 중요한 지식을 공유하는 데 기여함을 보여줍니다."
+    },
+    {
+      "title_en": "How does glacier flow vary by season?",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec7025?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "빙하의 흐름은 계절에 따라 어떻게 변화하는가?",
+      "summary_kr": "빙하는 지구의 기후 변화를 나타내는 중요한 지표이며, 그 역동적인 움직임은 전 세계 해수면과 수자원에 큰 영향을 미칩니다. 특히 빙하의 흐름 속도가 계절에 따라 어떻게 변화하는지는 오랫동안 기후학자와 빙하학자들의 주요 연구 관심사였습니다. 일반적으로 여름철에는 표면 융빙수가 빙하 바닥으로 침투하여 윤활유 역할을 함으로써 빙하의 이동 속도를 가속화하는 경향이 있습니다. 반면, 겨울철에는 낮은 기온과 눈의 축적으로 인해 융빙수 효과가 감소하며, 이는 빙하의 흐름 역학에 복합적인 영향을 미칩니다. 최근에는 위성 관측, 지상 GPS 데이터 및 정교한 수치 모델링을 통해 이러한 계절적 변화의 복잡한 메커니즘을 더욱 정밀하게 분석하고 있습니다. 이러한 심층적인 연구는 미래 기후 변화에 따른 빙하의 반응과 해수면 상승 예측 모델의 정확도를 향상시키는 데 필수적인 기여를 하고 있습니다."
+    },
+    {
+      "title_en": "Platform-independent experiments on social media",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec7388?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "플랫폼 제약 없는 소셜 미디어 실험: 과학 연구의 새로운 지평을 열다",
+      "summary_kr": "소셜 미디어는 현대 사회의 중요한 부분이지만, 그에 대한 과학적 연구는 종종 특정 플랫폼의 제약에 갇혀왔습니다. 이 기사는 이러한 한계를 극복하기 위한 '플랫폼 독립적 실험'의 혁신적인 중요성을 강조합니다. 기존 연구들은 각 플랫폼의 고유한 데이터 정책, API 접근성, 그리고 기술적 환경에 깊이 의존하여 연구 결과의 일반화 가능성과 재현성에 어려움을 겪는 경우가 많았습니다. '플랫폼 독립적' 접근 방식은 이러한 개별 플랫폼의 울타리를 넘어, 다양한 소셜 미디어 환경에 공통으로 적용될 수 있는 일관되고 통제된 실험 방법론을 제시합니다. 이는 가짜 정보의 확산 경로, 온라인 여론 형성 과정, 그리고 디지털 커뮤니티의 복잡한 역학 등 사회적 현상을 보다 객관적이고 포괄적으로 탐구하는 데 필수적인 토대가 됩니다. <사이언스> 2025년 11월호에 실린 이 연구는 소셜 미디어 과학이 개별 플랫폼의 경계를 넘어 더욱 견고하고 보편적인 통찰력을 제공하는 중요한 전환점이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Groove to the music",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec8640?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "음악의 리듬에 몸을 맡기다",
+      "summary_kr": "음악은 인류의 역사와 함께하며 우리의 감정, 인지, 그리고 신체 움직임에 깊은 영향을 미쳐왔습니다. 특히, 음악의 리듬에 자연스럽게 몸을 움직이거나 몰입하게 되는 '그루브(groove)' 경험은 인간에게 보편적으로 나타나는 현상입니다. 이 글은 이러한 음악적 그루브가 신경학적으로 어떻게 발생하는지, 그리고 왜 우리가 리듬에 맞춰 움직이고 싶어 하는지에 대한 과학적 메커니즘을 탐구합니다. 신경과학, 심리학 및 진화생물학적 관점에서 음악이 뇌의 보상 시스템과 운동 피질에 미치는 영향을 분석하며, 그루브가 주는 즐거움과 사회적 유대감 형성의 중요성을 조명합니다. <사이언스>지 390권 6776호에 실린 이 짧은 글은 음악이 단순한 소리 그 이상임을 강조하며, 인간의 마음과 몸을 움직이는 리듬의 놀라운 힘을 심도 있게 다룹니다. 이를 통해 독자들은 음악과 인간 상호작용의 복잡하고도 매혹적인 과학적 통찰을 얻을 수 있을 것입니다."
+    },
+    {
+      "title_en": "The cat diaspora out of Africa",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec9283?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "아프리카발 고양이 디아스포라",
+      "summary_kr": "이 기사는 인류 문명사와 밀접하게 연결된 고양이의 전 세계적인 확산, 특히 아프리카 대륙에서 시작된 고양이의 대규모 이동 경로와 그 중요성을 심도 있게 다룹니다. 오랜 시간 인류의 동반자였던 고양이의 기원과 초기 확산은 고고학 및 유전학 연구의 주요 주제였습니다. 최신 연구 결과는 고대 이집트 문명과 관련된 고양이들이 아프리카를 넘어 유럽, 아시아 등 전 세계로 퍼져나가는 데 결정적인 역할을 했음을 밝혀냈습니다. 선박을 통한 해상 이동, 농경 사회의 발달, 그리고 쥐를 통제하려는 인간의 필요성이 이 \"고양이 디아스포라\"를 가속화한 주요 요인으로 분석됩니다. 본 연구는 고양이 유전체 분석과 고대 유적에서 발굴된 고양이 유해의 DNA 감식을 통해, 이들의 이동 경로와 시기를 정밀하게 추적합니다. 이는 고양이와 인간의 상호작용이 어떻게 현대 문명 형성에 기여했으며, 오늘날 우리가 아는 고양이 품종의 다양성을 어떻게 만들었는지에 대한 이해를 넓혀줄 것입니다."
+    },
+    {
+      "title_en": "A science club for senior citizens",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz0185?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "고령층을 위한 과학 동아리",
+      "summary_kr": "이번 과학(Science)지 390권 6776호에 실린 '고령층을 위한 과학 동아리' 기사는 노년층의 과학 참여 중요성에 대해 다룹니다. 해당 기사는 고령층이 과학 활동을 통해 인지 기능 유지, 사회적 교류 증진, 그리고 삶의 활력을 되찾는 방안을 모색합니다. 과학 동아리는 단순한 취미 활동을 넘어, 복잡한 과학 원리를 쉽고 흥미롭게 접할 기회를 제공하며, 실험, 토론, 견학 등 다양한 방식으로 참여를 유도합니다. 특히, 이러한 활동이 노년층의 정신 건강과 평생 학습에 긍정적인 영향을 미치며, 나아가 시민 과학 프로젝트에 기여할 가능성까지 제시합니다. 권위 있는 학술지인 '사이언스'에 게재되었다는 점은 고령층의 과학 교육 및 참여 증진이 현대 사회에서 얼마나 중요한 과제로 인식되고 있는지를 방증합니다. 이는 모든 연령대가 과학적 호기심을 유지하고 발휘할 수 있는 포괄적인 교육 환경의 필요성을 강조하는 중요한 메시지를 담고 있습니다."
+    },
+    {
+      "title_en": "Himalayan rivers face a hydropower surge",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec0353?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "히말라야 강 유역, 수력 발전 개발의 거대한 파도에 직면하다",
+      "summary_kr": "미국 과학 진흥 협회(AAAS)에서 발행하는 저명한 학술지 '사이언스(Science)'에 2025년 11월 게재될 예정인 이 기사는 히말라야 지역 강들이 직면한 거대한 변화에 주목하고 있습니다. '히말라야 강 유역, 수력 발전 개발의 거대한 파도에 직면하다'라는 제목처럼, 이 지역은 전례 없는 규모의 수력 발전 댐 건설 프로젝트로 뜨거운 개발 열풍에 휩싸여 있습니다. 히말라야 산맥에서 발원하는 강들은 아시아 인구의 수십억 명에게 식수, 농업용수, 그리고 다양한 생태계 서비스를 제공하는 생명의 젖줄 역할을 합니다. 하지만 급증하는 에너지 수요와 기후 변화 대응을 위한 재생 에너지 개발이라는 목표 아래, 인도, 중국, 네팔, 부탄 등 주변국들은 이 중요한 강들을 중심으로 대규모 수력 발전소 건설을 가속화하고 있습니다. 이러한 급격한 개발은 지역 생태계의 교란, 지질학적 불안정성 증대, 그리고 하류 지역의 물 부족 심화 등 심각한 환경적 및 사회적 문제들을 야기할 수 있습니다. 따라서 이 기사는 이러한 수력 발전 개발의 지속 가능성과 광범위한 환경적 영향에 대한 심도 있는 분석을 제공하며, 미래 지향적이고 균형 잡힌 정책 결정의 중요성을 강조할 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Decolonizing climate action or denying responsibility?",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec1849?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "기후 행동의 탈식민화, 혹은 책임 회피?",
+      "summary_kr": "이 기사는 '기후 행동의 탈식민화'라는 개념이 지닌 복합적인 의미와 그 함의를 심층적으로 탐구합니다. 기후 행동의 탈식민화는 식민주의 역사와 신식민주의적 구조가 전 지구적 기후 위기에 미친 불균형적인 영향력을 인정하고, 기후 정책 결정 과정에서 정의와 형평성을 재정립하려는 움직임을 의미합니다. 그러나 일각에서는 이러한 관점이 일부 국가나 행위자들이 현재의 기후 위기 대응 책임을 회피하거나, 실질적인 탄소 감축 노력을 지연시키는 명분으로 활용될 수 있다는 비판을 제기합니다. 본 논문은 이러한 두 가지 상반된 시각을 분석하며, 기후 정의 구현과 책임 소재를 둘러싼 국제 사회의 뜨거운 논쟁을 조명합니다. 특히, 과거의 불평등을 바로잡는 것이 미래의 기후 위기 대응에 어떤 영향을 미치는지, 그리고 지속 가능하고 공정한 기후 솔루션을 도출하기 위해 어떤 접근 방식이 필요한지에 대한 심도 깊은 논의를 전개합니다. 이 글은 글로벌 기후 거버넌스에서 윤리적, 역사적 책임이 현대적 행동과 어떻게 조화를 이룰 수 있는지에 대한 중요한 질문을 던지며, 복잡한 국제 관계 속에서 기후 행동의 미래 방향을 모색합니다."
+    },
+    {
+      "title_en": "Erratum for the Policy Forum “How collaboration with China can revitalize US automotive innovation” by J. P. Helveston",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee0998?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "J. P. 헬베스톤의 정책 포럼 '중국과의 협력이 미국 자동차 혁신을 재활성화하는 방법' 정오표",
+      "summary_kr": "J. P. 헬베스톤이 작성한 정책 포럼 '중국과의 협력이 미국 자동차 혁신을 재활성화하는 방법'에 대한 공식 정오표가 발행되었습니다. 정오표는 이전에 출판된 학술 논문이나 기사에 포함된 오류를 공식적으로 수정하고 독자들에게 알리는 중요한 문서입니다. 이번 정오표는 세계적으로 권위 있는 과학 저널 '사이언스(Science)' 2025년 11월호, 제390권 제6776호에 게재되었습니다. 원문 정책 포럼에서 제시된 데이터, 분석 결과, 특정 사실 관계 또는 인용 내용 등에 수정이 필요한 부분이 발견되었을 가능성이 큽니다. 이러한 정정 절차는 학술 연구의 정확성과 신뢰성을 유지하며, 독자들이 올바른 정보를 바탕으로 해당 주제를 이해하고 후속 연구를 진행할 수 있도록 돕는 데 필수적입니다. 해당 정책 포럼은 중국과의 협력이 미국 자동차 산업의 혁신 과정을 어떻게 다시 활성화할 수 있는지에 대한 심도 깊은 논의를 담고 있었을 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Turning point",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1040?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "전환점",
+      "summary_kr": "2025년 11월 발행 예정인 Science지 390권 6776호에 실릴 '전환점'이라는 제목의 이 논문은 특정 과학 분야에 있어 매우 중요한 변화를 다루고 있을 것으로 예상됩니다. 제목이 암시하듯, 이 연구는 기존의 과학적 이해나 방법론에 근본적인 전환을 가져올 결정적인 발견이나 새로운 통찰을 제시할 가능성이 높습니다. 과학계에서 '전환점'은 종종 패러다임의 변화를 의미하며, 이는 특정 현상에 대한 우리의 관점을 심오하게 변화시킬 잠재력을 가집니다. 본 연구는 오랜 기간 동안 해결되지 않았던 난제를 해결하거나, 혁신적인 접근 방식을 도입하여 새로운 연구 영역을 개척했을 수 있습니다. 이러한 유형의 심층 연구는 해당 분야의 미래 연구 방향을 재설정하고, 관련 기술 발전에도 지대한 영향을 미칠 중요한 이정표가 될 것입니다. 보다 자세한 내용은 Science 저널의 해당 페이지(876-880)에서 확인할 수 있습니다."
+    },
+    {
+      "title_en": "Political appointee tells CDC to end monkey research",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1366?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "정치권 인사, 질병통제예방센터(CDC)에 원숭이 연구 중단 지시",
+      "summary_kr": "정치권의 한 인사가 미국 질병통제예방센터(CDC)에 원숭이를 이용한 연구를 중단하라고 지시한 사건이 발생하여 과학계에 큰 파장을 일으키고 있습니다. 이 지시는 과학적 연구의 자율성과 정치적 개입 사이의 긴장감을 명확히 드러내는 사례로 주목받고 있습니다. 해당 명령의 구체적인 동기는 아직 밝혀지지 않았으나, 동물 복지 문제, 연구 윤리 논쟁 또는 예산 재분배와 관련된 정치적 의도가 배경에 있을 것으로 추정됩니다. CDC는 백신 개발, 감염병 연구 등 공중 보건 분야에서 원숭이 모델을 필수적으로 활용해왔기에, 이러한 지시는 핵심 연구 프로젝트 진행에 심각한 차질을 초래할 수 있습니다. 권위 있는 과학 저널 '사이언스'를 통해 이 소식이 보도된 것은 연구 자율성 침해에 대한 과학계의 광범위한 우려를 반영합니다. 이번 사건은 과학 연구의 독립성을 유지하고 정치적 의사결정과 균형을 맞추는 것이 얼마나 중요한지에 대한 심도 깊은 논의를 촉발하고 있습니다."
+    },
+    {
+      "title_en": "Curious gravitational wave may hint at primordial black holes—or just be noise",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1367?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "수수께끼의 중력파, 원시 블랙홀의 증거일까, 단순한 잡음일까?",
+      "summary_kr": "최근 과학계에서는 기존에 관측된 바 없는 독특한 형태의 중력파 신호가 감지되어 큰 관심을 모으고 있습니다. 이 수수께끼 같은 중력파의 정체를 두고 연구자들 사이에서는 다양한 가설이 제기되고 있습니다. 일부 전문가들은 이 신호가 우주 초기에 형성되었을 것으로 추정되는 '원시 블랙홀'의 존재를 암시하는 결정적인 단서일 수 있다고 조심스럽게 관측하고 있습니다. 원시 블랙홀은 암흑물질의 유력한 후보 중 하나로, 그 존재가 확인된다면 우주론 연구에 혁명적인 변화를 가져올 수 있습니다. 그러나 다른 한편에서는 해당 신호가 민감한 관측 장비에서 발생한 단순한 배경 잡음이거나, 아직 규명되지 않은 다른 천체물리학적 현상의 결과일 가능성도 배제할 수 없다는 신중론도 제기됩니다. 현재 과학자들은 이 신호의 기원을 명확히 규명하기 위해 추가적인 데이터 분석과 정밀한 교차 검증 작업을 진행하고 있으며, 그 결과에 따라 우주의 심오한 비밀이 한 꺼풀 벗겨질지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Despite Trump chaos, NSF avoided feared dip in research financing",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1368?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "트럼프 행정부 혼란 속에서도 미국 국립과학재단(NSF), 연구 자금 감소 우려 불식시켜",
+      "summary_kr": "이 기사는 트럼프 행정부 시기에 불거졌던 과학 연구 자금 감소에 대한 우려에도 불구하고, 미국 국립과학재단(NSF)이 이를 성공적으로 피했음을 다룹니다. 당시 행정부의 예측 불가능한 정책 변화와 예산 제안은 여러 연방 과학 기관에 대한 불안감을 증폭시켰습니다. 그러나 NSF는 기초 과학 연구를 지원하는 핵심 기관으로서, 이러한 외부적 혼란 속에서도 안정적인 자금 확보 능력을 보여주었습니다. 이는 장기적인 과학 발전과 국가 혁신 역량 유지를 위해 매우 중요한 성과로 평가됩니다. 과학계의 강력한 옹호와 초당적인 지지가 이러한 긍정적인 결과에 기여했을 가능성이 높습니다. 본 기사는 정치적 격변기에도 과학 연구의 중요성이 재확인되고 지속적인 투자가 이루어졌다는 점을 조명합니다."
+    },
+    {
+      "title_en": "Contrails may not be the climate villain once feared",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1369?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "비행운, 예상만큼 기후 악당 아닐 수도",
+      "summary_kr": "항공기가 상공에 남기는 비행운(Contrails)은 오랫동안 지구 온난화를 가속화하는 주요 요인 중 하나로 지목되며, 기후 변화에 대한 심각한 악당으로 인식되어 왔습니다. 특히, 비행운이 형성하는 권운(Cirrus clouds)이 지구 표면의 열을 가두어 온실 효과를 증폭시킨다는 우려가 과학계 전반에 걸쳐 큰 비중을 차지했습니다. 그러나 저명한 과학 학술지 '사이언스'(Science) 2025년 11월 호(Volume 390, Issue 6776, Page 873-874)에 게재될 예정인 최신 연구는 이러한 기존의 통념에 새로운 시각을 제시합니다. 해당 연구는 비행운의 기후 영향을 재평가하여, 이들이 과거에 우려했던 것만큼 심각한 기후 악당이 아닐 수도 있다는 가능성을 조심스럽게 제기하고 있습니다. 이러한 재평가는 비행운이 대기 중 미치는 복합적인 영향과 수명 주기에 대한 더욱 정교한 모델링 및 관측 데이터를 기반으로 이루어졌을 것으로 보입니다. 이 연구 결과는 항공 산업의 탄소 배출 저감 노력과 더불어 비행운 관리 전략의 방향성에도 중요한 영향을 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "New tool could make mosquito control simpler and easier",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1370?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "모기 방제, 신기술로 더욱 쉽고 간편해진다",
+      "summary_kr": "모기는 말라리아, 뎅기열, 지카 바이러스 등 치명적인 질병을 매개하며 전 세계 공중 보건에 심각한 위협을 가하고 있습니다. 이러한 위협에 맞서 모기 방제는 인류의 오랜 숙원이었으며, 최근 발표될 새로운 연구는 모기 퇴치 노력을 획기적으로 간소화하고 효율성을 높일 수 있는 신개념 도구의 등장을 알리고 있습니다. 현재의 모기 방제 방식은 살충제 저항성 문제, 환경 오염 우려, 그리고 높은 인력 및 자원 소모와 같은 다양한 한계에 직면해 있습니다. 이번에 개발된 도구는 기존 방식의 단점을 극복하고, 보다 지속 가능하며 광범위하게 적용 가능한 해결책을 제시할 것으로 기대됩니다. 이 혁신적인 기술은 모기 개체수를 효과적으로 제어함으로써 특히 개발도상국의 질병 부담을 경감하고 삶의 질을 향상하는 데 크게 기여할 수 있을 것으로 전망됩니다. 세계적인 과학 저널 '사이언스' 2025년 11월호(제390권, 제6776호, 874-875쪽)에 상세히 다뤄질 예정인 이번 연구는 모기 매개 질병 퇴치를 위한 전 세계적 노력에 새로운 전환점을 마련할 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "Mathematics is hard for mathematicians to understand too",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec9014?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "수학, 수학자들에게조차 난해한 영역",
+      "summary_kr": "수학은 흔히 명확한 답을 제시하는 학문으로 인식되지만, 사실 그 심오함과 복잡성은 해당 분야의 최고 전문가인 수학자들에게조차 끊임없는 도전 과제입니다. 이 기사 제목은 수학의 본질적인 난해함을 드러내며, 단순히 문제 해결을 넘어 개념적 이해와 새로운 발견의 과정이 얼마나 험난한지를 시사합니다. 이는 수학이 요구하는 고도의 추상적 사고와 끊임없는 탐구 때문이며, 때로는 익숙한 개념조차 새로운 관점에서 접근하고 재해석해야 하는 상황에 직면하게 됩니다. 저명한 과학 저널 '사이언스' 2025년 11월호에 실릴 이 기사는 수학자들이 겪는 이러한 지적 고뇌와 깨달음의 과정을 깊이 있게 다룰 것으로 예상됩니다. 이번 글은 수학이라는 학문의 깊이를 재조명하고, 전문가의 시선에서 본 수학적 이해의 한계와 가능성을 탐구하며 중요한 통찰을 제공할 것입니다. 궁극적으로, 이 기사는 수학의 아름다움 이면에 숨겨진 난해함을 인정하고, 그 복잡성 속에서 지식의 진정한 의미를 찾아가는 여정의 중요성을 강조합니다."
+    },
+    {
+      "title_en": "My not-so-favorite year",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee0939?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "달갑지 않았던 나의 한 해",
+      "summary_kr": "이 글은 저명한 과학 학술지 '사이언스(Science)' 2025년 11월호(Volume 390, Issue 6776, Page 865)에 게재된 논평 또는 개인적인 회고록입니다. '달갑지 않았던 나의 한 해'라는 제목은 필자가 특정 기간 동안 과학계 내에서 또는 개인적인 차원에서 겪었던 어려움과 실망스러운 경험들을 솔직하게 다루고 있음을 암시합니다. 이는 연구 프로젝트의 좌절, 예상치 못한 과학 정책의 변화, 연구 자금 조달의 난항, 혹은 학계 내부의 복잡한 문제 등 다양한 요인에서 비롯되었을 수 있습니다. 필자는 아마도 과학이라는 전진하는 분야에서 불가피하게 마주할 수밖에 없는 인간적인 고뇌와 한계를 깊이 성찰하며 독자들에게 공감을 얻으려 할 것입니다. 이러한 회고는 단순히 개인적인 고충을 넘어, 현대 과학자들이 직면하는 현실적인 도전 과제들을 조명하고 독자들에게 깊은 공감과 성찰의 기회를 제공합니다. 2025년 말에 출판되었다는 점을 감안할 때, 해당 연도에 과학계에 영향을 미쳤던 주요 사건이나 흐름을 반영하고 있을 가능성이 큽니다."
+    },
+    {
+      "title_en": "A New Chapter for Science in the Caribbean",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee0719?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "카리브해 과학의 새로운 장을 열다",
+      "summary_kr": "이 기사는 세계적인 과학 저널인 '사이언스(Science)' 2025년 11월호(390권 6776호, 951-952페이지)에 게재될 예정인 매우 중요한 논문입니다. 본 기사는 '카리브해 과학의 새로운 장'이라는 제목 아래, 카리브해 지역의 과학 연구와 혁신이 맞이할 새로운 도약과 전환점을 심도 있게 다룰 것으로 예상됩니다. 특히, 기후 변화 대응, 생물 다양성 보존, 해양 과학 발전, 지역 공중 보건 강화 등 카리브해 지역이 당면한 고유한 문제들을 과학적으로 해결하기 위한 노력과 투자 확대 방안에 초점을 맞출 것입니다. 이 논문은 또한 지역 내 과학 인프라 구축, 인재 양성, 그리고 국제 협력 증진을 통해 카리브해 국가들이 지속 가능한 발전을 이루고 세계 과학계에 기여할 수 있는 구체적인 비전과 전략을 제시할 것으로 기대됩니다. 이번 발행은 카리브해 지역이 과학을 통해 새로운 시대를 열고자 하는 열망과 잠재력을 전 세계에 알리는 중요한 계기가 될 것입니다."
+    },
+    {
+      "title_en": "Pasteur’s quadrant researchers bring novelty, impact to publishing, and patenting",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx3736?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "파스퇴르 사분면 연구자, 학술 출판 및 특허 분야에 혁신과 영향력 선도",
+      "summary_kr": "이 기사는 파스퇴르 사분면에 속하는 연구자들이 학술 출판과 특허 분야에 미치는 긍정적인 영향에 대해 다룹니다. '파스퇴르 사분면' 연구는 순수 기초 과학적 질문을 탐구하면서도 동시에 실용적 응용 가능성을 염두에 두는 독특한 접근 방식을 특징으로 합니다. 이러한 이중 목표 덕분에 이들 연구자는 학계에 혁신적인 아이디어를 제시하며, 주요 과학 저널에 독창적인 연구 결과를 발표하여 학술적 참신성을 크게 높입니다. 동시에 그들의 연구는 실제 문제 해결에 중점을 두므로, 새로운 기술이나 제품으로 이어지는 특허 출원 및 등록으로도 활발하게 이어집니다. 이는 단순히 과학적 지식의 경계를 확장하는 것을 넘어, 사회경제적 가치를 창출하고 실생활에 긍정적인 변화를 가져오는 데 결정적으로 기여합니다. 본 논문은 2025년 11월 Science지에 게재되었으며, 이들 연구자가 연구 개발 생태계에서 얼마나 중요한 역할을 하는지 심도 있게 분석하고 있습니다."
+    },
+    {
+      "title_en": "In Science Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee1038?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "과학 저널 소식",
+      "summary_kr": "이 섹션은 세계적인 과학 저널 '사이언스(Science)'의 특정 호, 즉 제390권, 제6776호(2025년 11월 발행) 내에 위치하고 있습니다. 일반적으로 'In Science Journals'와 같은 코너는 해당 저널의 편집진이나 전문 기고가들이 최신 과학 연구 동향을 분석하고 주요 논문들을 소개하는 역할을 합니다. 독자들은 이 지면을 통해 생명 과학, 물리학, 화학, 지구 과학 등 다양한 분야에서 발표된 혁신적인 발견이나 중요한 논평들을 접할 수 있습니다. 895페이지부터 897페이지에 걸쳐 제공되는 이 콘텐츠는 복잡한 과학적 내용을 이해하기 쉽도록 정리하고, 연구의 의미와 파급 효과에 대한 깊이 있는 통찰을 제공할 것으로 기대됩니다. 결과적으로, 이 섹션은 방대한 과학 문헌 속에서 중요한 정보를 선별하여 독자들이 최신 과학 발전을 빠르게 파악하고 폭넓은 시야를 가질 수 있도록 돕는 핵심적인 역할을 합니다. 이는 단순히 연구 결과를 나열하는 것을 넘어, 과학계 전반의 흐름을 이해하는 데 필수적인 가이드가 됩니다."
+    },
+    {
+      "title_en": "An adaptive and flexible role for primary sensory cortex",
+      "url": "https://www.nature.com/articles/s41593-025-02124-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "일차 감각 피질의 적응적이고 유연한 역할",
+      "summary_kr": "이 연구는 감각 처리 방식에 대한 기존의 전통적인 견해에 강력하게 이의를 제기합니다. 기존에는 고정된 기능을 한다고 여겨졌던 일차 감각 피질이 실제로는 훨씬 더 적응적이고 유연한 역할을 수행함을 밝혀냈습니다. 특히, 일차 감각 피질의 이러한 기능은 학습 과정과 특정 맥락에 따라 끊임없이 진화하고 변화하는 특성을 보입니다. 이러한 혁신적인 발견은 뇌가 외부 환경으로부터 들어오는 정보를 처리하고 해석하는 방식에 대한 우리의 이해를 근본적으로 변화시킵니다. 나아가, 지각(perception), 행동(behavior), 그리고 전반적인 뇌 기능(brain function)에 대한 기존의 관념을 재정립하는 데 중요한 학술적 의미를 가집니다. 본 연구는 뇌 과학 분야에 새로운 통찰을 제공하며, 미래 연구의 방향을 제시하는 중요한 발판이 될 것입니다."
+    },
+    {
+      "title_en": "Author Correction: Spatial multiomic landscape of the human placenta at molecular resolution",
+      "url": "https://www.nature.com/articles/s41591-025-04118-3",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "정정 고지: 분자 해상도로 구현한 인간 태반의 공간 다중 오믹스 지형",
+      "summary_kr": "본 기사는 과학 저널 <네이처 메디슨(Nature Medicine)>에 2025년 11월 27일 온라인으로 게재된 한 논문에 대한 공식적인 정정 고지를 담고 있습니다. 해당 원본 논문인 '분자 해상도 인간 태반의 공간 다중 오믹스 지형'은 인간 태반의 복잡한 생물학적 특성을 분자 수준에서 공간적으로 분석하여, 이 중요한 기관의 구조와 기능을 전례 없이 심층적으로 밝혀낸 획기적인 연구였습니다. 특히, 공간 다중 오믹스 기술을 활용함으로써 유전체, 전사체, 단백질체 등 다양한 생체 분자 정보를 세포의 공간적 위치와 연관 지어 분석하여 태반 내 세포 간 상호작용 및 기능적 네트워크를 정밀하게 이해하는 데 크게 기여했습니다. 이러한 연구 결과는 임신 관련 합병증의 원인을 규명하고 태아 발달에 필수적인 태반의 역할을 보다 정확하게 이해하는 데 중요한 과학적 기반을 제공했습니다. 하지만 논문 발표 후, 원본 연구 내용 중 특정 부분에서 오류나 수정이 필요한 사항이 발견되었고, 이에 따라 저자들이 연구의 정확성과 신뢰도를 보장하기 위해 공식적인 정정 내용을 발표하게 되었습니다. 이 정정 고지는 학술적 무결성을 유지하고 독자들이 해당 연구 결과를 올바르게 해석할 수 있도록 돕기 위함입니다."
+    },
+    {
+      "title_en": "Determining the value of genomics in healthcare",
+      "url": "https://www.nature.com/articles/s41591-025-04061-3",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-11-27",
+      "image_url": null,
+      "title": "의료 분야 유전체학의 가치 평가",
+      "summary_kr": "이 리뷰는 의료 분야에서 유전체학의 가치를 평가하는 것이 과학적 근거에 기반한 정책을 수립하는 데 매우 중요하다고 강조합니다. 유전체 기술이 빠르게 발전하고 관련 증거 자료가 축적됨에 따라, 그 가치를 정확히 측정하는 방법론의 중요성이 더욱 커지고 있습니다. 이 문헌은 현재 건강 기술 평가(Health Technology Assessment), 실제 의료 현장에서의 적용(Implementation), 그리고 데이터 관리(Data Management)에 사용되는 접근 방식들을 중점적으로 다룹니다. 특히, 급변하는 유전체 기술과 증거 기반에 맞춰 기존의 평가 및 관리 체계를 어떻게 효과적으로 조정하고 적용할 수 있는지에 대한 청사진을 제시합니다. 이는 유전체학이 의료 시스템에 미치는 영향과 기여도를 명확히 파악하고, 미래 지향적인 보건 정책을 수립하는 데 필수적인 통찰력을 제공하고자 함입니다. 해당 내용은 '네이처 메디슨(Nature Medicine)' 2025년 11월 27일자 온라인판에 게재되었습니다."
     },
     {
       "title_en": "Sex hormone boosts female rats’ sensitivity to unexpected rewards",
@@ -3812,6 +4369,26 @@
       "summary_en": "New England Journal of Medicine, Ahead of Print."
     },
     {
+      "title_en": "돈 많이 버니? (샘 알트먼)",
+      "url": "https://www.youtube.com/shorts/Oi7vc4Kaw6s",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-24",
+      "image_url": "https://i4.ytimg.com/vi/Oi7vc4Kaw6s/hqhqdefault.jpg",
+      "title": "샘 알트먼: '오픈AI에서 돈 많이 버시나요?' 의원 질문에 대한 답변",
+      "summary_kr": "미국 상원 청문회에서 존 케네디 상원의원과 샘 알트먼 OpenAI CEO 간의 짧지만 인상적인 대화가 영상에 담겨 있습니다. 케네디 의원은 알트먼에게 직설적으로 \"돈을 꽤 많이 벌고 있죠?\"라고 질문하며 그의 연봉에 대한 궁금증을 표했습니다. 이에 샘 알트먼은 \"아닙니다. 저는 건강보험 혜택을 받을 정도만 받고 있습니다\"라고 답하며 자신의 급여가 일반적인 기대와 다름을 밝혔습니다. 더 나아가 그는 \"저는 OpenAI에 지분도 없습니다\"라고 덧붙여 의원을 놀라게 했습니다. 알트먼의 답변에 케네디 의원은 \"정말이요? 흥미롭네요. 변호사가 필요하겠어요\"라며 그의 상황에 대한 놀라움을 감추지 못했습니다. 알트먼이 \"제가 무엇이 필요하다고요?\"라고 되묻자, 의원은 \"변호사나 에이전트가 필요하다는 말입니다\"라고 다시 설명했습니다. 이러한 질문에 샘 알트먼은 자신의 동기를 명확히 밝혔습니다. 그는 \"저는 이 일을 좋아서 하는 겁니다\"라고 말하며, 금전적 보상보다는 일 자체에 대한 열정 때문에 OpenAI에서 일하고 있음을 강조했습니다. 케네디 의원은 알트먼의 답변을 듣고 미소를 지으며 고개를 끄덕이는 모습을 보였습니다. 이 짧은 대화는 샘 알트먼이 OpenAI의 지분을 소유하지 않고 오직 건강보험 혜택만을 받으며 일하고 있다는 사실을 공개하며, 그의 비전과 헌신을 엿볼 수 있게 합니다. 이는 세계적인 인공지능 기업의 수장으로서 흔치 않은 급여 및 지분 구조를 보여주며, 알트먼의 개인적인 동기와 비영리 정신이 깃든 OpenAI의 초기 설립 목적을 상기시키는 중요한 순간으로 평가됩니다. 궁극적으로 이 영상은 샘 알트먼이 수익보다는 인류에게 이로운 인공지능 개발이라는 사명에 집중하고 있음을 단적으로 보여주는 사례입니다."
+    },
+    {
+      "title_en": "인공지능 어벤저스들 한자리에",
+      "url": "https://www.youtube.com/watch?v=c22qNo92DHk",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-24",
+      "image_url": "https://i4.ytimg.com/vi/c22qNo92DHk/hqhqdefault.jpg",
+      "title": "인공지능 어벤져스: AI의 미래와 도전",
+      "summary_kr": "이 영상은 AI 기술의 미래를 논의하는 전문가 패널 토론을 담고 있습니다. 진행자는 인공지능이 단순한 기술 혁신을 넘어 비즈니스, 지정학적 전략, 그리고 일상생활까지 변화시키며 전례 없는 관심의 대상이 되고 있음을 강조했습니다. 특히 엔비디아가 세계에서 가장 가치 있는 AI 기업으로 부상한 배경에 대해 젠슨 황 CEO는 닷컴 버블 당시 사용되지 않던 광케이블 인프라와 달리, 현재는 거의 모든 GPU가 100% 활용되며 실질적인 수요가 존재한다고 설명했습니다. 그는 AI가 단순히 정보를 암기하고 일반화하는 수준을 넘어, 이제는 새로운 정보를 추론하고 정보를 스스로 찾아내어 훨씬 가치 있는 결과를 창출하고 있다고 강조했습니다. 이러한 AI의 역량과 컴퓨팅 자원에 대한 수요가 폭발적으로 증가하는 현상은 현재의 AI 열풍이 단순한 거품이 아님을 시사한다고 덧붙였습니다. 요슈아 벵지오 교수는 AI 모델이 단순한 언어 모델(LLM)을 넘어 특정 목표를 달성하기 위해 스스로 계획을 세우고 주변 환경과 상호작용하는 '에이전트' 형태로 발전하고 있음을 설명하며 기술의 형태가 계속해서 변화하고 있다고 언급했습니다. 빌 달리 박사는 AI 모델이 점점 더 효율적으로 변화하고, 모델 자체의 성능이 계속해서 좋아지고 있으며, 아직 AI 애플리케이션의 1% 정도만 활용되고 있다는 세 가지 주요 트렌드를 제시했습니다. 페이페이 리 교수는 물리학이 400년 이상의 역사를 가진 학문인 반면, AI는 앨런 튜링의 시대부터 계산해도 75년밖에 되지 않은 매우 젊은 분야임을 지적했습니다. 그녀는 인간의 지능이 언어 능력 하나에만 국한되지 않으며, 공간 지각 능력처럼 아직 최신 LLM도 해결하지 못하는 미개척 영역이 훨씬 더 많다고 강조하며, AI의 진정한 발전을 위해 더 근본적인 과학적 논의가 필요하다고 주장했습니다. AGI(범용 인공지능) 도달 시점에 대한 의견은 분분했지만, 패널들은 AI가 인류를 대체하기보다는 인간의 부족한 능력을 보완하고 협력하며 발전할 것이라는 데에 공감했습니다."
+    },
+    {
       "title_en": "LabVantage Solutions Awarded $22.3 Million U.S Customs and Border Protection Contract to Deliver Next-Generation Forensic LIMS",
       "url": "https://www.the-scientist.com/labvantage-solutions-awarded-22-3-million-u-s-customs-and-border-protection-contract-to-deliver-next-generation-forensic-lims-73736",
       "source": "The Scientist",
@@ -4261,6 +4838,16 @@
       "title": "게임 이론이 밝혀낸 알고리즘의 가격 인상 유도 원리",
       "summary_kr": "최근 연구 결과에 따르면, 예상외로 단순한 구조의 가격 책정 알고리즘조차도 상품과 서비스의 가격을 상승시키는 중요한 요인이 될 수 있음이 드러났습니다. 이는 소비자들이 알게 모르게 더 높은 비용을 지불하게 되는 새로운 시장 현상을 설명하는 데 중요한 단서를 제공합니다. 이러한 현상의 배경에는 경제학의 핵심 분야인 '게임 이론'의 원리가 복잡하게 얽혀 있는 것으로 분석됩니다. 연구자들은 알고리즘들이 서로의 가격 책정 전략을 학습하고 이에 반응하는 과정에서, 비록 직접적인 담합은 아니더라도 전체적인 가격 수준을 인상시키는 경향을 보인다는 사실을 밝혀냈습니다. 특히, 복잡한 설계 없이도 단순한 규칙을 따르는 알고리즘들이 경쟁 환경에서 상호 작용하며 사실상 '암묵적 공모'와 유사한 결과를 초래할 수 있다는 점은 매우 주목할 만합니다. 이러한 발견은 디지털 경제 시대의 가격 결정 메커니즘을 이해하고, 알고리즘의 영향력을 평가하는 데 있어 새로운 관점을 제시하고 있습니다.",
       "summary_en": "Recent findings reveal that even simple pricing algorithms can make things more expensive."
+    },
+    {
+      "title_en": "일론과 젠슨이 한자리에",
+      "url": "https://www.youtube.com/watch?v=tAcu24DzG5U",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-23",
+      "image_url": "https://i1.ytimg.com/vi/tAcu24DzG5U/hqhqdefault.jpg",
+      "title": "일론 머스크와 젠슨 황, AI 및 로봇 산업의 미래를 논하다",
+      "summary_kr": "이 영상은 일론 머스크와 젠슨 황이 AI와 로봇이 가져올 미래에 대해 논의하는 내용을 담고 있습니다. 먼저, 일론 머스크는 자신의 경영 철학인 '제1원칙 사고(first-order thinking)'를 언급하며, 이는 기존 관습을 파괴하는 '혁신'보다는 새로운 기술을 '창조'하는 것에 가깝다고 설명합니다. 그는 스페이스X의 재사용 로켓 개발과 테슬라의 매력적인 전기차 생산을 그 예시로 들며, 이러한 노력들이 이전에는 존재하지 않던 기술을 만들어냈다고 강조했습니다. 특히, 휴머노이드 로봇에 대해 테슬라가 최초로 유용한 로봇을 만들 것이며, 이는 모두가 자신만의 C-3PO나 R2-D2를 갖고 싶어 할 정도로 역사상 가장 큰 산업이 될 것이라고 예측했습니다. 그는 AI와 휴머노이드 로봇이 궁극적으로 빈곤을 없애고 노동을 선택 사항으로 만들 것이며, 미래에는 일이 스포츠나 비디오 게임과 같은 취미가 될 것이라고 내다봤습니다. 또한, AI와 로봇 기술이 계속 발전한다면 언젠가 '돈'과 '재산'의 의미가 사라지는 시점이 올 것이라고 주장했습니다. 이어서 젠슨 황은 AI가 가져올 변화에 대해 여러 관점에서 설명했습니다. 그는 AI의 발전으로 사람들의 업무 방식과 학습 방식이 달라질 것이며, 지루하고 어려운 일들을 AI가 대신함으로써 인간의 생산성이 향상되고 더 많은 창의적인 활동에 시간을 할애할 수 있게 될 것이라고 말했습니다. 현재 엔비디아가 사우디아라비아와 함께 500메가와트 규모의 AI 데이터 센터를 구축하고 있으며, 양자 오류 수정 슈퍼 컴퓨터 개발에도 협력하고 있다고 밝혔습니다. 젠슨 황은 최근 6년 사이에 세계 500대 슈퍼컴퓨터에서 CPU의 비중이 90%에서 10%로 줄어들고 GPU 가속 컴퓨팅이 90%를 차지하게 된 사실을 언급하며, 이는 일반 범용 컴퓨팅에서 가속 컴퓨팅으로의 근본적인 전환을 의미한다고 분석했습니다. 그는 이러한 데이터 처리 및 콘텐츠 추천 시스템의 발전에 엄청난 GPU 연산이 필요하며, 현재 AI 산업에 대한 막대한 투자는 '거품'이 아닌 '필수'라고 강조하며, AI의 미래에 대한 낙관적인 전망을 제시했습니다."
     },
     {
       "title_en": "꼭 버텨야 할까요? (퍼블리 박소령 창업자)",
@@ -7924,6 +8511,36 @@
       "title": "마크 저커버그와 프리실라 챈: 질병 없는 세상을 위한 과학의 가속화",
       "summary_kr": "마크 저커버그와 프리실라 챈은 챈 저커버그 이니셔티브(CZI)를 통해 금세기 말까지 모든 질병을 치료하고 예방하겠다는 원대한 목표를 세웠습니다. 프리실라 챈은 소아과 의사로서 수많은 난치병 환자들을 만나며 기초 과학 연구의 중요성을 절실히 깨달았고, 이것이 CZI의 설립 동기가 되었습니다. 마크 저커버그는 CZI가 직접 질병을 치료하는 것이 아니라, 과학자들이 질병 치료를 위한 돌파구를 만들 수 있도록 강력한 도구를 제공하여 기초 과학의 발전을 가속화하는 데 중점을 둔다고 설명합니다. 과학 분야의 자금 지원 구조는 주로 개별 연구자들을 위한 단기적인 소액 보조금에 의존하는 경향이 있어, 장기적이고 막대한 비용이 소요되는 새로운 연구 도구 개발은 종종 소외됩니다. CZI는 샌프란시스코, 시카고, 뉴욕에 세 개의 바이오허브(Biohub)를 설립하여 이러한 격차를 해소하고 있습니다. 이들 바이오허브는 세포 공학, 조직 연구, 심층 영상 및 전사체학 등 특정 생물학적 난제에 집중하며 생물학자, 엔지니어, AI 전문가들이 협력하는 학제 간 연구 환경을 조성합니다. 특히 인공지능(AI)의 발전과 함께 가상 세포 모델, 단백질 접힘 예측 시스템(예: 알파폴드), 질병 유전자 변이 예측 등 혁신적인 도구를 개발하고 있으며, 이를 과학계 전체에 개방하여 연구 속도를 높이는 것을 목표로 합니다. CZI는 데이터를 오픈 소스로 공개하고 'CellxGene'과 같은 주석 도구를 개발하여 연구 데이터를 표준화하고 공유 가능한 자원으로 구축했습니다. 이는 연구 커뮤니티의 자발적인 참여를 이끌어내며 협력적인 연구 문화를 형성하는 데 크게 기여하고 있습니다. 궁극적으로 CZI는 이러한 노력들이 개별 생물학적 특성을 이해하고('모든 질병은 희귀 질환이다'는 관점), 정밀하고 신속하게 치료법을 개발할 수 있는 '희망의 파이프라인'을 확장할 것이라고 믿고 있습니다. 바이오허브를 통해 첨단 AI 기술과 생물학적 지식을 융합하여 혁신적인 도구들을 개발하고, 이는 과학자들뿐만 아니라 신약을 개발하는 스타트업과 기업들에게도 큰 도움이 될 것입니다. 이러한 통합적이고 협력적인 접근 방식은 과학 연구의 비효율성을 극복하고 전례 없는 속도로 의학 발전을 이루어 질병 없는 세상에 한 발 더 다가가는 데 핵심적인 역할을 할 것으로 기대됩니다.",
       "summary_en": "세상을 전부 살 수 있는 돈을 얻게 되면, 사람들은 두 가지 정도 선택하는 것 같습니다. 더 큰 세계 정복하러 가거나(우주, 신대륙) 아니면 영생을 찾거나(진시황, 빌 게이츠)요.\n\n전자는 어쩌면 더 큰 정복욕 때문일 테고요. 후자는 인생이 아까워서 일까요? 이렇게 모든 것을 가졌는데 결국 나도 ‘죽어가는 한 사람’에 불과하다는 생각 때문일까요.\n\n마크 저커버그, 그리고 그의 아내 프리실라 챈이 만든 CZI(챈 저커버그 이니셔티브)에서 하는 활동을 담았습니다. 40분 정도가량 영상이에요. 내용이 깁니다. 어렵기도 하고요. 하지만 결국 인공지능으로 사람들이 질병을 해결할 수 있는 ‘플랫폼’을 만들겠다는 게 골자입니다.\n\n돈이 당장 안 됩니다. 그런데 돈이 엄청 필요한 일이고요. 그래서 미국에서 엄청나게 큰 부자들이 엄청난 시계열(몇십 년) 기준으로 자선이라는 행위로 투자하겠죠. 하지만 이것들이 실현됐을 때 가장 혜택 보는 것들도 그들일 것입니다. (big risks big return) 여러 가지 생각이 들었습니다. 저들은 말도 안 돼 보이는 꿈을 꾸는데, 저는 사소한 것에 매몰돼 있지는 않은지요. 이번 영상도 한 분에게라도 도움이 되신다면 좋은 번역이겠습니다. 즐겨주세요. 감사합니다.\n\nTranslated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly."
+    },
+    {
+      "title_en": "진격의 거인",
+      "url": "https://www.youtube.com/shorts/YCxxKhesRxg",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-20",
+      "image_url": "https://i2.ytimg.com/vi/YCxxKhesRxg/hqhqdefault.jpg",
+      "title": "애니메이션 '진격의 거인'을 통해 본 극한 상황 속 인간의 행동과 가치관",
+      "summary_kr": "영상에서 연사는 자신에게 엄청난 영향을 끼쳤던 콘텐츠로 애니메이션 '진격의 거인'을 언급하며 깊은 감상을 나눕니다. 그녀는 원작 만화보다 애니메이션을 훨씬 인상 깊게 시청했으며, 이 작품이 던지는 메시지에 대해 깊이 사유하게 되었다고 밝힙니다. 특히 연사는 '진격의 거인'이 극한의 상황에서 인간들이 어떻게 행동하고 반응하는지에 대한 질문을 던졌다고 강조합니다. 작품 속 세계는 삼중의 거대한 성벽으로 둘러싸여 있으며, 성벽 안과 밖의 삶은 극명한 대조를 이룹니다. 성벽 바깥에서는 인류의 생존을 위해 거인과 맞서 목숨 걸고 싸우는 조사병단이 있고, 성벽 안에서는 상대적으로 안전한 환경에서 의사결정을 내리는 사람들이 존재합니다. 연사는 이러한 구도를 보면서 성벽 밖에서 목숨 걸고 싸우는 이들에게 훨씬 더 마음이 많이 갔다고 고백합니다. 나아가 자신에게 선택권이 주어진다면, 성벽 바깥에서 싸우는 사람이 되고 싶다는 생각을 하게 되었다고 전합니다. '진격의 거인'은 단순한 오락을 넘어 '나라면 어떤 인물이 되고 싶은가'라는 본질적인 질문을 던지며 개인의 가치관과 태도를 성찰하게 만들었습니다. 작품이 제시하는 생존과 희생, 그리고 윤리적 딜레마는 시청자로 하여금 자신의 삶의 방향과 역할에 대해 깊이 숙고하도록 이끌었습니다. 결국 이 애니메이션은 연사에게 단순한 볼거리를 넘어선 철학적 사유와 자아 성찰의 기회를 제공하며, 인간 본성에 대한 폭넓은 이해를 돕는 중요한 콘텐츠로 자리매김했습니다."
+    },
+    {
+      "title_en": "소음이 너무 많아진 세상 (퍼블리 박소령 창업자)",
+      "url": "https://www.youtube.com/shorts/mlo1wF5012k",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-19",
+      "image_url": "https://i2.ytimg.com/vi/mlo1wF5012k/hqhqdefault.jpg",
+      "title": "소음이 너무 많아진 세상 (퍼블리 박소령 창업자)",
+      "summary_kr": "최근 인공지능(AI) 기술의 발전은 콘텐츠 공급량의 폭발적인 증가를 초래하며 정보의 홍수 시대를 열었습니다. 이러한 급변하는 콘텐츠 시장 환경 속에서 퍼블리의 박소령 창업자는 자신만의 명확한 관점과 대응 전략을 제시합니다. 그녀는 수많은 정보가 자신에게 무분별하게 유입되는 것을 '소음'으로 인지하며, 이를 적극적으로 관리하는 것의 중요성을 강조합니다. 박 창업자는 유튜브 채널 구독, 인스타그램 팔로우, 팟캐스트 청취 등 모든 형태의 정보 유입 채널에 대해 엄격한 기준을 적용한다고 설명했습니다. 그녀는 자신이 구독하거나 팔로우하는 채널들을 끊임없이 점검하고 정리하는 과정을 거친다고 밝혔습니다. 이는 불필요하거나 더 이상 가치를 제공하지 않는 콘텐츠는 과감히 구독 목록에서 제외하는 것을 의미합니다. 박 창업자는 '보고 빼고, 보고 빼고'와 같은 방식으로 정보를 취사선택하며, 정보 과부하 속에서 자신에게 정말 필요한 핵심적인 내용만을 얻으려 노력합니다. 결과적으로 그녀는 극히 소수의 채널만을 선별적으로 시청하며, 정보의 질을 높이고 정신적인 혼란을 줄이는 데 집중합니다. 이러한 접근 방식은 넘쳐나는 정보 속에서 개인의 집중력을 유지하고 유의미한 콘텐츠를 선별하는 데 효과적인 전략을 보여줍니다. 이는 현대 사회에서 정보 과부하에 직면한 많은 이들에게 자신만의 '정보 디톡스' 전략을 수립하는 데 중요한 시사점을 제공합니다."
+    },
+    {
+      "title_en": "실패를 말해야 하는 이유 (퍼블리 박소령 창업자)",
+      "url": "https://www.youtube.com/shorts/mIoh47IFauI",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-11-19",
+      "image_url": "https://i2.ytimg.com/vi/mIoh47IFauI/hqhqdefault.jpg",
+      "title": "실패를 말해야 하는 이유 (퍼블리 박소령 창업자)",
+      "summary_kr": "퍼블리 박소령 창업자는 '크래프톤 웨이'를 읽은 이들에게 익숙한 블루홀스튜디오의 전 대표 김강석 님과의 만남을 회상했습니다. 박 대표는 자신의 책 초고를 가지고 김 대표에게 조언을 구했으며, 이 자리에서 김 대표는 박 대표에게 중요한 메시지를 전했습니다. 김 대표는 박 대표가 10년 동안 퍼블리라는 회사를 운영해 오면서, 한국 사회의 수많은 자원이 박 대표 개인의 학습과 성장에 쓰였다는 점을 잊지 말아야 한다고 강조했습니다. 여기서 '사회적 자원'이란 단순히 투자자의 자금뿐만 아니라, 회사에 들어와 함께 일해준 사람들의 노력과 헌신까지 포함하는 것이었습니다. 또한 스타트업에 매우 우호적인 시기에 사업을 시작할 수 있었던 사회적 분위기 또한 중요한 자원임을 일깨워 주었습니다. 김 대표는 이 모든 것이 박 대표에게 쓰인 사회적 자원이므로, 이를 다시 사회에 빚을 갚는다는 의미로 활용해야 한다고 조언했습니다. 구체적으로는 박 대표의 경험과 지식을 담은 원고를 잘 다듬어 사회에 공개함으로써 기여해야 한다고 덧붙였습니다. 이 조언은 박소령 창업자에게 가장 큰 울림을 주었으며, 그의 사업 방향과 사회적 책임에 대한 깊은 성찰의 계기가 되었습니다. 결과적으로 이 이야기는 개인의 성공 뒤에 숨겨진 사회적 지원과 이에 대한 보답의 중요성을 역설합니다."
     }
   ]
 }
