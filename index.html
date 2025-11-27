@@ -11,10 +11,22 @@
         body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f8fafc; }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
-        .log-entry { font-family: 'Courier New', monospace; font-size: 0.85rem; border-left: 4px solid transparent; }
+        .log-entry { font-family: 'Courier New', monospace; font-size: 0.8rem; border-left: 3px solid transparent; }
         .log-error { border-left-color: #ef4444; background-color: #450a0a; color: #fca5a5; }
         .log-warning { border-left-color: #eab308; background-color: #422006; color: #fde047; }
         .log-info { border-left-color: #3b82f6; color: #e2e8f0; }
+        .log-detail { border-left-color: #64748b; color: #94a3b8; font-size: 0.75rem; }
+        
+        /* 차트 스크롤을 위한 스타일 */
+        .chart-scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 10px;
+        }
+        .chart-wrapper {
+            min-width: 800px; /* 기본 너비, JS로 동적 조정됨 */
+            height: 300px;
+        }
     </style>
 </head>
 <body class="text-slate-800">
@@ -30,51 +42,45 @@
 
     <nav class="bg-white sticky top-[72px] z-10 border-b border-slate-200 shadow-sm">
         <div class="max-w-4xl mx-auto px-3 py-2.5 overflow-x-auto">
-            <div id="filterTabs" class="flex space-x-2 whitespace-nowrap justify-center md:justify-start">
-                </div>
+            <div id="filterTabs" class="flex space-x-2 whitespace-nowrap justify-center md:justify-start"></div>
         </div>
     </nav>
 
     <main class="max-w-4xl mx-auto p-3 md:p-4">
         <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4"></div>
         
-        <div id="historyContainer" class="hidden space-y-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
-                    <h3 class="text-lg font-bold mb-4 text-slate-700 flex items-center gap-2">
-                        <span>📅 일별 기사 요약 수</span>
-                    </h3>
-                    <div class="w-full h-60">
+        <div id="addonsContainer" class="hidden space-y-6">
+            <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-lg font-bold mb-4 text-slate-700">📅 일별 기사 요약 수 추이</h3>
+                <div class="chart-scroll-container">
+                    <div class="chart-wrapper">
                         <canvas id="dailyChart"></canvas>
                     </div>
                 </div>
-                <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
-                    <h3 class="text-lg font-bold mb-4 text-slate-700 flex items-center gap-2">
-                        <span>📊 출처별 비중</span>
-                    </h3>
-                    <div class="w-full h-60 flex justify-center">
-                        <canvas id="sourceChart"></canvas>
-                    </div>
-                </div>
+                <p class="text-xs text-slate-400 mt-2 text-center">좌우로 스크롤하여 전체 기간을 확인하세요.</p>
             </div>
 
-            <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200 text-center">
-                <h3 class="text-lg font-bold mb-2 text-slate-700">👥 전체 방문자 수</h3>
-                <div class="py-4">
-                    <a href="https://hits.seeyoufarm.com">
-                        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjiilk.github.io%2Fdaily-reading&count_bg=%234F46E5&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=VISITORS&edge_flat=false" class="h-8 mx-auto"/>
-                    </a>
+            <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-lg font-bold mb-4 text-slate-700 flex items-center gap-2">
+                    <span class="text-2xl">🤖</span>
+                    <span>Gemini 추천: 오늘의 심화 탐구</span>
+                </h3>
+                <div id="recommendationsList" class="space-y-3">
+                    <div class="text-center text-slate-500 py-4">오늘의 추천 콘텐츠를 불러오는 중...</div>
                 </div>
-                <p class="text-xs text-slate-400 mt-1">* 일별 방문자 그래프는 Google Analytics 연동 시 가능합니다.</p>
             </div>
         </div>
 
         <div id="logsContainer" class="hidden bg-slate-900 text-slate-300 p-4 rounded-lg shadow-inner">
-            <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-2">
-                <h3 class="text-lg font-bold text-white">📋 실행 로그</h3>
+            <div class="flex flex-col md:flex-row justify-between items-center mb-4 border-b border-slate-700 pb-2 gap-2">
+                <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                    📋 실행 로그
+                    <select id="logDateSelect" class="ml-2 bg-slate-800 text-sm text-white border border-slate-600 rounded px-2 py-1 focus:outline-none focus:border-indigo-500" onchange="renderLogs(this.value)">
+                        </select>
+                </h3>
                 <span id="logSummary" class="text-xs text-slate-400"></span>
             </div>
-            <div id="logContent" class="space-y-1 max-h-[600px] overflow-y-auto pr-2"></div>
+            <div id="logContent" class="space-y-1 max-h-[600px] overflow-y-auto pr-2 font-mono text-sm"></div>
         </div>
 
         <div id="loadingMessage" class="text-center text-slate-500 py-10">데이터를 불러오는 중...</div>
@@ -112,43 +118,23 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
-
+        // ... (이전과 동일한 Firebase 코드) ...
         const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
         let favoritesDocRef;
-
-        window.globalFirebase = {
-            toggleFavorite_Firestore: async (url, isFavorite) => {
-                if (!favoritesDocRef) return;
-                const localFavs = Array.from(window.getCurrentFavorites());
-                try { await setDoc(favoritesDocRef, { urls: localFavs }); } catch (e) { console.error(e); }
-            }
-        };
-
-        try {
-            const app = initializeApp(firebaseConfig);
-            const auth = getAuth(app);
-            const db = getFirestore(app);
-            onAuthStateChanged(auth, (user) => {
-                if (user) {
-                    favoritesDocRef = doc(db, 'artifacts', appId, 'users', user.uid, 'favorites', 'data');
-                    onSnapshot(favoritesDocRef, (docSnap) => {
-                        window.syncFavorites(new Set(docSnap.exists() ? docSnap.data().urls : []));
-                    });
-                }
-            });
-            if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) signInWithCustomToken(auth, __initial_auth_token);
-            else signInAnonymously(auth);
-        } catch (e) { console.error("Firebase init error", e); }
+        window.globalFirebase = { toggleFavorite_Firestore: async (url, isFavorite) => { if (!favoritesDocRef) return; const localFavs = Array.from(window.getCurrentFavorites()); try { await setDoc(favoritesDocRef, { urls: localFavs }); } catch (e) { console.error(e); } } };
+        try { const app = initializeApp(firebaseConfig); const auth = getAuth(app); const db = getFirestore(app); onAuthStateChanged(auth, (user) => { if (user) { favoritesDocRef = doc(db, 'artifacts', appId, 'users', user.uid, 'favorites', 'data'); onSnapshot(favoritesDocRef, (docSnap) => { window.syncFavorites(new Set(docSnap.exists() ? docSnap.data().urls : [])); }); } }); if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) signInWithCustomToken(auth, __initial_auth_token); else signInAnonymously(auth); } catch (e) { console.error("Firebase init error", e); }
     </script>
 
     <script>
         let allArticles = [];
-        let executionLogs = [];
+        let logData = {}; // 날짜별 로그 객체
+        let recommendationsData = {}; // 날짜별 추천 객체
         let currentFilter = 'all';
         let favoriteArticles = new Set();
         let charts = {};
 
+        // 즐겨찾기 관련 함수 (기존 유지)
         window.syncFavorites = (serverFavorites) => {
             const localFavs = new Set(JSON.parse(localStorage.getItem('dailyReadingFavorites') || '[]'));
             favoriteArticles = new Set([...serverFavorites, ...localFavs]);
@@ -168,7 +154,8 @@
                 const response = await fetch(`articles.json?v=${new Date().getTime()}`);
                 const data = await response.json();
                 allArticles = data.articles || [];
-                executionLogs = data.logs || [];
+                logData = data.logs || {};
+                recommendationsData = data.recommendations || {};
                 document.getElementById('lastUpdated').textContent = data.last_updated;
                 
                 renderTabs();
@@ -181,12 +168,11 @@
 
         function renderTabs() {
             const container = document.getElementById('filterTabs');
-            // 탭 간소화: 4개만 표시
             const tabs = [
                 { id: 'all', label: '전체', color: 'indigo' },
                 { id: 'youtube', label: 'YouTube', color: 'red' },
-                { id: 'history', label: '📊 히스토리', color: 'emerald' },
-                { id: 'logs', label: '📋 오늘의 로그', color: 'slate' }
+                { id: 'addons', label: '✨ 추가 사항', color: 'emerald' }, // 이름 변경 및 아이콘
+                { id: 'logs', label: '📋 실행 로그', color: 'slate' }
             ];
 
             let html = '';
@@ -212,31 +198,27 @@
         function renderContent() {
             const articleContainer = document.getElementById('articlesContainer');
             const logContainer = document.getElementById('logsContainer');
-            const historyContainer = document.getElementById('historyContainer');
+            const addonsContainer = document.getElementById('addonsContainer');
             const msgEl = document.getElementById('loadingMessage');
 
             msgEl.classList.add('hidden');
             articleContainer.classList.add('hidden');
             logContainer.classList.add('hidden');
-            historyContainer.classList.add('hidden');
+            addonsContainer.classList.add('hidden');
 
-            // 1. 로그 탭
             if (currentFilter === 'logs') {
                 logContainer.classList.remove('hidden');
-                renderLogs();
+                setupLogDateSelect(); // 날짜 선택기 설정
                 return;
             }
 
-            // 2. 히스토리 탭
-            if (currentFilter === 'history') {
-                historyContainer.classList.remove('hidden');
-                renderHistory();
+            if (currentFilter === 'addons') {
+                addonsContainer.classList.remove('hidden');
+                renderAddons();
                 return;
             }
 
-            // 3. 기사 목록 (전체, YouTube)
             articleContainer.classList.remove('hidden');
-
             let filtered = allArticles;
             if (currentFilter === 'youtube') {
                 filtered = allArticles.filter(a => a.source && a.source.toLowerCase().includes('youtube'));
@@ -249,9 +231,8 @@
                 return;
             }
 
-            // 날짜별 인덱싱 (모든 날짜에 대해)
+            // 날짜별 인덱싱 로직 (기존 유지)
             const articlesByDate = {};
-            // 원본 데이터를 순회하며 날짜별 그룹화 (원본 순서 유지 = 최신순)
             allArticles.forEach(a => {
                 if (!articlesByDate[a.date]) articlesByDate[a.date] = [];
                 articlesByDate[a.date].push(a.url);
@@ -259,27 +240,15 @@
 
             articleContainer.innerHTML = filtered.map((article) => {
                 const isFavorite = favoriteArticles.has(article.url);
-                
-                // 배지 생성 로직 (모든 날짜 적용)
                 let badgeHtml = '';
                 if (article.date && articlesByDate[article.date]) {
-                    const dayList = articlesByDate[article.date];
-                    const totalInDay = dayList.length;
-                    const myIndex = dayList.indexOf(article.url); // 0부터 시작
-                    
-                    if (myIndex !== -1) {
-                        const displayIndex = myIndex + 1; // 1부터 시작
-                        badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${article.date} (${displayIndex}/${totalInDay})</span>`;
-                    } else {
-                        badgeHtml = `<span class="text-xs text-slate-400 font-medium">${article.date}</span>`;
-                    }
+                    const idx = articlesByDate[article.date].indexOf(article.url) + 1;
+                    badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${article.date} (${idx}/${articlesByDate[article.date].length})</span>`;
                 }
 
                 let sourceColor = 'bg-slate-100 text-slate-600';
                 if (article.source?.includes('YouTube')) sourceColor = 'bg-red-100 text-red-700';
-                else if (article.source?.includes('Nature')) sourceColor = 'bg-green-100 text-green-700';
-                else if (article.source?.includes('Science')) sourceColor = 'bg-blue-100 text-blue-700';
-
+                
                 return `
                 <article class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all duration-200 hover:-translate-y-1" onclick='openModal("${article.url}")'>
                     ${article.image_url ? `
@@ -289,12 +258,11 @@
                             <span class="bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-md shadow-sm">${article.date}</span>
                         </div>
                     </div>` : ''}
-                    
                     <div class="p-4 flex-1 flex flex-col">
                         <div class="flex justify-between items-center mb-3">
                             ${badgeHtml}
                             <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="p-1 rounded-full transition-colors ${isFavorite ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="${isFavorite ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95.69l1.519 4.674z" /></svg>
+                                ★
                             </button>
                         </div>
                         <h3 class="font-bold text-lg mb-3 leading-snug text-slate-800 line-clamp-2 group-hover:text-indigo-600 transition-colors">${article.title}</h3>
@@ -307,97 +275,143 @@
             }).join('');
         }
 
-        function renderLogs() {
-            const container = document.getElementById('logContent');
-            const summaryEl = document.getElementById('logSummary');
-            if (executionLogs.length === 0) {
-                container.innerHTML = '<div class="text-slate-500 p-4 text-center">로그 기록이 없습니다.</div>';
+        // --- 로그 기능 개선 ---
+        function setupLogDateSelect() {
+            const select = document.getElementById('logDateSelect');
+            const dates = Object.keys(logData).sort().reverse(); // 최신순
+            
+            if (dates.length === 0) {
+                select.innerHTML = '<option>기록 없음</option>';
+                renderLogs(null);
                 return;
             }
-            const errors = executionLogs.filter(l => l.level === 'ERROR').length;
-            const warns = executionLogs.filter(l => l.level === 'WARNING').length;
-            summaryEl.textContent = `에러: ${errors}건 | 경고: ${warns}건`;
-            container.innerHTML = executionLogs.map(log => {
+
+            // 옵션 생성 (이미 생성되어 있으면 값만 유지하거나 새로고침)
+            const currentVal = select.value;
+            select.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
+            
+            // 이전에 선택한 값이 있거나, 없다면 가장 최신 날짜 선택
+            if (currentVal && dates.includes(currentVal)) {
+                select.value = currentVal;
+            } else {
+                select.value = dates[0];
+            }
+            
+            // 로그 렌더링 호출
+            renderLogs(select.value);
+        }
+
+        window.renderLogs = (date) => {
+            const container = document.getElementById('logContent');
+            const summaryEl = document.getElementById('logSummary');
+            
+            if (!date || !logData[date]) {
+                container.innerHTML = '<div class="text-slate-500 p-4 text-center">해당 날짜의 로그가 없습니다.</div>';
+                summaryEl.textContent = '';
+                return;
+            }
+
+            const logs = logData[date];
+            const errors = logs.filter(l => l.level === 'ERROR').length;
+            const warns = logs.filter(l => l.level === 'WARNING').length;
+            summaryEl.textContent = `${date} | 에러: ${errors}건 | 경고: ${warns}건`;
+
+            container.innerHTML = logs.map(log => {
                 let typeClass = 'log-info';
                 if (log.level === 'ERROR') typeClass = 'log-error';
                 else if (log.level === 'WARNING') typeClass = 'log-warning';
-                return `<div class="log-entry p-2 mb-1 rounded bg-slate-800 ${typeClass}">
-                    <span class="opacity-60 mr-2 font-mono">[${log.time}]</span>
-                    <span class="font-bold mr-2">[${log.level}]</span>
-                    <span>${log.message}</span>
+                else if (log.level === 'DETAIL') typeClass = 'log-detail'; // 상세 로그용 스타일
+
+                return `<div class="log-entry p-2 mb-1 rounded bg-slate-800 ${typeClass} flex gap-2">
+                    <span class="opacity-50 shrink-0">[${log.time}]</span>
+                    <span class="font-bold shrink-0 w-16">[${log.level}]</span>
+                    <span class="break-all whitespace-pre-wrap">${log.message}</span>
                 </div>`;
             }).join('');
+        };
+
+        // --- 추가 사항 (Add-ons) 기능 ---
+        function renderAddons() {
+            renderDailyChart();
+            renderRecommendations();
         }
 
-        function renderHistory() {
-            // 1. 일별 데이터 가공
+        function renderDailyChart() {
             const dailyCounts = {};
             allArticles.forEach(article => {
                 const d = article.date;
                 if (d) dailyCounts[d] = (dailyCounts[d] || 0) + 1;
             });
-            const sortedDates = Object.keys(dailyCounts).sort(); // 날짜 오름차순
+            const sortedDates = Object.keys(dailyCounts).sort();
             const dailyValues = sortedDates.map(d => dailyCounts[d]);
 
-            // 2. 소스별 데이터 가공
-            const sourceCounts = {};
-            allArticles.forEach(article => {
-                const s = article.source || 'Unknown';
-                sourceCounts[s] = (sourceCounts[s] || 0) + 1;
-            });
-            const sortedSources = Object.keys(sourceCounts).sort((a,b) => sourceCounts[b] - sourceCounts[a]);
-            const sourceValues = sortedSources.map(s => sourceCounts[s]);
+            // 차트 캔버스 너비 동적 조정 (데이터 포인트당 50px 확보)
+            const chartWrapper = document.querySelector('.chart-wrapper');
+            const requiredWidth = Math.max(800, sortedDates.length * 50);
+            chartWrapper.style.width = `${requiredWidth}px`;
 
-            // 차트 초기화 (중복 방지)
             if (charts['daily']) charts['daily'].destroy();
-            if (charts['source']) charts['source'].destroy();
 
-            // 일별 차트 생성
             const ctxDaily = document.getElementById('dailyChart').getContext('2d');
             charts['daily'] = new Chart(ctxDaily, {
-                type: 'line',
+                type: 'bar', // 가로 스크롤엔 막대 그래프가 더 가독성 좋을 수 있음
                 data: {
                     labels: sortedDates,
                     datasets: [{
                         label: '기사 수',
                         data: dailyValues,
-                        borderColor: '#4f46e5',
-                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
-                        tension: 0.3,
-                        fill: true,
-                        pointBackgroundColor: '#fff',
-                        pointBorderColor: '#4f46e5'
+                        backgroundColor: 'rgba(99, 102, 241, 0.6)',
+                        borderColor: 'rgb(79, 70, 229)',
+                        borderWidth: 1,
+                        borderRadius: 4
                     }]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
                     plugins: { legend: { display: false } },
-                    scales: { y: { beginAtZero: true, ticks: { stepSize: 5 } } }
-                }
-            });
-
-            // 소스별 차트 생성
-            const ctxSource = document.getElementById('sourceChart').getContext('2d');
-            const colors = ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899', '#6366f1', '#14b8a6', '#f97316', '#64748b'];
-            charts['source'] = new Chart(ctxSource, {
-                type: 'doughnut',
-                data: {
-                    labels: sortedSources,
-                    datasets: [{
-                        data: sourceValues,
-                        backgroundColor: colors.slice(0, sortedSources.length),
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'right', labels: { boxWidth: 12, font: { size: 11 } } }
+                    scales: { 
+                        y: { beginAtZero: true },
+                        x: { 
+                            ticks: { maxRotation: 45, minRotation: 45 }
+                        }
                     }
                 }
             });
+        }
+
+        function renderRecommendations() {
+            const container = document.getElementById('recommendationsList');
+            // 가장 최신 날짜의 추천 데이터 가져오기
+            const availableDates = Object.keys(recommendationsData).sort().reverse();
+            
+            if (availableDates.length === 0) {
+                container.innerHTML = '<div class="text-center text-slate-400 py-8">아직 생성된 추천 콘텐츠가 없습니다. (오늘 크롤링 후 생성됩니다)</div>';
+                return;
+            }
+
+            const latestDate = availableDates[0];
+            const recs = recommendationsData[latestDate];
+
+            if (!recs || recs.length === 0) {
+                container.innerHTML = '<div class="text-center text-slate-400 py-8">추천 항목이 비어 있습니다.</div>';
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="text-xs text-right text-slate-400 mb-2">기준 날짜: ${latestDate}</div>
+                <div class="grid grid-cols-1 gap-3">
+                    ${recs.map(item => `
+                        <div class="flex flex-col p-3 rounded-lg border border-slate-100 hover:bg-slate-50 transition-colors">
+                            <div class="flex justify-between items-start gap-2">
+                                <a href="${item.url}" target="_blank" class="text-sm font-bold text-indigo-700 hover:underline flex-1">${item.title}</a>
+                                <span class="text-[10px] px-2 py-0.5 bg-slate-200 text-slate-600 rounded-full shrink-0">${item.category || 'General'}</span>
+                            </div>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">${item.description}</p>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
         }
 
         function toggleFavorite(url) {
