@@ -193,7 +193,7 @@ def get_gemini_summary(article_data):
 # 스크래퍼
 # ============================================================================
 
-def scrape_feed(feed_url, source_name, category_name, is_youtube=False):
+def scrape_feed(feed_url, source_name, category_name, is_youtube):
     articles = []
     log(f"크롤링 시작: {source_name}", "INFO")
 
@@ -260,6 +260,89 @@ def scrape_feed(feed_url, source_name, category_name, is_youtube=False):
     return articles
 
 # ============================================================================
+# 유튜브 채널 스크래퍼
+# ============================================================================
+
+def scrape_youtube_videos(channel_id, source_name, category_name):
+    """
+    유튜브 채널 RSS 피드에서 최신 동영상을 스크랩합니다.
+    영상 콘텐츠는 AI가 URL 컨텍스트를 사용하여 분석합니다.
+    
+    Args:
+        channel_id (str): 유튜브 채널 ID
+        source_name (str): 식별을 위한 소스 이름
+        category_name (str): 기사 카테고리
+        
+    Returns:
+        list: 영상 딕셔너리 리스트
+    """
+    articles = []
+    print(f"🔍 [{source_name}] 유튜브 크롤링 중... (채널: {channel_id})")
+    feed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
+
+    try:
+        response = requests.get(feed_url, headers=HEADERS, timeout=20)
+        response.raise_for_status()
+
+        content_type = response.headers.get('Content-Type', '').lower()
+        if 'xml' not in content_type:
+            print(f"  ❌ 잘못된 콘텐츠 유형: {content_type}")
+            return []
+
+        feed = feedparser.parse(response.content)
+
+        if feed.bozo:
+            print(f"  ⚠️ 피드 파싱 경고: {feed.bozo_exception}")
+
+        print(f"  [i] {len(feed.entries)}개의 최신 영상 발견")
+
+        for entry in feed.entries:
+            try:
+                if not entry.get('title') or not entry.get('link'):
+                    print("    ⚠️ 제목 또는 링크 누락. 건너뜁니다.")
+                    continue
+
+                title_en = entry.title
+                link = entry.link
+                video_id = link.split('v=')[-1]
+
+                # 발행일 파싱
+                date_str = datetime.now().strftime('%Y-%m-%d')
+                if entry.get('published_parsed'):
+                    dt_obj = datetime.fromtimestamp(time.mktime(entry.published_parsed))
+                    date_str = dt_obj.strftime('%Y-%m-%d')
+
+                # 고화질 썸네일 가져오기
+                image_url = None
+                if entry.get('media_thumbnail') and entry.media_thumbnail:
+                    image_url = entry.media_thumbnail[0]['url'].replace('default.jpg', 'hqdefault.jpg')
+
+                # AI를 위한 보조 정보로 RSS 설명 사용
+                description_en = entry.get('media_description', entry.get('summary', title_en))
+                description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
+                
+                print(f"    [i] 영상 {video_id} 로드됨. AI가 URL을 직접 분석합니다.")
+
+                articles.append({
+                    'title_en': title_en,
+                    'description_en': description_text,
+                    'url': link,
+                    'source': source_name,
+                    'category': category_name,
+                    'date': date_str,
+                    'image_url': image_url
+                })
+
+            except Exception as item_err:
+                print(f"  ✗ 영상 파싱 실패: {item_err}")
+
+    except requests.exceptions.RequestException as req_err:
+        print(f"❌ [{source_name}] 요청 실패: {req_err}")
+    except Exception as e:
+        print(f"❌ [{source_name}] 예상치 못한 오류: {e}")
+
+    return articles
+# ============================================================================
 # 메인 실행
 # ============================================================================
 
@@ -295,7 +378,6 @@ def main():
 
     # 2. 수집 소스 정의
     sources = [
-        ('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video', True),
         ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience', False),
         ('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News', False),
         ('https://www.statnews.com/feed/', 'STAT News', 'News', False),
@@ -325,6 +407,11 @@ def main():
         for item in failed_queue:
             if item['url'] not in seen_urls:
                 candidates.append(item)
+
+    # 유튜브 채널
+    candidates.extend(
+        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video')
+    )
 
     # 3-2. 신규 크롤링
     for url, source, cat, is_yt in sources:
