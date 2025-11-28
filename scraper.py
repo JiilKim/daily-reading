@@ -375,7 +375,9 @@ def main():
 
     # 유튜브 채널
     candidates.extend(
-        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video')
+        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'),
+        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play', 'Video'),
+        scrape_youtube_videos('UCsJ6RuBiTVWRX156FVbeaGg', '슈카월드', 'Video')
     )
 
     # 3-2. 신규 크롤링
