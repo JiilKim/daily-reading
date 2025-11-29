@@ -442,4 +442,15 @@ def main():
         sys.exit(1)
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        print("\n\n" + "="*60)
+        print("🚨 [치명적 오류 발생] 스크립트가 중단되었습니다.")
+        print("="*60)
+        print(f"에러 내용: {e}")
+        print("-" * 60)
+        # 상세 에러 위치 출력
+        traceback.print_exc()
+        print("="*60 + "\n")
+        sys.exit(1)
