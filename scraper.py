@@ -172,21 +172,35 @@ def get_gemini_summary(article_data):
                 )
             )
 
-        # JSON 응답 파싱
-        data = json.loads(response.text)
-        title_kr = data.get('title_kr', title_en)
-        summary_kr = data.get('summary_kr', f"[요약 실패] API 오류. (원본: {description_en[:100]}...)")
 
-        print(f"  [AI] ✓ 번역 완료: {title_kr[:40]}...")
+        # [수정된 부분] 텍스트 정제 (마크다운 제거)
+        text = response.text
+        if text.startswith("```"):
+            text = re.sub(r"^```json\s*", "", text) # 시작 부분 ```json 제거
+            text = re.sub(r"^```\s*", "", text)     # 시작 부분 ``` 제거
+            text = re.sub(r"\s*```$", "", text)     # 끝 부분 ``` 제거
+        
+        text = text.strip() # 앞뒤 공백 제거
+
+        # JSON 파싱
+        data = json.loads(text)
+        
+        title_kr = data.get('title_kr', title_en)
+        summary_kr = data.get('summary_kr', "요약 내용 없음")
+
+        print(f"  [AI] ✅ 완료: {title_kr[:20]}...")
         return title_kr, summary_kr
 
     except json.JSONDecodeError as e:
-        print(f"  [AI] ❌ JSON 파싱 오류: {e}")
-        return title_en, f"[요약 실패] 잘못된 API 응답. (원본: {description_en[:100]}...)"
+        print(f"  [AI] ❌ JSON 파싱 에러: {e}")
+        print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
+        return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
     
     except Exception as e:
-        print(f"  [AI] ❌ API 오류: {e}")
-        return title_en, f"[요약 실패] API 호출 실패. (원본: {description_en[:100]}...)"
+        print(f"  [AI] ❌ API/기타 에러: {e}")
+        return title_en, f"[요약 실패] 시스템 오류: {str(e)}"
+
+        
 
 
 # ============================================================================
