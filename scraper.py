@@ -375,11 +375,12 @@ def main():
 
     # 유튜브 채널
     candidates.extend(
-        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'),
-        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play', 'Video'),
-        scrape_youtube_videos('UCsJ6RuBiTVWRX156FVbeaGg', '슈카월드', 'Video')
-    )
-
+        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'))
+    candidates.extend(
+        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play', 'Video'))
+    candidates.extend(
+        scrape_youtube_videos('UCsJ6RuBiTVWRX156FVbeaGg', '슈카월드', 'Video'))
+    
     # 3-2. 신규 크롤링
     for url, source, cat in sources:
         items = scrape_feed(url, source, cat)
@@ -442,15 +443,4 @@ def main():
         sys.exit(1)
 
 if __name__ == '__main__':
-    try:
-        main()
-    except Exception as e:
-        print("\n\n" + "="*60)
-        print("🚨 [치명적 오류 발생] 스크립트가 중단되었습니다.")
-        print("="*60)
-        print(f"에러 내용: {e}")
-        print("-" * 60)
-        # 상세 에러 위치 출력
-        traceback.print_exc()
-        print("="*60 + "\n")
-        sys.exit(1)
+    main()
