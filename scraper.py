@@ -377,9 +377,13 @@ def main():
     candidates.extend(
         scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'))
     candidates.extend(
-        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play', 'Video'))
+        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video'))
     candidates.extend(
-        scrape_youtube_videos('UCsJ6RuBiTVWRX156FVbeaGg', '슈카월드', 'Video'))
+        scrape_youtube_videos('UCsJ6RuBiTVWRX156FVbeaGg', '슈카월드 YouTube', 'Video'))
+    
+    
+    candidates = [item for item in candidates if item['url'] not in seen_urls]
+        
     
     # 3-2. 신규 크롤링
     for url, source, cat in sources:
@@ -387,6 +391,8 @@ def main():
         for item in items:
             if item['url'] not in seen_urls:
                 candidates.append(item)
+                
+    
 
     # 중복 제거
     unique_candidates = {v['url']: v for v in candidates}.values()
