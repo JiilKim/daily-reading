@@ -1,200 +1,205 @@
 {
-  "last_updated": "2025-11-29 09:39:22",
+  "last_updated": "2025-11-30 02:40:01",
   "logs": [
     {
-      "time": "09:07:17",
+      "time": "02:18:32",
       "level": "INFO",
-      "message": "=== 스크립트 시작 (날짜: 2025-11-29) ==="
+      "message": "=== 스크립트 시작 (날짜: 2025-11-30) ==="
     },
     {
-      "time": "09:07:18",
+      "time": "02:18:32",
+      "level": "INFO",
+      "message": "지난 실행 실패 항목 17개 재시도 대기"
+    },
+    {
+      "time": "02:18:32",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "09:07:18",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "[The Transmitter] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "09:07:18",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "[Nature] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "[STAT News] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:33",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "[The Scientist] 완료: 100개 기사 수집됨"
     },
     {
-      "time": "09:07:19",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "[Ars Technica] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "[Wired] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
     },
     {
-      "time": "09:07:20",
+      "time": "02:18:34",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:35",
       "level": "INFO",
       "message": "[Endpoints News] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:35",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:35",
       "level": "INFO",
       "message": "[Science] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:35",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "09:07:21",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "09:07:22",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "[Science (Paper)] 완료: 39개 기사 수집됨"
     },
     {
-      "time": "09:07:22",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "[Cell] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:36",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "09:07:23",
+      "time": "02:18:37",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "09:07:24",
+      "time": "02:18:38",
       "level": "INFO",
       "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "09:07:24",
+      "time": "02:18:38",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "09:07:25",
+      "time": "02:18:38",
       "level": "INFO",
-      "message": "[NEJM] 완료: 61개 기사 수집됨"
+      "message": "[NEJM] 완료: 65개 기사 수집됨"
     },
     {
-      "time": "09:07:25",
+      "time": "02:18:38",
       "level": "INFO",
-      "message": "총 처리 대상: 41건"
+      "message": "총 처리 대상: 23건"
     },
     {
-      "time": "09:39:22",
+      "time": "02:40:01",
       "level": "INFO",
-      "message": "오늘 처리 결과: 성공 24건, 실패/보류 17건"
+      "message": "오늘 처리 결과: 성공 10건, 실패/보류 13건"
     }
   ],
   "failed_queue": [
@@ -204,53 +209,8 @@
       "url": "https://www.youtube.com/watch?v=l2PxoOzzgks",
       "source": "김지윤의 지식Play YouTube",
       "category": "Video",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://i1.ytimg.com/vi/l2PxoOzzgks/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "한국 젊은이들이 스스로 동남아 스캠 공장으로 흘러 들어갔다? | 캄보디아, 스캠",
-      "description_en": "#캄보디아 #스캠 \n\n스캠 공장이 된 캄보디아?\n한국 젊은이들은 왜 그곳으로 간 것일까\n즐거움과 유익함이 가득가득, 김지윤의 지식Play!\n\nkimjyTV@gmail.com",
-      "url": "https://www.youtube.com/watch?v=uWZ68qCmrZo",
-      "source": "김지윤의 지식Play YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i2.ytimg.com/vi/uWZ68qCmrZo/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "트럼프 정부의 실세? 백악관의 문고리를 쥔 사람들은 누구일까 | 미국, 국제정치, 백악관",
-      "description_en": "#미국 #국제정치 #백악관 \n백악관의 문고리를 쥔 사람들은 누구일까 | 미국, 국제정치, 백악관\n\n즐거움과 유익함이 가득가득, 김지윤의 지식Play!\nkimjyTV@gmail.com\n\n📑 참고문헌 📑\nPeinado, F. (2017, February 15). How White House advisor Stephen Miller went from pestering Hispanic students to designing Trump’s immigration policy. Univision. https://www.univision.com/univision-news/politics/how-white-house-advisor-stephen-miller-went-from-pestering-hispanic-students-to-designing-trumps-immigration-policy\n\nMiller, S. (1996). Political Correctness out of Control. The LookOut. https://www.surfsantamonica.com/ssm_site/the_lookout/letters/Letters-2002/MARCH_2002/03_27_2002_Political_Correctness_Out_of_Control.htm\n\nKeith, T. (2017, August 12). “That’s Stephen”: White House adviser’s controversial style dates back to his youth. NPR. https://www.npr.org/2017/08/12/542811416/-that-s-stephen-white-house-adviser-s-controversial-style-dates-back-to-his-yout\n\nGreen, J. (2017, March 1). Does Stephen Miller speak for Trump? or vice versa? Bloomberg.com. https://www.bloomberg.com/news/features/2017-02-28/does-stephen-miller-speak-for-trump-or-vice-versa\n\nMcKelvey, B. T. (2018, January 23). Stephen Miller: How much influence does he have on Trump? https://www.bbc.com/news/world-us-canada-42795179\n\nMascaro, L. (2017, January 17). How a liberal Santa Monica high school produced a top Trump advisor and speechwriter  - Los Angeles Times. Los Angeles Times. https://www.latimes.com/politics/la-na-pol-trump-speechwriter-santamonica-20170117-story.html\n\nCai, S., Burns, D., Sentner, I. & Johnsen, B. (2025, January 21). It’s Stephen Miller’s moment. POLITICO. https://www.politico.com/newsletters/west-wing-playbook/2025/01/21/its-stephen-millers-moment-00199774\n\nNewell, J. (2016, July 22). The dark, resentful voice behind Trump’s speech. Slate Magazine. https://slate.com/news-and-politics/2016/07/stephen-milller-wrote-donald-trump-s-dark-resentful-speech.html\n\nAllen, J., Dixon, M., Doyle, K., & Kapur, S. (2025, May 16). White House official says administration is actively looking to suspend due process for migrants. NBC News. https://www.nbcnews.com/politics/trump-administration/stephen-miller-untouchable-force-trump-white-house-rcna206180\n\nAmerica First Legal sues Shell for alleged illegal racially discriminatory DEI workforce reorganization - America First Legal. (2025, August 28). America First Legal. https://aflegal.org/press-release/america-first-legal-sues-shell-for-alleged-illegal-racially-discriminatory-dei-workforce-reorganization/\n\nHesson, T., Mason, J., & Cooke, K. (2025, July 11). The White House aide driving Trump’s aggressive immigration agenda. Reuters. https://www.reuters.com/legal/government/white-house-aide-driving-trumps-aggressive-immigration-agenda-2025-07-11\n\nTait, R. (2025, June 23). The rise of Stephen Miller, the architect of Trump’s hardline immigration policy. The Guardian. https://www.theguardian.com/us-news/2025/jun/15/trump-immigration-stephen-miller-influence\n\nReuters. (2025, May 5). Trump says he is considering Stephen Miller for national security adviser. Reuters. https://www.reuters.com/world/us/trump-says-he-is-considering-stephen-miller-new-national-security-adviser-2025-05-05\n\nCaputo, M. (2025, May 2). Scoop: Stephen Miller emerges as top contender for Trump’s next national security adviser. Axios. https://www.axios.com/2025/05/02/stephen-miller-national-security-adviser-candidate\n\nWatson, K. (2025, October 2). Who is Russ Vought? What to know about Trump’s OMB director ahead of shutdown layoffs. CBS News. https://www.cbsnews.com/news/who-is-russ-vought-omb-shutdown-layoffs-trump-project-2025/\n\nCortellessa, E. (2025, April 16). Russell vought: The 100 most influential people of 2025. TIME. https://time.com/collections/100-most-influential-people-2025/7273795/russell-vought/\n\nMasquelier-Page, A. (2024, August 6). Russell Vought, a Project 2025 architect, is ready to shock Washington if Trump wins second term. The Associated Press. https://www.ap.org/news-highlights/spotlights/2024/russell-vought-a-project-2025-architect-is-ready-to-shock-washington-if-trump-wins-second-term/\n\nZurcher, A. (2025, October 3). Russell Vought - from Project 2025 to Trump’s shutdown enforcer. https://www.bbc.com/news/articles/c059ydyqe19o\n\nMattingly, P., & Herb, J. (2025, October 2). Trump’s shutdown architect: Russ Vought’s plan to deconstruct the government was years in the making. CNN. https://edition.cnn.com/2025/10/02/politics/russ-vought-shutdown-architect\n\nSentner, I., & Scholtes, J. (2025, October 10). Vought sounds layoff siren: ‘The RIFs have begun.’ POLITICO. https://www.politico.com/news/2025/10/10/vought-sounds-layoff-siren-the-rifs-have-begun-00602262?nid=0000018f-3124-de07-a98f-3be4d1400000&nname=politico-toplines&nrid=dd4a09d9-9ea9-42f4-9179-a40efe37c5f9",
-      "url": "https://www.youtube.com/watch?v=fkNKnWRUiyU",
-      "source": "김지윤의 지식Play YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i3.ytimg.com/vi/fkNKnWRUiyU/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "한국에서 늙으면 닥칠 현실 I 저속노화 의사의 마지막 경고(?)",
-      "description_en": "#정희원 #저속노화 #노쇠예방\n\n고령사회 한국! 잘 죽을 준비가 필요하다?\n저속노화 교수님(?) 정희원 박사가 진짜 하고싶었던 이야기! | 정희원, 저속노화, 노쇠예방\n\n즐거움과 유익함이 가득가득, 김지윤의 지식Play!\n\nkimjyTV@gmail.com",
-      "url": "https://www.youtube.com/watch?v=EkD7umFc4UA",
-      "source": "김지윤의 지식Play YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i2.ytimg.com/vi/EkD7umFc4UA/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "경제보복 시작한 중국, 말로 하자는 일본",
-      "description_en": "0:00 일본 수산물 수입을 금지한 중국\n6:08 중국 국민 일본 여행 자제 권고\n10:35 일본 애니메이션 상영을 막은 중국\n19:52 중국의 일본 희토류 수출 제한\n\n\n저널리즘을 지키는 채널이 되겠습니다.",
-      "url": "https://www.youtube.com/watch?v=XjqceVxJyDA",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i1.ytimg.com/vi/XjqceVxJyDA/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "환율 1,479원, 달러가 부족하다.",
-      "description_en": "0:00 엔비디아 슈퍼 실적발표\n12:30 늘어나는 달러 수요, 줄어드는 달러 공급\n\n\n저널리즘을 지키는 채널이 되겠습니다.",
-      "url": "https://www.youtube.com/watch?v=IpbTWhvocpY",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i2.ytimg.com/vi/IpbTWhvocpY/hqhqdefault.jpg"
     },
     {
       "title_en": "세계 100대 침입종, 유럽의 재앙 K-참게",
@@ -258,26 +218,8 @@
       "url": "https://www.youtube.com/watch?v=REWwWEJmSBE",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://i3.ytimg.com/vi/REWwWEJmSBE/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "미국 정치 핵폭탄, 앱스타인 파일 공개 임박",
-      "description_en": "0:00 영국 앤드류 왕자, 칭호 박탈\n12:00 트럼프는 왜 엡스타인 파일 공개를 막을까\n28:30 오! 영원한 친구!\n\n저널리즘을 지키는 채널이 되겠습니다.",
-      "url": "https://www.youtube.com/watch?v=SS_HsC-9_QU",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i4.ytimg.com/vi/SS_HsC-9_QU/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "3기 신도시 인기지역은 어디?",
-      "description_en": "0:00 1기, 2기, 3기 신도시\n10:02 청약 가즈아 \n20:12 LH 인터뷰 : 3기 신도시는 어떤 도시인가요?\n\nLH청약플러스 : https://naver.me/G5J5OXjy\nLH한국토지주택공사 유튜브 : https://www.youtube.com/@with_LH\n\nLH 한국토지주택공사 유료광고가 포함된 영상입니다.",
-      "url": "https://www.youtube.com/watch?v=IFGm7Wdp7-Y",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i2.ytimg.com/vi/IFGm7Wdp7-Y/hqhqdefault.jpg"
     },
     {
       "title_en": "따면 내꺼, 잃으면 니꺼",
@@ -285,17 +227,8 @@
       "url": "https://www.youtube.com/watch?v=uejgOvsiQnQ",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://i2.ytimg.com/vi/uejgOvsiQnQ/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "따서 갚으면 되잖아",
-      "description_en": "0:00 미국 셧다운 종료\n7:40 영화 '빅쇼트' 실제 주인공의 공매도 포지션?\n14:04 한미 팩트시트 발표 호재\n22:54 대한민국을 컨닝한 스위스의 외교 전략\n29:43 워런 버핏 : \"행운의 여신은 불공평합니다.\"\n\n저널리즘을 지키는 채널이 되겠습니다.",
-      "url": "https://www.youtube.com/watch?v=TmP-gqhJlMM",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i1.ytimg.com/vi/TmP-gqhJlMM/hqhqdefault.jpg"
     },
     {
       "title_en": "살인곰 잡으러 자위대가 출동한 일본",
@@ -303,17 +236,8 @@
       "url": "https://www.youtube.com/watch?v=tiF-dbDJHLM",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://i1.ytimg.com/vi/tiF-dbDJHLM/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "정당 지지율 역대 최저를 기록한 미국",
-      "description_en": "0:00 최초의 무슬림 뉴욕시장 맘다니 vs 트럼프 신경전\n5:44 '누가 더 싫은가?' 의 문제\n18:09 모 미국 언론 : \"트럼프는 레임덕 시대를 맞이했다.\"\n\n저널리즘을 지키는 채널이 되겠습니다.",
-      "url": "https://www.youtube.com/watch?v=HlWry2GkVIE",
-      "source": "슈카월드 YouTube",
-      "category": "Video",
-      "date": "2025-11-29",
-      "image_url": "https://i1.ytimg.com/vi/HlWry2GkVIE/hqhqdefault.jpg"
     },
     {
       "title_en": "Author Correction: Evidence for improved DNA repair in the long-lived bowhead whale",
@@ -321,7 +245,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09952-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": null
     },
     {
@@ -330,7 +254,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03877-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": null
     },
     {
@@ -339,7 +263,7 @@
       "url": "https://www.statnews.com/2025/11/29/world-aids-day-us-government-acknowledgment/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2187240632-645x645.jpg"
     },
     {
@@ -348,11 +272,156 @@
       "url": "https://www.statnews.com/2025/11/28/measles-who-report-vaccinations-cases/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-11-29",
+      "date": "2025-11-30",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2224962422-645x645.jpg"
+    },
+    {
+      "title_en": "Experts say top FDA official’s claim that Covid vaccines caused kids’ deaths requires more evidence",
+      "description_en": "The FDA’s top vaccine regulator asserted in a staff email that the Covid vaccine caused at least 10 kids' deaths, but experts told STAT they are skeptical of the “extraordinary”…",
+      "url": "https://www.statnews.com/2025/11/29/covid-vaccine-deaths-fda-memo-vinay-prasad/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-11-30",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/GettyImages-1308671560-645x645.jpg"
+    },
+    {
+      "title_en": "Postdoc Portrait: Priya Prakash",
+      "description_en": "This postdoc uncovers how glial dysfunction drives neurodegeneration in a rare movement disorder.",
+      "url": "https://www.the-scientist.com/postdoc-portrait-priya-prakash-73785",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-11-30",
+      "image_url": null
+    },
+    {
+      "title_en": "Complete Heart Block Detected by Consumer-Facing Digital Health Technologies",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510111?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-30",
+      "image_url": null
+    },
+    {
+      "title_en": "From Bandwidth to Bedside — Bringing AI-Enabled Care to Rural America",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2509491?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-30",
+      "image_url": null
+    },
+    {
+      "title_en": "Has Corporatization Met Its Match? The Challenge of Making Money by Keeping People Healthy",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2513434?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-30",
+      "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "한국 젊은이들이 스스로 동남아 스캠 공장으로 흘러 들어갔다? | 캄보디아, 스캠",
+      "url": "https://www.youtube.com/watch?v=uWZ68qCmrZo",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i2.ytimg.com/vi/uWZ68qCmrZo/hqhqdefault.jpg",
+      "title": "캄보디아 스캠: 한국 청년들이 스스로 동남아 사기 공장에 흘러 들어간 충격적인 이유와 실태",
+      "summary_kr": "최근 캄보디아에서 한국인을 대상으로 한 범죄와 한국인이 연루된 사건들이 잇따르며 사회적 논란이 커지고 있습니다. 박기태 변호사는 회생·파산 전문 변호사로서 캄보디아 스캠 피해자들의 사례를 접하며 이 문제의 심각성을 인지했습니다. 피해자들은 주로 '고수익 아르바이트' 광고에 현혹되어 캄보디아로 건너갔다가, 현지에서 납치 및 감금당하고 계좌, 공인인증서, 휴대전화 등을 강탈당했습니다. 범죄 조직은 피해자 명의로 대출을 받아 빚을 떠안기고, 마약이나 경제 사범으로 몰거나 가족에게 해를 가하겠다고 협박하여 심리적으로 완전히 세뇌시켰습니다. 이러한 압박과 두려움 속에서 많은 피해자는 한국으로 돌아와서도 침묵하며 고통받고 있습니다.\n\n캄보디아에서 주로 발생하는 범죄는 보이스피싱과 로맨스 스캠으로, 조직원들은 '채터' 역할을 맡아 피해자들에게 접근하여 신뢰를 쌓고 범죄에 가담시킵니다. 초기에 순수하게 피해를 입은 사람들도 있지만, 상당수는 불법임을 인지하고 고수익을 기대하며 자발적으로 가담한 경우도 있어 피해자와 피의자의 경계가 모호한 복합적인 양상을 띱니다. 캄보디아가 이러한 범죄의 온상이 된 배경에는 중국의 '일대일로' 정책으로 건설된 대규모 인프라(공항, 항만, 고속도로, 리조트 등)가 코로나19 팬데믹으로 관광객이 급감하자 범죄 조직의 거점으로 활용된 점이 큽니다. 또한, 훈 센 전 총리 부자의 장기 집권으로 인한 정치적 안정성과 공권력의 부패 역시 범죄 조직에게 유리한 환경을 제공했습니다.\n\n한국 청년들이 쉽게 동남아시아 스캠 조직에 빠져드는 이유 중 하나는 한국어 구사자라는 점이 범죄 조직에 의해 악용되기 때문입니다. 더불어, 서울 아파트 및 코인 가격 급등 시기에 상대적 박탈감을 느낀 젊은 세대들이 쉽고 빠른 성공을 바라는 심리를 범죄 조직이 이용한 것입니다. 로맨스 스캠의 경우, 사기꾼들은 장기간 친밀한 관계를 형성하며 피해자의 호감을 산 뒤, 가짜 투자 앱을 통해 높은 수익을 미끼로 고액 투자를 유도합니다. 피해자가 원금 회수를 시도하면 외환 관리법 위반 등의 명목으로 추가 입금을 요구하며 모든 자산을 갈취하는 수법을 사용합니다.\n\n박기태 변호사는 이런 사기 피해를 당했을 때는 모든 것을 멈추고 추가적인 피해를 막는 것이 최우선이라고 강조했습니다. 빚이 있다면 개인회생이나 파산 제도를 활용하여 법적 테두리 안에서 문제를 해결하고, 주변 사람들과의 사회적 관계망을 유지하며 도움을 받는 것이 중요하다고 조언했습니다. 무엇보다 세상에 공짜는 없다는 사실을 명심하고, 비상식적인 고수익 광고에 현혹되지 않는 것이 사기 피해를 예방하는 가장 기본적인 방법임을 역설했습니다."
+    },
+    {
+      "title_en": "트럼프 정부의 실세? 백악관의 문고리를 쥔 사람들은 누구일까 | 미국, 국제정치, 백악관",
+      "url": "https://www.youtube.com/watch?v=fkNKnWRUiyU",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i3.ytimg.com/vi/fkNKnWRUiyU/hqhqdefault.jpg",
+      "title": "트럼프 정부의 실세? 백악관 '문고리 권력' 3인방은 누구인가",
+      "summary_kr": "영상은 국가 지도자 주변에서 비공식적이지만 강력한 영향력을 행사하는 '문고리 권력'이라는 개념을 소개하며, 트럼프 행정부의 핵심 실세 세 명을 집중 조명한다. 첫 번째 인물은 백악관 비서실장인 수지 와일스다. 그녀는 여성 최초의 비서실장으로, 로널드 레이건 시절부터 정치 캠페인에 참여하여 트럼프의 2016년과 2024년 대선 승리, 론 디샌티스 플로리다 주지사 당선 등 여러 선거에서 중요한 역할을 한 '선거의 귀재'로 평가받는다. 특히 그녀는 트럼프 대통령의 성격을 완벽하게 파악하고 자신을 내세우지 않으며 뒤에서 조력하는 모습으로 트럼프를 제어할 수 있는 몇 안 되는 인물로 꼽힌다.\n두 번째 인물은 스티븐 밀러 대통령비서실 정책담당 부실장이다. 그는 트럼프 행정부의 반이민 정책, 불법 체류자 추방 정책, 그리고 논란이 많았던 '여행 금지령' 등을 설계하고 집행한 핵심 책사이다. 캘리포니아 산타모니카의 진보적인 환경에서 자랐지만, 다문화주의가 팽배한 학교에서 백인 남성으로서 소수자처럼 느끼는 독특한 경험이 그를 강경 보수로 변화시키는 계기가 되었다. 듀크 대학 졸업 후 미셸 바크먼 의원과 제프 세션스 상원의원의 보좌관을 거치며 강경한 보수적 이민 정책을 수립하는 데 일조했다. 그의 연설문 작성 능력은 트럼프의 2016년 공화당 후보 수락 연설과 2017년 대통령 취임 연설 등 주요 메시지에 큰 영향을 미쳤으며, 최근에는 DEI 정책과 우대 조치를 반대하는 'America First Legal'을 설립하여 보수적 의제를 법적으로 추진하고 있다.\n마지막 인물은 백악관 예산관리국장을 지낸 러셀 보우트다. 그는 코네티컷의 노동자 집안 출신으로, 복음주의 기독교 학교인 휘튼 칼리지를 졸업하며 보수적인 경제관과 도덕관을 확립했다. 트럼프 행정부 1기에서 예산관리국 부국장과 국장을 역임하며 예산 삭감과 행정부 조직 개편에 주력했다. 특히 '프로젝트 2025'를 통해 공무원 해고 및 정부 조직 재편, 법무부와 FBI에 대한 백악관의 직접 통제 등을 주장하며, 정부의 권력을 대통령에게 집중시켜 관료제의 비효율성을 해소해야 한다고 역설한다. 보우트의 이러한 움직임은 연방정부 셧다운 상황과 맞물려 기후 변화 및 DEI 관련 프로젝트 예산을 보류하는 등의 구체적인 정책으로 나타나고 있으며, 그의 행보는 향후 트럼프 행정부의 방향성을 가늠하는 중요한 지표가 될 것으로 예상된다. 이들 세 명의 '문고리 권력'은 트럼프의 재집권 시 미국 정치에 막대한 영향을 미칠 것으로 예상된다."
+    },
+    {
+      "title_en": "한국에서 늙으면 닥칠 현실 I 저속노화 의사의 마지막 경고(?)",
+      "url": "https://www.youtube.com/watch?v=EkD7umFc4UA",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i2.ytimg.com/vi/EkD7umFc4UA/hqhqdefault.jpg",
+      "title": "한국에서 늙어가는 현실과 '저속노화' 의사의 마지막 경고",
+      "summary_kr": "이 영상은 '저속 노화'의 아이콘으로 알려진 정희원 교수가 김지윤의 지식PLAY에 출연하여 한국 사회의 노년 문제를 심층적으로 분석하고 해결책을 제시하는 내용을 담고 있습니다. 정 교수는 호른 연주 경험을 통해 근육량 감소(근감소증)에 관심을 갖게 되었고, 이를 계기로 '노인병 증후군'의 복잡성을 깨달으며 노인의학의 길을 걷게 됩니다. 그는 기존 내과학이 질병 진단 후 약 처방에 집중하는 것과 달리, 노인 의학에서는 환자의 약을 줄여 선망이나 전해질 불균형을 개선하는 등 약물 관리가 중요하다는 점을 강조합니다. 정 교수는 2017년 파이낸셜 타임스에 기고하며 한국 노인의학 체계의 부재를 지적했고, 2025년 대전시 인구 규모의 노인이 장기요양보험 등급을 받을 것이라는 예측이 현실화되고 있음을 경고합니다. 그는 일본의 돌봄 예방 사업 사례를 들며 노쇠 진행을 늦추고 신체적, 인지적, 사회적 활동을 유지하는 '활동적 노화'의 중요성을 역설했습니다. 또한, 피터 아티아의 '질병 해방'을 인용하여 건강하지 않은 기간을 최소화하는 '질병 상태 압축' 개념을 소개하며, 이를 위해 성장기, 성인기, 노년기 전반에 걸친 건강 관리가 필수적이라고 말합니다. 정 교수는 현대 사회의 과도한 스트레스와 자극적인 식단이 '가처분 의지력'을 소모시켜 건강한 라이프스타일을 유지하기 어렵게 만든다고 지적하며, 특히 젊은 세대의 비만, 당뇨 등 대사질환 증가와 근골격계 건강 악화에 우려를 표합니다. 그는 한국은행의 인구 고령화 및 주택 시장 보고서를 비판하며, 단순히 '숫자'에만 매몰된 비관적 미래 예측을 넘어, 실질적인 은퇴 연령을 늦추고 모든 세대가 건강하고 능동적인 삶을 영위할 수 있도록 사회 구조와 정책을 변화시켜야 한다고 강조하며 영상을 마무리합니다."
+    },
+    {
+      "title_en": "경제보복 시작한 중국, 말로 하자는 일본",
+      "url": "https://www.youtube.com/watch?v=XjqceVxJyDA",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i1.ytimg.com/vi/XjqceVxJyDA/hqhqdefault.jpg",
+      "title": "중국의 경제 보복 시작, 말로 해결하려는 일본",
+      "summary_kr": "일본 다카이치 사나에 총리의 대만 관련 발언 이후 중국과 일본의 관계는 급격히 악화되었고, 중국은 이에 대한 실질적인 경제 보복을 시작했다. 중국의 보복 조치에는 경제 제재, 외교 및 군사 관계 중단, 무역 제한 등이 포함되었으며, 이는 일본의 최대 수입국으로서 상당한 경제적 압박으로 작용했다. 초기에는 일본산 수산물 수입 중단 조치가 발표되었으나, 사실상 후쿠시마 오염수 방류 이후 중국은 이미 일본 수산물 수입을 거의 하지 않고 있었다. 그러나 이 소식에 한국에서는 일부 수산물 관련 기업들의 주가가 급등하는 현상이 나타나, 경제적 반사이익에 대한 기대감을 보여주었다. 중국 정부는 자국민들에게 일본 여행 자제를 권고했고, 이에 따라 연말까지 계획된 중국발 일본행 항공권 중 약 30%가 취소되는 등 일본 관광 산업이 직접적인 타격을 입었다. 중국인 관광객 감소는 일본 백화점, 명품 브랜드, 화장품 기업들의 매출 하락으로 이어졌으며, 대표적인 화장품 기업 시세이도는 주가가 큰 폭으로 하락했다. 중국은 문화적 보복으로 일본 영화의 자국 내 개봉을 중단시켰는데, 이는 일본이 자랑하는 애니메이션 산업에도 영향을 미칠 수 있는 조치였다. 일본은 애니메이션, 게임 등 '쿨 재팬' 전략으로 문화 산업을 육성해 왔지만, 한국의 '쿨 코리아' 부상과 중국의 규제라는 이중고를 겪고 있다. 특히, 중국은 전 세계 희토류 생산 및 정제의 약 90%를 장악하고 있어, 이를 대일 보복의 강력한 카드로 활용할 가능성이 상존하며, 과거에도 실제 사용된 사례가 있다. 이에 일본은 희토류 자원 확보를 위해 태평양 내 민간인 거주 없는 섬에서 자원 개발을 추진하고 미국과의 협력을 모색하는 등 중국 의존도를 낮추기 위한 노력을 강화하고 있다. 중국은 일본 외교관을 의도적으로 모욕하는 영상을 공개하는 등 강경한 '늑대 외교'를 펼치고 있으며, 독도 문제에 대해서도 한국을 지지하는 발언을 하는 등 3국 간의 갈등 양상을 복잡하게 만들고 있다. 이처럼 경제 보복부터 외교적 압박까지 전방위적인 중국의 공세에 일본은 '말로 해결하자'는 스탠스를 취하며 외교적 해결을 시도하고 있지만, 갈등의 골은 깊어지고 있다."
+    },
+    {
+      "title_en": "환율 1,479원, 달러가 부족하다.",
+      "url": "https://www.youtube.com/watch?v=IpbTWhvocpY",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i2.ytimg.com/vi/IpbTWhvocpY/hqhqdefault.jpg",
+      "title": "환율 1,479원, 달러 부족 현상 심층 분석",
+      "summary_kr": "코스피 지수는 가파른 상승 이후 일시적인 조정을 겪으며 4000선이 무너지고 3853으로 마감, 금요일에만 3.79% 하락하며 높은 변동성을 보였습니다. SK하이닉스 또한 급등 후 큰 폭으로 하락했으나, 영상에서는 이를 추진력을 얻기 위한 일시적 조정으로 해석하며 급반등 가능성을 시사했습니다. 엔비디아는 2026 회계연도 3분기 실적 발표에서 570억 달러의 매출(전년 동기 대비 62% 성장)과 319억 달러의 순이익(전년 동기 대비 65% 성장)을 기록하며 시장 예상치를 크게 상회하는 '슈퍼 실적'을 달성했습니다. 특히 데이터센터 부문 매출은 512억 달러로 역대 최고치를 기록했고, 4분기 매출 전망치 또한 650억 달러로 매우 공격적이며, 중국 매출 0%를 가정한 '보수적' 전망이라고 밝혀졌습니다. 놀랍게도 엔비디아의 주가수익비율(PER)은 현재 26배로, S&P 500 평균 수준에 근접하여 매출 및 이익 성장세에 비해 저평가된 '가치주'로 평가될 여지도 있다고 분석됩니다. 그러나 최근 1년간 엔비디아 주가가 26% 상승에 그친 반면, 매출과 영업이익은 60~70% 성장하여 주가 상승이 실적에 미치지 못했음을 지적했습니다. 엔비디아 CEO 젠슨 황은 인공지능(AI) 생태계가 빠르게 확장되고 있으며, 더 많은 스타트업과 산업, 국가들이 AI에 진출하고 있다고 강조하며 AI 버블론을 일축했습니다. 전 세계 주식 시장은 최근 4월 이후 전반적으로 상승폭이 감소하고 3%가량 하락하는 등 불안정한 모습을 보였고, 비트코인 또한 12만 달러에서 8만 달러대로 급락하며 시장 전반의 유동성 우려가 커졌습니다. 미국 연방준비제도(Fed)는 2024년부터 양적 긴축(QT)을 통해 약 2조 달러 규모의 자산을 축소해왔으나, 최근 10월 FOMC에서 12월 1일부로 QT를 종료한다고 선언하여 시장의 단기 유동성 경색 우려에 대응했습니다. 미 재무부 장관 리사 쿡은 레포 시장의 과도한 베이시스 거래가 금융 시스템에 미칠 위험을 경고하며 단기 유동성 부족이 문제로 부각될 수 있음을 시사했습니다. 한국은 미국과 달리 확장적 경제 정책을 유지하며 환율 상승 압력을 받았지만, 막대한 해외 순자산을 바탕으로 외환 시장의 충격을 완화하는 선진국형 구조를 갖추게 되었습니다. 트럼프 전 대통령은 물가 상승의 원인을 현 바이든 행정부 탓으로 돌리며, 멕도날드 햄버거 가격 상승 등의 생활 물가 고통을 언급하는 등 인플레이션 문제에 대한 공방을 벌였습니다. 종합적으로 글로벌 경제는 인플레이션, 통화 정책 긴축 완화, 지정학적 이슈, AI 기술 발전 등 복합적인 요인들로 인해 높은 변동성을 보이고 있으며, 이러한 환경 속에서 한국 경제와 주식 시장이 나아가야 할 방향에 대한 심도 있는 고민이 필요합니다."
+    },
+    {
+      "title_en": "미국 정치 핵폭탄, 앱스타인 파일 공개 임박",
+      "url": "https://www.youtube.com/watch?v=SS_HsC-9_QU",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i4.ytimg.com/vi/SS_HsC-9_QU/hqhqdefault.jpg",
+      "title": "엡스타인 파일, 영국 왕실에서 미국 정치계까지 뒤흔드는 핵폭탄",
+      "summary_kr": "최근 공개 임박한 엡스타인 파일이 영국 왕실은 물론 미국 정치계까지 뒤흔드는 핵폭탄으로 급부상하고 있습니다. 과거 엘리자베스 여왕의 총애를 받으며 포클랜드 전쟁에도 참전했던 영국의 앤드루 왕자는 엡스타인과의 연루 의혹으로 모든 왕실 직책을 박탈당하고 윈저 저택에서도 쫓겨났습니다. 이는 전례 없는 왕실 역사상 초유의 사건으로 기록되었습니다. 앤드루 왕자는 엡스타인을 통해 17세 소녀를 성적으로 학대했다는 버지니아 주프레의 폭로에 직면했고, 만난 기억이 없고 땀을 흘리지 않는다는 등 황당한 해명을 내놓았지만 여론은 그를 믿지 않았습니다. 의혹의 핵심 인물인 엡스타인은 2019년 감옥에서 의문의 급사를 했고, 폭로자인 주프레 또한 올해 초 스스로 목숨을 끊으면서 사건의 미스터리는 더욱 깊어졌습니다.\n\n미국 하원에서는 이 엡스타인 파일의 전면 공개를 강력하게 추진하고 있으며, 최근 민주당 의원의 당선으로 파일 공개 본회의 상정에 필요한 218표를 확보했습니다. 이는 공화당의 마이크 존슨 하원의장이 피해자 인권을 이유로 공개를 막아왔던 상황에서 극적인 전환점을 맞이한 것입니다. 도널드 트럼프 전 대통령 역시 이 스캔들에 연루되어 있을 가능성이 제기되면서, 그동안 민주당을 공격하던 공화당은 내부적으로 혼란에 빠졌습니다. 트럼프는 당선 시 파일 공개를 약속했지만, 실제로는 소극적이었고 심지어 파일 공개를 주장하는 강성 마가 의원들을 \"배신자\"라고 비난하며 지지 철회를 선언하기도 했습니다. 엡스타인 이메일 내용 중에는 트럼프를 암시하는 문구가 포함되어 있어, 트럼프에게도 엡스타인 파일이 정치적 부담으로 작용하고 있습니다. 엡스타인 파일의 공개는 미국 정치에 예측 불가능한 거대한 후폭풍을 불러올 것으로 예상되며, 최소 6개월 이상 미국 정치계를 뒤흔들 주요 이슈가 될 것입니다."
+    },
+    {
+      "title_en": "3기 신도시 인기지역은 어디?",
+      "url": "https://www.youtube.com/watch?v=IFGm7Wdp7-Y",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i2.ytimg.com/vi/IFGm7Wdp7-Y/hqhqdefault.jpg",
+      "title": "3기 신도시 인기 지역은 어디인가요?",
+      "summary_kr": "국토교통부가 발표한 135만 호 주택 공급 확대 방안에 따라 3기 신도시의 대규모 분양이 본격적으로 시작됩니다. 한국토지주택공사(LH)는 공공 주도로 사업 속도를 2년 이상 단축하고, 3기 신도시 입주 시기를 1년 이상 앞당길 계획입니다. 심지어 민간 매각 예정 용지까지 LH가 직접 개발하여 공급량을 늘릴 방침입니다. 주요 3기 신도시 지구로는 남양주 왕숙1·2, 하남 교산, 고양 창릉, 인천 계양, 부천 대장이 있으며, 이들은 모두 서울과 10km 이내의 근접한 위치에 조성됩니다. 이는 과거 1기 신도시가 서울에서 20~25km, 2기 신도시가 30~40km 떨어진 위성 도시나 자족 도시를 추구했던 것과 달리, 서울과의 접근성과 일자리를 중시하는 '연계 확대형 도시'라는 특징을 가집니다. 각 신도시는 GTX, 9호선, 3호선 연장 등 다양한 교통망 확충 계획과 함께 기업 유치를 통한 일자리 창출을 목표로 하고 있습니다. 남양주 왕숙은 9호선 연장 및 GTX-B 개통, 카카오 등 기업 유치, 하남 교산은 3호선 연장 및 AI 혁신 클러스터 조성, 고양 창릉은 GTX-A 및 고양은평선 연장, 인천 계양과 부천 대장은 대장홍대선 신설 및 대한항공 유치 등이 예정되어 있습니다. 현재 남양주 왕숙 지구에서는 이미 본청약이 진행되었으며, 우수한 입지와 합리적인 분양가로 높은 경쟁률을 기록했습니다. 2025년 4분기부터 2026년 상반기까지 다양한 공공택지 및 3기 신도시에서 대규모 분양이 이어질 예정이며, 2026년에는 인천 계양 지구를 시작으로 입주가 시작될 것입니다. 청약 관련 상세 정보는 3기 신도시 홈페이지나 LH 청약 플러스에서 확인할 수 있으며, LH는 국민들의 주거 안정을 위해 최선을 다하고 있습니다."
+    },
+    {
+      "title_en": "따서 갚으면 되잖아",
+      "url": "https://www.youtube.com/watch?v=TmP-gqhJlMM",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i1.ytimg.com/vi/TmP-gqhJlMM/hqhqdefault.jpg",
+      "title": "따서 갚으면 되잖아: 불확실성 속 호재와 화재, 그리고 한국 증시의 전망",
+      "summary_kr": "본 영상은 '따서 갚으면 되잖아'라는 도발적인 제목 아래, 글로벌 금융 시장의 복합적인 상황을 '호재'와 '화재'의 관점에서 심층 분석한다. 먼저, 미국 역사상 가장 길었던 43일간의 정부 셧다운 종료는 시장에 긍정적인 기대를 불러일으켰으나, 셧다운 기간 동안 경제 지표 발표가 중단되면서 경제 상황에 대한 불확실성(화재)이 커졌다. 제롬 파월 연준 의장을 비롯한 유력 인사들은 데이터 공백으로 인해 금리 인하에 신중한 태도를 보였고, 이는 연말 금리 인하를 기대하던 시장의 기대를 꺾으며 나스닥 지수 약 5% 하락 및 비트코인 20% 하락이라는 결과를 초래했다. 특히, 미국 증시의 하락은 단순한 조정이 아닌 신용거래 잔고 급증이라는 국내 시장의 취약점과 맞물려 불안감을 가중시켰다. 국내 주식 신용거래는 코로나 팬데믹 당시 '동학 개미' 열풍 수준을 넘어 26조 원에 달했으며, 은행 대출을 통한 국내외 주식 투자도 확대되어 투자자 예탁금은 사상 최고치인 85조 원을 돌파했다. 이는 시장 하락 시 대규모 손실로 이어질 수 있는 잠재적 '화재' 요인으로 작용한다. 영상은 또한 영화 '빅쇼트'의 실제 주인공 마이클 버리가 인공지능(AI) 반도체 기업 엔비디아와 팔란티어에 1조 4천억 원 규모의 풋옵션 베팅을 한 사례를 소개하며, AI 기업들의 감가상각 회계 처리 문제를 지적, AI 버블 붕괴 가능성을 경고하는 시장의 또 다른 '화재' 요소를 조명한다. 마이클 버리는 시장의 예측 불가능성과 자신의 한계를 인정하는 모습을 보이며 결국 헤지펀드를 폐쇄했다. 반면, 한미 정상회담에서 도출된 결과들은 한국에게는 명확한 '호재'로 제시된다. 15억 달러 규모의 조선 협력 투자와 20억 달러의 전략적 투자 확인, 상호 관세 15% 인하 및 반도체 최혜국 대우 확보, 외환 시장 안정화 협력 등 다방면에서의 합의는 한국 경제에 긍정적인 영향을 미칠 것으로 기대된다. 특히, 조선업 투자 수익의 국내 기업 귀속, 주요 품목의 관세 인하, 반도체 분야의 우대 정책은 한국 증시의 상승 동력을 제공할 수 있다. 이러한 '호재'들은 불안정한 글로벌 시장 속에서도 한국 시장의 차별화된 긍정적 전망을 제시하며, 향후 국내 주식 시장의 흐름에 대한 기대감을 높인다."
+    },
+    {
+      "title_en": "정당 지지율 역대 최저를 기록한 미국",
+      "url": "https://www.youtube.com/watch?v=HlWry2GkVIE",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-11-30",
+      "image_url": "https://i1.ytimg.com/vi/HlWry2GkVIE/hqhqdefault.jpg",
+      "title": "미국 정치, 역대 최저 지지율 속 '누가 더 싫은가' 대결 양상 심화",
+      "summary_kr": "최근 미국 뉴욕시 시장 선거에서 34세 무슬림 후보인 조란 마다니가 50.4%의 득표율로 당선되는 이변을 일으켰습니다. 그의 승리 연설은 도널드 트럼프 전 대통령을 직접 겨냥하며 과두정치와 권위주의에 맞서 싸우고 뉴욕을 이민자들의 도시로 만들겠다는 급진적인 메시지를 담고 있었습니다. 마다니는 자신을 젊은 무슬림이자 민주적 사회주의자로 칭하며 어떠한 비난에도 사과하지 않겠다는 단호한 입장을 표명했습니다. 트럼프 전 대통령은 마다니의 연설에 크게 분노하며 그가 워싱턴을 존중하지 않으면 성공할 수 없을 것이라고 경고했습니다. 동시에 뉴욕 시장 선거 외에도 뉴저지, 버지니아 주지사 선거 및 캘리포니아 선거구 재조정 법안 투표 등 주요 선거에서 민주당이 모두 승리하며 트럼프는 언론이 자신의 업적을 제대로 보도하지 않아 패배했다고 주장했습니다. 그는 다가오는 2026년 중간선거를 '공산주의와 상식 중 하나를 선택하는 것'이라고 표현하며 마다니를 공산주의자로 규정했습니다. 현재 트럼프의 지지율은 43%에 불과하고, 특히 30대 이하, 여성, 흑인 유권자들 사이에서는 매우 낮은 순 지지율을 기록하고 있습니다. 이는 바이든 행정부 1년차보다 빠른 하락세이며, 공화당 지지율 역시 하락하고 있어 양당 모두 국민의 절반에게도 호감을 받지 못하는 '양당 불만족' 현상이 심화되고 있습니다. 이러한 배경 속에서 미국 연방정부는 역대 최장기인 38일 이상 셧다운 상태에 돌입했으며, 오바마케어 보조금 지급 연장 여부를 두고 민주당과 공화당이 첨예하게 대립하고 있습니다. 트럼프는 상원 공화당 의원들에게 60표 필리버스터 제도를 폐지하고 단순 과반수로 예산안을 통과시키도록 압박했으나, 많은 공화당 상원의원들이 이 요구를 거부하며 당내 분열을 드러냈습니다. 그들은 트럼프의 요구가 단기적인 이득에 불과하며 장기적으로는 민주당에게 역풍을 맞을 수 있다고 판단했고, 트럼프는 당내 협력 능력조차 없다는 비판에 직면하며 '레임덕' 현상이 가속화되고 있습니다. 이처럼 미국 정치는 양당 모두 국민들의 신뢰를 잃고 대화와 타협보다는 '누가 더 싫은가'를 겨루는 극심한 갈등과 혼란의 시대를 맞이하고 있습니다."
+    },
+    {
+      "title_en": "The New U.S. Global Health Strategy — A Reset of America’s Health Cooperation",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2514898?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-11-30",
+      "image_url": null,
+      "title": "미국의 새로운 글로벌 보건 전략: 보건 협력의 재편",
+      "summary_kr": "이 기사는 미국의 새로운 글로벌 보건 전략을 소개하며, 기존의 국제 보건 협력 방식에 대한 근본적인 재평가와 재편을 다루고 있습니다. 세계적인 권위를 가진 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 출판 전(Ahead of Print) 상태로 공개될 예정인 이 내용은, 미국이 전 세계 보건 문제에 접근하는 방식의 중대한 변화를 시사합니다. 새로운 전략은 팬데믹 대비, 개발도상국의 보건 시스템 강화, 그리고 전 지구적 보건 불평등 해소 등 핵심 우선순위를 명확히 제시할 것으로 예상됩니다. 특히, 국제 협력 파트너들과 다자간 기구들과의 협력 방안에 대한 구체적인 로드맵을 포함할 가능성이 높습니다. 이러한 전략적 전환은 미국이 글로벌 보건 리더십을 다시 한번 확립하고, 보다 효과적이고 공평한 전 세계 보건 성과를 달성하려는 의지를 반영하는 것으로 평가됩니다. 이 기사는 미국의 보건 외교 정책과 국제 사회에 미칠 파급 효과에 대한 중요한 통찰을 제공할 것입니다."
+    },
     {
       "title_en": "'진짜'들은 제미나이 쓴다. (구글)",
       "url": "https://www.youtube.com/watch?v=pbM0hIll9Gk",
