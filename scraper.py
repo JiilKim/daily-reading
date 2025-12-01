@@ -357,6 +357,7 @@ def main():
 
     # 2. 수집 소스 정의
     sources = [
+        ('https://www.technologyreview.com/feed/', 'MIT Tech Rev', 'News'),
         ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'),
         ('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'),
         ('https://www.statnews.com/feed/', 'STAT News', 'News'),
