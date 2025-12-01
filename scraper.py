@@ -93,115 +93,122 @@ def get_gemini_summary(article_data):
     url = article_data['url']
     source = article_data.get('source', '')
 
-    try:
-        api_key = os.environ.get('GEMINI_API_KEY')
+    api_key = os.environ.get('GEMINI_API_KEY')
         
-        if not api_key:
-            print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
-            return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
-
-        client = genai.Client(api_key=api_key)
-
-        # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
-        if 'YouTube' in source:
-            print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
-            
-            prompt = f"""
-당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
-출력은 반드시 지정된 JSON 형식을 따라야 합니다.
-
-[입력]
-- title_en: "{title_en}"
-
-[JSON 출력 형식]
-{{
-  "title_kr": "여기에 제목의 전문적인 한국어 번역을 작성합니다",
-  "summary_kr": "핵심 요점을 추출하여, 영상 콘텐츠에 대한 상세하고 최소 10문장 분량의 한국어 요약문을 작성합니다"
-}}
-
-[규칙]
-1. "title_kr": "title_en"을 자연스럽고 전문적인 한국어로 번역합니다.
-2. "summary_kr": 자연스러운 한국어 문체로 상세한 최소 10문장 요약을 제공합니다.
-3. 대화체가 아닌 일반적인 글쓰기 문체를 사용합니다.
-"""
-
-            response = client.models.generate_content(
-                model='gemini-2.5-flash', # 모델 버전
-                contents=[
-                    prompt,
-                    types.Part.from_uri(
-                        file_uri=url,
-                        mime_type="video/youtube"
-                    )
-                ],
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json"
-                )
-            )
-            
-        # 텍스트 기사: 설명을 바탕으로 번역 및 요약
-        else:
-            print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
-            
-            prompt = f"""
-당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
-아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
-결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
- 
-[입력]
-- title_en: "{title_en}"
-- description_en: "{description_en}"
-
-[JSON 출력 형식]
-{{
-  "title_kr": "여기에 한국어 번역 제목을 작성",
-  "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
-}}
-
-[규칙]
-1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
-2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
-3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
-"""
-            
-            response = client.models.generate_content(
-                model='gemini-2.5-flash', # 모델 버전
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json"
-                )
-            )
-
-
-        # [수정된 부분] 텍스트 정제 (마크다운 제거)
-        text = response.text
-        if text.startswith("```"):
-            text = re.sub(r"^```json\s*", "", text) # 시작 부분 ```json 제거
-            text = re.sub(r"^```\s*", "", text)     # 시작 부분 ``` 제거
-            text = re.sub(r"\s*```$", "", text)     # 끝 부분 ``` 제거
-        
-        text = text.strip() # 앞뒤 공백 제거
-
-        # JSON 파싱
-        data = json.loads(text)
-        
-        title_kr = data.get('title_kr', title_en)
-        summary_kr = data.get('summary_kr', "요약 내용 없음")
-
-        print(f"  [AI] ✅ 완료: {title_kr[:20]}...")
-        return title_kr, summary_kr
-
-    except json.JSONDecodeError as e:
-        print(f"  [AI] ❌ JSON 파싱 에러: {e}")
-        print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
-        return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
+    if not api_key:
+        print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
+        return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
     
-    except Exception as e:
-        print(f"  [AI] ❌ API/기타 에러: {e}")
-        return title_en, f"[요약 실패] 시스템 오류: {str(e)}"
+    client = genai.Client(api_key=api_key)
 
+    # 재시도 횟수 설정 (총 3번 시도)
+    max_retries = 3
+    
+    for attempt in range(max_retries):
+        try:        
+            # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
+            if 'YouTube' in source:
+                print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
+                
+                prompt = f"""
+                        당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
+                        출력은 반드시 지정된 JSON 형식을 따라야 합니다.
+                        
+                        [입력]
+                        - title_en: "{title_en}"
+                        
+                        [JSON 출력 형식]
+                        {{
+                          "title_kr": "여기에 제목의 전문적인 한국어 번역을 작성합니다",
+                          "summary_kr": "핵심 요점을 추출하여, 영상 콘텐츠에 대한 상세하고 최소 10문장 분량의 한국어 요약문을 작성합니다"
+                        }}
+                        
+                        [규칙]
+                        1. "title_kr": "title_en"을 자연스럽고 전문적인 한국어로 번역합니다.
+                        2. "summary_kr": 자연스러운 한국어 문체로 상세한 최소 10문장 요약을 제공합니다.
+                        3. 대화체가 아닌 일반적인 글쓰기 문체를 사용합니다.
+                        """
+    
+                response = client.models.generate_content(
+                    model='gemini-2.5-flash', # 모델 버전
+                    contents=[
+                        prompt,
+                        types.Part.from_uri(
+                            file_uri=url,
+                            mime_type="video/youtube"
+                        )
+                    ],
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json"
+                    )
+                )
+                
+            # 텍스트 기사: 설명을 바탕으로 번역 및 요약
+            else:
+                print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
+                
+                prompt = f"""
+                        당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
+                        아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
+                        결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+                         
+                        [입력]
+                        - title_en: "{title_en}"
+                        - description_en: "{description_en}"
+                        
+                        [JSON 출력 형식]
+                        {{
+                          "title_kr": "여기에 한국어 번역 제목을 작성",
+                          "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
+                        }}
+                        
+                        [규칙]
+                        1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+                        2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
+                        3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
+                        """
+                
+                response = client.models.generate_content(
+                    model='gemini-2.5-flash', # 모델 버전
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json"
+                    )
+                )
+    
+    
+            # [수정된 부분] 텍스트 정제 (마크다운 제거)
+            text = response.text
+            if text.startswith("```"):
+                text = re.sub(r"^```json\s*", "", text) # 시작 부분 ```json 제거
+                text = re.sub(r"^```\s*", "", text)     # 시작 부분 ``` 제거
+                text = re.sub(r"\s*```$", "", text)     # 끝 부분 ``` 제거
+            
+            text = text.strip() # 앞뒤 공백 제거
+    
+            # JSON 파싱
+            data = json.loads(text)
+            
+            title_kr = data.get('title_kr', title_en)
+            summary_kr = data.get('summary_kr', "요약 내용 없음")
+    
+            print(f"  [AI] ✅ 완료: {title_kr[:20]}...")
+            return title_kr, summary_kr
+    
+        except json.JSONDecodeError as e:
+            print(f"  [AI] ❌ JSON 파싱 에러: {e}")
+            print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
+            return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
         
-
+        except Exception as e:
+            print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2) # 2초 대기 후 재시도
+                continue
+            else:
+                # 3번 다 실패하면 포기
+                print(f"  [AI] ❌ 최종 실패: {title_en[:20]}...")
+                return title_en, f"[요약 실패] 서버 연결 오류 ({str(e)})"
 
 # ============================================================================
 # 스크래퍼
