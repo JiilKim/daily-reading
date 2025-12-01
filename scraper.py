@@ -187,7 +187,7 @@ def get_gemini_summary(article_data):
             text = text.strip() # 앞뒤 공백 제거
     
             # JSON 파싱
-            data = json.loads(text)
+            data = json.loads(text, strict=False)
             
             title_kr = data.get('title_kr', title_en)
             summary_kr = data.get('summary_kr', "요약 내용 없음")
