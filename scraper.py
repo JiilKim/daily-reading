@@ -102,7 +102,7 @@ def get_gemini_summary(article_data):
     client = genai.Client(api_key=api_key)
 
     # 재시도 횟수 설정 (총 3번 시도)
-    max_retries = 3
+    max_retries = 5
     
     for attempt in range(max_retries):
         try:        
@@ -201,15 +201,18 @@ def get_gemini_summary(article_data):
             return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
         
         except Exception as e:
+            # [수정] 대기 시간 점진적 증가 (2초 -> 4초 -> 8초 -> 16초...)
+            wait_time = 2 * (2 ** attempt) 
             print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
+            
             if attempt < max_retries - 1:
-                time.sleep(2) # 2초 대기 후 재시도
+                print(f"  ⏳ {wait_time}초 대기 후 재시도합니다...")
+                time.sleep(wait_time)
                 continue
             else:
-                # 3번 다 실패하면 포기
                 print(f"  [AI] ❌ 최종 실패: {title_en[:20]}...")
-                return title_en, f"[요약 실패] 서버 연결 오류 ({str(e)})"
-
+                return title_en, f"[요약 실패] {str(e)}"
+                
 # ============================================================================
 # 스크래퍼
 # ============================================================================
