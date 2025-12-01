@@ -1,205 +1,205 @@
 {
-  "last_updated": "2025-11-30 02:40:01",
+  "last_updated": "2025-12-01 02:42:39",
   "logs": [
     {
-      "time": "02:18:32",
+      "time": "02:22:59",
       "level": "INFO",
-      "message": "=== 스크립트 시작 (날짜: 2025-11-30) ==="
+      "message": "=== 스크립트 시작 (날짜: 2025-12-01) ==="
     },
     {
-      "time": "02:18:32",
+      "time": "02:22:59",
       "level": "INFO",
-      "message": "지난 실행 실패 항목 17개 재시도 대기"
+      "message": "지난 실행 실패 항목 13개 재시도 대기"
     },
     {
-      "time": "02:18:32",
+      "time": "02:23:00",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "[The Transmitter] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "[Nature] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "[STAT News] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:33",
+      "time": "02:23:01",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "[The Scientist] 완료: 100개 기사 수집됨"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "[Ars Technica] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "[Wired] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
     },
     {
-      "time": "02:18:34",
+      "time": "02:23:02",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "02:18:35",
+      "time": "02:23:03",
       "level": "INFO",
       "message": "[Endpoints News] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:18:35",
+      "time": "02:23:03",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "02:18:35",
+      "time": "02:23:03",
       "level": "INFO",
       "message": "[Science] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:35",
+      "time": "02:23:03",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:04",
       "level": "INFO",
       "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:04",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:04",
       "level": "INFO",
       "message": "[Science (Paper)] 완료: 39개 기사 수집됨"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:04",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "[Cell] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:18:36",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:37",
+      "time": "02:23:05",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "02:18:38",
+      "time": "02:23:06",
       "level": "INFO",
       "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:38",
+      "time": "02:23:06",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "02:18:38",
+      "time": "02:23:07",
       "level": "INFO",
       "message": "[NEJM] 완료: 65개 기사 수집됨"
     },
     {
-      "time": "02:18:38",
+      "time": "02:23:07",
       "level": "INFO",
-      "message": "총 처리 대상: 23건"
+      "message": "총 처리 대상: 28건"
     },
     {
-      "time": "02:40:01",
+      "time": "02:42:39",
       "level": "INFO",
-      "message": "오늘 처리 결과: 성공 10건, 실패/보류 13건"
+      "message": "오늘 처리 결과: 성공 23건, 실패/보류 5건"
     }
   ],
   "failed_queue": [
@@ -209,7 +209,7 @@
       "url": "https://www.youtube.com/watch?v=l2PxoOzzgks",
       "source": "김지윤의 지식Play YouTube",
       "category": "Video",
-      "date": "2025-11-30",
+      "date": "2025-12-01",
       "image_url": "https://i1.ytimg.com/vi/l2PxoOzzgks/hqhqdefault.jpg"
     },
     {
@@ -218,7 +218,7 @@
       "url": "https://www.youtube.com/watch?v=REWwWEJmSBE",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-30",
+      "date": "2025-12-01",
       "image_url": "https://i3.ytimg.com/vi/REWwWEJmSBE/hqhqdefault.jpg"
     },
     {
@@ -227,7 +227,7 @@
       "url": "https://www.youtube.com/watch?v=uejgOvsiQnQ",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-30",
+      "date": "2025-12-01",
       "image_url": "https://i2.ytimg.com/vi/uejgOvsiQnQ/hqhqdefault.jpg"
     },
     {
@@ -236,92 +236,250 @@
       "url": "https://www.youtube.com/watch?v=tiF-dbDJHLM",
       "source": "슈카월드 YouTube",
       "category": "Video",
-      "date": "2025-11-30",
+      "date": "2025-12-01",
       "image_url": "https://i1.ytimg.com/vi/tiF-dbDJHLM/hqhqdefault.jpg"
     },
     {
-      "title_en": "Author Correction: Evidence for improved DNA repair in the long-lived bowhead whale",
-      "description_en": "Nature, Published online: 28 November 2025;doi:10.1038/s41586-025-09952-6Author Correction: Evidence for improved DNA repair in the long-lived bowhead whale",
-      "url": "https://www.nature.com/articles/s41586-025-09952-6",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-11-30",
-      "image_url": null
-    },
-    {
-      "title_en": "Laser cooling traps more antimatter atoms than ever before",
-      "description_en": "Nature, Published online: 28 November 2025;doi:10.1038/d41586-025-03877-wStudying trapped antimatter could help to explain why our world is so full of matter.",
-      "url": "https://www.nature.com/articles/d41586-025-03877-w",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-11-30",
-      "image_url": null
-    },
-    {
-      "title_en": "Opinion: The U.S. government’s failure to acknowledge World AIDS Day takes us back to a troubling time",
-      "description_en": "Perhaps AIDS activists’ famous slogan, “Silence = Death,” needs an update for this troubling moment.",
-      "url": "https://www.statnews.com/2025/11/29/world-aids-day-us-government-acknowledgment/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-30",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2187240632-645x645.jpg"
-    },
-    {
-      "title_en": "Global measles vaccinations are nearly back to pre-pandemic levels, WHO report finds",
-      "description_en": "New report suggests the number of children vaccinated against measles globally — which declined during the Covid-19 pandemic — is nearly back to pre-pandemic levels.",
-      "url": "https://www.statnews.com/2025/11/28/measles-who-report-vaccinations-cases/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-30",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2224962422-645x645.jpg"
-    },
-    {
-      "title_en": "Experts say top FDA official’s claim that Covid vaccines caused kids’ deaths requires more evidence",
-      "description_en": "The FDA’s top vaccine regulator asserted in a staff email that the Covid vaccine caused at least 10 kids' deaths, but experts told STAT they are skeptical of the “extraordinary”…",
-      "url": "https://www.statnews.com/2025/11/29/covid-vaccine-deaths-fda-memo-vinay-prasad/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-11-30",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/GettyImages-1308671560-645x645.jpg"
-    },
-    {
-      "title_en": "Postdoc Portrait: Priya Prakash",
-      "description_en": "This postdoc uncovers how glial dysfunction drives neurodegeneration in a rare movement disorder.",
-      "url": "https://www.the-scientist.com/postdoc-portrait-priya-prakash-73785",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-11-30",
-      "image_url": null
-    },
-    {
-      "title_en": "Complete Heart Block Detected by Consumer-Facing Digital Health Technologies",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510111?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-11-30",
-      "image_url": null
-    },
-    {
-      "title_en": "From Bandwidth to Bedside — Bringing AI-Enabled Care to Rural America",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2509491?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-11-30",
-      "image_url": null
-    },
-    {
-      "title_en": "Has Corporatization Met Its Match? The Challenge of Making Money by Keeping People Healthy",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2513434?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-11-30",
-      "image_url": null
+      "title_en": "환율이 오르니, 보이는 것들",
+      "description_en": "0:00 한국은행 경제성장률 전망 상향 조정\n9:09 사실상 마무리 되는 듯한 금리 인하기\n18:23 물잔을 넘치게 하는 것은 무엇인가\n\n저널리즘을 지키는 채널이 되겠습니다.",
+      "url": "https://www.youtube.com/watch?v=mSyXXvkDgBc",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-12-01",
+      "image_url": "https://i2.ytimg.com/vi/mSyXXvkDgBc/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Author Correction: Evidence for improved DNA repair in the long-lived bowhead whale",
+      "url": "https://www.nature.com/articles/s41586-025-09952-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "저자 정정: 장수하는 북극고래의 개선된 DNA 복구 능력에 대한 증거",
+      "summary_kr": "북극고래는 지구상에서 가장 오래 사는 포유류 중 하나로, 200년 이상 생존하는 것으로 알려져 있어 과학계의 오랜 관심 대상이었습니다. 그들의 놀라운 장수 비결을 밝히려는 연구는 특히 손상된 DNA를 효과적으로 복구하는 능력에 초점을 맞춰왔습니다. 과거의 한 연구는 북극고래가 다른 종에 비해 현저히 개선된 DNA 복구 메커니즘을 가지고 있다는 중요한 증거를 제시하며, 이를 장수와 노화 저항성의 핵심 요인으로 지목했습니다. 본 '저자 정정'은 해당 연구에서 보고된 북극고래의 DNA 복구 능력에 대한 특정 데이터나 해석에 대한 수정 또는 추가적인 명확화를 제공합니다. 이 정정을 통해 원 논문의 과학적 정확성과 신뢰성이 더욱 강화되며, 북극고래의 독특한 생물학적 특성에 대한 이해를 한층 더 정교하게 다듬는 데 기여합니다. 이는 노화 방지 및 생명 연장 연구 분야에 귀중한 통찰력을 지속적으로 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Laser cooling traps more antimatter atoms than ever before",
+      "url": "https://www.nature.com/articles/d41586-025-03877-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "레이저 냉각 기술, 역대 최다 반물질 원자 포획 성공",
+      "summary_kr": "과학자들이 레이저 냉각 기술을 활용하여 이전보다 훨씬 더 많은 수의 반물질 원자를 성공적으로 포획하는 데 성공했습니다. 이 획기적인 연구는 반물질 물리학 분야에서 중요한 진전을 의미하며, 극도로 다루기 어려운 반물질의 안정적인 연구 가능성을 한층 높였습니다. 반물질을 포획하고 정밀하게 연구하는 것은 우리 우주가 왜 물질로 가득 차 있고 반물질은 거의 없는지에 대한 근본적인 질문에 답하는 데 필수적입니다. 물질과 반물질 사이의 미묘한 차이를 발견하는 것은 우주의 기원과 진화에 대한 우리의 이해를 심화시킬 수 있습니다. 이번 성과는 반물질의 특성을 보다 상세하고 오랜 시간 동안 분석할 수 있는 새로운 길을 열었으며, 물리학의 가장 큰 미스터리 중 하나를 해결하는 데 결정적인 단서가 될 것으로 기대됩니다. 앞으로 이 기술을 통해 얻게 될 데이터는 표준 모형을 넘어선 새로운 물리학 이론을 탐색하는 데 중요한 기반을 제공할 것입니다."
+    },
+    {
+      "title_en": "Opinion: The U.S. government’s failure to acknowledge World AIDS Day takes us back to a troubling time",
+      "url": "https://www.statnews.com/2025/11/29/world-aids-day-us-government-acknowledgment/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2187240632-645x645.jpg",
+      "title": "논평: 미국 정부의 세계 에이즈의 날 외면, 과거의 암울했던 시대로 회귀하는가",
+      "summary_kr": "최근 미국 정부가 '세계 에이즈의 날'을 제대로 인정하지 않으면서, 에이즈 활동가들의 오랜 외침이 다시금 주목받고 있습니다. 과거 에이즈 운동의 상징적인 구호였던 '침묵은 곧 죽음(Silence = Death)'은 정부와 사회의 무관심이 질병의 확산과 희생을 가속화했음을 경고했습니다. 현재의 불안한 시점에서, 이러한 구호는 단순한 과거의 회상이 아닌, 오늘날의 맥락에 맞춰 재해석될 필요가 있다는 지적이 나옵니다. 정부의 공식적인 인정 부족은 에이즈 퇴치를 위한 지속적인 노력과 대중 인식을 저해할 수 있으며, 이는 과거의 암울했던 시대로 회귀하는 위험을 내포합니다. 이는 침묵이 직접적인 사망으로 이어졌던 초기 에이즈 팬데믹 시기와는 다른 형태일지라도, 예방과 치료에 대한 관심 부족이 또 다른 비극을 초래할 수 있음을 의미합니다. 따라서 에이즈 퇴치를 위한 전 세계적인 연대와 정부의 적극적인 참여가 그 어느 때보다 중요한 시점입니다."
+    },
+    {
+      "title_en": "Global measles vaccinations are nearly back to pre-pandemic levels, WHO report finds",
+      "url": "https://www.statnews.com/2025/11/28/measles-who-report-vaccinations-cases/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2224962422-645x645.jpg",
+      "title": "WHO 보고서: 전 세계 홍역 예방접종률, 팬데믹 이전 수준 거의 회복",
+      "summary_kr": "세계보건기구(WHO)의 최신 보고서에 따르면, 전 세계 어린이 홍역 예방접종률이 코로나19 팬데믹 이전 수준을 거의 회복한 것으로 나타나 고무적인 결과를 보였습니다. 코로나19 팬데믹 기간 동안 의료 시스템의 혼란과 봉쇄 조치 등으로 인해 전 세계적으로 홍역 예방접종률이 상당한 폭으로 감소했었습니다. 그러나 이번 보고서는 이러한 감소세가 역전되어, 각국의 노력으로 필수 예방접종 프로그램이 다시 활성화되고 있음을 분명히 보여줍니다. 이는 전 세계적으로 집단 면역력을 강화하고 홍역 발병을 억제하는 데 긍정적인 영향을 미칠 것으로 기대됩니다. 보고서는 비록 상당한 진전이 있었지만, 여전히 일부 지역에서는 접종률 격차가 존재하며 취약 계층에 대한 접근성 강화와 접종률 유지를 위한 지속적인 관심과 투자가 필요하다고 강조했습니다. 이번 회복세는 글로벌 보건 협력과 각국의 보건 시스템 복원력이 중요한 질병으로부터 아동을 보호하는 데 얼마나 중요한지를 입증하는 사례입니다."
+    },
+    {
+      "title_en": "Experts say top FDA official’s claim that Covid vaccines caused kids’ deaths requires more evidence",
+      "url": "https://www.statnews.com/2025/11/29/covid-vaccine-deaths-fda-memo-vinay-prasad/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/GettyImages-1308671560-645x645.jpg",
+      "title": "FDA 고위 관계자 '코로나 백신 아동 사망 유발' 주장, 전문가들 \"추가 증거 필요\"",
+      "summary_kr": "미국 식품의약국(FDA)의 고위 백신 규제 담당자가 직원 이메일을 통해 코로나19 백신이 최소 10명의 아동 사망에 기여했다고 주장해 파장이 일고 있습니다. 그러나 이 주장에 대해 많은 전문가들은 회의적인 시각을 보이고 있습니다. STAT 인터뷰에 따르면, 전문가들은 이 담당자의 주장이 \"매우 이례적(extraordinary)\"이라며, 이를 뒷받침할 충분한 과학적 증거가 부족하다고 지적했습니다. 이들은 이러한 중대한 주장은 철저한 데이터와 분석으로 뒷받침되어야 하며, 그렇지 않으면 대중의 혼란만 가중시킬 수 있다고 강조했습니다. 특히 백신 안전성에 대한 대중의 우려가 높은 시점에서, 이 같은 주장은 백신 신뢰도에 치명적인 영향을 미칠 수 있어 신중한 접근이 필요합니다. 따라서 전문가들은 해당 주장에 대한 독립적이고 엄격한 추가 조사가 이루어져야 하며, 그 결과가 투명하게 공개되어야 한다고 입을 모으고 있습니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Priya Prakash",
+      "url": "https://www.the-scientist.com/postdoc-portrait-priya-prakash-73785",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "인물 탐구: 박사후 연구원 프리야 프라카시",
+      "summary_kr": "프리야 프라카시 박사후 연구원은 신경 퇴행성 질환 연구 분야에서 활발히 활동하고 있는 촉망받는 과학자입니다. 그녀는 특히 희귀 운동 질환에서 신경 퇴행이 발생하는 근본적인 원리를 규명하는 데 깊이 천착하고 있습니다. 최근 그녀의 연구는 신경교세포(glia)의 기능 이상이 어떻게 신경 세포 손상을 유발하고 질병을 진행시키는지에 대한 중요한 단서를 밝혀내고 있습니다. 이러한 발견은 그동안 치료법 개발에 어려움을 겪었던 희귀 신경 퇴행성 운동 질환에 대한 새로운 치료 전략을 제시할 가능성을 열어줍니다. 신경교세포의 역할을 명확히 이해함으로써, 과학자들은 질병의 진행을 늦추거나 멈출 수 있는 정교한 표적 치료법을 개발하는 데 한 걸음 더 다가설 수 있을 것입니다. 프리야 프라카시 박사후 연구원의 이러한 심도 깊은 연구는 많은 환자에게 희망을 선사할 중요한 과학적 진보로 평가됩니다."
+    },
+    {
+      "title_en": "Complete Heart Block Detected by Consumer-Facing Digital Health Technologies",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510111?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "소비자용 디지털 건강 기술, 완전 방실 차단 탐지 성공",
+      "summary_kr": "최근 의료 분야에서 소비자용 디지털 건강 기술의 역할이 크게 부상하고 있는 가운데, 이 기술이 심각한 심장 질환인 '완전 방실 차단(Complete Heart Block)'을 성공적으로 탐지한 사례가 보고되었습니다. '뉴 잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정인 이번 연구는 해당 기술의 임상적 유효성을 강력하게 뒷받침합니다. 완전 방실 차단은 심장의 전기 신호 전달 체계에 심각한 문제가 발생하여 심박수가 비정상적으로 느려지거나 멈출 수 있는 치명적인 상태로, 즉각적인 의료 개입이 필요한 경우가 많습니다. 기존에는 주로 병원이나 클리닉에서 전문 의료 기기를 통해 진단되었던 이 질환을 소비자들이 일상에서 사용하는 스마트워치나 웨어러블 기기 등이 사전에 감지했다는 점에서 그 의미가 큽니다. 이는 잠재적으로 수많은 환자들이 진단 지연으로 인한 합병증을 피하고, 조기에 치료를 시작하여 생명을 구하거나 삶의 질을 향상시키는 데 기여할 수 있음을 시사합니다. 이번 연구 결과는 개인 건강 관리 장치가 질병의 조기 진단 및 예방에 핵심적인 역할을 수행할 수 있음을 강력하게 보여주며, 미래 의료의 방향성을 제시하는 중요한 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "From Bandwidth to Bedside — Bringing AI-Enabled Care to Rural America",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2509491?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "초고속 통신망에서 환자 곁으로: AI 기반 의료, 미국 농촌에 가닿다",
+      "summary_kr": "이 기사는 초고속 통신 기술과 인공지능(AI)을 활용하여 미국 농촌 지역의 고질적인 의료 접근성 문제를 해결하려는 중요한 노력을 다룹니다. 제목인 '대역폭에서 병상으로'는 단순히 통신 인프라를 구축하는 것을 넘어, 이 기술이 실제 환자들의 삶에 직접적인 의료 혜택으로 이어지는 과정을 의미합니다. AI 기반 의료는 원격 진료, 진단 보조, 맞춤형 치료 등 다양한 형태로 농촌 지역 주민들이 겪는 의료 불균형을 해소하는 데 기여할 것으로 기대됩니다. 특히 지리적 제약과 의료 인력 부족으로 어려움을 겪는 농촌 지역에서는 이러한 첨단 기술의 도입이 생명을 살리고 삶의 질을 향상시키는 데 필수적입니다. 세계 최고 권위의 의학 저널 중 하나인 <뉴잉글랜드 의학 저널(New England Journal of Medicine)>에 게재 예정(Ahead of Print)이라는 점은 이 연구 또는 정책 제안의 학술적 중요성과 시급성을 방증합니다. 본 기사는 AI 기술이 의료 서비스의 지평을 어떻게 확장하고, 궁극적으로 더 많은 사람에게 양질의 의료를 제공할 수 있는지에 대한 심도 깊은 통찰을 제공할 것입니다."
+    },
+    {
+      "title_en": "Has Corporatization Met Its Match? The Challenge of Making Money by Keeping People Healthy",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2513434?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "기업화, 난관에 봉착하다: 사람들의 건강을 지키며 수익을 창출하는 도전",
+      "summary_kr": "이 기사는 세계적인 의학 저널인 <뉴잉글랜드 저널 오브 메디신>(New England Journal of Medicine)에 게재 예정인 중요한 논문으로, 현대 의료 시스템의 근본적인 딜레마를 다루고 있습니다. 특히, 의료 및 건강 산업의 '기업화' 또는 '영리화'가 과연 사람들의 건강을 효과적으로 증진시키는 목표와 조화를 이룰 수 있는지에 대한 심도 깊은 질문을 던집니다. 대개 질병을 치료하는 과정에서 더 많은 수익이 발생하는 현행 구조 속에서, 예방과 건강 유지를 통해 이윤을 창출하려는 시도가 어떠한 난관에 부딪히는지 분석합니다. 이는 공공 보건의 궁극적인 목표와 영리 추구라는 기업의 본질적 속성 사이에서 발생하는 잠재적 충돌 지점을 면밀히 탐색하는 것입니다. 본 논문은 이러한 복합적인 문제를 조명하며, 건강을 지키는 것이 곧 수익 창출로 이어지는 지속 가능한 모델을 구축하는 데 필요한 과제와 함의를 논의할 것으로 예상됩니다. 'Ahead of Print'로 공개되었다는 점은 이 주제가 현재 의료계와 정책 입안자들 사이에서 매우 시급하고 중요한 논의 대상임을 시사합니다."
+    },
+    {
+      "title_en": "\"그냥 들이받아요\" (신우석 감독)",
+      "url": "https://www.youtube.com/shorts/Rfgl37jh-vM",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-01",
+      "image_url": "https://i3.ytimg.com/vi/Rfgl37jh-vM/hqhqdefault.jpg",
+      "title": "신우석 감독의 창작자를 위한 조언: '그냥 들이받으세요'",
+      "summary_kr": "신우석 감독은 첫 작품이 성공하기까지 7년이라는 긴 시간이 걸렸음을 언급하며, 현재 작품 활동을 시작하거나 한창 진행 중인 제작자 및 창작자들에게 진심 어린 조언을 전합니다. 그는 창작자들이 개개인의 입장에서 거대한 사회를 마주할 때 느끼는 막연한 두려움과 세상의 압도적인 크기에 대해 공감했습니다. 개인이 세상에 새로운 균열을 내거나 과감한 시도를 하는 것이 어렵다고 생각하기 쉽다는 점을 짚었습니다. 그러나 신우석 감독은 자신의 경험을 통해 세상이 생각보다 연약하다는 것을 크게 느꼈다고 고백합니다. 그는 자신의 주관을 가지고 강하게 던지고, 들이받으면 세상이 깨지더라는 깨달음을 얻었다고 강조했습니다. 이 메시지를 통해 도전하는 입장에 있는 창작자들이 너무 겁내지 말고, 두려움 없이 과감하게 나아가기를 바랐습니다. 특히 젊은 창작자들이 이러한 태도를 가졌으면 좋겠다고 덧붙였습니다. 요약하자면, 세상은 보이는 것보다 유연하며, 개인의 강한 의지와 도전이 큰 변화를 만들 수 있다는 희망적인 메시지를 전달하고 있습니다."
+    },
+    {
+      "title_en": "비트코인 예측한 피터틸 (1999년)",
+      "url": "https://www.youtube.com/watch?v=BdqenHB1fdw",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-01",
+      "image_url": "https://i3.ytimg.com/vi/BdqenHB1fdw/hqhqdefault.jpg",
+      "title": "피터 틸의 1999년 예측: 전자 화폐 시대와 사적 통화의 부상",
+      "summary_kr": "1999년 피터 틸은 강연에서 현재의 화폐 시스템에서 전자 화폐 시스템의 도입이 어떻게 가능할지에 대한 근본적인 질문을 던졌습니다. 그는 인터넷이 이 변화의 기반이 될 것이며, 특히 신흥 개발도상국에서는 핸드폰이 핵심 플랫폼 역할을 할 것이라고 전망했습니다. 당시 1억 5천만 개에 달했던 온라인 데스크톱 기반 계정은 향후 5년 내 3억에서 3억 5천만 개로 성장할 것으로 예측했으며, 현재 약 1천만 대 수준인 인터넷이 가능한 핸드폰은 향후 5년 안에 10억 대까지 폭발적으로 증가할 것이라고 보았습니다. 그는 5년 후에는 개발도상국이든 선진국이든 중산층은 누구나 인터넷이 가능한 핸드폰을 갖게 될 것이라고 주장했습니다. 이로써 사람들은 본인의 은행 계좌에 접근할 수 있게 되고, 정치가 금융을 통제하지 않는 안전한 사법권의 계좌로 돈을 매우 쉽게 옮길 수 있게 될 것이라고 설명했습니다. 이는 사실상 자국 경제를 완전히 달러화(dollarize)하여 루블이나 위안화를 굳이 보유할 필요가 없어지고 자금 추적 또한 불가능해질 것이라는 의미입니다. 중국 공산당 정부가 달러 보유를 불법이라고 규정하더라도 핸드폰에 비밀번호가 걸려 있기 때문에 추적이 어렵고, 이를 막을 유일한 방법은 통신 네트워크 자체를 폐쇄하는 것뿐이며, 이는 정부에 막대한 권력을 포기하게 할 것이라고 분석했습니다. 또한 틸은 디지털 달러나 정부가 보증하는 화폐에서도 벗어나 '민간 화폐'로 넘어가는 것을 또 다른 중요한 미래 변화로 보았습니다. 그가 생각하는 민간 화폐의 본질적인 의미는 정부가 가치를 보증하는 중간 단계 없이 실제 가치와 가치를 직접 맞바꾸는 물물교환 모델과 유사하며, 디지털 시대에 거래 비용이 획기적으로 낮아지면서 이러한 전환이 가속화될 것이라고 보았습니다. 그는 S&P 500 지수나 마이크로소프트와 같은 대형 우량주와 같이 유동성이 매우 풍부한 다른 종류의 금융 상품들이 화폐의 역할을 하게 될 것이며, 주식 시장 전체가 사실상 화폐 역할을 하는 시대가 올 수 있다고 예측했습니다. 그는 이러한 자산 대체 현상이 이미 일어나고 있으며, 주식 시장에서 주식의 위험 프리미엄이 20세기 내내 높은 수준을 유지하다가 2% 수준으로 하락한 것은 주식이 국채보다 훨씬 덜 위험한 자산으로 인식되고 있음을 보여준다고 해석했습니다. 마지막으로, 그는 이러한 기술적 진보와 화폐 개혁에 대한 큰 싸움이 워싱턴 D.C.에서 벌어지지 않을 것이라고 단언했습니다. 그 이유는 정부 관료들이 이 기술을 전혀 이해하지 못하며, 어느 정도 이해한다고 해도 암호화 프로토콜 같은 흐름을 막을 수 없을 것이기 때문이라고 강조했습니다."
+    },
+    {
+      "title_en": "This paper changed my life: Nancy Padilla-Coreano on learning the value of population coding",
+      "url": "https://www.thetransmitter.org/this-paper-changed-my-life/this-paper-changed-my-life-nancy-padilla-coreano-on-learning-the-value-of-population-coding/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-01",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-Padilla-Coreano-525.png",
+      "title": "낸시 파디야-코레아노: '내 인생을 바꾼 논문' — 개체군 부호화의 가치를 깨닫다",
+      "summary_kr": "2013년 마티아 리고티(Mattia Rigotti)와 동료들이 과학 학술지 네이처(Nature)에 발표한 한 편의 논문은 인지 과학 분야에 중요한 전환점을 제시했습니다. 이 연구는 특정 자극에만 선택적으로 반응하지 않는, 이른바 '혼합 선택성 뉴런(mixed selectivity neurons)'이 뇌의 복잡한 인지 과정에서 핵심적인 역할을 수행한다는 사실을 밝혀냈습니다. 기존에는 뉴런이 특정 자극에 특화되어 반응한다고 여겨졌으나, 혼합 선택성 뉴런은 단일 자극에 구애받지 않고 다양한 정보를 동시에 처리하며 연결하는 능력을 보여주었습니다. 이러한 비선택적 조율(non-selective tuning)의 특성이 뇌가 여러 정보를 통합하고 유연하게 사고하며 복잡한 결정을 내릴 수 있도록 돕는 메커니즘임을 증명한 것입니다. 낸시 파디야-코레아노(Nancy Padilla-Coreano)와 같은 신경과학자들에게 이 논문은 '개체군 부호화(population coding)'의 심오한 가치와 중요성을 깊이 인식하게 하는 결정적인 계기가 되었습니다. 결과적으로, 이 논문은 뇌가 어떻게 정보를 인코딩하고 처리하는지에 대한 이해를 한층 더 심화시켰으며, 신경과학 연구의 새로운 방향을 제시한 것으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Why first-generation mental health apps cannot ignore next-gen AI chatbots",
+      "url": "https://www.statnews.com/2025/12/01/ai-chatbot-headspace-talkspace-lyra-sondermind-digital-mental-health/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2022/09/R64J41-645x645.jpg",
+      "title": "STAT+: 1세대 정신 건강 앱, 차세대 AI 챗봇을 무시할 수 없는 이유",
+      "summary_kr": "최근 디지털 헬스케어 업계에 중요한 변화의 바람이 불고 있습니다. Talkspace, Lyra, SonderMind, Headspace와 같은 선도적인 디지털 정신 건강 서비스 기업들이 차세대 AI 챗봇 기능 통합을 적극적으로 검토하고 있기 때문입니다. 이는 기존 1세대 정신 건강 앱들이 인공지능 기술의 발전과 사용자 기대치 변화에 발맞춰 진화해야 할 필요성을 느끼고 있음을 시사합니다. 차세대 AI 챗봇은 사용자들에게 더욱 개인화되고 즉각적인 심리 지원을 제공하며, 접근성을 크게 향상시킬 잠재력을 가지고 있습니다. 이러한 움직임은 디지털 정신 건강 서비스 시장의 경쟁이 심화되고 있음을 보여주며, 혁신적인 기술 도입을 통해 서비스의 질을 높이고 새로운 성장 동력을 확보하려는 업계의 노력을 반영합니다. 결과적으로, AI 챗봇의 통합은 기존 정신 건강 앱의 한계를 극복하고 미래 디지털 헬스케어의 방향을 제시하는 중요한 전환점이 될 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Opinion: One way to fight vaccine hesitancy: ditch the needles",
+      "url": "https://www.statnews.com/2025/12/01/vaccines-needle-phobia-research-alternatives/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_316213831-645x645.jpeg",
+      "title": "백신 접종 주저 현상, '주삿바늘 없는 백신'으로 극복 가능하다 [의견]",
+      "summary_kr": "백신 연구자인 벤자민 L. 시버스(Benjamin L. Sievers)는 흥미롭게도 자신 또한 주삿바늘에 대한 극심한 공포를 느끼는 인물입니다. 이러한 개인적인 경험은 그가 백신 접종을 주저하는 전 세계 수많은 사람들의 심리를 이해하는 데 중요한 통찰력을 제공합니다. 이 칼럼에서 그는 백신 접종 주저 현상을 극복하기 위한 한 가지 효과적인 방법으로 '주삿바늘 없는 백신'의 개발과 보급을 제안합니다. 실제로 많은 사람들이 백신의 필요성을 인지하고 있음에도 불구하고, 주삿바늘에 대한 공포증, 즉 '트라이파노포비아(trypanophobia)' 때문에 접종을 망설이거나 아예 기피하는 경우가 적지 않습니다. 만약 경구용, 패치형, 혹은 흡입형 백신처럼 주삿바늘을 사용하지 않는 백신이 상용화된다면, 이러한 심리적 장벽을 크게 낮추고 전반적인 백신 접종률을 높이는 데 기여할 수 있을 것이라는 주장입니다. 이는 단순히 백신 공포증 환자만을 위한 것이 아니라, 보다 광범위한 공중 보건 개선에 긍정적인 영향을 미칠 수 있는 중요한 해결책으로 제시됩니다."
+    },
+    {
+      "title_en": "Opinion: Doctors may be ‘gaming’ the organ transplant waitlist",
+      "url": "https://www.statnews.com/2025/12/01/organ-transplant-waiting-list-gaming-loophole/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-1246857422-645x645.jpg",
+      "title": "논평: 의사들, 장기 이식 대기 순위 '조작' 의혹 제기",
+      "summary_kr": "일부 의사들이 장기 이식 대기 순위를 부당하게 조작하고 있을 가능성이 제기되어 논란이 되고 있습니다. 주된 지적은 환자의 실제 병세가 필요로 하지 않는 침습적 치료를 의도적으로 시행하여 대기자 명단에서 더 높은 순위를 얻도록 유도했다는 것입니다. 이러한 행위는 장기 이식의 공정한 분배 원칙을 심각하게 훼손하며, 생명이 위급한 다른 환자들의 기회를 박탈할 수 있습니다. 특히, 침습적 치료는 환자에게 불필요한 고통과 위험을 초래할 수 있음에도 불구하고, 오직 순위를 앞당기기 위한 목적으로 이용되었다는 점에서 큰 윤리적 문제를 안고 있습니다. 이러한 의혹은 의료계 전반의 신뢰를 저하시킬 수 있으며, 장기 이식 시스템의 투명성과 공정성에 대한 심도 있는 재검토를 요구하고 있습니다. 따라서 관련 당국은 이 문제에 대한 철저한 조사를 통해 진실을 규명하고, 유사 사례의 재발을 막기 위한 강력한 제도적 장치를 마련해야 할 것입니다."
+    },
+    {
+      "title_en": "STAT+: Off an $80 million acquisition, Cognita’s CEO on the power of scale in radiology AI",
+      "url": "https://www.statnews.com/2025/12/01/cognita-imaging-radiology-partners-what-next-vision-language-models/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_164586674-645x645.jpeg",
+      "title": "8천만 달러 규모의 성공적인 인수 후: 코그니타 CEO, 영상의학 AI의 '규모의 힘'을 역설하다",
+      "summary_kr": "최근 8천만 달러 규모의 인수를 성공적으로 마무리한 코그니타 이미징(Cognita Imaging)의 루이스 블랑케마이어(Louis Blankemeier) CEO가 영상의학 분야 AI의 미래 비전을 제시했습니다. 블랑케마이어 CEO는 특히 '파운데이션 모델(Foundation Models)'이 영상의학 AI 분야에 가져올 혁신적인 잠재력에 대해 강조했습니다. 그는 방대한 데이터를 기반으로 훈련되는 파운데이션 모델이 AI 진단의 정확성과 효율성을 비약적으로 향상시킬 것이라고 전망했습니다. 이러한 모델은 복잡한 영상 데이터를 분석하고 미묘한 질병 징후를 식별하는 영상의학 분야에서 AI의 활용도를 극대화하며, 의료진의 진단 정확도를 높이는 데 크게 기여할 것으로 보입니다. 코그니타 이미징은 이번 인수를 통해 확보된 기술력과 자원을 바탕으로, '규모의 힘'을 통해 더욱 정교하고 신뢰할 수 있는 영상의학 AI 솔루션 개발에 박차를 가할 계획입니다. 블랑케마이어 CEO는 파운데이션 모델이 궁극적으로 의료 접근성을 높이고 환자 치료 결과를 개선하는 데 중요한 역할을 할 것이라는 기대를 표명했습니다."
+    },
+    {
+      "title_en": "Trump says he’ll release MRI results; he doesn’t know what part of his body was scanned",
+      "url": "https://www.statnews.com/2025/11/30/trump-mri-test-results-release/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AP25334809405658-645x645.jpg",
+      "title": "트럼프, MRI 결과 공개 예고…정작 '촬영 부위'는 기억 못 해",
+      "summary_kr": "트럼프 대통령은 지난 일요일(현지 시각) 지난 10월에 진행했던 MRI(자기공명영상) 검사 결과를 공개할 것이라고 밝혔다. 이러한 발표는 그의 건강 상태에 대한 대중의 궁금증을 해소하려는 의도로 풀이된다. 그러나 그는 기자들에게 해당 MRI 검사가 신체의 어느 부위를 촬영한 것인지 정확히 알지 못한다고 언급하여 의아함을 자아냈다. 통상적으로 중요한 의료 검사 결과 공개 시에는 검사의 목적과 구체적인 내용을 함께 설명하는 것이 일반적이다. 따라서 이 같은 불확실한 발언은 향후 공개될 MRI 결과의 신뢰성 및 투명성에 대한 의문을 제기할 수 있는 부분이다."
+    },
+    {
+      "title_en": "Accelerating Scratch Assays with Real-Time Monitoring",
+      "url": "https://www.the-scientist.com/accelerating-scratch-assays-with-real-time-monitoring-73513",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "실시간 모니터링: 스크래치 분석 가속화의 핵심",
+      "summary_kr": "세포의 이동과 증식 과정을 연구하는 데 필수적인 스크래치 분석(상처 치유 분석)은 기존 방식의 한계로 인해 정확한 데이터 확보에 어려움을 겪어왔습니다. 하지만 환경 제어 기능이 탑재된 최신 마이크로플레이트 리더의 등장은 이러한 연구의 패러다임을 변화시키고 있습니다. 이 첨단 장비는 세포 배양에 최적화된 온도, 습도, 이산화탄소 농도 등 배양 환경을 정밀하게 유지합니다. 이를 통해 연구자들은 세포 배양을 중단하거나 물리적으로 방해할 필요 없이, 상처 치유 과정을 실시간으로 연속해서 모니터링할 수 있게 됩니다. 이러한 실시간 모니터링은 세포의 이동 속도와 상처 봉합률과 같은 동적인 데이터를 매우 정밀하고 신뢰성 높게 수집할 수 있도록 지원하며, 수동 개입을 최소화하여 실험의 효율성을 극대화합니다. 궁극적으로 이 기술은 상처 치유 메커니즘에 대한 심도 깊은 이해를 제공하고, 신약 개발 및 재생 의학 분야의 발전에 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Trees Release Carbon Dioxide to Tolerate Rising Temperatures",
+      "url": "https://www.the-scientist.com/trees-release-carbon-dioxide-to-tolerate-rising-temperatures-73681",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "수목, 기온 상승 견디려 이산화탄소 배출",
+      "summary_kr": "최근 연구에 따르면, 수목이 기온 상승에 적응하기 위해 예상치 못한 방식으로 이산화탄소를 방출하는 것으로 나타났습니다. 이는 나무가 고온 스트레스를 견디고 생존하기 위한 일종의 생리적 방어 메커니즘으로 해석됩니다. 특히 오랜 기간 한자리에 뿌리내린 식물이 뜨거운 계절을 어떻게 이겨내는지에 대한 깊이 있는 이해가 중요합니다. 이러한 식물의 생존 전략에 대한 연구 결과는 현재 기후 변화 모델의 정확성을 높이는 데 결정적인 정보를 제공할 수 있습니다. 수목의 이산화탄소 방출은 지구 탄소 순환에 영향을 미치므로, 이를 기후 모델에 반영하는 것은 미래 기후 예측의 신뢰도를 향상시키는 데 필수적입니다. 이 연구는 기후 변화가 전 세계 생태계에 미치는 복잡한 영향을 이해하고, 식물이 이러한 변화에 어떻게 반응하며 적응해 나가는지에 대한 중요한 통찰을 제공합니다."
+    },
+    {
+      "title_en": "It&rsquo;s Cell-ebration Time",
+      "url": "https://www.the-scientist.com/it-s-cell-ebration-time-73709",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "세포 대잔치: 당신의 세포 생물학 실력을 시험할 시간!",
+      "summary_kr": "이 특별한 퍼즐은 세포 생물학에 대한 여러분의 깊이 있는 이해와 탁월한 지식을 시험하기 위해 고안되었습니다. 생명의 근원적인 단위인 세포는 복잡하고 경이로운 생명 활동의 보고이며, 이 퍼즐을 통해 그 미시세계의 비밀을 얼마나 잘 꿰뚫고 있는지 스스로 점검해 볼 수 있습니다. 학술적 탐구를 하는 학생, 현직 연구원, 혹은 단순히 생명 과학에 대한 호기심을 가진 모든 이들이 참여하여 자신의 세포 생물학적 통찰력을 가늠할 수 있습니다. 다채로운 문제들을 해결하며 여러분의 세포 생물학 실력을 유감없이 발휘하고, 동시에 새로운 지식을 발견하는 지적인 즐거움을 경험해 보세요. 과연 당신은 이 흥미진진한 세포 지식 퍼즐에서 최고의 실력자임을 증명하고, 숨겨진 세포의 세계를 완벽하게 이해하고 있음을 보여줄 수 있을까요? 지금 바로 도전하여 당신의 세포 생물학적 역량을 뽐낼 시간입니다!"
+    },
+    {
+      "title_en": "Polar Tourists Collect Phytoplankton to Help Researchers Study Fjord Ecology",
+      "url": "https://www.the-scientist.com/polar-tourists-collect-phytoplankton-to-help-researchers-study-fjord-ecology-73722",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "극지 관광객, 연구진 도와 피오르드 생태계 연구 위한 식물성 플랑크톤 채집",
+      "summary_kr": "남극을 방문하는 관광객들이 시민 과학자로 활동하며 미세한 식물성 유기체 연구에 귀중한 도움을 주고 있습니다. 이 미세 유기체는 극지방 피오르드 생태계의 근간을 이루는 '식물성 플랑크톤'으로, 해양 먹이사슬의 최하위 단계이자 지구 기후 조절에 중요한 역할을 합니다. 과거에는 연구자들이 직접 광범위한 지역에서 샘플을 채집하는 데 어려움을 겪었으나, 이제는 관광객들이 연구팀의 지시에 따라 플랑크톤 샘플을 수집하는 임무를 수행합니다. 이러한 시민 과학 활동은 연구진이 방대한 양의 데이터를 효율적으로 확보할 수 있도록 돕습니다. 수집된 데이터는 피오르드의 생태학적 변화를 추적하고, 기후 변화가 극지 해양 환경에 미치는 영향을 분석하는 데 필수적인 기초 자료로 활용됩니다. 결과적으로, 극지 관광객들의 참여는 과학 연구의 폭을 넓힐 뿐만 아니라, 방문객들에게 극지 환경 보전의 중요성을 직접 체험하고 인식을 높이는 교육적 기회를 제공하고 있습니다."
+    },
+    {
+      "title_en": "The Oceans Are Going to Rise—but When?",
+      "url": "https://www.wired.com/story/the-oceans-are-going-to-rise-but-when/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": "https://media.wired.com/photos/691c762f80bfe18f54ee1f2c/master/pass/IceSheetCollapse-crRMNunes_iStock-Lede-ezgif.com-optimize.gif",
+      "title": "해수면 상승은 필연적, 그러나 그 시점은?",
+      "summary_kr": "서남극 빙상(West Antarctic Ice Sheet)은 지구상에서 특히 취약한 지역 중 하나로 꼽힙니다. 이 거대한 빙상이 모두 녹을 경우, 전 세계 해수면을 무려 5미터나 상승시킬 수 있는 엄청난 양의 물을 품고 있습니다. 이는 전 세계 수많은 해안 도시와 저지대 지역에 치명적인 영향을 미칠 수 있는 잠재적 위협을 의미합니다. 하지만 과학자들은 이러한 해수면 상승이 언제 시작될지, 그리고 어떤 속도로 진행될지에 대해서는 아직 명확한 답을 내놓지 못하고 있습니다. 서남극 빙상의 불안정성과 잠재적 붕괴 시나리오는 현재 기후 모델링에서 가장 큰 불확실성 중 하나로 남아있습니다. 따라서 이 중요한 질문에 대한 해답을 찾는 것이 미래 해수면 변화를 예측하고 이에 대비하는 데 필수적입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/meeting-patients-where-they-are-tailored-support-drive-recruitment-and-retention\" hreflang=\"en\">Meeting patients where they are: tailored support to drive recruitment and retention</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/meeting-patients-where-they-are-tailored-support-drive-recruitment-and-retention",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-01",
+      "image_url": null,
+      "title": "환자 중심의 임상시험: 맞춤형 지원으로 참여율과 유지율을 극대화하는 길",
+      "summary_kr": "임상시험의 성공은 종종 간과되기 쉬운 한 가지 요인, 즉 임상시험이 환자의 삶에 얼마나 잘 통합되는지에 달려 있습니다. 아무리 뛰어난 과학적 근거와 혁신적인 프로토콜을 갖추고 있더라도, 임상시험 참여가 환자나 의료기관에 과도한 부담을 줄 경우 연구는 지연되거나 중단되며 결국 실패할 수 있습니다. 환자의 일상생활에 미치는 영향을 충분히 고려하지 않은 임상시험은 높은 환자 이탈률과 모집 부진이라는 심각한 난관에 부딪히게 됩니다. 이는 임상시험의 본질적인 목표 달성을 저해하는 주요 원인이 됩니다. 따라서 성공적인 임상시험을 위해서는 단순한 과학적 우수성을 넘어, 환자의 개별적인 상황과 필요에 맞춘 '환자 중심'의 지원 전략이 필수적입니다. 이러한 맞춤형 지원은 환자들의 적극적인 참여를 유도하고 장기적인 유지율을 높여 임상시험의 효율성과 성공 가능성을 크게 향상시킵니다."
+    },
     {
       "title_en": "한국 젊은이들이 스스로 동남아 스캠 공장으로 흘러 들어갔다? | 캄보디아, 스캠",
       "url": "https://www.youtube.com/watch?v=uWZ68qCmrZo",
