@@ -367,17 +367,27 @@ def main():
 
     # 2. 수집 소스 정의
     sources = [
+        # General
         ('https://www.technologyreview.com/feed/', 'MIT Tech Rev', 'News'),
-        ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'),
         ('https://www.nature.com/nature/rss/articles?type=news', 'Nature', 'News'),
-        ('https://www.statnews.com/feed/', 'STAT News', 'News'),
         ('https://www.the-scientist.com/atom/latest', 'The Scientist', 'News'),
+        ('https://www.science.org/rss/news_current.xml', 'Science', 'News'),
+        ('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'),
+
+        # Bio industry news
+        ('https://www.statnews.com/feed/', 'STAT News', 'News'),
         ('https://arstechnica.com/science/feed/', 'Ars Technica', 'News'),
         ('https://www.wired.com/feed/category/science/latest/rss', 'Wired', 'News'),
         ('https://www.fiercebiotech.com/rss/xml', 'Fierce Biotech', 'News'),
         ('https://endpts.com/feed/', 'Endpoints News', 'News'),
-        ('https://www.science.org/rss/news_current.xml', 'Science', 'News'),
-        ('https://www.nature.com/nature/rss/newsandcomment', 'Nature (News & Comment)', 'News'),
+        ('https://www.biopharmadive.com/feeds/news/', 'BioPharmaDive', 'News'),
+        ('https://www.clinicaltrialsarena.com/feed/', 'Clinical Trials Arena', 'News'),
+
+        # Neuroscience
+        ('https://www.thetransmitter.org/feed/', 'The Transmitter', 'Neuroscience'),
+
+
+        # Research papers
         ('https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', 'Science (Paper)', 'Paper'),
         ('https://www.cell.com/cell/current.rss', 'Cell', 'Paper'),
         ('https://www.nature.com/neuro/current_issue/rss', 'Nature Neuroscience', 'Paper'),
