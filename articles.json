@@ -1,244 +1,1655 @@
 {
-  "last_updated": "2025-12-03 02:40:01",
+  "last_updated": "2025-12-04 02:50:07",
   "logs": [
     {
-      "time": "02:23:20",
+      "time": "02:23:36",
       "level": "INFO",
-      "message": "=== 스크립트 시작 (날짜: 2025-12-03) ==="
+      "message": "=== 스크립트 시작 (날짜: 2025-12-04) ==="
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:36",
+      "level": "INFO",
+      "message": "지난 실행 실패 항목 1개 재시도 대기"
+    },
+    {
+      "time": "02:23:36",
       "level": "INFO",
       "message": "크롤링 시작: MIT Tech Rev"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:36",
       "level": "INFO",
       "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:36",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:37",
       "level": "INFO",
       "message": "[Nature] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:37",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:37",
       "level": "INFO",
       "message": "[The Scientist] 완료: 100개 기사 수집됨"
     },
     {
-      "time": "02:23:21",
+      "time": "02:23:37",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "[Science] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "[STAT News] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:38",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "[Ars Technica] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "[Wired] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:23:22",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "[Endpoints News] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "크롤링 시작: BioPharmaDive"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:23:23",
+      "time": "02:23:39",
       "level": "INFO",
       "message": "크롤링 시작: Clinical Trials Arena"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:40",
       "level": "INFO",
       "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:40",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "[The Transmitter] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "[Science (Paper)] 완료: 39개 기사 수집됨"
     },
     {
-      "time": "02:23:24",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "[Cell] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:41",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:42",
       "level": "INFO",
       "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:42",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:42",
       "level": "INFO",
       "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:42",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:43",
       "level": "INFO",
       "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:23:25",
+      "time": "02:23:43",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "02:23:26",
+      "time": "02:23:43",
       "level": "INFO",
       "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:23:26",
+      "time": "02:23:43",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "02:23:27",
+      "time": "02:23:45",
       "level": "INFO",
       "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:23:27",
+      "time": "02:23:45",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "02:23:27",
+      "time": "02:23:45",
       "level": "INFO",
-      "message": "[NEJM] 완료: 65개 기사 수집됨"
+      "message": "[NEJM] 완료: 58개 기사 수집됨"
     },
     {
-      "time": "02:23:27",
+      "time": "02:23:45",
       "level": "INFO",
-      "message": "총 처리 대상: 79건"
+      "message": "총 처리 대상: 143건"
     },
     {
-      "time": "02:40:01",
+      "time": "02:50:07",
       "level": "INFO",
-      "message": "오늘 처리 결과: 성공 78건, 실패/보류 1건"
+      "message": "오늘 처리 결과: 성공 138건, 실패/보류 5건"
     }
   ],
   "failed_queue": [
     {
-      "title_en": "Belite eyes tinlarebant approval after late-stage Stargardt success",
-      "description_en": "While GlobalData analyst Sara Reci touted the DRAGON results as a “breakthrough” in STGD1, she said that barriers to widespread uptake remain.The postBelite eyes tinlarebant approval after late-stage Stargardt successappeared first onClinical Trials Arena.",
-      "url": "https://www.clinicaltrialsarena.com/news/belite-bio-tinlarebant-stargardt-disease-1-phase-iii-dragon/",
-      "source": "Clinical Trials Arena",
+      "title_en": "한글번역 | 커서 (CURSOR) 대표 인터뷰",
+      "description_en": "Translated by A\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=YngF-OPXXec",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-04",
+      "image_url": "https://i2.ytimg.com/vi/YngF-OPXXec/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "어느덧 만 4년, 우크라이나는 휴전안을 받아들여야 할까?",
+      "description_en": "0:00 우크라이나 휴전안 28개항 발표\n10:10 \"우크라이나는 카드가 없다.\"\n27:03 군 복무제를 신설하는 프랑스, 독일\n\n저널리즘을 지키는 채널이 되겠습니다.",
+      "url": "https://www.youtube.com/watch?v=f--LNfbnipw",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-12-04",
+      "image_url": "https://i3.ytimg.com/vi/f--LNfbnipw/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/pharma/site-irregularities-bristol-myers-delays-key-cobenfy-readout-alzheimers-psychosis\" hreflang=\"en\">With site 'irregularities,' Bristol Myers delays key Cobenfy readout in Alzheimer's psychosis</a>",
+      "description_en": "The highly anticipated Adept-2 study data will not read out by year-end as previously planned after BMS identified “irregularities due to clinical trial execution at a small number of study sites,” the company said Wednesday.",
+      "url": "https://www.fiercebiotech.com/pharma/site-irregularities-bristol-myers-delays-key-cobenfy-readout-alzheimers-psychosis",
+      "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-03",
+      "date": "2025-12-04",
+      "image_url": null
+    },
+    {
+      "title_en": "Bristol Myers pushes back Cobenfy readout after trial site 'irregularities'",
+      "description_en": "Bristol Myers Squibb’s hotly anticipated Cobenfy readout in Alzheimer’s-associated psychosis will have to wait.\n\n Because of “irregularities” at a “small number” of trial sites, the pharma company said Wednesday that some patient data had to ...",
+      "url": "https://endpoints.news/bristol-myers-pushes-back-cobenfy-readout-after-trial-site-irregularities/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null
+    },
+    {
+      "title_en": "A Threat to Evidence-Based Vaccine Policy and Public Health Security at the FDA",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2517497?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
       "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "OpenAI has trained its LLM to confess to bad behavior",
+      "url": "https://www.technologyreview.com/2025/12/03/1128740/openai-has-trained-its-llm-to-confess-to-bad-behavior/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "OpenAI, 거대언어모델(LLM)에 '잘못된 행동 자백' 능력 훈련 성공",
+      "summary_kr": "OpenAI는 거대언어모델(LLM) 내부에서 작동하는 복잡한 프로세스를 밝히기 위한 또 다른 새로운 방법을 실험하고 있습니다. 회사 연구진은 LLM이 스스로를 '고백'이라고 칭하는 설명을 생성하도록 훈련할 수 있게 되었습니다. 이 '고백'에는 모델이 특정 작업을 어떻게 수행했는지에 대한 상세한 설명이 포함됩니다. 더 나아가, 모델은 대부분의 경우 자신의 작업 수행 중 발생한 부적절하거나 잘못된 행동에 대해 스스로 인정하는 모습을 보입니다. 이러한 자백 메커니즘을 통해 연구자들은 LLM의 의사결정 과정을 훨씬 더 투명하게 이해하고, 잠재적인 오류나 편향을 식별하는 데 있어 중요한 진전을 이룰 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "The Download: AI and coding, and Waymo’s aggressive driverless cars",
+      "url": "https://www.technologyreview.com/2025/12/03/1128724/the-download-ai-and-coding-and-waymos-aggressive-driverless-cars/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "오늘의 '더 다운로드': 인공지능 코딩 혁명과 웨이모 자율주행차 동향",
+      "summary_kr": "이 기사는 매주 평일에 발행되며 기술 세계의 최신 소식을 전하는 뉴스레터 '더 다운로드'의 오늘자 발행본입니다. 이번 호에서는 특히 인공지능(AI)이 코딩 분야에 미치는 영향에 대해 집중 조명합니다. AI는 이미 코드를 작성하는 방식에 근본적인 변화를 가져왔으며, 이는 소프트웨어 개발의 패러다임을 전환시키고 있습니다. 나아가 새로운 자율 시스템들이 등장하면서, 코딩 과정을 이전보다 훨씬 더 원활하고 효율적으로 만들 것이라는 기대를 모으고 있습니다. 이러한 발전은 개발자들이 더욱 간편하게 복잡한 작업을 수행할 수 있도록 돕고, 전반적인 생산성을 크게 향상시킬 잠재력을 가지고 있습니다. 결국, AI 기술은 코딩의 미래를 재정의하며 더욱 스마트하고 자동화된 소프트웨어 개발 시대를 열 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Accelerating VMware migrations with a factory model approach",
+      "url": "https://www.technologyreview.com/2025/12/03/1128488/accelerating-vmware-migrations-with-a-factory-model-approach/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "팩토리 모델 접근 방식을 통한 VMware 마이그레이션 가속화",
+      "summary_kr": "1913년 헨리 포드는 혁신적인 공정 설계를 통해 모델 T 생산 시간을 12시간에서 90여 분으로 획기적으로 단축했습니다. 그는 숙련된 장인이 처음부터 수작업으로 자동차를 조립하는 대신, 표준화된 작업을 순차적으로 수행하는 조립 라인을 구축하여 이러한 위업을 달성했습니다. 이처럼 '팩토리 모델' 접근 방식은 복잡한 VMware 마이그레이션 프로젝트에도 적용되어 효율성을 극대화할 수 있습니다. 즉, 마이그레이션 과정을 세분화하고 각 단계를 표준화하며, 전담 팀이 반복적이고 효율적으로 작업을 수행하도록 함으로써 전체 전환 속도를 크게 높일 수 있습니다. 마치 공장에서 제품을 생산하듯이, 이 모델은 일관된 품질과 예측 가능한 일정으로 대규모 마이그레이션을 신속하게 완료하는 데 기여합니다. 결과적으로 기업은 보다 빠르고 안정적으로 클라우드 환경으로의 전환을 이룰 수 있게 됩니다."
+    },
+    {
+      "title_en": "Retraction Note: The economic commitment of climate change",
+      "url": "https://www.nature.com/articles/s41586-025-09726-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "철회 공지: 기후 변화의 경제적 책무",
+      "summary_kr": "세계적인 과학 저널 네이처(Nature)에 게재되었던 논문 한 편이 공식적으로 철회되었다. 해당 논문의 제목은 '기후 변화의 경제적 책무(The economic commitment of climate change)'이며, 이번 철회는 해당 연구의 신뢰성에 심각한 문제가 발견되었음을 시사한다. 학술 논문 철회는 연구 결과의 오류, 데이터 조작, 표절 또는 재현 불가능성 등 중대한 사유가 발생했을 때 이루어지는 조치로, 해당 연구가 더 이상 유효하지 않음을 학계에 알린다. 이러한 철회 공지는 잘못된 정보가 과학 연구에 영향을 미치는 것을 방지하고 학문적 진실성을 유지하는 데 필수적이다. 특히 네이처와 같은 최상위 저널에서 발생한 철회는 해당 분야 연구자들에게 중요한 경고 메시지가 될 수 있다. 본 철회 공지는 2025년 12월 3일 온라인으로 게재되었으며, 관련 DOI 정보(10.1038/s41586-025-09726-0)도 함께 제공되었다."
+    },
+    {
+      "title_en": "Author Correction: Seismic detection of a 600-km solid inner core in Mars",
+      "url": "https://www.nature.com/articles/s41586-025-09981-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "저자 정정: 화성 내 600km 고체 내핵의 지진 탐지",
+      "summary_kr": "국제 학술지 '네이처(Nature)'에 게재된 한 중요한 연구에 대한 '저자 정정' 소식이 발표되었습니다. 이 정정은 화성의 내부에 약 600km 크기의 고체 내핵이 존재함을 지진파 데이터를 통해 성공적으로 탐지했다고 보고했던 기존 논문에 관련된 내용입니다. 화성의 심부 구조를 밝혀낸 이 연구는 행성의 형성 과정과 진화 역사를 이해하는 데 중요한 과학적 진전으로 평가받았습니다. '저자 정정'은 일반적으로 기존 발표된 내용 중 데이터 해석, 방법론 또는 결론 등에 미세하거나 중요한 수정이 필요할 때 이루어지며, 연구의 정확성과 신뢰성을 높이기 위한 과정입니다. 이번 정정이 화성 고체 내핵 발견이라는 핵심적인 주장을 뒤엎는 것이기보다는, 해당 연구의 세부적인 부분에 대한 보완이나 명확화일 가능성이 높습니다. 이 정정은 2025년 12월 3일 온라인으로 발행되었으며, 해당 DOI(10.1038/s41586-025-09981-1)를 통해 상세 내용을 확인할 수 있습니다."
+    },
+    {
+      "title_en": "Author Correction: Cleavage of RIPK1 by caspase-8 is crucial for limiting apoptosis and necroptosis",
+      "url": "https://www.nature.com/articles/s41586-025-09979-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "저자 정정: 카스파제-8에 의한 RIPK1 절단, 세포자멸사 및 괴사성 세포사 제한에 결정적 역할",
+      "summary_kr": "네이처(Nature)지에 게재된 한 중요한 연구 논문에 대한 저자 정정 사항이 발표되었습니다. 이 정정의 핵심 내용은 카스파제-8 효소에 의한 RIPK1 단백질의 절단이 세포 사멸 과정을 조절하는 데 필수적이라는 점을 강조합니다. 특히, 이 특정 단백질 분해 과정은 세포자멸사(apoptosis)와 괴사성 세포사(necroptosis)라는 두 가지 주요 형태의 세포 사멸을 효과적으로 제한하는 데 결정적인 역할을 하는 것으로 밝혀졌습니다. 이러한 메커니즘에 대한 이해는 세포 생존과 사멸 경로를 심층적으로 파악하는 데 중요한 통찰력을 제공합니다. 궁극적으로 이 연구 결과는 과도한 세포 사멸이 관련되는 다양한 질병의 치료 전략 개발에 중요한 과학적 기반을 마련할 수 있습니다. 해당 저자 정정은 2025년 12월 3일 네이처 온라인판에 게재되었습니다."
+    },
+    {
+      "title_en": "Experimental vaccine prevents deadly allergic reactions in mice",
+      "url": "https://www.nature.com/articles/d41586-025-03960-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "치명적인 알레르기 반응 막는 실험용 백신, 생쥐 실험서 효과 입증",
+      "summary_kr": "최근 발표된 연구에 따르면, 새로운 실험용 백신이 알레르기 반응 예방에 획기적인 가능성을 제시했습니다. 특히, 이 백신은 생쥐를 대상으로 한 실험에서 치명적인 수준의 알레르기 반응을 효과적으로 막아내는 것으로 확인되었습니다. 이 신기술은 현재 시판 중인 알레르기 치료법보다 훨씬 더 긴 기간 동안 알레르기로부터 보호를 제공할 수 있을 것으로 기대됩니다. 기존 치료법은 단기적인 증상 완화나 주기적인 관리가 필요한 경우가 많지만, 이 실험용 백신은 장기적인 면역 효과를 유도하여 지속적인 보호를 제공할 잠재력을 보였습니다. 이번 연구 결과는 알레르기로 고통받는 환자들에게 새로운 치료 옵션에 대한 희망을 제시하며, 향후 인체 적용을 위한 추가적인 연구의 중요성을 강조하고 있습니다. 이 흥미로운 연구 결과는 2025년 12월 3일 네이처(Nature)지에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Growing cities face mounting challenges",
+      "url": "https://www.nature.com/articles/d41586-025-03925-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "성장하는 도시들, 증대하는 난관에 직면하다",
+      "summary_kr": "이 기사는 세계적인 과학 저널인 'Nature'에 2025년 12월 3일 온라인으로 게재된 내용으로, 빠르게 성장하는 전 세계 도시들이 직면하고 있는 복합적인 문제들을 심도 깊게 다루고 있습니다. 특히, 도시의 건강과 그곳에 거주하는 주민들의 전반적인 삶의 질은 인류의 미래 번영과 직결되는 핵심적인 요소로 강조됩니다. 급격한 도시화는 인구 밀집, 자원 고갈, 환경 오염, 사회적 불균형 심화 등 다양한 난관을 야기하며 도시의 지속 가능한 발전을 위협하고 있습니다. 이러한 문제들은 도시 거주자들의 신체적, 정신적 건강뿐만 아니라 전반적인 사회 경제적 복지에도 중대한 영향을 미치고 있습니다. 따라서 도시의 지속 가능성과 회복력을 확보하고, 모든 시민이 건강하고 행복한 삶을 영위할 수 있도록 다각적인 정책적 노력과 혁신적인 해결책 마련이 시급히 요구되는 시점입니다. 이 글은 도시가 당면한 과제를 해결하고 더 나은 미래를 건설하기 위한 글로벌 차원의 협력과 새로운 접근 방식의 중요성을 역설합니다."
+    },
+    {
+      "title_en": "Photobombing satellites could ruin the night sky for space telescopes",
+      "url": "https://www.nature.com/articles/d41586-025-03968-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "우주 망원경의 밤하늘을 망치는 '불청객' 인공위성들",
+      "summary_kr": "새로운 인공위성 군집 계획이 진행될 경우, 천문학 관측에 심각한 방해가 될 것이라는 우려가 제기되었습니다. 수많은 위성이 밤하늘을 지나면서, 우주 망원경을 통해 촬영되는 천문학적 이미지에 밝은 줄무늬를 남겨 이미지 품질을 저해할 수 있습니다. 이는 은하, 성운, 행성 등 미세한 천체들을 관측하고 연구하는 데 큰 걸림돌이 될 것으로 예상됩니다. 특히, 지구 궤도에 수천 대의 위성을 추가로 배치하려는 현재의 계획들이 현실화된다면, 이러한 현상은 더욱 심화될 것입니다. 과학자들은 이러한 '빛 공해'가 심해질 경우, 지상 및 우주 기반 망원경 모두의 관측 능력을 저하시켜 인류의 우주 탐사 및 연구에 치명적인 영향을 미칠 수 있다고 경고합니다. 더 나아가, 기사에서는 위성으로 인한 문제점이 단순히 천문학적 관측에 그치지 않고, 비디오 통화 오류와 같은 일상생활에서의 잠재적 피해 가능성도 언급하며 그 심각성을 시사하고 있습니다."
+    },
+    {
+      "title_en": "Computational design of metallohydrolases",
+      "url": "https://www.nature.com/articles/s41586-025-09746-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "금속가수분해효소의 전산 설계",
+      "summary_kr": "최근 네이처지에 발표된 한 연구는 인공지능 기반의 새로운 방법론을 통해 고활성 효소의 '데이 노보(de novo)' 설계를 가능하게 하는 획기적인 진전을 이루었습니다. 이 방법은 특히 단백질의 주쇄(backbone) 정보나 아미노산 서열 정보 없이도 효소를 디자인할 수 있다는 점에서 기존 접근 방식과 차별화됩니다. 연구진은 효소 활성 부위의 잔기(residues) 기하학적 정보만을 활용하여 높은 활성을 지닌 효소를 효율적으로 설계하는 데 성공했습니다. 이는 생성형 인공지능(generative AI)의 강력한 능력을 활용하여 복잡한 생체 분자를 설계하는 새로운 패러다임을 제시합니다. 이 기술은 기존 효소 설계의 한계를 뛰어넘어 특정 기능을 가진 효소를 보다 빠르고 정확하게 개발할 수 있는 잠재력을 가지고 있습니다. 궁극적으로 본 연구는 단백질 공학, 생명공학, 그리고 신약 개발과 같은 다양한 과학 분야에 광범위한 영향을 미칠 것으로 기대됩니다."
+    },
+    {
+      "title_en": "A place-based assessment of biodiversity intactness in sub-Saharan Africa",
+      "url": "https://www.nature.com/articles/s41586-025-09781-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "사하라 이남 아프리카의 지역 기반 생물다양성 온전성 평가",
+      "summary_kr": "이 연구는 사하라 이남 아프리카 지역의 생물다양성 온전성을 심층적으로 평가한 중요한 내용을 담고 있습니다. 특히, 지역별로 특화된 생물다양성 정보를 활용하여 해당 지역의 생태계 보전 상태를 종합적으로 분석했습니다. 네이처(Nature)지에 2025년 12월 3일 온라인으로 게재된 이번 연구는 사하라 이남 아프리카 전역의 생물다양성 온전성 지도를 작성하고 이를 정량적으로 측정하는 데 중점을 두었습니다. 연구진은 방대한 데이터를 기반으로 각 지역의 생물다양성이 얼마나 잘 보존되어 있는지를 면밀히 파악했습니다. 이처럼 상세하고 정밀한 지역 기반 정보는 각 국가 및 전 세계적인 지속가능성 정책을 수립하고 계획을 마련하는 데 필수적인 통찰력을 제공할 것으로 기대됩니다. 궁극적으로 본 연구는 아프리카 대륙의 귀중한 생물다양성을 효과적으로 보호하고 지속가능한 미래를 구축하기 위한 실질적인 전략 마련에 크게 기여할 것입니다."
+    },
+    {
+      "title_en": "Sterile-neutrino search based on 259 days of KATRIN data",
+      "url": "https://www.nature.com/articles/s41586-025-09739-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "KATRIN 259일 데이터 기반 불활성 뉴트리노 탐색 연구",
+      "summary_kr": "이 연구는 저명한 과학 학술지 <네이처>에 2025년 12월 3일 온라인으로 게재되었습니다. KATRIN(Karlsruhe Tritium Neutrino Experiment) 실험팀은 259일간의 측정 기간 동안 확보한 방대한 데이터를 기반으로 불활성 뉴트리노 탐색을 위한 중요한 분석을 수행했습니다. 연구진은 총 3천6백만 개에 달하는 트리튬 베타 붕괴 전자의 에너지 스펙트럼을 정밀하게 분석했습니다. 특히, 붕괴 끝점(endpoint)으로부터 40 eV 미만의 매우 민감한 에너지 영역에 초점을 맞춰 데이터를 면밀히 조사했습니다. 이번 분석 결과는 이전에 제기되었던 Neutrino-4 실험의 불활성 뉴트리노 존재 주장에 대해 도전적인 증거를 제시합니다. 이는 불활성 뉴트리노의 특성을 규명하는 데 있어 중요한 진전을 이루었음을 시사하며, 미지의 입자를 둘러싼 과학계의 논의에 새로운 전환점을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Whole-genome landscapes of 1,364 breast cancers",
+      "url": "https://www.nature.com/articles/s41586-025-09812-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "1,364건 유방암의 전유전체 특성 연구",
+      "summary_kr": "이 연구는 세계적인 학술지 네이처(Nature)에 2025년 12월 3일 온라인으로 게재되었습니다. 한국의 유방암 환자 1,364명을 대상으로 전체 유전체 및 전사체 분석을 심도 깊게 수행했습니다. 이번 대규모 분석은 유방암 생물학에 대한 기존의 이해를 한층 더 심화시키는 중요한 계기가 되었습니다. 특히, 종양 생물학과 환자의 치료 반응, 그리고 임상적 예후를 연결하는 유전체적 특징들을 상세히 밝혀냈습니다. 이러한 발견은 유방암의 발병 기전과 진행 양상에 대한 새로운 통찰력을 제공하며, 개별 환자 맞춤형 치료 전략을 개발하는 데 핵심적인 정보를 제공할 것입니다. 궁극적으로 이번 연구 결과는 유방암 환자의 진단 및 치료의 정확성을 높이고 임상 결과를 개선하는 데 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Modelling late gastrulation in stem cell-derived monkey embryo models",
+      "url": "https://www.nature.com/articles/s41586-025-09831-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "줄기세포 유래 원숭이 배아 모델에서 후기 위배 형성 과정 재현 연구",
+      "summary_kr": "이 연구는 2025년 12월 3일 네이처(Nature)지에 온라인으로 발표되었습니다. 연구팀은 최적화된 3D 배양 시스템을 개발하여 중요한 과학적 발전을 이루어냈습니다. 이 시스템을 활용해 줄기세포로부터 유래한 원숭이 블라스토이드를 성공적으로 25일까지 발달시킬 수 있었습니다. 이 블라스토이드는 영장류의 후기 위배 형성(late gastrulation) 단계에서 발생하는 핵심적인 발달 사건들을 효과적으로 재현했습니다. 특히, 인공적으로 배양된 이 원숭이 배아 모델은 자연적으로 형성된 배아와 놀라울 정도로 유사한 특성을 보였습니다. 이번 성과는 영장류의 초기 배아 발달 과정을 심층적으로 이해하고, 관련 연구에 새로운 통찰을 제공할 중요한 기반이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Dated gene duplications elucidate the evolutionary assembly of eukaryotes",
+      "url": "https://www.nature.com/articles/s41586-025-09808-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "연대 추정 유전자 중복, 진핵생물의 진화적 조립 과정 밝히다",
+      "summary_kr": "최근 '네이처'지에 발표된 한 연구는 진핵생물의 진화적 형성에 대한 심층적인 통찰을 제공하며 큰 주목을 받고 있습니다. 연구진은 완화된 분자 시계(relaxed molecular clock) 방법론을 이용해 진핵생물의 유전자 서열을 정밀하게 분석했습니다. 이 분석 결과에 따르면, 진핵생물은 약 30억 년에서 22억 5천만 년 전 사이에 처음 등장한 것으로 추정됩니다. 이러한 진핵생물의 출현은 미토콘드리아가 세포 내 공생(endosymbiosis)을 통해 기존의 복잡한 숙주와 통합되면서 이루어졌다고 설명됩니다. 특히, 이때 미토콘드리아와 공생한 숙주 고세균(archaea)은 이미 정교한 세포골격, 막 수송 시스템, 내부막 시스템, 식세포 작용 기계뿐만 아니라 핵까지 갖추고 있었던 복잡한 형태였음이 밝혀졌습니다. 이번 연구는 진핵생물 진화의 초기 단계에 대한 기존 이해를 확장하고, 생명체의 복잡성이 어떻게 진화했는지에 대한 새로운 관점을 제시한다는 점에서 중요한 의미를 가집니다."
+    },
+    {
+      "title_en": "TSC tunes progenitor balance and upper-layer neuron generation in neocortex",
+      "url": "https://www.nature.com/articles/s41586-025-09810-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "TSC는 신피질의 전구세포 균형 및 상층부 뉴런 생성을 조절한다",
+      "summary_kr": "이 연구는 대뇌 피질의 발달과 진화 과정에서 중요한 메커니즘을 밝혀냈습니다. 특히, 신피질의 상층부 뉴런 생성에 있어 방사상 전구세포(radial progenitors)와 중간 전구세포(intermediate precursors) 간의 미묘한 균형이 핵심적인 역할을 합니다. 이러한 중요한 균형은 결절성 경화증 복합체(tuberous sclerosis complex, TSC)의 구성원들에 의해 매개된다는 사실이 이번 연구를 통해 규명되었습니다. TSC는 이 두 가지 유형의 전구세포들이 적절한 비율로 존재하며 상층부 뉴런의 정상적인 발달에 기여하도록 조절하는 역할을 수행합니다. 이는 대뇌 피질 구조의 복잡성과 기능적 특성을 이해하는 데 새로운 통찰력을 제공하며, 신경 발달 질환 연구에도 중요한 단서를 제공할 수 있습니다. 네이처(Nature)지에 2025년 12월 3일 온라인으로 게재된 본 연구는 뇌 발달 생물학 분야에 상당한 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "The&#xa0;Microflora Danica atlas of Danish environmental microbiomes",
+      "url": "https://www.nature.com/articles/s41586-025-09794-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "덴마크 환경 미생물군집 아틀라스, '마이크로플로라 다나카'의 주요 발견",
+      "summary_kr": "국제 학술지 '네이처(Nature)'에 2025년 12월 3일 온라인 게재된 새로운 연구는 '마이크로플로라 다나카(Microflora Danica)'라는 덴마크 환경 미생물군집 아틀라스를 공개했습니다. 이 아틀라스는 덴마크 전역의 다양한 환경에 서식하는 미생물군집의 분포와 특성을 종합적으로 담아낸 귀중한 자료입니다. 연구 결과에 따르면, 인간 활동으로 인해 교란된 서식지에서는 미생물종의 풍부도를 나타내는 알파 다양성(alpha diversity)이 높게 나타나는 경향을 보였습니다. 그러나 이러한 겉으로 보이는 높은 다양성에도 불구하고, 특정 미생물종들이 여러 서식지에서 반복적으로 출현하는 경향이 관찰되었습니다. 이는 표면적인 다양성 이면에 숨겨진 미생물군집의 동질성(homogeneity)을 시사하는 중요한 발견입니다. 이번 '마이크로플로라 다나카' 아틀라스는 덴마크 환경의 미생물 생태계를 심층적으로 이해하는 데 기여하며, 인간의 영향이 미생물군집 구조에 미치는 영향을 파악하는 데 중요한 통찰력을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Determination of the spin and parity of all-charm tetraquarks",
+      "url": "https://www.nature.com/articles/s41586-025-09711-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "모든 맵시 쿼크 테트라쿼크의 스핀 및 패리티 결정",
+      "summary_kr": "세계적인 학술지 네이처(Nature)에 2025년 12월 3일 온라인으로 게재된 최신 연구에 따르면, CMS 공동 연구단은 거대 강입자 충돌기(LHC)에서 양성자-양성자 충돌을 통해 생성된 특이한 입자인 '올참 테트라쿼크(all-charm tetraquarks)'에 대한 중요한 측정을 발표했습니다. 올참 테트라쿼크는 모든 구성 요소가 맵시 쿼크(charm quark)로 이루어진, 매우 짧은 시간 동안만 존재하는 이국적인 형태의 입자입니다. 이번 연구에서는 이 입자의 스핀(spin), 패리티(parity), 그리고 전하 켤레 대칭(charge conjugation) 특성을 성공적으로 결정했습니다. 이처럼 정밀하게 측정된 특성들은 기존 표준 모형을 넘어선 이국적인 물질의 존재를 규명하고 이해하는 데 핵심적인 역할을 합니다. 이러한 결과는 양성자-양성자 충돌 과정에서 발생하는 이국적인 입자들의 물리적 특성을 깊이 이해하는 데 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Satellite megaconstellations will threaten space-based astronomy",
+      "url": "https://www.nature.com/articles/s41586-025-09759-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "거대 위성군, 우주 기반 천문학에 심각한 위협 제기",
+      "summary_kr": "최근 급속도로 확장되고 있는 위성 메가 성좌가 천문 관측에 심각한 위협을 가하고 있다는 연구 결과가 발표되었습니다. 네이처(Nature)지에 실린 이 보고서는 미래에 운용될 우주 망원경의 경우 위성 궤적(satellite trails)으로 인해 노출 시간의 96% 이상이 영향을 받을 수 있다고 경고합니다. 이는 우주 공간에서 수행되는 천문학 연구의 데이터 품질과 과학적 발견 가능성을 크게 저해할 수 있음을 의미합니다. 이미 지상 망원경에도 영향을 미치고 있는 위성군 문제는 이제 우주 기반 관측 장비의 미래에도 막대한 영향을 미칠 것으로 예측됩니다. 따라서 천문학계는 이러한 광범위한 위협에 대응하기 위한 시급한 완화 전략 마련이 필수적이라는 목소리를 높이고 있습니다. 이 연구는 우주 환경의 지속 가능한 관리와 천문학의 미래를 위한 국제적인 협력과 기술적 해법 모색의 중요성을 강조합니다."
+    },
+    {
+      "title_en": "Computational enzyme design by catalytic motif scaffolding",
+      "url": "https://www.nature.com/articles/s41586-025-09747-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "촉매 모티프 스캐폴딩 기반의 계산 효소 설계",
+      "summary_kr": "이 연구는 효율적인 효소를 설계하는 새로운 방법을 제시합니다. 특히, 하이브리드 머신러닝(기계 학습)과 원자 모델링 전략을 결합한 혁신적인 접근 방식을 활용했습니다. 이 통합 전략은 다양한 생물학적 및 비생물학적 화학 반응을 촉매할 수 있는 효소를 '원샷(one-shot)' 방식으로 즉시 설계할 수 있게 합니다. 이는 기존 효소 설계의 한계를 극복하고, 더욱 빠르고 정확하게 원하는 특성을 가진 효소를 만들어낼 수 있음을 의미합니다. 이러한 기술은 의약품 개발, 산업 공정, 바이오 에너지 등 광범위한 분야에서 혁신적인 응용 가능성을 가집니다. 본 연구는 세계적인 학술지 네이처(Nature)에 2025년 12월 3일 온라인으로 게재되었으며, 관련 분야에 큰 파급효과를 가져올 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<b>Built environment disparities are amplified during extreme weather recovery</b>",
+      "url": "https://www.nature.com/articles/s41586-025-09804-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "극한 기후 재해 복구 시 심화되는 주거 환경 불균형",
+      "summary_kr": "이 연구는 극한 기후로 인한 재해 발생 후 사회 기반 시설의 회복 과정에서 소득 수준에 따른 현저한 격차가 발생함을 밝혀냈습니다. 특히, 재난이 닥쳤을 때 고소득 지역은 단순히 복구하는 것을 넘어, 기존보다 더 나은 상태로 재건축되고 개선되는 경향을 보였습니다. 반면, 저소득 지역의 경우 재해 이전의 상태로조차 완전히 회복되지 못하는 경우가 많았습니다. 이는 재난 복구 과정에서 자원 배분과 사회적 지원의 불균형이 주거 환경의 불평등을 더욱 심화시킴을 의미합니다. 본 연구 결과는 극한 기후 시대에 재난 대비 및 복구 정책을 수립할 때 사회경제적 취약계층에 대한 특별한 고려가 필요함을 시사합니다. 이러한 격차는 장기적으로 사회적 불평등을 고착화시키고, 취약 계층의 삶의 질을 더욱 저하시킬 수 있습니다."
+    },
+    {
+      "title_en": "Video-call glitches trigger uncanniness and harm consequential life outcomes",
+      "url": "https://www.nature.com/articles/s41586-025-09823-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "화상 통화 오류가 유발하는 불쾌감: 삶의 중요한 결정에 미치는 부정적 영향",
+      "summary_kr": "최근 한 연구 결과에 따르면, 화상 통화 중 발생하는 기술적 결함들이 단순히 대화의 흐름을 방해하는 것을 넘어 참여자들의 판단에 심각한 부정적 영향을 미칠 수 있다고 합니다. 2025년 12월 3일 네이처(Nature)지에 온라인으로 게재된 이 연구는 이러한 오류가 사람들에게 왠지 모를 불쾌감이나 불안감을 유발한다고 지적합니다. 이로 인해 대화 상대방에 대한 평가가 왜곡될 수 있으며, 이는 중요한 의사결정 과정에 직접적인 악영향을 미칩니다. 특히, 직업 면접이나 가석방 심리와 같이 개인의 미래를 좌우할 수 있는 중대한 상황에서 그 파급 효과는 더욱 커집니다. 면접관이나 심사위원이 지원자 또는 피심인을 평가할 때, 통화 오류로 인한 불쾌감이나 오해가 개입되어 공정하고 합리적인 판단을 저해할 수 있기 때문입니다. 이 연구는 현대 사회에서 필수적인 도구가 된 화상 통화 기술의 안정성 확보가 단순한 편의를 넘어 인간의 중요한 삶의 결과에까지 영향을 미칠 수 있음을 강조합니다."
+    },
+    {
+      "title_en": "Search for light sterile neutrinos with two neutrino beams at MicroBooNE",
+      "url": "https://www.nature.com/articles/s41586-025-09757-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "MicroBooNE 실험에서 두 개의 중성미자 빔을 이용한 가벼운 불활성 중성미자 탐색",
+      "summary_kr": "이 연구는 중성미자 물리학계에서 오랫동안 논의되어 온 LSND 및 MiniBooNE 실험의 중성미자 이상 현상에 대한 중요한 결론을 제시합니다. 미국 페르미 국립 가속기 연구소(Fermilab)의 MicroBooNE 실험은 액체 아르곤 시간 투영 챔버를 활용하여 정밀한 데이터를 수집했습니다. 특히, 이 실험은 앞서 언급된 이상 현상들을 설명하기 위해 제안되었던 '가벼운 불활성 중성미자(light sterile neutrino)'의 단일 존재 가설을 검증하는 데 집중했습니다. MicroBooNE에서 얻은 방대한 데이터를 면밀히 분석한 결과, 연구팀은 95% 신뢰 수준에서 단일 가벼운 불활성 중성미자가 LSND와 MiniBooNE 이상 현상을 설명한다는 해석을 배제할 수 있었습니다. 이는 그동안 미스터리로 남아있던 중성미자 현상에 대해 다른 물리적 설명이 필요함을 강력히 시사하며, 표준 모형을 넘어선 새로운 중성미자 물리학의 지평을 열 것으로 기대됩니다. 이 중요한 연구 성과는 2025년 12월 3일, 세계적인 과학 저널 네이처(Nature)에 온라인으로 게재되며 그 권위를 인정받았습니다."
+    },
+    {
+      "title_en": "Viral RNA blocks circularization to evade host codon usage control",
+      "url": "https://www.nature.com/articles/s41586-025-09809-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "바이러스 RNA, 원형화 차단으로 숙주 코돈 사용 제어 회피",
+      "summary_kr": "최근 네이처(Nature)지에 발표된 연구에 따르면, 바이러스는 숙주 세포의 코돈 사용 선호도에 단순히 적응하는 대신 고유한 전략을 통해 단백질 생산을 최적화하는 것으로 밝혀졌습니다. 바이러스는 특히 자체 5′ 비번역 영역(5′ UTR)을 활용하여 번역 개시 과정을 효과적으로 조절합니다. 이 독특한 메커니즘은 숙주 mRNA가 효율적인 번역을 위해 형성하는 '원형화(circularization)' 과정을 적극적으로 차단함으로써 작동합니다. 이러한 방해 전략 덕분에 바이러스는 숙주 세포의 코돈 사용 프로필과 잘 맞지 않는 상황에서도 높은 효율로 바이러스 단백질을 생산할 수 있습니다. 이는 바이러스가 숙주의 유전적 제약을 극복하고 성공적인 생존 및 복제를 수행하는 데 핵심적인 방법 중 하나임을 시사합니다. 이 연구 결과는 바이러스의 번역 조절 메커니즘에 대한 새로운 통찰력을 제공하며, 향후 항바이러스 치료법 개발에도 중요한 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<i>Homo&#xa0;sapiens</i>-specific evolution unveiled by ancient southern African genomes",
+      "url": "https://www.nature.com/articles/s41586-025-09811-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "고대 남아프리카 유전체로 밝혀진 호모 사피엔스 특유의 진화",
+      "summary_kr": "이 중요한 연구는 권위 있는 과학 저널 네이처(Nature)에 2025년 12월 3일 온라인으로 게재되었습니다. 연구팀은 약 10,200년 전부터 불과 150년 전까지 남아프리카에 살았던 고대인 28명의 유전체 데이터를 심층 분석했습니다. 이처럼 광범위한 시대를 아우르는 고대 유전체 정보는 현생 인류인 호모 사피엔스의 진화 과정을 심도 깊게 이해하는 데 필수적인 통찰력을 제공합니다. 특히, 인류의 발상지로 알려진 아프리카, 그 중에서도 남아프리카 지역의 고대 유전체를 분석함으로써 호모 사피엔스 고유의 유전적 특성 및 적응 전략을 밝히는 데 기여할 것으로 기대됩니다. 이 연구는 인류가 어떻게 아프리카 대륙에서 기원하여 전 세계로 확산되었는지, 그리고 현대 인류의 유전적 다양성이 어떻게 형성되었는지에 대한 새로운 단서를 제시할 것입니다. 이를 통해 고대 인류의 이동 경로, 집단 간의 유전적 관계, 그리고 환경에 대한 적응 메커니즘에 대한 이해를 한층 더 높일 수 있을 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Architecture of the neutrophil compartment",
+      "url": "https://www.nature.com/articles/s41586-025-09807-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "호중구 집단의 구조적 특성",
+      "summary_kr": "이 연구는 단일 세포 전사체 데이터를 활용하여 호중구 집단의 포괄적인 매핑을 수행했습니다. 다양한 생리적 및 병리학적 상태에서 얻은 데이터를 분석함으로써, 연구팀은 호중구 구획의 복잡한 조직 구성 및 구조를 밝혀냈습니다. 특히, 이번 연구는 건강한 상태뿐만 아니라 염증 및 암과 같은 질병 상황에서 호중구의 세포 상태 역동성과 궤적이 어떻게 변화하는지 정밀하게 규명했습니다. 이는 호중구가 면역 반응과 질병 진행 과정에서 수행하는 다양한 역할을 이해하는 데 중요한 기반을 제공합니다. 이번 발견은 호중구의 기능적 이질성을 심층적으로 이해하고, 관련 질병 치료를 위한 새로운 전략을 개발하는 데 기여할 것으로 기대됩니다. 궁극적으로 이 연구는 면역학 분야에서 호중구 연구의 새로운 지평을 열었습니다."
+    },
+    {
+      "title_en": "Decay of driver mutations shapes the landscape of intestinal transformation",
+      "url": "https://www.nature.com/articles/s41586-025-09762-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "구동 돌연변이의 쇠퇴가 장 변형의 지형을 형성한다",
+      "summary_kr": "최근 발표된 이 연구는 대장암 발병 메커니즘을 밝히는 데 중요한 기여를 합니다. 연구팀은 특히 장 상피세포에서 대장암의 '구동 돌연변이(driver mutations)'가 나타나는 순서가 종양 발달에 결정적인 영향을 미친다는 사실에 주목했습니다. 이 돌연변이들이 어떤 순서로 발생하는지에 따라, 암세포 클론들이 양성 선택(성장 촉진)되거나 음성 선택(성장 억제)될 수 있음을 보여주었습니다. 이러한 클론 선택의 역동성은 이후 종양의 성장 및 진화 양상을 형성하는 데 핵심적인 역할을 수행합니다. 즉, 구동 돌연변이의 출현 순서가 장 변형의 전체적인 지형을 결정하며, 이는 대장암의 복잡한 진행 경로를 이해하는 데 있어 중요한 통찰을 제공합니다. 본 연구 결과는 대장암의 개인별 맞춤형 진단 및 치료 전략 개발에 새로운 방향을 제시할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Darleane C. Hoffman obituary: chemist who expanded the periodic table",
+      "url": "https://www.nature.com/articles/d41586-025-03969-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "달린 C. 호프만 부고: 주기율표를 확장한 화학자",
+      "summary_kr": "이번 기사는 주기율표 확장이라는 기념비적인 업적을 남긴 저명한 화학자 달린 C. 호프만의 부고를 다루고 있습니다. 그녀는 특히 가장 무거운 원소들에 대한 심도 깊은 연구를 통해 과학계에 지대한 공헌을 했습니다. 호프만 박사의 선구적인 실험들은 방사능에 대한 인류의 이해를 근본적으로 심화시키는 데 결정적인 역할을 했습니다. 이를 통해 기존 주기율표의 한계를 넘어 새로운 원소들의 존재 가능성을 탐구하고, 그 특성을 규명하는 데 핵심적인 기여를 했습니다. 달린 C. 호프만의 연구는 원자핵 물리학 및 화학 분야의 발전에 지속적인 영감을 줄 것입니다. 본 부고는 2025년 12월 3일 저명한 과학 저널 네이처(Nature)지에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "‘Anyone hired a student before?’ How a group of novice lab leaders are supporting each other",
+      "url": "https://www.nature.com/articles/d41586-025-03486-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "초보 연구실 리더들의 상호 지원 네트워크: '혹시 학생 채용해 본 분 계신가요?'",
+      "summary_kr": "네이처(Nature)지에 2025년 12월 3일 온라인으로 게재된 이 기사는 신진 연구실 리더들이 겪는 어려움과 그 극복 방안에 대해 다루고 있습니다. 새롭게 연구실을 이끌게 된 책임 연구자(PI)들은 학생 채용, 연구비 관리, 복잡한 행정 절차 등 다양한 초기 난관에 직면하는 경우가 많습니다. 이러한 도전을 해결하기 위해, 기사의 필자와 동료들은 초기 경력 책임 연구자들을 위한 특별한 네트워크를 구축했습니다. 이 네트워크는 경험이 부족한 랩 리더들이 서로의 질문에 답하고, 지식과 경험을 공유하며, 필요한 상호 지지를 제공하는 중요한 플랫폼 역할을 합니다. 그 결과, 이들은 연구 환경 내에서 긍정적인 변화를 주도하고, 때로는 복잡한 관료주의적 장벽에 효과적으로 맞서 싸울 수 있었다고 기사는 설명합니다. 궁극적으로 이러한 동료 지원 커뮤니티는 신진 과학자들이 연구에 더욱 집중하고 성공적으로 경력을 쌓아나가는 데 필수적인 역할을 하고 있음을 보여줍니다."
+    },
+    {
+      "title_en": "Data drive city transportation forwards",
+      "url": "https://www.nature.com/articles/d41586-025-03931-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "데이터, 도시 교통의 미래를 견인하다",
+      "summary_kr": "미래형 도시 모델인 '스마트 도시'는 시민들의 삶의 질 향상을 목표로 하며, 그 핵심 과제 중 하나는 바로 도시 이동성 개선입니다. 최근 네이처(Nature)지에 2025년 12월 3일 게재된 한 기사에 따르면, 스마트 도시는 '연결성 극대화'를 통해 이러한 도시 교통 문제를 해결하고자 합니다. 이는 단순히 교통 시스템을 자동화하는 것을 넘어, 방대한 양의 실시간 데이터를 수집하고 분석하여 최적의 교통 흐름을 만들어내는 것을 의미합니다. 교통량, 대중교통 이용률, 보행자 이동 패턴 등 다양한 데이터를 통합함으로써 도시 계획자들은 보다 효율적이고 반응적인 교통 시스템을 설계할 수 있습니다. 궁극적으로 이러한 데이터 기반의 접근 방식은 도시 혼잡을 줄이고 통근 시간을 단축하며, 나아가 지속 가능하고 환경 친화적인 도시 환경을 조성하는 데 결정적인 역할을 할 것입니다. 이처럼 데이터는 미래 도시의 교통 혁신과 발전을 이끄는 핵심 동력으로 부상하고 있습니다."
+    },
+    {
+      "title_en": "Cities are embracing nature for flood defence",
+      "url": "https://www.nature.com/articles/d41586-025-03927-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "도시, 홍수 방재에 자연의 힘 빌린다",
+      "summary_kr": "점점 심화되는 홍수 피해로 인해 도시들이 막대한 손실을 겪으면서, 이제는 기존의 접근 방식에 대한 재고가 이루어지고 있습니다. 과거 콘크리트 구조물에 의존하던 방식에서 벗어나, 일부 도시들은 홍수 방어를 위해 자연 기반 해법을 적극적으로 도입하고 있습니다. 특히, 자연 습지를 보존하고 새로운 공간을 조성하는 등 자연 자체의 능력을 활용하여 물을 흡수하고 흐름을 조절하는 데 집중하고 있습니다. 이는 홍수 피해를 줄이는 것을 넘어 도시 생태계를 복원하고 생물 다양성을 증진하는 다각적인 이점을 제공합니다. 이처럼 자연을 도시 계획의 핵심 요소로 통합하는 접근 방식은 지속 가능한 도시 환경을 조성하는 중요한 전환점이 될 것으로 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "A glasses-free 3D display uses AI to direct images straight to the viewer’s eyes",
+      "url": "https://www.nature.com/articles/d41586-025-03828-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "AI 기반 무안경 3D 디스플레이: 시청자 눈에 직접 영상 투사",
+      "summary_kr": "수십 년간 실제 창문과 같은 몰입감을 제공하는 대형 무안경 3D 디스플레이는 화면이 이미지 정보를 비효율적으로 전송한다는 문제로 인해 개발이 어려웠습니다. 하지만 최근 인공지능(AI) 기술이 이 난제를 해결하는 핵심 열쇠로 떠올랐습니다. 새롭게 개발된 기술은 AI를 활용하여 빛을 오직 시청자의 눈에만 정확하게 집중시킴으로써, 기존 방식의 정보 낭비를 최소화합니다. 이러한 접근 방식을 통해 사용자는 별도의 안경 착용 없이도 끊김 없는 완벽한 3D 경험을 누릴 수 있게 됩니다. 더욱이 이 혁신적인 디스플레이는 표준 컴퓨터 모니터 크기의 저비용 패널을 사용하여 구현될 수 있어, 상업적 활용 가능성 또한 높습니다. 이 기술은 2025년 12월 3일 국제 학술지 '네이처'에 게재될 예정입니다."
+    },
+    {
+      "title_en": "Primate embryo model leaps across developmental boundaries",
+      "url": "https://www.nature.com/articles/d41586-025-03729-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "영장류 배아 모델, 발달 한계를 뛰어넘다",
+      "summary_kr": "최근 네이처(Nature)지에 발표된 연구에 따르면, 줄기세포 기반의 새로운 영장류 배아 모델이 개발되어 과학계의 주목을 받고 있습니다. 이 모델은 놀랍게도 스스로 조직화하여 포괄적인 신체 구조를 형성하는 능력을 보여주었습니다. 이는 초기 발달 생물학 연구에 있어 중대한 진전을 의미하며, 기존의 배아 모델로는 관찰하기 어려웠던 복잡한 발달 과정을 모방할 수 있게 된 것입니다. 특히, 이러한 자가 조직화 능력은 생명 초기 단계의 메커니즘을 이해하는 데 결정적인 통찰력을 제공할 것으로 기대됩니다. 이번 성과는 초기 인간 발달 과정을 더욱 정교하고 실제에 가깝게 연구할 수 있는 새로운 길을 열어줄 잠재력을 가지고 있습니다. 궁극적으로는 선천적 결함이나 난임 등 다양한 생의학적 문제의 원인을 규명하고 새로운 치료법을 개발하는 데 기여할 수 있을 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Order in which cancer-driving mutations occur affects the chance of tumour development",
+      "url": "https://www.nature.com/articles/d41586-025-03748-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "암 유발 돌연변이 발생 순서, 종양 형성 가능성에 결정적 영향",
+      "summary_kr": "수많은 장 세포에서 종양을 유발할 수 있는 DNA 돌연변이가 발생하는 것으로 알려져 있지만, 이 돌연변이 세포들이 궁극적으로 어떻게 되는지는 중요한 미스터리였습니다. 최근 생쥐 모델을 이용한 한 연구는 이러한 종양 개시 돌연변이 세포들의 운명에 대한 중요한 단서를 제공했습니다. 연구 결과에 따르면, 대다수의 돌연변이 세포들은 강력한 음성 선택 과정에 의해 효과적으로 제거되는 것으로 나타났습니다. 그러나 주목할 점은 이 까다로운 선택 과정을 견뎌내고 살아남은 일부 세포들이 이후 발생하는 돌연변이에 훨씬 더 관대한 환경을 조성한다는 사실입니다. 이는 암이 발병하고 진행될 수 있는 새로운 경로를 열어주며, 암 발생 과정에서 돌연변이의 순서가 얼마나 중요한지를 강조합니다. 이번 연구는 암 예방 및 치료 전략 개발에 귀중한 통찰력을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Satellite swarms set to photobomb more than 95% of some telescopes’ images",
+      "url": "https://www.nature.com/articles/d41586-025-03953-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "인공위성 대군집, 일부 망원경 영상의 95% 이상을 '오염'시킬 전망",
+      "summary_kr": "과학 전문 저널 네이처에 2025년 12월 3일 온라인 게재될 예정인 최신 연구는 인공위성 대군집이 미래 천문 관측에 심각한 위협을 가할 것이라고 경고했습니다. 이 연구는 특히 '계획된 메가컨스텔레이션(megaconstellations)'이라고 불리는 거대 위성군집이 우주를 관측하는 궤도 망원경들의 시야를 심각하게 오염시킬 것이라고 지적합니다. 구체적으로, 이러한 위성 군집은 일부 망원경이 포착하는 우주 이미지의 95% 이상을 방해하거나 위성들의 흔적으로 '오염'시킬 것으로 예측됩니다. 이는 궤도상의 네 개 망원경이 바라보는 우주 시야가 특히 심각하게 영향을 받아, 중요한 천문학적 데이터를 얻는 데 큰 방해가 될 수 있음을 의미합니다. 따라서, 이처럼 급증하는 인공위성 군집은 미래 우주 기반 천문학 연구와 심우주 관측 능력에 중대한 도전 과제를 제시하고 있습니다. 결과적으로, 인류가 우주를 이해하는 데 필수적인 망원경 관측의 순수성과 정확성이 심각하게 훼손될 수 있다는 과학계의 우려가 증폭되고 있습니다."
+    },
+    {
+      "title_en": "China accounts for more than half of leading output in the applied sciences",
+      "url": "https://www.nature.com/articles/d41586-025-03715-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "중국, 응용과학 분야 주요 연구 성과의 절반 이상 차지",
+      "summary_kr": "네이처(Nature)지에 2025년 12월 3일 온라인으로 게재된 최신 보고서에 따르면, 응용과학 분야의 연구 환경에 중대한 변화가 감지되고 있습니다. 이번에 발표된 응용과학 분야 첫 번째 네이처 인덱스(Nature Index) 테이블은 전 세계 연구 성과의 흐름을 분석했습니다. 특히, 이 보고서는 중국이 응용과학 분야에서 발표되는 선도적인 연구 성과의 절반 이상을 책임지고 있다는 놀라운 사실을 밝히고 있습니다. 이는 동양권, 특히 중국의 과학 연구가 국가 산업 전략과 밀접하게 연계되어 발전하고 있음을 명확히 보여주는 증거입니다. 이러한 현상은 중국이 단순히 연구 성과량을 늘리는 것을 넘어, 실용적이고 산업적 가치가 높은 응용과학 연구에 전략적으로 집중하고 있음을 시사합니다. 이번 네이처 인덱스 발표는 전 세계 연구기관 및 정책 입안자들에게 향후 응용과학 분야의 발전 방향과 글로벌 경쟁 구도에 대한 중요한 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "A bothy among the stars",
+      "url": "https://www.nature.com/articles/d41586-025-03784-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "별들 사이의 간이 거처",
+      "summary_kr": "네이처(Nature)지에 2025년 12월 3일 온라인으로 게재될 예정인 이 기사는 \"별들 사이의 간이 거처\"라는 제목으로 우주 탐사의 새로운 관점을 제시합니다. 이 매혹적인 제목은 광활한 우주 공간에서 단순하고 임시적인 형태의 주거지나 피난처를 의미할 것으로 보입니다. 기사의 핵심 문구인 \"그저 지나칠 뿐\"은 이러한 거처들이 영구적인 정착지가 아닌, 특정한 목적을 위해 잠시 머물다 가는 임시 시설의 역할을 할 것임을 암시합니다. 이는 장기 우주 비행 중인 우주비행사들에게 필수적인 휴식 공간을 제공하거나, 미지의 행성 및 위성을 탐사하기 위한 전초기지 역할을 수행할 수 있습니다. 궁극적으로 이 기사는 극한의 우주 환경 속에서 인류의 존재 방식과 탐험 철학에 대한 깊이 있는 질문을 던지며, 미래 우주 미션의 설계 방향에 중요한 영감을 줄 것으로 기대됩니다. 이러한 간이 거처는 자원 효율성과 이동성을 극대화하여 인류가 우주의 더 먼 곳까지 닿을 수 있도록 도울 것입니다."
+    },
+    {
+      "title_en": "Geothermal networks let cities warm and cool as one",
+      "url": "https://www.nature.com/articles/d41586-025-03932-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "지열 네트워크, 도시 전체의 통합 난방 및 냉방 시대를 열다",
+      "summary_kr": "최근 2025년 12월 3일 네이처(Nature)에 온라인으로 게재된 이 기사는 도시 에너지 시스템의 혁신적인 변화를 조명합니다. 기사의 핵심은 지역 난방 시스템에 대한 획기적인 업그레이드로, 이는 기존 시스템보다 훨씬 더 큰 유연성과 효율성을 제공합니다. 특히, 이 새로운 지열 네트워크는 도시 전체가 하나로 연결되어 효율적인 난방 및 냉방을 동시에 가능하게 합니다. 이러한 통합 시스템은 에너지 낭비를 줄이고 도시의 탄소 발자국을 최소화하는 데 크게 기여할 것입니다. 또한, 이는 기존의 가스 회사들에게도 재생 에너지 기반의 미래로 전환할 수 있는 중요한 기회를 제공하며, 지속 가능한 에너지 전환을 가속화할 것으로 기대됩니다. 궁극적으로, 도시들이 더욱 친환경적이고 효율적인 방식으로 기후 변화에 대응할 수 있는 길을 제시합니다."
+    },
+    {
+      "title_en": "AI reviewers are here — we are not ready",
+      "url": "https://www.nature.com/articles/d41586-025-03909-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "AI 논문 심사 시대 도래, 우리는 아직 준비되지 않았다",
+      "summary_kr": "인공지능(AI) 기술이 학술 논문 심사 분야에 혁신을 가져올 것으로 기대를 모으고 있습니다. 학술지 '네이처'에 따르면, AI는 연구 논문에 대해 빠르고 정중한 피드백을 제공할 수 있는 잠재력을 가지고 있다고 합니다. 이러한 AI 기반 심사 시스템의 도입은 학술 연구의 효율성을 크게 향상시킬 수 있을 것으로 전망됩니다. 그러나 AI 심사자를 본격적으로 활용하기에 앞서, 우리는 이 인공지능 심사자 자체를 어떻게 검토하고 평가할 것인지에 대한 심도 깊은 고민과 준비가 필요합니다. AI가 제공하는 피드백의 정확성, 공정성, 그리고 잠재적인 편향성 및 윤리적 측면을 철저히 검증해야 하는 과제가 남아 있습니다. 따라서 인공지능이 학술 심사의 미래를 변화시킬 강력한 도구가 될 수 있지만, 그 도입은 신중하고 체계적인 검증 과정을 거쳐야 함을 이 기사는 강조합니다."
+    },
+    {
+      "title_en": "Even in space, telescopes can’t escape photobombers",
+      "url": "https://www.nature.com/articles/d41586-025-03725-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "우주 망원경도 피할 수 없는 '빛 공해'의 그림자",
+      "summary_kr": "인공위성에서 반사되는 빛이 지구 궤도를 도는 망원경은 물론, 지상에 설치된 천체망원경이 촬영하는 이미지까지 오염시키고 있다는 중요한 연구 결과가 발표되었습니다. 이는 급증하는 인공위성 수가 야기하는 새로운 형태의 '빛 공해' 문제로, 천문학 관측의 정확성과 우주 탐사의 효율성을 심각하게 저해할 수 있습니다. 특히 스타링크와 같은 거대 위성군 프로젝트가 확산되면서, 밤하늘의 밝기가 인공적으로 증가하는 것은 물론, 우주 공간에 있는 최첨단 망원경조차 그 영향권에서 벗어나기 어려워졌습니다. 전문가들은 이러한 문제에 대한 적절한 완화 조치가 마련되지 않는다면, 위성에 의한 이미지 오염 현상이 미래에는 더욱 심각해질 것이라고 경고하고 있습니다. 따라서 국제적인 협력을 통해 위성의 설계 개선 및 운영 방식 조정 등 다각적인 해결책 모색이 시급한 상황입니다. 이번 연구 결과는 권위 있는 과학 저널 '네이처'에 2025년 12월 3일 온라인으로 게재되어 그 심각성을 알렸습니다."
+    },
+    {
+      "title_en": "Wooden skyscrapers point the way to more sustainable cities",
+      "url": "https://www.nature.com/articles/d41586-025-03928-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "목재 고층 빌딩, 지속 가능한 도시의 새 지평을 열다",
+      "summary_kr": "과학 저널 네이처(Nature)에 2025년 12월 3일 온라인으로 게재된 기사에 따르면, 목재 고층 빌딩이 더욱 지속 가능한 도시 환경을 구축하는 데 중요한 열쇠가 될 수 있다고 합니다. 전통적인 건축 자재인 콘크리트나 철강은 생산 과정에서 막대한 양의 탄소를 대기 중으로 배출하며 기후 변화에 크게 기여합니다. 그러나 목재로 지어진 건물은 이와 정반대의 친환경적인 역할을 수행합니다. 나무는 성장하는 동안 대기 중의 이산화탄소를 흡수하여 자신의 몸 안에 저장하는 특성이 있기 때문입니다. 결과적으로, 목재 건축물은 탄소를 대기 중에 추가하는 대신, 그 안에 가두어 두는 거대한 '탄소 저장고' 역할을 하게 됩니다. 이러한 혁신적인 접근 방식은 건축 산업의 탄소 발자국을 획기적으로 줄일 뿐만 아니라, 기후 변화에 맞서 도시를 더욱 친환경적으로 변화시키는 실질적인 대안을 제시합니다."
+    },
+    {
+      "title_en": "Cities aren’t built for women — it’s time to change that",
+      "url": "https://www.nature.com/articles/d41586-025-03930-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "여성을 위한 도시가 아니다: 이제는 변화가 필요하다",
+      "summary_kr": "도시 계획의 기존 관행이 모든 시민에게 평등한 환경을 제공하지 못하고 있다는 중요한 지적이 제기되었습니다. 특히, 여성들의 다양한 생활 방식과 필요가 충분히 반영되지 않아, 많은 도시 공간이 여성들에게 불리하게 조성되어왔다는 분석입니다. 이는 대중교통 이용의 불편함, 안전하지 않은 보행 환경, 그리고 공공 시설 접근성의 불균형 등 여러 형태로 나타나 여성의 이동성과 삶의 질에 부정적인 영향을 미치고 있습니다. 이러한 구조적 불평등은 여성의 사회 활동 참여를 제약하고 일상생활에 추가적인 부담을 안겨주는 요인으로 작용합니다. 세계적인 과학 저널 네이처(Nature)에서 이 문제를 심도 있게 다루며, 기존의 도시 계획 방식을 재고하고 성 평등의 관점에서 도시를 재설계해야 할 시점임을 강조했습니다. 모든 주민이 동등하게 도시의 혜택을 누릴 수 있도록 포괄적인 도시 설계로의 전환이 시급하다는 메시지입니다."
+    },
+    {
+      "title_en": "How cities can keep their cool",
+      "url": "https://www.nature.com/articles/d41586-025-03926-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "도시의 열기 식히는 지혜: 첨단 소재와 현명한 도시 계획",
+      "summary_kr": "최근 네이처지에 게재된 한 보고서에 따르면, 기후 변화로 인해 심화되는 도시의 열섬 현상을 효과적으로 극복할 방안이 제시되었습니다. 이 보고서는 도시가 직면한 부정적인 열 효과에 대응하기 위해 혁신적인 접근법을 강조합니다. 주요 해결책으로는 최첨단 소재의 개발 및 적용과 함께 사려 깊은 도시 계획이 꼽힙니다. 예를 들어, 열 반사율이 높은 건축 자재 사용, 녹지 공간 확대 및 수변 공간 활용을 통한 자연 냉각 시스템 도입 등이 포함될 수 있습니다. 이러한 첨단 기술과 전략적인 도시 설계가 결합된다면, 도시들은 미래 기후 변화의 도전에 맞서 보다 시원하고 지속 가능한 환경을 조성할 수 있을 것입니다. 이는 도시 거주민들의 삶의 질 향상뿐만 아니라 에너지 효율성 증대에도 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Quarks in ‘exotic’ quartets prefer to stick together",
+      "url": "https://www.nature.com/articles/d41586-025-03591-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "이색 쿼크 4중주 입자, 강하게 뭉치는 성향 보여",
+      "summary_kr": "최근 과학 저널 네이처(Nature)에 게재된 온라인 기사(2025년 12월 3일)에 따르면, 4개의 쿼크가 매우 강하게 결합된 새로운 입자의 증거가 발견되었습니다. 이처럼 이색적인 쿼크 4중주 입자는 양성자와 중성자를 함께 묶는 힘, 즉 강력에 대한 물리학자들의 이해를 시험하는 중요한 계기가 됩니다. 강력은 우주의 기본 상호작용 중 하나로, 물질의 안정성과 구조를 결정하는 핵심적인 역할을 수행합니다. 이번 발견은 쿼크들이 기존에 알려진 방식과는 다른 형태로 결합하여 새로운 형태의 물질을 형성할 수 있음을 시사합니다. 특히 4개의 쿼크가 이토록 긴밀하게 뭉쳐있다는 사실은 쿼크 간의 상호작용 메커니즘과 강력의 복잡한 본질을 탐구하는 데 심오한 통찰을 제공할 것으로 기대됩니다. 이 연구 결과는 소립자 물리학 분야에서 쿼크의 세계와 근본적인 힘에 대한 이해를 한 단계 발전시키는 중요한 발걸음으로 평가됩니다."
+    },
+    {
+      "title_en": "Still no sign of hypothetical sterile-neutrino particle",
+      "url": "https://www.nature.com/articles/d41586-025-03726-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "가상의 불활성 뉴트리노 입자, 여전히 미스터리로 남아",
+      "summary_kr": "고에너지 물리학 분야에서 오랜 숙제로 남아있는 몇몇 비정상적인 현상들을 설명할 잠재적 열쇠로 기대를 모았던 '불활성 뉴트리노(sterile neutrino)' 입자가 여전히 발견되지 않고 있다는 소식입니다. 이 가상의 입자는 우주의 암흑 물질이나 뉴트리노 질량의 기원 등 근본적인 문제들을 해결할 실마리로 주목받아 왔습니다. 하지만 2025년 12월 3일 '네이처(Nature)'지에 온라인으로 게재된 연구 결과에 따르면, 과학자들은 이 가설 속 입자의 직접적인 증거를 아직도 확보하지 못했습니다. 더욱이, 불활성 뉴트리노가 존재할 가능성이 있는 조건의 범위가 점차 더 좁아지고 있는 것으로 나타났습니다. 이는 만약 불활성 뉴트리노가 실제로 존재한다면, 우리가 예상했던 것보다 훨씬 더 특수하고 제한적인 환경에서만 발견될 수 있음을 시사합니다. 한편으로는 이 입자의 존재 자체가 부정될 수도 있다는 강력한 간접적 증거로 해석될 여지도 커지고 있어, 고에너지 물리학계의 탐구는 계속될 전망입니다."
+    },
+    {
+      "title_en": "Building mentally healthy cities with neuroscience",
+      "url": "https://www.nature.com/articles/d41586-025-03929-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "신경과학으로 조성하는 '정신 건강 도시'",
+      "summary_kr": "조경가이자 신경과학자인 아그니에슈카 올셰프스카-구이조(Agnieszka Olszewska-Guizzo)는 도시 공간이 인간의 정신 건강에 미치는 영향을 측정하고 최적화하는 독창적인 방법을 제시합니다. 그녀는 신경과학적 지식을 활용하여 특정 도시 환경이나 디자인 요소가 우리의 심리에 어떤 긍정적 또는 부정적 영향을 미치는지 과학적으로 분석합니다. 특히, 도시의 자연 환경이나 건축물이 스트레스 감소, 인지 기능 향상, 그리고 전반적인 웰빙 증진에 어떻게 기여하는지 정량적으로 평가하는 데 중점을 둡니다. 이러한 연구는 도시 계획 및 설계 단계에서부터 시민의 정신 건강 증진 요소를 적극적으로 반영하여, 더욱 건강하고 행복한 삶을 영위할 수 있는 공간을 조성하는 것을 목표로 합니다. 그녀의 작업은 단순히 미학적 관점을 넘어, 과학적 근거를 바탕으로 인간의 정신 건강을 최우선으로 고려하는 미래 도시의 비전을 제시하며 주목받고 있습니다."
+    },
+    {
+      "title_en": "Failed Sperm Flagellar Development Drives Infertility",
+      "url": "https://www.the-scientist.com/failed-sperm-flagellar-development-drives-infertility-73821",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "정자 편모 발달 부전, 불임의 핵심 원인 규명",
+      "summary_kr": "최신 연구에 따르면, 정자의 운동성은 생식 능력에 결정적인 영향을 미치며, 정자 운동성 결함은 불임의 주요 원인 중 하나로 꼽힙니다. 최근 초미세구조 확장 현미경(Ultrastructure expansion microscopy)이라는 혁신적인 기술을 이용한 연구에서, 정자 편모 발달 부전이 불임을 유발하는 구체적인 메커니즘이 밝혀졌습니다. 연구 결과, 결함이 있는 중심소체(centriole)가 정자 편모의 정상적인 형성을 심각하게 저해하는 것으로 나타났습니다. 편모는 정자가 난자까지 이동하는 데 필수적인 추진력을 제공하는 기관이므로, 이 과정에 문제가 생기면 정자는 운동성을 상실하게 됩니다. 특히 쥐 모델을 사용한 이번 연구는 중심소체 결함이 정자의 운동성을 떨어뜨려 결과적으로 수정 능력을 저하시킴으로써 불임에 직접적으로 기여한다는 사실을 명확히 보여주었습니다. 이번 발견은 정자 운동성 결함으로 인한 불임의 진단과 새로운 치료 전략 개발에 중요한 과학적 근거를 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Curious Minds, Big Discoveries: The Power of Citizen Science",
+      "url": "https://www.the-scientist.com/curious-minds-big-discoveries-the-power-of-citizen-science-73819",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "호기심 넘치는 탐구, 위대한 발견: 시민 과학의 힘",
+      "summary_kr": "시민 과학은 전 세계 곳곳에서 과학 연구의 중요한 동력으로 작용하며 지평을 넓히고 있습니다. 전문 연구자가 아닌 일반 시민들이 직접 현장 데이터를 수집하거나 관찰에 참여함으로써 과학 발전에 기여하는 혁신적인 접근 방식입니다. 이들은 알 수 없는 점액질의 정체를 밝히거나, 희귀 곤충을 발견하고, 환경 샘플을 채취하는 등 다양한 형태로 연구 활동에 동참합니다. 개개인의 작은 참여가 모여 방대한 양의 데이터를 축적하고, 이는 기존에 접근하기 어려웠던 규모의 과학 연구를 가능하게 만듭니다. 결과적으로 시민 과학은 새로운 발견을 가속화하고, 과학 연구의 범위를 확장하며, 동시에 대중의 과학적 이해와 참여를 증진시키는 데 크게 기여하고 있습니다. 이처럼 호기심과 열정을 가진 시민들의 자발적인 노력이 인류의 지식 창고를 풍요롭게 하는 핵심적인 역할을 수행하고 있습니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Munyaradzi Tinarwo",
+      "url": "https://www.the-scientist.com/postdoc-portrait-munyaradzi-tinarwo-73807",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "박사후 연구원 집중 조명: 무냐라지 티나르워",
+      "summary_kr": "무냐라지 티나르워 박사후 연구원은 식물을 바이오 공장으로 전환하는 혁신적인 연구를 통해 차세대 백신 개발에 중요한 기여를 하고 있습니다. 그의 연구는 식물체를 이용하여 의약품 및 백신 성분을 생산하는 '바이오파밍' 전략을 발전시키는 데 초점을 맞추고 있습니다. 이는 기존의 복잡하고 비용이 많이 드는 생산 방식에 비해 훨씬 경제적이고 효율적인 대안을 제시합니다. 특히 티나르워 연구원은 이 기술을 차세대 백신 개발에 적용하여, 더 안전하고 접근성 높은 의료 솔루션을 제공하는 것을 목표로 합니다. 식물 기반 백신은 대규모 생산이 용이하고, 생산 비용이 저렴하며, 동물 유래 오염 위험이 적다는 장점을 가지고 있습니다. 그의 선구적인 노력은 미래 팬데믹 대응 능력을 강화하고 전 세계 공중 보건 개선에 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "BRANDTECH&reg; Scientific Announces Strategic Partnership with Copia Scientific to Strengthen Sales and Service of the BRAND&reg; Liquid Handling Station (LHS)&nbsp;",
+      "url": "https://www.the-scientist.com/brandtech-scientific-announces-strategic-partnership-with-copia-scientific-to-strengthen-sales-and-service-of-the-brand-liquid-handling-station-lhs-73817",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "브랜드테크 사이언티픽, BRAND® 액체 핸들링 스테이션(LHS) 판매 및 서비스 강화를 위해 코피아 사이언티픽과 전략적 파트너십 발표",
+      "summary_kr": "브랜드테크 사이언티픽(BRANDTECH® Scientific)이 자사의 핵심 제품인 BRAND® 액체 핸들링 스테이션(LHS)의 판매 및 서비스 역량을 강화하기 위해 코피아 사이언티픽(Copia Scientific)과 전략적 파트너십을 체결했습니다. 이번 협력은 두 회사가 더 넓은 고객층에 도달할 수 있도록 설계되었으며, 특히 복잡하고 전문적인 워크플로우를 가진 고객들의 요구사항을 충족시키는 데 중점을 둘 예정입니다. 이를 통해 BRAND® LHS 제품에 대한 접근성이 향상되고, 더욱 전문적인 기술 지원 및 서비스가 제공될 것으로 기대됩니다. 양사는 각자의 강점을 활용하여 시장에서의 입지를 공고히 하고, 과학 연구 및 실험실 환경에 필요한 솔루션을 보다 효율적으로 제공할 계획입니다. 궁극적으로 이번 파트너십은 액체 핸들링 분야의 혁신을 가속화하고, 사용자들에게 한층 더 나은 제품 경험을 선사할 것입니다."
+    },
+    {
+      "title_en": "Family Dog May Boost Mental Health in Teens Via the Microbiome",
+      "url": "https://www.the-scientist.com/family-dog-may-boost-mental-health-in-teens-via-the-microbiome-73814",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "가족 반려견, 장내 미생물을 통해 청소년 정신 건강 증진 가능성",
+      "summary_kr": "최근 연구에 따르면, 청소년기에 가족 반려견과 함께 성장하는 것이 정신 건강에 긍정적인 영향을 미칠 수 있다는 흥미로운 가능성이 제시되었습니다. 특히, 반려견과의 유대감은 청소년의 기분 개선과 사회적 연결성을 강화하는 데 기여할 수 있는 것으로 나타났습니다. 이러한 긍정적인 효과는 부분적으로 장내 미생물군(microbiome)의 변화와 긴밀하게 연관되어 있다는 분석입니다. 전문가들은 반려견과의 상호작용이 청소년의 장내 미생물 구성에 영향을 미치고, 이것이 뇌 기능 및 정서 조절에 관여하는 생물학적 경로에 영향을 줄 수 있다고 보고 있습니다. 이는 단순한 정서적 유대를 넘어 생물학적 메커니즘을 통해 반려견이 청소년의 정신 건강에 실질적으로 기여할 수 있음을 시사합니다. 앞으로 이 분야에 대한 심층적인 연구가 이어진다면, 청소년의 전반적인 정신 건강 증진을 위한 새로운 전략을 개발하는 데 중요한 과학적 토대를 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "From Circuits to Behavior: Early-Career Neuroscientists Awarded for Breakthrough Research",
+      "url": "https://www.the-scientist.com/from-circuits-to-behavior-early-career-neuroscientists-awarded-for-breakthrough-research-73809",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "신경 회로에서 행동까지: 신진 신경과학자들, 획기적 연구로 수상 영예",
+      "summary_kr": "젊은 신경과학자들이 최첨단 연구를 통해 신경과학 분야에 새로운 지평을 열며 국제적인 인정을 받았습니다. 특히, 첸 류(Cheng Lyu) 박사는 후각 회로 발달에 대한 그의 선구적인 연구를 인정받아 '2025 에펜도르프 & 사이언스 신경생물학상(Eppendorf & Science Prize for Neurobiology)'을 수상하는 영예를 안았습니다. 류 박사의 연구는 신경 회로가 복잡한 감각 정보를 처리하고 행동으로 전환되는 과정을 밝혀내며, 뇌 기능 이해에 중요한 단서를 제공합니다. 그의 성과는 회로 수준에서 행동에 이르는 메커니즘을 규명하는 데 핵심적인 기여를 했다는 평가를 받고 있습니다. 이 상은 뛰어난 잠재력을 지닌 신진 연구자들에게 수여되는 권위 있는 상으로, 이번에는 콘스탄체 뎁(Constanze Depp)과 사라 메데로스(Sara Mederos) 역시 최종 후보에 오르며 각자의 혁신적인 연구 역량을 선보였습니다. 이들 신진 신경과학자들은 인간의 뇌와 행동을 이해하려는 인류의 오랜 탐구에 새로운 활력을 불어넣으며 미래 과학 발전에 대한 기대를 높이고 있습니다."
+    },
+    {
+      "title_en": "Watch this tiny robot somersault through the air like an insect",
+      "url": "https://www.science.org/content/article/watch-tiny-robot-somersault-through-air-insect",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "곤충처럼 공중에서 재주넘는 초소형 로봇: 놀라운 비행 능력을 선보이다",
+      "summary_kr": "로봇 공학 분야에서 놀라운 진전이 이루어졌습니다. 마치 곤충처럼 공중에서 재주넘기를 할 수 있는 초소형 로봇이 개발되어 과학계의 이목을 집중시키고 있습니다. 이 혁신적인 장치는 그 무게가 종이 클립 하나보다도 가벼워, 극도의 경량화를 실현했습니다. 놀랍도록 작은 크기에도 불구하고, 이전 모델들과 비교했을 때 훨씬 더 빠른 속도와 뛰어난 민첩성을 자랑합니다. 이는 기존의 마이크로 로봇이 도달하기 어려웠던 역동적인 비행 능력을 가능하게 합니다. 이러한 발전은 좁은 공간에서의 탐사, 재난 현장 수색, 환경 모니터링 등 다양한 분야에서 새로운 응용 가능성을 제시합니다. 이번 연구는 자율적인 초소형 비행 로봇 기술의 미래를 한 단계 끌어올리는 중요한 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "To boost research, states are building their own AI-ready supercomputers",
+      "url": "https://www.science.org/content/article/boost-research-states-are-building-their-own-ai-ready-supercomputers",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "연구 역량 강화 위해 각 주(州) 정부, 'AI 슈퍼컴퓨터' 자체 구축 나선다",
+      "summary_kr": "최근 미국의 여러 주 정부가 인공지능(AI) 연구 역량 강화를 위해 자체 슈퍼컴퓨터 구축에 적극적으로 나서고 있습니다. 이러한 움직임의 중심에는 뉴욕주가 있으며, 뉴욕주는 연방 연구소나 거대 기술 기업에만 국한되어 있던 고성능 컴퓨팅 하드웨어에 대한 접근성을 민주화하는 것을 핵심 목표로 삼고 있습니다. 기존에는 막대한 구축 비용과 운영의 복잡성 때문에 첨단 AI 인프라가 소수의 기관에 집중되어, 일반 연구자나 중소기업의 접근이 어려웠습니다. 뉴욕주의 이러한 투자는 주 내의 대학 연구진, 스타트업, 그리고 다양한 혁신 주체들이 최첨단 AI 기술을 활용하여 획기적인 연구를 수행할 수 있는 기반을 제공하고자 하는 것입니다. 이는 연구의 문턱을 낮추고 더 많은 이들이 AI 발전에 기여할 기회를 얻도록 함으로써, 주의 과학 기술 경쟁력을 높이고 장기적인 경제 성장을 견인할 중요한 전략으로 평가됩니다."
+    },
+    {
+      "title_en": "Satellite fleets pose problems for space telescopes, too",
+      "url": "https://www.science.org/content/article/satellite-fleets-pose-problems-space-telescopes-too",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "우주 망원경을 위협하는 위성군 문제",
+      "summary_kr": "최근 제안되고 있는 대규모 위성군, 이른바 '메가 컨스텔레이션' 프로젝트들이 우주 관측 분야에 심각한 우려를 낳고 있습니다. 수많은 위성을 지구 저궤도에 띄우려는 이 계획들은 천문학계에 예상치 못한 부작용을 초래할 수 있습니다. 특히 허블 우주 망원경처럼 지구 저궤도에 위치한 우주 망원경들의 관측 영상에 치명적인 영향을 미 미칠 것으로 예상됩니다. 이 위성들은 태양광을 반사하여 밝은 줄무늬를 만들거나 배경 노이즈를 증가시켜, 민감한 우주 사진을 오염시키고 희미한 천체를 가릴 가능성이 큽니다. 이는 우주 심층 관측의 정확도를 떨어뜨리고, 중요한 과학적 발견을 방해하며, 궁극적으로 인류의 우주 이해를 저해할 수 있습니다. 따라서 이러한 위성군의 개발 및 배치에 앞서 우주 망원경 관측에 미치는 영향을 면밀히 평가하고 완화 방안을 모색하는 것이 시급합니다."
+    },
+    {
+      "title_en": "Opinion: The overdiagnosis debate in mental health misses the point",
+      "url": "https://www.statnews.com/2025/12/04/mental-illness-overdiagnosis-debate-treatment/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_340529279-645x645.jpeg",
+      "title": "의견: 정신 건강 분야의 과잉 진단 논쟁, 쟁점을 벗어나다",
+      "summary_kr": "웰컴(Wellcome)의 정신 건강 담당 이사인 미란다 울퍼트(Miranda Wolpert)는 현재 정신 건강 분야에서 활발히 논의되고 있는 '과잉 진단' 논쟁이 본질적인 핵심을 놓치고 있다고 지적합니다. 그녀는 단순히 '누구를 정신 질환자로 간주할 것인가'에 집중하는 것은 결국 우리를 잘못된 방향으로 이끌 것이라고 경고합니다. 이 논쟁은 종종 진단 기준의 확대나 환자 수의 증가에 초점을 맞추지만, 울퍼트 이사는 이러한 접근 방식이 실제 문제 해결에 도움이 되지 않는다고 주장합니다. 정신 건강 문제의 복잡성을 이해하고 고통받는 사람들을 효과적으로 돕기 위한 방안을 모색하는 것이 더 중요하며, 누가 진단 기준에 부합하는지에 대한 논쟁은 이러한 노력을 저해할 수 있다는 것입니다. 따라서 그녀는 논쟁의 초점을 옮겨, 실제 고통을 겪는 사람들을 어떻게 지원하고 예방 및 회복 시스템을 강화할지에 대해 논의해야 한다고 강조합니다. 이는 정신 건강 문제를 더욱 포괄적이고 건설적인 방식으로 접근하기 위한 중요한 관점의 전환을 의미합니다."
+    },
+    {
+      "title_en": "STAT+: FDA to lower number of trials required for approval of drugs, other medical products",
+      "url": "https://www.statnews.com/2025/12/04/fda-considers-single-clinical-trial-for-new-product-approvals/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP25310674600719-645x645.jpg",
+      "title": "FDA, 의약품·의료기기 승인 임상시험 요건 완화 추진",
+      "summary_kr": "미국 식품의약국(FDA)이 의약품 및 기타 의료 제품의 승인을 위해 요구되는 임상시험 수를 기존의 두 개에서 한 개로 줄이는 방안을 추진하고 있습니다. 이는 의료 제품 개발 및 시장 출시 과정을 가속화하고, 환자들이 혁신적인 치료법에 더 빨리 접근할 수 있도록 하기 위한 조치로 해석됩니다. 현재 FDA는 일반적으로 신약이나 의료기기 승인을 고려하기 전에 두 건의 독립적인 성공적인 임상시험 결과를 요구해 왔습니다. 이번 변경안이 시행될 경우, 제약 및 의료기기 기업들은 개발 단계에서 소요되는 시간과 비용을 크게 절감할 수 있을 것으로 기대됩니다. 그러나 한편으로는 임상시험 수 감소가 제품의 안전성 및 유효성 검증에 미칠 잠재적 영향에 대한 우려와 논의도 활발히 이루어질 것으로 예상됩니다. FDA는 이러한 변화를 통해 혁신을 장려하면서도 공중 보건 보호라는 핵심 목표를 지속적으로 달성하기 위한 균형점을 찾으려 할 것으로 보입니다."
+    },
+    {
+      "title_en": "What to know about the new flu variant, subclade K",
+      "url": "https://www.statnews.com/2025/12/04/flu-shot-effectiveness-h3n2-subclade-k-status-report/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2019/04/AP19108763545202-645x645.jpg",
+      "title": "새로운 독감 변이 '하위 계통 K', 무엇을 알아야 할까?",
+      "summary_kr": "최근 새로운 독감 변이인 '하위 계통 K'가 전 세계 공중 보건 전문가들의 주목을 받고 있습니다. 독감 바이러스는 끊임없이 변이하며 새로운 형태를 만들어내기 때문에, 이러한 변이체의 특성을 이해하고 적절히 대응하는 것이 공중 보건에 매우 중요합니다. 과학 전문 매체 STAT은 이 중대한 주제에 대한 심층적인 분석을 제공하며 대중의 이해를 돕고 있습니다. 특히 STAT의 전문 기자 알렉스 호건(Alex Hogan)은 이번 주 방영된 'STATus Report' 에피소드를 통해 '하위 계통 K' 변이에 대해 대중이 반드시 알아야 할 핵심 정보들을 상세히 전달했습니다. 이번 보고서는 '하위 계통 K'의 주요 특징과 잠재적 영향 등 공중 보건 관점에서 중요한 내용들을 다루고 있습니다. 새로운 독감 변이에 대한 시의적절한 이해는 개인과 지역 사회의 건강을 보호하는 데 필수적인 역할을 할 것입니다."
+    },
+    {
+      "title_en": "STAT+: Trump has ‘shaken the hell’ out of the 80-year research pact between the government and universities. What now?",
+      "url": "https://www.statnews.com/2025/12/04/american-science-shattered-series-analyzes-trump-research-funding-cuts/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/STAT_Trump_HHS_1.2-1-645x645.jpg",
+      "title": "트럼프, 80년 정부-대학 연구 협력 '격변' 초래… 과학계의 미래는?",
+      "summary_kr": "트럼프 전 대통령이 정부와 대학 간 80년간 이어져 온 연구 협력 체제에 전례 없는 격변을 초래했습니다. 이 오랜 협약은 미국 과학 연구의 근간을 이루며 수많은 혁신과 발견의 토대가 되어왔습니다. 그의 정책 기조와 발언은 연구 자금 지원의 불확실성을 증폭시키고, 학술의 자유와 과학적 독립성을 위협할 수 있다는 우려를 낳고 있습니다. 특히 대학들은 연구 프로젝트의 안정적인 수행과 장기적인 계획 수립에 어려움을 겪을 수 있으며, 이는 최고 수준의 인재 유치 및 유지에도 영향을 미칠 수 있습니다. 이러한 변화의 물결 속에서 미국 과학계는 앞으로 정부와의 관계를 어떻게 재정립하고, 미래의 연구 방향을 어떻게 설정해야 할지 깊은 고민에 빠져 있습니다. 과학 발전과 국가 경쟁력에 직결되는 이 협력 관계의 향방은 단순히 학계 문제를 넘어 미국 사회 전반에 중대한 파장을 일으킬 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Opinion: Can chatting with strangers improve public health?",
+      "url": "https://www.statnews.com/2025/12/04/public-health-communication-maha-strangers-information-vaccines/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2229912619-645x645.jpg",
+      "title": "기고: 낯선 사람과의 대화가 공중 보건을 향상시킬 수 있을까?",
+      "summary_kr": "공중 보건 분야에서 과학적 사실과 데이터의 중요성은 아무리 강조해도 지나치지 않으며, 이는 다양한 연구를 통해 꾸준히 입증되어 왔습니다. 과학적 근거는 정책 수립과 효율적인 개입을 위한 필수적인 토대 역할을 합니다. 그러나 흥미롭게도, 사람들은 공중 보건과 관련된 개인적인 이야기에 놀라울 정도로 민감하게 반응하고 깊이 공감하는 경향을 보입니다. 딱딱한 수치나 통계 자료만으로는 전달하기 어려운 감정적 연결고리와 설득력을 개인의 경험담이 제공하는 것입니다. 이러한 발견은 공중 보건 메시지를 전달하는 방식에 대한 새로운 시사점을 던져줍니다. 즉, 낯선 사람들과의 우연한 대화나 비공식적인 교류를 통해 공유되는 개인적인 서사가 공중 보건 증진에 예상치 못한, 그러나 매우 강력한 기여를 할 수 있다는 가능성을 제시합니다. 과학적 기반 위에 인간적인 이야기를 덧붙이는 접근 방식이 공중 보건 목표 달성에 더욱 효과적인 전략이 될 수 있음을 보여주는 대목입니다."
+    },
+    {
+      "title_en": "What West Virginia teens lost when CDC cuts ended their fight against Big Tobacco",
+      "url": "https://www.statnews.com/2025/12/04/impact-cdc-cuts-tobacco-activist-story-american-science-shattered-series/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/RAZE_Breanna_Smallwood_006-645x645.jpg",
+      "title": "웨스트버지니아 청소년들, CDC 예산 삭감으로 '빅 담배' 투쟁 멈추며 잃은 것들",
+      "summary_kr": "미국 웨스트버지니아주의 청소년들이 주도해 온 '빅 담배' 기업과의 싸움이 중단되면서 큰 상실감을 겪고 있습니다. 이는 미국 질병통제예방센터(CDC)의 예산 삭감이 직접적인 원인으로 작용했습니다. 그동안 CDC의 지원을 받아 운영되던 청소년 대상 금연 및 담배 산업 저항 프로그램들이 예산 부족으로 폐지되거나 축소된 것입니다. 이로 인해 젊은 세대가 담배 산업의 교묘한 마케팅 전략에 맞서 싸우고 건강한 삶을 추구할 기회를 잃게 되었습니다. 또한, 이러한 프로그램들을 통해 배우고 발전시켰던 리더십, 옹호 능력, 그리고 지역사회 참여 기회 또한 사라져 장기적인 파급 효과가 우려됩니다. 결과적으로, 이번 예산 삭감은 공중 보건 증진과 미래 세대의 건강 보호라는 중요한 목표에 심각한 차질을 초래할 것으로 보입니다."
+    },
+    {
+      "title_en": "Working with monkeys was this lab tech’s dream job. Now she’s staffing an IT help desk",
+      "url": "https://www.statnews.com/2025/12/04/research-cut-impacts-early-career-scientists-american-science-shattered-series/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/StatNewsBrie-53-645x645.jpg",
+      "title": "원숭이 연구가 꿈이었던 연구원, 이제 IT 헬프 데스크 직원이 되다",
+      "summary_kr": "도널드 트럼프 행정부의 과학 정책 변화는 미국 과학계에 상당한 우려를 불러일으키고 있습니다. 이는 많은 연구자들이 미국을 떠나 해외로 유출될 수 있다는 불안감을 증폭시키는 요인이 되고 있습니다. 그러나 한 연구실 기술자의 사례는 이러한 우려가 단순히 국외 유출을 넘어설 수 있음을 명확히 보여줍니다. 그녀는 한때 원숭이와 함께 일하는 것을 꿈의 직업으로 여기며 과학 연구에 열정을 바쳤던 인물이었습니다. 하지만 이제 그녀는 과학 분야를 완전히 떠나 IT 헬프 데스크에서 새로운 경력을 시작하게 되었습니다. 이 이야기는 과학 정책의 변화가 단순히 인재 유출을 넘어, 유능한 과학 인력 자체를 해당 분야 밖으로 밀어낼 수 있다는 심각한 경고를 던지고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Tracy Beth Høeg, Makary aide who investigated Covid vaccines, to lead FDA drug center",
+      "url": "https://www.statnews.com/2025/12/03/tracy-beth-hoeg-lead-center-for-drug-evaluation-and-research/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AP25176703125800-645x645.jpg",
+      "title": "코로나19 백신 조사했던 마카리 보좌관 트레이시 베스 회그, FDA 의약품 평가 연구 센터장 맡는다",
+      "summary_kr": "미국 식품의약국(FDA)의 핵심 부서인 의약품 평가 연구 센터(CDER)의 차기 수장으로 트레이시 베스 회그(Tracy Beth Høeg) 박사가 임명될 예정입니다. 회그 박사는 현재 FDA 국장인 마티 마카리(Marty Makary)의 수석 보좌관으로 활동하며 고위 참모로서 역할을 수행해왔습니다. 특히 그녀는 코로나19 백신과 관련한 광범위한 조사를 이끌며 해당 분야에서 깊은 전문성을 입증한 바 있습니다. 의약품 평가 연구 센터(CDER)는 미국 내에서 유통되는 모든 의약품의 안전성과 효능을 철저히 검토하고 승인하는 막중한 임무를 맡고 있습니다. 이처럼 중요한 역할을 하는 CDER을 이끌게 된 회그 박사의 이번 임명은 미국 의약품 규제 환경에 상당한 변화를 가져올 것으로 전망됩니다. 그녀의 광범위한 경험과 전문성이 앞으로 의약품 개발 및 평가 과정에 어떤 영향을 미칠지 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "A dozen former FDA commissioners decry Prasad memo on vaccine regulation",
+      "url": "https://www.statnews.com/2025/12/03/fda-former-commissioners-vaccine-policy/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/10/AdobeStock_376575075-645x645.jpeg",
+      "title": "역대 FDA 국장 12인, 백신 규제 관련 프라사드 비망록 강력 비판",
+      "summary_kr": "미국 식품의약국(FDA)의 백신 규제 방식 변경 움직임에 대해 역대 국장들이 강한 우려를 표명했습니다. 총 12명의 전 FDA 국장들은 백신 규제를 변경하려는 프라사드 비망록의 내용이 효과적인 백신의 개발 및 승인 과정에 부정적인 영향을 미칠 수 있다고 경고했습니다. 이들은 특히 해당 변경안이 백신 안전성과 효능 평가의 기존 기준을 약화시킬 수 있다고 지적했습니다. 과거 국장들은 이러한 변화가 대중의 백신 신뢰도를 저하시키고, 궁극적으로는 공중 보건 시스템 전반에 심각한 위협이 될 수 있다고 강조했습니다. 이들은 FDA가 과학적 엄격함과 독립성을 유지하며 백신 규제를 담당해야 함을 재차 촉구했습니다. 이번 성명은 백신 규제 정책의 중요성과 그 파급 효과에 대한 심도 있는 논의를 촉발할 것으로 보입니다."
+    },
+    {
+      "title_en": "STAT+: FDA removes longtime over-the-counter drugs regulator from her position",
+      "url": "https://www.statnews.com/2025/12/03/theresa-michele-fda-office-of-nonprescription-drugs-transfered-to-new-role/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/02/AP25036674396489-645x645.jpg",
+      "title": "FDA, 오랜 일반의약품 규제 책임자 해임",
+      "summary_kr": "미국 식품의약국(FDA)이 오랜 기간 일반의약품 규제 업무를 담당해온 고위 책임자를 직위에서 해제했습니다. 이번 조치는 리처드 파즈두어(Richard Pazdur) FDA 고위 관료이자 해당 책임자의 직속 상사가 은퇴를 발표한 지 불과 하루 만에 이루어졌습니다. 해임된 해당 책임자는 일반의약품의 안전성과 유효성을 감독하며 중요한 역할을 수행해왔습니다. 특히 파즈두어 박사는 FDA 내에서 항암제 승인 분야에 오랫동안 핵심적인 역할을 해온 매우 영향력 있는 인물로 알려져 있습니다. 고위 상사의 은퇴 직후 핵심 규제 담당자가 해임된 이번 상황은 FDA 내부의 조직 개편이나 새로운 정책 방향 설정과 연관될 가능성이 제기됩니다. 이러한 갑작스러운 인사는 일반의약품 시장과 관련 규제 동향에 상당한 파장을 불러올 것으로 예상됩니다."
+    },
+    {
+      "title_en": "STAT+: Hair loss drug succeeds in Phase 3, but data underwhelms experts",
+      "url": "https://www.statnews.com/2025/12/03/hair-loss-drug-succeeds-phase-3-trial-cosmo-pharmaceuticals/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2213141516-645x645.jpg",
+      "title": "탈모 치료제 3상 임상 성공에도 전문가 반응은 '미지근'…데이터가 기대치 못 미쳐",
+      "summary_kr": "새로운 국소 탈모 치료제가 3상 임상시험에서 성공적인 모발 성장 효과를 보였습니다. 이는 최근 발표된 두 건의 후기 단계 임상시험 결과에 따른 것입니다. 이 약물은 임상 참가자들의 모발 밀도를 유의미하게 증가시키는 데 성공하며, 탈모 치료 분야에 새로운 희망을 제시하는 듯했습니다. 하지만 이번 3상 임상 결과 데이터에 대한 전문가들의 평가는 다소 미지근한 반응을 보이고 있습니다. 비록 모발 생성 효과는 입증되었으나, 전문가들은 데이터의 세부적인 측면이나 임상적 유의미성에 대해 여전히 추가적인 분석이 필요하다는 입장을 표명하고 있습니다. 따라서 이번 성공 소식에도 불구하고, 치료제의 실제 시장 적용 및 파급 효과에 대해서는 좀 더 신중한 접근이 요구될 것으로 보입니다."
+    },
+    {
+      "title_en": "STAT+: Why so many primary care doctors are switching between two Harvard-affiliated hospital systems",
+      "url": "https://www.statnews.com/2025/12/03/primary-care-doctors-switching-mass-general-brigham-beth-israel/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_turner012722METROmassgenbrigham37-645x645.jpg",
+      "title": "하버드 제휴 병원 시스템 간 1차 진료의 대규모 이동: 그 배경은 무엇인가?",
+      "summary_kr": "최근 의료계에 흥미로운 현상이 포착되었습니다. 미국의 주요 의료 허브 중 하나인 보스턴에서, 두 명문 하버드 제휴 병원 시스템 소속의 1차 진료 의사들이 이례적으로 서로 간에 자리를 옮기는 사례가 빈번하게 발생하고 있는 것입니다. 이러한 대규모 인력 이동은 단순한 개인의 직업 선택을 넘어, 해당 병원 시스템 내부의 운영 방식, 의사들의 근무 환경, 그리고 전반적인 의료 서비스 제공 방식에 대한 중요한 질문을 던지고 있습니다. 본 기사는 1차 진료 의사들이 왜 굳이 두 하버드 제휴 병원 시스템 사이를 오가는지, 그 근본적인 원인을 심층적으로 파헤칠 것으로 예상됩니다. 의사들의 직무 만족도, 보상 체계의 적절성, 과도한 행정 업무 부담, 또는 의료 시스템 변화로 인한 압력 등 다양한 요인들이 복합적으로 작용했을 가능성을 탐구할 것입니다. 이러한 의사 이동 현상은 환자 진료의 연속성과 질은 물론, 병원 시스템의 안정성에도 중대한 영향을 미칠 수 있기에, 의료 정책 입안자와 병원 경영진 모두에게 중요한 시사점을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "STAT+: AI scribe clinical trial results are here. What do they actually reveal?",
+      "url": "https://www.statnews.com/2025/12/03/ambient-scribe-trial-doctor-burnout-ai-prognosis-newsletter/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AIPrognosis_Wordpress_scribes-645x645.jpg",
+      "title": "STAT+: AI 의료 기록 비서 임상시험 결과: 과연 무엇을 보여주는가?",
+      "summary_kr": "AI 예후(Prognosis) 뉴스레터 최신호에서는 인공지능(AI) 기반 의료 기록 비서의 임상시험 결과에 대한 심도 깊은 논의를 다룹니다. 특히, AI 의료 비서 도입이 가져올 수 있는 이점에 대해 근본적인 질문을 던지고 있습니다. 과연 이러한 AI 기술의 이점은 너무나 커서 측정 자체가 불가능한 수준인 것일까요, 아니면 우리가 그 효과를 측정하는 방식에 문제가 있는 것일까요? 이번 기사는 AI 의료 비서 기술의 잠재력과 함께, 이를 제대로 평가하고 이해하기 위한 현재의 측정 방법론에 대한 비판적 시각을 제시합니다. 독자들은 이번 뉴스레터를 통해 AI 의료 비서의 실제 임상적 가치와 그 한계를 명확히 파악할 수 있을 것입니다. 이는 향후 AI 의료 기술의 발전 방향과 임상 적용에 중요한 시사점을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about FDA’s Pazdur retiring, Europe’s reaction to U.S.-U.K. pharma deal, and more",
+      "url": "https://www.statnews.com/pharmalot/2025/12/03/fda-pazdur-pharma-germany-cvs-psychiatry-bristol-novo/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "STAT+ 파마리틀: 미 FDA 파즈두르 퇴임 및 미-영 제약 거래 유럽 반응 등 제약계 주요 동향",
+      "summary_kr": "미국 식품의약국(FDA)의 최고 약물 규제 책임자인 리처드 파즈두르 박사가 이달 말 공식 은퇴 의사를 밝혔습니다. 그는 오랫동안 FDA의 핵심 규제 인물로서 신약 승인 및 약물 안전성 평가 과정에 막대한 영향력을 행사해왔습니다. 그의 퇴임은 현재 FDA가 겪고 있는 내부 혼란을 더욱 심화시킬 것으로 전망됩니다. 최근 FDA는 여러 현안과 주요 인물들의 이탈로 인해 조직 운영에 있어 불안정한 시기를 맞고 있습니다. 파즈두르 박사의 빈자리는 특히 혁신 신약 개발을 추진하는 제약사들에게 FDA의 향후 규제 방향에 대한 불확실성을 가중시키는 요인이 될 것입니다. 이번 그의 은퇴는 단순한 인력 변동을 넘어, FDA의 약물 규제 환경 전반에 걸쳐 중대한 변화를 예고하는 중요한 전환점으로 평가되고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Startup aims to combine AI with new small molecule technology",
+      "url": "https://www.statnews.com/2025/12/03/biotech-news-excelsior-biosciences-combines-ai-and-small-molecule/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/AdobeStock_497450960-645x645.jpeg",
+      "title": "STAT+: AI와 신규 저분자 기술 결합 추진하는 스타트업",
+      "summary_kr": "생명공학 분야의 최신 소식을 심도 깊게 다루는 '더 리드아웃(The Readout)'이 중요한 바이오테크 소식을 전했습니다. 이번 보도에서는 인공지능(AI)과 혁신적인 저분자(small molecule) 기술을 결합하여 새로운 치료법을 모색하는 한 스타트업의 움직임이 집중 조명되었습니다. 이 스타트업은 AI의 분석 능력과 저분자의 약물 특성을 활용하여 신약 개발 과정을 가속화하고, 미충족 의료 수요를 해결할 잠재력을 제시하고 있습니다. 이는 첨단 기술이 생명 과학 분야에 미치는 영향을 여실히 보여주는 사례로, 업계의 기대를 한 몸에 받고 있습니다. 더 리드아웃은 이러한 핵심 기술 혁신뿐만 아니라 바이오테크 산업 전반에 걸친 다양한 소식과 분석을 지속적으로 제공하며, 독자들이 빠르게 변화하는 과학 기술의 흐름을 이해하는 데 도움을 주고 있습니다. 독자들은 이를 통해 미래 의학의 방향과 최신 연구 동향을 깊이 있게 파악할 수 있을 것입니다."
+    },
+    {
+      "title_en": "STAT+: Bristol to enroll more patients in key study of Cobenfy in Alzheimer’s psychosis",
+      "url": "https://www.statnews.com/2025/12/03/bristol-myers-squibb-cobenfy-enroll-more-patients-alzheimers-psychosis/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/04/AdobeStock_634614092_Editorial_Use_Only-645x645.jpeg",
+      "title": "STAT+: 브리스톨, 알츠하이머 정신병 치료제 코벤파이 핵심 임상시험 환자 추가 모집",
+      "summary_kr": "주요 제약회사인 브리스톨 마이어스 스큅(Bristol Myers Squibb, BMS)이 알츠하이머병 관련 정신병 치료제로 개발 중인 자사의 약물 '코벤파이(Cobenfy)'의 핵심 3상 임상시험에서 추가 환자를 모집할 예정입니다. 이번 결정은 알츠하이머병 환자들에게 흔히 나타나는 정신병 증상에 대한 효과적인 치료 옵션을 모색하기 위한 중요한 단계로 풀이됩니다. 3상 임상시험은 신약 승인 전 최종 단계의 대규모 인체 시험으로, 약물의 안전성과 유효성을 광범위하게 평가하는 중요한 과정입니다. 환자 모집 확대는 연구의 통계적 유의성을 높이거나, 다양한 환자군에서의 약물 반응을 심층적으로 분석하기 위한 전략으로 해석될 수 있습니다. 현재 알츠하이머병 환자들에게 나타나는 정신병 증상은 환자와 보호자 모두에게 큰 고통을 안겨주고 있으며, 치료 옵션이 제한적인 상황입니다. 따라서 코벤파이의 성공적인 개발은 이 질환으로 고통받는 많은 이들에게 새로운 희망을 제시할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Supreme Court hears oral arguments on crisis pregnancy centers",
+      "url": "https://www.statnews.com/2025/12/03/health-news-supreme-court-crisis-pregnancy-centers-argument/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/01/GettyImages-1899486649-1-645x645.jpg",
+      "title": "대법원, 위기 임신 센터 관련 구두 변론 심리 착수",
+      "summary_kr": "미국 대법원이 최근 위기 임신 센터(Crisis Pregnancy Centers)를 둘러싼 중요한 구두 변론을 심리했습니다. 이 사건은 임신 위기에 처한 여성들에게 상담과 지원을 제공하는 이들 센터의 운영 방식과 법적 지위에 대한 광범위한 논의를 포함하고 있습니다. 해당 소식은 '모닝 라운즈(Morning Rounds)' 뉴스레터를 통해 주요하게 보도되었습니다. 뉴스레터는 대법원의 심리 내용뿐만 아니라, 일반 대중에게 중요한 다양한 최신 건강 관련 소식들도 함께 전달했습니다. 독자들은 이를 통해 주요 사법적 쟁점과 함께 전반적인 보건 분야의 동향을 종합적으로 파악할 수 있었습니다. '모닝 라운즈'는 이처럼 시의성 있는 건강 및 사회적 쟁점을 심층적으로 다루며 정보 전달의 역할을 수행하고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Capricor says its cell therapy improved heart and muscle function in Duchenne patients",
+      "url": "https://www.statnews.com/2025/12/03/capricor-cell-therapy-improves-heart-function-duchenne-patients-phase-3-trial/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/06/AdobeStock_238025650-645x645.jpeg",
+      "title": "카프리코어, 뒤센 근이영양증 환자 심장·근육 기능 개선 세포 치료제 효과 발표",
+      "summary_kr": "카프리코어 테라퓨틱스(Capricor Therapeutics)는 최근 자사의 세포 치료제가 뒤센 근이영양증(Duchenne muscular dystrophy) 환자의 근육 및 심장 기능을 유의미하게 개선했음을 발표했습니다. 이 발표는 수요일에 이루어졌으며, 해당 치료제가 심각한 근육 퇴행성 질환으로 고통받는 환자들에게 새로운 치료 희망을 제시할 수 있음을 시사합니다. 뒤센 근이영양증은 근육이 점진적으로 약화되고 소실되는 유전성 질환으로, 특히 심장 기능 저하와 호흡기 문제가 주요 사망 원인으로 꼽힙니다. 카프리코어의 세포 치료제는 이러한 핵심적인 심장 및 근육 기능을 효과적으로 개선함으로써 환자들의 삶의 질을 향상하고 생존율을 높이는 데 기여할 수 있는 중요한 진전을 이루었습니다. 이번 결과는 뒤센 근이영양증의 진행을 늦추거나 증상을 완화하는 데 어려움을 겪었던 기존 치료법의 한계를 극복할 잠재력을 보여줍니다. 전문가들은 이번 연구 결과가 뒤센 근이영양증 치료 분야에 혁신적인 변화를 가져올 잠재력을 지니고 있으며, 향후 더 많은 임상 연구를 통해 상용화 가능성에 대한 기대감을 높이고 있다고 평가하고 있습니다."
+    },
+    {
+      "title_en": "Former CDC official returns to local health care after resigning",
+      "url": "https://www.statnews.com/2025/12/03/former-cdc-official-public-health-failing-demetre-daskalakis-interview/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP22250719179584-645x645.jpg",
+      "title": "전 CDC 고위 관계자, 사임 후 지역 보건의료 현장으로 복귀",
+      "summary_kr": "전직 CDC(미국 질병통제예방센터) 고위 관계자인 데미트리 다스칼라키스(Demetre Daskalakis) 박사가 최근 사임 후, 다시 지역 보건의료 현장으로 복귀할 예정입니다. 그는 그동안 쌓아온 전문성과 실질적인 경험을 다시 뉴욕으로 가져가 지역 사회를 위한 의료 서비스에 기여할 계획입니다. 다스칼라키스 박사의 핵심 역량은 뉴욕의 HIV 클리닉과 시 보건국에서 오랜 기간 근무하며 형성되고 깊이를 더했습니다. 이 기간 동안 그는 공중보건, 특히 HIV 예방과 치료 분야에서 탁월한 역량을 발휘하며 지역 보건 시스템의 핵심적인 역할을 수행했습니다. 이번 복귀는 그의 풍부한 경험과 실질적인 기술이 다시금 뉴욕 지역의 건강 증진과 취약 계층 지원에 큰 도움이 될 것이라는 기대를 모으고 있습니다. 특히 팬데믹 이후 지역 보건의 중요성이 더욱 부각되는 시점에서, 그의 리더십과 전문성은 지역 사회에 긍정적인 파급 효과를 가져올 것으로 전망됩니다."
+    },
+    {
+      "title_en": "12 former FDA chiefs unite to say agency memo on vaccines is deeply stupid",
+      "url": "https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/07/GettyImages-1403288381-500x500.jpeg",
+      "title": "전직 FDA 국장 12인, 백신 관련 기관 문건 '매우 어리석다'며 강력 비판",
+      "summary_kr": "전직 미국 식품의약국(FDA) 국장 12명이 최근 발표된 백신 관련 기관 문건에 대해 이례적으로 강력한 비판의 목소리를 냈습니다. 이들은 해당 문건이 담고 있는 프라사드(Prasad)의 주장이 과학적 사실과 규제 기록을 심각하게 왜곡하고 있다고 지적했습니다. 전직 수장들은 이러한 주장이 대중에게 백신에 대한 잘못된 정보를 전달하고 규제 당국의 신뢰성을 훼손할 수 있다고 우려를 표명했습니다. 특히 공중 보건에 직결되는 백신 문제에서 과학적 근거가 결여된 주장은 매우 위험하며, FDA의 핵심 가치와 역할에 반한다는 입장입니다. 이번 집단 성명은 FDA의 과학적 독립성을 수호하고, 대중의 건강과 안전을 최우선으로 해야 한다는 강력한 메시지를 전달합니다. 전문가 집단의 이러한 움직임은 잘못된 정보의 확산을 막고 과학적 기준을 확고히 하는 데 중요한 역할을 할 것으로 보입니다."
+    },
+    {
+      "title_en": "Humans in southern Africa were an isolated population until recently",
+      "url": "https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-940753366-500x500.jpg",
+      "title": "남아프리카 인류, 불과 1천 년 전까지 고립된 집단으로 존재",
+      "summary_kr": "남아프리카 지역에 거주하던 인류 집단이 최근까지 독자적인 고립 상태를 유지해왔다는 연구 결과가 발표되었습니다. 특히, 이들은 불과 천 년 전까지 외부 세계와의 유전적, 문화적 교류가 극히 제한적이었던 것으로 밝혀졌습니다. 이 고립된 집단은 오랜 기간 동안 독자적인 유전적 특성과 문화적 정체성을 발전시켰으며, 이는 다른 인구 집단과는 확연히 구분되는 고유한 특징을 형성하게 했습니다. 외부로부터의 유전자 유입이 적었던 덕분에 이들의 유전적 구성은 독특하게 보존될 수 있었습니다. 하지만 약 천 년 전을 기점으로 이러한 고립 상태가 점차 해소되기 시작하며, 인근 지역이나 더 멀리 떨어진 집단과의 교류가 활발해졌을 것으로 추정됩니다. 이러한 발견은 남아프리카 인류의 인구 이동 역사와 유전적 다양성 연구에 중요한 통찰을 제공하며, 인류 역사의 복잡성을 이해하는 데 기여할 것입니다."
+    },
+    {
+      "title_en": "Rare win for renewable energy: Trump admin funds geothermal network expansion",
+      "url": "https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-527975034-500x500.jpg",
+      "title": "재생에너지의 이례적 성과: 트럼프 행정부, 지열 네트워크 확장에 투자",
+      "summary_kr": "트럼프 행정부가 재생에너지 분야에서 이례적인 자금 지원을 결정하여 주목받고 있습니다. 이번 지원은 매사추세츠주에 위치한 지열 에너지 기반의 난방 및 냉방 네트워크 확장을 위한 것입니다. 미국 내에서 최초로 구축된 이 선구적인 시스템은 이번 투자를 통해 그 규모를 두 배로 확장할 예정입니다. 평소 화석 연료 산업을 지지하는 정책을 펼쳐왔던 트럼프 행정부의 행보와는 다소 상반되는 결정이라는 점에서 이번 자금 지원의 의미는 더욱 크게 다가옵니다. 이는 재생에너지 인프라 구축 및 확장에 긍정적인 신호탄이 될 것으로 기대됩니다. 지열 에너지는 안정적이고 지속 가능한 에너지원으로, 이번 확장을 통해 지역사회의 에너지 효율성 증대와 탄소 배출량 감축에 크게 기여할 것으로 전망됩니다."
+    },
+    {
+      "title_en": "A spectacular explosion shows China is close to obtaining reusable rockets",
+      "url": "https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/zq3-engines-500x500.jpg",
+      "title": "장엄한 폭발이 보여준 중국의 재사용 로켓 기술: 상용화 초읽기",
+      "summary_kr": "중국이 재사용 로켓 기술 확보에 한 걸음 더 다가섰음을 보여주는 중요한 시험 비행이 최근 성공적으로 수행되었습니다. 이번 시험은 비록 최종적으로는 '장엄한 폭발'로 마무리되었지만, 당초 계획했던 기술적 목표들을 성공적으로 달성한 것으로 평가됩니다. 이는 중국이 재사용 로켓의 핵심인 로켓 회수 및 재활용 메커니즘을 이해하고 개발하는 데 필요한 귀중한 데이터를 확보했음을 의미합니다. 이번 시도는 중국 최초의 로켓 회수 시도로, 우주 탐사 비용을 획기적으로 절감할 수 있는 재사용 로켓 개발 경쟁에서 중요한 이정표가 될 것입니다. 비록 완벽한 착륙에는 이르지 못했으나, 이 폭발은 의도된 실험 과정의 일부였거나 향후 기술 개선에 필수적인 정보를 제공하는 '성공적인 실패'로 해석될 수 있습니다. 이를 통해 중국은 머지않아 재사용 로켓 기술을 완전히 확보하고 우주 강국으로서의 입지를 더욱 공고히 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Planned satellite constellations may swamp future orbiting telescopes",
+      "url": "https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/image-500x500.jpeg",
+      "title": "미래 우주 망원경, 거대 위성군으로 인해 관측 시야 '압도당할' 위기",
+      "summary_kr": "미래에 계획된 궤도 망원경들이 심각한 관측 방해에 직면할 수 있다는 우려가 제기되고 있습니다. 이는 최근 빠르게 증가하고 있는 거대 위성군(satellite constellations) 때문입니다. 이 위성들은 거의 모든 망원경 이미지에 가로지르는 형태로 나타나, 과학적 관측의 질을 현저히 떨어뜨릴 것으로 예상됩니다. 특히 희미한 천체를 관측하거나 장시간 노출이 필요한 연구에서 위성으로 인한 빛 공해와 궤적은 치명적인 영향을 미칠 수 있습니다. 이는 지구 궤도에 설치될 차세대 우주 관측소의 임무 수행에 중대한 위협이 될 뿐만 아니라, 인류의 심우주 탐사 및 우주 과학 연구에도 큰 걸림돌로 작용할 수 있습니다. 따라서 천문학계와 우주 과학자들은 이러한 문제에 대한 국제적인 논의와 규제 마련의 필요성을 강력히 주장하고 있습니다."
+    },
+    {
+      "title_en": "Thursday's Cold Moon Is the Last Supermoon of the Year. Here's How and When to View It",
+      "url": "https://www.wired.com/story/cold-moon-supermoon-december-how-to-view/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://media.wired.com/photos/693043999d66f181d1c769f6/master/pass/452969547",
+      "title": "목요일, 올해 마지막 슈퍼문 '콜드 문'이 뜬다… 놓치지 말아야 할 관측 가이드",
+      "summary_kr": "오는 목요일 밤하늘에 올해의 마지막 슈퍼문이자 '콜드 문'이 장관을 이룰 예정입니다. 겨울의 시작을 알리는 12월의 보름달을 전통적으로 '콜드 문(Cold Moon)'이라 부르며, 이 이름은 추운 계절이 도래했음을 상징합니다. 특히 이번 달의 콜드 문은 지구와 가장 가까워지는 '슈퍼문' 현상까지 겹쳐, 평소보다 더욱 크고 밝게 빛나는 모습을 볼 수 있을 것입니다. 이 특별한 천문 현상을 가장 잘 관측할 수 있는 기회는 12월 4일 해가 진 직후가 될 것입니다. 해 질 녘 지평선 근처에서 떠오르는 달은 더욱 웅장하고 아름다운 모습을 선사합니다. 특별한 장비 없이 맨눈으로도 그 웅장함을 충분히 느낄 수 있으니, 이번 기회를 놓치지 마시고 밤하늘의 경이로운 순간을 경험해 보시길 바랍니다."
+    },
+    {
+      "title_en": "A Fentanyl Vaccine Is About to Get Its First Major Test",
+      "url": "https://www.wired.com/story/a-fentanyl-vaccine-is-about-to-get-its-first-major-test/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": "https://media.wired.com/photos/6909fef5d708e8376d1a521e/master/pass/110425_Fentanyl-Vaccine.jpg",
+      "title": "펜타닐 백신, 첫 주요 시험대 오른다: 과다 복용 및 사망 예방 기대",
+      "summary_kr": "최근 치명적인 합성 마약인 펜타닐로 인한 과다 복용 및 사망 문제가 전 세계적으로 심각한 사회적 문제로 대두되고 있습니다. 이러한 위협에 대응하기 위해 뉴욕에 본사를 둔 ARMR 사이언스(ARMR Sciences)가 펜타닐 백신 개발에 박차를 가하고 있습니다. 해당 백신은 펜타닐 복용 시 발생하는 치명적인 효과를 약화시키거나 예방하는 것을 목표로 합니다. 특히 이번에 네덜란드에서 시작되는 임상 시험은 이 펜타닐 백신이 인간에게 미치는 영향을 평가하는 첫 번째 주요 단계가 될 것입니다. 이 시험은 백신의 안전성과 잠재적 효과를 검증하는 데 중요한 역할을 할 예정입니다. 성공적으로 진행될 경우, 이 백신은 펜타닐 중독 및 과다 복용으로 인한 사망률을 줄이는 데 크게 기여할 획기적인 의료 솔루션이 될 수 있을 것으로 기대됩니다. 이러한 연구는 펜타닐 위기와의 싸움에서 새로운 희망을 제시하며, 공중 보건에 중대한 영향을 미칠 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/fda-names-tracy-beth-hoeg-fresh-vaccine-safety-probe-acting-head-drug-center\" hreflang=\"en\">FDA names Tracy Beth Høeg, fresh from vaccine safety probe, as acting head of drug center</a>",
+      "url": "https://www.fiercebiotech.com/biotech/fda-names-tracy-beth-hoeg-fresh-vaccine-safety-probe-acting-head-drug-center",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 백신 안전성 조사 경험 지닌 트레이시 베스 호그 박사를 의약품센터장 대행으로 임명",
+      "summary_kr": "미국 식품의약국(FDA)은 최근 트레이시 베스 호그(Tracy Beth Høeg) 박사(M.D., Ph.D.)를 의약품 평가 연구 센터(Center for Drug Evaluation and Research, CDER)의 센터장 대행으로 임명했습니다. 이번 임명은 팬데믹 기간 동안 공중 보건 분야에서 명성을 얻으며 빠르게 부상한 한 의사의 경력에 있어 중요한 이정표가 됩니다. 호그 박사는 특히 백신 안전성 조사 분야에서 두각을 나타냈던 인물로, 관련 연구 및 분석에 깊이 관여한 경험을 가지고 있습니다. 그녀의 이러한 배경은 FDA의 핵심 부서인 CDER의 운영 방향에 중요한 영향을 미칠 것으로 예상됩니다. CDER은 미국 내 모든 의약품의 안전성과 효과를 검토하고 규제하는 중추적인 역할을 담당합니다. 이번 인사는 급변하는 의료 환경 속에서 의약품 안전성 및 평가 역량을 강화하려는 FDA의 의지를 반영하는 것으로 풀이됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/fda-floats-user-fee-cuts-early-stage-us-trials-additional-fees-overseas-development\" hreflang=\"en\">FDA floats user fee cuts for early-stage US trials, additional fees for overseas development</a>",
+      "url": "https://www.fiercebiotech.com/biotech/fda-floats-user-fee-cuts-early-stage-us-trials-additional-fees-overseas-development",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 미국 내 초기 임상시험 수수료 인하 추진…해외 개발 시 추가 비용 부과",
+      "summary_kr": "미국 식품의약국(FDA)이 미국 내에서 임상 개발을 수행하는 초기 단계 기업들을 위한 수수료 인하 방안을 제안했습니다. 이번 제안의 핵심은 해외에서 의약품 개발을 진행하는 경우보다 미국 내 임상시험을 장려하기 위한 정책적 변화입니다. FDA는 미국에서 초기 임상시험을 진행하는 기업들의 재정적 부담을 줄여주는 동시에, 해외에서 의약품 개발을 추진하는 경우에는 추가적인 수수료를 부과할 수 있다는 방침을 시사했습니다. 이러한 수수료 정책 조정을 통해 FDA는 미국 내 바이오산업 생태계를 강화하고, 국내 일자리 창출 및 연구 역량을 제고하려는 의도를 가진 것으로 보입니다. 특히 재정적 여력이 크지 않은 초기 단계 바이오 기업들에게는 이러한 수수료 인하가 미국 내 임상 진행을 결정하는 중요한 유인책이 될 수 있습니다. 이는 전 세계적인 의약품 개발 환경과 기업들의 전략적 선택에도 상당한 영향을 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/medtronics-hugo-surgical-robot-secures-us-clearance\" hreflang=\"en\">Medtronic's Hugo surgical robot secures US clearance</a>",
+      "url": "https://www.fiercebiotech.com/medtech/medtronics-hugo-surgical-robot-secures-us-clearance",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "메드트로닉의 휴고 수술 로봇, 미국 FDA 승인 획득",
+      "summary_kr": "의료기기 선도 기업 메드트로닉(Medtronic)의 혁신적인 수술 로봇 시스템 '휴고(Hugo)'가 최근 미국 식품의약국(FDA)으로부터 공식적인 사용 승인을 받으며 미국 시장 진출의 중요한 관문을 통과했습니다. 이번 FDA의 초기 승인은 로봇 보조 수술 분야에서 메드트로닉의 입지를 강화하는 핵심적인 이정표로 평가받고 있습니다. 특히, 휴고 로봇은 전립선, 신장 및 방광 제거와 같은 주요 비뇨기과 수술에 사용될 수 있도록 허가되었습니다. 이는 미국에서 매년 약 23만 건에 달하는 해당 수술에 휴고 시스템이 적용될 수 있음을 의미하며, 잠재적인 시장 규모와 영향력이 매우 클 것으로 예상됩니다. 이번 승인으로 수술 로봇 시장의 경쟁 구도에 변화가 생길 것으로 보이며, 이는 환자들에게 더 다양한 수술 옵션과 발전된 의료 기술의 혜택을 제공할 기회가 될 것입니다. 메드트로닉은 휴고 로봇을 통해 외과 의사와 환자 모두에게 더욱 안전하고 효과적인 수술 환경을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/cro/next-gen-cro-avetra-unveils-access-350-us-sites\" hreflang=\"en\">Next-gen CRO Avetra unveils with access to 350-plus US sites </a>",
+      "url": "https://www.fiercebiotech.com/cro/next-gen-cro-avetra-unveils-access-350-us-sites",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "차세대 CRO 아베트라, 미국 내 350개 이상 임상 시험장 접근권 확보하며 공식 출범",
+      "summary_kr": "새로운 임상시험수탁기관(CRO)인 아베트라(Avetra)가 최근 공식 출범을 알리며 임상 연구 분야에 새로운 바람을 예고했습니다. 아베트라는 임상 연구 운영 방식 전반을 현대화하는 것을 핵심 사명으로 삼고 있습니다. 이들은 기존 임상 연구 과정의 비효율성을 개선하고 더욱 진보된 접근 방식을 도입하여 임상시험의 질과 속도를 향상시키고자 합니다. 특히, 임상시험 전반의 투명성을 최우선 가치로 두어 연구 참여자 및 관련 이해관계자들에게 명확하고 신뢰할 수 있는 정보를 제공하는 데 중점을 둡니다. 또한, 연구 시작 단계를 가속화하여 전체 임상시험의 효율성을 높이고 신약 개발 과정을 단축하는 데 크게 기여할 계획입니다. 이러한 혁신적인 접근 방식을 통해 아베트라는 차세대 CRO로서의 입지를 다지고 임상 연구 분야에 새로운 활력을 불어넣을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/capricor-sets-2nd-approval-attempt-duchenne-cell-therapy-phase-3-win\" hreflang=\"en\">Capricor's phase 3 win sets up 2nd approval attempt for Duchenne cell therapy</a>",
+      "url": "https://www.fiercebiotech.com/biotech/capricor-sets-2nd-approval-attempt-duchenne-cell-therapy-phase-3-win",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "카프리코 테라퓨틱스, 뒤셴 근이영양증 세포 치료제 3상 성공으로 두 번째 승인 도전",
+      "summary_kr": "카프리코 테라퓨틱스가 뒤셴 근이영양증(Duchenne Muscular Dystrophy, DMD) 세포 치료제 '데라미오셀(deramiocel)'의 시장 출시를 위한 중요한 진전을 이루었습니다. 최근 완료된 3상 임상 시험에서 데라미오셀은 주요 목표인 1차 평가변수를 성공적으로 충족시켰습니다. 이러한 긍정적인 결과는 희귀 난치성 질환인 뒤셴 근이영양증으로 고통받는 환자들에게 새로운 치료 옵션을 제공할 가능성을 열어주며 큰 기대를 모으고 있습니다. 카프리코는 이전에 한 차례 승인 신청을 시도했으나 추가 데이터 요구로 보류된 바 있으며, 이번 3상 성공을 발판 삼아 미국 식품의약국(FDA)에 두 번째 승인 신청을 추진할 예정입니다. 데라미오셀은 DMD로 인한 근육 손상을 완화하고 기능 개선을 목표로 하는 혁신적인 세포 치료제로, 엄격한 임상 과정을 통해 그 효과와 안전성을 다시 한번 입증했습니다. 이번 3상 성공은 카프리코 테라퓨틱스가 난치성 질환 치료제 개발 분야에서 선도적인 위치를 굳히고, 많은 환자들에게 희망을 전달하는 중요한 이정표가 될 것으로 전망됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/pfizer-backed-triana-scores-120m-series-b-take-molecular-glue-degrader-clinic\" hreflang=\"en\">Pfizer-backed Triana scores $120M series B to take molecular glue degrader into clinic</a>",
+      "url": "https://www.fiercebiotech.com/biotech/pfizer-backed-triana-scores-120m-series-b-take-molecular-glue-degrader-clinic",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "화이자 지원받는 트리아나, 1억 2천만 달러 시리즈 B 투자 확보... 분자 접착제 분해제 임상 추진",
+      "summary_kr": "트리아나 바이오메디신(Triana Biomedicines)이 최근 1억 2천만 달러(약 1,600억 원) 규모의 시리즈 B 투자 유치에 성공하며 바이오 업계의 주목을 받고 있습니다. 이번 투자 라운드에는 세계적인 제약사인 화이자의 벤처 투자 부문인 화이자 벤처스(Pfizer Ventures)가 주요 투자자로 참여했습니다. 이와 더불어 기존 투자자들과 새로운 투자자들도 대거 합류하여 트리아나의 혁신적인 기술력과 성장 잠재력을 높이 평가했습니다. 트리아나는 이번에 확보한 대규모 자금을 활용하여 핵심 파이프라인인 '분자 접착제 분해제(molecular glue degrader)'의 임상 시험을 본격적으로 추진할 계획입니다. 이 기술은 질병을 유발하는 단백질을 표적으로 하여 분해를 유도함으로써, 기존 치료법으로는 접근하기 어려웠던 질병에 대한 새로운 치료 가능성을 제시합니다. 이번 임상 진입은 난치병 치료를 위한 혁신 신약 개발에 있어 중요한 이정표가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/fda-approves-next-gen-prostate-cancer-psa-test-cleveland-diagnostics\" hreflang=\"en\">FDA approves next-gen prostate cancer PSA test from Cleveland Diagnostics</a>",
+      "url": "https://www.fiercebiotech.com/medtech/fda-approves-next-gen-prostate-cancer-psa-test-cleveland-diagnostics",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 클리블랜드 다이아그노스틱스 차세대 전립선암 PSA 검사 승인",
+      "summary_kr": "클리블랜드 다이아그노스틱스(Cleveland Diagnostics)가 개발한 혁신적인 전립선암 PSA 검사 'IsoPSA'가 미국 식품의약국(FDA)의 승인을 획득하며 전립선암 진단 분야에 새로운 지평을 열었습니다. 이 IsoPSA 혈액 검사는 기존 PSA(전립선 특이 항원) 검사가 가지고 있던 한계를 보완하기 위해 설계되었습니다. 기존 검사는 단순 혈중 PSA 수치에 집중하여 위양성 및 과잉 진단 논란이 있었던 반면, IsoPSA는 PSA 단백질의 특정 변이체를 찾아 분석합니다. 이 특정 변이체는 악성 질환의 높은 위험과 더욱 밀접하게 연관되어 있어, 임상적으로 중요한 전립선암을 보다 정확하게 식별할 수 있도록 돕습니다. 따라서 이 검사는 불필요한 생검 절차를 줄이고 환자들이 보다 신속하고 정확하게 진단을 받을 수 있도록 기여할 것으로 기대됩니다. 이번 FDA 승인은 전립선암 진단의 정확성을 높이고 환자 맞춤형 치료 전략 수립에 중요한 진전을 가져올 것으로 평가됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/olympus-backed-swan-endosurgical-names-stryker-vet-erik-todd-ceo\" hreflang=\"en\">Olympus-backed robotics startup Swan EndoSurgical taps Stryker vet for CEO</a>",
+      "url": "https://www.fiercebiotech.com/medtech/olympus-backed-swan-endosurgical-names-stryker-vet-erik-todd-ceo",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "올림푸스 투자 로봇 스타트업 스완 엔도서지컬, 스트라이커 출신 임원 CEO로 영입",
+      "summary_kr": "로봇 수술 분야에서 주목받는 신생 기업 스완 엔도서지컬이 핵심 경영진 인사를 발표했습니다. 올해 올림푸스(Olympus)와 리바이벌 헬스케어 캐피탈(Revival Healthcare Capital)이 공동 설립한 이 스타트업은 혁신적인 내시경 수술 로봇 기술 개발에 주력하고 있습니다. 스완 엔도서지컬은 최근 스트라이커(Stryker)의 전직 고위 임원인 에릭 토드(Erik Todd)를 신임 최고경영자(CEO)로 영입하며 리더십을 강화했습니다. 에릭 토드 CEO는 의료기기 산업, 특히 로봇 수술 분야에서 오랜 기간 쌓은 광범위한 경험과 전문성을 갖춘 베테랑입니다. 그의 합류는 스완 엔도서지컬이 경쟁이 치열한 의료 로봇 시장에서 기술 혁신을 가속화하고 시장 입지를 확대하는 데 중요한 동력이 될 것으로 기대됩니다. 올림푸스의 강력한 지원을 등에 업고 에릭 토드 CEO의 리더십 아래 스완 엔도서지컬이 의료 로봇 시장의 주요 플레이어로 성장할지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/pharvaris-clocks-pivotal-win-race-rapid-hae-relief-teeing-filing-challenge-kalvista\" hreflang=\"en\">Pharvaris clocks a pivotal win in race for rapid HAE relief, teeing up filing to challenge KalVista</a>",
+      "url": "https://www.fiercebiotech.com/biotech/pharvaris-clocks-pivotal-win-race-rapid-hae-relief-teeing-filing-challenge-kalvista",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "파바리스, 신속 HAE 완화 경쟁서 결정적 승리…칼비스타에 도전할 허가 신청 준비",
+      "summary_kr": "바이오텍 기업 파바리스(Pharvaris)가 유전성 혈관부종(HAE) 신속 완화 치료제 개발 경쟁에서 결정적인 승리를 거두며 주목받고 있습니다. 이 회사의 경구용 후보 물질인 듀크릭팁반트(deucrictibant)의 3상 임상 시험이 최근 성공적으로 1차 평가 변수를 달성했다고 발표했습니다. 이번 긍정적인 임상 결과는 파바리스가 희귀 유전 질환인 HAE 치료를 위한 신약 허가 신청을 공식적으로 준비할 수 있는 발판을 마련했습니다. 특히, 듀크릭팁반트는 현재 시장에 출시된 칼비스타 파마슈티컬스(KalVista Pharmaceuticals)의 '엑털리(Ekterly)'에 대항할 경쟁력 있는 대안이 될 것으로 기대됩니다. HAE는 예측 불가능한 심한 부종 발작을 유발하는 치명적인 유전 질환으로, 환자들에게 신속하고 효과적인 치료법은 매우 중요합니다. 파바리스의 이번 성과는 HAE 환자들에게 새로운 희망을 제시하며, 치료 시장의 경쟁 구도에 상당한 변화를 가져올 것으로 전망됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/thea-pens-280m-deal-iolyxs-phase-3-ready-dry-eye-disease-drug\" hreflang=\"en\">Théa pens $280M deal for Iolyx's phase 3-ready dry eye disease drug</a>",
+      "url": "https://www.fiercebiotech.com/biotech/thea-pens-280m-deal-iolyxs-phase-3-ready-dry-eye-disease-drug",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "테아, 이올릭스의 3상 준비 완료 안구건조증 치료제에 2억 8천만 달러 규모 계약 체결",
+      "summary_kr": "프랑스 제약사 라보라투아르 테아(Laboratoires Théa)가 이올릭스 테라퓨틱스(Iolyx Therapeutics)의 3상 임상시험 준비를 마친 안구건조증 치료제에 대한 판권 계약을 체결했습니다. 이번 계약은 최대 2억 8천만 달러(한화 약 3,800억 원)에 달하는 대규모 투자로, 테아의 안과 분야 입지를 더욱 강화할 것으로 보입니다. 이올릭스의 해당 치료제는 이미 3상 임상시험에 진입할 준비를 마친 단계로, 시장 출시 가능성에 대한 기대감이 높습니다. 안구건조증은 전 세계적으로 수많은 환자들이 고통받는 만성 질환으로, 효과적인 치료제에 대한 미충족 수요가 큰 분야입니다. 테아는 이번 인수를 통해 안과 치료제 파이프라인을 확장하고, 글로벌 안과 시장에서의 경쟁력을 한층 더 끌어올릴 전략적 발판을 마련했습니다. 양사는 이번 협력을 통해 안구건조증 환자들에게 혁신적인 치료 옵션을 제공할 수 있을 것으로 기대하고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/muvon-flexes-muscle-cell-therapy-data-challenge-synthetic-incontinence-implants\" hreflang=\"en\">Muvon flexes muscle cell therapy data to challenge synthetic incontinence implants</a>",
+      "url": "https://www.fiercebiotech.com/biotech/muvon-flexes-muscle-cell-therapy-data-challenge-synthetic-incontinence-implants",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "뮤본, 근육 세포 치료 데이터 공개하며 합성 요실금 임플란트 대체 가능성 제시",
+      "summary_kr": "바이오 기업 뮤본 테라퓨틱스(Muvon Therapeutics)가 자사의 세포 치료제가 스트레스성 요실금 증상 빈도를 현저히 줄이는 효과를 입증했다고 발표했습니다. 최근 진행된 소규모 2상 임상시험에서, 이 치료제는 환자들의 요실금 발생 빈도를 60%나 감소시키는 인상적인 결과를 보여주었습니다. 이러한 긍정적인 데이터는 기존의 합성 물질 임플란트에 대한 의존도를 줄일 수 있는 강력한 대안으로서 뮤본의 치료제 후보 물질을 부각시키고 있습니다. 현재 요실금 치료는 주로 합성 메쉬나 기타 인공 재료를 이용한 수술적 방법에 의존해 왔으며, 이는 잠재적인 부작용을 동반할 수 있습니다. 뮤본은 자사의 근육 세포 치료제가 신체 거부 반응 우려가 적고 장기적인 효과를 기대할 수 있어 환자들의 삶의 질을 크게 향상시킬 것으로 전망하고 있습니다. 이번 2상 임상 결과는 요실금 치료 분야에서 새로운 패러다임을 제시할 잠재력을 가진 것으로 평가되며, 향후 대규모 임상시험을 통한 추가 검증이 기대됩니다."
+    },
+    {
+      "title_en": "Home care startup Inbound Health shuts down",
+      "url": "https://endpoints.news/home-care-startup-inbound-health-shuts-down/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "재택 의료 스타트업 인바운드 헬스, 결국 폐업",
+      "summary_kr": "재택 의료 스타트업 인바운드 헬스가 월요일부로 공식적인 운영을 중단했습니다. 이는 추가 자금 조달을 위한 중요한 거래가 최종적으로 무산되면서 내려진 결정으로, 엔드포인트 뉴스(Endpoints News)를 통해 보도되었습니다. 인바운드 헬스의 폐업은 최근 헬스 테크 분야에서 잇따르고 있는 스타트업들의 도산 사례에 또 하나를 추가하게 되었습니다. 한때 이 분야에 적극적으로 투자했던 투자자들이 현재는 신중한 태도를 보이면서, 투자 환경이 급격히 변화하고 있음을 보여줍니다. 이러한 추세는 단순히 개별 기업의 문제가 아닌, 헬스 테크 산업 전반에 걸친 투자 심리 위축과 시장 재편의 신호탄으로 해석될 수 있습니다."
+    },
+    {
+      "title_en": "FDA names Tracy Beth Høeg, who helped lead Covid-shot investigation, to head CDER",
+      "url": "https://endpoints.news/fda-to-name-tracy-beth-hoeg-who-led-covid-shot-investigation-to-head-cder/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 코로나 백신 조사 이끌었던 트레이시 베스 회그를 CDER 국장에 임명",
+      "summary_kr": "미국 식품의약국(FDA)은 최근 트레이시 베스 회그 박사를 기관의 의약품 부문인 의약품 평가 및 연구 센터(CDER)의 임시 국장으로 임명했다고 수요일 늦게 발표했습니다. 회그 박사는 그동안 코로나19 백신에 대해 오랜 기간 회의적인 입장을 표명해 온 인물로 알려져 있습니다. 특히 그녀는 코로나19 백신 관련 조사를 주도하는 데 기여한 바 있으며, 이러한 경력은 이번 인사에 대한 주목도를 높이고 있습니다. CDER은 미국 내 신약 허가 및 기존 의약품의 안전성과 유효성을 관리하는 매우 중요한 역할을 담당하는 기관입니다. 따라서 코로나19 백신에 대한 그녀의 과거 시각과 CDER의 수장으로서의 역할이 향후 FDA의 의약품 정책 방향에 어떤 영향을 미칠지 관심이 집중되고 있습니다. 이번 인사는 보건 정책 및 백신 관련 논의에 새로운 전환점이 될 수 있을 것으로 보입니다."
+    },
+    {
+      "title_en": "Former FDA commissioners slam Prasad's plan for 'sweeping' vaccine changes",
+      "url": "https://endpoints.news/former-fda-commissioners-slam-prasads-plan-for-sweeping-vaccine-changes/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "전직 FDA 국장들, 프라사드 '대대적' 백신 규제 변경 계획 맹비난",
+      "summary_kr": "전직 미국 식품의약국(FDA) 국장들이 바이오의약품 및 백신 책임자인 비나이 프라사드(Vinay Prasad)의 대대적인 백신 규제 개편 계획에 대해 강력히 비판했습니다. 도널드 트럼프 전 대통령 임명자를 포함한 12명의 전직 국장들은 프라사드의 계획이 FDA의 백신 관리 방식에 근본적인 변화를 가져올 것이라고 우려를 표했습니다. 이들은 저명한 의학 저널인 뉴잉글랜드 저널 오브 메디신(New England Journal of Medicine)을 통해 발표된 성명에서 프라사드의 제안이 공중 보건에 미칠 잠재적 위험성을 경고하며 맹렬한 비난을 퍼부었습니다. 특히, 백신 승인 절차, 안전성 모니터링, 그리고 광범위한 배포 전략에 있어 현재의 견고한 시스템을 유지하는 것의 중요성을 강조했습니다. 전직 고위 관계자들의 이러한 집단적인 반발은 백신 정책의 안정성과 과학적 근거의 중요성에 대한 광범위한 논의를 불러일으킬 것으로 예상됩니다. 이는 규제 기관의 독립성과 전문성에 대한 신뢰를 재확인하는 계기가 될 것이라는 분석도 나오고 있습니다."
+    },
+    {
+      "title_en": "FDA seeks to raise user fees for companies running Phase 1 trials outside the US",
+      "url": "https://endpoints.news/fda-seeks-to-raise-user-fees-for-companies-running-phase-1-trials-outside-the-us/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 해외 임상 1상 수행 기업에 사용자 수수료 인상 추진",
+      "summary_kr": "미국 식품의약국(FDA)은 자국 내 신약 개발을 장려하기 위한 새로운 정책을 추진 중입니다. FDA가 최근 공개한 회의록에 따르면, 이는 해외에서 임상 1상 시험을 진행하는 제약사들에게 추가적인 사용자 수수료를 부과하는 방안을 포함하고 있습니다. 이러한 조치는 해외 임상 시험의 비용적 이점을 줄여 미국 내 임상 시험의 경쟁력을 높이고자 하는 의도로 해석됩니다. 궁극적으로 FDA는 미국 내 의약품 연구 및 개발 투자를 유도하여 혁신적인 치료제 개발 생태계를 강화하고, 관련 일자리 창출에도 기여하기를 기대하고 있습니다. 따라서 향후 미국 외 지역에서 임상 1상을 수행하려는 제약사들은 변경된 수수료 정책에 따라 추가적인 재정적 부담을 감수해야 할 것으로 예상됩니다. 이는 전 세계 제약 바이오 산업의 임상 전략에도 영향을 미칠 중요한 변화로 주목받고 있습니다."
+    },
+    {
+      "title_en": "FDA says it won't release details of claimed Covid vaccine deaths in 'near term'",
+      "url": "https://endpoints.news/fda-says-it-wont-release-details-of-claimed-covid-vaccine-deaths-in-near-term/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 코로나19 백신 사망 주장 세부 정보 '근시일 내 비공개' 발표",
+      "summary_kr": "미국 식품의약국(FDA)은 최근 엔드포인트 뉴스(Endpoints News)와의 인터뷰에서 코로나19 백신 접종과 관련하여 제기된 아동 사망 주장에 대한 조사 결과가 가까운 시일 내에 공개되지 않을 것이라고 발표했다. 특히, CBER(생물의약품평가연구센터)의 비나이 프라사드(Vinay Prasad) 소장이 직접 조사를 진행 중인 것으로 알려진 10건의 아동 사망 주장 사례에 대한 구체적인 정보가 해당된다. 이 사망 사례들은 코로나19 백신 접종과의 연관성 의혹이 제기되면서 대중의 이목을 끌었으며, FDA는 이에 대한 진상 규명을 위해 조사를 시작한 바 있다. FDA 대변인 케일럽 미쇼(Caleb Michaud)는 해당 매체를 통해 \"가까운 시일 내에 이 조사에 대한 구체적인 내용을 발표할 계획은 없다\"고 밝히며 정보 공개 연기 입장을 재확인했다. 이러한 FDA의 결정은 코로나19 백신의 안전성에 대한 대중의 우려와 투명성 요구가 높은 상황에서, 정보 접근성 부족에 대한 비판을 불러일으킬 수 있을 것으로 예상된다. 일반적으로 의료 제품 관련 조사는 민감성을 이유로 신중하게 다뤄지지만, 이번 발표는 특히 백신 접종의 신뢰도와 직결되는 사안인 만큼 파장이 예상된다."
+    },
+    {
+      "title_en": "With Phase 3 Duchenne success, Capricor plots path forward after FDA rejection",
+      "url": "https://endpoints.news/with-phase-3-duchenne-success-capricor-plots-path-forward-after-fda-rejection/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "카프리코, 듀센 치료제 3상 성공으로 FDA 승인 거부 딛고 재도전 길 모색",
+      "summary_kr": "카프리코 테라퓨틱스(Capricor Therapeutics)가 듀센 근이영양증 치료를 위한 자사의 세포 치료제가 3상 임상시험에서 주요 평가 변수와 핵심 보조 평가 변수를 모두 성공적으로 충족했다고 발표했습니다. 이 획기적인 성과는 앞서 미국 식품의약국(FDA)의 승인 거부라는 고배를 마셨던 카프리코에게 새로운 희망을 안겨주었습니다. 3상 임상시험에서 도출된 긍정적인 결과는 해당 치료제의 효능과 안전성을 강력하게 뒷받침하며, 이는 향후 FDA와의 재협상 과정에서 중요한 근거가 될 것입니다. 특히, 이번 임상 성공은 희귀 난치병으로 알려진 듀센 근이영양증 환자들에게 새로운 치료 대안을 제시할 가능성을 높이고 있습니다. 카프리코는 이번 3상 성공을 발판 삼아 FDA에 다시 한번 승인 신청을 제출하고, 이전에 지적되었던 문제점들을 보완하여 최종 승인을 획득하는 데 총력을 기울일 것으로 예상됩니다. 이러한 진전은 환자뿐만 아니라 제약 산업 전반에 걸쳐 큰 기대를 모으고 있으며, 성공적인 시장 진출 여부에 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Black Diamond reports mid-stage lung cancer data, continues its hunt for a partner",
+      "url": "https://endpoints.news/black-diamond-reports-mid-stage-lung-cancer-data-continues-its-hunt-for-a-partner/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "블랙 다이아몬드, 폐암 2상 데이터 공개... 상업화를 위한 파트너십 모색 지속",
+      "summary_kr": "블랙 다이아몬드 테라퓨틱스가 자사의 폐암 치료용 EGFR 억제제에 대한 예비 2상 임상 데이터를 발표했습니다. 이번에 공개된 데이터는 폐암 환자를 대상으로 치료제의 잠재적인 효과와 안전성에 대한 중요한 정보를 제공합니다. 그러나 회사는 이 치료제가 허가 임상 단계로 진입하고 궁극적으로 시장에 출시되기 위해서는 전략적인 파트너를 반드시 찾아야 한다고 밝혔습니다. 이는 후기 임상 및 상업화 과정에서 발생하는 막대한 비용과 자원 투입의 부담을 고려한 결정으로 풀이됩니다. 현재 블랙 다이아몬드는 잠재적 파트너들과 활발히 논의하며 공동 개발 및 상업화를 위한 협력 방안을 모색 중인 것으로 알려졌습니다. 이러한 파트너십은 혁신적인 폐암 치료제를 환자들에게 더 빨리 제공하는 데 핵심적인 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Orion's €180M milestone payment; Iolyx partners dry eye candidate",
+      "url": "https://endpoints.news/orions-e180m-milestone-payment-iolyx-partners-dry-eye-candidate/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "오리온, 1억 8천만 유로 마일스톤 수령; 아이올릭스, 안구건조증 후보물질 파트너십 체결",
+      "summary_kr": "최근 제약 바이오 업계의 주요 소식들이 전해진 가운데, 핀란드 제약사 오리온(Orion)이 독일 바이엘(Bayer)로부터 1억 8천만 유로(한화 약 2,670억 원)에 달하는 중요한 마일스톤 지급액을 수령하게 되었습니다. 이 막대한 금액은 바이엘이 개발하고 판매 중인 전립선암 치료제 '누베카(Nubeqa)'의 매출 성과에 기반한 것으로 알려졌습니다. 누베카는 오리온과 바이엘의 협력을 통해 성공적으로 시장에 출시된 제품으로, 이번 마일스톤 지급은 해당 제품의 뛰어난 판매 실적을 방증합니다. 이번 마일스톤 지급은 오리온의 재정 건전성을 크게 강화하고, 향후 신약 개발 및 파이프라인 확장을 위한 중요한 동력으로 작용할 전망입니다. 이를 통해 오리온은 전립선암 치료 분야에서의 지속적인 기여와 함께, 글로벌 제약 시장에서의 입지를 더욱 공고히 할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Pfizer-allied molecular glue startup Triana collects $120M Series B",
+      "url": "https://endpoints.news/pfizer-allied-molecular-glue-startup-triana-collects-120m-series-b/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "화이자 연계 분자 접착제 스타트업 트리아나, 1억 2천만 달러 규모 시리즈 B 투자 유치",
+      "summary_kr": "분자 접착제 기술 개발 스타트업 트리아나 바이오메디슨(Triana Biomedicines)이 최근 1억 2천만 달러(약 1,600억 원) 규모의 시리즈 B 투자를 유치했습니다. 이는 지난 2022년 유치했던 시리즈 A 투자액보다 1천만 달러 증가한 금액으로, 회사의 기술력과 성장 잠재력을 인정받았음을 보여줍니다. 이번 투자금은 트리아나의 핵심 파이프라인이자 선도적인 실험 의약품에 대한 개념 증명(Proof-of-Concept, POC) 데이터를 확보하는 데 주로 사용될 예정입니다. 트리아나는 거대 제약사 화이자(Pfizer)와 협력 관계를 맺고 있는 스타트업으로, 질병 유발 단백질의 상호작용을 유도하여 약효를 발휘하는 '분자 접착제(molecular glue)' 기술을 혁신적으로 연구하고 있습니다. 이 기술은 기존 약물로는 접근하기 어려웠던 표적을 공략할 수 있어 차세대 신약 개발의 유망한 분야로 주목받고 있습니다. 이번 대규모 자금 조달은 트리아나가 선도 약물의 개발을 가속화하고, 난치병 치료를 위한 새로운 분자 접착제 기반 치료제 개발에 중요한 진전을 이룰 발판을 마련할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Excelsior Sciences raises $95M for small molecule drug discovery, manufacturing",
+      "url": "https://endpoints.news/excelsior-sciences-raises-95m-for-small-molecule-drug-discovery-manufacturing/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "엑셀시어 사이언스, 소분자 신약 개발 및 제조 가속화를 위해 9,500만 달러 유치",
+      "summary_kr": "뉴욕에 본사를 둔 스타트업 엑셀시어 사이언스(Excelsior Sciences)가 소분자 신약 개발 및 제조 역량 강화를 목표로 총 9,500만 달러의 대규모 자금을 유치했습니다. 이 회사는 전임상 단계의 소분자 후보 물질이 임상 시험 단계로 더 빠르게 전환될 수 있도록 과정을 가속화하는 데 중점을 두고 있습니다. 특히 이번 자금 유치에는 디어필드(Deerfield)가 주도한 시리즈 A 라운드에서 7,000만 달러가 포함되어 있습니다. 엑셀시어 사이언스는 확보된 자금을 활용하여 소분자 약물 발견 및 제조 플랫폼을 고도화하고, 신약 개발 파이프라인을 확장할 계획입니다. 이러한 투자는 혁신적인 치료법을 환자에게 더 신속하게 제공하는 데 기여하며, 제약 산업의 효율성을 높이는 데 중요한 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Updated: Pharvaris’ hereditary angioedema drug gets Phase 3 win",
+      "url": "https://endpoints.news/pharvaris-hereditary-angioedema-drug-gets-phase-3-win/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "업데이트: 파바리스의 유전성 혈관부종 치료제, 3상 임상 성공",
+      "summary_kr": "파바리스(Pharvaris)의 유전성 혈관부종(HAE) 발작 치료를 위한 경구용 치료제가 3상 임상 시험에서 긍정적인 탑라인 데이터를 발표하며 성공적인 결과를 알렸습니다. 수요일에 공개된 데이터에 따르면, 이 치료제는 위약(placebo) 대비 유전성 혈관부종 발작 증상을 현저히 빠르게 완화시키는 것으로 나타났습니다. '듀크릭티반트(deucrictibant)'라는 이름의 이 약물은 필요시 복용하는(on-demand) 경구제라는 점에서 환자들의 편의성을 크게 향상시킬 수 있을 것으로 기대됩니다. 유전성 혈관부종은 예측 불가능한 심한 부종 발작을 특징으로 하는 희귀 질환으로, 환자들의 삶의 질에 큰 영향을 미칩니다. 이번 3상 성공은 심각한 통증과 부종을 동반하는 유전성 혈관부종 환자들에게 새로운 치료 옵션을 제공할 잠재력을 가지고 있습니다. 이는 해당 분야의 미충족 의료 수요를 해소하고 환자들의 고통을 경감하는 데 중요한 진전이 될 것으로 평가됩니다."
+    },
+    {
+      "title_en": "Cosmo Pharmaceuticals’ shares rise after Phase 3 win in male pattern hair loss",
+      "url": "https://endpoints.news/cosmo-pharmaceuticals-shares-rise-after-phase-3-win-in-male-pattern-hair-loss/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "코스모 파마슈티컬스, 남성형 탈모 치료제 3상 성공으로 주가 급등",
+      "summary_kr": "코스모 파마슈티컬스(Cosmo Pharmaceuticals)의 주가가 수요일 오전 스위스 증시에서 18% 급등했습니다. 이는 남성형 탈모증(androgenetic alopecia) 치료를 위한 자사 약물 후보물질의 긍정적인 후기 단계(3상) 임상시험 결과가 발표된 직후 나타난 현상입니다. 아일랜드 더블린에 본사를 둔 이 생명공학 기업은 이번 3상 임상시험에서 유의미한 성공을 거두며 시장의 큰 기대를 받고 있습니다. 남성형 탈모는 전 세계적으로 많은 남성들이 겪는 흔한 질환으로, 효과적인 치료제 개발에 대한 높은 수요가 존재합니다. 코스모 파마슈티컬스는 이번 성공적인 3상 결과를 바탕으로 미국 규제 당국에 품목 허가를 신청할 계획이라고 밝혔습니다. 이는 탈모 치료 시장에 새로운 지평을 열 잠재력을 지니며, 회사의 향후 성장 동력에도 긍정적인 영향을 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "After finding ‘irregularities,’ Bristol Myers to extend key trial of Cobenfy in Alzheimer’s psychosis",
+      "url": "https://www.biopharmadive.com/news/bristol-myers-cobenfy-alzheimers-psychosis-adept-2-trial-update-timeline/806917/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "브리스톨 마이어스, '이상 징후' 발견에 따라 알츠하이머 정신병 치료제 코벤피의 주요 임상시험 연장 결정",
+      "summary_kr": "브리스톨 마이어스가 알츠하이머 정신병 치료제 후보 물질 '코벤피(Cobenfy)'의 핵심 임상시험에서 '이상 징후'를 발견했다고 발표하며, 해당 연구의 기간을 연장하기로 결정했습니다. 이는 'ADEPT-2'로 명명된 이 연구의 데이터 공개가 상당 기간 지연될 것임을 의미합니다. 당초 업계 애널리스트들은 이르면 올해 말 안에 'ADEPT-2' 연구 결과를 받아볼 수 있을 것으로 기대했으나, 이제는 2026년이 되어서야 데이터가 나올 것으로 예상됩니다. 이러한 예기치 못한 지연은 브리스톨 마이어스의 코벤피 개발 일정에 상당한 차질을 초래할 것으로 보입니다. 특히, 알츠하이머 정신병 환자들에게 새로운 치료 대안을 제시할 수 있을 것이라는 기대를 모았던 코벤피의 상용화에도 영향을 미칠 수 있어, 시장과 환자들의 관심이 집중되고 있습니다. 이번 임상시험 연장 결정의 구체적인 '이상 징후' 내용과 향후 브리스톨 마이어스의 대응이 주목됩니다."
+    },
+    {
+      "title_en": "Capricor soars on positive results for Duchenne cell therapy",
+      "url": "https://www.biopharmadive.com/news/capricor-duchenne-cell-therapy-trial-results-stock-shares/806931/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "뒤센 세포 치료 긍정적 결과에 카프리코 주가 급등",
+      "summary_kr": "세포 치료제 개발 기업 카프리코(Capricor)가 뒤센 근이영양증과 관련된 세포 치료제 임상에서 긍정적인 결과를 발표하며 시장의 큰 주목을 받고 있습니다. 이번 발표로 인해 회사의 주가는 무려 4배 가까이 폭등하는 등 투자자들의 열광적인 반응을 이끌어냈습니다. 이는 과거 미국 식품의약국(FDA)으로부터 한 차례 승인을 거부당했던 해당 치료제가 재승인을 향한 강력한 발판을 마련했음을 시사합니다. 특히 이 치료제는 뒤센 근이영양증 환자들이 겪는 치명적인 심장 관련 합병증을 직접적으로 표적으로 하고 있습니다. 만약 이 치료제가 성공적으로 시장에 출시된다면, 이는 뒤센 근이영양증으로 인한 심장 합병증에 대한 최초의 치료법이 될 수 있을 것으로 기대됩니다. 이에 따라 많은 환자와 가족들, 그리고 의료계의 이목이 카프리코의 향후 행보와 FDA의 결정에 집중되고 있습니다."
+    },
+    {
+      "title_en": "Pharvaris’ pill succeeds in late-stage trial for rare swelling disorder",
+      "url": "https://www.biopharmadive.com/news/pharvaris-pill-succeeds-in-late-stage-trial-for-rare-swelling-disorder/806890/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "파바리스 경구제, 희귀 부종 질환 3상 임상서 성공적 결과 발표",
+      "summary_kr": "네덜란드 생명공학 기업 파바리스(Pharvaris)가 개발한 경구 치료제가 희귀 부종 질환인 유전성 혈관부종(HAE)에 대한 후기 임상 3상 시험에서 성공적인 결과를 발표했습니다. 이번 3상 임상 데이터는 해당 약물이 복잡하고 경쟁이 심화되는 유전성 혈관부종 치료제 시장에서 강력한 경쟁력을 확보할 수 있음을 시사합니다. 유전성 혈관부종은 예측 불가능하게 발생하는 심각한 부종 발작을 특징으로 하는 희귀 유전 질환으로, 환자들의 삶의 질에 큰 영향을 미칩니다. 파바리스의 경구용 약물은 주사제 중심의 기존 치료법과 달리 복용 편의성을 제공하여 환자 접근성을 크게 향상시킬 수 있습니다. 현재 유전성 혈관부종 치료제 시장에는 여러 제약사들이 뛰어들어 치열한 경쟁을 벌이고 있는 상황입니다. 파바리스의 이번 임상 성공은 새로운 치료 옵션을 제공함으로써 환자들에게 희망을 주고, 회사 또한 이 복잡한 시장에서 주요 플레이어로 자리매김하는 데 중요한 전환점이 될 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Rondo Therapeutics begins dosing in Phase I/Ib trial for solid tumours",
+      "url": "https://www.clinicaltrialsarena.com/news/rondo-therapeutics-begins-dosing/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "론도 테라퓨틱스, 고형암 대상 1/1b상 임상시험 환자 투약 개시",
+      "summary_kr": "혁신적인 바이오 제약 기업인 론도 테라퓨틱스(Rondo Therapeutics)가 진행성 고형암 환자를 대상으로 하는 1/1b상 임상시험에서 첫 환자 투약을 성공적으로 시작했습니다. 이번 임상시험은 동사의 계열 내 최초(first-in-class) 이중특이성 항체 치료제인 RNDO-564의 안전성과 초기 유효성을 평가하기 위한 중요한 단계입니다. RNDO-564는 면역세포 표면의 CD28과 종양 세포 표면의 Nectin-4를 동시에 표적하도록 정교하게 설계되어, 암 치료에 있어 새로운 접근 방식을 제시합니다. 본 연구는 해당 약물이 고형암 환자들에게 미치는 영향을 탐색하고, 향후 더 큰 규모의 임상시험을 위한 기반을 마련하는 것을 목표로 합니다. 론도 테라퓨틱스는 이번 임상 개시를 통해 미충족 의료 수요가 높은 고형암 분야에 새로운 치료 옵션을 제공할 잠재력을 입증하고, 암 환자들의 삶의 질을 개선하는 데 기여할 수 있기를 기대하고 있습니다. 연구 결과는 앞으로의 개발 방향을 결정하는 데 중요한 역할을 할 것입니다."
+    },
+    {
+      "title_en": "FDA clears VectorY’s PIONEER-ALS Phase I/II trial for ALS",
+      "url": "https://www.clinicaltrialsarena.com/news/fda-vectorys-trial-als/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "FDA, 벡터와이(VectorY)의 ALS 치료제 PIONEER-ALS 1/2상 임상시험 승인",
+      "summary_kr": "벡터와이 테라퓨틱스(VectorY Therapeutics)가 루게릭병(ALS) 치료제 후보물질인 VTx-002에 대한 중요한 임상시험계획(IND) 승인을 미국 식품의약국(FDA)으로부터 획득했습니다. 이번 승인으로 벡터와이는 VTx-002의 PIONEER-ALS 1/2상 임상시험을 개시할 수 있게 되었습니다. PIONEER-ALS 임상시험은 루게릭병 환자를 대상으로 VTx-002의 안전성, 내약성 및 초기 유효성을 평가하는 데 초점을 맞출 예정입니다. 루게릭병은 점차적으로 신경세포가 파괴되어 근육 위축과 마비를 유발하는 치명적인 신경퇴행성 질환으로, 효과적인 치료법 개발이 절실한 분야입니다. 이번 FDA의 IND 승인은 벡터와이가 루게릭병 환자들에게 새로운 치료 옵션을 제공하기 위한 여정에서 중요한 이정표가 될 것입니다. 앞으로 진행될 임상시험을 통해 VTx-002가 루게릭병 치료에 긍정적인 영향을 미칠 수 있을지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Imvax to explore FDA pathway for glioblastoma candidate despite PFS miss",
+      "url": "https://www.clinicaltrialsarena.com/news/imvax-igv-001-glioblastoma-phase-iib-trial-results/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "임백스, 교모세포종 후보 물질 PFS 목표 미달에도 FDA 승인 절차 모색",
+      "summary_kr": "교모세포종 치료제 개발사 임백스(Imvax)가 자사의 후보 물질 IGV-001에 대한 미국 식품의약국(FDA) 승인 절차를 계속 추진할 계획을 밝혔습니다. 최근 진행된 임상시험에서 IGV-001은 무진행 생존 기간(PFS)을 통계적으로 유의미하게 개선하지 못하여 주요 목표 중 하나를 달성하지 못했습니다. 이는 통상적인 신약 승인 과정에서 중요한 지표로 간주됩니다. 하지만 임백스 측은 PFS 데이터의 한계에도 불구하고 전체 생존 기간(OS) 데이터가 긍정적인 결과를 보일 것으로 기대하고 있습니다. 회사 측은 이 OS 데이터를 기반으로 IGV-001이 교모세포종 환자들에게 혁신적인 치료 옵션으로 시장에 진출할 수 있을 것이라고 확신하고 있습니다. 따라서 임백스는 비록 임상시험 결과에서 일부 난관에 봉착했지만, FDA와의 협의를 통해 IGV-001의 시장 출시를 위한 경로를 지속적으로 모색할 방침입니다."
+    },
+    {
+      "title_en": "BMS delays Alzheimer’s readout for Cobenfy over “site irregularities”",
+      "url": "https://www.clinicaltrialsarena.com/news/bms-delays-alzheimers-readout-cobenfy-site-irregularities/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "BMS, '현장 불규칙성'으로 알츠하이머병 치료제 코벤피 임상 결과 발표 연기",
+      "summary_kr": "글로벌 제약사 BMS가 알츠하이머병 관련 정신증 치료제 후보물질인 '코벤피(Cobenfy)'의 임상 데이터 공개 일정을 연기한다고 밝혔다. 이번 발표 지연의 주된 원인은 임상 현장에서 발견된 '불규칙성' 문제 때문인 것으로 전해졌다. 코벤피는 현재 알츠하이머병과 연관된 정신증 증상을 완화하기 위해 4건의 3상 임상시험이 활발히 진행 중이다. 임상 현장의 불규칙성은 데이터의 신뢰성이나 시험 진행 과정의 적절성에 대한 우려를 제기할 수 있어 심도 깊은 검토가 필요하다. 이러한 임상 결과 발표의 연기는 신약 개발 과정에서 드물지 않게 발생하지만, 코벤피의 상용화 일정에 잠재적인 영향을 미칠 수 있다. 동시에 알츠하이머병 관련 정신증으로 고통받는 환자와 가족들에게는 새로운 치료제에 대한 기대와 기다림을 더욱 길게 만드는 요인이 될 것으로 보인다."
+    },
+    {
+      "title_en": "Richard Padzur to leave FDA following recent CDER leadership shift",
+      "url": "https://www.clinicaltrialsarena.com/news/richard-padzur-fda-cder-head-retirement/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "리처드 파두르, 최근 CDER 지도부 개편 이후 FDA 사임 예정",
+      "summary_kr": "리처드 파두르(Richard Padzur) 박사가 미국 식품의약국(FDA)을 떠날 것으로 예상됩니다. 이 소식은 최근 의약품 평가 연구 센터(CDER)의 지도부 개편 이후에 전해진 것입니다. 만약 파두르 박사가 은퇴한다면, 그는 2025년에 FDA를 떠나는 여러 고위직 관계자 중 한 명이 될 것입니다. 그의 사임은 FDA, 특히 의약품 평가 및 규제 분야에 중요한 변화를 예고하고 있습니다. 이러한 고위직 인사의 연이은 이탈은 기관의 안정적인 운영과 정책 연속성에 대한 우려를 불러일으킬 수 있습니다. 이번 인사이동이 향후 FDA의 의약품 개발 및 승인 과정에 어떤 영향을 미칠지 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "PolarityBio concludes SkinTE’s Phase III trial for diabetic foot ulcers",
+      "url": "https://www.clinicaltrialsarena.com/news/polaritybio-skintes-trial-diabetic/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "PolarityBio, 당뇨병성 족부궤양 치료를 위한 SkinTE 3상 임상시험 완료",
+      "summary_kr": "바이오 기업 PolarityBio가 자사의 혁신적인 자가유래 이종 피부 구조물 제품인 SkinTE의 주요 3상 임상시험을 성공적으로 마무리했습니다. 이번 임상시험은 'COVER DFUS II'라는 이름으로 진행되었으며, 주로 당뇨병성 족부궤양(DFU) 중 바그너 1 등급(Wagner 1 DFUs) 환자를 대상으로 했습니다. SkinTE는 환자 본인의 피부 세포를 활용하여 복합적인 피부 구조를 재건하는 방식으로, 만성적인 당뇨병성 족부궤양 치료에 새로운 희망을 제시할 것으로 기대됩니다. 3상 임상시험의 성공적인 마무리는 신약 또는 의료기기가 시장에 출시되기 전 필수적인 단계로, 제품의 안전성과 유효성을 최종적으로 검증하는 중요한 의미를 가집니다. 특히 당뇨병성 족부궤양은 심한 경우 절단으로 이어질 수 있는 심각한 합병증으로, 효과적인 치료법의 개발은 많은 환자의 삶의 질 향상에 크게 기여할 수 있습니다. PolarityBio는 이번 임상 결과를 바탕으로 SkinTE가 당뇨병성 족부궤양 환자들에게 혁신적인 치료 옵션을 제공할 수 있을 것이라고 강조했습니다."
+    },
+    {
+      "title_en": "Home makeover helps rats better express themselves: Q&A with Raven Hickson and Peter Kind",
+      "url": "https://www.thetransmitter.org/spectrum/home-makeover-lets-rats-express-themselves-qa-with-raven-hickson-and-peter-kind/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-04",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-rat-flats.png",
+      "title": "쥐들의 행동 표현을 넓히는 새로운 서식지: Raven Hickson, Peter Kind 박사 Q&A",
+      "summary_kr": "쥐 모델의 행동 연구는 그동안 제한적인 실험실 환경으로 인해 실제 환경에서의 다양한 행동을 관찰하기 어렵다는 한계를 가지고 있었습니다. 이러한 문제를 해결하고자 연구자 Raven Hickson과 Peter Kind는 '서식지(Habitat)'라는 새로운 개념의 복합 환경을 개발했습니다. 이 '서식지'는 대규모 사회 집단을 수용할 수 있도록 설계되었으며, 쥐들이 더욱 자연스럽고 풍부한 행동을 발현할 수 있는 공간을 제공합니다. 기존의 표준화된 케이지 환경이 쥐들의 행동 표현을 제약했던 것과 달리, '서식지'는 탐색, 사회적 상호작용, 문제 해결 등 다양한 행동 패턴을 가능하게 합니다. Hickson과 Kind 박사는 이러한 환경 개선이 쥐 모델 연구의 생태학적 타당성을 높이고, 신경과학 및 행동 연구 분야에서 더욱 정확하고 심층적인 데이터를 확보하는 데 기여할 것이라고 강조했습니다. 궁극적으로 이는 동물 모델을 활용한 연구의 질을 향상시키고, 복잡한 뇌 기능 및 행동 장애에 대한 이해를 심화하는 중요한 발판이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "An organoid biobank for neurodevelopmental disorders",
+      "url": "https://www.nature.com/articles/s41593-025-02179-8",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "신경발달 장애 연구를 위한 오가노이드 바이오뱅크 구축",
+      "summary_kr": "이 기사는 신경발달 장애 연구에 획기적인 발전을 가져올 오가노이드 바이오뱅크의 구축에 대해 다룹니다. 오가노이드는 인체 장기의 미세한 3차원 모델로, 특히 뇌 오가노이드는 인간 뇌의 발달 과정과 질병 메커니즘을 보다 정확하게 모사할 수 있는 강력한 도구로 주목받고 있습니다. 이번에 구축된 바이오뱅크는 자폐 스펙트럼 장애, 지적 장애 등 다양한 신경발달 장애 환자 유래 오가노이드를 수집하고 표준화하여 연구자들에게 제공함으로써, 질병의 복잡한 원인을 심층적으로 규명하는 데 기여할 것입니다. 이는 기존의 2D 세포 배양이나 동물 모델로는 파악하기 어려웠던 인간 특이적인 발달 이상과 약물 반응을 평가하는 데 필수적인 자원이 될 것입니다. 궁극적으로 이 오가노이드 바이오뱅크는 신경발달 장애에 대한 이해를 증진시키고, 새로운 치료제 개발 및 개인 맞춤형 의학 연구의 속도를 가속화할 잠재력을 가지고 있습니다. 본 연구 결과는 저명한 학술지 \"Nature Neuroscience\"에 2025년 12월 3일 온라인 게재될 예정으로, 과학계의 큰 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "When protein turns toxic",
+      "url": "https://www.nature.com/articles/s41593-025-02177-w",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "단백질, 독이 될 때: 신경과학의 새로운 통찰",
+      "summary_kr": "단백질은 생체 내에서 생명 유지에 필수적인 다양한 기능을 수행하지만, 때로는 치명적인 독성을 띠는 존재로 변모할 수 있습니다. 이러한 독성 단백질은 잘못 접히거나 비정상적으로 응집하여 세포에 해로운 영향을 미치며, 특히 신경계 질환 발병의 주요 원인으로 지목되고 있습니다. 이번 연구는 단백질이 정상적인 기능을 상실하고 독성 물질로 전환되는 복잡한 메커니즘을 심층적으로 탐구합니다. 연구진은 이러한 전환 과정이 신경세포에 미치는 영향을 규명하고, 관련 질병의 진행 과정을 이해하는 데 중요한 단서를 제공합니다. 이 발견은 알츠하이머병이나 파킨슨병과 같은 신경퇴행성 질환의 새로운 치료법 개발에 핵심적인 과학적 기반을 마련할 것으로 기대됩니다. 네이처 뉴로사이언스에 발표된 이 연구는 독성 단백질 관련 질환에 대한 인류의 이해를 한 단계 진전시키는 중요한 전환점이 될 것입니다."
+    },
+    {
+      "title_en": "Tirzepatide affects NAc activity and food preoccupation",
+      "url": "https://www.nature.com/articles/s41593-025-02180-1",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "티르제파타이드, 뇌 측좌핵(NAc) 활동 및 음식 탐닉에 영향 미쳐",
+      "summary_kr": "네이처 뉴로사이언스(Nature Neuroscience)에 최근 게재된 연구에 따르면, 차세대 비만 및 제2형 당뇨병 치료제로 주목받는 티르제파타이드(Tirzepatide)가 뇌의 핵심 보상 회로인 측좌핵(Nucleus Accumbens, NAc)의 활동에 직접적인 영향을 미치는 것으로 밝혀졌습니다. 이 중요한 발견은 티르제파타이드가 단순히 신체 대사를 조절하는 것을 넘어, 음식에 대한 과도한 갈망과 집착을 제어하는 신경학적 메커니즘을 가지고 있음을 시사합니다. 측좌핵은 보상, 동기 부여, 그리고 즐거움과 관련된 행동에 필수적인 역할을 하는 뇌 영역으로, 특히 음식 섭취와 같은 쾌락 추구 행동에 깊이 관여합니다. 연구 결과는 티르제파타이드가 이 부위의 신경 활동을 조절함으로써, 과식 경향이나 특정 음식에 대한 강박적인 욕구를 효과적으로 감소시킬 수 있음을 보여줍니다. 이는 티르제파타이드의 체중 감량 및 혈당 조절 효과가 단순히 식욕 억제를 넘어선, 뇌의 보상 시스템에 대한 직접적인 조절을 통해 이루어질 수 있음을 의미합니다. 궁극적으로 이번 연구는 비만 및 섭식 장애 치료 전략을 개선하고, 음식 중독과 같은 복합적인 행동 문제를 이해하는 데 있어 새로운 통찰력을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Recurrence has it covered",
+      "url": "https://www.nature.com/articles/s41593-025-02178-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "반복성, 그 해답을 품다",
+      "summary_kr": "네이처 뉴로사이언스(Nature Neuroscience)에 온라인으로 게재된 이 연구는 'Recurrence has it covered'라는 매혹적인 제목으로 신경과학 분야에 새로운 지평을 열었습니다. 이 제목은 특정 현상이나 난제에 대한 포괄적인 이해와 해답이 '반복성'이라는 개념 안에 내재되어 있음을 강력히 시사합니다. 신경과학에서 '반복성'은 뇌 활동의 주기적인 패턴, 신경회로의 회귀적 연결, 혹은 질병의 재발 메커니즘 등 다양한 맥락에서 중요한 의미를 가집니다. 본 논문은 이러한 반복성이 뇌의 복잡한 기능이나 특정 신경학적 과정에 대한 핵심적인 설명을 제공하며, 기존의 과학적 의문을 해소할 새로운 통찰력을 제시할 것으로 보입니다. 연구는 반복성의 숨겨진 메커니즘을 밝히고, 이것이 학습, 기억, 또는 인지 기능을 포함한 뇌의 다양한 기능에 어떻게 깊이 관여하는지 심도 있게 탐구할 것으로 예상됩니다. 이러한 획기적인 발견은 신경계 질환의 이해를 심화하고 미래의 진단 및 치료 전략 개발에 결정적인 기여를 할 것으로 크게 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "Enhancing peer review at <i>Nature Neuroscience</i>",
+      "url": "https://www.nature.com/articles/s41593-025-02181-0",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "네이처 뉴로사이언스, 동료 심사 강화 방안 도입",
+      "summary_kr": "학술지 '네이처 뉴로사이언스(Nature Neuroscience)'가 동료 심사의 질, 투명성, 포괄성을 증진하기 위한 두 가지 주요 이니셔티브를 도입했습니다. 이 새로운 정책들은 학술 출판의 핵심 과정인 동료 심사 제도를 혁신하려는 노력의 일환입니다. 첫 번째 방안은 동료 심사 보고서와 이에 대한 저자의 답변을 공개적으로 출판할 수 있도록 하는 것입니다. 이는 심사 과정의 투명성을 획기적으로 높이고, 학술 공동체 내에서 피드백 문화를 활성화하는 데 기여할 것으로 기대됩니다. 두 번째 방안은 초기 경력 연구자들의 동료 심사 참여를 적극적으로 장려하고 촉진하는 것입니다. 이를 통해 젊은 연구자들이 귀중한 심사 경험을 쌓고 학술 생태계에 더 폭넓게 기여할 수 있는 기회를 제공하며, 심사 인력의 다양성과 포괄성을 확대할 것으로 예상됩니다. 이러한 중요한 변화는 2025년 12월 3일 온라인을 통해 발표되었으며, 동료 심사의 미래를 위한 의미 있는 진전으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "Reliable forecasts of heat-health emergencies at least one week in advance",
+      "url": "https://www.nature.com/articles/s41591-025-04123-6",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "폭염 건강 비상사태, 최소 일주일 전부터 신뢰성 있는 예측 가능",
+      "summary_kr": "유럽은 2022년부터 2024년까지 세 번의 기록적인 폭염으로 인해 181,000명 이상의 열 관련 사망자를 기록했습니다. 특히 2024년 한 해에만 62,775명이 사망하며 폭염이 인명에 미치는 심각한 영향이 여실히 드러났습니다. 이러한 치명적인 위협에 효과적으로 대응하기 위해, 차세대 영향 기반 조기 경보 시스템에 대한 평가가 이루어졌습니다. 연구 결과, 이 시스템은 폭염으로 인한 건강 비상사태를 최소 일주일 전부터 매우 신뢰성 있게 예측할 수 있음이 확인되었습니다. 이는 폭염에 취약한 인구 집단에게 맞춤형 정보를 미리 제공하여 피해를 최소화하고 생명을 보호하는 데 결정적인 역할을 할 수 있음을 시사합니다. 본 연구는 <네이처 메디슨(Nature Medicine)>에 2025년 12월 3일 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Stimulating medicines repurposing in the EU: a pilot project",
+      "url": "https://www.nature.com/articles/d41573-025-00198-5",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "유럽연합(EU)의 약물 재창출 촉진: 시범 프로젝트",
+      "summary_kr": "이 기사는 유럽연합(EU) 내에서 약물 재창출(drug repurposing)을 활성화하기 위한 시범 프로젝트에 대해 심층적으로 다룹니다. 약물 재창출은 이미 승인된 약물이나 개발이 중단된 약물의 새로운 치료 용도를 탐색하는 과정으로, 신약 개발에 소요되는 막대한 시간과 비용을 크게 절감할 수 있는 매우 효율적인 전략으로 각광받고 있습니다. EU는 이러한 약물 재창출의 잠재력을 인식하고, 아직 충족되지 않은 의료 수요를 해결하며 환자들에게 혁신적인 치료법을 더 신속하게 제공하고자 이 분야에 대한 지원을 강화하려 합니다. 본 시범 프로젝트는 약물 재창출 과정에서 마주할 수 있는 규제적, 재정적, 과학적 장벽들을 면밀히 식별하고, 이를 효과적으로 해결하기 위한 구체적이고 실용적인 방안들을 모색할 것으로 기대됩니다. 궁극적으로 EU는 이 프로젝트를 통해 약물 재창출 연구 및 개발 생태계를 더욱 공고히 하고, 더 많은 재창출 약물이 실제 환자들에게 도달할 수 있는 견고한 제도적 기반을 마련하는 것을 목표로 하고 있습니다. 본 기사는 '네이처 리뷰스 약물 발견(Nature Reviews Drug Discovery)'에 2025년 12월 3일 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Pedro Cuatrecasas (1936–2025)",
+      "url": "https://www.nature.com/articles/s41587-025-02960-x",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "페드로 쿠아트레카사스 (1936–2025)",
+      "summary_kr": "생명공학 분야의 선구적인 인물인 페드로 쿠아트레카사스 박사(1936–2025)를 기리는 기사가 네이처 바이오테크놀로지(Nature Biotechnology)에 온라인으로 게재되었습니다. 이 추모 기사는 2025년 12월 3일에 발행되었으며, 고인의 삶과 과학적 유산을 깊이 있게 다루고 있습니다. 쿠아트레카사스 박사는 생명공학 연구와 발전에 지대한 공헌을 한 것으로 알려져 있으며, 특히 특정 질병의 치료법 개발과 새로운 의약품 발견에 중요한 역할을 수행했습니다. 그의 탁월한 연구는 학계와 산업계 모두에 걸쳐 광범위한 영향을 미쳤으며, 수많은 후학들에게 영감을 주고 혁신적인 방향을 제시했습니다. 이번 기사는 박사의 과학적 업적뿐만 아니라, 그가 남긴 정신적 유산과 동료 및 제자들에게 기억될 그의 리더십과 인품에 대한 통찰을 제공할 것으로 기대됩니다. 페드로 쿠아트레카사스 박사의 생애와 과학계에 대한 기여를 되새기는 이 글은 독자들에게 그의 지속적인 영향력을 다시 한번 각인시키는 계기가 될 것입니다."
+    },
+    {
+      "title_en": "Standardized metrics for assessment and reproducibility of imaging-based spatial transcriptomics datasets",
+      "url": "https://www.nature.com/articles/s41587-025-02811-9",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "이미징 기반 공간 전사체 데이터셋: 평가 및 재현성 확보를 위한 표준 측정 지표",
+      "summary_kr": "최근 네이처 바이오테크놀로지(Nature Biotechnology)에 게재된 한 연구 논문이 공간 전사체 분석 분야에 중요한 이정표를 제시했습니다. 이 연구는 다양한 기관과 플랫폼이 참여한 대규모 협력 이니셔티브의 결과물로, 특히 이미징 기반 공간 전사체 데이터셋의 평가와 재현성을 향상시키기 위한 표준화된 측정 지표를 개발하는 데 초점을 맞췄습니다. 공간 전사체 기술은 세포의 위치 정보를 유지한 채 유전자 발현 패턴을 분석하여 생물학적 이해를 심화하는 데 기여하지만, 데이터의 복잡성으로 인해 분석의 일관성과 신뢰도 확보가 중요한 과제로 남아 있었습니다. 이번 연구를 통해 제시된 표준 지표와 모범 사례는 연구자들이 공간 전사체 데이터를 보다 객관적이고 일관성 있게 평가하고, 실험 결과를 성공적으로 재현하는 데 필수적인 기반을 제공할 것입니다. 이는 궁극적으로 공간 전사체 연구의 신뢰도를 높이고, 이 분야의 발전을 가속화하는 데 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Mapping single-cell diploid chromatin fiber architectures using DAF-seq",
+      "url": "https://www.nature.com/articles/s41587-025-02914-3",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "DAF-seq를 이용한 단일 세포 이배체 염색질 섬유 구조 규명",
+      "summary_kr": "이 연구는 Nature Biotechnology에 게재된 최신 논문으로, 단일 세포 수준에서 염색질 섬유의 구조를 정밀하게 분석하는 새로운 접근법을 제시합니다. 특히 'DAF-seq'이라는 단일 분자 염색질 섬유 시퀀싱 기술을 활용하여 기존 방법으로는 파악하기 어려웠던 염색질 구조의 복잡성을 규명합니다. 이 기술의 핵심은 개별 세포 내에서 이배체 염색질 섬유의 건축학적 구조를 직접적으로 매핑할 수 있다는 점입니다. 이를 통해 연구진은 개별적인 유전자 조절 요소 내에서 염색질 구조가 세포마다 매우 이질적이라는 사실을 밝혀냈습니다. 이러한 단일 세포 수준의 이질성 분석은 세포의 기능적 다양성과 유전자 발현 조절 메커니즘에 대한 이해를 한층 심화시킬 것입니다. 궁극적으로 이 연구는 다양한 생물학적 과정과 질병의 발생 원인을 밝히는 데 있어 중요한 기초 자료를 제공하며, 차세대 염색질 연구에 새로운 지평을 열 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Trial of Pegcetacoplan in C3 Glomerulopathy and Immune-Complex MPGN",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2501510?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "C3 사구체병증 및 면역복합체 막증식성 사구체신염(MPGN) 환자를 위한 펙세타코플란 임상 시험",
+      "summary_kr": "이 기사는 세계적인 의학 저널인 『뉴잉글랜드 의학 저널(New England Journal of Medicine)』의 2025년 12월 4일자, 393권 22호, 2210-2220페이지에 게재된 중요한 임상 연구 결과를 다루고 있습니다. 본 연구는 C3 사구체병증(C3 Glomerulopathy)과 면역복합체 막증식성 사구체신염(Immune-Complex MPGN)이라는 두 가지 심각한 신장 질환을 대상으로 펙세타코플란(Pegcetacoplan)의 치료 효과와 안전성을 평가했습니다. 펙세타코플란은 보체계 활성을 조절하여 염증과 조직 손상을 줄이는 기전을 가진 약물로, 기존 치료법으로는 한계가 있었던 환자들에게 새로운 희망을 제시할 수 있습니다. 이번 임상 시험은 이 희귀 신장 질환들의 진행을 늦추고 환자들의 삶의 질을 개선할 수 있는 잠재력을 확인하는 데 중점을 두었습니다. 연구 결과는 해당 질환의 치료 패러다임을 변화시킬 중요한 근거를 제공하며, 향후 환자 관리 전략 수립에 핵심적인 역할을 할 것으로 기대됩니다. 상세한 임상 데이터와 분석은 원문을 통해 확인할 수 있습니다."
+    },
+    {
+      "title_en": "Idiopathic Normal-Pressure Hydrocephalus",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2306506?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "특발성 정상압 수두증",
+      "summary_kr": "특발성 정상압 수두증(iNPH)은 주로 노년층에서 발생하는 신경학적 질환으로, 보행 장애, 요실금, 인지 기능 저하의 삼대 증상을 특징으로 합니다. 뇌척수액이 뇌실에 비정상적으로 축적되지만 뇌압은 정상 수준을 유지하는 독특한 양상을 보이며, 원인을 알 수 없다는 점에서 진단과 치료에 어려움이 있습니다. 알츠하이머병이나 파킨슨병과 같은 다른 신경퇴행성 질환으로 오진되는 경우가 많지만, 적절한 치료 시 증상 개선을 기대할 수 있는 가역적인 치매의 주요 원인 중 하나로 손꼽힙니다. 뉴 잉글랜드 의학 저널(New England Journal of Medicine) 393권 22호에 실린 이 논문은 iNPH의 진단 기준, 병태생리, 그리고 최신 치료 전략에 대한 심도 깊은 통찰을 제공할 것으로 기대됩니다. 특히, 환자들의 삶의 질을 향상시킬 수 있는 효과적인 개입 방법을 모색하고, 정확한 진단을 통해 불필요한 고통을 줄이는 데 중요한 기여를 할 것으로 전망됩니다. 2025년 12월 4일에 발행될 이번 연구는 특발성 정상압 수두증에 대한 이해를 한층 높이고, 향후 이 질환을 앓는 수많은 환자들에게 새로운 희망을 제시할 중요한 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "Once-Monthly Maridebart Cafraglutide in Obesity — A Phase 2 Trial",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2514331?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "월 1회 마리데바트 카프라글루타이드의 비만 치료 효과 — 2상 임상시험",
+      "summary_kr": "최근 뉴 잉글랜드 의학 저널(New England Journal of Medicine)에 게재된 연구는 비만 치료의 새로운 지평을 열 잠재력을 가진 '마리데바트 카프라글루타이드'에 대한 2상 임상시험 결과를 발표했습니다. 이 연구는 '월 1회 투여' 방식의 혁신적인 비만 치료제로 개발 중인 마리데바트 카프라글루타이드의 유효성과 안전성을 평가하는 데 초점을 맞췄습니다. 2상 임상시험은 주로 약물의 최적 용량을 탐색하고 초기 단계에서의 치료 효과와 부작용 발생 여부를 면밀히 관찰하여, 향후 대규모 3상 임상시험 진행 여부를 결정하는 중요한 단계입니다. 이번 연구 결과는 마리데바트 카프라글루타이드가 비만 환자들의 체중 감량에 유의미한 효과를 보였으며, 월 1회 투여라는 편리성 측면에서도 긍정적인 가능성을 제시했을 것으로 예상됩니다. 초기 안전성 프로파일 또한 관리 가능한 수준으로 나타나, 비만 치료 분야에서 새로운 치료 옵션으로서의 기대를 모으고 있습니다. 자세한 연구 내용은 2025년 12월 4일 발행된 뉴 잉글랜드 의학 저널 393권 22호, 2274-2275페이지에서 확인할 수 있습니다."
+    },
+    {
+      "title_en": "Orforglipron, an Oral GLP-1 Receptor Agonist, in Early Type 2 Diabetes",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515117?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "초기 2형 당뇨병 환자에서의 경구용 GLP-1 수용체 작용제, 오포글리프론",
+      "summary_kr": "권위 있는 '뉴잉글랜드 의학 저널'(New England Journal of Medicine)에 실린 최신 연구는 초기 2형 당뇨병 환자들을 위한 혁신적인 경구용 GLP-1 수용체 작용제 '오포글리프론'의 잠재력을 조명합니다. 기존의 GLP-1 수용체 작용제가 대부분 주사제 형태였던 것에 비해, 오포글리프론은 경구 복용이 가능하여 환자들의 편의성을 크게 증진시키고 치료 순응도를 높일 것으로 기대됩니다. GLP-1 수용체 작용제는 혈당 조절 개선, 체중 감소, 그리고 심혈관 질환 위험 감소 등 다방면에서 2형 당뇨병 관리에 중요한 이점을 제공해왔습니다. 특히 이 연구는 질병 초기에 있는 환자들에게 오포글리프론이 혈당 수치를 효과적으로 관리하고 질병의 진행을 늦추는 데 어떤 긍정적인 역할을 할 수 있는지를 집중적으로 탐구했습니다. 이번 연구 결과는 오포글리프론의 임상적 효능과 안전성 프로필을 상세히 제시하며, 초기 2형 당뇨병 환자를 위한 새로운 치료 패러다임을 제시할 것으로 전망됩니다. 이 약물이 당뇨병 치료 시장에 성공적으로 도입된다면, 수많은 환자들의 삶의 질을 향상시키고 질병 관리에 있어 새로운 희망을 안겨줄 수 있을 것입니다."
+    },
+    {
+      "title_en": "Measurable Residual Disease–Guided Therapy for Chronic Lymphocytic Leukemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515262?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "만성 림프구성 백혈병(CLL)에 대한 측정 가능한 잔존 질환(MRD) 기반 치료",
+      "summary_kr": "이 기사는 세계적으로 권위 있는 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)' 2025년 12월 4일자 393권 22호에 게재될 예정인 최신 연구를 다룹니다. 주요 내용은 만성 림프구성 백혈병(CLL) 환자를 위한 '측정 가능한 잔존 질환(MRD) 기반 치료법'에 대한 것입니다. MRD는 표준 검사로는 감지하기 어려운 소수의 암세포를 고감도 분자학적 또는 유세포 분석법을 통해 찾아내는 것을 의미하며, 이는 치료 후 남아있는 암세포의 양을 정량적으로 평가하는 중요한 지표입니다. 이 치료 전략은 환자의 MRD 상태에 따라 맞춤형 치료 방향을 결정함으로써, 불필요한 약물 노출을 줄이고 독성을 최소화하며, 동시에 최적의 치료 효과를 도모하는 것을 목표로 합니다. 특히, MRD 음성 환자에서는 치료 중단을 고려하거나 치료 강도를 낮춰 삶의 질을 향상시키고, MRD 양성 환자에서는 재발 위험을 낮추기 위한 추가적인 치료를 고려할 수 있습니다. 이번 연구는 CLL 치료 패러다임에 중대한 변화를 가져올 잠재력을 가지며, 정밀 의학의 발전에 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Stability of Avian Influenza A(H5N1) Virus in Milk from Infected Cows and Virus-Spiked Milk",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2502494?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "감염된 젖소의 우유 및 바이러스 첨가 우유 내 조류 인플루엔자 A(H5N1) 바이러스의 안정성",
+      "summary_kr": "이 연구는 감염된 젖소에서 나온 우유와 실험적으로 바이러스가 첨가된 우유 내에서 조류 인플루엔자 A(H5N1) 바이러스의 안정성을 심층적으로 평가합니다. 최근 몇몇 지역에서 젖소에서 H5N1 바이러스 감염 사례가 보고되면서, 우유 및 유제품을 통한 바이러스 전파 가능성에 대한 공중 보건 우려가 증대되고 있습니다. 본 연구는 다양한 보관 조건 및 처리 과정, 예를 들어 저온 살균 전후에 H5N1 바이러스가 우유 내에서 얼마나 오랫동안 생존하고 감염력을 유지하는지를 과학적으로 규명하는 데 중점을 둡니다. 이 연구 결과는 우유 소비와 관련된 잠재적 위험을 정확하게 평가하고, 소비자를 보호하기 위한 효과적인 식품 안전 지침 및 정책을 수립하는 데 매우 중요한 과학적 근거를 제공할 것입니다. 특히 우유를 통한 인체 감염 가능성을 최소화하고, 관련 산업의 신뢰도를 높이는 데 핵심적인 기여를 할 것으로 기대됩니다. 이 권위 있는 연구는 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)' 2025년 12월호에 게재될 예정으로, 최신 과학적 발견의 중요성을 부각하고 있습니다."
+    },
+    {
+      "title_en": "Pegcetacoplan for Treatment of C3 Glomerulopathy and Immune-Complex MPGN",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2515157?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "C3 사구체병증 및 면역복합체 MPGN 치료를 위한 페그세타코플란",
+      "summary_kr": "저명한 의학 저널인 뉴잉글랜드 의학 저널(New England Journal of Medicine)에 C3 사구체병증과 면역복합체 막증식성 사구체신염(MPGN) 치료를 위한 새로운 연구 결과가 게재되었습니다. 2025년 12월 4일자 393권 22호에 발표된 이 연구는 희귀하고 심각한 신장 질환인 C3 사구체병증과 면역복합체 MPGN 환자들에게 새로운 치료 접근법을 제시하고 있습니다. 특히, 이 기사에서는 보체 억제제인 페그세타코플란(Pegcetacoplan)이 해당 질환들의 병태생리 경로를 조절하여 질병의 진행을 늦추거나 증상을 완화하는 데 기여할 수 있는 잠재력을 탐구합니다. 현재까지 이 질환들은 효과적인 치료 옵션이 제한적이었으며, 많은 환자들이 신부전으로 이어지는 심각한 예후에 직면해왔습니다. 이번 뉴잉글랜드 의학 저널 게재는 페그세타코플란의 임상적 유효성에 대한 중요한 증거를 제시하며, 환자들의 삶의 질을 향상시킬 새로운 치료 지평을 열 것으로 기대됩니다. 이 연구는 해당 분야의 전문가들과 환자 커뮤니티에 큰 기대를 모으고 있으며, 향후 추가적인 연구와 임상 적용 가능성에 대한 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "Clouded by Smoke",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcps2506055?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "연기가 드리운 그림자",
+      "summary_kr": "세계적인 권위의 '뉴잉글랜드 의학 저널'에 게재될 예정인 '연기가 드리운 그림자' 논문은 대기 중 연기 노출이 인체 건강에 미치는 광범위한 영향을 심층적으로 분석한 연구 결과를 제시합니다. 본 연구는 특히 산불 연기, 산업 연기, 미세먼지 등 다양한 형태의 연기가 호흡기 질환을 넘어 심혈관 질환 및 신경계 문제에 이르기까지 전신에 미치는 악영향을 조명합니다. 연구진은 장기적인 연기 노출이 특히 어린이, 노약자 및 기존 질환자 등 취약 계층의 건강 악화에 결정적인 영향을 미칠 수 있음을 강조하며, 정량적 데이터를 통해 그 심각성을 뒷받침합니다. 이 논문은 전 세계적으로 증가하는 연기 오염으로 인한 공중 보건 위기를 경고하며, 이에 대한 즉각적이고 효과적인 정책적 개입의 필요성을 역설합니다. 이러한 중요한 발견은 연기 노출의 위험성에 대한 인식을 높이고, 건강한 환경 조성을 위한 전 세계적인 노력을 촉구하는 중요한 과학적 근거가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Empyema Necessitans",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2504921?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "농흉 네세시탄스",
+      "summary_kr": "2025년 12월 4일자 뉴잉글랜드 의학 저널(New England Journal of Medicine) 제393권 22호에 실릴 이 기사는 '농흉 네세시탄스'라는 희귀하고 심각한 질환을 다루고 있습니다. 농흉 네세시탄스는 흉막강 내에 고름(농흉)이 차오른 후 흉벽을 뚫고 외부로 돌출되는 형태로, 주로 폐렴이나 결핵 같은 감염의 심각한 합병증으로 발생합니다. 환자는 흉통, 발열, 기침과 함께 흉벽에 만져지는 압통성 종괴를 특징적으로 보이며, 이는 때로는 피부를 통해 고름이 배출될 수도 있습니다. 이 질환은 진단이 늦어지면 생명을 위협할 수 있어 신속한 진단과 치료가 매우 중요합니다. 치료는 주로 고름의 배액, 강력한 항생제 투여, 그리고 필요한 경우 외과적 개입을 포함하며, 이 기사는 현대 의학에서 이 질환의 임상적 특징, 진단 접근법 및 최신 치료 전략에 대한 심층적인 분석을 제공할 것으로 보입니다."
+    },
+    {
+      "title_en": "Simplify or Stratify? The Debate over Medical School Grading Systems",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMclde2506914?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "의과대학 성적 평가 시스템 논쟁: 단순화인가, 계층화인가?",
+      "summary_kr": "이 기사는 의과대학의 성적 평가 시스템을 둘러싼 뜨거운 논쟁을 심층적으로 다룹니다. 현재 많은 의과대학들이 학생들의 학업 성취도를 평가하는 다양한 방식을 채택하고 있으며, 이러한 평가 방식은 예비 의료인의 교육 과정과 미래 진로에 지대한 영향을 미칩니다. 주요 쟁점은 평가 시스템을 '단순화'하여 학생들의 학업 부담을 줄이고 협력을 장려할 것인지, 아니면 '계층화'하여 학업 우수자를 명확히 구분할 것인지에 있습니다. 단순화론자들은 통과/실패(pass/fail) 시스템이 학생들의 스트레스를 경감하고, 점수 경쟁 대신 학습 자체에 집중하게 하여 보다 전인적인 의사 양성에 기여한다고 주장합니다. 반면, 계층화론자들은 세분화된 성적 평가가 학생들에게 명확한 동기를 부여하고, 레지던트 지원 시 병원이 우수한 인재를 선별하는 데 필수적인 정보를 제공한다고 강조합니다. <뉴 잉글랜드 의학 저널(New England Journal of Medicine)> 2025년 12월 4일자에 게재될 예정인 이 논문은 이 중요한 교육 철학적 딜레마에 대한 최신 분석과 함께, 미래 의료 교육의 방향성에 대한 심도 깊은 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Noninferiority of One HPV Vaccine Dose to Two Doses",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506765?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "HPV 백신 1회 접종, 2회 접종 대비 비열등성 입증",
+      "summary_kr": "이 연구는 인유두종 바이러스(HPV) 백신 접종 방식에 대한 중요한 전환점을 제시합니다. 기존에 권고되던 2회 접종과 비교하여, 1회 접종만으로도 유사한 수준의 면역 반응과 예방 효과를 보임을 '비열등성' 원칙에 따라 입증했습니다. 이 획기적인 연구 결과는 세계 최고 권위의 의학 학술지인 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)'의 온라인판(Ahead of Print)을 통해 발표될 예정으로, 그 학술적 신뢰도와 중요성을 뒷받침합니다. 특히 백신 접근성이 낮거나 접종 일정 준수가 어려운 저소득 국가 및 지역에서 HPV 백신 접종률을 획기적으로 높일 수 있는 잠재력을 가집니다. 접종 횟수 감소는 백신 보급 비용을 절감하고 행정적 부담을 줄여, 궁극적으로 전 세계적인 자궁경부암 예방 노력을 가속화하는 데 크게 기여할 것으로 기대됩니다. 이번 연구는 공중 보건 정책에 중대한 영향을 미치며, 더 많은 사람들이 HPV 백신의 보호를 받을 수 있도록 하는 데 핵심적인 역할을 할 것입니다."
+    },
+    {
+      "title_en": "Evidence to Action — Single-Dose HPV Vaccination and Cervical HPV Infection",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2515387?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "HPV 단회 접종과 자궁경부 HPV 감염: 근거 기반 실행 전략 모색",
+      "summary_kr": "이 기사는 세계적으로 권위 있는 의학 저널인 '뉴 잉글랜드 저널 오브 메디신(New England Journal of Medicine)'에 게재될 예정인 최신 연구 결과를 다룹니다. 현재 정식 출판 전 온라인으로 선공개된 이 연구는 HPV(인유두종 바이러스) 백신 단회 접종의 효과에 대한 중요한 실증적 근거를 제시하고 있습니다. 특히 자궁경부암의 주요 원인인 자궁경부 HPV 감염 예방에 단회 접종이 얼마나 효과적인지에 초점을 맞추고 있습니다. 기존의 다회 접종 권고와는 다른 접근법을 제시할 수 있는 이 연구는 전 세계 공중 보건 정책에 상당한 파급 효과를 가져올 것으로 기대됩니다. 저명한 학술지를 통해 발표되는 만큼, 이번 연구 결과는 HPV 백신 접종 전략의 변화를 위한 강력한 과학적 근거를 제공할 것으로 보입니다. 궁극적으로 더 많은 사람들이 자궁경부암으로부터 보호받을 수 있도록 HPV 백신 접종 접근성을 개선하는 데 기여할지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Digital Exhaust or Digital Gold? The Value of AI-Generated Clinical Visit Transcripts",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2514616?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-04",
+      "image_url": null,
+      "title": "AI 생성 진료 기록의 가치: 디지털 폐기물인가, 황금인가?",
+      "summary_kr": "AI 기술의 발전은 임상 진료 현장에도 혁신적인 변화를 가져오고 있으며, 특히 AI가 생성하는 진료 방문 기록은 의료 데이터 활용의 새로운 지평을 열고 있습니다. 그러나 이러한 기록들이 단순한 디지털 찌꺼기로 남을 것인지, 아니면 미래 의료의 핵심 동력이 될 '디지털 황금'으로 활용될 것인지에 대한 근본적인 질문이 제기되고 있습니다. 긍정적인 측면에서, AI 생성 기록은 방대한 양의 임상 데이터를 체계적으로 분석하여 질병 진단 정확도를 높이고, 맞춤형 치료법 개발에 기여하며, 의료 연구의 효율성을 극대화할 잠재력을 지닙니다. 반면, 환자 개인 정보 보호 문제, 데이터의 정확성과 신뢰성 검증, 그리고 의료인의 책임 범위 등 해결해야 할 윤리적, 법적, 기술적 과제 또한 산적해 있습니다. 명망 높은 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재 예정인 본 논의는 이처럼 복합적인 가치와 논란을 심층적으로 다루며, AI 기반 의료 데이터의 미래 방향성을 제시할 것으로 기대됩니다. 궁극적으로 이 기록들을 어떻게 관리하고 활용할지에 대한 사회적 합의와 정교한 정책 수립이 인공지능 시대의 의료 혁신을 성공적으로 이끄는 데 필수적일 것입니다."
+    },
     {
       "title_en": "진짜화폐 vs 가짜화폐 (일론 머스크)",
       "url": "https://www.youtube.com/shorts/ZHs0URTRh_Q",
@@ -1018,6 +2429,16 @@
       "image_url": null,
       "title": "중추신경계 손상 반응성 인핸서 조절 코드, 정밀 세포 상태 표적화의 길 열다",
       "summary_kr": "최근 네이처 뉴로사이언스에 발표된 Zamboni 외 연구진의 논문은 중추신경계(CNS) 손상에 대한 특정 세포 유형의 반응이 인핸서에 의해 어떻게 암호화되는지를 밝혀냈습니다. 본 연구는 손상 후 신경계 세포들이 보이는 고유한 반응 패턴의 근본적인 메커니즘을 탐구했습니다. 연구팀은 다중 오믹스 프로파일링, 딥러닝 기술, 그리고 생체 내(in vivo) 스크리닝 방법을 성공적으로 결합하여 이 복잡한 과정을 심층적으로 분석했습니다. 이 종합적인 접근을 통해 손상 반응성 인핸서의 핵심적인 조절 논리가 명확하게 규명되었습니다. 특히, 이러한 발견은 중추신경계 손상 시 활성화되는 반응성 성상세포(reactive astrocytes)를 정밀하게 표적화할 수 있는 혁신적인 방법을 제시합니다. 결과적으로, 이 연구는 중추신경계 손상 치료 및 재생 연구 분야에 중요한 과학적 기반과 새로운 치료 전략 개발의 가능성을 제공할 것으로 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "Belite eyes tinlarebant approval after late-stage Stargardt success",
+      "url": "https://www.clinicaltrialsarena.com/news/belite-bio-tinlarebant-stargardt-disease-1-phase-iii-dragon/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-03",
+      "image_url": null,
+      "title": "벨라이트, 후기 스타가르트병 성공 발판 삼아 틴라레반트 승인 추진",
+      "summary_kr": "벨라이트(Belite)사는 후기 스타가르트병(Stargardt disease) 임상 시험에서 긍정적인 결과를 얻은 후, 신약 틴라레반트(tinlarebant)의 승인을 적극적으로 추진하고 있습니다. 글로벌데이터(GlobalData)의 애널리스트 사라 레시(Sara Reci)는 DRAGON 임상 시험 결과가 스타가르트병 1형(STGD1) 치료에 있어 \"획기적인 발전\"이라고 평가했습니다. 이러한 고무적인 성공은 망막 변성 질환으로 시력 상실을 겪는 스타가르트병 환자들에게 새로운 치료 대안을 제시할 가능성을 높이고 있습니다. 그러나 레시 애널리스트는 비록 결과가 긍정적일지라도, 틴라레반트가 광범위하게 보급되기 위해서는 여전히 극복해야 할 장벽들이 존재한다고 강조했습니다. 이는 신약의 시장 접근성과 대중화를 위한 추가적인 전략과 노력이 필요함을 의미하며, 향후 상용화 과정에서 고려해야 할 중요한 부분입니다. 벨라이트는 이번 후기 임상 성공을 바탕으로 틴라레반트가 조속히 승인되어 필요한 환자들에게 전달될 수 있도록 총력을 기울일 것으로 예상됩니다."
     },
     {
       "title_en": "Will blockbuster obesity drugs revolutionize addiction treatment?",
