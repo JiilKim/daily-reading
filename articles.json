@@ -1,239 +1,424 @@
 {
-  "last_updated": "2025-12-06 02:30:50",
+  "last_updated": "2025-12-07 02:24:28",
   "logs": [
     {
-      "time": "02:18:46",
+      "time": "02:17:54",
       "level": "INFO",
-      "message": "=== 스크립트 시작 (날짜: 2025-12-06) ==="
+      "message": "=== 스크립트 시작 (날짜: 2025-12-07) ==="
     },
     {
-      "time": "02:18:46",
-      "level": "INFO",
-      "message": "지난 실행 실패 항목 1개 재시도 대기"
-    },
-    {
-      "time": "02:18:46",
+      "time": "02:17:55",
       "level": "INFO",
       "message": "크롤링 시작: MIT Tech Rev"
     },
     {
-      "time": "02:18:46",
+      "time": "02:17:55",
       "level": "INFO",
       "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:46",
+      "time": "02:17:55",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "02:18:47",
+      "time": "02:17:55",
       "level": "INFO",
       "message": "[Nature] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:47",
+      "time": "02:17:55",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "02:18:47",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "[The Scientist] 완료: 100개 기사 수집됨"
     },
     {
-      "time": "02:18:47",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "[Science] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:56",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "[STAT News] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:48",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "[Ars Technica] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "[Wired] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:57",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "[Endpoints News] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:18:49",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "크롤링 시작: BioPharmaDive"
     },
     {
-      "time": "02:18:50",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:50",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "크롤링 시작: Clinical Trials Arena"
     },
     {
-      "time": "02:18:50",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:50",
+      "time": "02:17:58",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "02:18:51",
+      "time": "02:17:59",
       "level": "INFO",
       "message": "[The Transmitter] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "02:18:51",
+      "time": "02:17:59",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "02:18:51",
+      "time": "02:17:59",
       "level": "INFO",
       "message": "[Science (Paper)] 완료: 42개 기사 수집됨"
     },
     {
-      "time": "02:18:51",
+      "time": "02:17:59",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:00",
       "level": "INFO",
       "message": "[Cell] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:00",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:00",
       "level": "INFO",
       "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:00",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:52",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "02:18:53",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:53",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "02:18:53",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "02:18:53",
+      "time": "02:18:01",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "02:18:54",
+      "time": "02:18:02",
       "level": "INFO",
       "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "02:18:54",
+      "time": "02:18:02",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "02:18:55",
+      "time": "02:18:03",
       "level": "INFO",
-      "message": "[NEJM] 완료: 58개 기사 수집됨"
+      "message": "[NEJM] 완료: 63개 기사 수집됨"
     },
     {
-      "time": "02:18:55",
+      "time": "02:18:03",
       "level": "INFO",
-      "message": "총 처리 대상: 55건"
+      "message": "총 처리 대상: 19건"
     },
     {
-      "time": "02:30:50",
+      "time": "02:24:28",
       "level": "INFO",
-      "message": "오늘 처리 결과: 성공 55건, 실패/보류 0건"
+      "message": "오늘 처리 결과: 성공 19건, 실패/보류 0건"
     }
   ],
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "대만 총통 단독 인터뷰",
+      "url": "https://www.youtube.com/watch?v=utyFo8aiyPc",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-07",
+      "image_url": "https://i2.ytimg.com/vi/utyFo8aiyPc/hqhqdefault.jpg",
+      "title": "대만 총통 단독 인터뷰",
+      "summary_kr": "대만 총통 라이칭더는 최근 서방 언론과의 첫 공식 영상 인터뷰에서 대만 안보와 대중국 관계, 그리고 대만의 경제적 위상에 대한 주요 견해를 밝혔습니다. 라이 총통은 중국의 위협 증대에 대응하기 위해 지난주 400억 달러 규모의 특별 국방 예산 편성을 발표하며 미국산 무기 구매를 늘릴 계획이라고 언급했습니다. 그는 평화는 소중하며 전쟁에는 승자가 없지만, 평화는 힘을 통해 확보되어야 한다는 신념을 강조했습니다. 이를 위해 대만은 국방 예산을 증액하고 국방력을 강화하는 동시에, 2010년 83.8%에 달했던 대중 경제 의존도를 지난해 약 7%까지 낮추는 등 경제적 회복 탄력성을 높이는 데 주력하고 있다고 설명했습니다. 아울러 대만은 다른 민주주의 국가들과 협력하여 억지력을 강화하는 것이 전쟁을 피하고 평화를 이루는 최선의 방법임을 역설했습니다.\n\n라이 총통은 시진핑 주석이 인민해방군이 2027년까지 대만을 무력으로 점령할 능력을 갖추는 것을 목표로 삼고 있다는 점을 인지하고 있으며, 대만의 기본 원칙은 '우리가 먼저 준비되어 있어야 한다'고 천명했습니다. 그는 대만이 스스로를 보호하고 지역 평화와 안정을 지키기 위해 필요한 모든 조치를 취할 것이라고 강조하며, G7, 미국, 일본 등 국제사회가 양안(대만과 중국)의 평화에 관심을 갖고 대만 해협의 안정이 세계 안보와 번영에 필수적임을 강조해준 것에 감사를 표했습니다. 또한 라이 총통은 미국과의 관계가 '반석처럼 굳건하다'고 평가하며, 미국 정부와 의회의 초당적인 지지에 대해 깊은 감사를 전했습니다. 그는 우크라이나 사태를 언급하며 대만은 우크라이나 국민과 함께하며, 이 비이성적이고 불법적인 전쟁이 하루빨리 끝나 우크라이나의 국가적 존엄과 국민의 안녕이 존중되고 미래 분쟁이 예방되기를 바란다고 밝혔습니다.\n\n대만의 반도체 산업은 AI 시대에 결정적인 역할을 하는 전 세계의 자산으로, 이 산업이 미국, 일본, 유럽 등 필요한 곳에 투자하는 것을 지지하며 세계의 발전과 번영에 기여할 것이라고 덧붙였습니다. 그는 트럼프 대통령이 미국의 재산업화를 통해 세계 AI의 중심이 되기를 바라는 것을 이해하고 있으며, 대만이 이를 도울 용의가 있다고 말했습니다. 마지막으로, 라이 총통은 중국 경제가 어려움을 겪고 있는 상황에서 시진핑 주석이 영토 확장이 아닌 중국 인민의 복지 향상에 집중하기를 바라며, 대만은 중국의 경제적 도전을 해결하는 데 기꺼이 돕고 협력할 의향이 있다고 밝혔습니다."
+    },
+    {
+      "title_en": "3차 상법 개정,  자사주 의무 소각 법안 발의",
+      "url": "https://www.youtube.com/watch?v=E_Eyl3g4w2g",
+      "source": "슈카월드 YouTube",
+      "category": "Video",
+      "date": "2025-12-07",
+      "image_url": "https://i2.ytimg.com/vi/E_Eyl3g4w2g/hqhqdefault.jpg",
+      "title": "제3차 상법 개정안과 자사주 의무 소각 법안의 발의",
+      "summary_kr": "최근 발의된 제3차 상법 개정안은 자사주 취득 후 1년 이내 의무 소각을 골자로 하며, 이는 기업 지배구조 개선과 주주가치 제고를 위한 중요한 변화를 예고하고 있습니다. 이 개정안은 이사의 회사 및 주주 이익에 대한 충실 의무 확대, 감사위원 선임 시 최대주주의 의결권 제한(3% 룰), 전자주주총회 의무화, 집중투표제 의무화, 감사위원 분리선임 등 기존의 상법 개정 노력들의 연장선상에 있습니다. 특히 이번 제3차 개정안의 핵심은 자사주가 경영권 강화나 주가 방어 수단으로 악용되지 않도록 하는 데 주안점을 둡니다. 현재는 기업이 자사주를 매입하더라도 이를 소각하지 않고 보유하면서, 인적분할 시 신설 회사의 주식을 배정하거나 현물출자 유상증자를 통해 특정 대주주의 지배력을 강화하는 '자사주 마법'으로 활용될 여지가 큽니다. 이는 추가적인 자본 출자 없이 대주주가 지배력을 확대하여 다른 주주들의 가치를 희석시키고 부당한 이득을 취할 수 있는 구조적 문제를 야기해왔습니다. 자본시장연구원의 분석에 따르면, 자사주 보유량이 높은 기업들이 지주회사 전환을 위한 인적분할을 추진하는 경향이 있으며, 이러한 과정에서 대주주의 지분율이 상승하고 외부 주주의 부는 편취되는 결과가 나타납니다. 과거 태광산업의 자사주 대상 교환사채 발행 사례에서 보듯, 규제 당국이 개입하고 나서야 주주가치 보호를 위한 자사주 철회와 같은 조치가 이루어지는 등 자사주 악용 논란은 끊이지 않았습니다. 경제학적으로 자사주는 취득 시 자본에서 차감되어 소각되는 것이 바람직하며, 이를 통해 주당 순이익(EPS)을 높여 전체 주주의 가치를 증대시키는 것이 주주환원의 본질입니다. 따라서 개정안은 자사주를 자산이 아닌 자본의 하나로 명확히 규정하고, 취득 후 1년 내 소각을 의무화하며, 합병 또는 분할 시 자사주에 대한 신주 배정을 금지하는 등 자사주 마법을 근본적으로 퇴출하고자 합니다. 대한상공회의소 등 일부에서는 자사주 소각 의무화 대신 처분 공정성 강화를 주장하지만, 개정안은 궁극적으로 대주주의 사익 추구를 막고 기업 경영의 투명성을 높여 모든 주주의 이익을 보호하는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Tardigrade Research On Extreme Survival Mechanisms",
+      "url": "https://www.the-scientist.com/tardigrade-research-on-extreme-survival-mechanisms-73816",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "완보동물(곰벌레)의 극한 생존 메커니즘에 대한 연구",
+      "summary_kr": "완보동물, 흔히 곰벌레라고 불리는 이 미세한 생명체는 극한 환경에서 살아남는 놀라운 능력을 가진 것으로 잘 알려져 있습니다. 이들은 영하 272도의 극저온부터 영상 150도의 고온, 치명적인 수준의 방사선, 심지어 우주의 진공 상태나 완전한 탈수 상태에서도 생존할 수 있습니다. 이러한 독특한 생존력은 곰벌레가 보유한 특별한 단백질과 유전적 메커니즘 덕분입니다. 과학자들은 곰벌레의 이러한 극한 생존 기술의 비밀을 밝히기 위해 활발한 연구를 진행하고 있습니다. 곰벌레 연구는 의학 분야에서 장기 보존 기술이나 새로운 질병 치료법 개발에 영감을 주며, 우주 과학 분야에서는 극한 환경에서의 생명 유지 기술 발전에 기여할 잠재력을 가지고 있습니다. 나아가 노화 과정을 이해하고 늦추는 연구에도 중요한 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Advances in Long-Read Sequencing Boost Epigenomic Research",
+      "url": "https://www.the-scientist.com/advances-in-long-read-sequencing-boost-epigenomic-research-73818",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "장기 서열 분석의 발전, 후성유전체 연구에 새 지평을 열다",
+      "summary_kr": "EpiCypher의 브라이언 벤터스(Bryan Venters)는 후성유전체 연구의 핵심인 전통적인 크로마틴 프로파일링 분석법이 가진 한계점을 지적했습니다. 기존의 방법들은 종종 낮은 해상도, 복잡한 데이터 해석, 그리고 특정 후성유전학적 변형을 정확히 포착하는 데 어려움이 있었습니다. 이러한 문제점들은 유전자 발현 조절 메커니즘을 심층적으로 이해하는 데 걸림돌로 작용해왔습니다. 벤터스는 최근 혁신적인 '파이버 시퀀싱(Fiber-seq)' 기술이 이러한 난관을 효과적으로 극복할 수 있는 해결책을 제시한다고 강조했습니다. 파이버 시퀀싱은 단일 분자 수준에서 크로마틴 구조와 후성유전학적 변형을 고해상도로 분석할 수 있게 하여, 기존 기술의 제약을 뛰어넘습니다. 결과적으로 이 기술은 복잡한 후성유전체 지도를 더욱 정확하고 포괄적으로 그려내고, 생명 현상에 대한 우리의 이해를 한 차원 높이는 데 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "STAT+: ‘Remarkable’ drug results against an aggressive leukemia",
+      "url": "https://www.statnews.com/2025/12/06/ash-meeting-syndax-drug-for-acute-myeloid-leukemia/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/IMG_4068-645x645.jpg",
+      "title": "STAT+: 공격성 백혈병 치료에 '놀라운' 약물 성과 공개",
+      "summary_kr": "과학계에 긴장감이 감돌았던 한 해를 마무리하는 시점에서 중요한 의학적 성과가 발표되었습니다. 미국 혈액학회(ASH)는 최근 학술대회를 통해 여러 주목할 만한 연구 결과를 공개하며 학계의 이목을 집중시켰습니다. 특히, 진행이 빠르고 치료가 어려운 질환으로 알려진 급성 골수성 백혈병(AML)에 대한 매우 고무적인 약물 데이터가 발표되어 큰 기대를 모았습니다. 이와 함께 희귀 혈액 응고 장애인 폰 빌레브란트병에 대한 희망적인 연구 결과도 제시되었습니다. 학회는 이 외에도 다양한 혈액 관련 질환에 대한 최신 데이터를 공유하며, 많은 환자들에게 새로운 희망을 안겨주었습니다. 이러한 성과들은 과학계의 지속적인 노력과 연구의 중요성을 다시 한번 상기시키며, 미래 치료법 개발에 중요한 이정표가 될 것으로 평가됩니다."
+    },
+    {
+      "title_en": "Opinion: RFK Jr.’s vaccine advisory panel is beset by incompetence, bias, and procedural chaos",
+      "url": "https://www.statnews.com/2025/12/06/acip-vaccine-advisory-panel-incompetence-bias-expert/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2249298595-1-645x645.jpg",
+      "title": "논평: RFK 주니어의 백신 자문 패널, 무능력, 편향, 절차적 혼란에 시달려",
+      "summary_kr": "예방접종 자문 위원회(ACIP)의 회의는 한때 과학 전문가들의 로망과도 같았습니다. 수많은 데이터가 장시간에 걸쳐 지루할 정도로 상세하게 발표되었고, 이어서 심층적인 논의가 길게 이어지는 것이 일반적이었습니다. 이러한 과정은 방대한 자료를 바탕으로 전문가들이 치열하게 정보를 분석하고 토론하며 과학적 합의를 도출하는 장이었습니다. 하지만 최근 RFK 주니어의 백신 자문 패널은 과거 ACIP 회의의 철저함과는 거리가 먼 모습을 보이며 심각한 우려를 낳고 있습니다. 이 패널은 무능력, 명백한 편향성, 그리고 절차적인 혼란으로 얼룩져 있다는 비판에 직면해 있습니다. 이는 대중의 신뢰를 훼손하고 과학적 근거에 기반한 정책 결정 과정을 심각하게 방해할 수 있는 중대한 문제로 지적되고 있습니다."
+    },
+    {
+      "title_en": "A massive, Chinese-backed port could push the Amazon Rainforest over the edge",
+      "url": "https://arstechnica.com/science/2025/12/a-massive-chinese-backed-port-could-push-the-amazon-rainforest-over-the-edge/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2182963624-500x500.jpg",
+      "title": "중국 지원 대규모 항구, 아마존 열대우림 붕괴 임계점 넘길 수도",
+      "summary_kr": "아마존 지역에 건설될 예정인 이 대규모 항구는 전 세계 무역의 판도를 바꿀 혁명적인 잠재력을 지니고 있습니다. 그러나 이러한 경제적 발전 이면에는 심각한 환경 파괴의 그림자가 드리워져 있습니다. 특히 항구 건설과 운영은 아마존 열대우림 깊숙한 곳까지 새로운 운송 및 교역 경로를 촉발하여 환경 파괴를 가속화할 것이라는 우려가 제기됩니다. 도로, 철도 등 새로운 인프라는 불법 벌목, 광업, 농업 확장을 위한 접근성을 높여 생태계에 치명적인 영향을 미칠 수 있습니다. 이는 이미 기후 변화와 인류 활동으로 인해 심각한 스트레스를 받고 있는 아마존 열대우림을 회복 불가능한 임계점으로 밀어붙일 수 있습니다. 따라서 이 항구 프로젝트는 전 지구적 기후 시스템과 생물 다양성에 막대한 영향을 미치며, 아마존의 미래를 위협하는 중대한 도전 과제를 안고 있습니다."
+    },
+    {
+      "title_en": "This AI Model Can Intuit How the Physical World Works",
+      "url": "https://www.wired.com/story/how-one-ai-model-creates-a-physical-intuition-of-its-environment/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": "https://media.wired.com/photos/69316737bae73f21e0de4542/master/pass/AIIntuitsPhysics-crKristinaArmitage-Lede-scaled.jpeg",
+      "title": "AI, 물리 세계의 작동 방식을 '직관'으로 터득하다",
+      "summary_kr": "최근 개발된 V-JEPA 시스템이 인공지능 분야에 새로운 지평을 열었습니다. 이 시스템은 특별한 훈련 데이터나 복잡한 주석 없이, 일상적인 비디오 영상을 활용하여 실제 세계의 물리적 작동 원리를 이해합니다. 마치 인간이 주변 세상을 관찰하며 물리 법칙을 자연스럽게 터득하는 방식과 유사합니다. V-JEPA는 물체의 움직임, 상호작용, 그리고 인과 관계를 스스로 파악하여 물리적 현상에 대한 깊이 있는 '직관'을 형성합니다. 이는 기존 AI 모델들이 주로 명시적인 데이터 라벨링이나 시뮬레이션 환경에 의존했던 한계를 뛰어넘는 발전입니다. 이러한 접근 방식은 인공지능이 더 복잡하고 예측 불가능한 실제 환경에서 효과적으로 작동할 수 있는 능력을 부여하며, 향후 로봇 공학이나 자율 시스템 개발에 혁신적인 변화를 가져올 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Why Tehran Is Running Out of Water",
+      "url": "https://www.wired.com/story/why-tehran-is-running-out-of-water-iran-climate-change-drought-extreme-weather/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": "https://media.wired.com/photos/693164dd37a5725edd6dfb8d/master/pass/shutterstock_1148888516.jpg",
+      "title": "테헤란, 왜 물이 고갈되고 있는가?",
+      "summary_kr": "이란의 수도 테헤란이 심각한 물 부족 위기에 직면해 있습니다. 최근 몇 년간 기후 변화로 인한 강수 패턴의 변화가 주된 원인으로 지목되고 있으며, 폭풍의 이동 경로가 바뀌면서 강수량이 현저히 줄어들고 있습니다. 여기에 기록적인 폭염이 이어지는 여름철에는 물 수요가 급증하는 반면, 기존 수자원은 더욱 빠르게 고갈되는 악순환이 반복되고 있습니다. 이러한 복합적인 요인으로 인해 전문가들은 테헤란이 수돗물이 완전히 끊기는 '데이 제로(Day Zero)' 사태를 맞이할 수 있다고 경고합니다. 이는 단순한 생활 불편을 넘어, 도시의 지속 가능성과 주민들의 생존에 직결되는 심각한 문제로 부상하고 있어, 장기적인 관점에서 과학적인 물 관리 및 보존 대책 마련이 시급합니다."
+    },
+    {
+      "title_en": "#ASH25: AstraZeneca's dual-targeting CAR-T sees similar responses in Western patients as in China",
+      "url": "https://endpoints.news/astrazenecas-dual-targeting-car-t-sees-similar-responses-in-western-patients-as-in-china/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "ASH25: 아스트라제네카 이중 표적 CAR-T, 서구권 환자에서도 중국 임상과 유사한 효과 입증",
+      "summary_kr": "아스트라제네카의 이중 표적 CAR-T 세포 치료제가 서구권 암 환자를 대상으로 한 초기 임상 데이터에서 긍정적인 결과를 보이며 주목받고 있습니다. 이 치료제는 이전에 중국에서만 진행된 연구에서 이미 매우 인상적인 치료 반응률을 기록한 바 있습니다. 이번에 미국 혈액학회(ASH)에서 발표된 서구권 환자 대상 예비 데이터는 이러한 중국 임상의 성공적인 결과를 뒷받침하는 것으로 나타났습니다. 이는 특정 인종이나 지역에 국한되지 않고, 이중 표적 CAR-T 치료제가 광범위한 환자군에서 유사한 효능을 발휘할 수 있음을 시사합니다. 만약 서구권 환자들에게서도 최종적인 안전성과 효능이 확인된다면, 이 혁신적인 치료법이 전 세계 더 많은 암 환자들에게 새로운 치료 기회를 제공할 잠재력을 가지게 됩니다. 아스트라제네카는 토요일(현지 시각) ASH 학회에서 이 중요한 예비 결과를 공개하며 의료계의 기대를 한층 높였습니다."
+    },
+    {
+      "title_en": "#ASH25: As one door closes for Regeneron’s lymphoma bispecific, another reopens",
+      "url": "https://endpoints.news/ash25-as-one-door-closes-for-regenerons-lymphoma-bispecific-another-reopens/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "#ASH25: 리제네론 림프종 이중특이항체, 닫힌 문 뒤 다시 열리는 기회",
+      "summary_kr": "미국 올랜도에서 열린 회의에서, 제약사 리제네론은 자사의 림프종 치료제 '오드로넥스타맙(odronextamab)'의 미국 승인 절차에서 또 다른 예상치 못한 난관에 봉착했습니다. 이 치료제는 그간 수많은 규제 및 제조상의 장애물로 인해 '롤러코스터'와 같은 험난한 여정을 겪어왔습니다. 최근 발생한 이러한 '새로운 전환점'은 오드로넥스타맙의 시장 진출을 위한 리제네론의 노력에 또 한 번의 복잡성을 더하고 있습니다. 실제로 뉴욕 태리타운에 위치한 리제네론은 2025년 초에도 관련 사안에 대해 언급한 바 있습니다. 이러한 상황은 리제네론이 오드로넥스타맙의 상용화를 위해 규제 기관과의 지속적인 협의 및 생산 공정 개선에 더욱 박차를 가해야 함을 시사합니다. 비록 여러 어려움이 있었지만, 이는 이중특이항체 치료제의 미래에 새로운 가능성을 모색할 기회가 될 수도 있습니다."
+    },
+    {
+      "title_en": "Apple Tree Partners scores legal win against alleged holdout Russian investor",
+      "url": "https://endpoints.news/apple-tree-partners-scores-legal-win-against-alleged-holdout-russian-investor/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "애플 트리 파트너스, 러시아 투자자와의 소송에서 결정적 승리",
+      "summary_kr": "투자 전문 기업 애플 트리 파트너스(Apple Tree Partners)가 오랜 법적 분쟁 끝에 주요 자금 제공자와의 소송에서 중요한 승리를 거두었습니다. 수개월 동안 애플 트리 파트너스는 자신들이 지원하는 바이오 기술 기업들에 대한 투자를 지속할 수 있을지에 대한 심각한 불확실성에 직면해 있었습니다. 이번 법원 판결은 이러한 불확실성을 해소하고, 해당 투자사의 자금 운용 및 미래 투자 계획에 대한 길을 열어주었습니다. 소송 상대방은 러시아계 투자자로 알려져 있으며, 이들과의 마찰이 애플 트리 파트너스의 핵심 활동에 지장을 주었던 것으로 보입니다. 이번 승리로 애플 트리 파트너스는 투자 포트폴리오 내의 바이오텍 기업들에 대한 안정적인 자금 공급을 이어갈 수 있게 되었습니다. 이는 바이오 기술 분야의 혁신과 성장에 기여하려는 애플 트리 파트너스의 장기적인 비전을 재확인하는 계기가 될 것입니다."
+    },
+    {
+      "title_en": "ACIP vote, more FDA turnover; Introducing Endpoints Signal; ARCH, Parker Institute building next cancer bet; and more",
+      "url": "https://endpoints.news/acip-vote-more-fda-turnover-introducing-endpoints-signal-arch-parker-institute-building-next-cancer-bet-and-more/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "ACIP 투표, FDA 인사 개편: 엔드포인트 시그널 공개, ARCH·파커 연구소 차세대 암 전략 모색",
+      "summary_kr": "Endpoints Weekly 독자 여러분, 연휴를 마치고 다시 만나 뵙게 되어 반갑습니다. 이번 주에는 제약 및 바이오 업계의 중요한 소식들을 심층적으로 다룰 예정이며, 특히 미국 식품의약국(FDA)의 지속적인 인사 변동 소식으로 문을 엽니다. FDA는 최근 트레이시 베스 회그(Tracy Beth Høeg) 박사를 핵심 인물로 영입하는 등 조직 개편을 통해 새로운 국면을 맞이하고 있습니다. 또한, 질병통제예방센터 자문위원회(ACIP)의 중요한 투표 결과와 함께, 새롭게 출시된 '엔드포인트 시그널(Endpoints Signal)'에 대한 소개도 이어집니다. 이 밖에도, 생명공학 투자 전문 기업 ARCH와 저명한 파커 면역항암치료 연구소(Parker Institute for Cancer Immunotherapy)가 다음 세대의 혁신적인 암 치료 전략을 모색하며 새로운 도전을 준비하고 있는 소식도 심층 분석합니다. 이번 주 \"Endpoints Weekly\"는 이처럼 업계의 주요 흐름과 이슈들을 놓치지 않고 여러분께 전달할 것입니다."
+    },
+    {
+      "title_en": "Vertex CRISPR therapy hits early goal in children with blood disorders",
+      "url": "https://www.biopharmadive.com/news/ASH-Vertex-Casgevy-childen-sickle-cell-thalassemia/807182/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "버텍스 CRISPR 치료제, 혈액 질환 아동 대상 초기 목표 달성",
+      "summary_kr": "Vertex사의 유전자 편집 기술인 CRISPR 치료제 '카스게비(Casgevy)'가 혈액 질환을 앓고 있는 아동들에게서 긍정적인 초기 결과를 보였습니다. 현재 '국가적 우선순위' 약물로 지정된 카스게비는 겸상 적혈구 빈혈증과 지중해빈혈을 앓는 어린이들을 대상으로 한 임상에서 성공적인 치료 효과를 입증했습니다. 이번 연구 결과는 해당 질환으로 고통받는 환자들에게 새로운 희망을 제시하고 있습니다. 특히, 이번 긍정적인 데이터는 카스게비의 적응증을 확대하고 더 광범위한 상업적 보급을 가능하게 하는 중요한 발판이 될 것으로 기대됩니다. 이러한 성과는 유전자 치료 분야의 발전을 가속화하며, 난치성 혈액 질환 치료에 있어 혁신적인 전환점이 될 수 있음을 시사합니다."
+    },
+    {
+      "title_en": "Fixed-Duration versus Continuous Treatment for Chronic Lymphocytic Leukemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "만성 림프구성 백혈병 치료: 제한적 기간 요법 대 지속 요법",
+      "summary_kr": "만성 림프구성 백혈병(CLL) 치료의 중요한 이정표가 될 새로운 연구 결과가 발표되었습니다. 세계적인 권위의 의학 저널인 뉴잉글랜드 저널 오브 메디슨(New England Journal of Medicine)의 온라인판에 게재된 이 연구는 현재 'Ahead of Print' 상태로, 곧 인쇄본으로도 발행될 예정입니다. 이 연구는 만성 림프구성 백혈병 환자를 위한 두 가지 주요 치료 전략, 즉 정해진 기간 동안만 약물을 투여하는 제한적 기간 요법과 지속적으로 약물을 투여하는 지속 요법의 효과와 안전성을 심층적으로 비교 분석합니다. 환자의 장기 예후, 부작용 프로파일, 그리고 삶의 질 측면에서 각 치료법의 장단점을 탐구하여 최적의 치료 방향을 제시할 것으로 기대됩니다. 이번 연구 결과는 만성 림프구성 백혈병 환자들의 치료 지침과 임상적 의사 결정에 중요한 영향을 미칠 것으로 전망됩니다. 의료 전문가들과 환자들에게 핵심적인 정보를 제공하여 치료 패러다임을 한 단계 발전시킬 것으로 주목받고 있습니다."
+    },
+    {
+      "title_en": "Aortic Intramural Hematoma",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2506150?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "대동맥 벽내 혈종",
+      "summary_kr": "이 기사는 세계적으로 권위 있는 의학 저널인 뉴 잉글랜드 의학 저널(New England Journal of Medicine)의 'Ahead of Print' 섹션에 미리 공개된 중요한 연구를 다룹니다. 여기서 논의되는 '대동맥 벽내 혈종(Aortic Intramural Hematoma)'은 대동맥 혈관벽 내부에 혈액이 고여 발생하는 심각하고 치명적인 질환입니다. 이는 급성 대동맥 증후군의 한 형태로 분류되며, 적절한 진단과 치료가 이루어지지 않을 경우 대동맥 박리나 파열로 진행되어 생명을 위협할 수 있습니다. 따라서 이 질환의 조기 발견과 신속하고 정확한 치료 전략은 환자의 예후를 결정하는 데 매우 중요합니다. 뉴 잉글랜드 의학 저널에 게재될 예정인 이번 발표는 대동맥 벽내 혈종에 대한 최신 의학적 지견을 제공하며, 진단 기준 및 치료법 개발에 핵심적인 기여를 할 것으로 기대됩니다. 이를 통해 의료 전문가들은 이 복잡한 질환에 대한 이해를 심화하고 환자 관리 및 임상적 의사 결정을 개선하는 데 필수적인 정보를 얻을 수 있을 것입니다."
+    },
+    {
+      "title_en": "Bedside to Bench — AI and the New Science of Medicine",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2510203?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "병상에서 연구실로: AI가 여는 의학의 새로운 지평",
+      "summary_kr": "이 기사는 세계적으로 권위 있는 의학 저널인 뉴잉글랜드 의학 저널(New England Journal of Medicine)에 'Ahead of Print'로 선공개된 최신 연구를 다룹니다. 'Ahead of Print'는 공식 출판 전임에도 불구하고 독자들이 해당 콘텐츠에 미리 접근할 수 있도록 하는 형태로, 최신 과학적 발견이나 중요한 임상적 통찰을 신속하게 공유하려는 목적을 가집니다. 이는 AI가 의학 분야에 가져오는 혁신적인 변화와 새로운 과학적 접근 방식에 대한 논의가 매우 시급하고 주목할 만하다는 점을 강력히 시사합니다. 뉴잉글랜드 의학 저널은 엄격한 동료 심사 과정을 거쳐 가장 영향력 있는 연구 결과를 발표하는 곳으로 정평이 나 있어, 이번 AI 관련 기사 역시 그 내용의 중요성과 신뢰도를 보장합니다. 이 기사는 AI 기술이 환자의 병상(bedside)에서 얻은 데이터와 기초 연구실(bench)의 과학적 탐구 사이의 간극을 메우며, 의학 연구와 진료의 패러다임을 근본적으로 변화시키고 있음을 보여줍니다. 이러한 맥락에서 본 기사는 의료 AI의 현재와 미래, 그리고 그것이 이끌어갈 의학의 새로운 시대를 조망하는 데 핵심적인 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Smallpox at the Siege of Boston, November 1775–March 1776",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2513194?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "보스턴 포위전의 천연두: 1775년 11월 ~ 1776년 3월",
+      "summary_kr": "이 연구는 미국 독립 전쟁 중 1775년 11월부터 1776년 3월까지 이어진 보스턴 포위전 기간 동안 천연두가 어떠한 영향을 미쳤는지 심도 있게 분석합니다. 당시 가장 치명적인 전염병 중 하나였던 천연두가 군사 전략, 병사들의 사기, 그리고 전투 결과에 미쳤을 잠재적 영향을 역사적 기록과 의학적 관점에서 탐구하고 있습니다. 특히 이 논문은 세계적으로 권위 있는 의학 저널인 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정이어서 학술적 신뢰성이 매우 높습니다. 'Ahead of Print' 상태로 온라인 선공개되었다는 점은 최신 연구 결과를 신속하게 공유하려는 의학계의 노력을 반영합니다. 이 연구는 18세기 전염병이 전쟁터에 미친 영향을 구체적으로 조명하며, 역사 속 공중 보건의 중요성을 되새기는 중요한 통찰을 제공할 것으로 기대됩니다. 과거 팬데믹의 양상을 이해하고 미래의 전염병 대응 전략을 수립하는 데 귀중한 자료가 될 것입니다."
+    },
+    {
+      "title_en": "Enhancing FDA Drug-Safety Surveillance — Beyond Releasing Daily Adverse-Event Data",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2513460?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-07",
+      "image_url": null,
+      "title": "FDA 의약품 안전 감시 강화 — 일일 이상 사례 데이터 공개를 넘어서",
+      "summary_kr": "본 기사는 세계적으로 권위 있는 의학 저널인 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정입니다. 특히 '인쇄본 발행 전(Ahead of Print)'으로 공개되었다는 점은 해당 연구가 매우 시의적절하고 중요한 내용을 다루고 있음을 시사합니다. 이 연구는 FDA의 의약품 안전 감시 시스템을 현재보다 훨씬 효과적으로 개선할 필요성에 대해 깊이 있게 논하고 있습니다. 단순히 매일 발생하는 이상 사례 데이터를 발표하는 수준을 넘어, 보다 포괄적이고 정교한 감시 및 분석 전략을 도입해야 함을 강조합니다. 이러한 접근 방식은 의약품 안전 관리의 한계를 극복하고, 환자 안전을 최우선으로 하는 선진적인 시스템 구축에 기여할 것입니다. 따라서 본 기사는 규제 당국과 관련 연구자들에게 중요한 지침과 통찰을 제공할 것으로 기대됩니다."
+    },
     {
       "title_en": "미국 엘리트들의 생각 (a16z)",
       "url": "https://www.youtube.com/watch?v=VGuzvUsSJv4",
