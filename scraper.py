@@ -35,7 +35,6 @@ except ImportError:
 # ============================================================================
 
 MAX_NEW_ARTICLES_PER_RUN = 8000
-ARCHIVE_DAYS = 99999
 API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
 
 # 팔로알토 시간대 (썸머타임 자동 적용)
@@ -73,8 +72,9 @@ def log(message, level="INFO"):
 
 def clean_json_text(text):
     """JSON 응답 텍스트 정제"""
-    text = re.sub(r'```json\s*', '', text)
-    text = re.sub(r'```\s*', '', text)
+    text = re.sub(r'^```json\s*', '', text)
+    text = re.sub(r'^```\s*', '', text)
+    text = re.sub(r'\s*```$', '', text)
     return text.strip()
 
 def get_gemini_summary(article_data):
@@ -192,7 +192,7 @@ def get_gemini_summary(article_data):
             title_kr = data.get('title_kr', title_en)
             summary_kr = data.get('summary_kr', "요약 내용 없음")
     
-            print(f"  [AI] ✅ 완료: {title_kr[:20]}...")
+            log(f"  [AI] ✅ 완료: {title_kr[:20]}...")
             return title_kr, summary_kr
     
         except json.JSONDecodeError as e:
@@ -277,7 +277,7 @@ def scrape_feed(feed_url, source_name, category_name):
 
 def scrape_youtube_videos(channel_id, source_name, category_name):
     articles = []
-    print(f"🔍 [{source_name}] 유튜브 크롤링 중... (채널: {channel_id})")
+    log(f"🔍 [{source_name}] 유튜브 크롤링 중... (채널: {channel_id})")
     feed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
 
     try:
@@ -310,7 +310,7 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 description_en = entry.get('media_description', entry.get('summary', title_en))
                 description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
                 
-                print(f"    [i] 영상 {video_id} 로드됨.")
+                log(f"    [i] 영상 {video_id} 로드됨.")
 
                 articles.append({
                     'title_en': title_en,
@@ -323,10 +323,10 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 })
 
             except Exception as item_err:
-                print(f"  ✗ 영상 파싱 실패: {item_err}")
+                log(f"  ✗ 영상 파싱 실패: {item_err}")
 
     except Exception as e:
-        print(f"❌ [{source_name}] 오류: {e}")
+        log(f"❌ [{source_name}] 오류: {e}")
 
     return articles
 
@@ -468,7 +468,6 @@ def main():
 
     output_data = {
         'last_updated': datetime.now(PALO_ALTO_TZ).strftime('%Y-%m-%d %H:%M:%S'),
-        'logs': execution_logs, # 여기에 실행 로그 포함
         'failed_queue': new_failed_queue,
         'articles': final_list
     }
@@ -482,6 +481,31 @@ def main():
         # 저장 실패시 로그라도 출력
         print(json.dumps(execution_logs, indent=2))
         sys.exit(1)
+
+    # 6. logs.json 별도 저장 (날짜별 누적)
+    log_file_path = 'logs.json'
+    all_logs = {}
+    
+    if os.path.exists(log_file_path):
+        try:
+            with open(log_file_path, 'r', encoding='utf-8') as f:
+                all_logs = json.load(f)
+        except:
+            pass
+            
+    # 오늘 날짜 키에 로그 덮어쓰기 (또는 추가)
+    all_logs[current_date_str] = current_logs
+    
+    # 로그 파일이 너무 커지지 않게 최근 30일치만 유지 (선택사항)
+    sorted_dates = sorted(all_logs.keys(), reverse=True)
+    if len(sorted_dates) > 30:
+        for d in sorted_dates[30:]:
+            del all_logs[d]
+
+    with open(log_file_path, 'w', encoding='utf-8') as f:
+        json.dump(all_logs, f, ensure_ascii=False, indent=2)
+    
+    print("=== 스크립트 종료 ===")
 
 if __name__ == '__main__':
     main()
