@@ -486,24 +486,29 @@ def main():
     log_file_path = 'logs.json'
     all_logs = {}
     
+    # 오늘 날짜 키 생성 (Palo Alto 시간 기준)
+    current_date_key = start_time.strftime('%Y-%m-%d')
+
     if os.path.exists(log_file_path):
         try:
             with open(log_file_path, 'r', encoding='utf-8') as f:
                 all_logs = json.load(f)
-        except:
-            pass
+                # 만약 파일 내용이 dict가 아니면 초기화
+                if not isinstance(all_logs, dict):
+                    all_logs = {}
+        except Exception as e:
+            print(f"로그 파일 로드 중 오류(무시됨): {e}")
+            all_logs = {}
             
-    # 오늘 날짜 키에 로그 덮어쓰기 (또는 추가)
-    all_logs[current_date_str] = current_logs
-    
-    # 로그 파일이 너무 커지지 않게 최근 30일치만 유지 (선택사항)
-    sorted_dates = sorted(all_logs.keys(), reverse=True)
-    if len(sorted_dates) > 30:
-        for d in sorted_dates[30:]:
-            del all_logs[d]
+    # 오늘 날짜 키에 현재까지 쌓인 로그(execution_logs) 저장
+    all_logs[current_date_key] = execution_logs
 
-    with open(log_file_path, 'w', encoding='utf-8') as f:
-        json.dump(all_logs, f, ensure_ascii=False, indent=2)
+    try:
+        with open(log_file_path, 'w', encoding='utf-8') as f:
+            json.dump(all_logs, f, ensure_ascii=False, indent=2)
+        print(f"로그 저장 완료: {log_file_path} (Key: {current_date_key})")
+    except Exception as e:
+        print(f"로그 저장 실패: {e}")
     
     print("=== 스크립트 종료 ===")
 
