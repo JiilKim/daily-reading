@@ -1,60 +1,6 @@
 {
-  "last_updated": "2025-12-09 11:35:53",
+  "last_updated": "2025-12-10 02:33:12",
   "failed_queue": [
-    {
-      "title_en": "#ASH25: Star Therapeutics details early data for blood disorder shot, weighs IPO",
-      "description_en": "ORLANDO, Fla. — Star Therapeutics said its once-a-month injection for von Willebrand disease substantially cut bleeding rates in a preliminary study, and is thinking about the next moves to complete a larger trial and eventually ...",
-      "url": "https://endpoints.news/ash25-star-therapeutics-details-early-data-for-blood-disorder-shot-weighs-ipo/",
-      "source": "Endpoints News",
-      "category": "News",
-      "date": "2025-12-08",
-      "image_url": null
-    },
-    {
-      "title_en": "How digital companion apps unlock value across the drug lifecycle",
-      "description_en": "Where companion apps unlock value across the full drug lifecycle, from Pre-Rx to Post-Rx.",
-      "url": "https://www.biopharmadive.com/spons/how-digital-companion-apps-unlock-value-across-the-drug-lifecycle/806871/",
-      "source": "BioPharmaDive",
-      "category": "News",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "At ASH, Lilly makes case to widen Jaypirca use in leukemia, lymphoma",
-      "description_en": "In a head-to-head trial, Lilly’s drug was as effective as Imbruvica at inducing responses and displayed certain safety advantages that could make it a preferred treatment in early lines of care.",
-      "url": "https://www.biopharmadive.com/news/ash-2025-lilly-jaypirca-imbruvica-leukemia-lymphoma/807232/",
-      "source": "BioPharmaDive",
-      "category": "News",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "Reducing white space in early development: Four regulatory pitfalls to avoid pre-IND",
-      "description_en": "Avoiding delays and hurdles during regulatory interactions such as the pre-IND meeting is critical for streamlining the transition to Phase I.The postReducing white space in early development: Four regulatory pitfalls to avoid pre-INDappeared first onClinical Trials Arena.",
-      "url": "https://www.clinicaltrialsarena.com/sponsored/reducing-white-space-in-early-development-four-regulatory-pitfalls-to-avoid-pre-ind/",
-      "source": "Clinical Trials Arena",
-      "category": "News",
-      "date": "2025-12-08",
-      "image_url": null
-    },
-    {
-      "title_en": "Eli Lilly reports Phase III trial results of Jaypirca for CLL/SLL",
-      "description_en": "Eli Lilly and Company has reported the outcomes from the Phase III BRUIN CLL-314 trial of Jaypirca, a non-covalent BTK inhibitor, against Imbruvica for CLL/SLL.The postEli Lilly reports Phase III trial results of Jaypirca for CLL/SLLappeared first onClinical Trials Arena.",
-      "url": "https://www.clinicaltrialsarena.com/news/eli-lilly-results-jaypirca/",
-      "source": "Clinical Trials Arena",
-      "category": "News",
-      "date": "2025-12-08",
-      "image_url": null
-    },
-    {
-      "title_en": "Amylyx presents safety outcomes of AMX0114 in LUMINA study",
-      "description_en": "Amylyx Pharmaceuticals has presented early tolerability and safety outcomes from its Phase I LUMINA study of AMX0114, along with biomarker characterisation findings in ALS.The postAmylyx presents safety outcomes of AMX0114 in LUMINA studyappeared first onClinical Trials Arena.",
-      "url": "https://www.clinicaltrialsarena.com/news/amylyx-amx0114-lumina-study/",
-      "source": "Clinical Trials Arena",
-      "category": "News",
-      "date": "2025-12-08",
-      "image_url": null
-    },
     {
       "title_en": "Clinical Trials Arena Excellence Awards 2025: Belong.Life",
       "description_en": "Belong.Life is a leading digital health company and the winner of the Innovation award for clinical automation in the 2025 Clinical Trials Arena Excellence AwardsThe postClinical Trials Arena Excellence Awards 2025: Belong.Lifeappeared first onClinical Trials Arena.",
@@ -74,57 +20,12 @@
       "image_url": null
     },
     {
-      "title_en": "Seeing the world as animals do: How to leverage generative AI for ecological neuroscience",
-      "description_en": "Generative artificial intelligence will offer a new way to see, simulate and hypothesize about how animals experience their worlds. In doing so, it could help bridge the long-standing gap between neural function and behavior.",
-      "url": "https://www.thetransmitter.org/artificial-intelligence/seeing-the-world-as-animals-do-how-to-leverage-generative-ai-for-ecological-neuroscience/",
-      "source": "The Transmitter",
-      "category": "Neuroscience",
-      "date": "2025-12-09",
-      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-Ecological-Ai-525.png"
-    },
-    {
-      "title_en": "Prime Editing for p47phox-Deficient Chronic Granulomatous Disease",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2509807?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "Final Analysis of a Study of Etranacogene Dezaparvovec for Hemophilia B",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514332?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "Dual Targeting of Extramedullary Myeloma with Talquetamab and Teclistamab",
-      "description_en": "New England Journal of Medicine, Ahead of Print.",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514752?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "category": "Paper",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "인간은 곧 신이 된다 (뉴럴링크)",
-      "description_en": "Translated by A\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
-      "url": "https://www.youtube.com/watch?v=75XQmol2ksI",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i4.ytimg.com/vi/75XQmol2ksI/hqhqdefault.jpg"
-    },
-    {
       "title_en": "손정의 : 버블 아니라니까 진짜",
       "description_en": "Translated by H \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
       "url": "https://www.youtube.com/watch?v=oa3uuFvLbgA",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i4.ytimg.com/vi/oa3uuFvLbgA/hqhqdefault.jpg"
     },
     {
@@ -133,7 +34,7 @@
       "url": "https://www.youtube.com/shorts/ymPp7NBLgoA",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i2.ytimg.com/vi/ymPp7NBLgoA/hqhqdefault.jpg"
     },
     {
@@ -142,7 +43,7 @@
       "url": "https://www.youtube.com/shorts/KzB0ywf4V-E",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i4.ytimg.com/vi/KzB0ywf4V-E/hqhqdefault.jpg"
     },
     {
@@ -151,7 +52,7 @@
       "url": "https://www.youtube.com/watch?v=-pGs0btGmgY",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i2.ytimg.com/vi/-pGs0btGmgY/hqhqdefault.jpg"
     },
     {
@@ -160,7 +61,7 @@
       "url": "https://www.youtube.com/shorts/DOeKS84G0kI",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i1.ytimg.com/vi/DOeKS84G0kI/hqhqdefault.jpg"
     },
     {
@@ -169,7 +70,7 @@
       "url": "https://www.youtube.com/watch?v=r4-hXO7MLVU",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i3.ytimg.com/vi/r4-hXO7MLVU/hqhqdefault.jpg"
     },
     {
@@ -178,7 +79,7 @@
       "url": "https://www.youtube.com/watch?v=d95J8yzvjbQ",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i1.ytimg.com/vi/d95J8yzvjbQ/hqhqdefault.jpg"
     },
     {
@@ -187,80 +88,8 @@
       "url": "https://www.youtube.com/watch?v=1Jld_rBomp0",
       "source": "Deepmind YouTube",
       "category": "Video",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://i2.ytimg.com/vi/1Jld_rBomp0/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Nano Banana Pro: Your new creative partner",
-      "description_en": "Gemini 3 Pro Image (Nano Banana Pro) is our new state-of-the art image generation and editing model. Built on Gemini 3 Pro, it uses Gemini’s advanced reasoning and real-world knowledge to visualize information better than ever before.\n\nNano Banana Pro can help you visualize any idea and design anything - from building prototypes, to representing data as infographics, to turning handwritten notes into diagrams.\n\nFind out more: http://deepmind.google/models/gemini-image/pro\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=UQsJIo46ZR8",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i2.ytimg.com/vi/UQsJIo46ZR8/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Gemini 3: Interact with a virtual OS by simply drawing",
-      "description_en": "Gemini 3's improved spatial reasoning also powers intelligent screen understanding of desktop, mobile and OS screens delivering significant performance improvement for computer use agents. In this app built in Google AI Studio, see how the understands the intent of user actions based on screen annotations to take actions instructed by the user.\n\nFind out more about Gemini 3: https://deepmind.google/models/gemini/\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=nrfpu7mor6g",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i3.ytimg.com/vi/nrfpu7mor6g/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Gemini 3: Code a retro 3D spaceship game with a single prompt",
-      "description_en": "Gemini 3 is our best agentic and vibe-coding model yet. See how it takes a complex, single prompt and uses its reasoning capabilities to write executable code for a polished, interactive 3D game — complete with neon aesthetics and particle effects — all within a single HTML file.\n\nWhat will Gemini build if you change 'retro spaceship' to something else?\n\nTry the demo in Google AI Studio: https://aistudio.google.com/apps/bundled/synthwave_space\nFind out more about Gemini 3: https://deepmind.google/models/gemini/\n\n___\n\nPrompt: \"\"Create a polished, retro-futuristic 3D spaceship web game contained entirely within a single HTML file using Three.js. The game should feature a \"\"\"\"Synthwave/Retrowave\"\"\"\" aesthetic with the following specifications:\n\n### 1. Visual Style & Atmosphere\n*   **Aesthetic:** Dark, immersive 3D environment with a glowing, volumetric neon look. Use a color palette of deep purples, hot pinks, and electric cyans.\n*   **Post-Processing:** You must implement Three.js `EffectComposer` with `UnrealBloomPass` to make the neon elements glow intensely.\n*   **Environment:** \n    *   A dense, moving starfield background with rich features. Go beyond simple plane shapes here and apply shaders to make the game visually appealing. For example, simulating retro astra, stars, and planets in the background.\n    *   Distance fog to fade distant objects smoothly into the darkness.\n*   **Assets:** Use complex geometric primitives constructed programmatically (no external model imports).\n\n### 2. Gameplay Mechanics\n*   **Perspective:** Third-person view from behind the spaceship.\n*   **Core Loop:** The player pilots the ship on the X and Y axis (2D plane) while enemies (neon blocks) spawn in the distance and fly toward the camera along the Z-axis.\n*   **Combat:** \n    *   The player shoots laser bolts (glowing lines) to destroy enemies.\n    *   **Collision:** When a laser hits a block, the block should shatter into a very complex particle explosion effect.\n    *   **Game Over:** If a block hits the ship, the game ends.\n*   **UI:** A minimal HUD displaying the current Score. A \"\"\"\"Game Over\"\"\"\" overlay with a \"\"\"\"Restart\"\"\"\" button.\n\n### 3. Controls (Cross-Platform)\nThe game must detect the device type or input method:\n*   **Desktop/Web:** \n    *   Use **Arrow Keys** or **WASD** for smooth movement (apply `lerp` or friction for a floaty, drift-like spaceship feel).\n    *   Use **Spacebar** to fire.\n*   **Mobile/Touch:** \n    *   Render a semi-transparent **Virtual Joystick** on the bottom-left of the screen (using HTML/CSS or Canvas API) to map touch movement to ship coordinates.\n    *   Detect a **Tap** anywhere on the right side of the screen to fire lasers.\n\n### 4. Technical Constraints\n*   **Single File:** All HTML, CSS, and JavaScript (including the Three.js library and post-processing shaders imported via CDN) must be in one `index.html` file. Do not output any other text other than the html response.\n*   **Performance:** Use object pooling for lasers and particles to ensure 60FPS performance.\n*   **Responsiveness:** The canvas must resize dynamically to fit any screen size without stretching the aspect ratio.\"\"\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=qOL49DYWr7s",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i2.ytimg.com/vi/qOL49DYWr7s/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Gemini 3: Zero-shot website development",
-      "description_en": "Watch as Gemini 3 quickly writes the code for a website landing page to promote a retro dance event. \n\nWhat will you create with Gemini 3? \n\nFind out more about Gemini 3: https://deepmind.google/models/gemini/\n\n___\n\nPrompt: Build a vibrant, retro-glamour landing page for \"\"Twist,\"\" a weekly family dance night at the fictional Upbeat Studio in Limassol.\nThe Vibe: Imagine a pool party in 1972 Miami. The aesthetic is tasteful and maximalist \"\"Retro-Kitsch.\"\" It should feel like a cartoon—flat design, no photos, no noise. Use a tropical pastel palette (Coral Pinks, Seafoam Greens, Lemon Yellows).\nInclude an animation using a suitable library featuring a gently animated pink Flamingo (Large circular container with the Animated Flamingo Vector. Make sure the animation is smooth and whimsical, but the flamingo looks realistic. Do not add clothes or sunglasses.)\nTypography: Use curvy, heavy retro script fonts (like diner signage) for headers with hard drop shadows. Use geometric sans-serifs for body text.\nShapes: Everything must be rounded. Pill-shaped buttons, circular image masks, and soft corners on text boxes.\nContent Sections: The Class, Prices, Contact.\nMake the site fully responsive.\nUse a \"\"Warm vs. Cool\"\" contrast strategy (Pastel Pink / light gradient background vs. Teal accents).\nMake sure the page is family friendly. Do not include real artist names.\nBe as creative as possible and show off your best front end coding skills!\nBefore finalizing the page ensure the Flamingo animation looks good (coherent, consistent, easily 'readable', stylized and smooth). Do not include a phone number or email address. Use the email icon or a contact form instead. Do not pre-fill the contact form with a name.\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=ti6Z3zMLsNA",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i1.ytimg.com/vi/ti6Z3zMLsNA/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Bring ideas to life with Gemini 3",
-      "description_en": "Gemini 3 is our most intelligent model that helps you bring any idea to life. \n\nFind out more on: https://ai.google/ and https://deepmind.google/models/gemini/\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=5njF8J0mQ1k",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i2.ytimg.com/vi/5njF8J0mQ1k/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Gemini 3: Code a visualization of nuclear fusion",
-      "description_en": "Gemini 3 pushes the boundaries of multimodal generation. Watch as it codes a complex visual simulation of a Tokamak nuclear reactor and writes a poem capturing the physics of fusion.\n\nWatch as a single HTML file comes to life, transitioning through the four critical phases of fusion—from the cold vacuum to ignition—while the code adjusts the shader intensity and soundtrack to match the poetry.\n\nWhat will you visualize with Gemini?\n\nFind out more about Gemini 3: https://deepmind.google/models/gemini/\n\n___\n\nPrompt 1: Shader inspired by plasma flow confinement in a tokamak. Add orbit controls. Return a single HTML page.\n\nPrompt 2:  Write a written word piece about nuclear fusion, based on the following shader. Add a soundtrack. Overlay your piece, adjusting the shader and soundtrack intensity to reflect phases in achieving steady-state fusion. Return a single HTML file.\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=huK9q10qf40",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i1.ytimg.com/vi/huK9q10qf40/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Vibe Coding with Gemini 3 in Google AI Studio",
-      "description_en": "Gemini 3 Pro unlocks the true potential of “vibe coding”, where natural language is the only syntax you need. Google AI Studio is your fastest path from a prompt to an AI-native app. Build mode lets you add AI capabilities faster than ever, automatically wiring up the right models and APIs, while features like annotations enable fast and intuitive iteration. \n\nStart vibe coding today at ai.studio/build",
-      "url": "https://www.youtube.com/watch?v=meUr8fjy8lQ",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i2.ytimg.com/vi/meUr8fjy8lQ/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "Gemini 3: Building a procedural fractal world with Shaders",
-      "description_en": "Watch how to combine Gemini 3 and Shaders to create a interactive, playable sci-fi world.\n\nWhat will you code with Gemini 3?\n\n- Try the demo in Google AI Studio: https://aistudio.google.com/apps/bundled/shader_pilot\n- Find out more about Gemini 3: https://deepmind.google/models/gemini/\n- For more about the prompt sequence, see the video here: \n\nhttps://youtu.be/cpsY9WQxh5U\n\nor\n\nhttps://x.com/pitaru/status/1990929204930883869?t=4A2sllLUxokzg7QnJHA9XA&s=19\n\n___\n\nSample prompts to start building apps like this: \n\nStart by asking Gemini to render your shader (you may need to ask AI Studio to fix it over a few prompts if the shader is missing elements): \n“Create a player that renders this shader for me. You may need to add helper functions for it:\n[add shader code here or describe the shader you want]”\n\nPrompts like this will help you start playing with the various shader parameters inside your app: \n“Can you give me some sliders to play with the shader parameters?”\n\nNow you can ask Gemini to create UI that lets you move inside the 3d space of the shader (note: not all shaders will support this):\n“Can you add d-pads so I can pilot around it? Make it like typical 3D game controllers”\n\nNow you can start building an in-app editor to further sculpt your project: \n“Add a settings window with tabs: one for the sliders, one that lets me inverse the d-pad controls and set their sensitivity and smoothing” \n\nFinally you can start filling these tabs with various new capabilities and control their settings: \n“Allow me to now fully sculpt this environment, including the ability to create a spaceship out of a shader, a full set of analog-style synths, a sequencer, and a dynamic mapping system that allows me to map every facet of our visuals and interactions to dynamics of the soundtrack. The little things matter, you’re helping me sculpt this from a tech demo to the specific taste I have in mind both visually and sonically.”\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
-      "url": "https://www.youtube.com/watch?v=0Sed3evbQxI",
-      "source": "Deepmind YouTube",
-      "category": "Video",
-      "date": "2025-12-09",
-      "image_url": "https://i1.ytimg.com/vi/0Sed3evbQxI/hqhqdefault.jpg"
     },
     {
       "title_en": "The Download: a peek at AI’s future",
@@ -268,25 +97,7 @@
       "url": "https://www.technologyreview.com/2025/12/09/1129029/the-download-a-peek-at-ais-future/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "The State of AI: A vision of the world in 2030",
-      "description_en": "Welcome back to The State of AI, a new collaboration between the Financial Times and MIT Technology Review. Every Monday, writers from both publications debate one aspect of the generative AI revolution reshaping global power. You can read the rest of the series here. In this final edition, MIT Technology Review’s senior AI editor Will Douglas…",
-      "url": "https://www.technologyreview.com/2025/12/08/1128922/the-state-of-ai-a-vision-of-the-world-in-2030/",
-      "source": "MIT Tech Rev",
-      "category": "News",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "The Download: four (still) big breakthroughs, and how our bodies fare in extreme heat",
-      "description_en": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 4 technologies that didn’t make our 2026 breakthroughs list If you’re a longtime reader, you probably know that our newsroom selects 10 breakthroughs every year that we think will define the future. This group…",
-      "url": "https://www.technologyreview.com/2025/12/08/1128982/the-download-four-still-big-breakthroughs-and-how-our-bodies-fare-in-extreme-heat/",
-      "source": "MIT Tech Rev",
-      "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -295,16 +106,7 @@
       "url": "https://www.technologyreview.com/2025/12/08/1128969/2026-breakthroughs-list-leftovers/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-09",
-      "image_url": null
-    },
-    {
-      "title_en": "Don’t overlook the value of co-supervision in PhD training",
-      "description_en": "Nature, Published online: 09 December 2025;doi:10.1038/d41586-025-03998-2Don’t overlook the value of co-supervision in PhD training",
-      "url": "https://www.nature.com/articles/d41586-025-03998-2",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -313,7 +115,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04000-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -322,7 +124,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03739-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -331,7 +133,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03999-1",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -340,7 +142,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03997-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -349,7 +151,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03965-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -358,7 +160,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03977-7",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -367,7 +169,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03970-0",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -376,7 +178,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09995-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -385,7 +187,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03848-1",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -394,7 +196,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03980-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -403,7 +205,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03844-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -412,7 +214,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03976-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -421,7 +223,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03847-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -430,7 +232,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03979-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -439,7 +241,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03842-7",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -448,7 +250,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03838-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -457,7 +259,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03845-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -466,7 +268,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03904-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -475,7 +277,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03840-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -484,7 +286,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03843-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -493,7 +295,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03839-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -502,7 +304,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03846-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -511,7 +313,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03978-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -520,7 +322,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03841-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -529,7 +331,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03992-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -538,7 +340,7 @@
       "url": "https://www.the-scientist.com/postdoc-portrait-marwa-zafarullah-73829",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -547,7 +349,7 @@
       "url": "https://www.the-scientist.com/the-gollum-effect-44-percent-of-scientists-report-territorial-research-experiences-73832",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -556,7 +358,7 @@
       "url": "https://www.the-scientist.com/the-biggest-breakthroughs-in-cell-biology-in-2025-73835",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -565,7 +367,7 @@
       "url": "https://www.the-scientist.com/cancer-immunotherapy-may-work-better-before-3pm-73831",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -574,7 +376,7 @@
       "url": "https://www.the-scientist.com/advancing-cell-culture-with-eco-friendly-incubator-shakers-73783",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -583,7 +385,7 @@
       "url": "https://www.science.org/content/article/what-fda-veteran-thinks-controversial-vaccine-email-gets-right-and-wrong",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -592,7 +394,7 @@
       "url": "https://www.science.org/content/article/cosmic-neutrinos-kink-could-help-explain-particles-origins",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -601,7 +403,7 @@
       "url": "https://www.science.org/content/article/can-adding-light-sensors-nerve-cells-switch-pain-epilepsy-and-other-disorders",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -610,7 +412,7 @@
       "url": "https://www.science.org/content/article/strongest-spiderweb-earth-spun-only-females",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -619,7 +421,7 @@
       "url": "https://www.science.org/content/article/warm-humid-atmospheric-rivers-threaten-antarctica",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -628,7 +430,7 @@
       "url": "https://www.statnews.com/2025/12/09/ash-jandj-multiple-myeloma-and-cdc-sickle-cell-data/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/IMG_0778-645x645.jpg"
     },
     {
@@ -637,7 +439,7 @@
       "url": "https://www.statnews.com/2025/12/09/biosecure-act-aca-subsidies-dc-diagnosis-newsletter/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/AP25044716544497-645x645.jpg"
     },
     {
@@ -646,7 +448,7 @@
       "url": "https://www.statnews.com/2025/12/09/artificial-intelligence-radiology-schizophrenia-app-health-tech/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2024/08/AdobeStock_215934462-645x645.jpeg"
     },
     {
@@ -655,7 +457,7 @@
       "url": "https://www.statnews.com/2025/12/09/biotech-news-terns-threatens-novartis-cml-throne/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/6_lores-645x645.jpg"
     },
     {
@@ -664,7 +466,7 @@
       "url": "https://www.statnews.com/pharmalot/2025/12/09/fda-rsv-merck-sanofi-astrazeneca-abortion-glp1/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
     },
     {
@@ -673,7 +475,7 @@
       "url": "https://www.statnews.com/2025/12/09/health-news-gene-therapy-for-rare-spinal-disease/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2024/06/AdobeStock_143027517-645x645.jpeg"
     },
     {
@@ -682,7 +484,7 @@
       "url": "https://www.statnews.com/2025/12/09/fda-contradictions-deepen-tracy-hoeg-vinay-prasad-marty-makary/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/LabDish_Frame_FDA-645x645.jpg"
     },
     {
@@ -691,7 +493,7 @@
       "url": "https://www.statnews.com/2025/12/09/fda-revolving-door-regulator-industry-section-207/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/GettyImages-1227710420-645x645.jpg"
     },
     {
@@ -700,7 +502,7 @@
       "url": "https://www.statnews.com/2025/12/09/how-research-funding-cuts-impacted-trans-nonbinary-scientists/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/STAT-Harvey-1-2-645x645.jpg"
     },
     {
@@ -709,7 +511,7 @@
       "url": "https://www.statnews.com/2025/12/08/ash-positive-results-leukemia-terns-rival-novartis/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2022/12/19467-645x645.jpg"
     },
     {
@@ -718,7 +520,7 @@
       "url": "https://www.statnews.com/2025/12/08/acip-meeting-us-childhood-vaccine-schedule-vs-europe/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2249462269-645x645.jpg"
     },
     {
@@ -727,7 +529,7 @@
       "url": "https://www.statnews.com/2025/12/08/terns-leukemia-drug-ash-results-tern-701/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2023/04/AdobeStock_426527439-645x645.jpeg"
     },
     {
@@ -736,7 +538,7 @@
       "url": "https://www.statnews.com/2025/12/08/prescription-drug-cost-explosion-ghost-rates-cigna-rebate-guarantees-health-care-inc/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AdobeStock_1239086709-645x645.jpeg"
     },
     {
@@ -745,7 +547,7 @@
       "url": "https://www.statnews.com/2025/12/08/biotech-news-wave-rna-drug-cuts-fat/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2019/04/AdobeStock_221145581-645x645.jpeg"
     },
     {
@@ -754,7 +556,7 @@
       "url": "https://www.statnews.com/2025/12/08/health-news-rfk-jr-acip-vaccine-panel-against-evidence/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2249298595-1-645x645.jpg"
     },
     {
@@ -763,7 +565,7 @@
       "url": "https://www.statnews.com/2025/12/08/structure-obesity-oral-small-molecule-aleniglipron-side-effects/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.statnews.com/wp-content/uploads/2016/06/Nasdaq_GettyImages-76051122-645x645.jpg"
     },
     {
@@ -799,7 +601,7 @@
       "url": "https://arstechnica.com/tech-policy/2025/12/trumps-order-blocking-wind-development-thrown-out-by-court/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2235990625-500x500.jpg"
     },
     {
@@ -808,7 +610,7 @@
       "url": "https://arstechnica.com/science/2025/12/days-after-cop30-brazil-weakened-amazon-safeguards/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1249347312-500x500.jpg"
     },
     {
@@ -817,7 +619,7 @@
       "url": "https://arstechnica.com/science/2025/12/study-confirms-romans-used-hot-mixing-to-make-concrete/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/concrete1-500x500.jpg"
     },
     {
@@ -826,7 +628,7 @@
       "url": "https://www.wired.com/story/mutations-in-a-single-gene-have-been-linked-to-mental-illness/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://media.wired.com/photos/6936f402f531b8d4d032a16f/master/pass/GettyImages-2182084501.jpg"
     },
     {
@@ -835,7 +637,7 @@
       "url": "https://www.fiercebiotech.com/medtech/teleflex-inks-2b-divestment-deals-oem-urology-and-acute-care-units",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -844,7 +646,7 @@
       "url": "https://www.fiercebiotech.com/cro/fda-clears-1st-ai-drug-development-tool-reading-mash-images",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -853,7 +655,7 @@
       "url": "https://www.fiercebiotech.com/medtech/medline-sets-terms-massive-537b-nasdaq-ipo",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -862,7 +664,7 @@
       "url": "https://www.fiercebiotech.com/biotech/ash-exicure-rebounds-phase-2-win-90-blood-cell-mobilization-myeloma",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -871,7 +673,7 @@
       "url": "https://www.fiercebiotech.com/biotech/ose-narrows-focus-conserve-cash-expense-wider-pipeline",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -880,7 +682,7 @@
       "url": "https://www.fiercebiotech.com/biotech/pfizer-continues-renewed-obesity-push-2b-pact-fosun-units-glp-1-drug",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -889,7 +691,7 @@
       "url": "https://www.fiercebiotech.com/biotech/ash-novartis-details-ianalumabs-phase-3-win-rare-blood-disease",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -898,7 +700,7 @@
       "url": "https://www.fiercebiotech.com/pharma/jj-makes-case-tecvayli-combo-alternative-car-t-second-line-multiple-myeloma",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -907,7 +709,7 @@
       "url": "https://www.fiercebiotech.com/biotech/gsk-cuts-cord-longtime-ideaya-collaboration-letting-go-2-programs",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -916,7 +718,7 @@
       "url": "https://www.fiercebiotech.com/biotech/fda-steers-cancer-car-t-developers-toward-randomized-superiority-trials-policy-shift",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -925,7 +727,7 @@
       "url": "https://www.fiercebiotech.com/biotech/novartis-pens-17b-dermatology-pact-ai-enabled-british-biotech",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -934,7 +736,7 @@
       "url": "https://www.fiercebiotech.com/biotech/ash-merck-mulls-future-polycythemia-program-while-takeda-takes-ph-3-victory-lap",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -943,7 +745,7 @@
       "url": "https://www.fiercebiotech.com/biotech/weight-loss-windfall-lilly-looks-become-backbone-global-innovation",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -952,7 +754,7 @@
       "url": "https://www.fiercebiotech.com/medtech/fda-clears-resmed-ai-personalizing-cpap-settings",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -961,7 +763,7 @@
       "url": "https://www.fiercebiotech.com/biotech/dr-reddys-pens-370m-pact-rights-immuteps-phase-3-stage-immunotherapy-certain-markets",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -970,7 +772,7 @@
       "url": "https://www.fiercebiotech.com/biotech/dyne-readies-fda-push-after-dmd-exon-51-med-excels-trial",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -979,7 +781,7 @@
       "url": "https://www.fiercebiotech.com/biotech/wave-structure-move-assets-clinical-ladder-biotechs-obesity-development-blitz-rolls",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -988,7 +790,7 @@
       "url": "https://www.fiercebiotech.com/biotech/mirum-nets-bluejay-and-its-phase-3-stage-hepatitis-drug-620m",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -997,7 +799,7 @@
       "url": "https://www.fiercebiotech.com/medtech/stryker-promotes-stiles-president-coo-lead-its-ma-growth-strategy",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1006,7 +808,7 @@
       "url": "https://www.fiercebiotech.com/biotech/chinas-ascletis-reports-77-weight-loss-oral-glp-1-contender-us-phase-2-study",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1015,7 +817,7 @@
       "url": "https://www.fiercebiotech.com/sponsored/agc-biologics-leader-warns-looming-microbial-manufacturing-crunch",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1033,7 +835,7 @@
       "url": "https://endpoints.news/fdas-probe-of-covid-19-vaccines-expands-into-adults/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1042,7 +844,7 @@
       "url": "https://endpoints.news/ash25-new-data-from-gilead-jj-set-up-a-bispecific-car-t-rivalry/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1051,7 +853,7 @@
       "url": "https://endpoints.news/jj-backed-cellular-origins-raises-40m-for-cell-therapy-manufacturing/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1060,7 +862,7 @@
       "url": "https://endpoints.news/chinas-sanegenebio-raises-110m-in-follow-up-to-metabolic-deal-with-lilly/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1069,7 +871,7 @@
       "url": "https://endpoints.news/novartis-to-partner-with-relation-therapeutics-on-atopic-diseases/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1078,7 +880,7 @@
       "url": "https://endpoints.news/notes-from-the-2025-sabew-med-tech-fellowship/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1087,7 +889,7 @@
       "url": "https://endpoints.news/ash25-early-in-vivo-car-t-results-like-kelonias-elicit-excitement-across-the-field/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1096,7 +898,7 @@
       "url": "https://endpoints.news/epilepsygtx-gets-33m-to-test-epilepsy-gene-therapy-in-phase-1-2a/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1105,7 +907,7 @@
       "url": "https://endpoints.news/stealthy-biotech-sidera-bio-raises-109m-assemblys-data-for-oral-herpes-drugs/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1114,7 +916,7 @@
       "url": "https://endpoints.news/seven-biotechs-eye-2-3b-in-public-offerings-after-data-readouts/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1123,7 +925,7 @@
       "url": "https://endpoints.news/radial-raises-50m-to-treat-mental-health-in-non-traditional-ways/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1132,7 +934,7 @@
       "url": "https://endpoints.news/sabcs25-biontech-bms-unwrap-phase-2-data-for-pd-l1xvegf-bispecific-in-breast-cancer/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1141,7 +943,7 @@
       "url": "https://endpoints.news/ash25-eli-lillys-jaypirca-makes-first-line-case-but-ceiling-may-be-capped/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1150,7 +952,7 @@
       "url": "https://endpoints.news/ash25-novartis-says-its-antibody-ianalumab-helps-prolong-control-of-rare-blood-disorder/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1159,7 +961,7 @@
       "url": "https://endpoints.news/eli-lilly-will-be-aggressive-in-spending-glp-1-money-says-top-dealmaker-van-naarden/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1168,7 +970,7 @@
       "url": "https://endpoints.news/pfizer-to-pay-150m-upfront-for-small-molecule-glp-1-from-fosun-subsidiary/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1177,7 +979,7 @@
       "url": "https://endpoints.news/cell-and-gene-therapy-benefits-company-aradigm-raises-20m/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1186,7 +988,7 @@
       "url": "https://endpoints.news/biosecure-act-appears-headed-for-final-passage-in-defense-bill/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1195,7 +997,7 @@
       "url": "https://endpoints.news/fda-sets-new-higher-bar-for-car-t-cancer-treatments-to-prove-superiority/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1204,7 +1006,7 @@
       "url": "https://endpoints.news/ash25-will-a-biotechs-pivot-away-from-obesity-let-it-compete-with-novartis-in-leukemia/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1213,7 +1015,7 @@
       "url": "https://endpoints.news/gsk-walks-away-from-remaining-ideaya-programs/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1222,7 +1024,7 @@
       "url": "https://endpoints.news/fda-misses-pdufa-review-deadline-for-agios-thalassemia-drug/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1249,7 +1051,7 @@
       "url": "https://www.biopharmadive.com/news/novartis-ash-ianalumab-immune-thrombocytopenia-vayhit2-results/807391/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1258,7 +1060,7 @@
       "url": "https://www.biopharmadive.com/news/pfizer-yaopharma-fosun-obesity-pill-deal-china/807375/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1267,7 +1069,7 @@
       "url": "https://www.biopharmadive.com/news/johnson-johnson-tecvayli-darzalex-ash-multiple-myeloma-results/807234/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1276,7 +1078,7 @@
       "url": "https://www.biopharmadive.com/news/ash-terns-chronic-myeloid-leukemia-results-novartis-scemblix/807230/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1285,7 +1087,7 @@
       "url": "https://www.biopharmadive.com/news/mirum-bluejay-acquisition-hepatitis-d/807282/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1294,7 +1096,7 @@
       "url": "https://www.biopharmadive.com/news/dyne-duchenne-kymera-wave-structure-obesity-eczema-data/807250/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1303,7 +1105,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/utilising-real-world-data-to-overcome-challenges-in-rare-disease-research/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1312,7 +1114,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/msd-ash-2025-mk-1045-b-all-phase-ib-ii-results/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1321,7 +1123,7 @@
       "url": "https://www.clinicaltrialsarena.com/analyst-comment/ash-2025-arcellx-gilead-anito-cel-car-t-r-r-mm/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1330,7 +1132,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/kallyopes-migraine-drug-advances-to-pivotal-trial/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1339,7 +1141,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/ash-2025-cullinan-therapeutics-cln-049-aml-phase-i/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1348,7 +1150,7 @@
       "url": "https://www.clinicaltrialsarena.com/excellence-awards/featured-company/2025-flex-databases/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1357,7 +1159,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/structure-therapeutics-aleniglipron-trial/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1393,7 +1195,7 @@
       "url": "https://www.thetransmitter.org/spectrum/insights-on-suicidality-and-autism-and-more/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-spotted-20251209.png"
     },
     {
@@ -1402,7 +1204,7 @@
       "url": "https://www.thetransmitter.org/retraction/exclusive-springer-nature-retracts-removes-nearly-40-publications-that-trained-neural-networks-on-bonkers-dataset/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-FacialAnalysisRetractions-525.png"
     },
     {
@@ -1411,7 +1213,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02112-z",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1420,7 +1222,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02127-6",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1429,7 +1231,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02128-5",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1438,7 +1240,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04095-7",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1447,7 +1249,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04119-2",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1456,7 +1258,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04103-w",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1465,7 +1267,7 @@
       "url": "https://www.nature.com/articles/d41591-025-00069-x",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1474,7 +1276,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02957-6",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1483,7 +1285,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2505478?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
       "image_url": null
     },
     {
@@ -1492,11 +1294,344 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2515061?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-09",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Human Transcriptome Maps Exclude Most Populations. Scientists Decoded Just How Much.",
+      "description_en": "Sequencing diverse populations revealed over 41,000 transcripts missing in Eurocentric references, exposing ancestry bias that limits insights into global disease risk.",
+      "url": "https://www.the-scientist.com/human-transcriptome-maps-exclude-most-populations-scientists-decoded-just-how-much-73841",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Feeling Blue and Sleepless May Lower Natural Killer Cell Numbers",
+      "description_en": "Anxiety and insomnia don’t just affect mood. Researchers found that these conditions can reduce natural killer cell counts, possibly compromising immune strength.",
+      "url": "https://www.the-scientist.com/feeling-blue-and-sleepless-may-lower-natural-killer-cell-numbers-73839",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "The first patients have been helped by cancer-fighting cells made directly in their bodies",
+      "description_en": "Novel approach could be faster, and cheaper, than making the cells in the lab—but safety concerns linger",
+      "url": "https://www.science.org/content/article/first-patients-have-been-helped-cancer-fighting-cells-made-directly-their-bodies",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Opinion: The revolution in dementia care is just beginning",
+      "description_en": "Care for patients with dementia has changed radically since Jason Karlawish started working in the field in the late ’90s, he says on STAT’s “First Opinion Podcast.”",
+      "url": "https://www.statnews.com/2025/12/10/revolution-dementia-care-interview-expert/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/FOP_Ep11_Wordpress_Featured_Image-645x645.jpg"
+    },
+    {
+      "title_en": "Opinion: Rise of anti-science rhetoric has fundamentally changed the relationship between doctors and patients",
+      "description_en": "“The rise of anti-science and anti-vaccine rhetoric has fundamentally changed the relationship between clinicians and patients.”",
+      "url": "https://www.statnews.com/2025/12/10/anti-vaccine-rhetoric-doctors-emotional-toll/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_70548808-645x645.jpeg"
+    },
+    {
+      "title_en": "MAHA wants to tackle chronic diseases. This country had that idea decades ago",
+      "description_en": "Happy 40th birthday — now come in for your health checkup. That's one way Slovenia is lowering rates of chronic disease.",
+      "url": "https://www.statnews.com/2025/12/10/maha-chronic-disease-approach-slovenia-best-practices/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/slovenia_cutout_01-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Solicitor general urges Supreme Court to review ‘skinny labeling’ and generic drug access",
+      "description_en": "In a closely watched case, the U.S. solicitor general has urged the Supreme Court to review a controversy over so-called skinny labels for medicines.",
+      "url": "https://www.statnews.com/pharmalot/2025/12/09/patents-pharma-generics-scotus-skinny-labels-medicines/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2021/07/AdobeStock_432144648-645x645.jpeg"
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/strong-words-big-smiles-enduring-activism-and-cautious-optimism-american-society-hematology\" hreflang=\"en\">Rainbows, pickleball and puppies: Inside the ‘enduring activism’ and ‘cautious optimism’ at ASH 2025</a>",
+      "description_en": "People come to Orlando to escape. With Disney World, SeaWorld and Universal Studios all in the area, there are endless opportunities to leave behind the challenges of the real world for a bit of relaxation and maybe a little bit of magic.",
+      "url": "https://www.fiercebiotech.com/biotech/strong-words-big-smiles-enduring-activism-and-cautious-optimism-american-society-hematology",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "FDA is taking another look at safety of approved RSV antibodies",
+      "description_en": "The FDA is reexamining the safety of two approved RSV antibodies for infants, the latest move by the agency to scrutinize approved preventive products used in children.\n\n The FDA spoke with drugmakers last week, informing ...",
+      "url": "https://endpoints.news/fda-is-taking-another-look-at-safety-of-approved-rsv-antibodies/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Eli Lilly earmarks $6B for GLP-1 pill factory in Alabama",
+      "description_en": "Eli Lilly will spend $6 billion to build an orforglipron factory in Huntsville, AL, the third of four new US sites the pharma giant plans to announce this year.\n\n As well as manufacturing the oral ...",
+      "url": "https://endpoints.news/eli-lilly-earmarks-6b-for-glp-1-pill-factory-in-alabama/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "ASH 2025: potential new BCL2 inhibitor option for R/R CLL",
+      "description_en": "At the 2025 American Society of Hematology (ASH) Congress, held on 5-9 December, results from a Phase II pivotal study for Ascentage Pharma’s BCL-2 inhibitor lisaftoclax in relapsed or refractory (R/R) chronic lymphocytic leukaemia (CLL/SLL) were presented.The postASH 2025: potential new BCL2 inhibitor option for R/R CLLappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/ash-2025-potential-new-bcl2-inhibitor-option-r-r-cll/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Daiichi Sankyo announces first patient dosed in Phase III trial of Enhertu",
+      "description_en": "Daiichi Sankyo has announced the dosing of the first patient in the DESTINY-Ovarian01 Phase III trial’s randomisation phase.The postDaiichi Sankyo announces first patient dosed in Phase III trial of Enhertuappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/daiichi-sankyo-trial-enhertu/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Dyne to seek accelerated approval of DMD drug on Phase I/II data",
+      "description_en": "Dyne Therapeutics intends to submit a Biologics License Application to the FDA for accelerated approval in Q2 2026.The postDyne to seek accelerated approval of DMD drug on Phase I/II dataappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/dyne-to-seek-accelerated-approval-of-dmd-drug-on-phase-i-ii-data/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "What is the future of organoid and assembloid regulation?",
+      "description_en": "Four experts weigh in on how to establish ethical guardrails for research on the 3D neuron clusters as these models become ever more complex.",
+      "url": "https://www.thetransmitter.org/organoids/what-is-the-future-of-organoid-and-assembloid-regulation/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-10",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-cropped-525-organoid-oversight.png"
+    },
+    {
+      "title_en": "Ketamine or Etomidate for Tracheal Intubation of Critically Ill Adults",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2511420?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Teclistamab plus Daratumumab in Relapsed or Refractory Multiple Myeloma",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514663?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null
+    },
+    {
+      "title_en": "Ianalumab plus Eltrombopag in Immune Thrombocytopenia",
+      "description_en": "New England Journal of Medicine, Ahead of Print.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515168?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
       "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "How digital companion apps unlock value across the drug lifecycle",
+      "url": "https://www.biopharmadive.com/spons/how-digital-companion-apps-unlock-value-across-the-drug-lifecycle/806871/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "디지털 컴패니언 앱: 의약품 라이프사이클 전반의 가치를 실현하는 핵심 전략",
+      "summary_kr": "디지털 컴패니언 앱은 현대 의약품 개발 및 활용 분야에서 혁신적인 가치를 창출하는 핵심 도구로 부상하고 있습니다. 이 앱들은 의약품의 전체 수명 주기, 즉 처방 전(Pre-Rx) 단계부터 처방 후(Post-Rx) 단계에 이르기까지 전 과정에서 잠재된 가치를 실현하도록 돕습니다. 처방 전 단계에서는 임상 시험 환자 모집을 지원하고 데이터 수집 효율성을 높이며, 의료 전문가들에게 필수적인 약물 정보를 제공하는 데 기여할 수 있습니다. 약물 처방 및 복용 단계에서는 환자의 복약 순응도를 개선하고, 증상 추적 및 부작용 모니터링을 통해 치료 결과를 최적화하는 데 중요한 역할을 합니다. 나아가 처방 후 단계에서는 장기적인 질병 관리를 돕고, 실제 환경에서의 약물 효과 및 안전성에 대한 귀중한 데이터를 수집하여 실제 임상 근거(RWE)를 구축하는 데 결정적인 통찰력을 제공합니다. 결과적으로 디지털 컴패니언 앱은 환자 중심의 의료 서비스를 구현하고 의약품의 전반적인 가치를 증진시키는 데 필수적인 솔루션이라 할 수 있습니다."
+    },
+    {
+      "title_en": "At ASH, Lilly makes case to widen Jaypirca use in leukemia, lymphoma",
+      "url": "https://www.biopharmadive.com/news/ash-2025-lilly-jaypirca-imbruvica-leukemia-lymphoma/807232/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "릴리, ASH서 '재피르카' 백혈병·림프종 적용 확대 가능성 제시",
+      "summary_kr": "최근 진행된 직접 비교 임상 시험에서 릴리의 신약 재피르카(Jaypirca)는 기존 치료제인 임브루비카(Imbruvica)와 동등한 수준의 치료 반응을 유도하는 효과를 보였습니다. 특히, 재피르카는 특정 안전성 측면에서 우위를 나타내, 환자들에게 더 유리한 선택지가 될 수 있음을 시사했습니다. 이러한 안전성 이점은 백혈병 및 림프종 환자의 초기 치료 단계(early lines of care)에서 재피르카가 선호되는 치료법으로 자리매김할 가능성을 높입니다. 임브루비카는 이미 광범위하게 사용되는 약물이므로, 재피르카의 이러한 결과는 관련 질환 치료 패러다임에 중요한 변화를 가져올 잠재력을 가지고 있습니다. 이번 임상 결과는 릴리가 재피르카의 적용 범위를 백혈병과 림프종의 더 넓은 치료 단계로 확대하려는 전략에 강력한 근거를 제공할 것으로 보입니다. 향후 재피르카가 초기 치료 라인에서 어떤 역할을 하게 될지 의학계의 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "Seeing the world as animals do: How to leverage generative AI for ecological neuroscience",
+      "url": "https://www.thetransmitter.org/artificial-intelligence/seeing-the-world-as-animals-do-how-to-leverage-generative-ai-for-ecological-neuroscience/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-10",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-Ecological-Ai-525.png",
+      "title": "생성형 AI, 동물의 시선으로 세상 읽다: 생태신경과학의 새 지평을 열다",
+      "summary_kr": "생성형 인공지능(AI)은 동물이 세상을 어떻게 경험하는지에 대해 관찰하고, 시뮬레이션하며, 가설을 세우는 완전히 새로운 방식을 제시할 것입니다. 이는 기존 연구의 한계를 넘어, 동물 개개인의 독특한 인지 및 감각 경험을 더욱 심층적으로 탐구할 수 있게 할 것으로 기대됩니다. 나아가, 이러한 혁신적인 접근 방식은 신경 기능과 행동 사이의 오랜 간극을 메우는 데 결정적인 역할을 할 수 있습니다. 즉, 특정 신경 활동이 동물의 행동으로 어떻게 발현되는지, 또는 반대로 특정 행동이 어떤 신경학적 기초를 갖는지에 대한 이해를 획기적으로 심화시킬 수 있다는 의미입니다. 생태신경과학 분야는 생성형 AI의 도움으로 동물의 주관적인 경험 세계를 객관적으로 분석하고 예측하는 데 큰 진전을 이룰 수 있을 것입니다. 궁극적으로 이는 동물의 복지 증진뿐만 아니라 인간의 뇌 기능 및 복잡한 행동 양식을 이해하는 데도 새로운 통찰을 제공할 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "Prime Editing for p47phox-Deficient Chronic Granulomatous Disease",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2509807?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "p47phox 결핍 만성 육아종 질환에 대한 프라임 유전자 편집 치료",
+      "summary_kr": "이 연구는 p47phox 유전자 결핍으로 인해 발생하는 희귀 유전 질환인 만성 육아종 질환(CGD)의 새로운 치료법으로 '프라임 유전자 편집' 기술을 탐구합니다. 만성 육아종 질환은 면역 체계의 기능 이상으로 인해 심각하고 반복적인 감염을 유발하며, 현재 치료 옵션이 제한적입니다. 프라임 유전자 편집은 기존의 유전자 가위 기술보다 더욱 정교하게 DNA 염기 서열을 교정할 수 있는 차세대 유전자 편집 기술로 주목받고 있습니다. 이번 연구는 이 첨단 기술을 활용하여 p47phox 유전자 변이를 정확히 교정함으로써, 만성 육아종 질환의 근본적인 원인을 해결하려는 시도입니다. 특히, 이 중요한 연구 결과는 세계 최고 권위의 의학 저널 중 하나인 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정으로, 그 과학적 중요성과 신뢰성을 인정받았습니다. 'Ahead of Print' 상태는 동료 심사를 통과하여 공식 출판을 앞두고 있음을 의미하며, 이는 만성 육아종 질환 환자들에게 새로운 희망을 제시하고 미래 유전자 치료 연구에 중요한 이정표가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Final Analysis of a Study of Etranacogene Dezaparvovec for Hemophilia B",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514332?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "혈우병 B 유전자 치료제 에트라나코진 데자파르보벡 연구의 최종 분석",
+      "summary_kr": "혈우병 B 유전자 치료제인 '에트라나코진 데자파르보벡'에 대한 연구의 최종 분석 결과가 발표되어 의학계의 이목을 집중시키고 있습니다. 이번 최종 분석은 해당 치료제의 장기적인 효능과 안전성에 대한 포괄적인 데이터를 제공하며, 그간의 임상 시험이 중요한 단계에 도달했음을 알리는 신호탄입니다. 특히, 이 연구 결과는 세계적으로 가장 권위 있는 의학 저널 중 하나인 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정입니다. 현재 'Ahead of Print' 상태로 온라인을 통해 먼저 공개되어, 최신 연구 결과가 의료 전문가와 연구자들에게 즉시 전달되고 있습니다. 이는 혈우병 B 환자들에게 새로운 치료 희망을 제시하고, 기존 치료 패러다임에 중대한 변화를 가져올 잠재력을 시사합니다. 이번 최종 분석은 에트라나코진 데자파르보벡의 임상적 가치를 더욱 명확히 하고, 향후 혈우병 B 치료 전략 수립에 필수적인 정보를 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Dual Targeting of Extramedullary Myeloma with Talquetamab and Teclistamab",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514752?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "탈케타맙과 테클리스타맙을 이용한 수외성 골수종의 이중 표적 치료",
+      "summary_kr": "수외성 골수종은 다발성 골수종의 특히 공격적이고 치료가 어려운 형태로, 기존 요법에 대한 저항성이 높고 환자의 예후가 좋지 않은 난치성 질환으로 알려져 있습니다. 이번 연구는 이처럼 미충족 의료 수요가 큰 수외성 골수종 환자를 대상으로 '탈케타맙(Talquetamab)'과 '테클리스타맙(Teclistamab)'이라는 두 가지 강력한 이중 특이항체를 병용하는 혁신적인 치료 전략을 조명합니다. 탈케타맙은 GPRC5D와 CD3를, 테클리스타맙은 BCMA와 CD3를 표적하여 환자의 면역 T세포가 골수종 세포를 정밀하게 인식하고 사멸시키도록 유도합니다. 두 약물의 동시 표적 및 병용 치료 접근법은 단일 제제로는 극복하기 어려웠던 골수종의 치료 저항성을 극복하고, 보다 강력하고 지속적인 항종양 반응을 유도할 잠재력을 보여줍니다. 이 중요한 연구 결과는 권위 있는 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정이며, 수외성 골수종 환자들에게 새로운 치료 희망과 중대한 의학적 진전을 제시할 것으로 평가됩니다. 특히 재발성 또는 불응성 수외성 골수종 환자들에게 표준 치료법을 넘어서는 효과적인 대안이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "인간은 곧 신이 된다 (뉴럴링크)",
+      "url": "https://www.youtube.com/watch?v=75XQmol2ksI",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i4.ytimg.com/vi/75XQmol2ksI/hqhqdefault.jpg",
+      "title": "뉴럴링크의 여정: 뇌-컴퓨터 인터페이스를 통한 인간 능력의 확장",
+      "summary_kr": "이 영상은 뇌-컴퓨터 인터페이스(BCI) 기술을 개발하는 뉴럴링크의 설립 배경, 기술 발전 과정, 현재 성과 및 미래 비전을 상세히 설명합니다. 뉴럴링크는 2016년에 대량 생산 가능한 BCI를 목표로 설립되었으며, 초기 4년간 무선 이식이 가능한 시스템 개발과 소형화에 집중했습니다. 또한, 이식 과정을 정밀하게 수행하기 위한 수술 로봇을 개발하여 초기 프로토타입에서 현재 인간에게 안전하게 적용할 수 있는 형태로 발전시켰습니다. 2019년부터 쥐, 돼지, 원숭이와 같은 다양한 동물 모델을 대상으로 실험을 진행하여 2021년에는 원숭이 '페이저'가 생각만으로 탁구 게임을 플레이하는 시연에 성공했습니다. 2024년에는 인간 임상 시험 승인을 받아 첫 제품인 '텔레파시'를 출시했습니다. 이 기술은 척수 손상이나 루게릭병 등으로 신체 마비가 있는 환자들이 컴퓨터나 스마트폰과 같은 디지털 기기를 생각만으로 조작할 수 있게 하여 삶에 큰 변화를 가져왔습니다. 현재까지 12명 이상의 환자들이 뉴럴링크를 사용하고 있으며, 이들은 하루 평균 8시간 이상 기기를 활용하고 있습니다. 뉴럴링크의 다음 목표는 기술의 '확장'으로, 이는 기기 생산, 배포, 환자 서비스 등 광범위한 영역에서의 도전을 포함합니다. 또한, 현재의 운동 제어 기능을 넘어 촉각, 시각, 청각, 언어 능력을 복원하고, 궁극적으로는 뇌 전체의 신호를 읽고 쓰는 '전뇌 인터페이스'를 구축하여 정신 질환 치료 및 인간 능력 확장을 꿈꾸고 있습니다. 이러한 목표를 달성하기 위해 뉴럴링크는 전극 수 증가, 저전력 데이터 압축, 무선 통신 대역폭 확장, 그리고 지속적인 재보정이 필요 없는 신경 해독 기술 등 다양한 공학적 난제들을 해결하고 있으며, 모든 하드웨어와 소프트웨어를 자체 개발하고 있습니다."
+    },
+    {
+      "title_en": "Nano Banana Pro: Your new creative partner",
+      "url": "https://www.youtube.com/watch?v=UQsJIo46ZR8",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i2.ytimg.com/vi/UQsJIo46ZR8/hqhqdefault.jpg",
+      "title": "나노 바나나 프로: 당신의 새로운 창작 파트너",
+      "summary_kr": "구글의 제미나이 3 기반으로 탄생한 '나노 바나나 프로'는 사용자들의 새로운 창의적인 파트너로 소개됩니다. 이 강력한 AI 도구는 세상의 정보를 깊이 이해하고 사용자의 아이디어를 시각적으로 구현하는 데 특화되어 있습니다. 영상은 바나나 이미지를 활용하여 사용자의 생각을 반영하고, 변형하며, 완전히 새롭게 재구상하는 능력을 시연합니다. 복잡한 정보를 명확하게 전달하기 위해 상세한 인포그래픽과 정교한 다이어그램을 손쉽게 생성할 수 있습니다. 또한, 어떤 스타일이든 원하는 대로 텍스트를 만들어낼 수 있어 디자인 작업의 폭을 넓혀줍니다. 로고 스케치부터 시작하여 다양한 색상 팔레트를 탐색하고, 완성된 브랜드를 모자, 컵, 토트백 등 여러 제품에 시각화하는 과정이 인상적입니다. 전 세계 다양한 장소의 광고판에 적용된 로고를 보여주며 실제 응용 가능성을 강조합니다. 특히, 텍스트 프롬프트만으로 15컷의 영화 같은 시네마틱 스틸 이미지를 생성하여 시각적 스토리텔링 능력을 과시합니다. 색상, 초점, 조명 같은 요소들을 세밀하게 조절할 수 있으며, 선명한 4K 해상도와 다양한 화면 비율로 이미지를 출력할 수 있습니다. 모든 이미지에는 보이지 않는 워터마킹 기능이 적용되어 있어 콘텐츠의 출처를 보호합니다. 스케치부터 시작하여 깎아지른 절벽에 지어진 육각형 건물과 같은 복잡한 3D 건축 디자인까지 구현해내는 모습은 나노 바나나 프로의 무한한 잠재력을 보여줍니다. 이처럼 나노 바나나 프로는 어디서든 시작되는 아이디어를 사용자가 원하는 곳 어디든 펼쳐나갈 수 있도록 돕는 혁신적인 도구입니다."
+    },
+    {
+      "title_en": "Gemini 3: Interact with a virtual OS by simply drawing",
+      "url": "https://www.youtube.com/watch?v=nrfpu7mor6g",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i3.ytimg.com/vi/nrfpu7mor6g/hqhqdefault.jpg",
+      "title": "Gemini 3: 드로잉만으로 가상 OS와 상호작용하기",
+      "summary_kr": "이 영상은 'Gemini 3'라는 혁신적인 가상 운영체제의 기능을 소개합니다. 이 시스템의 핵심은 사용자가 간단한 드로잉 제스처를 통해 OS와 직관적으로 상호작용할 수 있다는 점입니다. 영상은 이러한 상호작용 방식의 효율성과 편리함을 두 가지 주요 기능을 시연하며 보여줍니다. 첫 번째 시연에서는 파일 요약 기능이 등장합니다. 사용자는 데스크탑에 있는 'notes.txt'와 'novel.txt' 두 개의 텍스트 파일을 원으로 표시한 뒤, 물음표를 그립니다. Gemini 3는 이 드로잉을 파일 내용 요약 요청으로 정확하게 인식합니다. 잠시 후, 두 파일에 대한 핵심 내용이 간결하게 요약된 팝업창이 화면에 나타납니다. 사용자는 요약의 정확성을 확인하기 위해 'novel.txt' 파일을 직접 열어 내용을 비교하는 모습도 보여줍니다. 두 번째 시연은 파일 삭제 기능입니다. 사용자는 'Game' 아이콘과 'novel.txt', 'Documents' 파일을 가로지르는 선을 그립니다. Gemini 3는 이 제스처를 삭제 명령으로 해석하고, 해당 파일과 폴더들을 자동으로 제거합니다. 이처럼 Gemini 3는 복잡한 명령어 입력이나 마우스 클릭 없이도 시각적인 제스처만으로 다양한 작업을 수행할 수 있음을 입증합니다. 이러한 방식은 사용자 경험을 크게 향상시키고, 더욱 직관적이고 효율적인 디지털 환경을 제공할 잠재력을 보여줍니다. Gemini 3는 단순한 그리기만으로 복잡한 OS 작업을 가능하게 하여, 미래 인터페이스의 새로운 방향을 제시하는 흥미로운 기술입니다."
+    },
+    {
+      "title_en": "Gemini 3: Code a retro 3D spaceship game with a single prompt",
+      "url": "https://www.youtube.com/watch?v=qOL49DYWr7s",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i2.ytimg.com/vi/qOL49DYWr7s/hqhqdefault.jpg",
+      "title": "제미니 3: 단일 프롬프트로 레트로 3D 우주선 게임 코딩하기",
+      "summary_kr": "이 영상은 구글의 가장 지능적인 모델인 제미니 3(Gemini 3)를 활용하여 단 하나의 상세한 텍스트 프롬프트로 레트로 퓨처리즘 3D 우주선 웹 게임을 개발하는 과정을 시연합니다. 사용자는 Three.js 라이브러리를 사용하여 모든 HTML, CSS, JavaScript 코드가 단일 `index.html` 파일 내에 포함되도록 명시된 게임을 요청합니다. 게임의 시각적 스타일은 '신스웨이브/레트로웨이브' 미학을 특징으로 하며, 어둡고 몰입감 있는 3D 환경을 조성합니다. 배경에는 레트로풍 성운, 별, 행성 등이 묘사되고, 원거리 객체가 부드럽게 어둠 속으로 사라지도록 거리 안개 효과가 적용됩니다. 게임 내 에셋은 외부 모델 가져오기 없이 복잡한 기하학적 기본 도형을 프로그래밍 방식으로 구성해야 합니다. 사용자 인터페이스는 현재 점수를 표시하는 최소한의 HUD와 '게임 오버' 화면 및 '재시작' 버튼을 포함하도록 요구됩니다. 또한, 게임 컨트롤은 데스크톱/웹(키보드/마우스)과 모바일/터치(터치/기울기) 모두를 지원하는 크로스 플랫폼으로 설계되어야 합니다. 기술적 제약 사항으로는 Three.js 라이브러리와 후처리 셰이더가 CDN을 통해 가져와지는 것을 포함하여 모든 요소가 단일 HTML 파일에 통합되어야 함을 강조합니다. 성능 최적화를 위해 레이저와 적 객체에 대한 객체 풀링(object pooling) 기법 사용도 명시합니다. 이 모든 상세한 요구사항이 담긴 프롬프트를 입력하자, 제미니 3는 곧바로 레트로풍의 3D 우주선 슈팅 게임을 생성하여 보여줍니다. 게임은 빛나는 태양과 격자무늬 바닥, 움직이는 적들을 특징으로 하며, 플레이어가 우주선을 조종하여 적들을 공격하는 모습을 생생하게 구현합니다. 이는 제미니 3가 복잡한 아이디어를 빠르고 효율적으로 현실화할 수 있는 강력한 코드 생성 및 개발 도구임을 명확히 보여줍니다."
+    },
+    {
+      "title_en": "Gemini 3: Zero-shot website development",
+      "url": "https://www.youtube.com/watch?v=ti6Z3zMLsNA",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i1.ytimg.com/vi/ti6Z3zMLsNA/hqhqdefault.jpg",
+      "title": "Gemini 3: 제로샷 웹사이트 개발",
+      "summary_kr": "이 영상은 Google의 최신 지능형 모델인 Gemini 3를 활용하여 상세한 텍스트 프롬프트만으로 웹사이트를 제작하는 '제로샷' 개발 시연을 보여줍니다. 사용자는 'Twist'라는 가상의 가족 댄스 나이트를 위한 활기차고 레트로한 랜딩 페이지를 만들도록 요청합니다. 프롬프트에는 1972년 마이애미 풀 파티 분위기와 '레트로 키치' 미학을 반영한 카툰-플랫 디자인, 사진 없는 구성, 그리고 코랄 핑크, 민트, 써니 옐로우와 같은 트로피컬 파스텔 팔레트 사용 등 매우 구체적인 지시사항이 포함되어 있습니다. 또한, 페이지가 가족 친화적이어야 하며 실제 아티스트 이름을 사용하지 않아야 한다는 요구사항도 명시되었습니다. Gemini 3는 이러한 복잡하고 상세한 지시를 완벽하게 해석하여 즉시 기능적이고 시각적으로 매력적인 웹사이트를 생성합니다. 완성된 웹페이지는 'Twist' 로고가 있는 내비게이션 바와 중심부에 플라밍고 애니메이션을 특징으로 합니다. 주요 섹션에는 댄스 나이트를 설명하는 'Shake Your Tailfeather'와 'Retro Beats', 'Family Fun', 'Cool Down'과 같은 세부 활동 소개가 포함됩니다. 'Tickets to Paradise' 섹션에서는 'Single Twist' 및 'The Squad'에 대한 가격 정보를 제공하며, 문의를 위한 'Say Hello!' 섹션에는 스튜디오 주소, 이벤트 시간(매주 금요일 6PM-8PM), 이메일 주소 및 연락처 양식이 잘 구성되어 있습니다. 이 시연은 Gemini 3가 텍스트 기반의 설명을 복잡한 시각적 웹 페이지로 얼마나 정확하고 창의적으로 변환할 수 있는지를 명확히 보여줍니다. 이는 사용자의 아이디어를 현실로 구현하는 데 있어 Gemini 3의 뛰어난 지능과 역량을 증명하는 사례입니다. 궁극적으로, Gemini 3는 어떤 아이디어라도 생생하게 구현하도록 돕는 가장 지능적인 모델임을 강조하며 영상이 마무리됩니다."
+    },
+    {
+      "title_en": "Bring ideas to life with Gemini 3",
+      "url": "https://www.youtube.com/watch?v=5njF8J0mQ1k",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i2.ytimg.com/vi/5njF8J0mQ1k/hqhqdefault.jpg",
+      "title": "Gemini 3, 아이디어를 현실로 구현하다",
+      "summary_kr": "이 영상은 구글의 최신 AI 모델인 Gemini 3의 다재다능한 기능을 효과적으로 소개하고 있습니다. Gemini 3은 사용자가 아이디어를 배우고, 만들고, 계획하는 전 과정을 지원하여 현실로 구현하도록 돕는 강력한 도구입니다. 특히, 손글씨로 작성된 한국어 레시피를 정확히 인식하고, 이를 기반으로 영어와 한국어가 병기된 웹사이트를 자동으로 생성하는 모습은 Gemini 3의 뛰어난 해석 및 변환 능력을 보여줍니다. 또한, 복잡한 과학적 개념을 이해하는 데 탁월한 성능을 발휘합니다. RNA 중합효소의 작동 방식과 전사 과정에 대한 상세한 질문에 대해 인터랙티브 시뮬레이션과 함께 깊이 있는 정보를 제공하여 사용자 학습을 돕습니다. 광범위한 스케일을 시각화하는 기능도 인상적입니다. 지구와 태양의 크기를 비교하는 요청에 DNA 구조부터 태양계 규모에 이르기까지 다양한 대상을 통해 스케일을 직관적으로 보여줍니다. 창의적인 작업 분야에서는 레트로풍의 새로운 세계를 디자인하거나 추상적인 영감을 구체적인 시각 자료로 전환하는 능력을 강조합니다. 실용적인 측면에서 Gemini 3은 이메일 받은 편지함을 정리하거나 개인의 할 일 목록을 관리하는 등 일상적인 업무를 자동화하고 간소화합니다. 역사적 인물이나 예술 작품에 대한 심도 있는 탐색도 가능하여, 빈센트 반 고흐의 작품 갤러리를 그의 생애 맥락과 연결하여 연대기적으로 탐색할 수 있는 기능을 제공합니다. 나아가, 핀볼 머신 제어를 위한 코드를 생성하고 애플리케이션 구조를 계획하는 데 도움을 주는 등 코딩을 통한 문제 해결 능력까지 갖추고 있음을 보여줍니다. 이처럼 Gemini 3은 학습, 구축, 계획 등 다양한 분야에서 사용자의 아이디어를 생생한 결과물로 만들어내는 포괄적인 AI 솔루션임을 영상은 명확히 전달합니다."
+    },
+    {
+      "title_en": "Gemini 3: Code a visualization of nuclear fusion",
+      "url": "https://www.youtube.com/watch?v=huK9q10qf40",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i1.ytimg.com/vi/huK9q10qf40/hqhqdefault.jpg",
+      "title": "Gemini 3: 핵융합 시각화 코딩하기",
+      "summary_kr": "이 영상은 구글의 강력한 인공지능 모델인 제미니 3(Gemini 3)가 핵융합 시뮬레이션을 시각적으로 구현하는 과정을 상세하게 보여줍니다. 첫 번째 단계에서 사용자는 토카막 내 플라즈마 흐름의 고정(confinement)에서 영감을 받은 셰이더를 생성하고, 궤도 제어 기능을 추가하여 단일 HTML 페이지로 반환하라는 명령을 내립니다. 제미니 3는 이 요청에 따라 자기장 내에서 움직이는 플라즈마의 동적인 시각화를 즉시 생성하여 제시합니다. 이어서 사용자는 생성된 셰이더를 기반으로 핵융합에 대한 글을 작성하고, 적절한 사운드트랙을 추가하며, 안정적인 핵융합 달성 단계를 반영하도록 셰이더와 사운드트랙의 강도를 조절하여 단일 HTML 파일로 통합하라고 요청합니다. 제미니 3는 이를 바탕으로 핵융합 과정을 네 가지 주요 단계로 나누어 시각적 및 청각적 경험과 함께 설명하는 종합적인 결과물을 성공적으로 생성합니다. 첫 번째 단계인 '주입(PHASE I: INJECTION)'에서는 중수소와 삼중수소가 챔버에 주입되고 자기 변위가 시작되며 보라색 플라즈마가 형성됩니다. 다음 단계인 '난류(PHASE II: TURBULENCE)'에서는 옴 저항 가열로 인해 플라즈마가 붉고 불안정한 상태를 보이며 불안정성이 격리를 위협하는 상황을 묘사합니다. '고정(PHASE III: CONFINEMENT)' 단계에서는 초전도 자석이 자기장을 강화하여 플라즈마를 나선형으로 정렬시키고 혼돈을 억제하여 푸른빛을 띠며 안정화됩니다. 마지막 '점화(PHASE IV: IGNITION)' 단계에서는 온도가 1억 켈빈에 도달하여 자가 유지 반응이 일어나고, 안정적인 핵융합이 달성되어 백색의 고정된 플라즈마가 나타납니다. 이 시연은 제미니 3가 복잡한 과학적 개념을 시각화하고, 풍부한 스토리텔링과 오디오를 결합하여 사용자의 아이디어를 현실로 구현하는 뛰어난 능력을 지닌 지능형 모델임을 명확하게 보여줍니다."
+    },
+    {
+      "title_en": "Vibe Coding with Gemini 3 in Google AI Studio",
+      "url": "https://www.youtube.com/watch?v=meUr8fjy8lQ",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i2.ytimg.com/vi/meUr8fjy8lQ/hqhqdefault.jpg",
+      "title": "Google AI Studio와 Gemini 3: 아이디어에 생명력을 불어넣는 코딩",
+      "summary_kr": "이 영상은 구글 AI 스튜디오(Google AI Studio)와 제미니 3 프로(Gemini 3 Pro)를 활용하여 아이디어를 현실로 구현하는 과정을 보여줍니다. 사용자는 제미니 3 프로의 강력한 기능을 통해 완전히 새로운 경험을 창조할 수 있습니다. 구글 AI 스튜디오는 이미지를 인식하고(새 종류 식별), 음성을 분석하여(대화 내용 파악) 애플리케이션을 개발하는 능력을 갖추고 있습니다. 단일 프롬프트 입력만으로도 복잡한 애플리케이션을 구축할 수 있다는 점이 이 플랫폼의 핵심 강점입니다. 예를 들어, 빅 뱅에 대한 학술 PDF 문서를 기반으로 5분짜리 유튜브 비디오를 만들거나, RV 매뉴얼 텍스트 파일을 대화형 설명서로 변환하는 것이 가능합니다. 또한, 'I'm feeling lucky' 기능을 통해 창의적인 아이디어를 얻고 개발 과정을 시작할 수 있습니다. 영상에서는 자동차 비디오 게임을 만드는 과정을 상세히 시연하며, 초기 코드 생성부터 시작하여 차량 색상 변경, 두 번째 차량 추가, 카운터 표시 크기 조절 등 여러 단계에 걸쳐 앱을 정교하게 개선하는 모습을 보여줍니다. 개발된 애플리케이션은 친구들과 공유하고, 다양한 형태로 리믹스하여 무한한 가능성을 탐색할 수 있습니다. 레트로 벡터 우주선 게임, 맞춤형 코믹 히어로, 천문학 학습 도구, 인터랙티브 홀리데이 카드, 패셔너블한 핏 체크 앱 등 다채로운 사례들이 제미니 3의 광범위한 활용성을 입증합니다. 이처럼 구글 AI 스튜디오는 개발자들이 인공지능의 힘을 빌려 상상하는 모든 것을 생생한 현실로 만들어낼 수 있도록 돕는 혁신적인 플랫폼입니다."
+    },
+    {
+      "title_en": "Gemini 3: Building a procedural fractal world with Shaders",
+      "url": "https://www.youtube.com/watch?v=0Sed3evbQxI",
+      "source": "Deepmind YouTube",
+      "category": "Video",
+      "date": "2025-12-10",
+      "image_url": "https://i1.ytimg.com/vi/0Sed3evbQxI/hqhqdefault.jpg",
+      "title": "Gemini 3: 셰이더로 절차적 프랙탈 세계 구축하기",
+      "summary_kr": "이 영상은 Gemini 3를 활용하여 셰이더 기반의 절차적 프랙탈 세계를 구축하는 과정을 시각적으로 보여줍니다. 영상은 단순히 기술 데모를 넘어, 시각적으로나 청각적으로 특정 미적 취향에 맞춰 환경을 완벽하게 조각할 수 있는 능력을 강조합니다. 특히 셰이더를 사용하여 우주선과 같은 복잡한 요소를 생성하고, 아날로그 스타일 신시사이저와 시퀀서를 통합하여 사운드 디자인을 구현하는 점이 인상적입니다. 핵심적인 기능은 모든 시각적 요소와 상호작용을 사운드트랙의 다이내믹에 매핑하는 동적 매핑 시스템입니다. 이를 통해 오디오와 비디오가 완벽하게 조화되는 몰입감 넘치는 경험을 제공하며, 환경의 변화가 음악과 동기화되어 나타나는 것을 확인할 수 있습니다. 영상에서 제시되는 프랙탈 세계는 고도로 상세하며 절차적으로 진화하여 무한한 변화와 복잡성을 선사합니다. 셰이더의 활용은 복잡한 기하학적 패턴과 조명 효과를 효율적이고 유연하게 생성하여 초현실적이고 매혹적인 분위기를 조성합니다. 중앙에 위치한 동적으로 변화하는 프랙탈 객체는 실시간 절차적 생성의 강력한 힘을 잘 보여줍니다. 전반적으로 Gemini 3는 아티스트와 개발자가 고급 절차적 콘텐츠 생성 및 동기화를 통해 상상 속 아이디어를 현실로 구현할 수 있도록 돕는 지능형 모델임을 시사합니다."
+    },
+    {
+      "title_en": "The State of AI: A vision of the world in 2030",
+      "url": "https://www.technologyreview.com/2025/12/08/1128922/the-state-of-ai-a-vision-of-the-world-in-2030/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "AI의 현주소: 2030년 미래 세계 전망",
+      "summary_kr": "‘The State of AI’는 파이낸셜 타임즈와 MIT 테크놀로지 리뷰가 협력하여 선보이는 새로운 기획 시리즈입니다. 매주 월요일마다 발행되는 이 시리즈는 전 세계 권력 구조를 재편하고 있는 생성형 AI 혁명의 핵심적인 측면들을 심층적으로 다뤄왔습니다. 양 매체의 필진들은 AI가 사회, 경제, 그리고 지정학적 환경에 미치는 영향을 날카로운 통찰로 분석하며 독자들에게 중요한 시사점을 제공해왔습니다. 이번 회차는 그 대장정의 마지막 편으로, 그간의 논의를 집대성하는 의미를 지닙니다. 특히 MIT 테크놀로지 리뷰의 선임 AI 에디터인 윌 더글러스(Will Douglas)가 참여하여, 2030년 미래 세계의 모습을 AI 관점에서 심도 깊게 조명할 예정입니다. 독자들은 이 최종편을 통해 AI가 가져올 미래 변화의 큰 그림을 이해하고, 다가올 시대에 대한 중요한 통찰을 얻을 수 있을 것입니다."
+    },
+    {
+      "title_en": "The Download: four (still) big breakthroughs, and how our bodies fare in extreme heat",
+      "url": "https://www.technologyreview.com/2025/12/08/1128982/the-download-four-still-big-breakthroughs-and-how-our-bodies-fare-in-extreme-heat/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "더 다운로드: 여전히 주목할 4가지 주요 돌파구와 폭염 속 인체의 대처법",
+      "summary_kr": "이 글은 기술 세계의 최신 동향을 매일 전달하는 주중 뉴스레터인 '더 다운로드'의 오늘자 발행본입니다. 이번 호에서는 2026년 발표될 주요 기술 돌파구 목록에 포함되지는 않았지만 여전히 주목할 만한 가치가 있는 4가지 기술을 집중적으로 다룹니다. 저희 편집국은 오랜 기간 동안 매년 미래를 새롭게 정의할 것이라 믿는 10가지 핵심 기술적 돌파구를 신중하게 선정해 왔습니다. 비록 올해의 상위 10개 목록에는 들지 못했지만, 이 4가지 기술들은 그 중요성과 잠재력 면에서 여전히 깊은 논의가 필요합니다. 또한, 본 뉴스레터는 극한의 폭염 환경 속에서 우리 인체가 어떻게 반응하고 대처하는지에 대한 과학적 분석과 통찰도 함께 제공합니다. 이를 통해 독자들은 기술 혁신과 더불어 현실적인 인체 반응에 대한 유익한 정보를 얻을 수 있습니다."
+    },
+    {
+      "title_en": "Don’t overlook the value of co-supervision in PhD training",
+      "url": "https://www.nature.com/articles/d41586-025-03998-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "박사 과정 교육의 질을 높이는 공동 지도감독의 가치: 간과해서는 안 될 중요성",
+      "summary_kr": "이 기사는 박사 학위 과정에서 '공동 지도감독(co-supervision)'이 지닌 중요한 가치에 대해 심층적으로 다루고 있습니다. 공동 지도감독은 한 명의 지도교수 대신 여러 명의 교수가 학생을 지도하는 방식으로, 학생들에게 다양한 학문적 관점과 광범위한 전문 지식을 제공할 수 있다는 점을 강조합니다. 이는 학생의 연구 주제에 대한 심층적인 이해를 돕고, 복잡한 문제 해결에 필요한 다각적인 접근 방식을 가능하게 합니다. 또한, 지도교수 한 명에게 집중되는 부담을 분산시켜 학생과 교수 모두에게 더 나은 지원 환경을 조성하며, 학생의 정신 건강과 학업 만족도를 높이는 데 크게 기여할 수 있습니다. 특히 융합 연구의 중요성이 커지는 현대 과학 분야에서는 여러 분야의 전문가가 함께 지도함으로써 혁신적인 연구 결과를 도출하고, 학생들에게 폭넓은 네트워킹 기회를 제공하는 이점을 가집니다. 따라서 이 기사는 박사 과정 교육 시스템에서 공동 지도감독의 잠재력을 충분히 인식하고, 이를 적극적으로 도입하고 활용해야 한다고 역설합니다. 이러한 변화는 궁극적으로 박사 과정 학생들의 성공적인 학위 취득과 미래 연구자로서의 성장에 필수적인 요소가 될 것입니다."
+    },
     {
       "title_en": "리콴유 : \"심장을 걸어라\"",
       "url": "https://www.youtube.com/shorts/ZHQu15BE9LY",
@@ -1716,6 +1851,46 @@
       "image_url": null,
       "title": "ASH 학회: 스타 테라퓨틱스 항체, 출혈 질환 3상 성공 가능성 빛내다",
       "summary_kr": "미국 올랜도에서 열린 ASH(미국 혈액학회) 학회에서 스타 테라퓨틱스(Star Therapeutics)는 자사의 항출혈 항체 VGA039의 임상적 잠재력을 성공적으로 선보였습니다. 현재 중요한 3상 임상시험이 순조롭게 진행 중인 가운데, 회사는 이 항체가 흔한 출혈 질환에 미칠 긍정적인 영향을 강조했습니다. 특히 이전 1/2상 임상시험에서 고무적인 결과가 도출되어, VGA039가 출혈 질환 환자들에게 새로운 희망을 제공할 수 있음을 입증했습니다. 이러한 초기 단계의 데이터는 항체 VGA039가 향후 3상 임상시험에서도 성공적인 결과를 보일 가능성을 강력하게 시사합니다. 스타 테라퓨틱스는 이 데이터를 바탕으로 출혈 질환 치료 분야에서 VGA039의 중추적인 역할을 기대하고 있습니다. 이는 만성 출혈 질환으로 고통받는 수많은 환자들의 삶의 질을 개선할 획기적인 치료법의 등장을 예고하며, 과학계의 큰 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "#ASH25: Star Therapeutics details early data for blood disorder shot, weighs IPO",
+      "url": "https://endpoints.news/ash25-star-therapeutics-details-early-data-for-blood-disorder-shot-weighs-ipo/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-08",
+      "image_url": null,
+      "title": "#ASH25: 스타 테라퓨틱스, 혈액 질환 주사제 초기 데이터 공개 및 IPO 추진 검토",
+      "summary_kr": "스타 테라퓨틱스(Star Therapeutics)는 혈액 질환 치료를 위한 월 1회 투여 주사제에 대한 긍정적인 초기 임상 데이터를 발표했습니다. 플로리다주 올랜도에서 열린 예비 연구 결과에 따르면, 폰 빌레브란트병(von Willebrand disease) 환자에게 이 주사제를 투여했을 때 출혈률이 현저히 감소하는 효과를 보였습니다. 이러한 고무적인 결과는 해당 질환을 앓고 있는 환자들에게 새로운 치료 대안을 제공할 가능성을 보여줍니다. 회사 측은 이번 초기 데이터의 성공을 기반으로 더 큰 규모의 후속 임상 시험을 신속하게 완료하기 위한 다음 단계들을 면밀히 검토하고 있다고 밝혔습니다. 또한, 궁극적인 상업화 및 시장 진출을 목표로 하는 과정에서 자금 조달을 위해 기업공개(IPO) 추진 여부 또한 신중하게 고려하고 있는 것으로 알려졌습니다. 이 신약 후보 물질은 폰 빌레브란트병 환자의 삶의 질을 개선하고 질병 관리 패러다임을 바꿀 잠재력을 지니고 있어, 학계와 업계의 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "Reducing white space in early development: Four regulatory pitfalls to avoid pre-IND",
+      "url": "https://www.clinicaltrialsarena.com/sponsored/reducing-white-space-in-early-development-four-regulatory-pitfalls-to-avoid-pre-ind/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-08",
+      "image_url": null,
+      "title": "초기 개발의 비효율성 제거: IND 신청 전 피해야 할 4가지 규제 함정",
+      "summary_kr": "신약 개발의 초기 단계에서 발생하는 불필요한 지연을 최소화하고 효율성을 극대화하는 것은 성공적인 임상 진입을 위해 필수적입니다. 특히, 규제 당국과의 상호작용 과정, 예를 들어 임상시험계획승인신청(IND) 제출 전 이루어지는 전(前) IND 회의에서 발생할 수 있는 장애물과 지연을 사전에 방지하는 것이 매우 중요합니다. 이러한 선제적이고 전략적인 접근은 의약품 개발 파이프라인이 1상 임상시험 단계로 원활하게 전환될 수 있도록 하는 데 결정적인 역할을 합니다. 본 기사는 초기 개발 단계에서 흔히 마주치는 '비효율적인 공백'을 줄이는 데 초점을 맞추고 있으며, IND 신청 이전에 반드시 피해야 할 네 가지 주요 규제적 함정을 구체적으로 제시합니다. 개발사들이 이러한 함정들을 인지하고 사전에 대비함으로써, 규제 준수 관련 리스크를 효과적으로 관리하고, 결과적으로 시간과 비용을 절약하며 신약 개발 과정을 가속화할 수 있도록 돕고자 합니다. 궁극적으로, 이는 신약이 환자들에게 더 빠르게 도달할 수 있도록 기여하는 중요한 전략이 될 것입니다."
+    },
+    {
+      "title_en": "Eli Lilly reports Phase III trial results of Jaypirca for CLL/SLL",
+      "url": "https://www.clinicaltrialsarena.com/news/eli-lilly-results-jaypirca/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-08",
+      "image_url": null,
+      "title": "일라이 릴리, 만성 림프구성 백혈병/소림프구 림프종 치료제 '자이퍼카' 3상 임상 결과 발표",
+      "summary_kr": "일라이 릴리(Eli Lilly and Company)는 만성 림프구성 백혈병(CLL) 및 소림프구 림프종(SLL) 치료를 위한 자사의 약물 '자이퍼카(Jaypirca)'의 3상 임상시험 결과를 발표했습니다. 이번에 공개된 BRUIN CLL-314 시험은 비공유 결합성 BTK 억제제인 자이퍼카가 기존 표준 치료제 중 하나인 임브루비카(Imbruvica)와 비교하여 어떤 결과를 보였는지 평가했습니다. 자이퍼카는 BTK 단백질에 비공유 방식으로 결합하여 암세포의 증식 및 생존 신호를 억제하는 기전을 가진 혁신적인 치료제로 알려져 있습니다. CLL과 SLL은 림프구를 비정상적으로 증식시키는 혈액암의 일종으로, 효과적인 치료 옵션이 지속적으로 요구되는 질환입니다. 이번 3상 임상시험은 자이퍼카가 이들 질환에 대해 임상적으로 의미 있는 결과를 도출했는지 확인하는 중요한 단계였습니다. 일라이 릴리는 이번 연구 결과를 통해 해당 질환으로 고통받는 환자들에게 새로운 치료 선택지를 제공할 수 있을 것으로 기대하고 있습니다."
+    },
+    {
+      "title_en": "Amylyx presents safety outcomes of AMX0114 in LUMINA study",
+      "url": "https://www.clinicaltrialsarena.com/news/amylyx-amx0114-lumina-study/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-08",
+      "image_url": null,
+      "title": "아밀릭스, LUMINA 연구에서 AMX0114의 안전성 결과 발표",
+      "summary_kr": "아밀릭스 제약(Amylyx Pharmaceuticals)은 자사의 약물 AMX0114에 대한 임상 1상 LUMINA 연구의 초기 내약성 및 안전성 결과를 발표했습니다. 이번 연구 결과는 근위축성 측삭 경화증(ALS) 환자를 대상으로 한 AMX0114의 안전성을 평가하는 데 중점을 두었습니다. 특히, 연구에서는 약물의 안전성 프로필과 함께 ALS 환자들의 바이오마커 특성 분석 결과도 함께 공개되어 주목받고 있습니다. 이 바이오마커 정보는 AMX0114가 ALS 치료에 어떻게 작용하는지에 대한 중요한 통찰력을 제공할 것으로 기대됩니다. LUMINA 연구의 긍정적인 초기 데이터는 AMX0114가 향후 더 심층적인 임상 단계로 진입하는 데 중요한 기반을 마련해 줄 것입니다. 이러한 연구 결과는 난치병인 ALS 환자들에게 새로운 치료 가능성을 제시하며, 향후 치료제 개발에 긍정적인 신호로 작용할 것으로 보입니다."
     },
     {
       "title_en": "대만 총통 단독 인터뷰",
