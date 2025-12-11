@@ -413,10 +413,7 @@ def main():
     candidates.extend(
         scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'))
     candidates.extend(
-        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video'))
-    candidates.extend(
-        scrape_youtube_videos('UCP7jMXSY2xbc3KCAE0MHQ-A', 'Deepmind YouTube', 'Video'))
-    
+        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video'))    
     
     candidates = [item for item in candidates if item['url'] not in seen_urls]
         
