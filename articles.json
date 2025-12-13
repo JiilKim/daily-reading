@@ -1,204 +1,6 @@
 {
-  "last_updated": "2025-12-12 06:11:49",
-  "failed_queue": [    
-    {
-      "title_en": "This science sleuth revealed a retraction crisis at Indian universities",
-      "description_en": "Nature, Published online: 08 December 2025;doi:10.1038/d41586-025-03839-2Achal Agrawal is part of Nature’s 10, a list of people who shaped science in 2025.",
-      "url": "https://www.nature.com/articles/d41586-025-03839-2",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "This scientist found a new trick of the immune system by digging through cellular rubbish",
-      "description_en": "Nature, Published online: 08 December 2025;doi:10.1038/d41586-025-03846-3Yifat Merbl is part of Nature’s 10, a list of people who shaped science in 2025.",
-      "url": "https://www.nature.com/articles/d41586-025-03846-3",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "How to get science back into policymaking",
-      "description_en": "Nature, Published online: 08 December 2025;doi:10.1038/d41586-025-03978-6Misunderstanding and hubris have broken public trust in governments’ use of science, but it can be restored.",
-      "url": "https://www.nature.com/articles/d41586-025-03978-6",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "The first global pandemic treaty — and the woman who made it happen",
-      "description_en": "Nature, Published online: 08 December 2025;doi:10.1038/d41586-025-03841-8Precious Matsoso is part of Nature’s 10, a list of people who shaped science in 2025.",
-      "url": "https://www.nature.com/articles/d41586-025-03841-8",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-10",
-      "image_url": null
-    },
-    {
-      "title_en": "Five years of COVID vaccines: how a breakthrough created a public-health crisis",
-      "description_en": "Nature, Published online: 08 December 2025;doi:10.1038/d41586-025-03992-8Physician and science communicator Kristen Panthagani talks about why public trust in vaccines has fallen since the COVID-19 pandemic.",
-      "url": "https://www.nature.com/articles/d41586-025-03992-8",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-10",
-      "image_url": null
-    },
-    {
-      "title_en": "Postdoc Portrait: Marwa Zafarullah",
-      "description_en": "This postdoc investigates pathways that drive neuromuscular disorders to uncover therapeutic possibilities.",
-      "url": "https://www.the-scientist.com/postdoc-portrait-marwa-zafarullah-73829",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "The Gollum Effect: 44 Percent of Scientists Report Territorial Research Experiences",
-      "description_en": "Survey data showed that hoarding research topics and resources, termed the Gollum effect, has a lasting impact on trainees and perpetuates a toxic research culture.",
-      "url": "https://www.the-scientist.com/the-gollum-effect-44-percent-of-scientists-report-territorial-research-experiences-73832",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "The Biggest Breakthroughs in Cell Biology in 2025",
-      "description_en": "From microglia reprogramming to immune cell-based diagnostics, 2025 was a big year for breakthroughs in cell biology.",
-      "url": "https://www.the-scientist.com/the-biggest-breakthroughs-in-cell-biology-in-2025-73835",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "Cancer Immunotherapy May Work Better Before 3PM",
-      "description_en": "People with cancer receiving immunotherapy earlier in the day survived longer, suggesting that adjusting treatment timing may improve outcomes.",
-      "url": "https://www.the-scientist.com/cancer-immunotherapy-may-work-better-before-3pm-73831",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "Advancing Cell Culture with Eco-Friendly Incubator Shakers",
-      "description_en": "A new incubator and shaker combination effectively facilitates cell culture with a greatly reduced carbon footprint.",
-      "url": "https://www.the-scientist.com/advancing-cell-culture-with-eco-friendly-incubator-shakers-73783",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "What an FDA veteran thinks a controversial vaccine email gets right—and wrong",
-      "description_en": "Phil Krause applauds call by top agency official Vinay Prasad for better data, but says his approach is “destructive”",
-      "url": "https://www.science.org/content/article/what-fda-veteran-thinks-controversial-vaccine-email-gets-right-and-wrong",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-12-12",
-      "image_url": null
-    },
-    {
-      "title_en": "Cosmic neutrinos’ kink could help explain origins of the elusive particles",
-      "description_en": "Energy spectrum of elusive particles shows an intriguing bump, giant IceCube experiment reports",
-      "url": "https://www.science.org/content/article/cosmic-neutrinos-kink-could-help-explain-particles-origins",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "Can adding light sensors to nerve cells switch off pain, epilepsy, and other disorders?",
-      "description_en": "Optogenetics is poised to move from a research tool to new therapies—if scientists can show it’s safe",
-      "url": "https://www.science.org/content/article/can-adding-light-sensors-nerve-cells-switch-pain-epilepsy-and-other-disorders",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "The strongest spiderweb on Earth is spun only by females",
-      "description_en": "Bark spider silk is stronger than steel, but males make a weaker version",
-      "url": "https://www.science.org/content/article/strongest-spiderweb-earth-spun-only-females",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "Warm, humid ‘atmospheric rivers’ threaten Antarctica",
-      "description_en": "Growing more common as climate warms, these once-rare events could ultimately accelerate ice loss",
-      "url": "https://www.science.org/content/article/warm-humid-atmospheric-rivers-threaten-antarctica",
-      "source": "Science",
-      "category": "News",
-      "date": "2025-12-11",
-      "image_url": null
-    },
-    {
-      "title_en": "STAT+: J&J’s two-drug combo blocked tumors in advanced multiple myeloma",
-      "description_en": "ASH's 2025 meeting ended with strong multiple myeloma data from J&J, a new treatment for a rare disorder, and strains on a sickle-cell data program.",
-      "url": "https://www.statnews.com/2025/12/09/ash-jandj-multiple-myeloma-and-cdc-sickle-cell-data/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/IMG_0778-645x645.jpg"
-    },
-    {
-      "title_en": "STAT+: Biosecure Act advances, but extra ACA subsidies are still up in the air",
-      "description_en": "In today's D.C. Diagnosis newsletter, the Biosecure Act advances, but extra ACA subsidies are still up in the air.",
-      "url": "https://www.statnews.com/2025/12/09/biosecure-act-aca-subsidies-dc-diagnosis-newsletter/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/AP25044716544497-645x645.jpg"
-    },
-    {
-      "title_en": "STAT+: Are we ready to let AI interpret X-rays all by itself?",
-      "description_en": "In this edition of Health Tech newsletter: How radiology is navigating AI, and Schizophrenia app heads to FDA.",
-      "url": "https://www.statnews.com/2025/12/09/artificial-intelligence-radiology-schizophrenia-app-health-tech/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2024/08/AdobeStock_215934462-645x645.jpeg"
-    },
-    {
-      "title_en": "STAT+: Terns leukemia drug could succeed Novartis blockbuster",
-      "description_en": "And other biotech news, brought to you by The Readout newsletter",
-      "url": "https://www.statnews.com/2025/12/09/biotech-news-terns-threatens-novartis-cml-throne/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/6_lores-645x645.jpg"
-    },
-    {
-      "title_en": "STAT+: Pharmalittle: We’re reading about FDA scrutiny of RSV therapies, an AI tool for clinical trials, and more",
-      "description_en": "In this morning's Pharmalittle roundup, we're reading about FDA scrutiny of RSV therapies, an AI tool for clinical trials, and more.",
-      "url": "https://www.statnews.com/pharmalot/2025/12/09/fda-rsv-merck-sanofi-astrazeneca-abortion-glp1/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
-    },
-    {
-      "title_en": "Gene therapy spurs improvement in rare neuromuscular disease",
-      "description_en": "And other health news from the Morning Rounds newsletter",
-      "url": "https://www.statnews.com/2025/12/09/health-news-gene-therapy-for-rare-spinal-disease/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2024/06/AdobeStock_143027517-645x645.jpeg"
-    },
-    {
-      "title_en": "Opinion: STAT+: FDA drug center’s new acting director fits a pattern of risky, internal contradictions among agency leadership",
-      "description_en": "The FDA drug center’s new acting director Tracy Beth Høeg fits a pattern of risky, internal contradictions among agency leadership, a professor argues.",
-      "url": "https://www.statnews.com/2025/12/09/fda-contradictions-deepen-tracy-hoeg-vinay-prasad-marty-makary/?utm_campaign=rss",
-      "source": "STAT News",
-      "category": "News",
-      "date": "2025-12-10",
-      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/LabDish_Frame_FDA-645x645.jpg"
-    },
+  "last_updated": "2025-12-13 06:26:05",
+  "failed_queue": [
     {
       "title_en": "Opinion: It’s past time to update the rules intended to slow the FDA’s revolving door",
       "description_en": "“Nothing corrodes public trust in a regulatory agency faster than the sense that its senior officials are auditioning for future jobs at the very companies they regulate.”",
@@ -313,7 +115,7 @@
       "url": "https://arstechnica.com/tech-policy/2025/12/trumps-order-blocking-wind-development-thrown-out-by-court/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2235990625-500x500.jpg"
     },
     {
@@ -322,7 +124,7 @@
       "url": "https://arstechnica.com/science/2025/12/days-after-cop30-brazil-weakened-amazon-safeguards/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1249347312-500x500.jpg"
     },
     {
@@ -331,7 +133,7 @@
       "url": "https://arstechnica.com/science/2025/12/study-confirms-romans-used-hot-mixing-to-make-concrete/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/concrete1-500x500.jpg"
     },
     {
@@ -340,7 +142,7 @@
       "url": "https://www.wired.com/story/mutations-in-a-single-gene-have-been-linked-to-mental-illness/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/6936f402f531b8d4d032a16f/master/pass/GettyImages-2182084501.jpg"
     },
     {
@@ -763,7 +565,7 @@
       "url": "https://www.biopharmadive.com/news/novartis-ash-ianalumab-immune-thrombocytopenia-vayhit2-results/807391/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -898,7 +700,7 @@
       "url": "https://www.thetransmitter.org/spectrum/insights-on-suicidality-and-autism-and-more/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-spotted-20251209.png"
     },
     {
@@ -907,7 +709,7 @@
       "url": "https://www.thetransmitter.org/retraction/exclusive-springer-nature-retracts-removes-nearly-40-publications-that-trained-neural-networks-on-bonkers-dataset/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-FacialAnalysisRetractions-525.png"
     },
     {
@@ -916,7 +718,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02112-z",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -943,7 +745,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04095-7",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -952,7 +754,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04119-2",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -961,7 +763,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04103-w",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -970,7 +772,7 @@
       "url": "https://www.nature.com/articles/d41591-025-00069-x",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -988,7 +790,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2505478?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -997,7 +799,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2515061?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1006,7 +808,7 @@
       "url": "https://www.the-scientist.com/human-transcriptome-maps-exclude-most-populations-scientists-decoded-just-how-much-73841",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1015,7 +817,7 @@
       "url": "https://www.the-scientist.com/feeling-blue-and-sleepless-may-lower-natural-killer-cell-numbers-73839",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1024,7 +826,7 @@
       "url": "https://www.science.org/content/article/first-patients-have-been-helped-cancer-fighting-cells-made-directly-their-bodies",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1123,7 +925,7 @@
       "url": "https://www.thetransmitter.org/organoids/what-is-the-future-of-organoid-and-assembloid-regulation/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-cropped-525-organoid-oversight.png"
     },
     {
@@ -1132,7 +934,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2511420?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1141,7 +943,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514663?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1150,7 +952,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515168?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1159,7 +961,7 @@
       "url": "https://www.youtube.com/watch?v=WW-WKZ8zEz8",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://i4.ytimg.com/vi/WW-WKZ8zEz8/hqhqdefault.jpg"
     },
     {
@@ -1177,7 +979,7 @@
       "url": "https://www.technologyreview.com/2025/12/10/1128999/exclusive-ebook-aging-clocks-understanding-why-we-age/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1186,7 +988,7 @@
       "url": "https://www.technologyreview.com/2025/12/10/1129186/the-download-a-controversial-proposal-to-solve-climate-change-and-our-future-grids/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1195,7 +997,7 @@
       "url": "https://www.technologyreview.com/2025/12/10/1128475/securing-vmware-workloads-in-regulated-industries/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1204,7 +1006,7 @@
       "url": "https://www.technologyreview.com/2025/12/10/1129079/how-one-controversial-startup-hopes-to-cool-the-planet/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1213,7 +1015,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03941-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1222,7 +1024,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03949-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1231,7 +1033,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03942-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1240,7 +1042,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04059-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1249,7 +1051,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09869-0",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1258,7 +1060,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09753-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1267,7 +1069,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09800-7",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1276,7 +1078,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09685-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1285,7 +1087,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09824-z",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1294,7 +1096,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09829-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1303,7 +1105,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09822-1",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1312,7 +1114,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09836-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1321,7 +1123,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09855-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1330,7 +1132,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09775-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1339,7 +1141,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09728-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1348,7 +1150,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09834-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1357,7 +1159,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09839-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1366,7 +1168,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09820-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1375,7 +1177,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09853-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1384,7 +1186,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09825-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1393,7 +1195,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09792-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1402,7 +1204,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09837-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1411,7 +1213,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09776-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1420,7 +1222,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09828-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1429,7 +1231,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09866-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1438,7 +1240,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09821-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1447,7 +1249,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09854-7",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1456,7 +1258,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03943-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1465,7 +1267,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03948-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1474,7 +1276,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03950-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1483,7 +1285,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03946-0",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1492,7 +1294,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03974-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1501,7 +1303,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03819-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1510,7 +1312,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03734-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1519,7 +1321,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04022-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1528,7 +1330,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03944-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1537,7 +1339,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03972-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1546,7 +1348,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03951-3",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1555,7 +1357,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03829-4",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1564,7 +1366,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03732-y",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1573,7 +1375,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03577-5",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1582,7 +1384,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03947-z",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1591,7 +1393,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03827-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1600,7 +1402,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03728-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1609,7 +1411,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03945-1",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1618,7 +1420,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03735-9",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1627,7 +1429,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03952-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1636,7 +1438,7 @@
       "url": "https://www.the-scientist.com/a-red-blood-cell-protein-turns-dendritic-cells-tolerant-73843",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1699,7 +1501,7 @@
       "url": "https://arstechnica.com/science/2025/12/this-is-the-oldest-evidence-of-people-starting-fires/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/artist-e1765349023584-500x500.jpg"
     },
     {
@@ -1708,7 +1510,7 @@
       "url": "https://www.wired.com/story/it-was-nuts-the-extreme-tests-that-show-why-hail-is-a-multi-billion-dollar-problem/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/692d91e429ad055913ce0a3b/master/pass/GettyImages-2193914692%20(1).jpg"
     },
     {
@@ -1717,7 +1519,7 @@
       "url": "https://www.wired.com/story/scientists-thought-parkinsons-was-in-our-genes-it-might-be-in-the-water/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/69334fc7be928ef56cd3434d/master/pass/wired_parkinsons-lejeune_rcj_9578_028.jpg"
     },
     {
@@ -1726,7 +1528,7 @@
       "url": "https://www.fiercebiotech.com/biotech/sanofi-gsk-ink-preclinical-pacts-quest-new-autoimmune-and-cancer-antibodies",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1735,7 +1537,7 @@
       "url": "https://www.fiercebiotech.com/biotech/bleekers-big-bang-formation-bio-unveils-new-subsidiary-605m-lynk-deal",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1744,7 +1546,7 @@
       "url": "https://www.fiercebiotech.com/medtech/francis-medical-gets-fda-green-light-water-vapor-ablation-therapy-treat-prostate-cancer",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1753,7 +1555,7 @@
       "url": "https://www.fiercebiotech.com/biotech/roche-links-oral-serd-30-breast-cancer-risk-reduction-phase-3-adjuvant-trial",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1762,7 +1564,7 @@
       "url": "https://www.fiercebiotech.com/biotech/chinese-biotech-helmed-az-veteran-reels-108-series-b-kras-inhibitor-phase-3-plans",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1852,7 +1654,7 @@
       "url": "https://www.biopharmadive.com/news/fda-approval-national-priority-voucher-usantibiotics-antibiotic/807552/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1861,7 +1663,7 @@
       "url": "https://www.biopharmadive.com/news/psithera-psivant-therapeutics-immune-ai-design-small-molecules/807475/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1924,7 +1726,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02134-7",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1933,7 +1735,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04093-9",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1942,7 +1744,7 @@
       "url": "https://www.nature.com/articles/d41573-025-00204-w",
       "source": "Nature Drug Discovery",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1951,7 +1753,7 @@
       "url": "https://www.nature.com/articles/d41573-025-00203-x",
       "source": "Nature Drug Discovery",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1960,7 +1762,7 @@
       "url": "https://www.nature.com/articles/s41586-025-09993-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1969,7 +1771,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04069-2",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1978,7 +1780,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04055-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1987,7 +1789,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04037-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -1996,7 +1798,7 @@
       "url": "https://www.the-scientist.com/postdoc-portrait-dinesh-kumar-reddy-medipally-73830",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2005,7 +1807,7 @@
       "url": "https://www.the-scientist.com/science-can-t-wait-why-stable-funding-matters-for-discovery-73844",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2014,7 +1816,7 @@
       "url": "https://www.science.org/content/article/new-preprint-server-welcomes-papers-written-and-reviewed-ai",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2023,7 +1825,7 @@
       "url": "https://www.science.org/content/article/u-s-military-funds-ai-tools-speed-modeling-viral-outbreaks",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2032,7 +1834,7 @@
       "url": "https://www.science.org/content/article/replenishing-sapped-groundwater-could-trigger-small-earthquakes",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2122,7 +1924,7 @@
       "url": "https://arstechnica.com/space/2025/12/nasa-just-lost-contact-with-a-mars-orbiter-and-will-soon-lose-another-one/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GSFC_20171208_Archive_e000206orig-500x500.jpg"
     },
     {
@@ -2131,7 +1933,7 @@
       "url": "https://www.wired.com/story/how-the-next-big-thing-in-carbon-removal-sunk-without-a-trace/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/6933637ad3c80898699e6bcc/master/pass/1_RT_Ernir.jpg"
     },
     {
@@ -2140,7 +1942,7 @@
       "url": "https://www.wired.com/story/many-states-say-theyll-defy-rfk-jrs-changes-to-hepatitis-b-vaccination/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/6931ffdeef6dcb7c049fbbfc/master/pass/science_ACIP_GettyImages-2249265775.jpg"
     },
     {
@@ -2149,7 +1951,7 @@
       "url": "https://www.fiercebiotech.com/biotech/apple-tree-partners-files-chapter-11-bankruptcy-keep-cash-flowing-portfolio-biotechs",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2194,7 +1996,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/ensoma-en-374/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2203,7 +2005,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/epilepsygtx-fre-trials/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2230,7 +2032,7 @@
       "url": "https://www.thetransmitter.org/spectrum/among-brain-changes-studied-in-autism-spotlight-shifts-to-subcortex/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-16p112-striatum-autism.png"
     },
     {
@@ -2239,7 +2041,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMcibr2502386?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2248,7 +2050,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2514311?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2257,7 +2059,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515109?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2266,7 +2068,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515264?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2275,7 +2077,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2513984?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2284,7 +2086,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2513191?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2293,7 +2095,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2514668?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2302,7 +2104,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510553?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2311,7 +2113,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2412530?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2320,7 +2122,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2514238?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2329,7 +2131,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp2415752?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2338,7 +2140,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2514661?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2347,7 +2149,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2515668?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2356,7 +2158,7 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2516280?af=R&rss=currentIssue",
       "source": "NEJM",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2365,7 +2167,7 @@
       "url": "https://www.youtube.com/watch?v=PhXN37H8sBE",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://i1.ytimg.com/vi/PhXN37H8sBE/hqhqdefault.jpg"
     },
     {
@@ -2374,7 +2176,7 @@
       "url": "https://www.youtube.com/watch?v=Uei7soViEPI",
       "source": "김지윤의 지식Play YouTube",
       "category": "Video",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://i2.ytimg.com/vi/Uei7soViEPI/hqhqdefault.jpg"
     },
     {
@@ -2383,7 +2185,7 @@
       "url": "https://www.technologyreview.com/2025/12/12/1129344/expanded-carrier-screening-is-it-worth-it/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2392,7 +2194,7 @@
       "url": "https://www.technologyreview.com/2025/12/11/1129288/the-download-solar-geoengineerings-future-and-openai-is-being-sued/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2401,7 +2203,7 @@
       "url": "https://www.technologyreview.com/2025/12/11/1129239/solar-geoengineering-startups-are-getting-serious/",
       "source": "MIT Tech Rev",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2410,7 +2212,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04036-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2419,7 +2221,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03807-w",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2428,7 +2230,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03897-6",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2437,7 +2239,7 @@
       "url": "https://www.nature.com/articles/d41586-025-04063-8",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2446,7 +2248,7 @@
       "url": "https://www.nature.com/articles/d41586-025-03806-x",
       "source": "Nature (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2455,7 +2257,7 @@
       "url": "https://www.the-scientist.com/a-hell-of-a-disease-can-science-save-the-tasmanian-devil-73740",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2464,7 +2266,7 @@
       "url": "https://www.the-scientist.com/postdoc-portrait-francisco-martins-73838",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2473,7 +2275,7 @@
       "url": "https://www.the-scientist.com/rsv-infection-and-mom-s-allergies-heighten-babies-asthma-risk-73849",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2482,7 +2284,7 @@
       "url": "https://www.the-scientist.com/accelerating-biomarker-discovery-with-multimodal-data-and-foundational-ai-models-73836",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2491,7 +2293,7 @@
       "url": "https://www.the-scientist.com/advancing-environmental-genomics-from-the-amazon-river-to-the-sahara-desert-and-beyond-73834",
       "source": "The Scientist",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2500,7 +2302,7 @@
       "url": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2509,7 +2311,7 @@
       "url": "https://www.science.org/content/article/new-antibiotic-gonorrhea-could-help-beat-back-drug-resistant-infections",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2518,7 +2320,7 @@
       "url": "https://www.science.org/content/article/congress-imposes-new-security-restrictions-u-s-researchers",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2527,7 +2329,7 @@
       "url": "https://www.science.org/content/article/heat-seeking-beetles-drawn-plants-glow-infrared",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2536,7 +2338,7 @@
       "url": "https://www.science.org/content/article/nasa-telescope-will-hunt-down-city-killer-asteroids",
       "source": "Science",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2545,7 +2347,7 @@
       "url": "https://www.statnews.com/2025/12/12/cdc-acip-hepatitis-b-vaccine-change-overlooked-key-concern/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2249482981-645x645.jpg"
     },
     {
@@ -2554,7 +2356,7 @@
       "url": "https://www.statnews.com/2025/12/12/zero-suicide-framework-initiative-trains-doctors-in-prevention/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-1230421289-645x645.jpg"
     },
     {
@@ -2563,7 +2365,7 @@
       "url": "https://www.statnews.com/2025/12/12/pharmacists-crisis-union-patient-safety/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-1993772667-645x645.jpg"
     },
     {
@@ -2572,7 +2374,7 @@
       "url": "https://www.statnews.com/2025/12/12/nurses-overwork-staffing-union-hope-health-care-upmc-seiu/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-1243370968-645x645.jpg"
     },
     {
@@ -2581,7 +2383,7 @@
       "url": "https://www.statnews.com/2025/12/11/trump-signs-executive-order-blocking-state-ai-regulations/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AP25283530514802-645x645.jpg"
     },
     {
@@ -2590,7 +2392,7 @@
       "url": "https://www.statnews.com/2025/12/11/tracy-beth-hoeg-fda-cder-director-faces-staff-mistrust/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/HOEG_ILLO_02-645x645.jpg"
     },
     {
@@ -2599,7 +2401,7 @@
       "url": "https://www.statnews.com/2025/12/11/new-oral-antibiotic-zoliflodacin-effective-against-gonorrhea/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/04/24503565430_76a7861d60_o-645x645.jpg"
     },
     {
@@ -2608,7 +2410,7 @@
       "url": "https://www.statnews.com/2025/12/11/samsha-acting-chief-art-kleinschmidt-leaves-post/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/04/GettyImages-2207187060-645x645.jpg"
     },
     {
@@ -2617,7 +2419,7 @@
       "url": "https://www.statnews.com/2025/12/11/ash25-eli-lilly-obesity-drug-readout-loud-podcast/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2024/07/ROL_Rectangle-645x645.jpg"
     },
     {
@@ -2626,7 +2428,7 @@
       "url": "https://www.statnews.com/2025/12/11/fda-approves-new-gonorrhea-antibiotic-blujepa-from-gsk/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/AdobeStock_246906962-645x645.jpeg"
     },
     {
@@ -2635,7 +2437,7 @@
       "url": "https://www.statnews.com/2025/12/11/aca-subsidy-extension-senate-rejects-proposals-as-deadline-nears/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/GettyImages-1246564132-645x645.jpg"
     },
     {
@@ -2644,7 +2446,7 @@
       "url": "https://www.statnews.com/2025/12/11/eu-pharma-package-market-exclusivity-medicine-access/?utm_campaign=rss",
       "source": "STAT News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2194524519-645x645.jpg"
     },
     {
@@ -2707,7 +2509,7 @@
       "url": "https://arstechnica.com/health/2025/12/ars-live-3-former-cdc-leaders-detail-impacts-of-rfk-jr-s-anti-science-agenda/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2231820155-500x500.jpg"
     },
     {
@@ -2716,7 +2518,7 @@
       "url": "https://arstechnica.com/science/2025/12/microboone-results-rule-out-sterile-neutrinos/",
       "source": "Ars Technica",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/neutrinos-500x500-1765462963.jpg"
     },
     {
@@ -2725,7 +2527,7 @@
       "url": "https://www.wired.com/story/how-to-watch-the-geminids-meteor-shower/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/674705ece62bfbd1626a1416/master/pass/GettyImages-1293014500.jpg"
     },
     {
@@ -2734,7 +2536,7 @@
       "url": "https://www.wired.com/story/rfk-jrs-health-department-is-pondering-a-national-mens-health-initiative/",
       "source": "Wired",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://media.wired.com/photos/6939e3662ab753fbb0e0f436/master/pass/GettyImages-1433852695.jpg"
     },
     {
@@ -2743,7 +2545,7 @@
       "url": "https://www.fiercebiotech.com/medtech/heartbeam-swells-turning-fda-rejection-ecg-clearance",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2752,7 +2554,7 @@
       "url": "https://www.fiercebiotech.com/marketing/amgen-obesity-marketing-leader-chris-boulton-takes-reins-metabolic-biotech-prolynx",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2761,7 +2563,7 @@
       "url": "https://www.fiercebiotech.com/medtech/fda-clears-lumos-labs-prescription-digital-therapy-treat-adhd-adults",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2770,7 +2572,7 @@
       "url": "https://www.fiercebiotech.com/biotech/rezolutes-stock-plunges-87-after-hypoglycemia-drug-flunks-pivotal-phase-3-test",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2779,7 +2581,7 @@
       "url": "https://www.fiercebiotech.com/biotech/eli-lillys-obesity-triple-threat-smashes-efficacy-expectations-phase-3-proves-intolerable",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2788,7 +2590,7 @@
       "url": "https://www.fiercebiotech.com/biotech/moderna-taps-nanexa-improve-delivery-injectable-therapies-back-loaded-500m-pact",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2797,7 +2599,7 @@
       "url": "https://www.fiercebiotech.com/medtech/fda-approves-its-1st-non-drug-home-treatment-depression-flow-neurosciences-brain-headset",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2806,7 +2608,7 @@
       "url": "https://www.fiercebiotech.com/biotech/zealand-pens-25b-cardiometabolic-collab-fresh-faced-chinese-biotech",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2815,7 +2617,7 @@
       "url": "https://www.fiercebiotech.com/biotech/gri-touts-ipf-safety-edge-lung-function-gains-amid-cash-crunch",
       "source": "Fierce Biotech",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2824,7 +2626,7 @@
       "url": "https://endpoints.news/cdc-report-underscores-benefit-of-covid-19-vaccines-in-kids/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2833,7 +2635,7 @@
       "url": "https://endpoints.news/geron-cuts-one-third-of-staff-focusing-on-turning-rytelo-launch-around/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2842,16 +2644,16 @@
       "url": "https://endpoints.news/major-eu-pharma-changes-advance-after-legislative-action/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
       "title_en": "GSK's new antibiotic wins gonorrhea approval",
-      "description_en": "GSK won a label expansion on Thursday for its oral antibiotic Blujepa to treat uncomplicated urogenital gonorrhea.\n\n The twice-daily pill is approved for adults and children 12 years and older who weigh at least 45 ...",
+      "description_en": "GSK and Innoviva both won approvals from the FDA for their antibiotics to treat gonorrhea, adding new tools to doctors' arsenal amid a rise in resistance to certain drugs used to treat the sexually transmitted ...",
       "url": "https://endpoints.news/gsks-new-antibiotic-wins-gonorrhea-approval/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2860,7 +2662,7 @@
       "url": "https://endpoints.news/top-trump-lawyer-calls-on-scotus-to-reverse-skinny-generic-drug-label-decision/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2869,7 +2671,7 @@
       "url": "https://endpoints.news/umoja-delays-first-readout-for-in-vivo-car-t-therapy/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2878,7 +2680,7 @@
       "url": "https://endpoints.news/rezolute-crashes-as-its-only-drug-fails-in-phase-3/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2887,7 +2689,7 @@
       "url": "https://endpoints.news/rhythm-reports-imcivrees-key-weight-loss-data-from-phase-2-prader-willi-trial/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2896,7 +2698,7 @@
       "url": "https://endpoints.news/ac-immune-says-early-biomarker-data-are-promising-in-parkinsons-but-clinical-benefit-remains-unclear/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2905,7 +2707,7 @@
       "url": "https://endpoints.news/corbus-obesity-pill-posts-muted-weight-loss-data-disco-adds-another-e16m-in-seed-funding/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2914,7 +2716,7 @@
       "url": "https://endpoints.news/health-tech-investors-are-getting-creative-with-exits/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2923,7 +2725,7 @@
       "url": "https://endpoints.news/zealand-inks-deal-with-otr-therapeutics-as-it-spells-out-broader-metabolic-disease-ambitions/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2932,7 +2734,7 @@
       "url": "https://endpoints.news/weight-loss-biotech-prolynx-gets-70m-snags-amgens-obesity-commercial-leader-as-ceo/",
       "source": "Endpoints News",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2959,7 +2761,7 @@
       "url": "https://www.biopharmadive.com/news/ac-immune-parksinsons-drug-data-alpha-synuclein/807688/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2968,7 +2770,7 @@
       "url": "https://www.biopharmadive.com/news/apple-tree-partners-chapter-11-bankruptcy-dispute-rigmora-rybolovlev/807624/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2977,7 +2779,7 @@
       "url": "https://www.biopharmadive.com/news/lilly-retatrutide-obesity-osteoarthritis-pain-study-results/807641/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2986,7 +2788,7 @@
       "url": "https://www.biopharmadive.com/news/crapo-cassidy-hsa-enhanced-aca-subsidy-replacement/807647/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -2995,7 +2797,7 @@
       "url": "https://www.biopharmadive.com/news/prolynx-obesity-drugs-biotech-startup-series-a/807611/",
       "source": "BioPharmaDive",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3004,7 +2806,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/prilenia-ferrer-als/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3013,7 +2815,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/lindus-quotient-trial/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3022,7 +2824,7 @@
       "url": "https://www.clinicaltrialsarena.com/analyst-comment/ash-2025-jjs-tecvayli-darzale-early-relapse-mm/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3031,7 +2833,7 @@
       "url": "https://www.clinicaltrialsarena.com/news/gri-bio-ipf-gri-0621-tazarotene-phase-iia-results/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3040,7 +2842,7 @@
       "url": "https://www.clinicaltrialsarena.com/features/apac-clinical-trials-beyond-china/",
       "source": "Clinical Trials Arena",
       "category": "News",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3049,7 +2851,7 @@
       "url": "https://www.thetransmitter.org/brain-waves/dispute-erupts-over-universal-cortical-brain-wave-claim/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-Frequency-525.png"
     },
     {
@@ -3058,7 +2860,7 @@
       "url": "https://www.thetransmitter.org/developmental-neuroscience/waves-of-calcium-activity-dictate-eye-structure-in-flies/",
       "source": "The Transmitter",
       "category": "Neuroscience",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-fly-vision.png"
     },
     {
@@ -3067,7 +2869,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aec5999?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3076,7 +2878,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed3596?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3085,7 +2887,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adl1988?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3094,7 +2896,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.ado0977?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3103,7 +2905,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.ado6830?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3112,7 +2914,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adp0714?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3121,7 +2923,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.ads9061?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3130,7 +2932,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adv3183?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3139,7 +2941,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adv4257?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3148,7 +2950,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adx0659?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3157,7 +2959,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adx5568?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3166,7 +2968,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adx5883?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3175,7 +2977,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adx9717?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3184,7 +2986,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aea9310?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3193,7 +2995,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adn0623?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3202,7 +3004,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.ads8885?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3211,7 +3013,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adz1728?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3220,7 +3022,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adw1931?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3229,7 +3031,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee5278?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3238,7 +3040,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee5869?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3247,7 +3049,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed3346?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3256,7 +3058,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed3351?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3265,7 +3067,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed1825?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3274,7 +3076,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed1907?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3283,7 +3085,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed0470?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3292,7 +3094,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed1509?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3301,7 +3103,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aec4817?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3310,7 +3112,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee4634?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3319,7 +3121,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee4204?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3328,7 +3130,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee4233?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3337,7 +3139,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee5867?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3346,7 +3148,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee6253?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3355,7 +3157,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee6255?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3364,7 +3166,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee6256?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3373,7 +3175,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee6257?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3382,7 +3184,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee6254?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3391,7 +3193,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aed6474?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3400,7 +3202,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee5227?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3409,7 +3211,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.adw8154?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3418,7 +3220,7 @@
       "url": "https://www.science.org/doi/abs/10.1126/science.aee5868?af=R",
       "source": "Science (Paper)",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3427,7 +3229,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01317-0?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3436,7 +3238,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01250-4?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3445,7 +3247,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01041-4?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3454,7 +3256,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01256-5?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3463,7 +3265,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01080-3?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3472,7 +3274,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01192-4?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3481,7 +3283,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01235-8?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3490,7 +3292,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01149-3?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3499,7 +3301,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01126-2?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3508,7 +3310,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01251-6?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3517,7 +3319,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01178-X?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3526,7 +3328,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01090-6?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3535,7 +3337,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01135-3?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3544,7 +3346,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01194-8?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3553,7 +3355,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01086-4?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3562,7 +3364,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01085-2?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3571,7 +3373,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01137-7?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3580,7 +3382,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01132-8?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3589,7 +3391,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01133-X?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3598,7 +3400,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01314-5?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3607,7 +3409,7 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01360-1?rss=yes",
       "source": "Cell",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3616,7 +3418,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02150-7",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3625,7 +3427,7 @@
       "url": "https://www.nature.com/articles/s41593-025-02141-8",
       "source": "Nature Neuroscience",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3634,7 +3436,7 @@
       "url": "https://www.nature.com/articles/s41591-025-04051-5",
       "source": "Nature Medicine",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3643,7 +3445,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02967-4",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3652,7 +3454,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02958-5",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3661,7 +3463,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02968-3",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3670,7 +3472,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02966-5",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3679,7 +3481,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02940-1",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3688,7 +3490,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02969-2",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3697,7 +3499,7 @@
       "url": "https://www.nature.com/articles/s41587-025-02952-x",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
       "image_url": null
     },
     {
@@ -3706,11 +3508,574 @@
       "url": "https://www.nature.com/articles/s41587-025-02964-7",
       "source": "Nature Biotechnology",
       "category": "Paper",
-      "date": "2025-12-12",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "빅 쇼트 | 마이클 버리 UCLA 졸업연설",
+      "description_en": "Translated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=_wMztpYhpbc",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-13",
+      "image_url": "https://i4.ytimg.com/vi/_wMztpYhpbc/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "The Download: expanded carrier screening, and how Southeast Asia plans to get to space",
+      "description_en": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Expanded carrier screening: Is it worth it? Carrier screening  tests would-be parents for hidden genetic mutations that might affect their children. It initially involved testing for specific genes in at-risk populations. Expanded carrier…",
+      "url": "https://www.technologyreview.com/2025/12/12/1129478/the-download-expanded-carrier-screening-and-how-southeast-asia-plans-to-get-to-space/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Southeast Asia seeks its place in space",
+      "description_en": "It’s a scorching October day in Bangkok and I’m wandering through the exhibits at the Thai Space Expo, held in one of the city’s busiest shopping malls, when I do a double take. Amid the flashy space suits and model rockets on display, there’s a plain-looking package of Thai basil chicken. I’m told the same…",
+      "url": "https://www.technologyreview.com/2025/12/12/1129235/dispatch-thai-space-expo-southeast-asia-exploration/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Author Correction: Cancer SLC43A2 alters T cell methionine metabolism and histone methylation",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/s41586-025-09845-8Author Correction: Cancer SLC43A2 alters T cell methionine metabolism and histone methylation",
+      "url": "https://www.nature.com/articles/s41586-025-09845-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Author Correction: Distinct fibroblast subsets drive inflammation and damage in arthritis",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/s41586-025-09783-5Author Correction: Distinct fibroblast subsets drive inflammation and damage in arthritis",
+      "url": "https://www.nature.com/articles/s41586-025-09783-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Author Correction: Unravelling cysteine-deficiency-associated rapid weight loss",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/s41586-025-09780-8Author Correction: Unravelling cysteine-deficiency-associated rapid weight loss",
+      "url": "https://www.nature.com/articles/s41586-025-09780-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "In praise of inefficiency, failure and friendship: ten galvanizing reads for this festive season",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/d41586-025-04052-xIn a world that can seem lacking in optimism, researchers share their opinions on books that stimulate thoughts — and actions — for a better future.",
+      "url": "https://www.nature.com/articles/d41586-025-04052-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Science sleuths raise concerns about scores of bioengineering papers",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/d41586-025-03870-3Prominent bioengineer Ali Khademhosseini has so far corrected more than 40 of the papers in question, but critics say some should have been retracted.",
+      "url": "https://www.nature.com/articles/d41586-025-03870-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Revised estimates of CO<sub>2</sub> sources and sinks improve global carbon accounting",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/d41586-025-03981-xUpdated estimates of the worldwide sources and sinks of anthropogenic carbon dioxide provide a firmer basis for monitoring climate action.",
+      "url": "https://www.nature.com/articles/d41586-025-03981-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "China leads research in 90% of crucial technologies — a dramatic shift this century",
+      "description_en": "Nature, Published online: 12 December 2025;doi:10.1038/d41586-025-04048-7The United States tops the remaining areas in an assessment of 74 technologies.",
+      "url": "https://www.nature.com/articles/d41586-025-04048-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Tanning Beds and Natural Sunlight Affect Melanocytes Differently",
+      "description_en": "Tanning beds not only increase melanoma risk but also inflict a molecular toll, causing a spike in DNA mutations within skin cells.",
+      "url": "https://www.the-scientist.com/tanning-beds-and-natural-sunlight-affect-melanocytes-differently-73848",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Luminometry Modernizes Microbial Contamination Quality Control",
+      "description_en": "Bioluminescence detection help scientists and therapeutic manufacturers accelerate sterility testing, delivering faster, more objective contamination detection.",
+      "url": "https://www.the-scientist.com/luminometry-modernizes-microbial-contamination-quality-control-73833",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Human iPSC-derived Models for Neurodegenerative Disease Research",
+      "description_en": "In this webinar,Jesús Tintos-Hernandez, Setsu Endoh-Yamagami, and Amaris Castañon will discuss the latest advances and innovations in neuroscience disease cell models.",
+      "url": "https://www.the-scientist.com/human-ipsc-derived-models-for-neurodegenerative-disease-research-73797",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "NIH’s proposed caps on open-access publishing fees roil scientific community",
+      "description_en": "Policy to be implemented next year drew more than 900 comments, most of them critical",
+      "url": "https://www.science.org/content/article/nih-s-proposed-caps-open-access-publishing-fees-roil-scientific-community",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "STAT+: Trump order blocking state AI laws could slow health AI adoption, leave patients vulnerable",
+      "description_en": "Trump's order to block state AI laws could help the tech industry but hurt health systems looking to adopt AI safely, and leave patients vulnerable.",
+      "url": "https://www.statnews.com/2025/12/12/trump-order-blocking-state-ai-laws-could-slow-health-ai-adoption/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2251460326-645x645.jpg"
+    },
+    {
+      "title_en": "FDA approves first new kind of drug to target gonorrhea in decades",
+      "description_en": "The bacterium that causes gonorrhea has developed resistance to nearly every antibiotic used against it.",
+      "url": "https://www.statnews.com/2025/12/12/fda-approves-zoliflodacin-gonorrhea-pill-marketed-as-nuzolvence/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/B2201414-Gonorrhoea_bacteria_SEM-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: As superbug fears grow, sales of antibiotics used in food-producing livestock rose dramatically last year",
+      "description_en": "Amid fears of superbugs, the sale of medically important antibiotics given to food-producing livestock rose dramatically last year.",
+      "url": "https://www.statnews.com/pharmalot/2025/12/12/fda-animals-livestock-antibiotics-pigs-cattle-chicken/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2016/11/GettyImages-83948908-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Medicare routes $16 billion to insurers to offset high drug costs",
+      "description_en": "The federal government has sent a record $16 billion to health insurers that sell Medicare drug plans, a flashing red sign that prescription drug spending is blowing up far beyond…",
+      "url": "https://www.statnews.com/2025/12/12/medicare-part-d-costs-soar-insurers-get-16-billion-reconciliation-payment/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2214163254-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Up and down the ladder: The latest comings and goings",
+      "description_en": "With new personnel moves at Ovid Therapeutics, Bristol Myers Squibb, AstraZeneca, and more, here are the latest comings and goings in the pharma industry.",
+      "url": "https://www.statnews.com/pharmalot/2025/12/12/pharma-biotech-jobs-ovid-astrazeneca-bristol-ladder/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2021/03/Pharmalot_ComingGoing_STILL-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Europe proposes shortening drug exclusivity period",
+      "description_en": "And more biotech news, brought to you by The Readout newsletter",
+      "url": "https://www.statnews.com/2025/12/12/biotech-news-europe-drug-exclusivity-period/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2173105112-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about FDA staff fears, a Lilly weight loss drug and much more",
+      "description_en": "And more pharma news from the Pharmalot campus, brought to you by the Pharmalittle newsletter",
+      "url": "https://www.statnews.com/pharmalot/2025/12/12/fda-lilly-covid-vaccines-antibiotics-medicaid/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
+    },
+    {
+      "title_en": "Pharmacy staffing levels at a ‘breaking point’",
+      "description_en": "Hep B vaccine changes, gonorrhea be gone, and other health news",
+      "url": "https://www.statnews.com/2025/12/12/health-news-pharmacy-staffing-level-breaking-point/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/03/AdobeStock_286952563_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "Scientists built an AI co-pilot for prosthetic bionic hands",
+      "description_en": "Managing each finger separately can, with the right sensors, ease control issues.",
+      "url": "https://arstechnica.com/ai/2025/12/scientists-built-an-ai-co-pilot-for-prosthetic-bionic-hands/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2207559807-e1765565371849-500x500.jpg"
+    },
+    {
+      "title_en": "Investors commit quarter-billion dollars to startup designing “Giga” satellites",
+      "description_en": "\"If we build these platforms well, we get to ask new questions about what's possible in orbit.\"",
+      "url": "https://arstechnica.com/science/2025/12/investors-commit-quarter-billion-dollars-to-startup-designing-giga-satellites/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/k2gravitas-500x500.jpg"
+    },
+    {
+      "title_en": "People Are Already Taking This Unapproved New Weight-Loss Drug",
+      "description_en": "Retatrutide, originally developed by Eli Lilly, has found a loyal fan base—even though clinical trials of the drug still haven’t finished.",
+      "url": "https://www.wired.com/story/people-are-already-taking-this-unapproved-new-weight-loss-drug-triple-g-retatrutide/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": "https://media.wired.com/photos/68f7c5f862883d2cd39ed9ed/master/pass/101625_Retatrutide.jpg"
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/leading-way-biotech-solutions-across-japan-and-asia-pacific-japac\" hreflang=\"en\">Leading the Way in Biotech Solutions Across Japan and Asia Pacific (JAPAC)</a>",
+      "description_en": "One of the critical challenges in clinical trials is patient recruitment and retention. IQVIA Biotech’s comprehensive approach to patient recruitment leverages a blend of traditional and innovative strategies to ensure the success of clinical trials.",
+      "url": "https://www.fiercebiotech.com/sponsored/leading-way-biotech-solutions-across-japan-and-asia-pacific-japac",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/gao-probe-finds-understaffed-fda-putting-medical-device-recall-work-back-burner\" hreflang=\"en\">GAO probe finds understaffed FDA putting some medical device recall work on the 'back burner'</a>",
+      "description_en": "The FDA’s oversight of medical device recalls continues to be plagued by staffing challenges, resulting in lengthy response times, according to a report from the U.S. Government Accountability Office.",
+      "url": "https://www.fiercebiotech.com/medtech/gao-probe-finds-understaffed-fda-putting-medical-device-recall-work-back-burner",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/obesity-biotech-zealand-seeks-partners-take-therapies-directly-brain\" hreflang=\"en\">Obesity biotech Zealand seeks partners to ‘take therapies directly to the brain’</a>",
+      "description_en": "Zealand Pharma may be gearing up for a high-stakes year of obesity readouts, but the Danish biopharma thinks the brain could hold the key to the company’s long-term success.",
+      "url": "https://www.fiercebiotech.com/biotech/obesity-biotech-zealand-seeks-partners-take-therapies-directly-brain",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/impulse-dynamics-clinches-158m-chronic-heart-failure-implant\" hreflang=\"en\">Impulse Dynamics clinches $158M for chronic heart failure implant</a>",
+      "description_en": "After securing Medicare reimbursement for its pacemaker-like heart failure implant, Impulse Dynamics has raised more than $158 million to boost its production and commercial push.",
+      "url": "https://www.fiercebiotech.com/medtech/impulse-dynamics-clinches-158m-chronic-heart-failure-implant",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/2026-outlook-biotech-poised-outperform-bear-markets-21-24-analyst-says\" hreflang=\"en\">2026 outlook: Biotech poised to outperform bear markets of ’21-24, analyst says</a>",
+      "description_en": "After a year marked by dramatic ups and downs, William Blair analysts say 2026 could carry forward the industry’s current momentum—as long as strong clinical data continue to be rewarded and companies can bring drugs to market without major government pricing regulations.",
+      "url": "https://www.fiercebiotech.com/biotech/2026-outlook-biotech-poised-outperform-bear-markets-21-24-analyst-says",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/arcus-halts-gilead-partnered-tigit-trials-biotech-reworks-rd-focus\" hreflang=\"en\">Arcus discontinues Gilead-partnered TIGIT trials due to futility</a>",
+      "description_en": "A key late-stage trial of Arcus Biosciences and Gilead’s anti-TIGIT antibody domvanalimab has flopped, leading Arcus to refocus its R&D priorities and abandon several trials of the drug.",
+      "url": "https://www.fiercebiotech.com/biotech/arcus-halts-gilead-partnered-tigit-trials-biotech-reworks-rd-focus",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/cycle-seizes-struggling-applied-tx-picking-rare-disease-biotech-pennies\" hreflang=\"en\">Cycle seizes struggling Applied Tx, picking up rare disease biotech for pennies per share</a>",
+      "description_en": "Cycle Pharmaceuticals is circling up Applied Therapeutics, acquiring the rare disease biotech after an extremely tumultuous year for the latter that began with an FDA rejection at the end of 2024.",
+      "url": "https://www.fiercebiotech.com/biotech/cycle-seizes-struggling-applied-tx-picking-rare-disease-biotech-pennies",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/chutes-ladders-metabolic-marketing-master-maneuvers-ceo\" hreflang=\"en\">Chutes &amp; Ladders—Metabolic marketing master maneuvers to CEO</a>",
+      "description_en": "After three decades spent rising through the ranks of sales and marketing teams at major pharmas, Chris Boulton is taking the top spot at an obesity-focused biotech.",
+      "url": "https://www.fiercebiotech.com/biotech/chutes-ladders-metabolic-marketing-master-maneuvers-ceo",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "340B sales grew 23% last year, and court battle over pilot program intensifies",
+      "description_en": "Eligible health centers purchased $81.4 billion in discounted drugs under the federal 340B program in 2024, an increase of 23% from the previous year as the program continues to expand — and face legal challenges.  ...",
+      "url": "https://endpoints.news/340b-sales-grew-23-last-year-and-court-battle-over-pilot-program-intensifies/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Covid vaccine deaths review sent to top of FDA, but with far less certain conclusions, sources say",
+      "description_en": "An FDA staff analysis of the safety of pediatric Covid-19 shots has been finalized and sent to the agency’s vaccine and biologics head Vinay Prasad. But the report comes to many fewer firm conclusions than ...",
+      "url": "https://endpoints.news/covid-vaccine-deaths-review-sent-to-top-of-fda-but-with-far-less-certain-conclusions-sources-say/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "A 2-speed payer transformation is underway",
+      "description_en": "Health insurers are facing two colliding forces heading into 2026: Medical costs are challenging the way they do business, and major technology shifts are finally starting to reshape the industry.\n\n Patrick Finn, senior partner at ...",
+      "url": "https://endpoints.news/a-2-speed-payer-transformation-is-underway/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "CHMP calls to reject Anavex's Alzheimer’s pill over impurities, side effects and weak efficacy",
+      "description_en": "As part of a batch of recommendations issued Friday, the European Medicines Agency’s human medicines committee (CHMP) recommended rejecting Anavex’s Alzheimer’s disease drug, issuing a scathing review of the pill's safety and efficacy issues.  ...",
+      "url": "https://endpoints.news/chmp-calls-to-reject-anavex-alzheimers-pill-over-impurities-side-effects-and-weak-efficacy/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "#SABCS25: Celcuity further details Phase 3 win; Relay’s PI3Kα inhibitor’s consistent performance; and more",
+      "description_en": "Roche and BioNTech stole the show at this year’s San Antonio Breast Cancer Symposium.\n\n The Swiss drugmaker unveiled Phase 3 data for its oral SERD giredestrant, showing the drug slashed the risk ...",
+      "url": "https://endpoints.news/sabcs25-celcuity-further-details-phase-3-win-relays-pi3k%ce%b1-inhibitors-consistent-performance-and-more/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Arcus, Gilead report Phase 3 TIGIT failure in upper GI cancers",
+      "description_en": "Another TIGIT program has failed in the clinic, this time in a Phase 3 study.\n\n Arcus and Gilead said on Friday that their anti-TIGIT antibody domvanalimab, when combined with an experimental anti-PD-1 and chemotherapy, did ...",
+      "url": "https://endpoints.news/arcus-gilead-report-phase-3-tigit-failure-in-upper-gi-cancers/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Innovent’s obesity drug data in adolescents; Everest gets rights to PCSK9 inhibitor",
+      "description_en": "Plus, news about BioCryst, Cycle Pharma, Applied Therapeutics, Contineum Therapeutics, Juncell Therapeutics, Cosette and Mayne Pharma:\n\n 📊 Innovent’s mazdutide shows early promise in adolescents: The injected GLP-1/glucagon agonist allowed body weight and BMI reductions ...",
+      "url": "https://endpoints.news/innovents-obesity-drug-data-in-adolescents-everest-gets-rights-to-pcsk9-inhibitor/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "GSK spins out corporate VC fund focused on bioelectronic tech",
+      "description_en": "GSK has offloaded a corporate venture unit that invests in bioelectronic startups working on neuromodulation, wearables, implanted devices and other technology, Endpoints News has learned.\n\n The VC unit, Action Potential Venture Capital (APVC),",
+      "url": "https://endpoints.news/gsk-spins-out-corporate-vc-fund-focused-on-bioelectronic-tech/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Tenaya targets $60M offering after heart disease pipeline updates",
+      "description_en": "Tenaya Therapeutics, a company focused on developing gene therapies for heart conditions, made a series of announcements on Thursday. The biotech said the FDA has lifted a partial hold on one of its assets, reported ...",
+      "url": "https://endpoints.news/tenaya-targets-60m-offering-after-heart-disease-pipeline-updates/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "FDA broadens label for Amgen's Uplizna as it enters rare disease competition",
+      "description_en": "The FDA on Thursday expanded the label for Amgen’s rare disease drug Uplizna, approving it in an autoimmune disorder that’s quickly become a hot — and crowded — area for biopharma.\n\n Regulators gave the green light to ...",
+      "url": "https://endpoints.news/fda-broadens-label-for-amgens-uplizna-as-it-enters-rare-disease-competition/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Centessa CEO to step down; John Maraganore, Clive Meanwell find CMO for their new cardio bet",
+      "description_en": "→ Centessa Pharmaceuticals president Mario Alberto Accardi will take over as CEO on Jan. 1. Saurabh Saha has held the top spot since its splashy $250 million ...",
+      "url": "https://endpoints.news/centessa-ceo-to-step-down-john-maraganore-clive-meanwell-find-cmo-for-their-new-cardio-bet/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Arcus cancels work on Gilead-partnered cancer combo after trial setback",
+      "description_en": "A study using TIGIT and PD-1 drugs for gastrointestinal disease was canceled for “futility” at an early checkpoint, another blow to research on a once-promising target.",
+      "url": "https://www.biopharmadive.com/news/arcus-gilead-domvanalimab-trial-terminate/807761/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Praxis tees up another approval filing; Geron turns to layoffs",
+      "description_en": "“Collaborative discussions” with the FDA encouraged Praxis to submit early next year an approval filing for its epilepsy drug. Elsewhere, Rezolute shares plunged and Centessa announced a new CEO.",
+      "url": "https://www.biopharmadive.com/news/praxis-rezolute-geron-rhythm-centessa-news-roundup/807692/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Rezolute stock crashes after sole pipeline candidate fails Phase III",
+      "description_en": "Rezolute still has another Phase III trial of ersodetug in progress to rely upon, with data expected in H2 2026.The postRezolute stock crashes after sole pipeline candidate fails Phase IIIappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/rezolute-stock-crashes-after-sole-pipeline-candidate-fails-phase-iii/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Lilly’s triple G agonist boasts 28.7% weight loss in Phase III trial",
+      "description_en": "Lilly is investigating the triple G agonist retatrutide in seven other Phase III trials, which are due to read out in 2026.The postLilly’s triple G agonist boasts 28.7% weight loss in Phase III trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/lilly-retatrutide-data-phase-iii-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "AI takes charge of data, but challenges linger",
+      "description_en": "At CDMI Europe 2025, experts agreed that AI is the key technology to improve efficiencies in clinical trial data management.The postAI takes charge of data, but challenges lingerappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/features/ai-takes-charge-of-data-but-challenges-linger/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "A. J. Major et al. reply",
+      "description_en": "Nature Neuroscience, Published online: 12 December 2025;doi:10.1038/s41593-025-02168-xA. J. Major et al. reply",
+      "url": "https://www.nature.com/articles/s41593-025-02168-x",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Edward Kravitz (1932–2025)",
+      "description_en": "Nature Neuroscience, Published online: 12 December 2025;doi:10.1038/s41593-025-02185-wEd Kravitz was a pioneer in interdisciplinary neuroscience, a leader in education and a steadfast advocate for inclusion. He passed away on 21 September 2025 at the age of 92.",
+      "url": "https://www.nature.com/articles/s41593-025-02185-w",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Is there a ubiquitous spectrolaminar motif of local field potential power across primate neocortex?",
+      "description_en": "Nature Neuroscience, Published online: 12 December 2025;doi:10.1038/s41593-025-02167-yIs there a ubiquitous spectrolaminar motif of local field potential power across primate neocortex?",
+      "url": "https://www.nature.com/articles/s41593-025-02167-y",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Bright light exposure suppresses feeding and weight gain via a visual circuit linked to the lateral hypothalamus",
+      "description_en": "Nature Neuroscience, Published online: 12 December 2025;doi:10.1038/s41593-025-02156-1Bright light reduces feeding and weight gain in mice by activating a specific retina-to-brain pathway that signals through the visual thalamus to inhibit appetite-regulating neurons in the hypothalamus.",
+      "url": "https://www.nature.com/articles/s41593-025-02156-1",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Notable advances 2025",
+      "description_en": "Nature Medicine, Published online: 12 December 2025;doi:10.1038/s41591-025-04098-4In a year that has dealt many blows to biomedical research, many breakthroughs nevertheless continued to inspire us. From regenerative medicine to reproductive technologies and everything in between — here is our selection of critical developments that moved medicine forward in 2025.",
+      "url": "https://www.nature.com/articles/s41591-025-04098-4",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Cancer screening must become more precise",
+      "description_en": "Nature Medicine, Published online: 12 December 2025;doi:10.1038/s41591-025-04148-xTo improve early detection, cancer screening studies need to evolve and integrate multimodal data in the identification of high-risk individuals.",
+      "url": "https://www.nature.com/articles/s41591-025-04148-x",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Betting on β-catenin inhibitors in oncology",
+      "description_en": "Nature Reviews Drug Discovery, Published online: 12 December 2025;doi:10.1038/d41573-025-00206-8The WNT–β-catenin pathway is often overactive in cancer. Can emerging drugs — including stabilized peptides, condensate modulators and degraders — safely and effectively tamp it back down?",
+      "url": "https://www.nature.com/articles/d41573-025-00206-8",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-12-13",
+      "image_url": null
+    },
+    {
+      "title_en": "Calico, Alphabet’s anti-ageing play, goes it alone",
+      "description_en": "Nature Reviews Drug Discovery, Published online: 12 December 2025;doi:10.1038/d41573-025-00205-9Philip Kym, Calico’s new head of drug discovery, talks about drugging ageing and ageing-related diseases.",
+      "url": "https://www.nature.com/articles/d41573-025-00205-9",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-12-13",
       "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "Postdoc Portrait: Marwa Zafarullah",
+      "url": "https://www.the-scientist.com/postdoc-portrait-marwa-zafarullah-73829",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null,
+      "title": "마르와 자파룰라 박사후 연구원 조명",
+      "summary_kr": "마르와 자파룰라 박사후 연구원은 신경근육 질환의 근본적인 원인을 밝히기 위한 심도 있는 연구를 수행하고 있습니다. 그녀의 연구는 신경과 근육 기능에 이상을 초래하는 복잡한 생화학적 경로와 분자 메커니즘을 규명하는 데 중점을 둡니다. 이를 통해 질병의 진행 과정을 이해하고, 궁극적으로는 새로운 치료법 개발 가능성을 모색하는 것이 목표입니다. 신경근육 질환은 환자의 움직임과 전신 기능에 심각한 영향을 미치며, 현재까지도 효과적인 치료법이 제한적인 경우가 많습니다. 자파룰라 연구원의 노력은 이러한 난치성 질환으로 고통받는 이들에게 혁신적인 치료 전략을 제공할 핵심적인 단서가 될 것으로 기대됩니다. 그녀의 연구는 기초 과학의 발전과 더불어 실제 임상 현장에 적용될 수 있는 실질적인 치료법 발견에 크게 기여할 것입니다."
+    },
+    {
+      "title_en": "The Gollum Effect: 44 Percent of Scientists Report Territorial Research Experiences",
+      "url": "https://www.the-scientist.com/the-gollum-effect-44-percent-of-scientists-report-territorial-research-experiences-73832",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null,
+      "title": "골룸 효과: 과학자 44%, 연구 영역의 배타적 독점 경험 보고",
+      "summary_kr": "최근 한 설문조사 데이터가 과학계의 어두운 이면을 드러냈습니다. 이 조사에 따르면, 연구 주제와 자원을 독점하려는 행위, 이른바 '골룸 효과(Gollum effect)'가 과학자들 사이에서 만연해 있는 것으로 나타났습니다. 특히 젊은 연구자들과 훈련생들에게 이러한 현상은 장기적이고 부정적인 영향을 미치고 있습니다. 선배 연구자나 지도 교수가 연구 분야를 마치 자신의 소유물처럼 여기며 정보 공유를 꺼리거나 기회를 제한하는 경우가 빈번하다는 보고입니다. 이러한 배타적이고 독점적인 행위는 과학 커뮤니티 내에 불신과 경쟁을 조장하며, 결국 유해한 연구 문화를 고착화시키는 주범으로 지목됩니다. 연구의 진보를 저해하고 협력을 방해하는 '골룸 효과'에 대한 심층적인 논의와 해결책 마련이 시급합니다."
+    },
+    {
+      "title_en": "The Biggest Breakthroughs in Cell Biology in 2025",
+      "url": "https://www.the-scientist.com/the-biggest-breakthroughs-in-cell-biology-in-2025-73835",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null,
+      "title": "2025년 세포 생물학 분야의 가장 큰 돌파구들",
+      "summary_kr": "2025년은 세포 생물학 분야에서 여러 기념비적인 혁신이 이루어진 매우 중요한 한 해였습니다. 특히, 미세아교세포(microglia) 재프로그래밍 기술은 신경 퇴행성 질환 치료의 새로운 길을 제시하며 큰 주목을 받았습니다. 이는 뇌 질환의 근본적인 원인을 이해하고 치료하는 방식에 혁신적인 변화를 가져올 잠재력을 보여주었습니다. 또한, 면역 세포 기반 진단 기술의 발전은 질병의 조기 발견 및 개인 맞춤형 치료 전략 수립에 필수적인 도구를 제공하며 의료 진단의 패러다임을 전환시켰습니다. 이러한 연구 성과들은 세포의 복잡한 기능과 질병 발생 메커니즘에 대한 우리의 이해를 심화시켰을 뿐만 아니라, 미래 의학 연구와 임상 적용에 대한 밝은 전망을 제시합니다. 2025년은 이처럼 세포 생물학이 인류 건강 증진에 기여할 수 있는 무궁무진한 잠재력을 다시 한번 입증한 해로 기록될 것입니다."
+    },
+    {
+      "title_en": "Cancer Immunotherapy May Work Better Before 3PM",
+      "url": "https://www.the-scientist.com/cancer-immunotherapy-may-work-better-before-3pm-73831",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null,
+      "title": "암 면역치료, 오후 3시 이전 투여 시 효과 증대 가능성 제기",
+      "summary_kr": "최근 연구에 따르면 암 면역치료의 효과가 투여 시간에 따라 달라질 수 있다는 흥미로운 결과가 나왔습니다. 특히, 면역치료를 이른 시간에 받은 암 환자들이 더 오래 생존하는 경향을 보였습니다. 이는 우리 몸의 생체 시계, 즉 일주기 리듬이 첨단 암 치료법의 효능에 중요한 영향을 미칠 수 있음을 시사합니다. 연구진은 오후 3시 이전에 면역치료를 받은 환자들이 그 이후에 치료받은 환자들보다 더 나은 예후를 보였다는 점에 주목했습니다. 이러한 발견은 암 치료의 최적화를 위한 새로운 방향을 제시하며, 단순히 어떤 약을 쓰는가 뿐만 아니라 언제 약을 투여하는가도 중요함을 강조합니다. 치료 시간 조정을 통해 면역치료의 효과를 극대화하고 궁극적으로 암 환자의 생존율을 향상시킬 가능성이 열린 셈입니다."
+    },
+    {
+      "title_en": "Advancing Cell Culture with Eco-Friendly Incubator Shakers",
+      "url": "https://www.the-scientist.com/advancing-cell-culture-with-eco-friendly-incubator-shakers-73783",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-13",
+      "image_url": null,
+      "title": "친환경 인큐베이터 셰이커, 세포 배양 기술의 새로운 지평을 열다",
+      "summary_kr": "최근 생명과학 분야에서 환경 지속 가능성에 대한 관심이 높아지는 가운데, 새로운 개념의 세포 배양 장비가 개발되어 주목받고 있습니다. 이 혁신적인 장비는 인큐베이터와 셰이커 기능을 결합한 형태로, 세포 배양 과정을 한층 더 효율적이고 간편하게 만들어 줍니다. 특히, 이 인큐베이터 셰이커 조합은 세포의 최적 성장 조건을 제공하며, 안정적이고 재현성 높은 실험 결과를 보장하여 연구의 질을 향상시키는 데 기여합니다. 무엇보다 큰 특징은 '탄소 발자국'을 획기적으로 줄였다는 점입니다. 에너지 효율성을 극대화하여 기존 장비 대비 환경에 미치는 부담을 크게 완화했습니다. 이는 단순히 효율적인 세포 배양을 넘어, 연구실 운영의 친환경성을 강화하고 지속 가능한 과학 연구의 방향을 제시한다는 점에서 중요한 의미를 가집니다. 이처럼 친환경적이면서도 고성능을 자랑하는 새로운 인큐베이터 셰이커는 앞으로 생명과학 연구 현장에서 핵심적인 역할을 수행할 것으로 기대됩니다."
+    },
     {
       "title_en": "What we eat is making us obese and sick — but science shows solutions are within reach",
       "url": "https://www.nature.com/articles/d41586-025-03977-7",
@@ -3830,6 +4195,16 @@
       "image_url": null,
       "title": "장기 코로나 연구에 대규모 자금 지원: 새로운 치료법 개발로 이어질까?",
       "summary_kr": "독일 정부가 장기 코로나(Long-COVID) 및 기타 감염 후 증후군 연구에 대규모 투자를 단행했습니다. 이번 투자는 총 5억 유로에 달하는 막대한 기금으로, 해당 분야 연구에 상당한 동력을 제공할 것으로 보입니다. 이 자금은 단순히 장기 코로나뿐만 아니라, 감염병 이후 나타날 수 있는 다양한 복합 증후군(post-infection syndromes)에 대한 깊이 있는 연구를 지원하는 데 사용될 예정입니다. 이를 통해 해당 질병들의 발병 메커니즘을 밝히고, 효과적인 진단 및 치료법 개발의 토대를 마련할 수 있을 것이라는 기대가 커지고 있습니다. 장기 코로나로 고통받는 수많은 환자들에게 이번 연구가 실질적인 치료법으로 이어져 삶의 질을 향상시킬 수 있는 희망이 될 것으로 전망됩니다. 이 소식은 과학 저널 '네이처'를 통해 2025년 12월 8일 온라인으로 발표되었으며, 연구 커뮤니티의 큰 주목을 받고 있습니다."
+    },
+    {
+      "title_en": "What an FDA veteran thinks a controversial vaccine email gets right—and wrong",
+      "url": "https://www.science.org/content/article/what-fda-veteran-thinks-controversial-vaccine-email-gets-right-and-wrong",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-12",
+      "image_url": null,
+      "title": "FDA 베테랑이 바라본 논란의 백신 이메일: 무엇이 옳고 그른가?",
+      "summary_kr": "미국 식품의약국(FDA)의 베테랑인 필 크라우스(Phil Krause)가 최근 논란을 불러일으킨 백신 관련 이메일에 대한 자신의 견해를 밝혔다. 이 이메일은 FDA 고위 관료인 비나이 프라사드(Vinay Prasad)가 작성한 것으로, 백신 관련 데이터의 개선을 강력히 촉구하는 내용을 담고 있었다. 크라우스는 프라사드가 더 나은 데이터의 필요성을 제기한 점에 대해서는 전적으로 지지한다고 밝혔다. 그는 투명하고 견고한 데이터가 과학적 신뢰성과 공중 보건 정책의 핵심임을 강조했다. 그러나 크라우스는 프라사드의 전반적인 접근 방식에 대해서는 '파괴적(destructive)'이라고 비판하며 우려를 표명했다. 이는 프라사드의 목표는 정당할지라도, 그가 문제를 제기하고 전달하는 방식이 오히려 해로울 수 있다는 점을 시사한다. 본 기사는 크라우스가 프라사드의 주장 중 어떤 부분을 지지하고 어떤 부분을 비판하는지에 대한 심층적인 분석을 제공할 것으로 예상된다."
     },
     {
       "title_en": "손정의 : 버블 아니라니까 진짜",
@@ -4022,6 +4397,76 @@
       "summary_kr": "이 기사는 2025년 12월 8일 온라인으로 게재된 저명한 과학 학술지 네이처(Nature)의 중요한 연구 성과를 조명합니다. 멍란 두(Mengran Du) 연구원은 지구상 가장 깊은 곳인 해저 9,000미터 아래에서 지금까지 알려지지 않았던 동물 생태계를 발견하는 데 성공했습니다. 극심한 수압과 빛이 전혀 없는 암흑 환경 속에서 생명체가 번성하고 있다는 사실은 심해 생물학계에 큰 반향을 일으키고 있습니다. 이번 발견은 지구 생명체의 적응력과 다양성의 한계를 재정의하며, 극한 환경에서의 생존 메커니즘을 이해하는 데 결정적인 단서를 제공할 것입니다. 특히 멍란 두 연구원은 2025년 과학계를 주도한 인물들을 선정하는 네이처(Nature)지의 '네이처스 10(Nature's 10)'에 이름을 올리며 그 업적의 중요성을 인정받았습니다. 그녀의 연구는 심해 탐사의 새로운 지평을 열었으며, 앞으로 미지의 해양 환경에 대한 더 깊은 이해를 가능하게 할 것입니다."
     },
     {
+      "title_en": "This science sleuth revealed a retraction crisis at Indian universities",
+      "url": "https://www.nature.com/articles/d41586-025-03839-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "인도 대학 논문 철회 위기를 파헤친 과학계 탐정",
+      "summary_kr": "이 보도는 권위 있는 과학 저널 네이처(Nature)를 통해 2025년 12월 8일 온라인으로 공개되었습니다. 기사의 핵심 인물은 '네이처가 선정한 10인(Nature’s 10)' 명단에 포함된 아찰 아그라왈(Achal Agrawal)입니다. '네이처가 선정한 10인'은 매년 과학계에 가장 큰 영향을 미친 인물들을 조명하는 목록입니다. 아그라왈은 2025년 과학 분야에서 주목할 만한 업적을 남긴 인물 중 한 명으로 선정되었으며, 이는 그의 연구가 해당 연도의 과학계 형성에 중요한 기여를 했음을 시사합니다. 본 기사는 그가 인도 대학들에서 발생한 논문 철회 위기라는 중대한 문제를 폭로한 공로를 다루고 있습니다. 따라서 독자들은 아찰 아그라왈의 노력을 통해 드러난 인도 고등 교육 기관의 연구 윤리 문제와 그 파장에 대한 깊이 있는 이해를 얻을 수 있을 것입니다."
+    },
+    {
+      "title_en": "This scientist found a new trick of the immune system by digging through cellular rubbish",
+      "url": "https://www.nature.com/articles/d41586-025-03846-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "세포 노폐물 탐색으로 면역계의 새로운 전략을 밝혀낸 과학자",
+      "summary_kr": "이 기사는 Yifat Merbl 박사가 면역 체계에 대한 중요한 새로운 발견을 했음을 다룹니다. 그녀는 통념과 달리 세포의 노폐물, 즉 '세포 쓰레기' 속에서 면역계가 작동하는 예상치 못한 '새로운 전략'을 찾아냈습니다. 이 독창적인 연구 방식은 면역 체계의 복잡성에 대한 우리의 이해를 한층 더 심화시키는 계기가 되었습니다. 특히, 그녀의 연구 성과는 저명한 과학 저널인 '네이처(Nature)'를 통해 2025년 12월 8일에 온라인으로 발표되었습니다. Yifat Merbl 박사는 과학계에 미친 지대한 영향력을 인정받아, 한 해 동안 과학계를 형성한 인물들을 선정하는 '네이처의 10인(Nature’s 10)' 명단에 이름을 올렸습니다. 이로써 그녀는 2025년 과학 분야에서 가장 주목할 만한 인물 중 한 명으로 자리매김했습니다."
+    },
+    {
+      "title_en": "How to get science back into policymaking",
+      "url": "https://www.nature.com/articles/d41586-025-03978-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "정책 결정에 과학을 다시 접목하는 방법",
+      "summary_kr": "정부의 과학 활용 방식에 대한 대중의 신뢰가 심각하게 훼손되고 있습니다. 이는 주로 과학적 내용에 대한 오해와 정책 결정자들의 오만함이 복합적으로 작용한 결과로 지적됩니다. 이러한 신뢰 상실은 과학적 근거가 정책 수립 과정에서 충분히 반영되지 못하게 하거나, 대중과의 소통 부재를 야기하는 주요 원인이 되고 있습니다. 하지만 본 기사는 이처럼 손상된 대중의 신뢰가 결코 되돌릴 수 없는 것은 아니며, 충분히 복원될 수 있다고 강조합니다. 과학계와 정책 입안자들이 투명한 정보 공유와 적극적인 대화를 통해 상호 이해를 증진하고, 과학적 권위를 재건하는 노력이 필수적임을 시사합니다. 궁극적으로 정책 결정 과정에서 과학이 제자리를 찾고, 대중으로부터 신뢰받는 합리적인 정책을 수립하기 위한 구체적인 방안을 모색해야 할 시점입니다."
+    },
+    {
+      "title_en": "Cosmic neutrinos’ kink could help explain origins of the elusive particles",
+      "url": "https://www.science.org/content/article/cosmic-neutrinos-kink-could-help-explain-particles-origins",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "우주 중성미자 에너지 스펙트럼의 '특이점', 그 신비로운 입자들의 기원 규명 실마리 제공",
+      "summary_kr": "우주 중성미자는 우주에서 가장 에너지가 높은 입자 중 하나로, 초신성 폭발이나 블랙홀 충돌과 같은 극한의 천체 현상에서 생성된다고 추정됩니다. 하지만 이 입자들의 정확한 기원과 생성 메커니즘은 오랫동안 과학계의 난제로 남아 있었습니다. 최근 남극에 위치한 거대한 중성미자 관측소인 아이스큐브(IceCube) 실험팀이 이 신비로운 입자들의 에너지 스펙트럼에서 흥미로운 '특이점'을 발견했다고 보고했습니다. 보고서에 따르면, 중성미자의 에너지 분포에서 특정 지점을 기점으로 평탄하지 않고 돌출된 '범프(bump)' 형태의 변화가 관측되었습니다. 이러한 에너지 스펙트럼의 '꺾임' 또는 '특이점' 현상은 중성미자가 생성되는 환경이나 우주를 가로지르며 겪는 상호작용에 대한 중요한 단서를 제공할 수 있습니다. 연구진은 이번 발견이 그동안 베일에 싸여있던 우주 중성미자의 기원을 밝히고, 우주의 가장 격렬한 사건들을 이해하는 데 결정적인 전환점이 될 것으로 기대하고 있습니다."
+    },
+    {
+      "title_en": "Can adding light sensors to nerve cells switch off pain, epilepsy, and other disorders?",
+      "url": "https://www.science.org/content/article/can-adding-light-sensors-nerve-cells-switch-pain-epilepsy-and-other-disorders",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "신경 세포에 '빛 센서' 심어, 통증·뇌전증 등 질환 치료의 길 열리나?",
+      "summary_kr": "옵토제네틱스(Optogenetics)는 빛을 이용하여 특정 신경 세포의 활동을 정교하게 제어하는 혁신적인 기술입니다. 이 기술은 현재 주로 기초 과학 연구 도구로 활용되어 왔지만, 이제는 질병 치료를 위한 새로운 의료 기술로의 전환을 모색하고 있습니다. 특히 통증, 뇌전증(간질)과 같은 신경계 질환뿐만 아니라 다른 여러 질환에 대한 효과적인 치료법을 제시할 잠재력을 가지고 있습니다. 그러나 이 기술이 실제 환자들에게 적용되기 위해서는 신경 세포에 이식되는 빛 센서의 안전성과 장기적인 효과를 과학적으로 입증하는 것이 가장 중요합니다. 만약 과학자들이 옵토제네틱스의 안전성을 성공적으로 증명한다면, 이는 난치병 치료에 획기적인 전환점을 가져올 수 있을 것으로 기대됩니다. 이러한 발전은 미래 의학 분야에서 새로운 치료 패러다임을 열 중요한 단서가 될 것입니다."
+    },
+    {
+      "title_en": "The strongest spiderweb on Earth is spun only by females",
+      "url": "https://www.science.org/content/article/strongest-spiderweb-earth-spun-only-females",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "지구 최강의 거미줄, 오직 암컷 거미만이 만든다",
+      "summary_kr": "껍질거미(Bark spider)의 비단실은 그 놀라운 강도로 과학계의 주목을 받아왔습니다. 실제로 이 거미줄은 강철보다도 강한 인장 강도를 자랑하며, 자연계 최고의 섬유 중 하나로 손꼽힙니다. 그런데 최근 연구를 통해 이처럼 강력한 거미줄은 오직 암컷 껍질거미만이 생산한다는 흥미로운 사실이 밝혀졌습니다. 수컷 껍질거미 또한 거미줄을 만들지만, 이들의 거미줄은 암컷이 만드는 것에 비해 현저히 약한 강도를 가진 것으로 확인되었습니다. 이러한 암수 간의 뚜렷한 차이는 껍질거미의 독특한 생존 전략과 진화적 적응을 보여주는 사례로, 생체모방 및 신소재 개발 연구에 중요한 단서를 제공할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Warm, humid ‘atmospheric rivers’ threaten Antarctica",
+      "url": "https://www.science.org/content/article/warm-humid-atmospheric-rivers-threaten-antarctica",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-11",
+      "image_url": null,
+      "title": "따뜻하고 습한 ‘대기의 강’, 남극을 위협하다",
+      "summary_kr": "지구 온난화가 가속화되면서, 이전에 드물었던 현상인 '대기의 강'이 남극 대륙에 심각한 위협으로 부상하고 있습니다. '대기의 강'은 대기 중의 습하고 따뜻한 공기가 좁고 긴 띠 모양으로 집중되어 이동하는 현상을 말합니다. 이러한 현상은 기후 변화로 인해 점점 더 자주 발생하고 있으며, 남극의 빙하에 직접적인 영향을 미칠 것으로 우려됩니다. 특히, 따뜻하고 습한 공기는 남극 대륙의 표면 온도를 높여 빙하가 녹는 속도를 가속화할 수 있습니다. 이는 궁극적으로 남극의 얼음 손실을 촉진하여 전 세계 해수면 상승에 기여할 수 있는 심각한 문제로 이어질 수 있습니다. 과학자들은 이러한 변화가 장기적으로 남극 생태계와 전 지구적 기후 시스템에 미칠 영향에 대해 깊은 우려를 표하고 있습니다."
+    },
+    {
       "title_en": "How digital companion apps unlock value across the drug lifecycle",
       "url": "https://www.biopharmadive.com/spons/how-digital-companion-apps-unlock-value-across-the-drug-lifecycle/806871/",
       "source": "BioPharmaDive",
@@ -4210,6 +4655,96 @@
       "image_url": null,
       "title": "ASH 2025: 컬리넌 T세포 인게이저, p53 변이 AML 하위 그룹 전반에 걸쳐 유망한 가능성 제시",
       "summary_kr": "ASH 2025 학회에서 컬리넌(Cullinan) 사의 새로운 T세포 인게이저인 CLN-049에 대한 고무적인 연구 결과가 발표되어 주목받고 있습니다. 이 신약 후보 물질은 급성 골수성 백혈병(AML) 환자를 대상으로 한 초기 임상에서 강력한 항백혈병 효과를 나타냈습니다. 특히 중요한 점은, CLN-049의 효과가 AML에서 가장 흔하게 변이되는 단백질인 FLT3 유전자의 변이 상태와 무관하게 관찰되었다는 것입니다. 이는 FLT3 변이 여부에 따라 치료법이 제한될 수 있는 현재의 상황에서, 더 넓은 범위의 AML 환자들에게 새로운 치료 선택지를 제공할 수 있음을 의미합니다. 이번 발표에서는 치료가 매우 어려운 것으로 알려진 p53 변이 급성 골수성 백혈병 하위 그룹에서도 CLN-049의 잠재력이 확인되어, 난치성 AML 환자들에게 큰 희망을 주고 있습니다. T세포 인게이저는 환자 자신의 면역 체계를 활성화시켜 암세포를 공격하게 하는 혁신적인 접근 방식으로, CLN-049는 AML 치료의 패러다임을 바꿀 가능성을 보여주고 있습니다."
+    },
+    {
+      "title_en": "The first global pandemic treaty — and the woman who made it happen",
+      "url": "https://www.nature.com/articles/d41586-025-03841-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "세계 최초 팬데믹 조약과 그 주역, 프레셔스 마초소",
+      "summary_kr": "이 기사는 세계 최초의 글로벌 팬데믹 조약과 이 역사적인 합의를 현실로 이끈 핵심 인물에 초점을 맞춥니다. 특히 프레셔스 마초소(Precious Matsoso)라는 여성이 이 복잡하고 중요한 국제 협상을 성공적으로 이끌어낸 과정을 조명하고 있습니다. 그녀의 헌신과 리더십은 미래 팬데믹에 대비하기 위한 전 세계적인 노력에 중대한 기여를 했습니다. 마초소는 2025년 과학 분야에 지대한 영향을 미친 인물들을 선정하는 네이처(Nature)지의 권위 있는 '네이처 10(Nature’s 10)' 리스트에 이름을 올렸습니다. 이 기사는 2025년 12월 8일 네이처 온라인판에 게재되었으며, 그녀의 업적과 글로벌 팬데믹 대비의 중요성을 강조합니다. 그녀의 역할은 전 세계적인 보건 안보 강화에 필수적인 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "Five years of COVID vaccines: how a breakthrough created a public-health crisis",
+      "url": "https://www.nature.com/articles/d41586-025-03992-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-10",
+      "image_url": null,
+      "title": "코로나19 백신 5년: 빛나는 의학적 돌파구가 공중 보건 신뢰 위기를 초래한 역설",
+      "summary_kr": "과학 저널 '네이처'는 2025년 12월 8일, 코로나19 백신 개발 5주년을 맞아 백신이 공중 보건 분야에 가져온 역설적인 상황을 다룬 기사를 온라인으로 발행했습니다. 이 기사는 역사적인 의학적 돌파구였던 코로나19 백신이 어떻게 대중의 신뢰 하락이라는 공중 보건 위기로 이어졌는지 심층적으로 탐구합니다. 의사이자 저명한 과학 커뮤니케이터인 크리스틴 판타가니(Kristen Panthagani)는 팬데믹 이후 백신에 대한 대중의 신뢰가 현저히 떨어진 원인과 배경을 분석했습니다. 그녀는 백신 효과나 안전성에 대한 의문뿐만 아니라, 과도한 정보와 잘못된 정보의 확산, 그리고 과학 커뮤니케이션의 복합적인 문제들이 신뢰 위기에 어떤 영향을 미쳤는지 설명합니다. 이 논의는 미래의 팬데믹 상황에 대비하고, 과학과 대중 간의 신뢰를 재건하기 위한 효과적인 커뮤니케이션 전략을 모색하는 데 중요한 통찰을 제공할 것입니다. 이번 분석은 공중 보건 시스템이 직면한 새로운 도전 과제를 조명하며, 대중과의 소통 방식에 대한 깊은 성찰을 요구합니다."
+    },
+    {
+      "title_en": "STAT+: J&J’s two-drug combo blocked tumors in advanced multiple myeloma",
+      "url": "https://www.statnews.com/2025/12/09/ash-jandj-multiple-myeloma-and-cdc-sickle-cell-data/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/IMG_0778-645x645.jpg",
+      "title": "STAT+: J&J, 진행성 다발골수종서 2제 병용요법으로 종양 억제 효과 입증",
+      "summary_kr": "최근 2025년 미국혈액학회(ASH) 학술대회가 성황리에 막을 내렸으며, 여기서 여러 중요한 연구 결과와 소식들이 발표되었습니다. 특히, 존슨앤드존슨(J&J)은 진행성 다발골수종 치료에 대한 매우 강력하고 고무적인 데이터를 공개하여 학계의 이목을 집중시켰습니다. 이 데이터는 J&J의 2가지 약물을 활용한 병용요법이 진행성 다발골수종 환자의 종양 성장을 효과적으로 억제할 수 있음을 명확히 보여주었습니다. 또한, 이번 학회에서는 특정 희귀 질환에 대한 새로운 치료법이 소개되어, 해당 질환으로 고통받는 환자들에게 새로운 희망을 제시했습니다. 하지만 모든 소식이 긍정적이었던 것은 아닙니다. 겸상 적혈구병(sickle cell disease) 데이터 프로그램과 관련해서는 일부 난항과 문제점이 보고되어 관련 연구자들 사이에서 우려를 낳았습니다. 이처럼 ASH 2025 학회는 다발골수종 치료의 진전을 비롯해 희귀 질환 치료의 새로운 지평, 그리고 겸상 적혈구병 연구의 도전 과제들을 다각도로 조명하며 마무리되었습니다."
+    },
+    {
+      "title_en": "STAT+: Biosecure Act advances, but extra ACA subsidies are still up in the air",
+      "url": "https://www.statnews.com/2025/12/09/biosecure-act-aca-subsidies-dc-diagnosis-newsletter/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/AP25044716544497-645x645.jpg",
+      "title": "생물보안법은 진전, 추가 ACA 보조금 향방은 여전히 불투명",
+      "summary_kr": "오늘 발행된 'D.C. 다이어그노시스' 뉴스레터에 따르면, 미국 정책의 두 가지 주요 의제인 생물보안법과 추가 ACA 보조금의 현황이 주목받고 있습니다. 구체적으로, 논란이 많았던 생물보안법은 입법 절차에서 상당한 진전을 보이며 주요 이해관계자들의 이목을 집중시키고 있습니다. 이 법안은 생명공학 분야에 큰 영향을 미칠 것으로 예상되며, 관련 기업들과 연구기관들은 법안의 최종 통과 여부와 그 내용에 촉각을 곤두세우고 있습니다. 반면, 서민들의 의료비 부담 경감을 목표로 하는 추가 '오바마케어(ACA)' 보조금 연장 여부는 여전히 불확실한 상태입니다. 이는 수백만 미국인의 건강보험 접근성과 경제성에 직접적인 영향을 미칠 수 있어, 관련 논의의 결과에 대한 관심이 고조되고 있습니다. 워싱턴 정가에서는 두 가지 중요한 정책이 상이한 진전 양상을 보이며, 최종 결정이 미국 사회와 경제에 미칠 파급 효과에 대한 깊은 분석과 전망이 필요한 시점입니다."
+    },
+    {
+      "title_en": "STAT+: Are we ready to let AI interpret X-rays all by itself?",
+      "url": "https://www.statnews.com/2025/12/09/artificial-intelligence-radiology-schizophrenia-app-health-tech/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/08/AdobeStock_215934462-645x645.jpeg",
+      "title": "STAT+: AI의 단독 엑스레이 판독, 우리는 준비되었는가?",
+      "summary_kr": "이번 헬스 테크 뉴스레터에서는 인공지능(AI) 기술이 의료 분야, 특히 영상의학과에 미치는 영향과 최신 동향을 집중 조명합니다. 영상의학 분야는 AI의 발전과 함께 진단의 정확성 및 효율성 향상이라는 기대를 한몸에 받고 있지만, 동시에 AI가 단독으로 엑스레이와 같은 의료 이미지를 판독하는 것에 대한 신중한 논의가 활발히 이루어지고 있습니다. 특히, AI가 독립적으로 환자의 진단에 핵심적인 역할을 수행할 수 있는 수준에 도달했는지, 그리고 우리가 그러한 시스템을 전적으로 신뢰할 준비가 되었는지에 대한 근본적인 질문이 제기되고 있습니다. 이와 더불어, 정신 건강 분야의 중요한 발전 소식도 전해집니다. 조현병 환자를 위한 새로운 애플리케이션이 미국 식품의약국(FDA) 승인 절차를 밟기 시작했다는 소식입니다. 이는 디지털 헬스 기술이 정신과 진료 및 관리에 어떻게 통합될 수 있는지를 보여주는 중요한 사례이며, 미래 의료의 방향성을 제시합니다."
+    },
+    {
+      "title_en": "STAT+: Terns leukemia drug could succeed Novartis blockbuster",
+      "url": "https://www.statnews.com/2025/12/09/biotech-news-terns-threatens-novartis-cml-throne/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/6_lores-645x645.jpg",
+      "title": "STAT+: 터른스(Terns)의 백혈병 신약, 노바티스 블록버스터의 아성 넘볼까",
+      "summary_kr": "터른스 파마슈티컬스가 개발 중인 백혈병 치료제가 제약 업계의 이목을 집중시키고 있습니다. 이 신약은 기존 치료제의 한계를 극복하고 백혈병 치료의 새로운 지평을 열 잠재력을 지닌 것으로 평가받고 있습니다. 특히, 현재 시장을 선도하는 노바티스의 블록버스터급 백혈병 치료제 아성에 도전할 강력한 후보로 부상하며 큰 기대를 모으고 있습니다. 만약 터른스의 치료제가 성공적으로 상용화된다면, 이는 백혈병 환자들에게 새로운 희망을 제공함은 물론, 글로벌 제약 시장 판도에 상당한 변화를 가져올 것으로 예상됩니다. 이 중요한 소식은 바이오 기술 분야의 최신 동향을 전문적으로 다루는 '더 리드아웃(The Readout)' 뉴스레터를 통해 알려졌으며, 현재 가장 주목할 만한 바이오테크 소식 중 하나로 손꼽히고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about FDA scrutiny of RSV therapies, an AI tool for clinical trials, and more",
+      "url": "https://www.statnews.com/pharmalot/2025/12/09/fda-rsv-merck-sanofi-astrazeneca-abortion-glp1/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "STAT+ 파마리틀: FDA의 RSV 치료제 심사 강화와 임상 시험 AI 도구 등 제약업계 최신 동향",
+      "summary_kr": "오늘 아침 STAT+의 '파마리틀' 코너에서는 제약 산업의 두 가지 핵심 동향을 집중 조명합니다. 첫째, 미국 식품의약국(FDA)이 호흡기세포융합바이러스(RSV) 치료제에 대한 면밀한 심사를 진행하고 있다는 소식입니다. 이는 RSV 감염에 대한 공중 보건의 중요성이 커지고 있으며, 관련 신약 개발 및 승인 과정에서 더욱 엄격한 안전성 및 유효성 기준이 적용될 것임을 시사합니다. 둘째, 임상 시험 과정에 활용되는 인공지능(AI) 도구의 등장은 제약 개발의 효율성을 혁신적으로 높일 잠재력을 보여줍니다. AI는 방대한 임상 데이터를 분석하고, 환자 모집을 최적화하며, 새로운 치료법을 탐색하는 데 중요한 역할을 할 것으로 기대됩니다. 이처럼 '파마리틀'은 규제 당국의 강화된 감독과 첨단 기술의 도입이 맞물려 변화하고 있는 제약 업계의 최신 흐름을 독자들에게 전달합니다."
+    },
+    {
+      "title_en": "Gene therapy spurs improvement in rare neuromuscular disease",
+      "url": "https://www.statnews.com/2025/12/09/health-news-gene-therapy-for-rare-spinal-disease/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/06/AdobeStock_143027517-645x645.jpeg",
+      "title": "희귀 신경근 질환: 유전자 치료로 개선의 새 희망",
+      "summary_kr": "모닝 라운즈 뉴스레터에서 전해진 여러 건강 소식 중, 희귀 신경근 질환 치료에 긍정적인 영향을 미치는 유전자 치료의 발전이 큰 주목을 받고 있습니다. 이 혁신적인 치료법은 그동안 치료가 어려웠던 신경근 질환 환자들에게 실질적인 상태 개선과 함께 새로운 희망을 안겨주고 있습니다. 이번 연구 결과는 유전자 치료 기술의 잠재력과 그 적용 범위가 더욱 확장될 수 있음을 시사하며, 미래 의학의 중요한 이정표가 될 것으로 기대됩니다. 뉴스레터는 이러한 획기적인 의학적 발견뿐만 아니라, 일반 대중의 건강 증진에 도움이 될 만한 다양한 최신 건강 정보와 의학 트렌드를 폭넓게 다루었습니다. 독자들은 이를 통해 복잡한 의학 정보를 쉽고 빠르게 이해하고, 자신의 건강 관리에 적용할 수 있는 유용한 지식을 얻을 수 있었을 것입니다. 본 기사는 유전자 치료 분야의 지속적인 발전과 그로 인해 희귀 질환 환자들이 겪을 수 있는 긍정적인 변화를 강조합니다."
+    },
+    {
+      "title_en": "Opinion: STAT+: FDA drug center’s new acting director fits a pattern of risky, internal contradictions among agency leadership",
+      "url": "https://www.statnews.com/2025/12/09/fda-contradictions-deepen-tracy-hoeg-vinay-prasad-marty-makary/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/LabDish_Frame_FDA-645x645.jpg",
+      "title": "논평: STAT+ | FDA 의약품 센터 신임 대행 국장 임명, 기관 리더십의 '위험한 내부 모순' 패턴을 답습하다",
+      "summary_kr": "한 교수는 FDA 의약품 센터의 신임 대행 국장인 트레이시 베스 회그(Tracy Beth Høeg)가 기관 지도부 전반에 걸쳐 나타나는 위험하고 내재적인 모순의 패턴을 답습하고 있다고 주장했습니다. 이 주장은 FDA의 핵심적인 의사 결정 과정과 정책 방향성에 대한 심각한 우려를 제기하고 있습니다. 특히 신임 국장의 배경이나 과거 행적이 기관의 공공 보건 수호라는 핵심 가치와 상충될 수 있다는 비판적 시각이 존재합니다. 이러한 '위험한 내부 모순'은 잠재적으로 의약품 승인 과정의 객관성과 공정성, 그리고 궁극적으로 대중의 건강 보호라는 FDA의 최우선 임무에 부정적인 영향을 미칠 수 있습니다. 해당 교수는 이번 인선이 단순히 한 명의 인물을 넘어, 기관 내부의 리더십 전반에 걸쳐 뿌리 깊게 자리 잡은 문제점들을 반영하는 상징적인 사례라고 분석했습니다. 결국 이 논평은 FDA의 투명성과 책임성에 대한 심도 있는 재검토의 필요성을 강력하게 역설하고 있습니다."
     },
     {
       "title_en": "리콴유 : \"심장을 걸어라\"",
