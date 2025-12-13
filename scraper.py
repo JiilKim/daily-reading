@@ -34,10 +34,10 @@ except ImportError:
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 8000
-API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
+MAX_NEW_ARTICLES_PER_RUN = 10
+API_DELAY_SECONDS = 1 # API 안정성을 위해 1초 -> 2초로 늘림
 # 재시도 횟수 설정 (총 3번 시도)
-max_retries = 5
+max_retries = 1
 
 # 팔로알토 시간대 (썸머타임 자동 적용)
 try:
