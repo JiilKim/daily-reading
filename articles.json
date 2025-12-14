@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14 05:09:28",
+  "last_updated": "2025-12-14 15:50:07",
   "failed_queue": [
     {
       "title_en": "빅 쇼트 | 마이클 버리 UCLA 졸업연설",
@@ -56,189 +56,9 @@
       "image_url": null
     },
     {
-      "title_en": "Will young universities set the pace in the age of AI?",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03949-xWhy some institutions are betting on technology to stay relevant.",
-      "url": "https://www.nature.com/articles/d41586-025-03949-x",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Exposing a silent cancer",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03942-4Pancreatic cancer is one of the deadliest malignancies, and it is increasingly occurring in young people — especially women. An uptick in research funding is a welcome development in the push to transform treatment.",
-      "url": "https://www.nature.com/articles/d41586-025-03942-4",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Neanderthals mastered fire — 400,000 years ago",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-04059-4Archaeological evidence makes a compelling case for Neanderthal-created fires 400,000 years ago in Suffolk, UK — plus, how chatbots can sway the opinions of voters.",
-      "url": "https://www.nature.com/articles/d41586-025-04059-4",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Fasting boosts breast cancer therapy efficacy via glucocorticoid activation",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09869-0Beneficial effects of fasting combined with endocrine therapy for oestrogen receptor-α-expressing breast cancers can be recapitulated using exogenous glucocorticoid receptor ligands instead of fasting to reduce harmful effects.",
-      "url": "https://www.nature.com/articles/s41586-025-09869-0",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "The influence of short-lived halogens on atmospheric chemistry and climate",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09753-xA Review of the impacts of short-lived halogens on air quality and climate identifies gaps in our knowledge of short-lived halogen emissions, chemistry, and the environmental and climate impacts.",
-      "url": "https://www.nature.com/articles/s41586-025-09753-x",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Quantifying grain boundary deformation mechanisms in small-grained metals",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09800-7Experimental observations in small-grained polycrystals suggest a new concept of considering metallic grain boundaries not as defects but as separate defect-containing lattices, providing a potential explanation for the deformation behaviour of nanocrystalline metals.",
-      "url": "https://www.nature.com/articles/s41586-025-09800-7",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Gene-drive-capable mosquitoes suppress patient-derived malaria in Tanzania",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09685-6Engineering of local Anopheles gambiae under containment enables the generation of a transgenic strain equipped with non-autonomous gene drive capabilities that robustly inhibits genetically diverse Plasmodium falciparum isolates obtained from naturally infected children.",
-      "url": "https://www.nature.com/articles/s41586-025-09685-6",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Erythropoietin receptor on cDC1s dictates immune tolerance",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09824-zThe tolerogenic activity of type 1 conventional dendritic cells (cDC1s) is determined by EPOR, which is preferentially expressed in cDC1s and induces antigen-specific FOXP3-expressing regulatory T cells.",
-      "url": "https://www.nature.com/articles/s41586-025-09824-z",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Human gut M cells resemble dendritic cells and present gluten antigen",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09829-8An intestinal organoid model recapitulates human microfold (M) cell function and transcriptomic profiling and biochemical assays demonstrate that M cells uptake and present antigens to the immune system via the class II major histocompatibility complex.",
-      "url": "https://www.nature.com/articles/s41586-025-09829-8",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Cross-regulation of [2Fe–2S] cluster synthesis by ferredoxin-2 and frataxin",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09822-1A finely balanced ratio of ferredoxin-2 (FDX2) and frataxin (FXN) is essential for the synthesis of iron–sulfur clusters, and interventions targeting this ratio could provide a way to treat related diseases, such as Friedreich’s ataxia.",
-      "url": "https://www.nature.com/articles/s41586-025-09822-1",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Sterilization and contraception increase lifespan across vertebrates",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09836-9Data collected from zoos and aquariums worldwide show that hormonal contraception or permanent surgical sterilization in mammals increase life expectancy, with different mechanisms in males and females.",
-      "url": "https://www.nature.com/articles/s41586-025-09836-9",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Earliest evidence of making fire",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09855-6Baked sediment, heat-shattered artefacts and introduced pyrite in a 400,000-year-old Palaeolithic occupation site in Suffolk, UK provide evidence of intentional fire-making, marking a pivotal moment in human development.",
-      "url": "https://www.nature.com/articles/s41586-025-09855-6",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Observation of deuteron and antideuteron formation from resonance-decay nucleons",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09775-5The ALICE Collaboration provides details on the microscopic mechanism that ends up creating antideuteron in high-energy proton–proton collisions at the Large Hadron Collider.",
-      "url": "https://www.nature.com/articles/s41586-025-09775-5",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Hot droughts in the Amazon&#xa0;provide a window to a future hypertropical climate",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09728-yThirty years of forest demographic data, combined with recent ecophysiological measurements, reveal that intense Amazon droughts sharply increase tree mortality once soil moisture falls below a threshold, and that these hot droughts will become more frequent and intense as Earth warms towards hypertropical conditions.",
-      "url": "https://www.nature.com/articles/s41586-025-09728-y",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "A direct role for a mitochondrial targeting sequence in signalling stress",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09834-xCells can sense mitochondrial damage through signalling via an unimported mitochondrial targeting sequence.",
-      "url": "https://www.nature.com/articles/s41586-025-09834-x",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Neutrophils preserve energy storage in sympathetically activated adipocytes",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09839-6Neutrophil-derived IL-1β has a role in preserving lipid stores during metabolic stress.",
-      "url": "https://www.nature.com/articles/s41586-025-09839-6",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Mapping the genetic landscape across 14 psychiatric disorders",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09820-3Genomic analyses applied to 14 childhood- and adult-onset psychiatric disorders identifies five underlying genomic factors that explain the majority of the genetic variance of the individual disorders.",
-      "url": "https://www.nature.com/articles/s41586-025-09820-3",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "An RNA splicing system that excises DNA transposons from animal mRNAs",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09853-8A new type of mRNA splicing mechanism discovered in Caenorhabditis elegans that detects and removes inverted repeats also occurs in human cells, thereby providing another strategy to protect against the negative effects of transposable elements.",
-      "url": "https://www.nature.com/articles/s41586-025-09853-8",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Uncovering the role of LINE-1 in the evolution of lung adenocarcinoma",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09825-yLung adenocarcinomas bearing the ID2 mutational signature display increased LINE-1 retrotransposon activity, which contributes to their fast evolutionary dynamics and aggressive phenotype.",
-      "url": "https://www.nature.com/articles/s41586-025-09825-y",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
       "title_en": "Somatic evolution following cancer treatment in normal tissue",
       "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09792-4High-depth sequencing of non-cancerous tissue from patients with metastatic cancer reveals single-base mutational signatures of alcohol, smoking and cancer treatments, and reveals how exogenous factors, including cancer therapies, affect somatic cell evolution.",
       "url": "https://www.nature.com/articles/s41586-025-09792-4",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Protected area management has significant spillover effects on vegetation",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/s41586-025-09837-8Analysis of effect sizes of vegetation spillovers from protected areas in Australia shows that 71% of over 3,063 analysed protected areas had a positive spillover effect, and that these effects covary with protected area management type.",
-      "url": "https://www.nature.com/articles/s41586-025-09837-8",
       "source": "Nature (Paper)",
       "category": "Paper",
       "date": "2025-12-14",
@@ -362,15 +182,6 @@
       "image_url": null
     },
     {
-      "title_en": "The pancreatic cancer models helping to drive innovation in the field",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03944-2Cellular, animal and computational models of the disease are providing fresh insights into biology and treatment.",
-      "url": "https://www.nature.com/articles/d41586-025-03944-2",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
       "title_en": "China is leading the world on AI governance: other countries must engage",
       "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03972-yThe nation’s regulators are attempting to match the rapid pace at which AI is evolving. That needs to become a global initiative.",
       "url": "https://www.nature.com/articles/d41586-025-03972-y",
@@ -383,15 +194,6 @@
       "title_en": "Four young universities share their strategies for success",
       "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03951-3Nimble, responsive and collaborative, these institutions stand out in the Nature Index.",
       "url": "https://www.nature.com/articles/d41586-025-03951-3",
-      "source": "Nature (Paper)",
-      "category": "Paper",
-      "date": "2025-12-14",
-      "image_url": null
-    },
-    {
-      "title_en": "A simple slipknot for precise force control",
-      "description_en": "Nature, Published online: 10 December 2025;doi:10.1038/d41586-025-03829-4The tension of conventional surgical sutures can affect wound healing and is dependent on the surgeon’s experience. Imaging and simulations reveal that slipknots can reproducibly store and release force, enabling precise and consistent surgical knotting without the need for electronic sensors or specialized equipment.",
-      "url": "https://www.nature.com/articles/d41586-025-03829-4",
       "source": "Nature (Paper)",
       "category": "Paper",
       "date": "2025-12-14",
@@ -2727,6 +2529,33 @@
       "category": "Paper",
       "date": "2025-12-14",
       "image_url": null
+    },
+    {
+      "title_en": "스토리는 영원하다 (스티브 잡스)",
+      "description_en": "Translated by A\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=bo9On28uN40",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-14",
+      "image_url": "https://i3.ytimg.com/vi/bo9On28uN40/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "Laguna Bio: Immune Cells Team Up with Bacteria to Fight Cancer",
+      "description_en": "Laguna Bio’s living biotherapeutic takes advantage of an evolved response against infection to kick the immune response into high gear.",
+      "url": "https://www.the-scientist.com/laguna-bio-immune-cells-team-up-with-bacteria-to-fight-cancer-73846",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-14",
+      "image_url": null
+    },
+    {
+      "title_en": "How Do Astronomers Find Planets in Other Solar Systems?",
+      "description_en": "Even the best telescopes can’t see exoplanets. It’s all about watching for jiggly stars, blue shifts, and transits.",
+      "url": "https://www.wired.com/story/how-do-astronomers-find-planets-in-other-solar-systems/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-14",
+      "image_url": "https://media.wired.com/photos/693c7420d9838445ae310cf3/master/pass/How-Can-We-Find-Exoplanets-Science-1237974418.jpg"
     }
   ],
   "articles": [
@@ -2959,6 +2788,226 @@
       "image_url": null,
       "title": "양자 컴퓨팅 'KPI', 허위 주장 속 진짜 혁신 가려낼 지표 될 것",
       "summary_kr": "양자 컴퓨팅 분야는 빠르게 발전하고 있지만, 동시에 과장된 주장과 실제 성과를 구별하기 어려운 상황에 직면해 있습니다. 이러한 혼란 속에서 과학자들은 새로운 양자 컴퓨팅 기기들의 성능을 객관적으로 평가하고 비교할 수 있는 표준화된 방법을 개발하고 있습니다. 이는 '핵심 성과 지표(KPI)'의 개념을 양자 컴퓨팅에 도입하여, 각 기기가 실제 어떤 역량을 가지고 있는지 명확하게 측정하려는 시도입니다. 연구자들은 이러한 KPI를 통해 단순히 이론적인 가능성을 넘어, 실제 작동하는 양자 컴퓨터의 효율성과 신뢰성을 검증하고자 합니다. 이를 통해 불필요한 과대광고를 줄이고, 진정한 기술적 돌파구만이 정당하게 인정받으며, 건강한 경쟁을 통해 양자 컴퓨팅 기술 발전이 가속화될 수 있을 것으로 기대됩니다. 궁극적으로, 이러한 객관적인 평가 기준은 양자 컴퓨팅 연구의 방향성을 제시하고 미래 투자를 위한 명확한 근거를 제공할 것입니다."
+    },
+    {
+      "title_en": "Will young universities set the pace in the age of AI?",
+      "url": "https://www.nature.com/articles/d41586-025-03949-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "AI 시대, 신생 대학들이 주도권을 잡을 수 있을까?",
+      "summary_kr": "인공지능(AI) 시대로 접어들면서 대학들의 역할과 미래에 대한 논의가 활발합니다. 특히 역사가 짧은 신생 대학들이 기술 변화를 발 빠르게 수용하며 경쟁력을 강화할 수 있을지에 대한 관심이 커지고 있습니다. 일부 대학들은 AI와 같은 첨단 기술을 적극적으로 도입하여 교육 및 연구 방식을 혁신하고, 이를 통해 급변하는 환경 속에서도 관련성을 유지하며 미래를 선도하려는 전략을 취하고 있습니다. 이러한 대학들은 전통적인 교육 시스템의 한계를 극복하고, AI 기술을 활용하여 맞춤형 학습 경험을 제공하거나 새로운 연구 분야를 개척하는 등 혁신적인 접근 방식을 선보일 것으로 기대됩니다. AI 기술 발전이 대학 교육의 패러다임을 어떻게 바꿀지, 그리고 신생 대학들이 이 변화의 중심에 설 수 있을지에 대한 전망을 제시합니다."
+    },
+    {
+      "title_en": "Exposing a silent cancer",
+      "url": "https://www.nature.com/articles/d41586-025-03942-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "침묵의 암, 췌장암의 실태와 희망",
+      "summary_kr": "췌장암은 가장 치명적인 악성 종양 중 하나로, 최근 젊은층, 특히 여성에게서 발병률이 증가하는 추세를 보이고 있습니다. 이러한 ‘침묵의 암’은 초기 진단이 어렵고 치료법 개발이 더딘 것으로 알려져 있어 각별한 주의가 요구됩니다. 다행히 췌장암 연구에 대한 지원이 늘어나고 있다는 점은 치료법의 획기적인 발전을 기대하게 하는 긍정적인 신호입니다. 늘어난 연구 자금은 췌장암의 조기 발견, 예방, 그리고 효과적인 치료법 개발에 집중될 것으로 예상됩니다. 이는 췌장암으로 고통받는 환자들에게 새로운 희망을 제공할 것입니다. 앞으로 췌장암 퇴치를 위한 과학계와 의료계의 노력에 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Neanderthals mastered fire — 400,000 years ago",
+      "url": "https://www.nature.com/articles/d41586-025-04059-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "네안데르탈인, 40만 년 전 불을 다루다",
+      "summary_kr": "최근 연구 결과에 따르면, 네안데르탈인이 약 40만 년 전 영국 서퍽 지역에서 의도적으로 불을 사용했다는 강력한 고고학적 증거가 발견되었습니다. 이는 기존에 알려진 네안데르탈인의 불 사용 시점을 훨씬 앞당기는 발견입니다. 이 증거는 네안데르탈인이 단순히 자연 발생한 불을 이용한 것이 아니라, 불을 만들고 제어하는 능력을 갖추고 있었음을 시사합니다. 이러한 능력은 네안데르탈인의 생존 전략, 사회 구조, 그리고 인지 능력에 대한 이해를 심화시키는 중요한 단서를 제공합니다. 이번 발견은 인류 진화 과정에서 불의 역할에 대한 우리의 이해를 재정립할 수 있습니다. 한편, 같은 기사에서는 챗봇이 유권자들의 의견에 어떤 영향을 미칠 수 있는지에 대한 내용도 함께 다루고 있습니다."
+    },
+    {
+      "title_en": "Fasting boosts breast cancer therapy efficacy via glucocorticoid activation",
+      "url": "https://www.nature.com/articles/s41586-025-09869-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "단식이 글루코코르티코이드 활성화를 통해 유방암 치료 효과를 증진시킨다",
+      "summary_kr": "에스트로겐 수용체 알파(ERα) 양성 유방암 환자에게 단식과 내분비 요법을 병행했을 때 유익한 효과가 나타났다. 최근 연구에 따르면, 이러한 단식의 긍정적인 효과는 단식 대신 외부에서 글루코코르티코이드 수용체 리간드를 사용하여 동일하게 재현될 수 있다. 이는 단식으로 인해 발생할 수 있는 부작용을 줄이면서 치료 효과를 유지하거나 향상시킬 수 있는 가능성을 제시한다. 연구진은 단식이 ERα 양성 유방암 세포에서 특정 유전자 발현을 조절하고, 내분비 요법에 대한 민감성을 높이는 메커니즘을 규명했다. 특히, 단식을 통해 글루코코르티코이드 수용체가 활성화되면서 암세포의 성장 억제 및 사멸을 유도하는 경로가 강화되는 것을 확인했다. 이 발견은 단식이 어려운 환자들에게도 효과적인 치료 보조 수단으로 활용될 수 있는 새로운 길을 열어줄 것으로 기대된다."
+    },
+    {
+      "title_en": "The influence of short-lived halogens on atmospheric chemistry and climate",
+      "url": "https://www.nature.com/articles/s41586-025-09753-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "단기 할로겐이 대기 화학 및 기후에 미치는 영향",
+      "summary_kr": "최근 네이처에 게재된 리뷰 논문은 단기 할로겐이 대기 질과 기후에 미치는 복합적인 영향을 심층적으로 분석합니다. 이 논문은 대기 중에 비교적 짧은 시간 동안만 존재하는 할로겐 화합물, 즉 단기 할로겐의 중요성을 강조합니다. 이들은 오존층 파괴와 같은 장기적인 영향뿐만 아니라, 대기 화학 반응과 기후 변화에도 상당한 영향을 미칠 수 있습니다. 특히, 논문은 단기 할로겐 배출원에 대한 우리의 지식이 부족함을 지적하며, 이는 대기 질 예측 및 기후 모델링에 불확실성을 야기하는 주요 원인임을 밝힙니다. 또한, 이러한 할로겐의 복잡한 화학적 반응 경로와 그로 인한 환경적, 기후적 영향에 대한 이해 또한 아직은 미흡한 부분이 많다고 설명합니다. 따라서, 단기 할로겐의 배출, 화학, 그리고 환경 및 기후 영향에 대한 연구 격차를 해소하는 것이 시급함을 강조하며, 향후 관련 연구의 필요성을 역설하고 있습니다."
+    },
+    {
+      "title_en": "Quantifying grain boundary deformation mechanisms in small-grained metals",
+      "url": "https://www.nature.com/articles/s41586-025-09800-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "미세 결정립 금속의 결정립계 변형 메커니즘 정량화",
+      "summary_kr": "작은 결정립을 가진 다결정 금속에 대한 실험적 관찰은 금속 결정립계를 단순히 결함으로 간주하는 대신, 별도의 결함 포함 격자라는 새로운 개념을 제시합니다. 이는 나노 결정질 금속의 변형 거동을 설명할 수 있는 잠재적인 통찰력을 제공합니다. 기존에는 결정립계를 재료의 특성을 저하시키는 결함으로 여겨왔으나, 본 연구에서는 이러한 결정립계가 오히려 독특한 구조와 특성을 지니고 있어 변형 과정에 능동적으로 기여할 수 있음을 시사합니다. 이 새로운 접근 방식은 나노 물질의 강도와 연성을 향상시키기 위한 설계 전략을 개발하는 데 중요한 역할을 할 수 있습니다. 더 나아가, 이러한 결정립계의 역할을 정확하게 정량화함으로써 기존의 재료 과학 이론을 확장하고, 미래의 첨단 금속 재료 개발에 새로운 지평을 열 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Gene-drive-capable mosquitoes suppress patient-derived malaria in Tanzania",
+      "url": "https://www.nature.com/articles/s41586-025-09685-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "유전자 구동 모기, 탄자니아 말라리아 환자 유래 기생충 억제 성공",
+      "summary_kr": "탄자니아에서 진행된 연구에서, 실험실 환경 하에 격리된 안opheles gambiae 모기를 유전적으로 조작하여 비자율적 유전자 구동 기능을 갖춘 형질 전환 균주를 개발했습니다. 이 형질 전환 모기들은 자연 감염된 어린이들로부터 채취한 다양한 종류의 팔시파룸 말라리아 원충을 강력하게 억제하는 능력을 보여주었습니다. 이는 특정 지역의 모기 개체군에 유전자 구동 기술을 적용하여 말라리아 원충의 전파를 효과적으로 막을 수 있는 가능성을 제시합니다. 연구팀은 이러한 결과를 바탕으로 향후 현장 적용을 통해 말라리아 퇴치에 기여할 수 있을 것으로 기대하고 있습니다. 이번 연구는 유전자 편집 기술이 감염병 퇴치에 실질적으로 활용될 수 있음을 시사하는 중요한 성과입니다."
+    },
+    {
+      "title_en": "Erythropoietin receptor on cDC1s dictates immune tolerance",
+      "url": "https://www.nature.com/articles/s41586-025-09824-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "적혈구 생성 촉진 호르몬 수용체(EPOR)가 제1형 수지상세포(cDC1)의 면역 관용 결정",
+      "summary_kr": "최근 네이처(Nature)에 발표된 연구에 따르면, 제1형 재래식 수지상세포(cDC1)의 면역 관용 유도 활성이 적혈구 생성 촉진 호르몬 수용체(EPOR)에 의해 결정되는 것으로 밝혀졌습니다. EPOR은 cDC1 세포에 우선적으로 발현되며, 이 수용체의 작용은 항원 특이적인 FOXP3 발현 조절 T세포(regulatory T cells)의 유도를 촉진합니다. 이러한 발견은 cDC1 세포의 면역 관용 유도 메커니즘을 이해하는 데 중요한 단서를 제공합니다. EPOR 발현을 조절함으로써 자가면역 질환이나 장기 이식 거부 반응과 같이 면역계가 자신의 조직을 공격하거나 외부 물질을 과도하게 반응하는 상태를 개선할 수 있을 것으로 기대됩니다. 또한, 이는 새로운 면역 치료 전략 개발의 가능성을 열어줄 것입니다. 이번 연구는 cDC1과 EPOR 간의 상호작용이 면역 항상성 유지에 핵심적인 역할을 수행함을 시사합니다."
+    },
+    {
+      "title_en": "Human gut M cells resemble dendritic cells and present gluten antigen",
+      "url": "https://www.nature.com/articles/s41586-025-09829-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "장내 M세포, 수지상세포와 유사하게 작용하며 글루텐 항원 제시 능력 확인",
+      "summary_kr": "장내 M세포(Microfold cells)가 수지상세포와 유사한 기능을 수행하며, 특히 글루텐 항원을 면역계에 제시하는 능력이 있다는 사실이 밝혀졌다. 연구진은 인간 장기 오가노이드 모델을 사용하여 M세포의 기능을 재현하는 데 성공했다. 또한, 전사체 프로파일링 및 생화학적 분석을 통해 M세포가 제2형 주조직적합성 복합체(MHC class II)를 통해 항원을 흡수하고 T세포에 제시함을 입증했다. 이는 M세포가 면역 감시에 중요한 역할을 수행하며, 특히 음식물 유래 항원에 대한 초기 면역 반응을 조절하는 데 관여할 수 있음을 시사한다. 이러한 발견은 염증성 장 질환과 같은 면역 관련 질환의 이해와 치료법 개발에 새로운 가능성을 열어줄 것으로 기대된다."
+    },
+    {
+      "title_en": "Cross-regulation of [2Fe–2S] cluster synthesis by ferredoxin-2 and frataxin",
+      "url": "https://www.nature.com/articles/s41586-025-09822-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "페레독신-2와 프라탁신에 의한 [2Fe-2S] 클러스터 합성의 상호 조절",
+      "summary_kr": "철-황(iron-sulfur) 클러스터 합성에 있어 페레독신-2(FDX2)와 프라탁신(FXN)의 정밀하게 균형 잡힌 비율이 필수적임이 밝혀졌습니다. 이 두 단백질의 상호 작용이 클러스터 합성 과정에서 어떻게 작용하는지에 대한 이해는 중요합니다. 특히, 이 비율을 조절하는 개입은 프리드리히 운동실조증과 같은 관련 질병을 치료할 수 있는 잠재적 방법을 제공할 수 있습니다. 이 연구는 FDX2와 FXN이 철-황 클러스터 생합성에 미치는 영향을 심층적으로 탐구하여, 이들의 복잡한 조절 메커니즘을 규명합니다. 이러한 발견은 철-황 대사 질환의 병태생리와 치료 전략 개발에 중요한 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Sterilization and contraception increase lifespan across vertebrates",
+      "url": "https://www.nature.com/articles/s41586-025-09836-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "불임 시술 및 피임, 척추동물 전체의 수명 연장 효과 확인",
+      "summary_kr": "전 세계 동물원 및 수족관에서 수집된 데이터를 분석한 결과, 호르몬 피임 또는 영구적인 외과적 불임 시술이 포유류의 기대 수명을 증가시키는 것으로 나타났습니다. 흥미롭게도, 이러한 수명 연장 효과는 수컷과 암컷에서 서로 다른 생물학적 메커니즘을 통해 작용하는 것으로 밝혀졌습니다. 이번 연구는 척추동물 전반에 걸쳐 불임 시술과 피임이 단순히 번식 조절을 넘어 생명 연장이라는 예상치 못한 이점을 제공할 수 있음을 시사합니다. 국제적으로 수집된 방대한 데이터를 기반으로 한 이번 연구 결과는 향후 동물 복지 및 보존 전략 수립에 중요한 기초 자료를 제공할 것으로 기대됩니다. 또한, 성별에 따른 작용 기전의 차이는 향후 추가적인 심층 연구를 통해 밝혀내야 할 과제입니다."
+    },
+    {
+      "title_en": "Earliest evidence of making fire",
+      "url": "https://www.nature.com/articles/s41586-025-09855-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "불 사용 증거, 40만 년 전으로 거슬러 올라간다",
+      "summary_kr": "영국 서퍽의 40만 년 전 구석기 유적지에서 발견된 구워진 퇴적물, 열로 부서진 인공물, 도입된 황철석은 의도적인 불 사용의 증거를 제시합니다. 이는 인간 발달의 중요한 순간을 알리는 중요한 발견입니다. 이번 연구는 불을 만들고 통제하는 능력이 기존에 생각했던 것보다 훨씬 오래되었음을 시사합니다. 이 유적지의 발견은 초기 인류가 단순히 자연 발생한 불을 이용하는 것을 넘어, 적극적으로 불을 일으키고 유지하는 기술을 가지고 있었음을 강력하게 뒷받침합니다. 이러한 불의 활용은 추위로부터 자신을 보호하고, 음식을 익혀 먹으며, 포식자로부터 안전을 확보하는 등 초기 인류의 생존과 발전에 지대한 영향을 미쳤을 것으로 보입니다. 이는 인류 진화 과정에서 혁신적인 도약이었으며, 이후 기술 및 사회 발달의 기반을 마련하는 결정적인 계기가 되었습니다."
+    },
+    {
+      "title_en": "Observation of deuteron and antideuteron formation from resonance-decay nucleons",
+      "url": "https://www.nature.com/articles/s41586-025-09775-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "고에너지 양성자-양성자 충돌에서 공명 붕괴 뉴클레온으로부터의 중수소와 반중수소 형성 관측",
+      "summary_kr": "유럽 입자 물리 연구소(CERN)의 거대 강입자 충돌기(LHC)에서 ALICE 협력이 수행한 최신 연구 결과가 발표되었습니다. 이 연구는 고에너지 양성자-양성자 충돌 과정에서 중수소(deuteron)와 반중수소(antideuteron)가 어떻게 생성되는지에 대한 미시적인 메커니즘을 규명했습니다. 특히, 공명 상태의 뉴클레온(중성자 또는 양성자)이 붕괴하면서 발생하는 입자들의 상호작용이 반중수소와 같은 복합 입자 형성에 결정적인 역할을 한다는 점을 밝혀냈습니다. 이는 핵물리학 분야에서 물질과 반물질의 대칭성에 대한 이해를 심화시키는 중요한 성과이며, 극한 환경에서의 입자 생성 과정을 이해하는 데 새로운 통찰을 제공합니다. 이번 연구는 자연과학 분야의 저명한 학술지인 'Nature'에 게재되었으며, 향후 우주론 및 입자 물리학의 여러 이론적 모델 검증에 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Hot droughts in the Amazon&#xa0;provide a window to a future hypertropical climate",
+      "url": "https://www.nature.com/articles/s41586-025-09728-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "아마존의 '뜨거운 가뭄', 초열대 기후의 미래를 엿보다",
+      "summary_kr": "최근 발표된 연구에 따르면, 아마존 열대우림에서 발생하는 극심한 가뭄이 나무의 죽음을 급격히 증가시키는 것으로 나타났습니다. 30년간 축적된 삼림 인구 통계 데이터와 최근의 생태 생리학적 측정 결과를 종합한 이 연구는, 토양 수분이 특정 임계점 이하로 떨어지면 나무 사망률이 급증한다는 사실을 밝혀냈습니다. 특히, 이러한 '뜨거운 가뭄'은 지구 온난화로 인해 미래에 더욱 빈번하고 강렬해질 것으로 예측됩니다. 지구 기온이 '초열대(hypertropical)' 조건으로 상승함에 따라, 아마존 지역의 가뭄 빈도와 강도가 증가할 것이라는 전망입니다. 이는 아마존 열대우림의 생태계뿐만 아니라, 지구 기후 시스템 전반에 걸쳐 심각한 영향을 미칠 수 있음을 시사합니다. 해당 연구는 2025년 12월 10일 네이처(Nature) 저널에 온라인으로 게재되었으며, DOI는 10.1038/s41586-025-09728-y입니다."
+    },
+    {
+      "title_en": "A direct role for a mitochondrial targeting sequence in signalling stress",
+      "url": "https://www.nature.com/articles/s41586-025-09834-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "미토콘드리아 표적 서열, 스트레스 신호 전달에 직접 관여",
+      "summary_kr": "과학자들이 세포가 미토콘드리아 손상을 감지하고 이에 반응하는 새로운 메커니즘을 발견했습니다. 이번 연구는 미토콘드리아 내부로 운반되지 않는 특정한 단백질 서열, 즉 미토콘드리아 표적 서열(MTS)이 스트레스 신호 전달에 직접적인 역할을 한다는 사실을 밝혀냈습니다. 일반적으로 MTS는 단백질을 미토콘드리아 안으로 안내하는 역할을 하지만, 이 연구에서는 MTS가 세포질에 남아 외부의 스트레스 신호를 감지하는 센서 역할을 하는 것으로 나타났습니다. 이러한 방식으로 세포는 미토콘드리아의 손상이나 기능 이상을 빠르게 인지하고, 이에 대한 적절한 방어 또는 복구 반응을 개시할 수 있습니다. 이 발견은 세포 스트레스 반응 및 관련 질병의 이해에 새로운 지평을 열 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Neutrophils preserve energy storage in sympathetically activated adipocytes",
+      "url": "https://www.nature.com/articles/s41586-025-09839-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "호중구, 교감신경 활성 지방세포의 에너지 저장 보존에 기여",
+      "summary_kr": "최근 네이처에 발표된 연구에 따르면, 호중구에서 분비되는 인터루킨-1 베타(IL-1β)가 대사 스트레스 상황에서 지방 저장량을 보존하는 중요한 역할을 하는 것으로 밝혀졌습니다. 이는 교감신경계가 활성화되었을 때 지방세포가 에너지를 저장하는 방식을 조절하는 새로운 메커니즘을 제시합니다. 일반적으로 교감신경 활성화는 지방 분해를 촉진하여 에너지를 방출하게 하는데, 이 연구는 호중구가 IL-1β를 통해 이러한 과정을 억제하여 지방 저장량을 유지하도록 돕는다는 것을 보여줍니다. 이러한 발견은 비만, 당뇨병과 같은 대사 질환의 새로운 치료 전략 개발에 중요한 단서를 제공할 수 있습니다. 특히, 과도한 지방 분해로 인해 발생하는 에너지 불균형을 조절하는 데 호중구의 역할이 주목받고 있습니다. 향후 이 메커니즘에 대한 추가 연구는 대사 건강을 개선하는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Mapping the genetic landscape across 14 psychiatric disorders",
+      "url": "https://www.nature.com/articles/s41586-025-09820-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "14가지 정신 질환에 걸친 유전적 지형도 작성",
+      "summary_kr": "최신 연구에서 14가지 소아 및 성인 발병 정신 질환에 대한 방대한 유전체 분석이 수행되었습니다. 이 분석을 통해 개별 질환의 유전적 변동성을 대부분 설명할 수 있는 다섯 가지 근본적인 유전적 요인이 밝혀졌습니다. 이러한 발견은 다양한 정신 질환의 기저에 있는 공유된 유전적 메커니즘을 이해하는 데 중요한 진전을 이루었습니다. 연구진은 이 다섯 가지 요인이 정신 질환의 복잡한 유전적 구조를 이해하는 데 핵심적인 역할을 한다고 제안합니다. 이번 연구 결과는 정신 질환에 대한 새로운 진단 및 치료 전략 개발에 기여할 것으로 기대됩니다. 또한, 이는 정신 건강 분야의 유전체 연구에서 중요한 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "An RNA splicing system that excises DNA transposons from animal mRNAs",
+      "url": "https://www.nature.com/articles/s41586-025-09853-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "동물 mRNA에서 DNA 전이인자를 제거하는 RNA 스플라이싱 시스템 발견",
+      "summary_kr": "네이처에 게재된 최신 연구에 따르면, 연구진은 예쁜꼬마선충(Caenorhabditis elegans)에서 새로운 형태의 mRNA 스플라이싱 메커니즘을 발견했습니다. 이 메커니즘은 DNA 전이인자(transposons)의 특성인 역반복 서열(inverted repeats)을 감지하고 제거하는 역할을 합니다. 흥미롭게도, 이러한 스플라이싱 방식은 인간 세포에서도 유사하게 발견되었으며, 이는 동물 mRNA에서 유전체 불안정성의 주요 원인 중 하나인 전이인자의 부정적인 영향을 방어하는 또 다른 전략을 제공함을 시사합니다. 이 발견은 전이인자로부터 유전체 정보를 보호하는 진화적 기제에 대한 이해를 넓히는 중요한 성과입니다."
+    },
+    {
+      "title_en": "Uncovering the role of LINE-1 in the evolution of lung adenocarcinoma",
+      "url": "https://www.nature.com/articles/s41586-025-09825-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "폐 선암종 진화에서 LINE-1의 역할 규명",
+      "summary_kr": "폐 선암종에서 ID2 돌연변이 서명이 나타나는 경우, LINE-1 레트로트랜스포존 활성이 증가하는 것으로 나타났습니다. 이러한 LINE-1의 증가는 폐 선암종의 빠른 진화 역동성과 공격적인 표현형에 기여하는 것으로 밝혀졌습니다. 연구팀은 LINE-1이 어떻게 폐암의 발달과 진행에 영향을 미치는지에 대한 새로운 통찰력을 제공하며, 이는 미래의 치료 전략 개발에 중요한 단서를 제공할 수 있습니다. 특히, LINE-1의 활동 증가는 유전체 불안정성을 야기하고 종양 성장을 촉진하는 메커니즘과 관련이 있을 수 있습니다. 따라서 LINE-1을 표적으로 하는 치료법이 폐 선암종 환자의 예후를 개선하는 데 잠재적인 역할을 할 수 있음을 시사합니다."
+    },
+    {
+      "title_en": "Protected area management has significant spillover effects on vegetation",
+      "url": "https://www.nature.com/articles/s41586-025-09837-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "보호 구역 관리가 주변 식생에 미치는 상당한 파급 효과",
+      "summary_kr": "호주에서 수행된 최신 연구에 따르면, 국립공원과 같은 보호 구역의 관리가 주변 지역의 식생에 긍정적인 영향을 미치는 '파급 효과'가 상당한 것으로 나타났습니다. 자연(Nature)지에 온라인으로 게재된 이 연구는 3,063개 이상의 보호 구역을 분석했으며, 그중 71%가 긍정적인 파급 효과를 보였다고 밝혔습니다. 특히, 이러한 파급 효과의 크기는 보호 구역을 관리하는 방식에 따라 달라지는 것으로 확인되었습니다. 이는 보호 구역이 단순히 내부의 생태계만을 보존하는 것을 넘어, 인접 지역의 생물 다양성 증진에도 기여할 수 있음을 시사합니다. 따라서 효과적인 보호 구역 관리 전략은 생태계 보전의 범위를 확대하는 데 중요한 역할을 할 수 있습니다."
+    },
+    {
+      "title_en": "The pancreatic cancer models helping to drive innovation in the field",
+      "url": "https://www.nature.com/articles/d41586-025-03944-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "췌장암 혁신을 이끄는 모델들",
+      "summary_kr": "최근 네이처에 게재된 연구에 따르면, 췌장암 분야의 혁신을 견인하는 다양한 모델들이 주목받고 있습니다. 이러한 모델들은 세포, 동물, 그리고 계산 모델 등 다양한 형태로 존재하며 췌장암의 생물학적 이해를 심화시키고 새로운 치료법 개발에 중요한 역할을 하고 있습니다. 특히, 이러한 모델들은 췌장암의 복잡한 특성을 파악하고, 질병의 진행 과정을 추적하며, 잠재적인 치료 표적을 발굴하는 데 기여합니다. 또한, 실제 환자에게 적용 가능한 치료 전략을 개발하기 위한 전임상 연구의 기반을 제공합니다. 2025년 12월 10일에 온라인으로 발표된 이 연구는 췌장암 연구의 최신 동향과 발전 가능성을 보여줍니다. 이러한 혁신적인 모델들을 통해 췌장암 정복을 위한 노력은 더욱 가속화될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "A simple slipknot for precise force control",
+      "url": "https://www.nature.com/articles/d41586-025-03829-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-14",
+      "image_url": null,
+      "title": "정밀한 힘 조절을 위한 간단한 슬립매듭",
+      "summary_kr": "기존 수술 봉합사의 장력은 상처 치유에 영향을 미칠 수 있으며, 이는 의사의 숙련도에 따라 달라집니다. 최근 영상 분석 및 시뮬레이션 연구를 통해 슬립매듭(slipknot)이 힘을 재현성 있게 저장하고 방출할 수 있다는 사실이 밝혀졌습니다. 이 기술은 전자 센서나 특수 장비 없이도 수술 시 정밀하고 일관된 매듭 조절을 가능하게 합니다. 이는 외과 의사가 경험에 의존하지 않고도 안정적인 봉합 강도를 확보할 수 있게 하여, 환자의 상처 치유 과정을 개선하는 데 크게 기여할 것으로 기대됩니다. 슬립매듭의 이러한 특성은 외과 수술의 정확성과 안전성을 한 단계 높일 수 있는 잠재력을 지니고 있습니다."
     },
     {
       "title_en": "Postdoc Portrait: Marwa Zafarullah",
