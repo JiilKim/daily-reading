@@ -80,7 +80,7 @@ def clean_json_text(text):
     return text.strip()
 
 def get_gemini_summary(article_data):
-    model_id='gemini-1.5-flash', # 모델 버전
+    
     """
     Gemini API를 사용하여 기사 콘텐츠를 번역하고 요약합니다.
     유튜브 영상의 경우 URL을 통해 직접 영상 콘텐츠를 분석합니다.
@@ -132,7 +132,7 @@ def get_gemini_summary(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model = model_id,
+                    model = 'gemini-1.5-flash',
                     contents=[
                         prompt,
                         types.Part.from_uri(
@@ -171,7 +171,7 @@ def get_gemini_summary(article_data):
                         """
                 
                 response = client.models.generate_content(
-                    model = model_id,
+                    model = 'gemini-1.5-flash',
                     contents=prompt,
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json"
