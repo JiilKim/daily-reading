@@ -447,22 +447,7 @@ def main():
     new_articles = []
     new_failed_queue = []
     processed_cnt = 0
-    
-    MODEL_CANDIDATES = [
-
-        #"gemini-3-pro-preview",
-
-        #"gemini-2.5-flash",         # 1순위: 최신 고성능 (가장 먼저 시도)
-
-        #"gemini-2.0-flash",         # 2순위: 2.0 안정 버전
-
-        "gemini-flash-latest",      # 3순위: 1.5 Flash의 최신 별칭 (가장 안정적, 할당량 많음)
-
-        "gemini-2.0-flash-lite"   # 4순위: 속도 빠르고 가벼운 모델 (최후의 보루)
-
-    ]
-    model_cnt = 0
-
+   
     for art in unique_candidates:
         if processed_cnt >= MAX_NEW_ARTICLES_PER_RUN:
             log(f"할당량({MAX_NEW_ARTICLES_PER_RUN}) 초과. 남은 {len(unique_candidates) - processed_cnt}건은 다음으로 미룸.", "WARNING")
@@ -471,15 +456,9 @@ def main():
 
         processed_cnt += 1
         
-        model_id = MODEL_CANDIDATES[model_cnt]
+        model_id = 'gemini-2.5-flash-lite'
         title_kr, summary_kr = get_gemini_summary(art, model_id)
         
-        while "RESOURCE_EXHAUSTED" in summary_kr and "[최종 실패]" not in summary_kr:
-            model_cnt += 1
-            model_id = MODEL_CANDIDATES[model_cnt]
-            title_kr, summary_kr = get_gemini_summary(art, model_id)
-        
-
         if "[요약 실패]" in summary_kr:
             # 실패시 큐에 저장 (다음 실행때 최우선 처리)
             new_failed_queue.append(art)
