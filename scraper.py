@@ -34,10 +34,10 @@ except ImportError:
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 10
-API_DELAY_SECONDS = 1 # API 안정성을 위해 1초 -> 2초로 늘림
+MAX_NEW_ARTICLES_PER_RUN = 10000
+API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
 # 재시도 횟수 설정 (총 3번 시도)
-max_retries = 1
+max_retries = 5
 
 # 팔로알토 시간대 (썸머타임 자동 적용)
 try:
@@ -489,7 +489,7 @@ def main():
 
     if os.path.exists(log_file_path):
         try:
-            with open(log_file_path, 'r', encoding='utf-8') as f:
+            with open('logs.json', 'r', encoding='utf-8') as f:
                 all_logs = json.load(f)
                 # 만약 파일 내용이 dict가 아니면 초기화
                 if not isinstance(all_logs, dict):
@@ -502,7 +502,7 @@ def main():
     all_logs[current_date_key] = execution_logs
 
     try:
-        with open(log_file_path, 'w', encoding='utf-8') as f:
+        with open('logs.json', 'w', encoding='utf-8') as f:
             json.dump(all_logs, f, ensure_ascii=False, indent=2)
         print(f"로그 저장 완료: {log_file_path} (Key: {current_date_key})")
     except Exception as e:
