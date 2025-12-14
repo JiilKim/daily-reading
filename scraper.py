@@ -131,7 +131,7 @@ def get_gemini_summary(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash', # 모델 버전
+                    model='gemini-2.0-flash', # 모델 버전
                     contents=[
                         prompt,
                         types.Part.from_uri(
