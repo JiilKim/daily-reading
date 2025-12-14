@@ -97,9 +97,8 @@ def get_gemini_summary(article_data, model_id):
     url = article_data['url']
     source = article_data.get('source', '')
     
-    #api_key = os.environ.get('GEMINI_API_KEY')
-    api_key = 'AIzaSyAa8PxbnH3dPgCaCBSydSl73r4-1OP0uZ8'
-        
+    api_key = os.environ.get('GEMINI_API_KEY')
+    
     if not api_key:
         print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
         return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
@@ -206,7 +205,7 @@ def get_gemini_summary(article_data, model_id):
             
             # 1. 할당량 초과 (429) 또는 모델 없음 (404) -> 다음 모델로 Pass
             if "429" in error_msg or "404" in error_msg or "ResourceExhausted" in error_msg or "Not Found" in error_msg:
-                print(f"  [AI] ⚠️ {model_id} 사용 불가 (한도초과/미지원). 다음 모델로 전환합니다.")
+                print(f"  [AI] ⚠️ {model_id} 사용 불가 (한도초과/미지원). (시도 {attempt+1}): {e}")
                 return title_en, f"[요약 실패] {str(e)}"
         
         except json.JSONDecodeError as e:
@@ -451,11 +450,11 @@ def main():
     
     MODEL_CANDIDATES = [
 
-        "gemini-3-pro-preview",
+        #"gemini-3-pro-preview",
 
-        "gemini-2.5-flash",         # 1순위: 최신 고성능 (가장 먼저 시도)
+        #"gemini-2.5-flash",         # 1순위: 최신 고성능 (가장 먼저 시도)
 
-        "gemini-2.0-flash",         # 2순위: 2.0 안정 버전
+        #"gemini-2.0-flash",         # 2순위: 2.0 안정 버전
 
         "gemini-flash-latest",      # 3순위: 1.5 Flash의 최신 별칭 (가장 안정적, 할당량 많음)
 
