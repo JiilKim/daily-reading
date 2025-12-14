@@ -91,6 +91,14 @@ def get_gemini_summary(article_data):
     Returns:
         tuple: (translated_title_kr, summary_kr)
     """
+    MODEL_CANDIDATES = [
+        "gemini-3-pro-preview",     # 0순위: 최신 프리뷰 (찍먹)
+        "gemini-2.5-flash",         # 1순위: 메인 고성능
+        "gemini-2.0-flash",         # 2순위: 2.0 안정형
+        "gemini-flash-latest",      # 3순위: 1.5 Flash (물량 담당)
+        "gemini-2.0-flash-lite",    # 4순위: 초경량 (최후의 보루)
+        "gemma-3-27b-it"            # 5순위: 오픈 소스
+    ]
     title_en = article_data['title_en']
     description_en = article_data['description_en']
     url = article_data['url']
@@ -103,117 +111,127 @@ def get_gemini_summary(article_data):
         return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
     
     client = genai.Client(api_key=api_key)
-
-    
     
     for attempt in range(max_retries):
-        try:        
-            # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
-            if 'YouTube' in source:
-                print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
-                
-                prompt = f"""
-                        당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
-                        출력은 반드시 지정된 JSON 형식을 따라야 합니다.
-                        
-                        [입력]
-                        - title_en: "{title_en}"
-                        
-                        [JSON 출력 형식]
-                        {{
-                          "title_kr": "여기에 제목의 전문적인 한국어 번역을 작성합니다",
-                          "summary_kr": "핵심 요점을 추출하여, 영상 콘텐츠에 대한 상세하고 최소 10문장 분량의 한국어 요약문을 작성합니다"
-                        }}
-                        
-                        [규칙]
-                        1. "title_kr": "title_en"을 자연스럽고 전문적인 한국어로 번역합니다.
-                        2. "summary_kr": 자연스러운 한국어 문체로 상세한 최소 10문장 요약을 제공합니다.
-                        3. 대화체가 아닌 일반적인 글쓰기 문체를 사용합니다.
-                        """
-    
-                response = client.models.generate_content(
-                    model = 'gemini-1.5-flash',
-                    contents=[
-                        prompt,
-                        types.Part.from_uri(
-                            file_uri=url,
-                            mime_type="video/youtube"
-                        )
-                    ],
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json"
-                    )
-                )
-                
-            # 텍스트 기사: 설명을 바탕으로 번역 및 요약
-            else:
-                print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
-                
-                prompt = f"""
-                        당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
-                        아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
-                        결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
-                         
-                        [입력]
-                        - title_en: "{title_en}"
-                        - description_en: "{description_en}"
-                        
-                        [JSON 출력 형식]
-                        {{
-                          "title_kr": "여기에 한국어 번역 제목을 작성",
-                          "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
-                        }}
-                        
-                        [규칙]
-                        1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
-                        2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
-                        3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
-                        """
-                
-                response = client.models.generate_content(
-                    model = 'gemini-1.5-flash',
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json"
-                    )
-                )
-    
-    
-            # [수정된 부분] 텍스트 정제 (마크다운 제거)
-            text = response.text
-            if text.startswith("```"):
-                text = re.sub(r"^```json\s*", "", text) # 시작 부분 ```json 제거
-                text = re.sub(r"^```\s*", "", text)     # 시작 부분 ``` 제거
-                text = re.sub(r"\s*```$", "", text)     # 끝 부분 ``` 제거
-            
-            text = text.strip() # 앞뒤 공백 제거
-    
-            # JSON 파싱
-            data = json.loads(text, strict=False)
-            
-            title_kr = data.get('title_kr', title_en)
-            summary_kr = data.get('summary_kr', "요약 내용 없음")
-    
-            log(f"  [AI] ✅ 완료: {title_kr[:20]}...")
-            return title_kr, summary_kr
-    
-        except json.JSONDecodeError as e:
-            print(f"  [AI] ❌ JSON 파싱 에러: {e}")
-            print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
-            return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
+        for model_id in MODEL_CANDIDATES:
+            try:        
+                # 현재 시도 중인 모델 출력
+                print(f"  [AI] 🤖 모델 연결 시도: {model_id} ...")
+                # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
+                if 'YouTube' in source:
+                    print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
+                    
+                    prompt = f"""
+                            당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
+                            출력은 반드시 지정된 JSON 형식을 따라야 합니다.
+                            
+                            [입력]
+                            - title_en: "{title_en}"
+                            
+                            [JSON 출력 형식]
+                            {{
+                              "title_kr": "여기에 제목의 전문적인 한국어 번역을 작성합니다",
+                              "summary_kr": "핵심 요점을 추출하여, 영상 콘텐츠에 대한 상세하고 최소 10문장 분량의 한국어 요약문을 작성합니다"
+                            }}
+                            
+                            [규칙]
+                            1. "title_kr": "title_en"을 자연스럽고 전문적인 한국어로 번역합니다.
+                            2. "summary_kr": 자연스러운 한국어 문체로 상세한 최소 10문장 요약을 제공합니다.
+                            3. 대화체가 아닌 일반적인 글쓰기 문체를 사용합니다.
+                            """
         
-        except Exception as e:
-            # [수정] 대기 시간 점진적 증가 (2초 -> 4초 -> 8초 -> 16초...)
-            wait_time = 2 * (2 ** attempt) 
-            print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
+                    response = client.models.generate_content(
+                        model = model_id,
+                        contents=[
+                            prompt,
+                            types.Part.from_uri(
+                                file_uri=url,
+                                mime_type="video/youtube"
+                            )
+                        ],
+                        config=types.GenerateContentConfig(
+                            response_mime_type="application/json"
+                        )
+                    )
+                    
+                # 텍스트 기사: 설명을 바탕으로 번역 및 요약
+                else:
+                    print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
+                    
+                    prompt = f"""
+                            당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
+                            아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
+                            결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+                             
+                            [입력]
+                            - title_en: "{title_en}"
+                            - description_en: "{description_en}"
+                            
+                            [JSON 출력 형식]
+                            {{
+                              "title_kr": "여기에 한국어 번역 제목을 작성",
+                              "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
+                            }}
+                            
+                            [규칙]
+                            1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+                            2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
+                            3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
+                            """
+                    
+                    response = client.models.generate_content(
+                        model = model_id,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            response_mime_type="application/json"
+                        )
+                    )
+        
+        
+                # [수정된 부분] 텍스트 정제 (마크다운 제거)
+                text = response.text
+                if text.startswith("```"):
+                    text = re.sub(r"^```json\s*", "", text) # 시작 부분 ```json 제거
+                    text = re.sub(r"^```\s*", "", text)     # 시작 부분 ``` 제거
+                    text = re.sub(r"\s*```$", "", text)     # 끝 부분 ``` 제거
+                
+                text = text.strip() # 앞뒤 공백 제거
+        
+                # JSON 파싱
+                data = json.loads(text, strict=False)
+                
+                title_kr = data.get('title_kr', title_en)
+                summary_kr = data.get('summary_kr', "요약 내용 없음")
+        
+                log(f"  [AI] ✅ 완료: {title_kr[:20]}...")
+                return title_kr, summary_kr
+        
+            # 🚨 에러 처리 핸들러 (다음 모델로 넘길지 결정)
+            except Exception as e:
+                error_msg = str(e)
+                
+                # 1. 할당량 초과 (429) 또는 모델 없음 (404) -> 다음 모델로 Pass
+                if "429" in error_msg or "404" in error_msg or "ResourceExhausted" in error_msg or "Not Found" in error_msg:
+                    print(f"  [AI] ⚠️ {model_id} 사용 불가 (한도초과/미지원). 다음 모델로 전환합니다.")
+                    continue # for문의 다음 모델로 이동
             
-            if attempt < max_retries - 1:
-                print(f"  ⏳ {wait_time}초 대기 후 재시도합니다...")
-                time.sleep(wait_time)
-                continue
-            else:
-                print(f"  [AI] ❌ 최종 실패: {title_en[:20]}...")
-                return title_en, f"[요약 실패] {str(e)}"
+            except json.JSONDecodeError as e:
+                print(f"  [AI] ❌ JSON 파싱 에러: {e}")
+                print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
+                return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
+            
+            except Exception as e:
+                # [수정] 대기 시간 점진적 증가 (2초 -> 4초 -> 8초 -> 16초...)
+                wait_time = 2 * (2 ** attempt) 
+                print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
+                
+                if attempt < max_retries - 1:
+                    print(f"  ⏳ {wait_time}초 대기 후 재시도합니다...")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    print(f"  [AI] ❌ 최종 실패: {title_en[:20]}...")
+                    return title_en, f"[요약 실패] {str(e)}"
                 
 # ============================================================================
 # 스크래퍼
