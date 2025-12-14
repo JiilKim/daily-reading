@@ -132,7 +132,7 @@ def get_gemini_summary(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model = model_id
+                    model = model_id,
                     contents=[
                         prompt,
                         types.Part.from_uri(
@@ -171,7 +171,7 @@ def get_gemini_summary(article_data):
                         """
                 
                 response = client.models.generate_content(
-                    model = model_id
+                    model = model_id,
                     contents=prompt,
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json"
