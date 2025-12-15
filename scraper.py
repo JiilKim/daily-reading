@@ -79,7 +79,104 @@ def clean_json_text(text):
     text = re.sub(r'\s*```$', '', text)
     return text.strip()
 
-def get_gemini_summary(article_data):
+def get_gemini_batch_summary(articles_batch):
+    
+    api_key = os.environ.get('GEMINI_API_KEY')
+    
+    if not api_key:
+        log("API Key 누락", "ERROR")
+        return []
+
+    client = genai.Client(api_key=api_key)
+    
+    # 1. 프롬프트 구성
+    prompt_intro = """
+
+    당신은 전문 과학 기자입니다. 아래 제공되는 과학 기사들의 제목과 내용을 한국어로 번역하고 요약하세요.
+    
+    당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
+    아아래 제공되는 과학 기사들의 제목과 내용을 한국어 제목과 한국어 요약본을 작성하세요.
+    결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
+
+    
+    [필수 규칙]
+    1. 반드시 아래 제공된 JSON 포맷을 정확히 준수하여 리스트 형태로 반환하세요.
+    2. 'id'는 입력된 기사의 순서 번호와 일치해야 합니다.
+    3. 'title_kr': 전문적인 한국어 제목.
+    4. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
+    5. 'summary_kr': 여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성
+    6. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
+    7. 자연스럽고 읽기 쉬운 문체로 작성합니다.
+    
+    [입력 데이터]
+    """
+    
+    articles_text = ""
+    for idx, art in enumerate(articles_batch):
+        articles_text += f"""
+        ---
+        ID: {idx}
+        Title: {art['title_en']}
+        Description: {art['description_en']}
+        ---
+        """
+
+    prompt_full = prompt_intro + articles_text
+
+    # 2. API 호출
+    for attempt in range(5): # 배치 실패 시 5번까지 재시도
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt_full,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    response_schema={
+                        "type": "ARRAY",
+                        "items": {
+                            "type": "OBJECT",
+                            "properties": {
+                                "id": {"type": "INTEGER"},
+                                "title_kr": {"type": "STRING"},
+                                "summary_kr": {"type": "STRING"}
+                            }
+                        }
+                    }
+                )
+            )
+            
+            # 3. 결과 파싱
+            results = json.loads(response.text)
+            
+            # 결과 매핑 (ID 기준으로 원래 기사에 매칭)
+            processed_batch = []
+            result_map = {item['id']: item for item in results}
+            
+            for idx, art in enumerate(articles_batch):
+                if idx in result_map:
+                    art['title'] = result_map[idx]['title_kr']
+                    art['summary_kr'] = result_map[idx]['summary_kr']
+                    if 'description_en' in art: del art['description_en'] # 용량 절약
+                    processed_batch.append(art)
+                else:
+                    # AI가 특정 기사를 빼먹었을 경우 원본 유지 후 실패 처리 로직 등을 추가할 수 있음
+                    log(f"배치 처리 중 누락됨: {art['title_en'][:10]}...", "WARNING")
+                    art['title'] = art['title_en']
+                    art['summary_kr'] = "[요약 실패] 배치 처리 중 누락"
+                    processed_batch.append(art)
+                    
+            return processed_batch
+
+        except Exception as e:
+            wait = (attempt + 1) * 60 + 1
+            log(f"배치 처리 중 에러(시도 {attempt+1}): {e}. {wait}초 대기...", "WARNING")
+            time.sleep(wait)
+    
+    # 최종 실패 시 원본 반환
+    return articles_batch
+
+
+def get_gemini_summary_youtube(article_data):
     """
     Gemini API를 사용하여 기사 콘텐츠를 번역하고 요약합니다.
     유튜브 영상의 경우 URL을 통해 직접 영상 콘텐츠를 분석합니다.
@@ -95,7 +192,7 @@ def get_gemini_summary(article_data):
     url = article_data['url']
     source = article_data.get('source', '')
 
-    api_key = os.environ.get('GEMINI_API_KEY')
+    api_key = os.environ.get('GEMINI_API_KEY') 
         
     if not api_key:
         print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
@@ -103,8 +200,6 @@ def get_gemini_summary(article_data):
     
     client = genai.Client(api_key=api_key)
 
-    
-    
     for attempt in range(max_retries):
         try:        
             # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
@@ -131,7 +226,7 @@ def get_gemini_summary(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash', # 모델 버전
+                    model='gemini-2.5-flash-lite', # 모델 버전
                     contents=[
                         prompt,
                         types.Part.from_uri(
@@ -144,39 +239,7 @@ def get_gemini_summary(article_data):
                     )
                 )
                 
-            # 텍스트 기사: 설명을 바탕으로 번역 및 요약
-            else:
-                print(f"  [AI] 📝 기사 번역 중: '{title_en[:40]}...'")
-                
-                prompt = f"""
-                        당신은 과학에 능통한 전문 기자 혹은 커뮤니케이터입니다.
-                        아래의 영어 기사 제목과 설명을 바탕으로, 한국어 제목과 한국어 요약본을 작성해 주세요.
-                        결과는 반드시 지정된 JSON 형식으로 제공해야 합니다.
-                         
-                        [입력]
-                        - title_en: "{title_en}"
-                        - description_en: "{description_en}"
-                        
-                        [JSON 출력 형식]
-                        {{
-                          "title_kr": "여기에 한국어 번역 제목을 작성",
-                          "summary_kr": "여기에 최소 5-6 문장으로 구성된 상세한 한국어 요약본을 작성"
-                        }}
-                        
-                        [규칙]
-                        1. "title_kr" 키에는 "title_en"을 자연스럽고 전문적인 한국어 제목으로 번역합니다.
-                        2. "summary_kr" 키에는 "description_en"의 핵심 내용을 상세하게 한국어로 요약합니다.
-                        3. 자연스럽고 읽기 쉬운 문체로 작성합니다.
-                        """
-                
-                response = client.models.generate_content(
-                    model='gemini-2.5-flash', # 모델 버전
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json"
-                    )
-                )
-    
+            
     
             # [수정된 부분] 텍스트 정제 (마크다운 제거)
             text = response.text
@@ -203,7 +266,7 @@ def get_gemini_summary(article_data):
         
         except Exception as e:
             # [수정] 대기 시간 점진적 증가 (2초 -> 4초 -> 8초 -> 16초...)
-            wait_time = 2 * (2 ** attempt) 
+            wait_time = 61 * attempt
             print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
             
             if attempt < max_retries - 1:
@@ -331,6 +394,18 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
 
     return articles
 
+
+def split_into_n_chunks(lst, n):
+    """리스트를 최대한 균등하게 n개의 청크로 나눕니다."""
+    if not lst:
+        return []
+    # 만약 기사 수가 n(19)보다 적으면, 기사 수만큼만 덩어리를 만듭니다.
+    if len(lst) < n:
+        return [[x] for x in lst]
+        
+    k, m = divmod(len(lst), n)
+    return [lst[i * k + min(i, m):(i + 1) * k + min(i + 1, m)] for i in range(n)]
+
 # %%
 # ============================================================================
 # 메인 실행
@@ -400,68 +475,97 @@ def main():
     ]
 
     # 3. 크롤링 및 후보 선정
-    candidates = []
-    
-    # 3-1. 실패했던 것 우선 추가
+    text_candidates = []
+    youtube_candidates = []  # 유튜브 영상 후보 (실패 재시도 + 신규)
+
+    # 3-1. 실패 항목 재시도 (유튜브/텍스트 분류)
     if failed_queue:
         log(f"지난 실행 실패 항목 {len(failed_queue)}개 재시도 대기", "INFO")
         for item in failed_queue:
             if item['url'] not in seen_urls:
-                candidates.append(item)
-
-    # 유튜브 채널
-    candidates.extend(
-        scrape_youtube_videos('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'))
-    candidates.extend(
-        scrape_youtube_videos('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video'))    
+                # URL에 'youtube'나 'youtu.be'가 포함되어 있으면 유튜브 후보로 보냄
+                if 'youtube' in item['url'].lower() or 'youtu.be' in item['url'].lower():
+                    youtube_candidates.append(item)
+                else:
+                    text_candidates.append(item)
     
-    candidates = [item for item in candidates if item['url'] not in seen_urls]
-        
+    # 유튜브 채널
+    yt_channels = [
+        ('UCWgXoKQ4rl7SY9UHuAwxvzQ', 'B_ZCF YouTube', 'Video'),
+        ('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video')
+    ]
+    for ch_id, src, cat in yt_channels:
+        youtube_candidates.extend(scrape_youtube_videos(ch_id, src, cat))    
     
     # 3-2. 신규 크롤링
+    text_candidates = []
+    
     for url, source, cat in sources:
         items = scrape_feed(url, source, cat)
         for item in items:
             if item['url'] not in seen_urls:
-                candidates.append(item)
-                
-    
+                text_candidates.append(item)
 
     # 중복 제거
-    unique_candidates = {v['url']: v for v in candidates}.values()
-    log(f"총 처리 대상: {len(unique_candidates)}건", "INFO")
+    unique_text_candidates = list({v['url']: v for v in text_candidates}.values())
+    unique_youtube_candidates = [v for v in youtube_candidates if v['url'] not in seen_urls]
+    
 
-    # 4. AI 처리
+    # 4. AI 처리 (19개 블록 분할 전략)
     new_articles = []
     new_failed_queue = []
-    processed_cnt = 0
-
-    for art in unique_candidates:
-        if processed_cnt >= MAX_NEW_ARTICLES_PER_RUN:
-            log(f"할당량({MAX_NEW_ARTICLES_PER_RUN}) 초과. 남은 {len(unique_candidates) - processed_cnt}건은 다음으로 미룸.", "WARNING")
-            new_failed_queue.append(art)
-            continue
-
-        processed_cnt += 1
-        title_kr, summary_kr = get_gemini_summary(art)
-
-        if "[요약 실패]" in summary_kr:
-            # 실패시 큐에 저장 (다음 실행때 최우선 처리)
-            new_failed_queue.append(art)
-        else:
-            art['title'] = title_kr
-            art['summary_kr'] = summary_kr
-            # 원문은 저장하지 않음 (용량 절약) or 필요시 art['summary_en'] = ...
-            if 'description_en' in art: del art['description_en']
-            new_articles.append(art)
+    
+    TARGET_BLOCKS = 19  # 목표 요청 횟수
+    
+    # 텍스트 기사가 하나라도 있을 때만 처리
+    if unique_text_candidates:
+        # 19개 덩어리로 나누기
+        # 예: 500개 -> 26개씩 19묶음
+        article_chunks = split_into_n_chunks(unique_text_candidates, TARGET_BLOCKS)
         
-        time.sleep(API_DELAY_SECONDS)
+        log(f"--- 텍스트 기사 처리 시작 (총 {len(unique_text_candidates)}개 -> {len(article_chunks)}개 블록으로 분할) ---", "INFO")
+        
+        for idx, batch in enumerate(article_chunks):
+            log(f"📡 블록 {idx+1}/{len(article_chunks)} 처리 중 (기사 {len(batch)}개 포함)...")
+            
+            # 배치 요약 실행
+            processed = get_gemini_batch_summary(batch)
+            
+            for art in processed:
+                if "[요약 실패]" in art.get('summary_kr', ''):
+                    new_failed_queue.append(art)
+                else:
+                    new_articles.append(art)
+            
+            # 마지막 블록이 아니면 61초 대기 (RPD 보존 + TPM 조절)
+            if idx < len(article_chunks) - 1:
+                log("⏳ 다음 블록 처리를 위해 61초 대기합니다...", "INFO")
+                time.sleep(61)
+    else:
+        log("처리할 텍스트 기사가 없습니다.", "INFO")
+        
+    # [B] 유튜브 영상 개별 처리 (RPD 여유가 없으므로 여기서는 대기시간 없이 가거나 생략 고려)
+    # 하지만 사용자 요청대로 기존 로직 유지
+    if unique_youtube_candidates:
+        log(f"--- 유튜브 영상 처리 시작 ({len(unique_youtube_candidates)}건) ---", "INFO")
+        for art in unique_youtube_candidates:
+            # 유튜브 처리 전 안전 대기 (선택사항)
+            time.sleep(5)
+            
+            title_kr, summary_kr = get_gemini_summary_youtube(art)
+            
+            if "[요약 실패]" in summary_kr:
+                new_failed_queue.append(art)
+            else:
+                art['title'] = title_kr
+                art['summary_kr'] = summary_kr
+                if 'description_en' in art: del art['description_en']
+                new_articles.append(art)
 
-    # 5. 결과 저장 (이 부분이 가장 중요. 에러가 나도 반드시 저장되도록 try-finally나 안전장치 필요)
-    log(f"오늘 처리 결과: 성공 {len(new_articles)}건, 실패/보류 {len(new_failed_queue)}건", "INFO")
+    # 5. 결과 저장
+    log(f"최종 결과: 성공 {len(new_articles)}건, 실패/보류 {len(new_failed_queue)}건", "INFO")
 
     final_list = old_articles + new_articles
-    # 날짜 내림차순 정렬
     final_list.sort(key=lambda x: x.get('date', ''), reverse=True)
 
     output_data = {
@@ -475,10 +579,8 @@ def main():
             json.dump(output_data, f, ensure_ascii=False, indent=2)
         log("데이터 저장 완료 (articles.json)", "INFO")
     except Exception as e:
-        log(f"치명적 오류: 파일 저장 실패 - {e}", "ERROR")
-        # 저장 실패시 로그라도 출력
-        print(json.dumps(execution_logs, indent=2))
-        sys.exit(1)
+        log(f"파일 저장 실패: {e}", "ERROR")
+        
 
     # 6. logs.json 별도 저장 (날짜별 누적)
     log_file_path = 'logs.json'
