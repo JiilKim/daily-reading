@@ -34,7 +34,7 @@ except ImportError:
 # 설정
 # ============================================================================
 
-MAX_NEW_ARTICLES_PER_RUN = 10000
+MAX_NEW_ARTICLES_PER_RUN = 8000
 API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
 # 재시도 횟수 설정 (총 3번 시도)
 max_retries = 5
@@ -79,8 +79,7 @@ def clean_json_text(text):
     text = re.sub(r'\s*```$', '', text)
     return text.strip()
 
-def get_gemini_summary(article_data, model_id):
-    
+def get_gemini_summary(article_data):
     """
     Gemini API를 사용하여 기사 콘텐츠를 번역하고 요약합니다.
     유튜브 영상의 경우 URL을 통해 직접 영상 콘텐츠를 분석합니다.
@@ -91,25 +90,23 @@ def get_gemini_summary(article_data, model_id):
     Returns:
         tuple: (translated_title_kr, summary_kr)
     """
-    
     title_en = article_data['title_en']
     description_en = article_data['description_en']
     url = article_data['url']
     source = article_data.get('source', '')
-    
+
     api_key = os.environ.get('GEMINI_API_KEY')
-    
+        
     if not api_key:
         print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
         return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
     
     client = genai.Client(api_key=api_key)
+
+    
     
     for attempt in range(max_retries):
         try:        
-            # 현재 시도 중인 모델 출력
-            print(f"  [AI] 🤖 모델 연결 시도: {model_id} ...")
-            time.sleep(5)
             # 유튜브 영상: URL을 통해 직접 영상 콘텐츠 분석
             if 'YouTube' in source:
                 print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
@@ -134,7 +131,7 @@ def get_gemini_summary(article_data, model_id):
                         """
     
                 response = client.models.generate_content(
-                    model = model_id,
+                    model='gemini-2.5-flash', # 모델 버전
                     contents=[
                         prompt,
                         types.Part.from_uri(
@@ -173,7 +170,7 @@ def get_gemini_summary(article_data, model_id):
                         """
                 
                 response = client.models.generate_content(
-                    model = model_id,
+                    model='gemini-2.5-flash', # 모델 버전
                     contents=prompt,
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json"
@@ -199,15 +196,6 @@ def get_gemini_summary(article_data, model_id):
             log(f"  [AI] ✅ 완료: {title_kr[:20]}...")
             return title_kr, summary_kr
     
-        # 🚨 에러 처리 핸들러 (다음 모델로 넘길지 결정)
-        except Exception as e:
-            error_msg = str(e)
-            
-            # 1. 할당량 초과 (429) 또는 모델 없음 (404) -> 다음 모델로 Pass
-            if "429" in error_msg or "404" in error_msg or "ResourceExhausted" in error_msg or "Not Found" in error_msg:
-                print(f"  [AI] ⚠️ {model_id} 사용 불가 (한도초과/미지원). (시도 {attempt+1}): {e}")
-                return title_en, f"[요약 실패] {str(e)}"
-        
         except json.JSONDecodeError as e:
             print(f"  [AI] ❌ JSON 파싱 에러: {e}")
             print(f"  [디버그] 문제의 텍스트: {response.text[:100]}...") # 디버깅용 출력
@@ -447,7 +435,7 @@ def main():
     new_articles = []
     new_failed_queue = []
     processed_cnt = 0
-   
+
     for art in unique_candidates:
         if processed_cnt >= MAX_NEW_ARTICLES_PER_RUN:
             log(f"할당량({MAX_NEW_ARTICLES_PER_RUN}) 초과. 남은 {len(unique_candidates) - processed_cnt}건은 다음으로 미룸.", "WARNING")
@@ -455,10 +443,8 @@ def main():
             continue
 
         processed_cnt += 1
-        
-        model_id = 'gemini-2.5-flash-lite'
-        title_kr, summary_kr = get_gemini_summary(art, model_id)
-        
+        title_kr, summary_kr = get_gemini_summary(art)
+
         if "[요약 실패]" in summary_kr:
             # 실패시 큐에 저장 (다음 실행때 최우선 처리)
             new_failed_queue.append(art)
@@ -503,7 +489,7 @@ def main():
 
     if os.path.exists(log_file_path):
         try:
-            with open('logs.json', 'r', encoding='utf-8') as f:
+            with open(log_file_path, 'r', encoding='utf-8') as f:
                 all_logs = json.load(f)
                 # 만약 파일 내용이 dict가 아니면 초기화
                 if not isinstance(all_logs, dict):
@@ -516,7 +502,7 @@ def main():
     all_logs[current_date_key] = execution_logs
 
     try:
-        with open('logs.json', 'w', encoding='utf-8') as f:
+        with open(log_file_path, 'w', encoding='utf-8') as f:
             json.dump(all_logs, f, ensure_ascii=False, indent=2)
         print(f"로그 저장 완료: {log_file_path} (Key: {current_date_key})")
     except Exception as e:
