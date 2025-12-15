@@ -164,7 +164,8 @@ def get_gemini_batch_summary(articles_batch):
                     art['title'] = art['title_en']
                     art['summary_kr'] = "[요약 실패] 배치 처리 중 누락"
                     processed_batch.append(art)
-                    
+
+            log(f"  ✅ 배치 처리 완료! ({len(processed_batch)}개 기사 요약됨)", "INFO")
             return processed_batch
 
         except Exception as e:
@@ -508,9 +509,13 @@ def main():
 
     # 중복 제거
     unique_text_candidates = list({v['url']: v for v in text_candidates}.values())
-    unique_youtube_candidates = [v for v in youtube_candidates if v['url'] not in seen_urls]
-    
 
+    # 1단계: seen_urls(과거 기록)에 있는 것 먼저 제외
+    filtered_candidates = [v for v in youtube_candidates if v['url'] not in seen_urls]
+    
+    # 2단계: 남은 것들 중에서 URL 기준으로 자체 중복 제거 (첫 번째 로직 활용)
+    unique_youtube_candidates = list({v['url']: v for v in filtered_candidates}.values()) 
+    
     # 4. AI 처리 (19개 블록 분할 전략)
     new_articles = []
     new_failed_queue = []
