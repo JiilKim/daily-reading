@@ -169,7 +169,7 @@ def get_gemini_batch_summary(articles_batch):
             return processed_batch
 
         except Exception as e:
-            wait = (attempt + 1) * 60 + 1
+            wait = (attempt + 1) * 600 + 1
             log(f"배치 처리 중 에러(시도 {attempt+1}): {e}. {wait}초 대기...", "WARNING")
             time.sleep(wait)
     
@@ -266,8 +266,8 @@ def get_gemini_summary_youtube(article_data):
             return title_en, "[요약 실패] AI 응답 오류 (JSON 파싱 실패)"
         
         except Exception as e:
-            # [수정] 대기 시간 점진적 증가 (2초 -> 4초 -> 8초 -> 16초...)
-            wait_time = 61 * attempt
+            
+            wait_time = 600 * attempt
             print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
             
             if attempt < max_retries - 1:
@@ -520,12 +520,10 @@ def main():
     new_articles = []
     new_failed_queue = []
     
-    TARGET_BLOCKS = 19  # 목표 요청 횟수
+    TARGET_BLOCKS = 10  # 목표 요청 횟수
     
     # 텍스트 기사가 하나라도 있을 때만 처리
-    if unique_text_candidates:
-        # 19개 덩어리로 나누기
-        # 예: 500개 -> 26개씩 19묶음
+    if unique_text_candidates:       
         article_chunks = split_into_n_chunks(unique_text_candidates, TARGET_BLOCKS)
         
         log(f"--- 텍스트 기사 처리 시작 (총 {len(unique_text_candidates)}개 -> {len(article_chunks)}개 블록으로 분할) ---", "INFO")
@@ -544,8 +542,8 @@ def main():
             
             # 마지막 블록이 아니면 61초 대기 (RPD 보존 + TPM 조절)
             if idx < len(article_chunks) - 1:
-                log("⏳ 다음 블록 처리를 위해 61초 대기합니다...", "INFO")
-                time.sleep(61)
+                log("⏳ 다음 블록 처리를 위해 300초 대기합니다...", "INFO")
+                time.sleep(300)
     else:
         log("처리할 텍스트 기사가 없습니다.", "INFO")
         
