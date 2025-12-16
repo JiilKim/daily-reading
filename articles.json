@@ -1,7 +1,739 @@
 {
-  "last_updated": "2025-12-15 03:04:37",
+  "last_updated": "2025-12-16 04:08:39",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "The fast and the future-focused are revolutionizing motorsport",
+      "url": "https://www.technologyreview.com/2025/12/15/1127432/the-fast-and-the-future-focused-are-revolutionizing-motorsport/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "빠르고 미래지향적인 포뮬러 E, 모터스포츠의 혁신을 주도하다",
+      "summary_kr": "ABB FIA 포뮬러 E 월드 챔피언십은 2014년 베이징 올림픽 공원에서 첫 레이스를 시작했을 당시만 해도 순수 전기 모터스포츠라는 개념이 실험적인 수준에 머물러 있었습니다. 당시 배터리 기술은 한 번의 레이스를 완주하기에 역부족이었고, 드라이버들은 경기 도중 차량을 교체해야 하는 불편함을 겪어야 했습니다. 그러나 불과 10여 년이 지난 지금, 포뮬러 E는 단순한 경기를 넘어 전 세계적인 엔터테인먼트 브랜드로 진화하며 엄청난 변화를 이루어냈습니다. 이는 전동화 기술의 급속한 발전과 함께 모터스포츠의 지속 가능한 미래를 제시하는 중요한 전환점이 되었습니다. 포뮬러 E는 친환경 기술 혁신을 선도하며, 미래 모터스포츠의 방향성을 제시하고 관중들에게 새로운 경험을 제공하고 있습니다. 이러한 변화는 모터스포츠 산업 전반에 걸쳐 혁신적인 영향을 미치고 있으며, 기술과 엔터테인먼트의 경계를 허물고 있습니다."
+    },
+    {
+      "title_en": "The Download: introducing the AI Hype Correction package",
+      "url": "https://www.technologyreview.com/2025/12/15/1129719/the-download-introducing-the-ai-hype-correction-package/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "더 다운로드: AI 과장 보정 패키지 소개 – 인공지능에 대한 허황된 기대 바로잡기",
+      "summary_kr": "오늘 발행된 '더 다운로드'는 기술 세계의 최신 소식을 매일 제공하는 주중 뉴스레터입니다. 이번 호에서는 특히 'AI 과장 보정 패키지'를 통해 인공지능에 대한 지나친 기대를 현실적인 시각으로 조명합니다. 우리는 흔히 인공지능이 인간의 지능을 완벽히 재현하고, 모든 질병을 없애며, 인류 역사상 가장 위대한 발명품이 될 것이라는 과장된 주장을 듣곤 합니다. 하지만 이러한 주장들은 때때로 인공지능의 현재 능력과 미래 잠재력에 대한 비현실적인 기대를 심어줄 수 있습니다. 이 패키지는 인공지능 기술의 진정한 가치와 한계를 명확히 이해하고, 허황된 기대를 바로잡는 데 중점을 둡니다. 전문가들은 인공지능이 많은 분야에서 혁신적인 도구임은 분명하지만, 여전히 해결해야 할 과제가 많으며 신중한 접근이 필요하다고 강조합니다."
+    },
+    {
+      "title_en": "Giving a voice to animals: Laos’s national herpetologist on her day-to-day",
+      "url": "https://www.nature.com/articles/d41586-025-04054-9",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "동물의 목소리를 대변하다: 라오스 국립 파충류학자의 일상과 보존 노력",
+      "summary_kr": "솜푸톤 피마착은 라오스의 국립 파충류학자이자, 국내 몇 안 되는 보존 연구자 중 한 명으로서 양서류와 파충류를 심도 있게 연구하고 있습니다. 그녀의 일상은 라오스의 풍부한 생물 다양성을 보호하기 위한 헌신적인 노력으로 가득합니다. 특히 양서류와 파충류는 생태계의 건강성을 나타내는 중요한 지표종임에도 불구하고, 서식지 파괴와 기후 변화 등으로 인해 심각한 위협에 처해 있습니다. 피마착 박사는 이들 종의 보존 필요성을 알리고, 실질적인 보호 방안을 모색하는 데 앞장서고 있습니다. 그녀의 연구는 단순히 학문적 탐구를 넘어, 라오스의 자연유산을 미래 세대에 물려주기 위한 필수적인 역할을 수행하고 있습니다. 이러한 열정적인 활동은 동물들에게 목소리를 부여하고, 인간과 자연이 조화롭게 공존하는 방법을 제시하는 데 기여하고 있습니다."
+    },
+    {
+      "title_en": "How fasting boosts breast cancer therapy",
+      "url": "https://www.nature.com/articles/d41586-025-03809-8",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "금식이 유방암 치료 효과를 증진시키는 메커니즘 규명: 호르몬 신호 및 유전자 발현의 역할",
+      "summary_kr": "최근 쥐를 대상으로 한 연구에서 금식이 특정 유방암 치료법의 효과를 높이는 이유가 밝혀져 학계의 주목을 받고 있습니다. 이 연구는 금식이 호르몬 신호 경로와 유전자 발현의 변화를 통해 유방암 치료 효능을 향상시킨다는 중요한 메커니즘을 규명했습니다. 연구팀은 금식 시 체내에서 발생하는 생리적 변화가 암세포의 취약성을 증가시키고, 치료제의 반응성을 개선한다는 사실을 발견했습니다. 특히 호르몬 변화와 관련된 특정 유전자들이 치료 효과 증진에 핵심적인 역할을 하는 것으로 나타났습니다. 이 발견은 유방암 환자에게 금식 요법을 보조 치료로 적용할 수 있는 새로운 가능성을 제시하며, 향후 인간 유방암 치료 전략 개발에 중요한 통찰력을 제공할 것으로 기대됩니다. 이러한 연구 결과는 암 치료의 효율성을 높일 수 있는 새로운 접근법을 모색하는 데 기여할 것입니다."
+    },
+    {
+      "title_en": "NSF softens grant-review rules to cope with backlog",
+      "url": "https://www.nature.com/articles/d41586-025-04067-4",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "NSF, 적체 해소 위해 보조금 심사 규정 완화",
+      "summary_kr": "미국 국립과학재단(NSF)이 심사 적체 문제에 대응하기 위해 보조금 심사 규정을 완화했습니다. 이는 밀려 있는 수많은 연구 제안서들을 보다 효율적으로 처리하고 심사 기간을 단축하기 위한 노력의 일환입니다. NSF 관계자들은 이러한 변화가 현재의 비효율성을 개선하는 합리적인 조치라고 평가하고 있습니다. 그러나 동시에 일부에서는 규정 완화가 심사 과정의 엄격성이나 공정성에 부정적인 영향을 미칠 수 있다는 우려도 제기되고 있습니다. 이번 조치가 장기적으로 연구 지원 시스템과 과학 연구의 질에 어떤 영향을 미칠지에 대해 과학계의 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "The best science images of 2025 — <i>Nature</i>’s picks",
+      "url": "https://www.nature.com/articles/d41586-025-03935-3",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "2025년 최고의 과학 이미지: 네이처 선정",
+      "summary_kr": "과학 저널 '네이처'가 2025년을 빛낸 최고의 과학 이미지들을 선정하여 공개했습니다. 이번 선정작들은 과학적 발견의 경이로움과 시각적 아름다움을 동시에 담아내고 있습니다. 특히 태양의 맹렬하게 타오르는 표면을 포착한 생생한 사진과 미시 세계의 신비를 보여주는 문신 같은 완보동물의 이미지, 그리고 좀처럼 보기 힘든 희귀한 붉은 번개 현상 등이 포함되어 눈길을 끕니다. 이 이미지들은 복잡한 과학 개념을 대중에게 시각적으로 전달하는 중요한 역할을 하며, 과학과 예술의 경계를 넘나드는 영감을 선사합니다. '네이처'는 매년 이러한 이미지 선정을 통해 과학 연구의 다양한 면모를 조명하고 있습니다."
+    },
+    {
+      "title_en": "Tracing pollution in the lives of Arctic seabirds",
+      "url": "https://www.nature.com/articles/d41586-025-03078-5",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "북극 바닷새 삶에서 오염 물질의 흔적 추적",
+      "summary_kr": "연구자 올리비에 샤스텔(Olivier Chastel)이 노르웨이 북부의 스발바르 제도를 방문하여 북극 바닷새들의 오염 물질 노출 영향을 연구하고 있습니다. 그의 주요 연구 대상은 삼지꼬리갈매기(black-legged kittiwakes)이며, 특히 수은과 같은 오염 물질이 이들에게 미치는 영향을 추적하는 데 집중합니다. 북극 생태계의 최상위 포식자인 바닷새들은 환경 오염의 중요한 지표 역할을 하므로, 이들의 건강 상태 분석은 오염 실태를 파악하는 데 필수적입니다. 샤스텔은 새들의 생체 시료와 서식 환경 데이터를 분석하여 오염 물질이 먹이사슬을 통해 어떻게 축적되고, 번식력이나 생존율에 어떤 영향을 미치는지 밝혀낼 계획입니다. 이 연구는 취약한 북극 생태계를 보호하기 위한 중요한 과학적 근거를 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "More than half of researchers now use AI for peer review — often against guidance",
+      "url": "https://www.nature.com/articles/d41586-025-04066-5",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "연구자 절반 이상, AI로 동료 심사 수행... 지침 위반 사례도 다수",
+      "summary_kr": "최근 한 연구에 따르면, 전 세계 연구자들의 절반 이상이 동료 심사 과정에서 인공지능(AI) 도구를 활용하고 있는 것으로 밝혀졌습니다. 이러한 AI 활용은 종종 학술 기관이나 출판사의 기존 지침을 위반하는 상황에서 이루어지고 있어 논란의 여지가 있습니다. 연구자들은 AI가 논문 요약 및 보고서 초안 작성 등에서 뛰어난 효율성을 제공하기 때문에 점차 AI 도구에 의존하는 경향을 보이고 있습니다. 이에 따라 학술계는 연구자들의 이러한 '새로운 현실'을 반영하여 AI 활용에 대한 명확하고 현실적인 정책 및 가이드라인을 시급히 마련해야 할 필요성이 제기되고 있습니다. AI의 잠재적 이점과 함께 발생할 수 있는 윤리적 문제 및 심사의 공정성 훼손 가능성에 대한 심도 있는 논의가 필요한 시점입니다."
+    },
+    {
+      "title_en": "Small, Thick-Walled Cells Help Mangroves Thrive in Saltwater",
+      "url": "https://www.the-scientist.com/small-thick-walled-cells-help-mangroves-thrive-in-saltwater-73852",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "맹그로브의 소형 두꺼운 세포, 염수 환경 생존 비결 규명",
+      "summary_kr": "맹그로브는 염분이 있는 물에서도 번성할 수 있는 독특한 생존 전략을 가지고 있습니다. 최근 연구에 따르면, 맹그로브의 이러한 능력은 작고 두꺼운 세포벽을 가진 세포 덕분인 것으로 밝혀졌습니다. 이러한 세포 구조는 맹그로브가 염분을 효과적으로 관리하고 고염도 환경에서도 생존하는 데 중요한 역할을 합니다. 이 단순하지만 효과적인 적응 메커니즘은 해수면 상승으로 인해 점점 더 염분에 노출되는 다른 식물들의 내염성 강화를 위한 연구에 영감을 줄 수 있습니다. 과학자들은 맹그로브의 이러한 생존 방식을 분석하여 미래에 기후 변화에 더욱 강한 작물을 개발하는 데 활용할 수 있을 것으로 기대하고 있습니다."
+    },
+    {
+      "title_en": "Injured on Your Period? Healing May Take Longer",
+      "url": "https://www.the-scientist.com/injured-on-your-period-healing-may-take-longer-73855",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "생리 중 부상, 회복 기간 더 길어질 수 있다: 여성 축구선수 연구 결과",
+      "summary_kr": "생리 기간 중 부상을 입으면 회복 기간이 더 길어질 수 있다는 연구 결과가 나왔습니다. 프로 여성 축구선수들을 대상으로 4시즌 동안 진행된 장기 연구에 따르면, 선수들이 생리 중에 부상을 당했을 경우 그들의 부상이 더 심각한 경향을 보였습니다. 이는 생리 주기에 따른 호르몬 변화가 부상 정도나 회복 과정에 영향을 미칠 수 있음을 시사합니다. 연구진은 여성 선수들의 훈련 계획과 부상 관리 전략을 수립할 때 생리 주기를 고려하는 것이 중요하다고 강조했습니다. 이러한 발견은 여성 운동선수들의 건강 관리 및 경기력 향상을 위한 새로운 접근 방식을 제시할 수 있습니다. 추가 연구를 통해 생리 주기가 신체에 미치는 영향과 부상 예방 및 회복 촉진 방안에 대한 심층적인 이해가 필요합니다."
+    },
+    {
+      "title_en": "Beckman Coulter Life Sciences Introduces the Biomek i3 Benchtop Liquid Handler, a Small but Mighty Addition to its Portfolio of Automated Workstations",
+      "url": "https://www.the-scientist.com/beckman-coulter-life-sciences-introduces-the-biomek-i3-benchtop-liquid-handler-a-small-but-mighty-addition-to-its-portfolio-of-automated-workstations-73854",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "베크만 쿨터 라이프 사이언스, 소형 고성능 액체 핸들러 'Biomek i3' 출시",
+      "summary_kr": "베크만 쿨터 라이프 사이언스(Beckman Coulter Life Sciences)가 자동화 워크스테이션 포트폴리오에 새로운 소형 벤치톱 액체 핸들러 'Biomek i3'를 추가했습니다. 이 새로운 장비는 직관적인 소프트웨어와 사용자 친화적인 인터페이스를 갖추고 있어, 자동화 경험이 전혀 없는 연구실 팀도 복잡한 워크플로우를 손쉽게 자동화할 수 있도록 설계되었습니다. Biomek i3는 작은 크기에도 불구하고 강력한 성능을 제공하여, 연구자들이 수동 작업을 줄이고 실험 효율성을 극대화할 수 있도록 돕습니다. 이를 통해 연구실은 인적 오류를 최소화하고 재현성을 높이며, 더 많은 시간을 데이터 분석과 연구에 집중할 수 있게 될 것입니다. 이 제품은 생명 과학 분야의 연구 생산성을 향상시키는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Advancing Alzheimer&rsquo;s Disease Detection with Brain-Derived pTau217 Assays",
+      "url": "https://www.the-scientist.com/advancing-alzheimer-s-disease-detection-with-brain-derived-ptau217-assays-73842",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "뇌 유래 pTau217 분석법으로 알츠하이머병 진단 발전",
+      "summary_kr": "알츠하이머병 진단의 정확도와 조기 발견 능력을 혁신적으로 향상시킬 수 있는 새로운 접근 방식이 제시됩니다. 다가오는 웹세미나에서 조나단 쇼트(Jonathan Schott)와 알렉스 포레스트-헤이(Alex Forrest-Hay)는 뇌 유래 pTau217 바이오마커 분석법이 어떻게 질병 관련 변화를 더 일찍, 그리고 더 높은 해상도로 포착하는지 시연할 예정입니다. 이 새로운 분석법은 알츠하이머병의 초기 단계에서 미묘한 생물학적 변화를 감지함으로써, 환자들이 더 적절한 시기에 진단받고 개입할 수 있는 기회를 제공할 수 있습니다. 이는 기존 진단 방식의 한계를 극복하고, 질병 진행에 대한 이해를 심화하며, 궁극적으로는 알츠하이머병 치료법 개발에도 중요한 기여를 할 것으로 기대됩니다. 이번 웹세미나는 알츠하이머병 연구 및 진단 분야에 관심 있는 전문가들에게 귀중한 통찰을 제공할 것입니다."
+    },
+    {
+      "title_en": "Hack reveals reviewer identities for huge AI conference",
+      "url": "https://www.science.org/content/article/hack-reveals-reviewer-identities-huge-ai-conference",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "대규모 AI 학회 심사위원 신원 유출 해킹 사건 발생",
+      "summary_kr": "대규모 인공지능 학회에서 심사위원들의 신원이 해킹으로 인해 노출되는 사건이 발생했습니다. 이 사건은 한 소프트웨어 버그가 원인이 되어 약 10,000편에 달하는 논문의 동료 심사 기록이 공개된 것입니다. 이는 학술 연구의 공정성과 익명성을 심각하게 훼손할 수 있는 중대한 보안 문제로 지적되고 있습니다. 특히 AI 분야와 같이 경쟁이 치열한 학술 환경에서는 심사위원 신원 노출이 잠재적인 갈등이나 부적절한 영향력 행사로 이어질 수 있어 우려가 커지고 있습니다. 이번 사고는 학술 대회 주최 측의 정보 보안 강화 필요성을 다시 한번 일깨우는 계기가 되었습니다. 향후 유사한 사건 재발 방지를 위한 시스템 개선과 엄격한 관리 감독이 요구됩니다."
+    },
+    {
+      "title_en": "Seafloor telecom cable transformed into giant earthquake detector",
+      "url": "https://www.science.org/content/article/seafloor-telecom-cable-transformed-giant-earthquake-detector",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "해저 통신 케이블, 거대한 지진 감지기로 변모하다",
+      "summary_kr": "해저에 매설된 기존의 통신 케이블이 지진 감지기로 변모하여 지구 내부 연구에 혁신적인 가능성을 열었습니다. 연구진은 4000킬로미터 이상 길이의 이 케이블을 활용해 밀집된 지진 관측망을 구축하는 데 성공했습니다. 이는 지구 내부 구조와 지진 발생 메커니즘을 파악하는 데 필요한 데이터를 훨씬 더 광범위하고 정밀하게 수집할 수 있게 해줍니다. 기존의 해상 지진 관측 방식에 비해 비용 효율적이며 설치가 용이하다는 장점도 있습니다. 이러한 기술 발전은 지진 예측 및 해저 자원 탐사에 새로운 통찰력을 제공하며, 지구 과학 연구의 지평을 크게 넓힐 것으로 기대됩니다."
+    },
+    {
+      "title_en": "NSF pares down grant-review process, reducing influence of outside scientists",
+      "url": "https://www.science.org/content/article/nsf-pares-down-grant-review-process-reducing-influence-outside-scientists",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "미국 NSF, 외부 과학자 영향력 축소하며 보조금 심사 과정 간소화",
+      "summary_kr": "미국 국립과학재단(NSF)이 보조금 심사 과정을 간소화하고 외부 과학자들의 영향력을 줄이겠다는 방침을 발표했습니다. NSF는 내부 직원들의 과도한 업무 부담을 주된 이유로 들었지만, 일각에서는 이번 조치가 백악관의 과학 연구 우선순위를 높이려는 의도도 담겨있다고 분석하고 있습니다. 이러한 변화는 과학계에서 광범위한 논의를 불러일으키고 있습니다. 외부 전문가들의 심사 참여 감소는 다양한 관점과 전문성의 상실로 이어질 수 있다는 우려가 제기되고 있습니다. 반면, 효율성 증대와 신속한 연구비 지원이라는 긍정적인 측면도 예상됩니다. NSF의 이번 결정이 미국 과학 연구 생태계에 어떤 장기적인 영향을 미칠지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Opinion: We crunched the numbers on drug discovery in the U.S. vs. China. The results were alarming",
+      "url": "https://www.statnews.com/2025/12/16/china-drug-discovery-us-leadership-falling/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_512188198-1-645x645.jpeg",
+      "title": "오피니언: 미국 vs. 중국 신약 개발 경쟁 데이터 분석 결과, 경고음 울리다",
+      "summary_kr": "최근 발표된 오피니언 기사에서 미국과 중국의 신약 개발 성과를 비교 분석한 결과가 충격적인 수준이라고 경고했습니다. 저자들은 미국 바이오 제약 산업을 '포드 머스탱'에 비유하며, 중국의 바이오 제약 산업을 'BYD 양왕 U9 슈퍼카'에 비유하며 그 격차가 빠르게 벌어지고 있음을 시사했습니다. 이는 중국이 막대한 투자와 정부 지원을 바탕으로 신약 개발 분야에서 빠르게 추격하여 미국을 위협하고 있다는 것을 의미합니다. 미국은 혁신적인 연구 역량을 보유하고 있지만, 중국의 공격적인 투자와 효율적인 개발 프로세스에 밀려 주도권을 잃을 수도 있다는 우려가 커지고 있습니다. 이러한 분석은 미국이 신약 개발 분야의 경쟁력을 유지하기 위해 정책적, 전략적 변화가 시급함을 강조합니다."
+    },
+    {
+      "title_en": "STAT+: In a banner year for biopharma, here are the best industry CEOs of 2025",
+      "url": "https://www.statnews.com/2025/12/16/best-biopharma-ceo-2025-adam-feuerstein-annual-ranking/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2022/12/Good-Comp-2022-645x645.jpg",
+      "title": "2025년 최고의 바이오 제약 업계 CEO들: STAT+ 선정",
+      "summary_kr": "2025년은 바이오 제약 산업에 있어 기념비적인 한 해가 될 것으로 예상되며, STAT+의 애덤 포이어스타인(Adam Feuerstein)은 이러한 활황 속에서 업계를 이끌어갈 최고의 CEO들을 조명했습니다. 그는 올해 특히 뛰어난 리더십과 혁신을 보여준 여러 인물들을 선정하며 그들의 성과를 높이 평가했습니다. 이들 CEO는 신약 개발, 시장 확대, 그리고 환자 접근성 향상 등 다양한 분야에서 중요한 기여를 했음이 언급됩니다. 이 보고서는 바이오 제약 산업의 미래를 형성할 핵심 인물들과 그들의 전략적 결정에 대한 통찰을 제공합니다. 특히 급변하는 제약 환경에서 이들의 역할은 더욱 중요해질 것으로 보입니다."
+    },
+    {
+      "title_en": "Opinion: Where does the NIH go from here?",
+      "url": "https://www.statnews.com/2025/12/16/nih-future-federal-research-funding-maximize-benefits/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/21869628478_d09cecba30_5k-645x645.jpg",
+      "title": "논평: 미국 국립보건원(NIH), 앞으로 나아갈 길은?",
+      "summary_kr": "공공 자금으로 지원되는 연구는 인류의 건강 증진과 과학 발전의 핵심 동력이지만, 미국 국립보건원(NIH)이 활용할 수 있는 연방 자원은 한정적입니다. 이러한 현실 속에서 NIH는 앞으로 어떤 방향으로 나아가야 할지에 대한 심도 깊은 논의가 필요합니다. 이 논평은 한정된 자원 속에서도 혁신적인 연구를 지속하고 공중 보건 문제를 해결하기 위한 NIH의 전략적 방향을 모색합니다. 자원 배분의 효율성 증대, 민간 부문과의 협력 강화, 그리고 연구 우선순위 재조정 등이 중요한 고려 사항으로 제시될 수 있습니다. NIH가 직면한 도전과 기회를 균형 있게 평가하며, 미래 과학 연구의 지향점을 제시하는 것이 핵심입니다."
+    },
+    {
+      "title_en": "For some with bipolar disorder, manic episodes are magnified for all to see online",
+      "url": "https://www.statnews.com/2025/12/16/bipolar-disorder-social-media-manic-episodes/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/statmag-tyleradolfo-67-645x645.jpg",
+      "title": "양극성 장애 환자에게 소셜 미디어가 가져온 새로운 도전: 온라인에서 증폭되는 조증 삽화",
+      "summary_kr": "소셜 미디어 플랫폼의 확산은 양극성 장애를 앓고 있는 일부 사람들에게 새로운 형태의 어려움을 야기하고 있습니다. 특히 조증 삽화(manic episodes)가 발생했을 때 나타나는 행동이나 언어가 온라인에 기록되고 공유되면서, 이는 환자들에게 예상치 못한 복잡한 상황을 초래할 수 있습니다. 과거에는 개인적인 영역에 머물렀을 수 있는 조증 증상들이 이제는 공개적으로 드러나고, 디지털 기록으로 영구히 남게 되어 사회적 낙인이나 오해를 심화시킬 우려가 있습니다. 이는 환자들의 사생활 보호 문제뿐만 아니라, 회복 과정에 부정적인 영향을 미치고 사회적 관계 형성에도 어려움을 가중시킬 수 있습니다. 따라서 소셜 미디어 시대에 양극성 장애를 가진 이들을 위한 지원과 사회적 인식 개선의 필요성이 더욱 강조됩니다."
+    },
+    {
+      "title_en": "STAT+: Data on Humana’s clinics looked dismal. Then its corporate research machine got to work",
+      "url": "https://www.statnews.com/2025/12/16/investigating-humana-internal-research-medicare-advantage-benefits/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/STAT_PositiveStudies_F2_3000-645x645.jpg",
+      "title": "STAT+ 심층 분석: 휴마나 클리닉 데이터의 초기 부진과 기업 연구 시스템의 개입",
+      "summary_kr": "휴마나(Humana)의 자체 클리닉 운영 데이터가 초기에는 저조한 성과를 보였음에도 불구하고, 이 기업의 강력한 연구 시스템이 가동되면서 상황이 반전된 정황이 STAT+의 심층 조사에서 드러났습니다. 내부 문서들은 휴마나가 메디케어 어드밴티지(Medicare Advantage) 프로그램에 대한 논의를 어떻게 재편하고 있는지를 명확히 보여줍니다. 이는 기업이 데이터를 활용하고 연구 역량을 동원하여 사업 전략을 조정하며, 심지어는 정책 담론에까지 영향을 미치는 방식을 시사합니다. 초기 부정적인 데이터를 개선하고 긍정적인 서사를 만들어내는 과정에서 기업의 정보 조작 가능성 및 연구의 독립성에 대한 의문도 제기될 수 있습니다. 이 사례는 거대 헬스케어 기업이 시장과 정책에 미치는 영향력을 단적으로 보여주는 중요한 케이스입니다."
+    },
+    {
+      "title_en": "Experts assess Trump’s declaration of fentanyl as weapon of mass destruction",
+      "url": "https://www.statnews.com/2025/12/15/trump-declares-fentanyl-terrorist-weapon-experts-question/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2224725619-645x645.jpg",
+      "title": "트럼프 대통령의 펜타닐 대량살상무기 선언, 전문가들 평가 엇갈려",
+      "summary_kr": "도널드 트럼프 전 미국 대통령이 펜타닐을 '대량살상무기(WMD)'로 규정한 발언에 대해 과학 및 안보 전문가들 사이에서 의견이 분분합니다. 일부 전문가들은 펜타닐의 위험성을 인정하면서도 이를 대량살상무기로 분류하는 것은 과장된 표현이며, 실제 위협으로서의 성격이 불분명하다고 지적합니다. 특히 한 전문가는 \"이것이 위협이라고 명확히 보이지 않는다\"고 언급하며, 펜타닐 남용 문제의 심각성에도 불구하고 전통적인 WMD의 정의와는 거리가 있다고 설명했습니다. 이러한 논쟁은 약물 오남용 문제를 다루는 방식과 국가 안보 전략 수립에 대한 중요한 질문을 제기하고 있습니다. 펜타닐의 위협 수준을 정확히 평가하고 적절한 대응책을 마련하는 것이 중요하다는 점이 강조되고 있습니다. 결과적으로, 펜타닐을 WMD로 규정하는 것이 실질적인 문제 해결에 도움이 될지에 대한 회의적인 시각이 존재합니다."
+    },
+    {
+      "title_en": "Free pass or failing grade for saturated fats? Review sets off scientific and political debate",
+      "url": "https://www.statnews.com/2025/12/15/saturated-fat-intake-new-study-controversy-impact-dietary-guidelines/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_366216386-645x645.jpeg",
+      "title": "포화지방 논란 재점화: 새로운 연구, 식단 지침에 대한 과학 및 정치적 논쟁 촉발",
+      "summary_kr": "포화지방 섭취에 대한 과학적 논쟁이 새로운 연구 리뷰의 발표와 함께 다시 뜨겁게 달아오르고 있습니다. 특히 로버트 F. 케네디 주니어 후보가 식이 지침에 있어 '지방 친화적' 접근 방식을 시사하면서, 이번 리뷰는 포화지방 섭취를 옹호하거나 반대하는 양측 모두에게 중요한 근거를 제공하고 있습니다. 일부에서는 포화지방이 건강에 미치는 악영향에 대한 기존의 인식이 과장되었을 수 있다고 주장하는 반면, 다른 측에서는 여전히 섭취 제한의 필요성을 강조하고 있습니다. 이 리뷰는 영양학계 내부의 오랜 논쟁을 심화시키는 동시에, 대선 후보의 발언이 맞물려 정치적 이슈로까지 번지고 있어 향후 국가적 차원의 식이 가이드라인 개정에도 영향을 미칠 것으로 예상됩니다. 이처럼 포화지방에 대한 과학적 합의가 여전히 부족하고 정치적 이해관계가 얽히면서, 소비자들에게는 어떤 정보를 신뢰해야 할지 혼란이 가중될 수 있습니다. 이러한 상황은 대중에게 과학적 정보가 어떻게 전달되고 해석되는지에 대한 중요한 질문을 던집니다."
+    },
+    {
+      "title_en": "STAT+: NIH specifies how grant reviewers should ensure alignment with Trump priorities",
+      "url": "https://www.statnews.com/2025/12/15/nih-specifies-how-grant-reviewers-should-ensure-alignment-with-trump-priorities/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/19757410583_d1c3a39076_k-645x645.jpg",
+      "title": "STAT+: NIH, 연구비 심사관들에게 트럼프 행정부 정책 우선순위 일치 여부 확인 지침 제공",
+      "summary_kr": "미국 국립보건원(NIH)이 연구비 지원 심사관들을 대상으로 트럼프 행정부의 정책 우선순위에 맞춰 연구 제안서들을 평가하는 구체적인 지침을 담은 내부 메모를 배포한 것으로 드러났습니다. STAT이 입수한 이 메모는 연구비 심사 과정에서 과학적 타당성뿐만 아니라, 당시 행정부가 중요하게 여기는 특정 정책 방향과의 부합 여부를 확인하도록 명시하고 있습니다. 이는 정부의 정책적 의도가 과학 연구 자금 배분 결정에 상당한 영향을 미칠 수 있음을 시사하며, 과학계의 독립성과 연구 자율성에 대한 논란을 불러일으킬 수 있습니다. 이러한 지침은 특정 분야의 연구를 장려하거나 억제할 수 있어, 장기적으로 국가 과학 연구의 방향과 발전에 중요한 영향을 미칠 가능성이 있습니다. 과학 연구가 정치적 압력으로부터 자유로워야 한다는 원칙과 정부의 정책적 필요성 사이의 균형점을 찾는 것이 중요해 보입니다. 이러한 논의는 과학 연구의 윤리적 기준과 자금 지원의 투명성에 대한 심도 깊은 검토를 요구합니다."
+    },
+    {
+      "title_en": "STAT+: A record Medicare drug payout, and the JPM dodgers",
+      "url": "https://www.statnews.com/2025/12/15/medicare-part-d-drug-plan-challenges-health-insurers-jpmorgan-conference/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/06/AdobeStock_533699257_Editorial_Use_Only-645x645.jpeg",
+      "title": "STAT+: 기록적인 메디케어 의약품 지출과 JPM 회피 기업들",
+      "summary_kr": "이번 STAT+는 STAT의 주간 이메일 뉴스레터 'Health Care Inc.'의 온라인 버전입니다. 주요 내용은 메디케어(미국 노인 및 장애인 의료보험)의 의약품 지출이 기록적인 수준에 도달했다는 소식과, JP모건 헬스케어 컨퍼런스(JPM)에 참석하지 않거나 눈에 띄지 않게 행동하는 기업들에 대한 분석입니다. 메디케어의 의약품 지출 증가는 제약 산업과 환자 접근성에 큰 영향을 미칠 수 있으며, 이는 정부의 의약품 가격 협상 정책 등과도 맞물려 복합적인 논의를 야기할 것으로 보입니다. 또한, 전통적으로 바이오 및 헬스케어 산업의 가장 중요한 네트워킹 행사 중 하나인 JPM 컨퍼런스를 일부 기업들이 회피하는 배경과 그 의미에 대해서도 깊이 있게 다루고 있습니다. 이는 업계의 변화하는 트렌드나 특정 기업들의 전략적 선택을 반영하는 것일 수 있으며, 전반적인 헬스케어 투자 및 협력 환경에 대한 중요한 시사점을 제공합니다. 이러한 동향은 향후 헬스케어 산업의 지형 변화를 예측하는 데 중요한 단서가 될 것입니다."
+    },
+    {
+      "title_en": "STAT+: Sobi bets big on next-gen gout drug",
+      "url": "https://www.statnews.com/2025/12/15/biotech-news-sobi-next-gen-gout-drug-acquisition/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/01/AdobeStock_411874931-645x645.jpeg",
+      "title": "STAT+: 소피, 차세대 통풍 치료제에 대규모 투자",
+      "summary_kr": "스웨덴 제약사 소피(Sobi)가 차세대 통풍 치료제 개발에 상당한 투자를 단행하며 해당 분야에서의 입지를 강화하고 있습니다. 이번 투자는 소피가 혁신적인 바이오텍 기술을 통해 미충족 의료 수요를 해결하고자 하는 전략의 일환으로 풀이됩니다. 특히 통풍은 만성 염증성 질환으로, 기존 치료법의 한계를 넘어서는 새로운 접근 방식이 절실한 상황입니다. 소피는 이번 신약 개발을 통해 환자들에게 더욱 효과적이고 안전한 치료 옵션을 제공하며, 글로벌 제약 시장에서 경쟁력을 확보하겠다는 목표를 세웠습니다. 이러한 움직임은 제약바이오 산업 전반에 걸쳐 신약 개발 경쟁이 치열해지고 있음을 보여주는 대표적인 사례로 평가됩니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about FDA approval for a novel antibiotic, setbacks at Sanofi, and much more",
+      "url": "https://www.statnews.com/pharmalot/2025/12/15/sanofi-fda-antibiotics-gonorrhea-novo-weight-hikma/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "STAT+: 파마리틀: FDA 신규 항생제 승인 소식, 사노피의 난관 등 주요 제약 뉴스",
+      "summary_kr": "최근 제약 업계에서는 미국 식품의약국(FDA)의 신규 항생제 승인 소식이 전해지며 기대를 모으고 있습니다. 하지만 프랑스 제약사 사노피는 다발성 경화증 치료제 개발에 있어 연이은 난관에 부딪혔습니다. 사노피는 자사의 실험적인 다발성 경화증 치료제에 대한 FDA 승인 결정이 두 번째로 지연되었다고 발표했으며, 이는 해당 신약의 상용화 일정에 차질을 빚게 할 것으로 보입니다. 또한, 이 치료제는 후기 임상 연구에서도 실망스러운 결과를 보여주며 개발에 대한 불확실성을 더했습니다. 이러한 사노피의 상황은 신약 개발의 어려움과 임상 시험의 중요성을 다시 한번 상기시키고 있습니다."
+    },
+    {
+      "title_en": "How mammograms could transform to predict the future",
+      "url": "https://www.statnews.com/2025/12/15/health-news-mammogram-ai-for-breast-cancer/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2019/08/AdobeStock_64792089-645x645.jpeg",
+      "title": "유방촬영술, 미래 질병 예측 도구로 진화 가능성",
+      "summary_kr": "현재 유방암 진단에 주로 사용되는 유방촬영술(mammogram)이 미래에는 단순히 질병을 확인하는 것을 넘어, 특정 질병의 발생 위험을 예측하는 혁신적인 도구로 발전할 가능성이 제기되었습니다. 연구자들은 유방촬영 영상에서 얻을 수 있는 방대한 데이터를 인공지능과 머신러닝 기술과 결합하여, 유방암뿐만 아니라 심혈관 질환이나 골다공증 등 다른 건강 문제의 위험 신호를 포착할 수 있을 것으로 기대하고 있습니다. 이러한 기술의 발전은 개인 맞춤형 예방 의학의 시대를 열어, 환자들이 질병이 발병하기 전에 선제적으로 관리하고 대응할 수 있도록 도울 수 있습니다. 이는 정기 건강 검진의 패러다임을 변화시키고, 조기 개입을 통한 더 나은 건강 결과를 가져올 중요한 전환점이 될 것입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/sanofi-signs-1b-biobucks-pact-alzheimers-asset-2nd-biotech-deal-day\" hreflang=\"en\">Sanofi signs $1B biobucks pact for Alzheimer’s asset in 2nd biotech deal of the day</a>",
+      "url": "https://www.fiercebiotech.com/biotech/sanofi-signs-1b-biobucks-pact-alzheimers-asset-2nd-biotech-deal-day",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "사노피, 하루 두 번째 바이오텍 계약: 알츠하이머 치료제 개발에 10억 달러 규모 투자",
+      "summary_kr": "프랑스 제약 대기업 사노피가 하루에 두 번째로 중요한 바이오텍 파트너십을 체결하며, 알츠하이머병 치료제 개발 분야에 대한 적극적인 투자를 알렸습니다. 이번 계약은 특히 한국의 한 바이오텍 기업이 개발 중인 알츠하이머병 항체 치료제에 대한 라이선스 계약으로, 총 10억 달러 규모의 바이오벅스(성과 달성 시 지급되는 금액)가 포함되어 있습니다. 이는 사노피가 신경퇴행성 질환, 특히 알츠하이머병과 같은 미충족 의료 수요가 큰 분야에서 혁신적인 치료 솔루션을 확보하려는 강력한 의지를 보여줍니다. 한국 바이오텍의 기술력이 글로벌 제약사의 주목을 받았다는 점에서 국내 바이오 산업의 위상 또한 높아지고 있음을 시사하며, 알츠하이머 환자들에게 새로운 치료 희망을 제공할 가능성을 열었습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/aviceda-geographic-atrophy-hopeful-fails-top-astellas-med-phase-2\" hreflang=\"en\">Aviceda geographic atrophy hopeful fails to top Astellas' med in phase 2</a>",
+      "url": "https://www.fiercebiotech.com/biotech/aviceda-geographic-atrophy-hopeful-fails-top-astellas-med-phase-2",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "아비세다의 지도형 위축 치료 후보물질, 임상 2상에서 아스텔라스 약물 대비 우위 입증 실패",
+      "summary_kr": "아비세다 테라퓨틱스(Aviceda Therapeutics)는 건성 노년황반변성의 진행된 형태인 지도형 위축(geographic atrophy)에 대한 새로운 치료법을 제공하려는 목표에 난관에 부딪혔습니다. 이 바이오텍의 선도 후보물질 AVD-104는 2상 임상 시험의 주요 평가 변수인 망막 병변 성장 속도 억제에서 아스텔라스(Astellas)의 이저베이(Izervay)를 능가하지 못했습니다. 이는 AVD-104가 기존 치료제에 비해 유의미한 이점을 보여주지 못했음을 의미합니다. 이번 실패는 지도형 위축 분야에서 Aviceda의 경쟁력 확보 계획에 상당한 차질을 줄 것으로 예상됩니다. 이로써 환자들에게 더 나은 치료 옵션을 제공하려던 Aviceda의 초기 노력이 setback을 맞게 되었습니다. 향후 추가적인 연구 개발 방향에 대한 관심이 모아지고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/link-launches-jj-backed-60m-plan-create-next-gen-car-t-therapies\" hreflang=\"en\">J&amp;J-backed Link launches with $60M, plan to create next-gen CAR-T therapies </a>",
+      "url": "https://www.fiercebiotech.com/biotech/link-launches-jj-backed-60m-plan-create-next-gen-car-t-therapies",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "존슨앤드존슨 지원 '링크 셀 테라피스', 6천만 달러 투자 유치로 차세대 CAR-T 치료제 개발 출범",
+      "summary_kr": "세포 치료제 전문 기업인 링크 셀 테라피스(Link Cell Therapies)가 6천만 달러 규모의 투자를 유치하며 공식적으로 출범했습니다. 이 회사의 핵심 목표는 다양한 종류의 종양을 효과적으로 표적화하면서도 환자의 건강한 조직은 손상시키지 않는 강력한 차세대 CAR-T 치료제를 개발하는 것입니다. 존슨앤드존슨(Johnson & Johnson)의 지원을 받아 초기 자금을 확보함으로써, Link Cell Therapies는 첨단 세포 치료 연구에 박차를 가할 예정입니다. 기존 CAR-T 치료제의 한계를 극복하고 부작용을 최소화하는 데 중점을 둔다는 점에서 큰 기대를 모으고 있습니다. 이는 암 환자들에게 더욱 안전하고 효과적인 치료 옵션을 제공할 수 있는 중요한 진전이 될 것으로 전망됩니다. 이번 출범은 차세대 면역 항암제 개발 경쟁에 새로운 활력을 불어넣을 것입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/chai-infuses-ai-drug-discovery-efforts-130m-series-b\" hreflang=\"en\">Chai infuses AI drug discovery efforts with $130M series B</a>",
+      "url": "https://www.fiercebiotech.com/biotech/chai-infuses-ai-drug-discovery-efforts-130m-series-b",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "AI 신약 개발 기업 차이 디스커버리, 1억 3천만 달러 규모 시리즈 B 투자 유치",
+      "summary_kr": "인공지능(AI) 기반 신약 개발 기업인 차이 디스커버리(Chai Discovery)가 1억 3천만 달러(약 1,700억 원) 규모의 시리즈 B 투자를 성공적으로 유치했습니다. 이번 대규모 자금 조달은 새로운 치료제 개발을 위한 '컴퓨터 지원 설계 스위트(computer-aided design suite)' 역량을 강화하는 데 집중적으로 사용될 예정입니다. 차이 디스커버리는 AI 기술을 활용하여 신약 발굴 과정을 혁신하고 개발 효율성을 극대화하는 것을 목표로 합니다. '컴퓨터 지원 설계 스위트'는 신약 후보 물질의 설계 및 최적화를 가속화하여, 기존 방식 대비 개발 기간과 비용을 획기적으로 절감할 수 있을 것으로 기대됩니다. 이번 투자는 AI 기반 신약 개발 분야에 대한 높은 시장의 기대와 성장 잠재력을 다시 한번 입증하는 계기가 되었습니다. 이를 통해 차이 디스커버리는 신약 파이프라인을 확장하고 글로벌 경쟁력을 한층 더 강화할 수 있을 것으로 전망됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/pfizer-sanofi-pull-out-checkbooks-separate-year-end-autoimmune-pacts\" hreflang=\"en\">Pfizer, Sanofi pull out checkbooks for separate year-end autoimmune pacts </a>",
+      "url": "https://www.fiercebiotech.com/biotech/pfizer-sanofi-pull-out-checkbooks-separate-year-end-autoimmune-pacts",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "화이자와 사노피, 연말 맞아 자가면역 질환 분야에서 각각 파트너십 확대",
+      "summary_kr": "제약 대기업 화이자(Pfizer)와 사노피(Sanofi)가 연말을 맞아 자가면역 질환 치료제 개발을 위한 개별적인 파트너십 계약을 체결하며 이 분야에서의 입지를 강화하고 있습니다. 시애틀에 본사를 둔 어댑티브 바이오테크놀로지스(Adaptive Biotechnologies)는 화이자와 두 건의 비독점적 계약을 맺었습니다. 이 계약은 어댑티브의 맞춤형 T세포 수용체 발견 엔진과 대규모 면역 수용체 항원 매핑 데이터를 활용하는 데 중점을 두고 있습니다. 동시에 드렌 바이오(Dren Bio)는 사노피와의 전략적 협력을 확장하여, '다양한 자가면역 질환'을 위한 잠재적인 차세대 B세포 고갈 치료제를 발굴 및 개발하기로 했습니다. 이들 거대 제약사의 움직임은 자가면역 질환 분야의 미충족 의료 수요가 여전히 높으며, 혁신적인 치료법 개발 경쟁이 치열함을 시사합니다. 각 파트너십을 통해 새로운 자가면역 질환 치료 접근법이 탐색될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/kyverna-gains-clear-view-first-car-t-approval-autoimmune-disease-after-truly-remarkable-sps\" hreflang=\"en\">Kyverna gains clear view to first CAR-T approval for autoimmune disease after 'truly remarkable' SPS readout</a>",
+      "url": "https://www.fiercebiotech.com/biotech/kyverna-gains-clear-view-first-car-t-approval-autoimmune-disease-after-truly-remarkable-sps",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "키베르나, '놀라운' SPS 결과로 자가면역질환 CAR-T 치료제 최초 승인 전망 밝혀",
+      "summary_kr": "키베르나 테라퓨틱스(Kyverna Therapeutics)는 자가면역질환 분야에서 최초의 CAR-T 치료제 FDA 승인을 획득할 가능성이 매우 높아졌습니다. 최근 등록 임상 시험에서 이 회사의 CD19 표적 치료제가 1차 및 모든 2차 평가변수에서 '매우 통계적으로 유의미한' 이점을 입증했기 때문입니다. 이번 SPS(Safety and Pharmacodynamic Study) 연구 결과는 해당 분야에서 획기적인 진전을 의미하며, 기존 치료법으로 충분한 효과를 보지 못했던 자가면역질환 환자들에게 새로운 희망을 제시합니다. 이 치료제는 면역체계를 조절하는 T세포를 유전적으로 변형하여 자가면역 반응을 일으키는 특정 B세포를 표적으로 삼아 제거하는 방식입니다. 이번 긍정적인 임상 결과는 키베르나가 자가면역질환 치료 패러다임을 바꿀 선두 주자가 될 수 있음을 시사하며, 향후 FDA 승인 절차에 청신호를 켰습니다. 이로써 자가면역질환 분야에서 CAR-T 기술의 적용 가능성이 크게 확장될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/immunomes-phase-3-desmoid-tumor-treatment-looks-knockout-evercore\" hreflang=\"en\">Immunome's desmoid tumor treatment triumphs in phase 3, setting up approval filing</a>",
+      "url": "https://www.fiercebiotech.com/biotech/immunomes-phase-3-desmoid-tumor-treatment-looks-knockout-evercore",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "이뮤놈, 데스모이드 종양 치료제 3상서 압도적 성공…승인 신청 초읽기",
+      "summary_kr": "이뮤놈(Immunome)의 경구용 데스모이드 종양 치료제가 3상 임상 시험에서 탁월한 결과를 보이며 승인 신청을 위한 기반을 마련했습니다. 회사에 따르면, 이 치료제는 데스모이드 종양 환자들의 질병 진행 또는 사망 위험을 무려 84%나 감소시키는 효과를 나타냈습니다. 이러한 데이터는 한 애널리스트가 '거의 최상의 결과'라고 평가할 정도로 매우 고무적입니다. 데스모이드 종양은 드물지만 심각한 연조직 종양으로, 현재 치료 옵션이 제한적이며 재발률이 높은 특성을 가집니다. 이번 연구 결과는 데스모이드 종양으로 고통받는 환자들에게 새로운 치료 대안을 제공할 수 있는 가능성을 열었습니다. 이뮤놈은 이번 긍정적인 3상 결과를 바탕으로 규제 당국에 신속하게 신약 승인 신청을 제출할 예정이며, 이는 환자들에게 큰 희망을 안겨줄 것으로 전망됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/philips-claims-ai-coronary-imaging-developer-spectrawave\" hreflang=\"en\">Philips claims AI coronary imaging developer SpectraWAVE</a>",
+      "url": "https://www.fiercebiotech.com/medtech/philips-claims-ai-coronary-imaging-developer-spectrawave",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "필립스, AI 기반 심장 혈관 영상 개발사 스펙트라웨이브 인수 발표",
+      "summary_kr": "글로벌 헬스케어 기술 기업 필립스(Philips)가 인공지능(AI) 기반 심장 혈관 영상 기술 개발사인 스펙트라웨이브(SpectraWAVE)를 인수할 계획을 밝혔습니다. 이번 인수를 통해 필립스는 자사의 실시간 영상 플랫폼을 강화하고, 심장 동맥을 신속하게 스캔하여 스텐트 삽입술 및 기타 심혈관 시술을 지원하는 역량을 확장할 예정입니다. 스펙트라웨이브의 기술은 고해상도 영상을 제공하여 의사들이 혈관 내부의 상태를 더욱 정확하게 파악하고 최적의 치료 전략을 수립하는 데 도움을 줍니다. 이는 심혈관 질환 진단 및 치료의 정확성을 높이고 환자 예후를 개선하는 데 기여할 것으로 기대됩니다. 필립스는 이번 인수로 심혈관 질환 분야에서의 리더십을 더욱 공고히 하고, 혁신적인 의료 솔루션 제공을 통해 환자 중심의 의료 서비스를 강화할 계획입니다. 특히 AI 기술 접목을 통해 실시간 영상 분석의 효율성과 정확도를 극대화할 수 있을 것으로 보입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/lumexa-imaging-tallies-4625m-ipo-doubling-its-original-target\" hreflang=\"en\">Lumexa Imaging tallies $462.5M in IPO, doubling original target</a>",
+      "url": "https://www.fiercebiotech.com/medtech/lumexa-imaging-tallies-4625m-ipo-doubling-its-original-target",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "루멕사 이미징, IPO서 4억 6,250만 달러 유치…초기 목표치의 두 배 달성",
+      "summary_kr": "진단 서비스 제공업체인 루멕사 이미징(Lumexa Imaging)이 기업공개(IPO)를 통해 4억 6,250만 달러(약 6,300억 원)를 성공적으로 유치했습니다. 이는 당초 목표했던 2억 달러를 훨씬 뛰어넘는 금액으로, 초기 목표치의 두 배 이상을 달성하며 시장의 뜨거운 관심을 입증했습니다. 이러한 성과는 루멕사 이미징의 혁신적인 진단 영상 기술과 성장 잠재력에 대한 투자자들의 높은 신뢰를 반영하는 것으로 풀이됩니다. 회사는 이번 IPO를 통해 확보한 자금을 바탕으로 연구 개발을 가속화하고, 진단 서비스 역량을 확장하며 시장 지배력을 강화할 계획입니다. 특히, 의료 영상 분야에서 AI 및 최첨단 기술 접목을 통해 진단 정확도를 높이고 환자 편의성을 개선하는 데 주력할 것으로 예상됩니다. 이번 성공적인 자금 조달은 루멕사 이미징이 글로벌 진단 시장에서 중요한 역할을 수행할 발판을 마련했음을 보여줍니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/sanofis-tolebrutinib-woes-pile-fda-delay-trial-miss\" hreflang=\"en\">Sanofi's tolebrutinib woes pile up with FDA delay, trial miss</a>",
+      "url": "https://www.fiercebiotech.com/biotech/sanofis-tolebrutinib-woes-pile-fda-delay-trial-miss",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "사노피의 톨레브루티닙, FDA 승인 지연 및 임상 실패로 난관 봉착",
+      "summary_kr": "다발성 경화증 치료제 톨레브루티닙(tolebrutinib) 개발에 매진해온 사노피가 연이은 악재에 직면했습니다. 미국 식품의약국(FDA)은 사노피의 톨레브루티닙 승인 신청 심사를 지연시켰으며, 특히 비재발성 이차 진행성 다발성 경화증(non-relapsing secondary progressive multiple sclerosis) 환자를 대상으로 한 임상시험에서 주요 목표 달성에 실패했습니다. 이러한 결과는 연말연시를 앞두고 신약 승인을 기대했던 사노피의 기대를 꺾는 소식입니다. 톨레브루티닙은 브루톤 티로신 키나아제(BTK) 억제제로 주목받아왔으나, 이번 차질로 인해 상업화에 상당한 제동이 걸릴 것으로 예상됩니다. 투자자들과 환자들은 이 약물의 향후 개발 방향과 승인 여부에 촉각을 곤두세우고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/sobi-pays-950m-upfront-snap-phase-3-gout-specialist-arthrosi-therapeutics\" hreflang=\"en\">Sobi pays $950M upfront to snap up phase 3 gout specialist Arthrosi Therapeutics</a>",
+      "url": "https://www.fiercebiotech.com/biotech/sobi-pays-950m-upfront-snap-phase-3-gout-specialist-arthrosi-therapeutics",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "스웨덴 소바이, 9억 5천만 달러 선지급으로 통풍 전문기업 아쓰로시 테라퓨틱스 인수",
+      "summary_kr": "스웨덴 바이오제약 기업 소바이(Sobi)가 통풍 치료제 전문기업인 아쓰로시 테라퓨틱스(Arthrosi Therapeutics)를 선지급금 9억 5천만 달러에 인수하기로 합의했습니다. 아쓰로시 테라퓨틱스는 최근 1억 5천3백만 달러 규모의 시리즈 E 투자를 성공적으로 유치한 바 있으며, 이로써 기업공개(IPO) 대신 인수합병을 통한 시장 진입을 선택하게 되었습니다. 이번 인수는 잠재적 가치 15억 달러에 달하는 대규모 거래로, 소바이가 통풍 치료제 시장에서의 입지를 강화하려는 전략의 일환으로 풀이됩니다. 아쓰로시 테라퓨틱스는 현재 3상 임상 단계에 있는 통풍 치료제를 개발 중이며, 이 약물은 소바이의 희귀질환 포트폴리오를 확장하는 데 기여할 것으로 기대됩니다. 이번 인수를 통해 두 회사는 통풍 환자들에게 혁신적인 치료 옵션을 제공할 수 있을 것으로 보입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/defining-moment-wound-care\" hreflang=\"en\">A Defining Moment for Wound Care</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/defining-moment-wound-care",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "상처 치료 분야의 전환점: 피부 대체재 비용 증가와 정책 개혁",
+      "summary_kr": "상처 치료 분야는 현재 중요한 전환점을 맞이하고 있습니다. 특히 미국 메디케어 및 메디케이드 서비스 센터(CMS)의 피부 대체재(skin substitutes) 지출이 꾸준히 증가하고 있는 상황입니다. 이러한 추세에 발맞춰 새로운 정책들이 도입되고 있으며, 이는 환자 접근성을 보장하고 혁신을 장려하는 개혁의 첫걸음으로 평가됩니다. 새로운 정책들은 피부 대체재에 대한 보험 적용 기준을 명확히 하고, 해당 분야의 연구 및 개발 투자를 촉진하는 데 초점을 맞추고 있습니다. 이를 통해 고품질의 상처 치료 옵션이 필요한 환자들이 적절한 시기에 치료를 받을 수 있도록 지원하며, 동시에 의료 기술 발전을 유도하려는 목표를 가지고 있습니다. 이처럼 변화하는 정책 환경은 상처 치료 시장에 새로운 기회와 도전을 동시에 제시하고 있습니다."
+    },
+    {
+      "title_en": "Lenz discloses case of retinal tear in presbyopia eye drop patient",
+      "url": "https://endpoints.news/lenz-discloses-case-of-retinal-tear-in-presbyopia-eye-drop-patient/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "렌즈 테라퓨틱스, 노안 안약 환자에게서 망막 열상 사례 보고",
+      "summary_kr": "렌즈 테라퓨틱스(Lenz Therapeutics)가 노안 치료용 상업용 안약 '비즈(Vizz)'를 사용한 환자에게서 심각한 부작용인 망막 열상(retinal tear) 사례가 보고되었다고 금요일 발표하며 투자자들에게 충격을 주었습니다. 이 소식은 회사의 주가에 부정적인 영향을 미쳤으며, 신약의 안전성에 대한 우려를 증폭시켰습니다. 비즈는 흐릿한 근거리 시야를 개선하기 위해 개발된 안약으로, 출시 이후 많은 기대를 받아왔습니다. 그러나 이번 부작용 보고는 회사가 약물 안전성 프로필을 면밀히 재검토하고, 규제 당국과 긴밀히 협력해야 할 필요성을 시사합니다. 향후 렌즈 테라퓨틱스는 이 사례에 대한 추가 조사 결과를 공개하고, 잠재적인 위험에 대해 환자들에게 투명하게 정보를 제공해야 할 것입니다."
+    },
+    {
+      "title_en": "FDA wants to use more real-world data and calls again for early-phase trials reform",
+      "url": "https://endpoints.news/fda-wants-to-use-more-real-world-data-and-calls-again-for-early-phase-trials-reform/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "미 FDA, 의약품 및 의료기기 승인에 실사용 데이터 활용 확대 및 초기 임상 시험 개혁 재차 강조",
+      "summary_kr": "미국 식품의약국(FDA) 마티 마카리 국장은 월요일 뉴욕 월스트리트 연설에서 의약품 및 의료기기 승인 심사에 실사용 데이터(RWD)의 활용을 확대할 계획이라고 밝혔다. 여기에는 환자 식별 정보가 없는 대규모 데이터 세트도 포함될 예정이다. 이번 발표는 FDA가 규제 절차를 현대화하고, 보다 효율적인 승인 과정을 통해 안전하고 효과적인 치료제를 환자들에게 신속하게 제공하려는 의지를 반영한다. 또한, 마카리 국장은 초기 단계 임상 시험의 개혁에 대해서도 다시 한번 목소리를 높였다. 이는 임상 시험 과정의 효율성을 높이고, 신약 개발 속도를 가속화하기 위한 광범위한 노력의 일환으로 해석된다. FDA는 이러한 변화를 통해 데이터 기반의 의사결정을 강화하고, 의료 혁신을 촉진할 것으로 기대하고 있다."
+    },
+    {
+      "title_en": "Enhertu combo wins FDA approval for first-line use in metastatic breast cancer",
+      "url": "https://endpoints.news/fda-backs-enhertu-for-first-line-use-in-metastatic-breast-cancer/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "엔허투 병용요법, 전이성 유방암 1차 치료제로 미 FDA 승인 획득",
+      "summary_kr": "아스트라제네카와 다이이찌산쿄가 공동 개발한 혁신적인 항암제 엔허투(Enhertu)의 병용요법이 최근 미국 식품의약국(FDA)으로부터 전이성 유방암 1차 치료제로 승인받는 쾌거를 이루었다. 이번 FDA 승인은 전이성 유방암으로 고통받는 환자들에게 새로운 희망을 제시하며, 치료 옵션을 크게 확장할 것으로 기대된다. 특히 엔허투 병용요법은 기존 치료법에 반응하지 않거나 내성이 생긴 환자들에게도 효과적인 대안이 될 수 있어 전 세계 의료계의 주목을 받고 있다. FDA의 이번 결정은 해당 요법의 임상적 유효성과 안전성을 광범위하게 인정하는 중요한 이정표가 된다. 이는 앞으로 전이성 유방암 환자들의 생존율 향상과 삶의 질 개선에 긍정적인 영향을 미칠 것으로 전망된다. 의료 전문가들은 이 치료법이 임상 현장에서 어떻게 활용될지 주목하고 있다."
+    },
+    {
+      "title_en": "FDA speeds up review of J&J's multiple myeloma combo treatment following positive data",
+      "url": "https://endpoints.news/fda-speeds-up-review-of-jjs-multiple-myeloma-combo-treatment-following-positive-data/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "긍정적 데이터 기반: 미 FDA, 존슨앤드존슨 다발성 골수종 병용 치료제 심사 신속 진행",
+      "summary_kr": "존슨앤드존슨(Johnson & Johnson)의 테크베일리(Tecvayli)와 다잘렉스(Darzalex) 병용 치료제가 이차 치료 다발성 골수종 분야에서 또 한 번의 성공적인 임상 결과를 보였다. 최근 발표된 긍정적인 데이터에 힘입어 미국 식품의약국(FDA)은 전례 없는 속도로 해당 치료제에 대한 심사를 가속화하고 있다. FDA는 이번 최신 데이터를 바탕으로 병용 치료제의 신속 승인을 위한 새로운 바우처를 발행하는 등 적극적인 움직임을 보였다. 이는 치료가 시급한 다발성 골수종 환자들에게 혁신적인 치료 옵션을 더욱 빠르게 제공하겠다는 FDA의 강력한 의지를 반영한다. 이러한 신속 심사는 해당 병용 요법의 강력한 치료 효과와 안전성 프로파일을 FDA가 매우 높이 평가하고 있음을 시사한다. 이로써 다발성 골수종 환자들의 치료 결과 개선에 크게 기여할 것으로 예상되며, 관련 의료 커뮤니티의 기대가 크다."
+    },
+    {
+      "title_en": "With GLP-1 microdoses, Noom targets lower-BMI group outside FDA obesity drug labels",
+      "url": "https://endpoints.news/with-glp-1-microdoses-noom-targets-lower-bmi-group-outside-fda-obesity-drug-labels/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "눔(Noom), GLP-1 미량 투여로 FDA 비만약 적응증 미만 BMI 그룹 공략 나서",
+      "summary_kr": "텔레헬스 기업 눔(Noom)이 GLP-1 미량 투여(microdose) 방식을 활용하여 미국 식품의약국(FDA)이 승인한 비만 치료제 투여 기준인 체질량 지수(BMI)보다 훨씬 낮은 BMI를 가진 사람들을 대상으로 새로운 시장을 개척할 계획이다. 눔의 이 전략은 기존 비만약의 적응증 범위를 벗어나, 체중 감량을 원하는 더 넓은 사용자층을 포괄하려는 시도이다. 이러한 접근 방식은 온라인 건강 및 웰니스 플랫폼에서 점차 흔해지고 있는 추세로, 의료 전문가의 감독 하에 저용량 약물을 제공하여 잠재적인 부작용을 줄이면서도 효과를 얻으려는 목적을 가지고 있다. FDA 승인 기준에는 미치지 못하지만, 여전히 건강상의 이점을 얻고자 하는 사람들에게 매력적인 대안이 될 수 있다. 눔은 이를 통해 체중 관리 시장에서의 입지를 더욱 강화하고, 개인 맞춤형 건강 솔루션의 범위를 확장할 것으로 전망된다."
+    },
+    {
+      "title_en": "Gilead posts second Phase 3 win for new HIV-fighting drug regimen",
+      "url": "https://endpoints.news/gilead-posts-second-phase-3-win-for-new-hiv-fighting-drug-regimen/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "길리어드, 새로운 HIV 치료제 병용 요법 2차 임상 3상 성공 발표",
+      "summary_kr": "길리어드가 새로운 HIV 치료제 복합 요법의 두 번째 임상 3상 시험에서 성공적인 결과를 발표하며 기대를 모으고 있습니다. 이 제약회사는 월요일, 두 가지 약물의 병용 요법이 기존 승인된 치료제인 빅타르비(Biktarvy)에 비해 비열등성을 입증했다고 밝혔습니다. 이번 결과는 길리어드가 곧 새로운 HIV 치료제 칵테일을 시장에 출시할 수 있음을 강력히 시사합니다. 새로운 치료법은 HIV 감염 환자들에게 또 다른 효과적인 치료 옵션을 제공하며, 치료 패러다임에 긍정적인 변화를 가져올 것으로 예상됩니다. 이번 성과는 HIV 치료 분야에서 길리어드의 리더십을 강화하고 환자들의 삶의 질 향상에 크게 기여할 것으로 보입니다."
+    },
+    {
+      "title_en": "Aviceda's geographic atrophy drug fails mid-stage study. Can it do better in Phase 3?",
+      "url": "https://endpoints.news/avicedas-geographic-atrophy-drug-fails-mid-stage-study-can-it-do-better-in-phase-3/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "아비세다의 지도형 위축 치료제, 2상 실패에도 불구하고 3상 진행 강행",
+      "summary_kr": "아비세다 테라퓨틱스(Aviceda Therapeutics)가 실험 중인 안과 질환 치료제가 지도형 위축(geographic atrophy)에 대한 2b상 임상 시험에서 실패했음에도 불구하고 3상 임상 계획을 추진한다고 발표했습니다. 이 중간 단계 임상 시험에서는 아비세다의 AVD-104를 아스텔라스(Astellas)의 약물 이저베이(Izervay)와 비교 평가했습니다. 비록 2상 결과가 기대에 미치지 못했지만, 아비세다는 이 약물의 잠재력을 믿고 최종 단계 임상에 돌입할 예정입니다. 이는 심각한 시력 손상을 유발하는 지도형 위축으로 고통받는 환자들에게 새로운 치료법을 제공하려는 회사의 의지를 보여줍니다. 2상에서 겪은 좌절에도 불구하고 3상에서 다른 결과가 나올지 의학계의 귀추가 주목되고 있습니다."
+    },
+    {
+      "title_en": "Palvella unwraps Phase 2 data for rapamycin gel in rare skin disease",
+      "url": "https://endpoints.news/palvella-unwraps-phase-2-data-for-rapamycin-gel-in-rare-skin-disease/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "팔벨라, 희귀 피부 질환 치료용 라파마이신 겔 2상 데이터 공개",
+      "summary_kr": "팔벨라 테라퓨틱스(Palvella Therapeutics)는 어린이에게 영향을 미치는 희귀 피부 질환 치료를 위한 자사의 약물 후보가 중간 단계 임상 시험에서 긍정적인 결과를 도출했다고 발표했습니다. 이 생명공학 회사의 겔 형태 치료제 후보는 3.9% 라파마이신(rapamycin)을 함유하고 있으며, 임상 증상을 개선하는 데 효과를 보였습니다. 이번 2상 데이터는 특정 희귀 피부 질환으로 고통받는 환자들에게 새로운 치료 옵션이 될 가능성을 제시하고 있습니다. 특히 어린이 환자들에게 적용될 수 있다는 점에서 큰 의미를 가지며, 의료 현장에 새로운 희망을 주고 있습니다. 팔벨라는 이번 긍정적인 결과를 바탕으로 후속 임상 개발에 박차를 가할 것으로 예상됩니다."
+    },
+    {
+      "title_en": "InnoCare says Zenas-partnered drug succeeds in China study in form of lupus",
+      "url": "https://endpoints.news/innocare-says-zenas-partnered-drug-succeeds-in-china-study-in-form-of-lupus/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "이노케어, 제나스와 협력 개발한 루푸스 치료제 중국 임상 성공 발표",
+      "summary_kr": "이노케어 파마(InnoCare Pharma)는 자사의 경구용 BTK 억제제인 오렐라브루티닙(orelabrutinib)이 중국에서 진행된 전신성 홍반성 루푸스(SLE) 중간 단계 임상 시험에서 성공적인 결과를 보였다고 일요일 밝혔습니다. 이 중국 생명공학 기업은 약 1년간의 치료 후 유의미한 개선이 관찰되었다고 전했습니다. 제나스(Zenas)와 협력하여 개발 중인 이 약물은 루푸스 환자들에게 새로운 치료 대안을 제공할 잠재력을 가지고 있습니다. 전신성 홍반성 루푸스는 만성 염증성 자가면역 질환으로, 효과적인 치료법 개발이 절실한 상황입니다. 이번 긍정적인 임상 결과는 루푸스 치료 분야에 새로운 희망을 제시할 것으로 크게 기대되고 있습니다."
+    },
+    {
+      "title_en": "Kyverna to take autoimmune CAR-T to FDA after success in stiff person syndrome trial",
+      "url": "https://endpoints.news/kyverna-to-take-autoimmune-car-t-to-fda-after-success-in-stiff-person-syndrome-trial/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "카이버나 테라퓨틱스, 강직인증후군 임상 성공 후 자가면역 CAR-T 치료제 FDA 승인 추진",
+      "summary_kr": "카이버나 테라퓨틱스(Kyverna Therapeutics)의 CAR-T 치료제가 희귀 자가면역 질환인 강직인증후군(Stiff Person Syndrome, SPS)에 대한 주요 임상 연구에서 긍정적인 결과를 보였습니다. 이 질환은 극심한 근육 경련과 경직을 유발하며 환자들에게 심각한 고통을 안겨줍니다. 캘리포니아에 본사를 둔 이 바이오 기업은 임상 성공에 힘입어 해당 치료제를 미국 식품의약국(FDA)에 제출할 계획을 밝혔습니다. 이번 성공은 희귀 자가면역 질환 치료 분야에서 CAR-T 기술의 잠재력을 다시 한번 입증하는 중요한 계기가 될 것으로 기대됩니다. 해당 치료제는 기존 치료법으로는 관리가 어려웠던 강직인증후군 환자들에게 새로운 치료 희망을 제시할 수 있을 전망입니다."
+    },
+    {
+      "title_en": "Areteia Therapeutics to wind down after terminating Phase 3 asthma studies",
+      "url": "https://endpoints.news/areteia-therapeutics-to-wind-down-after-terminating-phase-3-asthma-studies/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "아레테이아 테라퓨틱스, 천식 3상 연구 중단 후 사업 철수 결정",
+      "summary_kr": "호흡기 질환 분야에서 최근 바이오 산업의 주요 스타트업 투자처 중 하나였던 아레테이아 테라퓨틱스(Areteia Therapeutics)가 사업을 철수하기로 결정했습니다. 이 결정은 해당 사안에 정통한 소식통에 의해 확인되었으며, 회사 경영진 또한 이미 회사를 떠난 것으로 알려져 사실상 폐업 수순을 밟는 것으로 보입니다. 이 같은 결정은 천식 치료제 개발을 위한 3상 임상 연구를 중단한 직후에 내려진 것입니다. 아레테이아는 상당한 기대를 모았던 기업이었기에, 이번 사업 철수 소식은 바이오 업계에 적지 않은 충격을 주고 있습니다. 이는 신약 개발의 높은 실패율과 천식 치료제 개발의 어려움을 다시 한번 상기시키는 사례로 평가받고 있습니다. 기대작의 좌초는 관련 분야 연구 개발에 대한 신중한 접근의 필요성을 보여줍니다."
+    },
+    {
+      "title_en": "Immunome's rare tumor drug passes Phase 3 test, could challenge Merck KGaA",
+      "url": "https://endpoints.news/immunomes-rare-tumor-drug-passes-phase-3-test-could-challenge-merck-kgaa/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "이뮤놈, 희귀 종양 치료제 3상 성공…내년 상반기 FDA 승인 신청 예정",
+      "summary_kr": "이뮤놈(Immunome)이 개발 중인 희귀 종양 치료제가 최근 3상 임상 시험에서 성공적인 결과를 도출하며 주목받고 있습니다. 이번 임상 성공은 이뮤놈이 내년 6월 말까지 미국 식품의약국(FDA)에 신약 승인 신청을 제출할 수 있는 기반을 마련해 주었습니다. 연구진은 해당 치료제가 특정 희귀 종양에 대해 통계적으로 유의미한 치료 효과를 보였다고 발표했습니다. 특히, 이 치료제는 현재 시장에 나와 있는 머크 KGaA(Merck KGaA)의 유사 약물과 경쟁할 수 있는 잠재력을 가지고 있어 더욱 기대를 모으고 있습니다. 희귀 질환 치료제 시장에 새로운 경쟁 구도를 형성할 것으로 전망되며, 해당 질환으로 고통받는 환자들에게 새로운 치료 옵션을 제공할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Sanofi returns to Dren Bio for another B cell depletion therapy at $100M upfront",
+      "url": "https://endpoints.news/sanofi-returns-to-dren-bio-for-another-b-cell-depletion-therapy-at-100m-upfront/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "사노피, 드렌 바이오와 1억 달러 선불 계약으로 B세포 고갈 치료제 파이프라인 확장",
+      "summary_kr": "글로벌 제약사 사노피(Sanofi)가 올해 들어 두 번째로 드렌 바이오(Dren Bio)의 B세포 고갈 기술에 투자하며 협력을 강화했습니다. 프랑스 제약 대기업인 사노피는 이번 계약을 통해 선불금으로 1억 달러(약 1,300억 원)를 지급하고, 향후 개발 및 상업화 마일스톤에 따라 추가적인 금액을 지불할 예정입니다. 이는 자가면역 질환 및 혈액암 치료에 중요한 역할을 하는 B세포 고갈 치료제 개발에 대한 사노피의 지속적인 관심을 보여줍니다. 드렌 바이오의 혁신적인 B세포 고갈 기술은 다양한 난치성 질환에 대한 새로운 치료법을 모색하는 데 기여할 것으로 기대됩니다. 이번 협력은 사노피의 면역학 분야 파이프라인을 강화하고, 환자들에게 더 나은 치료 옵션을 제공하려는 전략의 일환으로 풀이됩니다."
+    },
+    {
+      "title_en": "AI biotech Chai Discovery raises $130M Series B at $1.3B valuation",
+      "url": "https://endpoints.news/ai-biotech-chai-discovery-raises-130m-series-b-at-1-3b-valuation/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "AI 바이오텍 차이 디스커버리, 13억 달러 기업가치로 1억 3천만 달러 시리즈 B 투자 유치",
+      "summary_kr": "AI 기반 바이오 기술 기업인 차이 디스커버리(Chai Discovery)가 최근 1억 3천만 달러 규모의 시리즈 B 투자를 성공적으로 유치했습니다. 이번 투자 라운드를 통해 차이 디스커버리의 기업 가치는 무려 13억 달러에 달하는 것으로 평가받았습니다. 이 스타트업은 2024년에 설립되었음에도 불구하고, 네 명의 야심 찬 젊은 인재들이 설립한 이래 놀라운 속도로 자금을 조달하며 빠르게 성장하고 있습니다. 특히 인공지능 기술을 활용하여 생명 공학 분야에서 혁신적인 발견을 목표로 하고 있어 업계의 큰 주목을 받고 있습니다. 이러한 빠른 성장은 AI와 바이오 기술의 융합이 가져올 미래 잠재력을 명확히 보여주는 사례로 평가됩니다."
+    },
+    {
+      "title_en": "Western genetic medicine makers turn to Chinese investigator-initiated trials",
+      "url": "https://endpoints.news/western-genetic-medicine-makers-turn-to-chinese-investigator-initiated-trials/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "서방 유전체 의약품 기업들, 중국 연구자 주도 임상시험으로 눈 돌려",
+      "summary_kr": "최근 서구의 유전체 의약품 개발사들이 중국의 연구자 주도 임상시험(IIT)에 점차 관심을 기울이고 있는 추세입니다. 이는 신약 개발에 필요한 시간과 비용을 절감하려는 전략의 일환으로 분석됩니다. 벨기에의 세포 치료 스타트업 에소바이오텍(EsoBiotec)은 올 초 직원 12명으로 구성된 작은 규모에도 불구하고, 환자의 면역 세포를 질병 파괴자로 전환시키는 첨단 주입 치료법 개발을 위해 2,200만 유로를 유치했습니다. 이처럼 혁신적인 기술을 보유한 서방 기업들이 중국 시장의 광범위한 환자 풀과 효율적인 임상 환경을 활용하여 임상 개발을 가속화하려는 움직임이 포착되고 있습니다. 이는 글로벌 신약 개발 패러다임의 변화를 시사하며, 중국이 유전체 의약품 임상시험의 중요한 허브로 부상하고 있음을 보여줍니다."
+    },
+    {
+      "title_en": "Sanofi’s multiple sclerosis drug flunks Phase 3 trial, faces another PDUFA delay",
+      "url": "https://endpoints.news/sanofis-multiple-sclerosis-drug-flunks-phase-3-trial-faces-another-pdufa-delay/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "사노피 다발성 경화증 치료제, 3상 임상시험 실패 및 PDUFA 승인 또다시 연기",
+      "summary_kr": "프랑스 제약사 사노피(Sanofi)가 다발성 경화증 치료제로 기대를 모았던 BTK 억제제 약물 '톨레브루티닙(tolebrutinib)'이 3상 임상시험에서 실패했다고 발표했습니다. 이 약물은 두 가지 다른 형태의 다발성 경화증에 대해 블록버스터급 잠재력을 가진 것으로 평가받았으나, 주요 목표를 달성하지 못했습니다. 특히, 사노피는 톨레브루티닙이 임상시험에서 좌절을 겪었으며, 이로 인해 미국 식품의약국(FDA)의 PDUFA(처방약 사용자 수수료 법) 승인 결정이 또다시 연기될 것으로 예상됩니다. 이번 임상 실패는 사노피의 파이프라인 전략에 상당한 영향을 미칠 것으로 보이며, 다발성 경화증 치료제 시장 경쟁에도 변화를 가져올 수 있습니다. 환자들에게 새로운 치료 옵션을 제공하려던 노력에 차질이 생기면서, 향후 개발 방향에 관심이 쏠리고 있습니다."
+    },
+    {
+      "title_en": "Argenx cans thyroid eye disease trials of Vyvgart Hytrulo",
+      "url": "https://endpoints.news/argenx-cans-thyroid-eye-disease-trials-of-vyvgart-hytrulo/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null,
+      "title": "아르젠엑스, 자가면역질환 치료제 바이바가트 하이트룰로 갑상선 안병증 3상 임상 중단 결정",
+      "summary_kr": "벨기에의 바이오 제약 기업 아르젠엑스(Argenx)가 자사의 자가면역질환 치료제 '바이바가트 하이트룰로(Vyvgart Hytrulo)'의 갑상선 안병증(TED)에 대한 후기 단계 임상시험을 중단한다고 월요일 발표했습니다. 이번 결정은 독립적인 데이터 모니터링 위원회(IDMC)의 중간 분석 결과에 따른 것으로, 해당 연구들이 성공할 가능성이 낮다고 판단되었기 때문입니다. 바이바가트 하이트룰로는 이미 전신 중증근무력증 치료제로 승인받아 상업적으로 성공을 거두었으나, 갑상선 안병증 분야에서는 기대에 미치지 못했습니다. 이번 임상 중단은 신약 개발의 어려움을 다시 한번 보여주며, 아르젠엑스는 다른 파이프라인에 집중할 것으로 예상됩니다. 이로 인해 갑상선 안병증 환자들에게는 새로운 치료 옵션의 등장이 지연될 수 있습니다."
+    },
+    {
+      "title_en": "Argenx falters in effort to expand immune drug’s use",
+      "description_en": "The company will stop two trials testing its blockbuster therapy Vyvgart in thyroid eye disease after treatment was judged to be ineffective at an interim checkpoint.",
+      "url": "https://www.biopharmadive.com/news/argenx-vyvgart-thyroid-eye-disease-uplighted-results/807897/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Sanofi MS drug hits two setbacks",
+      "description_en": "Tolebrutinib, which Sanofi acquired in a $3.7 billion buyout, failed a Phase 3 study in “primary progressive” multiple sclerosis and is facing a delayed U.S. approval decision in another form of the disease.",
+      "url": "https://www.biopharmadive.com/news/sanofi-primary-progressive-ms-tolebrutinib-fda-delay/807865/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Kyverna to seek first clearance of a CAR-T therapy for autoimmune disease",
+      "description_en": "The company intends to file a U.S. application in the first half of 2026 following positive study results in a condition called stiff person syndrome that has no approved therapies.",
+      "url": "https://www.biopharmadive.com/news/kyverna-stiff-person-syndrome-cell-therapy-autoimmune-results/807863/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Sobi snaps up gout drug in $950M deal for startup Arthrosi",
+      "description_en": "The deal revolves around a drug Sobi claimed could become the “therapy of choice” for people whose gout symptoms persist despite initial therapy.",
+      "url": "https://www.biopharmadive.com/news/sobi-arthrosi-acquire-gout-drug-deal/807849/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "argenx to discontinue Phase III trials of thyroid eye disease therapy",
+      "description_en": "argenx has announced the discontinuation of the Phase III UplighTED trials of efgartigimod subcutaneous (SC) (efgartigimod alfa and hyaluronidase-qvfc) in adult patients with moderate to severe thyroid eye disease (TED),The postargenx to discontinue Phase III trials of thyroid eye disease therapyappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/argenx-ted/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Clinical Trials Arena Excellence Awards 2025: OSE Immunotherapeutics and One2Treat",
+      "description_en": "OSE Immunotherapeutics and One2Treat jointly won the Innovation award for Endpoint Design in the 2025 Clinical Trials Arena Excellence AwardsThe postClinical Trials Arena Excellence Awards 2025: OSE Immunotherapeutics and One2Treatappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/excellence-awards/featured-company/2025-ose-immunotherapeutics-one2treat-innovation/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Meet the new EmVenio at OCT events across 2026",
+      "description_en": "Following the launch of its new brand in 2025, EmVenio Clinical Research will attend five Outsourcing in Clinical Trials events across 2026 to showcase how community-based solutions can drive much-needed improvements in clinical trials.The postMeet the new EmVenio at OCT events across 2026appeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/sponsored/meet-the-new-emvenio-at-oct-events-across-2026/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Gilead’s HIV ART combo deemed non-inferior in second Phase III trial",
+      "description_en": "Gilead has already had success with the single-pill combination therapy in the ARTISTRY-1 trial.The postGilead’s HIV ART combo deemed non-inferior in second Phase III trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/gileads-hiv-art-combo-deemed-non-inferior-in-second-phase-iii-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Why the industry needs to rethink its approach to IRT for smarter trials",
+      "description_en": "In a recent webinar, experts discuss how to make IRT a strategic asset in your next clinical trial.The postWhy the industry needs to rethink its approach to IRT for smarter trialsappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/sponsored/rethink-approach-to-irt-for-smarter-trials-webinar/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Increasing trial activity in APAC region influences commercial supply chains",
+      "description_en": "The postIncreasing trial activity in APAC region influences commercial supply chainsappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/increasing-trial-activity-in-apac-region-influences-commercial-supply-chains/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Sanofi shares fall 6% after double setback for MS drug tolebrutinib",
+      "description_en": "The FDA has delayed tolebrutinib’s review date again, as Sanofi also posted a Phase III failure for the MS candidate.The postSanofi shares fall 6% after double setback for MS drug tolebrutinibappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/sanofi-shares-fall-6-after-double-setback-for-ms-drug-tolebrutinib/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "InnoCare’s BTK inhibitor advances to Phase III in SLE",
+      "description_en": "InnoCare's BTK inhibitor, orelabrutinib, demonstrated a 57.1% improvement in patients’ SLE responses during a Chinese Phase IIb trial.The postInnoCare’s BTK inhibitor advances to Phase III in SLEappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/innocare-orelabrutinib-btk-inhibitor-sle-phase-iib-results/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Alphyn secures $25m in Series B for trial of Zabalafin Hydrogel",
+      "description_en": "Alphyn Biologics has completed $25m in a Series B funding round to support the global Phase IIb trial of its lead candidate, Zabalafin Hydrogel, for atopic dermatitis (AD).The postAlphyn secures $25m in Series B for trial of Zabalafin Hydrogelappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/alphyn-zabalafin-hydrogel/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "AI-assisted coding: 10 simple rules to maintain scientific rigor",
+      "description_en": "These guidelines can help researchers ensure the integrity of their work while accelerating progress on important scientific questions.",
+      "url": "https://www.thetransmitter.org/artificial-intelligence/ai-assisted-coding-10-simple-rules-to-maintain-scientific-rigor/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-16",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/AI-assisted-code-525.png"
+    },
+    {
+      "title_en": "Glutamate receptors, mRNA transcripts and SYNGAP1; and more",
+      "description_en": "Here is a roundup of autism-related news and research spotted around the web for the week of 15 December.",
+      "url": "https://www.thetransmitter.org/spectrum/glutamate-receptors-mrna-transcripts-and-syngap1-and-more/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-16",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/02/cropped-525-social-spotted-transmitter-neuroscience-3.png"
+    },
+    {
+      "title_en": "A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions",
+      "description_en": "Nature Neuroscience, Published online: 15 December 2025;doi:10.1038/s41593-025-02123-wGonzalez-Gallego et al. developed a fully iPS-cell-based human three-dimensional blood–brain barrier (BBB) model and used it to study roles of the stroke risk gene FOXF2 in BBB dysregulation, demonstrating its applicability for mechanistic research and drug development.",
+      "url": "https://www.nature.com/articles/s41593-025-02123-w",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "The stroke risk gene <i>Foxf2</i> maintains brain endothelial cell function via Tie2 signaling",
+      "description_en": "Nature Neuroscience, Published online: 15 December 2025;doi:10.1038/s41593-025-02136-5We show that FOXF2 maintains cerebrovascular function through Tie2 signaling, and that pharmacological activation of Tie2 with AKB-9778 rescues deficits in cerebral small vessel disease and stroke.",
+      "url": "https://www.nature.com/articles/s41593-025-02136-5",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "Eleven clinical trials that will shape medicine in 2026",
+      "description_en": "Nature Medicine, Published online: 15 December 2025;doi:10.1038/s41591-025-04083-xNature Medicine asks leading researchers to name their top clinical trial for 2026, from long-awaited vaccines for infectious diseases to new treatments for advanced cancers and long COVID.",
+      "url": "https://www.nature.com/articles/s41591-025-04083-x",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-16",
+      "image_url": null
+    },
+    {
+      "title_en": "워렌버핏이 근본인 이유",
+      "url": "https://www.youtube.com/watch?v=ifQqNMoEBqM",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-16",
+      "image_url": "https://i2.ytimg.com/vi/ifQqNMoEBqM/hqhqdefault.jpg",
+      "title": "워렌 버핏의 성공 비결: 근본이 되는 이유",
+      "summary_kr": "워렌 버핏은 단순한 투자자를 넘어, 시대를 초월하는 영향력을 가진 인물입니다. 그의 성공 스토리는 투자 철학뿐만 아니라 삶의 방식에서도 찾아볼 수 있습니다. 1990년대 초, 버크셔 해서웨이가 섬유 공장에서 현재의 거대 복합 기업으로 성장할 수 있었던 배경에는 그의 탁월한 투자 감각이 있었습니다. 이는 보험, 금융, 철도, 에너지 등 다양한 분야에 걸친 그의 안목 덕분이었습니다. 워렌 버핏은 단기적인 시장 흐름보다는 장기적인 가치에 집중하는 '가치 투자'를 실천했습니다. 그는 기업의 본질적인 가치를 파악하고, 시장 가격과 비교하여 저평가된 기업에 투자하는 것을 중요하게 생각했습니다. 이러한 투자 철학은 벤저민 그레이엄과 같은 위대한 투자자들의 가르침에서 비롯되었습니다. 버핏은 또한 보험 사업의 '플로트'를 통해 얻는 자금을 활용하여 투자 기회를 확대했습니다. 보험 사업은 막대한 자금을 운용할 수 있게 해주었고, 이는 버크셔 해서웨이의 성장에 중요한 원동력이 되었습니다. 그는 또한 GEICO와 같은 보험 회사를 인수하며 이 전략을 극대화했습니다. 버핏은 '실수는 사라지고 승자는 영원히 번창할 수 있다'는 믿음으로 투자해 왔습니다. 그의 투자 성공 사례에는 아메리칸 익스프레스, 코카콜라, 애플 등이 있으며, 이는 장기적인 안목과 끊임없는 연구의 결과물입니다. 그는 또한 찰리 멍거와의 파트너십을 통해 그의 투자 철학을 더욱 발전시켰습니다. 멍거는 버핏의 투자에 근본적인 영향을 미친 인물로, 그는 버핏의 시야를 넓히고 장기적인 관점을 갖도록 도왔습니다. 최근 버핏은 기술주 투자에도 관심을 기울였지만, 과거의 놓친 기회들에 대한 아쉬움도 토로했습니다. 그는 기업의 실제 자산 가치 대비 높은 평가를 받는 기술 기업들의 투자에 어려움을 겪기도 했습니다. 그럼에도 불구하고 버핏은 3천억 달러 이상의 막대한 현금을 보유하고 있으며, 이는 성공적인 투자를 위한 좋은 기회가 될 것입니다. 그는 은퇴 후에도 버크셔 해서웨이의 회장직을 유지하며 그의 영향력을 계속 행사할 것으로 예상됩니다. 그의 후계자로 지목된 그렉 아벨은 버핏의 투자 전략을 계승하고, 그의 업무를 이어받을 것입니다. 워렌 버핏은 단순한 성공적인 투자자를 넘어, 뛰어난 카리스마와 통찰력을 지닌 인물로서 투자 업계에 지대한 영향을 끼쳤습니다. 그의 삶의 방식과 투자 철학은 많은 사람들에게 영감을 주고 있으며, 앞으로도 그의 유산은 계속될 것입니다."
+    },
     {
       "title_en": "AI coding is now everywhere. But not everyone is convinced.",
       "url": "https://www.technologyreview.com/2025/12/15/1128352/rise-of-ai-coding-developers-2026/",
