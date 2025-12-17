@@ -127,7 +127,7 @@ def get_gemini_batch_summary(articles_batch):
     for attempt in range(5): # 배치 실패 시 5번까지 재시도
         try:
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model='gemini-3-flash',
                 contents=prompt_full,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
@@ -169,7 +169,7 @@ def get_gemini_batch_summary(articles_batch):
             return processed_batch
 
         except Exception as e:
-            wait = (attempt + 1) * 120 + 1
+            wait = 120
             log(f"배치 처리 중 에러(시도 {attempt+1}): {e}. {wait}초 대기...", "WARNING")
             time.sleep(wait)
     
