@@ -169,7 +169,7 @@ def get_gemini_batch_summary(articles_batch):
             return processed_batch
 
         except Exception as e:
-            wait = (attempt + 1) * 600 + 1
+            wait = (attempt + 1) * 120 + 1
             log(f"배치 처리 중 에러(시도 {attempt+1}): {e}. {wait}초 대기...", "WARNING")
             time.sleep(wait)
     
@@ -267,7 +267,7 @@ def get_gemini_summary_youtube(article_data):
         
         except Exception as e:
             
-            wait_time = 600 * attempt
+            wait_time = 120
             print(f"  [AI] ⚠️ 에러 발생 (시도 {attempt+1}): {e}")
             
             if attempt < max_retries - 1:
