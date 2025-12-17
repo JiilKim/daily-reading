@@ -127,7 +127,7 @@ def get_gemini_batch_summary(articles_batch):
     for attempt in range(5): # 배치 실패 시 5번까지 재시도
         try:
             response = client.models.generate_content(
-                model='gemini-2.5-flash-lite',
+                model='gemini-2.5-flash',
                 contents=prompt_full,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
