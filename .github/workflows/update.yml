@@ -21,11 +21,22 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Check API Key
+        env:
+          THE_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$THE_KEY" ]; then
+            echo "⛔ CRITICAL ERROR: GEMINI_API_KEY not found in Secrets!"
+            exit 1
+          else
+            echo "✅ API Key found. Length: ${#THE_KEY}"
+          fi
       
       - name: Run scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # GitHub Secrets에서 API 키 가져오기
-        run: python scraper.py
+        run: python -u scraper.py
       
       - name: Commit and push if changed
         run: |
