@@ -540,10 +540,10 @@ def main():
                 else:
                     new_articles.append(art)
             
-            # 마지막 블록이 아니면 61초 대기 (RPD 보존 + TPM 조절)
+            # 마지막 블록이 아니면 대기 (RPD 보존 + TPM 조절)
             if idx < len(article_chunks) - 1:
-                log("⏳ 다음 블록 처리를 위해 300초 대기합니다...", "INFO")
-                time.sleep(300)
+                log("⏳ 다음 블록 처리를 위해 100초 대기합니다...", "INFO")
+                time.sleep(100)
     else:
         log("처리할 텍스트 기사가 없습니다.", "INFO")
         
