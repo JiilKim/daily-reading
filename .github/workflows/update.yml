@@ -2,8 +2,13 @@ name: Update Articles Daily
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 매일 오전 7시 (UTC) / 팔로알토(PDT) 새벽 0시
-  workflow_dispatch:  # 수동 실행 가능
+    - cron: '0 7 * * *'  # 매일 오전 7시 (UTC) / 한국 시간 오후 4시 / 팔로알토 밤 11시 or 0시
+  workflow_dispatch:     # 수동 실행 버튼
+
+# 중복 실행 방지 (혹시 이전 작업이 안 끝났으면 대기)
+concurrency:
+  group: update-articles
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -15,13 +20,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' # 파이썬 버전 명시
+          python-version: '3.11'
       
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
+      
+      # [안전장치 1] API 키가 제대로 설정됐는지 확인
       - name: Check API Key
         env:
           THE_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -32,23 +38,37 @@ jobs:
           else
             echo "✅ API Key found. Length: ${#THE_KEY}"
           fi
-      
+
+      # [핵심] -u 옵션으로 로그 실시간 출력 (멈춘 것처럼 보이는 현상 방지)
       - name: Run scraper
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # GitHub Secrets에서 API 키 가져오기
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -u scraper.py
+      
+      # [안전장치 2] 실행 결과(json)를 임시 저장소에 업로드 (Git Push 실패해도 다운로드 가능!)
+      - name: Upload articles.json as artifact
+        uses: actions/upload-artifact@v4
+        if: always()  # 앞 단계가 에러나도 무조건 실행
+        with:
+          name: crawled-data
+          path: |
+            articles.json
+            logs.json
       
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions-bot@github.com'
-          git add articles.json logs.json  # logs.json도 같이 커밋하면 디버깅에 좋음
+          git add articles.json logs.json
           
-          # 변경 사항이 있을 때만 커밋
+          # 변경 사항이 있는지 확인
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
             git commit -m "📰 자동 업데이트: 기사 목록 갱신"
+            
+            # [에러 해결] 원격 저장소의 최신 변경사항을 가져와서 합침 (충돌 방지)
+            git pull --rebase origin main
+            
             git push
           fi
-
