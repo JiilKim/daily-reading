@@ -83,9 +83,12 @@ def get_gemini_batch_summary(articles_batch):
     
     api_key = os.environ.get('GEMINI_API_KEY')
     
-    if not api_key:
-        log("API Key 누락", "ERROR")
-        return []
+    if not api_key: 
+        log("API Key가 없습니다.", "ERROR")
+        # 키가 없으면 바로 실패 처리
+        for art in articles_batch:
+            art['summary_kr'] = "[요약 실패] API Key 누락"
+        return articles_batch
 
     client = genai.Client(api_key=api_key)
     
@@ -126,6 +129,7 @@ def get_gemini_batch_summary(articles_batch):
     # 2. API 호출
     for attempt in range(5): # 배치 실패 시 5번까지 재시도
         try:
+            log(f"  📤 [시도 {attempt+1}/{MAX_RETRIES}] 기사 {len(articles_batch)}개 요약 요청 중...", "INFO")
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt_full,
@@ -144,7 +148,7 @@ def get_gemini_batch_summary(articles_batch):
                     }
                 )
             )
-            
+            log("  📥 응답 수신 완료! 데이터 해석 중...", "INFO")
             # 3. 결과 파싱
             results = json.loads(response.text)
             
@@ -169,13 +173,23 @@ def get_gemini_batch_summary(articles_batch):
             return processed_batch
 
         except Exception as e:
-            wait = 120
-            log(f"배치 처리 중 에러(시도 {attempt+1}): {e}. {wait}초 대기...", "WARNING")
-            time.sleep(wait)
+            wait = 200 
+            log(f"  ⚠️ 배치 에러(시도 {attempt+1}): {e}", "WARNING")
+            
+            # 마지막 시도가 아니라면 대기
+            if attempt < MAX_RETRIES - 1:
+                log(f"  ⏳ {wait}초 후 재시도합니다...", "INFO")
+                time.sleep(wait)
     
-    # 최종 실패 시 원본 반환
+    # [핵심 수정] 모든 재시도가 실패했을 때 실행되는 구간
+    log("  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다.", "ERROR")
+    
+    for art in articles_batch:
+        # 이렇게 명시적으로 'summary_kr'에 '[요약 실패]'를 넣어줘야 
+        # main 함수가 이를 감지하고 articles.json의 failed_queue에 저장합니다.
+        art['summary_kr'] = "[요약 실패] (최종 실패)"
+        
     return articles_batch
-
 
 def get_gemini_summary_youtube(article_data):
     """
@@ -542,13 +556,11 @@ def main():
             
             # 마지막 블록이 아니면 대기 (RPD 보존 + TPM 조절)
             if idx < len(article_chunks) - 1:
-                log("⏳ 다음 블록 처리를 위해 100초 대기합니다...", "INFO")
-                time.sleep(100)
+                log("⏳ 다음 블록 처리를 위해 200초 대기합니다...", "INFO")
+                time.sleep(200)
     else:
         log("처리할 텍스트 기사가 없습니다.", "INFO")
-        
-    # [B] 유튜브 영상 개별 처리 (RPD 여유가 없으므로 여기서는 대기시간 없이 가거나 생략 고려)
-    # 하지만 사용자 요청대로 기존 로직 유지
+            
     if unique_youtube_candidates:
         log(f"--- 유튜브 영상 처리 시작 ({len(unique_youtube_candidates)}건) ---", "INFO")
         for art in unique_youtube_candidates:
