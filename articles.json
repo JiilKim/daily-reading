@@ -1,7 +1,1700 @@
 {
-  "last_updated": "2025-12-16 04:08:39",
-  "failed_queue": [],
+  "last_updated": "2025-12-18 00:47:52",
+  "failed_queue": [
+    {
+      "title_en": "중국이 무서운 이유 (젠슨황)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/r8rGPkJd7P8",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-17",
+      "image_url": "https://i3.ytimg.com/vi/r8rGPkJd7P8/hqhqdefault.jpg"
+    }
+  ],
   "articles": [
+    {
+      "title_en": "This Nobel Prize–winning chemist dreams of making water from thin air",
+      "url": "https://www.technologyreview.com/2025/12/17/1129259/omar-yaghi-chemist-nobel-prize-crystals-water-air/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "노벨상 수상 화학자, 공기 중 수분으로 물을 만들다",
+      "summary_kr": "오마르 야기(Omar Yaghi)는 어린 시절 요르단 암만의 가정에서 물을 길어오는 중요한 책임을 맡았습니다. 그의 집에는 전기나 수도가 없어, 이 경험은 훗날 인류의 물 부족 문제에 대한 깊은 관심을 갖게 되는 계기가 됩니다. 현재 노벨상 수상 화학자인 그는 공기 중 수분을 포집하여 깨끗한 물을 생산하는 혁신적인 기술을 개발하는 꿈을 꾸고 있습니다. 이 기술은 물 접근성이 제한된 건조 기후 지역에 지속 가능한 방식으로 물을 공급할 잠재력을 가지고 있습니다. 그의 연구는 전 세계적인 물 위기를 해결하고 수많은 사람들의 삶의 질을 향상시키는 데 크게 기여할 수 있습니다. 이는 단순히 기술적 성과를 넘어 인류의 기본적인 필요를 충족시키는 과학적 해결책을 모색하는 중요한 이정표가 될 것입니다."
+    },
+    {
+      "title_en": "Creating psychological safety in the AI era",
+      "url": "https://www.technologyreview.com/2025/12/16/1125899/creating-psychological-safety-in-the-ai-era/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "AI 시대, 조직 내 심리적 안전 문화 구축의 중요성",
+      "summary_kr": "기업용 AI를 성공적으로 도입한다는 것은 두 가지 어려운 과제를 동시에 해결하는 것을 의미합니다. 첫째는 AI 기술 자체를 이해하고 효과적으로 구현하는 것이며, 둘째는 직원들이 AI의 가치를 최대한 활용할 수 있는 문화적 환경을 조성하는 것입니다. 기술적인 난관도 중요하지만, 인적 요소는 훨씬 더 큰 영향을 미칠 수 있습니다. 아무리 유망한 AI 프로젝트라도 직원들의 두려움과 불확실성은 추진력을 저해하고 실패로 이끌 수 있습니다. 따라서 AI 시대에는 조직 내에서 심리적 안전을 확보하는 것이 필수적입니다. 직원들이 실패를 두려워하지 않고 새로운 기술을 실험하며, 솔직하게 의견을 공유하고 질문할 수 있는 환경이 조성되어야 합니다. 이러한 문화는 AI 기술의 잠재력을 최대한 발휘하고 혁신을 촉진하는 데 결정적인 역할을 할 것입니다."
+    },
+    {
+      "title_en": "The Download: why 2025 has been the year of AI hype correction, and fighting GPS jamming",
+      "url": "https://www.technologyreview.com/2025/12/16/1129944/the-download-why-2025-has-been-the-year-of-ai-hype-correction-and-fighting-gps-jamming/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2025년 AI 과대광고 수정의 해, 그리고 GPS 재밍과의 싸움",
+      "summary_kr": "오늘의 '더 다운로드'는 기술 세계에서 벌어지는 일들을 매일 전달하는 주중 뉴스레터입니다. 2025년은 AI 과대광고가 수정되는 해로 기억될 것입니다. 2022년 말 OpenAI가 무료 웹 앱인 ChatGPT를 출시했을 때, 이는 전체 산업과 여러 세계 산업의 방향을 바꾸었습니다. 그러나 이러한 초기 열기 이후, AI의 현실적인 한계와 도전 과제에 대한 인식이 확산되면서 일정 수준의 환멸은 피할 수 없었습니다. 또한, 이 뉴스레터는 GPS 재밍과 같은 중요한 기술적 문제에 대한 논의도 다룹니다. GPS 재밍은 항공, 군사 및 민간 부문에 심각한 위협을 가하며, 이에 대응하기 위한 새로운 기술적 해결책 모색이 시급합니다. 이처럼 2025년은 AI 기술에 대한 냉철한 평가와 함께, 기존 기술 인프라의 취약점을 보완하기 위한 노력이 집중되는 한 해가 될 것으로 보입니다."
+    },
+    {
+      "title_en": "Why it’s time to reset our expectations for AI",
+      "url": "https://www.technologyreview.com/2025/12/16/1129946/why-its-time-to-reset-our-expectations-for-ai/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "이제 AI에 대한 우리의 기대를 재설정할 때",
+      "summary_kr": "AI에 대한 우리의 현재 감정은 어떤가요? 여전히 흥분되고 새로운 모델이 출시될 때마다 설렘을 느끼나요? 아니면 AI에 대한 초기 열기가 조금 식었을까요? 솔직해질 필요가 있습니다. 챗GPT와 같은 생성형 AI의 등장은 전 세계적으로 뜨거운 열풍을 불러일으켰지만, 이제는 그 과도한 기대치를 재조정하고 현실적인 관점에서 AI를 바라볼 시점이 도래했습니다. AI가 가져올 혁신은 분명하지만, 동시에 그 한계와 윤리적 문제, 그리고 실제 적용상의 어려움도 명확해지고 있습니다. 이제는 막연한 기대보다는 AI의 현재 역량과 미래 발전 가능성을 냉철하게 평가하고, 우리가 AI에 대해 어떤 기대를 가져야 할지 심도 있게 고민해야 합니다. 이러한 현실적인 접근은 AI 기술을 보다 책임감 있고 지속 가능한 방식으로 발전시키는 데 필수적입니다."
+    },
+    {
+      "title_en": "Quantum navigation could solve the military’s GPS jamming problem",
+      "url": "https://www.technologyreview.com/2025/12/16/1129887/quantum-navigation-militarys-gps-jamming-problem/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "양자 항법 기술, 군사 GPS 재밍 문제 해결의 열쇠",
+      "summary_kr": "지난 9월 말, 리투아니아 기지로 스페인 국방부 장관을 태우고 가던 스페인 군용기가 미사일이나 대공포 공격이 아닌, GPS 시스템을 방해하는 무선 전송 공격을 받았다고 합니다. 다행히 해당 항공기는 안전하게 착륙했지만, 이는 GPS 재밍 공격으로 인해 영향을 받은 수천 건의 사례 중 하나에 불과합니다. 이러한 GPS 재밍 공격은 군사 작전뿐만 아니라 민간 항공 및 해상 운항에도 심각한 위협이 됩니다. 이에 대한 해결책으로 양자 항법 기술이 주목받고 있습니다. 양자 항법 시스템은 외부 신호에 의존하지 않고 자체적으로 정밀한 위치 정보를 제공할 수 있어, 재밍이나 스푸핑 공격에 훨씬 더 강력한 내성을 가집니다. 이 기술은 미래 전장 환경에서 군사적 우위를 확보하고, 항법 시스템의 신뢰성을 극대화하는 데 결정적인 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Mazdutide versus dulaglutide in Chinese adults with type 2 diabetes",
+      "url": "https://www.nature.com/articles/s41586-025-10031-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "중국인 2형 당뇨병 환자 대상 마즈두타이드와 둘라글루타이드 비교 연구",
+      "summary_kr": "이 연구는 중국 성인 2형 당뇨병 환자들을 대상으로 새로운 약물인 마즈두타이드(Mazdutide)와 기존 치료제인 둘라글루타이드(Dulaglutide)의 효능 및 안전성을 비교 평가했습니다. 둘라글루타이드는 GLP-1 수용체 작용제로 2형 당뇨병 치료에 널리 사용되는 약물입니다. 연구는 두 약물이 혈당 조절, 체중 감소 및 기타 대사 지표에 미치는 영향을 면밀히 분석했습니다. 특히 중국인 환자 집단에서의 비교는 유전적 및 환경적 요인이 약물 반응에 미칠 수 있는 영향을 이해하는 데 중요합니다. 이 연구 결과는 2형 당뇨병 치료를 위한 새로운 옵션으로서 마즈두타이드의 잠재력을 제시하고, 의료진이 환자별 맞춤형 치료 전략을 수립하는 데 귀중한 정보를 제공할 것으로 예상됩니다. 해당 연구는 네이처(Nature)에 2025년 12월 17일 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Mazdutide versus placebo in Chinese adults with type 2 diabetes",
+      "url": "https://www.nature.com/articles/s41586-025-10026-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "중국인 2형 당뇨병 환자 대상 마즈두타이드와 위약 비교 연구",
+      "summary_kr": "본 연구는 중국 성인 2형 당뇨병 환자를 대상으로 새로운 약물인 마즈두타이드(Mazdutide)의 효과와 안전성을 위약(placebo)과 비교 평가했습니다. 마즈두타이드는 2형 당뇨병 관리를 위한 잠재적인 치료제로 개발 중인 약물입니다. 연구는 위약군과 마즈두타이드 투여군 간의 혈당 수치, 체중 변화, 그리고 기타 대사 관련 지표들을 분석하여 약물의 유효성을 입증하는 데 중점을 두었습니다. 특히 중국인 환자 집단에서의 연구는 특정 인구 집단에서의 약물 반응 특성을 이해하는 데 중요한 데이터를 제공합니다. 이 연구 결과는 2형 당뇨병 치료에 있어 마즈두타이드의 임상적 유용성을 뒷받침하며, 향후 당뇨병 치료의 새로운 지평을 열 것으로 기대됩니다. 본 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Author Correction: Neuroimmune cardiovascular interfaces control atherosclerosis",
+      "url": "https://www.nature.com/articles/s41586-025-10043-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "정정: 신경면역 심혈관 인터페이스가 동맥경화를 제어한다",
+      "summary_kr": "이 문서는 '신경면역 심혈관 인터페이스가 동맥경화를 제어한다'는 제목의 기존 연구 논문에 대한 저자 정정(Author Correction)을 담고 있습니다. 동맥경화는 심혈관 질환의 주요 원인이며, 이전에 발표된 연구는 신경계, 면역계, 그리고 심혈관계 사이의 복잡한 상호작용이 동맥경화 발생 및 진행에 중요한 역할을 한다는 가설을 제시했습니다. 이번 정정은 기존 논문의 내용 중 일부 오류나 오해의 소지가 있는 부분을 수정하여 연구의 정확성과 신뢰성을 높이기 위한 것입니다. 이러한 정정 과정은 과학 연구의 투명성과 자기 수정 메커니즘을 보여주는 중요한 부분입니다. 해당 정정은 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "How the Romans built their empire of concrete",
+      "url": "https://www.nature.com/articles/d41586-025-04080-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "로마인들은 어떻게 콘크리트로 제국을 건설했나",
+      "summary_kr": "이 기사는 로마 제국이 어떻게 놀랍도록 견고한 콘크리트를 사용하여 그들의 광대한 건축물을 건설하고 유지했는지에 대한 비밀을 탐구합니다. 이탈리아 폼페이의 독특한 고고학 유적지는 로마 건축 재료의 특별한 내구성 뒤에 숨겨진 비밀을 밝혀내고 있습니다. 고대 로마인들은 현대의 시멘트보다 훨씬 오래 지속되는 콘크리트를 개발했는데, 이는 화산재와 석회암을 혼합한 푸촐라나 시멘트 덕분이었습니다. 특히 해수에 노출될 경우 강도가 더욱 증가하는 특성을 가졌으며, 이는 항구 건설에 매우 유용했습니다. 이러한 재료 공학 기술은 콜로세움, 판테온과 같은 상징적인 건축물들이 수천 년이 지난 지금도 굳건히 서 있는 이유를 설명해 줍니다. 연구자들은 폼페이 유적에서 발견된 샘플들을 분석하여 이 고대 기술의 비밀을 현대 건축에 적용할 가능성을 모색하고 있습니다. 해당 기사는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Genes don’t explain what made humans different",
+      "url": "https://www.nature.com/articles/d41586-025-04079-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "유전자만으로는 인간의 독특함을 설명할 수 없다",
+      "summary_kr": "이 기사는 인간이 네안데르탈인이나 데니소바인과 같은 다른 고대 인류와 구별되는 독특한 특성을 갖게 된 원인이 단순히 유전적 차이만으로는 완전히 설명되지 않을 수 있음을 시사합니다. 그동안 인간의 특이성을 설명하기 위해 인간, 네안데르탈인, 데니소바인 사이의 미세한 유전적 변이들이 크게 강조되어 왔습니다. 그러나 최근 연구 결과들은 이러한 유전적 차이가 우리가 생각했던 것만큼 결정적인 요인이 아닐 수 있다는 새로운 관점을 제시합니다. 유전적 요소 외에 환경적 요인, 문화적 발전, 사회 구조 등 복합적인 비유전적 요소들이 인간의 독특한 인지 능력, 행동, 그리고 사회성 발달에 더 중요한 역할을 했을 가능성이 제기됩니다. 이 연구는 인간 진화에 대한 우리의 이해를 확장하고, 생물학적 결정론을 넘어선 다각적인 접근의 필요성을 강조합니다. 해당 기사는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Is bird flu the next pandemic? The science so far",
+      "url": "https://www.nature.com/articles/d41586-025-03777-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "조류 독감, 다음 팬데믹이 될까? 현재까지의 과학적 분석",
+      "summary_kr": "이 기사는 조류 독감이 다음 팬데믹(세계적 대유행)으로 이어질 가능성에 대한 현재까지의 과학적 분석을 다룹니다. 최근 조류 독감 바이러스에서 나타나는 주요 변이들과 동물을 통한 확산 양상은 인간에게 전염될 위험성을 증가시킬 수 있다는 우려를 낳고 있습니다. 특히 H5N1과 같은 고병원성 조류 독감 바이러스는 가금류에서 심각한 질병을 유발하며, 드물게 인간에게도 전염되어 치명적인 결과를 초래할 수 있습니다. 과학자들은 바이러스의 유전적 변화를 면밀히 모니터링하며, 인간 세포 수용체에 대한 결합력이 강화되거나 인간 간 전파 능력을 획득하는 변이가 나타나는지 주시하고 있습니다. 이러한 변이가 발생할 경우, 이는 새로운 팬데믹의 전조가 될 수 있으므로, 국제적인 감시와 신속한 대응 전략 마련이 매우 중요합니다. 해당 기사는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Transient hepatic reconstitution of trophic factors enhances aged immunity",
+      "url": "https://www.nature.com/articles/s41586-025-09873-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "간에서의 일시적 영양 인자 재구성을 통한 노화 면역력 증진",
+      "summary_kr": "이 연구는 노화된 생쥐의 간에 지질 나노입자(LNP)를 이용해 특정 mRNA를 전달함으로써, T세포 기능과 전반적으로 저하된 면역 신호를 회복시킬 수 있음을 보여주었습니다. 노화가 진행됨에 따라 면역 체계는 약화되어 감염 및 질병에 취약해지는 '면역 노화' 현상이 발생합니다. 연구팀은 간에서 일시적으로 영양 인자(trophic factors)를 재구성하는 전략이 이러한 면역 노화를 역전시킬 수 있음을 발견했습니다. LNP를 통해 전달된 mRNA는 간 세포에서 특정 단백질을 발현시켜, T세포의 활성 및 증식을 촉진하고 면역 반응을 강화하는 효과를 나타냈습니다. 이 결과는 노화 관련 면역 기능 저하를 개선하고 감염병 및 암에 대한 저항력을 높이는 새로운 치료 전략 개발에 중요한 단서를 제공할 수 있습니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Gene-specific selective sweeps are pervasive across human gut microbiomes",
+      "url": "https://www.nature.com/articles/s41586-025-09798-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "인간 장내 미생물군 전반에 걸친 유전자 특이적 선택적 스윕 현상",
+      "summary_kr": "이 연구는 인간 장내 미생물군 전체에 걸쳐 특정 유전자 영역에서 '선택적 스윕(selective sweeps)' 현상이 널리 퍼져 있음을 밝혀냈습니다. 선택적 스윕은 특정 유전적 변이가 환경 적응에 유리하여 빠르게 개체군 내에 확산되는 현상을 의미합니다. 연구팀은 통합 연관 불균형 점수(integrated linkage disequilibrium score, iLDS)라는 새로운 방법을 개발하고 이를 적용하여, 인간 장내 미생물군에 영향을 미치는 선택 압력과 이러한 압력에 장내 세균이 적응하는 메커니즘을 규명했습니다. 이 발견은 장내 미생물이 숙주 환경의 변화나 항생제 노출 등 다양한 선택적 압력에 어떻게 진화적으로 반응하는지를 이해하는 데 중요한 통찰을 제공합니다. 이는 건강과 질병에 중요한 역할을 하는 장내 미생물 생태계의 역동성을 이해하는 데 필수적인 정보가 될 것입니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "GTP release-selective agonists prolong opioid analgesic efficacy",
+      "url": "https://www.nature.com/articles/s41586-025-09880-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "GTP 방출 선택적 작용제, 오피오이드 진통 효능 연장",
+      "summary_kr": "이 연구는 GTP 방출을 선택적으로 촉진하는 뮤 오피오이드 수용체 작용제가 모르핀이나 펜타닐과 같은 약물의 진통 효과를 증가시키면서도 호흡 억제나 심장 부작용은 유발하지 않음을 밝혀냈습니다. G 단백질의 비(非)GTP 결합 상태에 더 큰 선호도를 보이는 뮤 오피오이드 수용체 작용제들은 GTP 방출을 촉진하는 방식으로 작용합니다. 이러한 메커니즘은 통증 완화 효과를 강화하면서도 오피오이드 사용의 주요 부작용인 호흡 억제나 심혈관 문제 발생 위험을 줄이는 혁신적인 접근법을 제시합니다. 이는 현재 오피오이드 남용 위기 속에서 더욱 안전하고 효과적인 진통제를 개발하는 데 중요한 돌파구가 될 수 있습니다. 이 연구는 만성 통증 환자들의 삶의 질을 향상시킬 새로운 치료제 개발에 기여할 것으로 기대됩니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
+      "url": "https://www.nature.com/articles/s41586-025-09838-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "프로그래밍 가능한 200 GOPS 홉필드 영감 광자 이징 머신 개발",
+      "summary_kr": "이 연구는 최적화 및 조합론 문제를 효율적으로 해결할 수 있는, 프로그래밍 가능하고 안정적인 상온 광전자 발진기 기반의 광자 이징 머신(photonic Ising machine) 아키텍처를 소개합니다. 이 시스템은 홉필드 네트워크(Hopfield networks)에서 영감을 받아 설계되었으며, 초당 2000억 회의 연산(200 GOPS) 속도를 자랑합니다. 기존 컴퓨터로는 계산하기 어려운 복잡한 최적화 문제, 예를 들어 물류 경로 최적화나 재료 과학에서의 상호작용 모델링 등을 이 광자 이징 머신은 훨씬 빠르게 처리할 수 있습니다. 상온에서 작동하며 안정적인 성능을 제공한다는 점은 실용적인 응용 가능성을 크게 높입니다. 이 기술은 인공지능, 통신, 신소재 개발 등 다양한 분야에서 혁신적인 발전을 이끌어낼 잠재력을 가지고 있습니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "An integrated view of the structure and function of the human 4D nucleome",
+      "url": "https://www.nature.com/articles/s41586-025-09890-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "인간 4D 뉴클레옴의 구조와 기능에 대한 통합적 관점",
+      "summary_kr": "4D 뉴클레옴 프로젝트(4D Nucleome Project)는 인간 게놈의 3차원 구조와 시간적 변화(4D)를 이해하기 위한 포괄적인 연구를 수행했습니다. 이 프로젝트는 게놈 분석법과 계산 방법을 활용하여 게놈 접힘(genome folding)을 측정하고, DNA 서열로부터 게놈 구조를 예측하는 방법을 시연했습니다. 이 기술은 질병과 관련된 유전 변이를 포함하여, 유전 변이가 게놈 구조와 기능에 미치는 잠재적 영향을 발견하는 데 크게 기여합니다. 게놈이 단순히 일렬의 DNA 서열이 아니라 복잡하게 접히고 조직되어 유전자 발현을 조절한다는 이해는 질병의 원인을 규명하고 새로운 치료법을 개발하는 데 필수적입니다. 이 연구는 게놈 구조의 변화가 어떻게 질병 발생에 기여하는지에 대한 깊이 있는 통찰을 제공하며, 맞춤형 의학의 발전에 중요한 기반을 마련할 것입니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Palaeometabolomes yield biological and ecological profiles at early human sites",
+      "url": "https://www.nature.com/articles/s41586-025-09843-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "고대 대사체 분석을 통해 초기 인류 유적지의 생물학적 및 생태학적 프로파일 도출",
+      "summary_kr": "이 연구는 화석화된 동물 골격 잔해에서 추출된 대사체(metabolomic) 및 단백체(proteomic) 프로파일을 분석하여 초기 인류가 살았던 지역의 생물학적 및 생태학적 특성을 재구성하는 데 성공했습니다. 과거에는 주로 뼈의 형태학적 분석에 의존했지만, 이 새로운 접근 방식은 고대 동물의 생리적 건강 상태, 질병 유무, 식단 등에 대한 귀중한 정보를 제공합니다. 나아가, 이러한 데이터는 고대 토양, 식생, 그리고 당시의 고기후(palaeoclimate) 특성까지 추론하는 데 활용될 수 있습니다. 이는 초기 인류의 생활 방식과 그들이 살았던 환경에 대한 이해를 획기적으로 심화시킬 수 있는 방법론입니다. 이 연구는 고고학, 고생물학, 그리고 생화학의 융합을 통해 과거를 탐구하는 새로운 지평을 열었으며, 인류 진화 연구에 중요한 기여를 할 것입니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "Astrocyte CCN1 stabilizes neural circuits in the adult brain",
+      "url": "https://www.nature.com/articles/s41586-025-09770-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "성체 뇌 신경 회로 안정화에 기여하는 성상세포 분비 단백질 CCN1",
+      "summary_kr": "이 연구는 성체 쥐의 시각 피질에 있는 신경 회로가 성상세포(astrocyte)에 의해 안정화되며, 이때 성상세포에서 분비되는 CCN1이라는 단백질이 중요한 역할을 한다는 사실을 밝혀냈습니다. 성상세포는 뇌의 주요 신경교세포 중 하나로, 오랫동안 신경 세포의 지지 역할만 하는 것으로 여겨져 왔습니다. 하지만 이번 연구는 성상세포가 CCN1을 분비하여 신경 회로의 가소성(plasticity)을 감소시키고 여러 세포 유형의 성숙도를 증가시켜 회로를 안정화시킨다는 것을 보여줍니다. 이는 성체 뇌에서 신경 회로가 일단 형성된 후 과도한 변화 없이 안정적으로 유지되는 메커니즘을 이해하는 데 중요한 단서를 제공합니다. 이 발견은 뇌 발달, 학습 및 기억, 그리고 신경퇴행성 질환 연구에 새로운 통찰을 제공할 수 있습니다. 해당 연구는 2025년 12월 17일 네이처(Nature)에 온라인으로 게재되었습니다."
+    },
+    {
+      "title_en": "An 11-qubit atom processor in silicon",
+      "url": "https://www.nature.com/articles/s41586-025-09827-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "실리콘 기반 11큐비트 원자 프로세서 개발",
+      "summary_kr": "연구팀은 실리콘 내 인(phosphorus) 원자의 핵 스핀 레지스터 두 개로 구성된 11큐비트 원자 프로세서를 개발하는 데 성공했습니다. 이 프로세서는 최첨단 벨 상태 충실도(Bell-state fidelity)를 최대 99.5%까지 달성하며 양자 컴퓨팅 기술의 중요한 진전을 보여주었습니다. 이는 고성능 양자 컴퓨터 구현에 필수적인 큐비트 안정성과 정확성을 크게 향상시킨 결과입니다. 실리콘 기반 시스템은 기존 반도체 제조 기술과의 호환성이 높아 대규모 양자 프로세서의 상용화 가능성을 높입니다. 이번 연구는 양자 정보 처리 분야에서 실리콘 플랫폼의 잠재력을 다시 한번 입증하며, 미래 양자 컴퓨팅 기술 발전에 크게 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "The global hydrogen budget",
+      "url": "https://www.nature.com/articles/s41586-025-09806-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "전 지구적 수소 순환 예산 분석",
+      "summary_kr": "1990년부터 2020년까지 전 세계 수소(H2)의 발생원과 흡수원 경향을 분석한 연구 결과가 발표되었습니다. 특히, 2010년부터 2020년까지의 10년간에 대한 종합적인 수소 수지(budget)가 제시되어 지구 시스템 내 수소의 이동과 분포에 대한 이해를 심화시켰습니다. 이 연구는 대기 중 수소 농도 변화를 이해하고 미래 기후 모델링에 중요한 기초 자료를 제공합니다. 또한, 청정 에너지원으로서 수소의 활용이 증가하는 현대 사회에서 자연적인 수소 순환에 대한 정확한 파악은 지속 가능한 에너지 정책 수립에도 필수적입니다. 이러한 분석은 인위적인 수소 생산 및 사용이 자연 순환에 미치는 영향을 평가하는 데도 중요한 역할을 할 것입니다."
+    },
+    {
+      "title_en": "Visualizing interaction-driven restructuring of quantum Hall edge states",
+      "url": "https://www.nature.com/articles/s41586-025-09858-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "양자 홀 가장자리 상태의 상호작용 기반 재구조화 시각화",
+      "summary_kr": "스캐닝 터널링 현미경(STM)을 활용하여 그래핀 내 정전기적으로 정의된 양자 홀 가장자리 상태를 높은 공간 해상도로 이미징하는 데 성공했습니다. 이 연구는 양자 홀 가장자리 상태가 상호작용에 의해 재구조화되는 현상을 명확하게 보여줍니다. 가장자리 상태는 양자 홀 효과에서 전하 이동을 담당하는 중요한 부분으로, 이들의 거동을 이해하는 것은 새로운 양자 소자 개발에 필수적입니다. 특히 그래핀의 경우, 뛰어난 전하 이동 특성으로 인해 양자 컴퓨터 및 초고속 전자 소자 연구에서 주목받고 있습니다. 이번 시각화 연구는 양자 물질의 기초 물리학적 이해를 심화시키는 데 기여할 것으로 평가됩니다."
+    },
+    {
+      "title_en": "Prevalence of Alzheimer’s disease pathology in the community",
+      "url": "https://www.nature.com/articles/s41586-025-09841-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "노르웨이 지역사회 인구 대상 알츠하이머병 병리 유병률 연구",
+      "summary_kr": "노르웨이 인구 기반 코호트를 대상으로 혈액 기반 바이오마커를 활용하여 알츠하이머병 신경병리학적 변화의 유병률이 보고되었습니다. 이 연구는 기존의 침습적인 뇌 영상 검사나 뇌척수액 검사 없이 혈액 검사만으로 알츠하이머병의 병리적 변화를 평가할 수 있는 가능성을 제시합니다. 혈액 기반 바이오마커는 대규모 인구 집단에서 알츠하이머병 위험군을 선별하고 조기 진단을 가능하게 하는 중요한 도구가 될 수 있습니다. 이는 알츠하이머병의 조기 개입 및 치료 전략 개발에 기여하며, 질병의 사회경제적 부담을 줄이는 데 도움이 될 것으로 기대됩니다. 이번 연구는 알츠하이머병 진단 및 연구의 새로운 방향을 제시하는 중요한 발걸음입니다."
+    },
+    {
+      "title_en": "Titan’s strong tidal dissipation precludes a subsurface ocean",
+      "url": "https://www.nature.com/articles/s41586-025-09818-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "타이탄의 강력한 조석 에너지 소실, 지하 바다 존재 가능성 배제",
+      "summary_kr": "카시니 탐사선으로부터 얻은 방사성 측정 데이터를 재분석한 결과, 토성의 위성 타이탄 내부에 지하 바다가 존재하지 않을 가능성이 제기되었습니다. 연구팀은 타이탄의 중력장에서 관측된 강력한 조석 에너지 소실(tidal dissipation)이 액체층의 존재와 일치하지 않는다는 사실을 밝혀냈습니다. 이는 이전에 타이탄 내부에 지하 바다가 존재할 수 있다는 가설에 배치되는 중요한 발견입니다. 지하 바다는 외계 생명체 탐사의 주요 대상 중 하나였기에, 이번 결과는 타이탄의 내부 구조와 진화에 대한 이해를 재정립하는 데 중요한 의미를 가집니다. 이 연구는 행성 과학자들이 위성의 내부 역학을 이해하는 데 새로운 시각을 제공합니다."
+    },
+    {
+      "title_en": "Human assembloids recapitulate periportal liver tissue in vitro",
+      "url": "https://www.nature.com/articles/s41586-025-09884-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "인간 유래 아셈블로이드, 시험관 내 문맥 주위 간 조직 재현",
+      "summary_kr": "인간 조직에서 직접 유래한 간세포 오가노이드(organoids)가 간세포의 장기적인 증식을 가능하게 하며, 이를 문맥 중배엽(portal mesenchyme) 및 담도세포 오가노이드와 결합하여 기증자 특이적인 문맥 주위 간 아셈블로이드(assembloid) 시스템을 형성할 수 있음이 밝혀졌습니다. 이 아셈블로이드 시스템은 시험관 내에서 실제 간 조직의 복잡한 구조와 기능을 효과적으로 재현합니다. 이는 간 질환 연구, 약물 스크리닝, 그리고 궁극적으로는 이식 가능한 간 조직 개발에 혁신적인 가능성을 제시합니다. 특히, 기증자 맞춤형 모델은 개인별 질병 메커니즘을 이해하고 정밀 의학을 구현하는 데 중요한 발판이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Spatiotemporal cellular map of the developing human reproductive tract",
+      "url": "https://www.nature.com/articles/s41586-025-09875-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "발달 중인 인간 생식 기관의 시공간적 세포 지도",
+      "summary_kr": "인간 여성 및 남성 생식 기관의 성 분화 핵심 기간 동안의 상세한 시공간적 세포 지도가 공개되었습니다. 이 지도는 초기 축 방향 기울기(axial gradients)가 어떻게 특정 세포 계보와 조직 구조를 형성하는지에 대한 새로운 세포 및 분자 수준의 통찰력을 제공합니다. 연구는 생식 기관의 복잡한 발달 과정을 이해하는 데 중요한 기초 자료를 제시하며, 이는 선천성 생식기 기형이나 불임과 같은 질환의 원인을 규명하고 새로운 치료 전략을 개발하는 데 기여할 수 있습니다. 이번 연구는 인간 발달 생물학 분야에서 중요한 진전을 이루었으며, 생식 건강 연구에 새로운 지평을 열 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Lesion-remote astrocytes govern microglia-mediated white matter repair",
+      "url": "https://www.nature.com/articles/s41586-025-09887-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "손상 부위 원거리 성상교세포, 미세아교세포 매개 백질 복구 조절",
+      "summary_kr": "척수 손상 후, 손상 부위에서 멀리 떨어진 성상교세포(astrocytes)가 이질적이고 공간적으로 제한된 반응성 상태를 획득하여 신경염증, 신경 복구 및 신경학적 회복에 영향을 미치는 것으로 밝혀졌습니다. 이 연구는 척수 손상 후 회복 과정에서 성상교세포의 예상치 못한 중요한 역할을 규명합니다. 특히, 손상 부위 근처뿐만 아니라 원거리의 성상교세포 또한 복잡한 방식으로 신경 회복을 조절한다는 점은 새로운 치료 목표를 제시합니다. 미세아교세포(microglia)가 매개하는 백질 복구 과정에 성상교세포가 어떻게 관여하는지에 대한 이해는 척수 손상 환자의 기능적 회복을 돕는 치료법 개발에 중요한 단서를 제공할 것입니다."
+    },
+    {
+      "title_en": "Laser spectroscopy and CP-violation sensitivity of actinium monofluoride",
+      "url": "https://www.nature.com/articles/s41586-025-09814-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "악티늄 모노플루오르화물의 레이저 분광학 및 CP 대칭성 위반 민감도",
+      "summary_kr": "CERN-ISOLDE 방사성 이온 빔 시설에서 기체 상태의 악티늄 모노플루오르화물(AcF)을 성공적으로 생성하고 분광학적으로 연구했습니다. 이 연구 결과는 동위원소 227AcF가 CP 대칭성 위반(CP violation) 현상을 매우 민감하게 탐색하는 데 탁월한 잠재력을 가지고 있음을 강조합니다. CP 대칭성 위반은 우주 초기 물질-반물질 비대칭성의 기원을 설명하는 데 중요한 역할을 하는 현상입니다. AcF 분자는 독특한 전자 구조로 인해 CP 위반에 대한 높은 민감도를 가질 것으로 이론적으로 예측되어 왔습니다. 이번 실험적 증명은 표준 모형을 넘어서는 새로운 물리학을 탐구하는 데 중요한 진전을 의미하며, 입자 물리학의 오랜 미스터리를 해결하는 데 기여할 수 있습니다."
+    },
+    {
+      "title_en": "3D nanolithography with metalens arrays and spatially adaptive illumination",
+      "url": "https://www.nature.com/articles/s41586-025-09842-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "메탈렌즈 배열 및 공간 적응형 조명을 이용한 3D 나노리소그래피",
+      "summary_kr": "메탈렌즈(metalens)가 생성하는 초점 스팟 배열을 기반으로 하는 새로운 3차원(3D) 나노제조 플랫폼이 개발되었습니다. 이 기술은 센티미터 규모를 넘어서는 쓰기 영역에서 2광자 리소그래피를 병렬화할 수 있게 하여, 3D 나노리소그래피의 웨이퍼 규모 생산 가능성을 열었습니다. 기존 나노리소그래피는 제작 속도와 면적 확장에 한계가 있었으나, 이 새로운 접근 방식은 여러 초점을 동시에 사용하여 제작 효율을 비약적으로 향상시킵니다. 이는 마이크로 전자공학, 광학, 바이오 센서 등 다양한 분야에서 복잡한 3D 나노구조를 대량으로 제작하는 길을 열어줄 것으로 기대됩니다. 이번 연구는 초정밀 나노 제조 기술의 상용화에 중요한 진전을 보여줍니다."
+    },
+    {
+      "title_en": "The hidden cost of video-call glitches",
+      "url": "https://www.nature.com/articles/d41586-025-03820-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "화상 통화 오류가 주는 보이지 않는 손실",
+      "summary_kr": "화상 통화 중 발생하는 사소한 오류들은 무해해 보일 수 있지만, 실제로는 사람들의 고용 기회, 사업 계약 성사, 심지어 의사의 권고를 따르는지에까지 영향을 미칠 수 있습니다. 우리 뇌는 화상 통화를 직접 대면하는 대화와 유사하게 인지하려는 경향이 있습니다. 그러나 통화 품질 저하나 지연과 같은 오류가 이러한 환상을 깨뜨리면, 사람들은 불안감과 이상함을 느끼게 됩니다. 이는 상대방에 대한 신뢰성, 호감도, 그리고 신뢰도 평가에 부정적인 영향을 미치게 됩니다. 따라서 원활하지 않은 화상 통화는 단순한 불편함을 넘어 사회적, 경제적으로 상당한 \"숨겨진 비용\"을 발생시킬 수 있음을 시사합니다."
+    },
+    {
+      "title_en": "Stopping the next flu pandemic",
+      "url": "https://www.nature.com/articles/d41586-025-03613-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "다음 인플루엔자 팬데믹을 막기 위한 노력 촉구",
+      "summary_kr": "조류 인플루엔자(AI)가 양계 농가에 막대한 피해를 입히고 있으며, 낙농 소에게까지 확산되고 심지어 농장 노동자들에게도 감염되고 있는 심각한 상황입니다. 이러한 위협에도 불구하고 미국이 팬데믹을 막기 위한 충분한 조치를 취하지 않는 이유에 대한 의문이 제기되었습니다. AI 바이러스의 광범위한 확산은 잠재적으로 인간 팬데믹으로 이어질 수 있는 심각한 공중 보건 위협으로 인식됩니다. 이 기사는 정부와 관련 기관들이 팬데믹 예방을 위한 감시 강화, 백신 개발 투자, 그리고 신속한 대응 시스템 구축에 더욱 적극적으로 나서야 한다고 지적하며, 현재의 미온적인 대응에 대한 우려를 표명하고 있습니다."
+    },
+    {
+      "title_en": "Beauty is in the eye of the beholder",
+      "url": "https://www.nature.com/articles/d41586-025-04024-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "후회의 색깔: 아름다움은 보는 사람의 눈에 달려있다",
+      "summary_kr": "\"아름다움은 보는 사람의 눈에 달려있다\"는 오랜 격언처럼, 이번 기사는 '후회'라는 감정의 독특한 색깔에 대해 탐구합니다. 이는 인간의 감정적 경험이 얼마나 주관적이고 개인적인지를 시사하며, 우리가 세상을 인지하고 반응하는 방식이 각자의 내면적 경험에 따라 달라질 수 있음을 보여줍니다. 후회라는 감정은 단순히 과거의 행동에 대한 반성을 넘어, 미래의 결정에 영향을 미치고 개인의 가치관과 태도를 형성하는 중요한 역할을 합니다. 이 짧은 문장은 심리학적, 철학적 관점에서 인간의 감정과 인식에 대한 깊은 사색을 유도하며, 삶의 다양한 측면에서 '아름다움'과 '가치'가 어떻게 정의될 수 있는지 질문을 던집니다."
+    },
+    {
+      "title_en": "Seven feel-good science stories to restore your faith in 2025",
+      "url": "https://www.nature.com/articles/d41586-025-03505-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2025년 과학 분야에서 희망을 주는 일곱 가지 소식",
+      "summary_kr": "2025년은 유전자 편집, 신약 개발, 환경 보존 분야에서 눈부신 발전이 있었던 한 해로 기억될 것입니다. 이 기사는 과학 기술의 발전이 인류에게 긍정적인 영향을 미치고 있다는 희망적인 메시지를 전달하며, 특히 일곱 가지 주요 성과를 조명합니다. 예를 들어, 유전자 편집 기술의 발전은 난치병 치료에 새로운 가능성을 열었고, 혁신적인 신약 개발은 인류의 건강 증진에 기여했습니다. 또한, 중요한 생태계와 멸종 위기종을 보호하려는 보존 노력에서도 상당한 진전이 있었습니다. 이러한 성과들은 과학자들이 직면한 도전과 어려움 속에서도 끊임없이 노력하며 더 나은 미래를 만들어가고 있음을 보여주며, 인류의 미래에 대한 믿음을 회복시켜 줍니다."
+    },
+    {
+      "title_en": "I’ve earned my PhD — what now?",
+      "url": "https://www.nature.com/articles/d41586-025-03489-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "박사 학위 취득 후, 다음 단계는 무엇인가?",
+      "summary_kr": "박사 학위(PhD)를 취득한 화학자가 경력 초기에 겪는 전형적인 딜레마를 다루는 기사입니다. 학위를 마친 후 어떤 길을 선택해야 할지, 그리고 그 첫걸음을 어떻게 내디뎌야 할지에 대한 고민은 많은 박사 졸업생들이 공통적으로 겪는 문제입니다. 이 기사는 연구직, 산업계, 교육 분야 등 다양한 진로 옵션을 탐색하고, 각 경로의 장단점과 필요한 준비 과정을 제시할 것으로 보입니다. 또한, 네트워킹의 중요성, 멘토십 활용, 이력서 및 면접 준비 등 실질적인 조언을 제공하여 박사 졸업생들이 성공적인 다음 단계를 계획하는 데 도움을 줄 것입니다. 이는 학술계를 넘어 더 넓은 사회에서 자신의 전문성을 발휘하고자 하는 이들에게 중요한 지침이 될 수 있습니다."
+    },
+    {
+      "title_en": "Mechanism for water formation on rocky exoplanets demonstrated in the lab",
+      "url": "https://www.nature.com/articles/d41586-025-04015-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "암석형 외계 행성에서의 물 형성 메커니즘, 실험실에서 규명",
+      "summary_kr": "실험을 통해 수소 함량이 높은 대기와 용융 상태의 행성 간 상호작용이 다량의 물 생산으로 이어진다는 사실이 밝혀졌습니다. 이 과정을 통해 행성들은 형성 과정에서 물을 풍부하게 얻을 수 있으며, 이는 행성의 화학적 구성, 진화 경로, 그리고 궁극적으로는 생명체 거주 가능성에 큰 영향을 미칠 수 있습니다. 이번 연구는 외계 행성, 특히 암석형 행성에서 물이 어떻게 존재하게 되는지에 대한 오랜 질문에 중요한 답을 제시합니다. 이는 생명체 존재 가능성이 있는 행성을 탐색하는 데 있어 물의 기원에 대한 새로운 이해를 제공하며, 행성 과학 분야에 중요한 기여를 할 것으로 평가됩니다."
+    },
+    {
+      "title_en": "Virology’s most wanted: the influenza virus",
+      "url": "https://www.nature.com/articles/d41586-025-03607-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "바이러스학계의 가장 큰 숙제: 인플루엔자 바이러스",
+      "summary_kr": "인플루엔자 바이러스는 역사상 가장 해로운 바이러스 중 하나로, 이와 관련된 사망자와 경제적 피해는 그 심각성을 여실히 보여줍니다. 매년 발생하는 계절성 독감은 물론, 주기적으로 나타나는 팬데믹은 전 세계 공중 보건 시스템에 막대한 부담을 주며 사회 전반에 걸쳐 심각한 영향을 미칩니다. 이 기사는 인플루엔자 바이러스의 끊임없는 변이 능력과 숙주 간 전파 용이성으로 인해 백신 및 치료제 개발이 어려운 점을 강조합니다. 따라서 인플루엔자는 바이러스학 연구에서 가장 중요하고 해결하기 어려운 숙제 중 하나로 남아 있으며, 이 바이러스에 대한 지속적인 연구와 대비는 미래 팬데믹 예방을 위해 필수적입니다."
+    },
+    {
+      "title_en": "MIT fusion-lab head shot dead: a horror 'impossible to believe'",
+      "url": "https://www.nature.com/articles/d41586-025-04135-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "MIT 핵융합 연구소장 사망, '믿기 힘든' 비극",
+      "summary_kr": "MIT 핵융합 연구소의 수장이었던 플라즈마 물리학자 누노 로우레이로(Nuno Loureiro) 박사가 사망하는 비극적인 사건이 발생했습니다. 로우레이로 박사는 청정에너지 핵융합 장치 개발에 기여하며 핵융합 에너지 연구 분야에서 중요한 역할을 수행해왔습니다. 그의 갑작스러운 죽음은 과학계에 큰 충격과 슬픔을 안겨주었으며, 동료 과학자들은 이를 \"믿기 힘든 공포\"라고 표현했습니다. 핵융합 에너지는 미래 인류의 청정에너지 해결책으로 주목받고 있는 만큼, 그의 사망은 이 분야 연구에도 일정 부분 영향을 미칠 것으로 예상됩니다. 이 사건은 과학 연구의 최전선에서 일하는 연구자들의 안전과 커뮤니티의 중요성에 대한 안타까운 경각심을 불러일으킵니다."
+    },
+    {
+      "title_en": "Flu’s link to cardiovascular disease shows why vaccination is essential",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03598-0Influenza isn’t just a respiratory disease. Measures to stop its transmission, such as vaccination, could prevent thousands of heart-attack deaths.",
+      "url": "https://www.nature.com/articles/d41586-025-03598-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Could tracking animals’ health help to avert the next pandemic?",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03602-7Avian influenza is sweeping the globe and infecting dozens of species. Advocates of an approach called One Health are calling for broad surveillance of wildlife, livestock and pets.",
+      "url": "https://www.nature.com/articles/d41586-025-03602-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "How common is Alzheimer’s? Blood-test study holds surprises",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04133-xA survey of Alzheimer’s disease prevalence in Norway confirms earlier estimates and may show how education level relates to risk.",
+      "url": "https://www.nature.com/articles/d41586-025-04133-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Take the News &amp; Views end-of-year quiz: vampire fungus, migratory moths and a 160-year-old mystery",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04119-9Try these 12 questions to test your knowledge of News & Views and Research Briefing articles published in 2025.",
+      "url": "https://www.nature.com/articles/d41586-025-04119-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "The <i>Nature Podcast</i> festive spectacular 2025",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04140-yMemorable science-themed gifts, games, seasonal songs, and Nature’s 10.",
+      "url": "https://www.nature.com/articles/d41586-025-04140-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "The quest to hatch a bird-flu vaccine",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03612-5Although development of a jab for the H5N1 strain of avian flu is well under way, other strains are receiving less attention — and political obstacles to research could hamper progress.",
+      "url": "https://www.nature.com/articles/d41586-025-03612-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "A modular quantum processor made using phosphorus atoms in silicon",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04044-xA high-performance silicon-based quantum processor has been developed in which the spins of nine phosphorus nuclei — divided into two groups, or registers — and two shared electrons act as quantum bits (qubits). The modular design of this 11-qubit processor opens the door to a scalable approach to building large, reliable quantum-computing processors.",
+      "url": "https://www.nature.com/articles/d41586-025-04044-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "A universal flu vaccine has proved challenging — could it finally be possible?",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03608-1Scientists are deploying an array of technologies that are making a vaccine against all varieties of influenza seem more achievable.",
+      "url": "https://www.nature.com/articles/d41586-025-03608-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Systematic maps reveal how human chromosomes are organized",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03808-9Our genomes are highly structured, which facilitates gene regulation. An ambitious project has catalogued the organization of DNA in the nuclei of human cells.",
+      "url": "https://www.nature.com/articles/d41586-025-03808-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Restoring youth to old immune cells: mRNA therapy turns back the clock",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04082-5Testing in mice suggests that rejuvenating T cells could make vaccines and some cancer therapies more effective.",
+      "url": "https://www.nature.com/articles/d41586-025-04082-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Trump team plans to break up ‘global mothership’ of climate science",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-04134-wMuch of the National Center for Atmospheric Research’s non-climate portfolio will be dispersed, the White House says.",
+      "url": "https://www.nature.com/articles/d41586-025-04134-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Annual flu vaccines are far from ideal — this is why",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03599-zFlu-jab efficacy is often unimpressive. Improvements could come through nasal delivery.",
+      "url": "https://www.nature.com/articles/d41586-025-03599-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Immunological sin: how a person’s earliest flu infections dictate life-long immunity",
+      "description_en": "Nature, Published online: 17 December 2025;doi:10.1038/d41586-025-03606-3Researchers are striving to understand the impact a phenomenon known as original antigenic sin has on immunity to the virus.",
+      "url": "https://www.nature.com/articles/d41586-025-03606-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Safety regulations for cloning and a compass that finds true north",
+      "description_en": "Nature, Published online: 16 December 2025;doi:10.1038/d41586-025-03740-yScientists discuss concerns that genetic manipulation could lead to disease outbreaks, and Nature is gifted an unusual scientific instrument, in our weekly dip into the archive.",
+      "url": "https://www.nature.com/articles/d41586-025-03740-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Science’s role in my <i>Great British Sewing Bee</i> success",
+      "description_en": "Nature, Published online: 16 December 2025;doi:10.1038/d41586-025-03536-0A research background and a passion for sewing inspired by her father helped Yasmin Proctor-Kent to reach the finals of the 2025 television competition.",
+      "url": "https://www.nature.com/articles/d41586-025-03536-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Scientists skip key US meetings — and seize on smaller alternatives",
+      "description_en": "Nature, Published online: 16 December 2025;doi:10.1038/d41586-025-04083-4Researchers are devising creative ways to get together as Trump’s policies curb travel to US gatherings.",
+      "url": "https://www.nature.com/articles/d41586-025-04083-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "How my institution strengthened research despite chronic underfunding",
+      "description_en": "Nature, Published online: 16 December 2025;doi:10.1038/d41586-025-04050-zNurturing research talent at community-rooted universities and colleges is a necessity, not a luxury.",
+      "url": "https://www.nature.com/articles/d41586-025-04050-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "AI is transforming the economy — understanding its impact requires both data and imagination",
+      "description_en": "Nature, Published online: 16 December 2025;doi:10.1038/d41586-025-04053-wControlled studies capture only a fraction of the effects of artificial intelligence. Economists should work with social scientists to find innovative ways to fully grasp this fast-moving field.",
+      "url": "https://www.nature.com/articles/d41586-025-04053-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "From Scales to Secretions: Slithering Towards a Better Understanding of Snakes",
+      "description_en": "Snakes have intrigued scientists for centuries. Studying these serpents has offered clues into their bodies, venom chemistry, and developing potent antivenoms.",
+      "url": "https://www.the-scientist.com/from-scales-to-secretions-slithering-towards-a-better-understanding-of-snakes-73850",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Scientists Share Insights on How to Improve Academic Research",
+      "description_en": "Academic research is a cornerstone of science, but from publishing to collaborations, it is continuously evolving. Find out what these changes mean for researchers.",
+      "url": "https://www.the-scientist.com/scientists-share-insights-on-how-to-improve-academic-research-73861",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Postdoc Portrait: Dia Roy",
+      "description_en": "Driven by curiosity about illness and immunity, this postdoc now studies how immune cells can be reprogrammed to fight cancer.",
+      "url": "https://www.the-scientist.com/postdoc-portrait-dia-roy-73866",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Research Roundtable: Rethinking the Role of Animals in Molecular Biology",
+      "description_en": "In our next roundtable webinar, scientists will highlight the drawbacks of animal models and how alternatives are advancing molecular biology research.",
+      "url": "https://www.the-scientist.com/research-roundtable-rethinking-the-role-of-animals-in-molecular-biology-73867",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Postdoc Portrait: Isabella Batina",
+      "description_en": "This postdoc works on HIV prevention clinical trials, bridging medical research with equitable PrEP care delivery.",
+      "url": "https://www.the-scientist.com/postdoc-portrait-isabella-batina-73865",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Why Not Grow Human Organs in Pigs? The Ethics of Cross-Species Organ Growth",
+      "description_en": "While research on human-pig chimeras is on an indefinite pause, xenotransplantation—transplant of organs across species—is moving ahead.",
+      "url": "https://www.the-scientist.com/why-not-grow-human-organs-in-pigs-the-ethics-of-cross-species-organ-growth-73858",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Psychedelic Research Shows Promise for Neurological Conditions",
+      "description_en": "New studies show that psychedelics could unlock safer treatments for chronic pain, mood disorders, and even neuroprotection. Explore the latest breakthroughs.",
+      "url": "https://www.the-scientist.com/psychedelic-research-shows-promise-for-neurological-conditions-73837",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Postdoc Portrait: Rishi Jaiswal",
+      "description_en": "This postdoc combines molecular and structural approaches to uncover how failures in DNA repair drive cancer development.",
+      "url": "https://www.the-scientist.com/postdoc-portrait-rishi-jaiswal-73856",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "The Curious Case of Tiny Yet Mighty Cells&nbsp;",
+      "description_en": "Isn't it fascinating that a cell, which is several orders of magnitude smaller than an organism, can inform scientists about the state of the entire being?",
+      "url": "https://www.the-scientist.com/the-curious-case-of-tiny-yet-mighty-cells-73760",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Exploring Immune Diversity at the Single-Cell Level",
+      "description_en": "Single-cell sequencing can yield a treasure trove of information on immune cell population characteristics and behavior.",
+      "url": "https://www.the-scientist.com/exploring-immune-diversity-at-the-single-cell-level-73847",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Trump administration moves to break up leading U.S. climate and weather center",
+      "description_en": "White House budget director calls the National Center for Atmospheric Research a source of “climate alarmism”",
+      "url": "https://www.science.org/content/article/trump-administration-moves-break-leading-u-s-climate-and-weather-center",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Misconduct sleuth wins $2.63 million from major cancer institute in $15 million settlement",
+      "description_en": "Data detectives see validation in deal with U.S. government that penalizes Dana-Farber Cancer Institute for misrepresenting data in NIH grant applications",
+      "url": "https://www.science.org/content/article/misconduct-sleuth-wins-2-63-million-major-cancer-institute-15-million-settlement",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "New NASA administrator takes over after a year of scientific loss—and survival",
+      "description_en": "Following Senate confirmation, billionaire Jared Isaacman will lead a diminished workforce",
+      "url": "https://www.science.org/content/article/new-nasa-administrator-takes-over-after-year-scientific-loss-and-survival",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Ancient tectonic plates are oozing along Earth’s core",
+      "description_en": "Thousands of earthquakes yield best picture yet of core-mantle boundary, shedding light on deep flows of viscous rock",
+      "url": "https://www.science.org/content/article/ancient-tectonic-plates-are-oozing-along-earth-s-core",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Why have so many different eyes evolved? Gamelike simulation could provide answers",
+      "description_en": "“Powerful” method for studying evolution could help researchers understand how species developed specialized eyes",
+      "url": "https://www.science.org/content/article/why-have-so-many-different-eyes-evolved-gamelike-simulation-could-provide-answers",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Chile’s new president could shake up nation’s science community",
+      "description_en": "Right-wing politician José Antonio Kast has promised to slash government spending",
+      "url": "https://www.science.org/content/article/chile-s-new-president-could-shake-nation-s-science-community",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "New materials could supercharge computer memory chips",
+      "description_en": "Ferroelectrics could bolster “flash” memory in AI data centers and autonomous robots",
+      "url": "https://www.science.org/content/article/new-materials-could-supercharge-computer-memory-chips",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Titan might not have an ocean after all",
+      "description_en": "A reanalysis of data from NASA’s Cassini mission suggests Saturn’s icy moon may lack the subsurface ocean presumed for a decade",
+      "url": "https://www.science.org/content/article/titan-might-not-have-ocean-after-all",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Fired NIH institute head sues Trump administration",
+      "description_en": "Jeanne Marrazzo says she lost her job because she spoke out against risky public health policies",
+      "url": "https://www.science.org/content/article/fired-nih-institute-head-sues-trump-administration",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Martian cities could be built from ice",
+      "description_en": "Astronauts could theoretically harness frozen water on the Red Planet to construct habitats and research stations, new analysis suggests",
+      "url": "https://www.science.org/content/article/martian-cities-could-be-built-ice",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "House passes health care bill to boost access to workplace insurance",
+      "description_en": "House passes health care bill to boost access to workplace insurance.",
+      "url": "https://www.statnews.com/2025/12/17/house-passes-health-care-bill-workplace-insurance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2245928724-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Meta is urged by state attorneys general to boost enforcement of weight loss drug advertising",
+      "description_en": "More than three dozen state AGs are urging Meta to better enforce its policies to thwart a “surge of misleading” ads for weight loss drugs on Instagram and Facebook.",
+      "url": "https://www.statnews.com/pharmalot/2025/12/17/meta-facebook-instagram-weight-obesity-drugs-ads/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/01/GettyImages-2150033203-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: FDA approves brain tumor warning on Depo-Provera label as court battle grows over side effects",
+      "description_en": "The FDA has approved a change to the labeling for a Pfizer birth control shot that warns patients of the risk of meningioma, a type of tumor.",
+      "url": "https://www.statnews.com/pharmalot/2025/12/17/fda-pfizer-contraception-cancer-preemption-depoprovera/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_324675306_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: More drugmakers set to sign pricing deals with Trump on Friday",
+      "description_en": "Pharma companies have agreed to lower prices and invest in the U.S. in exchange for avoiding tariffs and benefits like faster drug reviews.",
+      "url": "https://www.statnews.com/2025/12/17/pharma-companies-to-announce-trump-drug-pricing-deals-friday/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP25349750695910-645x645.jpg"
+    },
+    {
+      "title_en": "CDC’s controversial new hep B vaccine guidance: everything you need to know",
+      "description_en": "This week's STATus Report takes on the CDC's new hepatitis B vaccine guidance for newborns. Host Alex Hogan dives into the controversial recommendation.",
+      "url": "https://www.statnews.com/2025/12/17/hepatitis-b-vaccine-newborns-cdc-recommendation-status-report/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/SR_21_still-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: House passes bill to ban gender-affirming care for young people",
+      "description_en": "It's the latest effort by GOP lawmakers and President Trump to restrict care for transgender youth.",
+      "url": "https://www.statnews.com/2025/12/17/house-vote-bills-care-for-transgender-young-people-medicaid/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/GettyImages-2231037039-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: After revolt from moderate Republicans, House to vote on ACA subsidy extension",
+      "description_en": "The cost of ACA health insurance plans is set to soar, a major political risk for the GOP.",
+      "url": "https://www.statnews.com/2025/12/17/moderate-republicans-join-democrats-force-vote-obamacare-tax-credits/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-1386740411-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: A much-needed win for Pfizer",
+      "description_en": "And other biotech news brought to you by The Readout newsletter",
+      "url": "https://www.statnews.com/2025/12/17/biotech-news-finally-a-win-for-pfizer/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_324675306_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about cancer drug trials, Europe’s biotech push, and much more",
+      "description_en": "Drug trials offer people with cancer hope and free medicine, but they also create incentives for doctors in private clinics to sign up patients for unproven treatments",
+      "url": "https://www.statnews.com/pharmalot/2025/12/17/cancer-gsk-europe-biotech-kenvue-generics-animals-fda/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
+    },
+    {
+      "title_en": "Stress heightens risk of cardiovascular disease in people with anxiety and depression",
+      "description_en": "And more health news updates from Morning Rounds",
+      "url": "https://www.statnews.com/2025/12/17/health-news-stress-anxiety-depression-and-heart-risk/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2021/03/AdobeStock_294788771-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: AI Prognosis: Were experts right about their 2025 health AI ‘bingo cards’?",
+      "description_en": "AI Prognosis newsletter readers weigh in on 2025 predictions about ambient scribes, antibody design, AI agents, and more.",
+      "url": "https://www.statnews.com/2025/12/17/2025-health-artificial-intelligence-bingo-results-ai-prognosis/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AIPrognosis_Wordpress_BINGOchips-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: The peculiar politics of whole milk’s return to U.S. schools",
+      "description_en": "The peculiar politics of whole milk’s return to U.S. schools",
+      "url": "https://www.statnews.com/2025/12/17/whole-milk-non-dairy-milk-return-school-cafeterias/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP110503030998-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: RFK Jr., unconstrained by Congress, presses ahead to reshape health care",
+      "description_en": "HHS Secretary Robert F. Kennedy Jr., unconstrained by Congress, is pressing ahead in his mission to reshape health care.",
+      "url": "https://www.statnews.com/2025/12/17/rfk-jr-reshaping-healthcare-hhs-trump-support/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2233023161-645x645.jpg"
+    },
+    {
+      "title_en": "Opinion: New gonorrhea drug is not just a scientific breakthrough but a business one",
+      "description_en": "Turning the tide on antibiotic resistance will require new ways of working, writes executive director of the Global Antibiotic Research & Development Partnership.",
+      "url": "https://www.statnews.com/2025/12/17/zoliflodacin-gonorrhea-gardp-innoviva-antibiotic-resistance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2019/07/AdobeStock_227340945-645x645.jpeg"
+    },
+    {
+      "title_en": "Opinion: Francis Collins and Marc Siegel say medicine is a gift from God",
+      "description_en": "“To have Christians be the group that was most resistant” to the Covid vaccine “really seems wrong here,” said former NIH Director Francis Collins.",
+      "url": "https://www.statnews.com/2025/12/17/francis-collins-marc-siegel-interview-science-god-vaccines/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/FOP_Ep12_Wordpress_Featured_Image-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: The Worst Biopharma CEO of 2025 made decisions with tragic consequences",
+      "description_en": "The worst biopharma CEO of 2025? It's Sarepta Therapeutics' Doug Ingram, STAT's Adam Feuerstein says.",
+      "url": "https://www.statnews.com/2025/12/17/worst-biopharma-ceo-2025-doug-ingram-sarepta-therapeutics/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2022/12/Bad-Comp-2022_1-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Amid talk of a brain drain, some scientists leave U.S. behind",
+      "description_en": "“A large part of what we loved about the United States is no longer there”: Amid talk of a brain drain, some scientists leave the U.S. behind.",
+      "url": "https://www.statnews.com/2025/12/17/research-cuts-fuel-scientific-brain-drain-american-science-shattered/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/14_Naima-Lecomte-for-STAT_Pleuni-Plennings-645x645.jpg"
+    },
+    {
+      "title_en": "Opinion: U.S. scientists must compete internationally, just like auto and steel workers do",
+      "description_en": "“We ask auto and steel workers to compete with the world, yet we treat research funding as something that must be protected from it,” an economist writes.",
+      "url": "https://www.statnews.com/2025/12/17/science-research-funding-nih-nsf-competition/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/02/GettyImages-1230059232-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Former NIH leader Jeanne Marrazzo  sues administration over termination",
+      "description_en": "Jeanne Marrazzo, who led one of the NIH institutes, was fired after filing a whistleblower report. Now she's suing the Trump administration.",
+      "url": "https://www.statnews.com/2025/12/16/nih-jeanne-marrazzo-sues-trump-administration-over-dismissal/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/02/AdobeStock_419260749_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "CDC approves new hepatitis B vaccine recommendation as some hospitals reject changes",
+      "description_en": "Many states, hospitals, and doctors say they will continue to recommend hepatitis B shots at birth.",
+      "url": "https://www.statnews.com/2025/12/16/hepatitis-b-vaccine-cdc-acip-recommendation-meets-resistance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/AdobeStock_1082435230-645x645.jpeg"
+    },
+    {
+      "title_en": "Physicists 3D-printed a Christmas tree of ice",
+      "description_en": "New method uses no freezing technology or refrigeration equipment—just water and a vacuum.",
+      "url": "https://arstechnica.com/science/2025/12/physicists-3d-printed-a-christmas-tree-of-ice/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/icytree1-500x500.jpg"
+    },
+    {
+      "title_en": "Trump admin threatens to break up major climate research center",
+      "description_en": "Major research institution dismissed as a source of \"climate alarmism.\"",
+      "url": "https://arstechnica.com/science/2025/12/trump-admin-threatens-to-break-up-major-climate-research-center/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1086618384-500x500.jpg"
+    },
+    {
+      "title_en": "US oil industry doesn’t see profit in Trump’s “pro-petroleum” moves",
+      "description_en": "The financial picture around drilling is moving against the Trump administration’s hopes",
+      "url": "https://arstechnica.com/science/2025/12/us-oil-industry-doesnt-see-profit-in-trumps-pro-petroleum-moves/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2245935569-500x500.jpg"
+    },
+    {
+      "title_en": "The $4.3 billion space telescope Trump tried to cancel is now complete",
+      "description_en": "\"We're going to be making 3D movies of what is going on in the Milky Way galaxy.\"",
+      "url": "https://arstechnica.com/space/2025/12/the-4-3-billion-space-telescope-trump-tried-to-cancel-is-now-complete/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/Trailer_still_1-1-500x500.jpg"
+    },
+    {
+      "title_en": "Utah leaders hinder efforts to develop solar energy supply",
+      "description_en": "Solar power accounts for two-thirds of the new projects waiting to connect to the state’s power grid.",
+      "url": "https://arstechnica.com/science/2025/12/utah-leaders-hinder-efforts-to-develop-solar-energy-supply/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2241255023-500x500.jpg"
+    },
+    {
+      "title_en": "How to Watch the Final Meteor Shower of 2025",
+      "description_en": "Conditions in the US should be perfect for the final meteor shower of 2025, with no moonlight present to interfere with spotting shooting stars.",
+      "url": "https://www.wired.com/story/how-to-watch-the-ursids-meteor-shower/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://media.wired.com/photos/674705ece62bfbd1626a1416/master/pass/GettyImages-1293014500.jpg"
+    },
+    {
+      "title_en": "Former Neuralink Exec Launches Organ Preservation Effort",
+      "description_en": "Science Corporation, founded by Neuralink’s first president, Max Hodak, has unveiled a prototype machine to extend the life of organs for longer periods.",
+      "url": "https://www.wired.com/story/a-brain-computer-interface-company-is-getting-into-organ-preservation/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://media.wired.com/photos/694180f0eeab4b8c7b3a6dbb/master/pass/Vessel3.jpeg"
+    },
+    {
+      "title_en": "New Head of Trump’s Cancer Panel Speculated About Links Between Vaccines and Cancer",
+      "description_en": "Yale epidemiologist Harvey Risch, who has entertained a connection between Covid vaccines and “turbo cancer” and promoted ivermectin, says he'll chair the President's Cancer Panel.",
+      "url": "https://www.wired.com/story/risch-trump-panel-vaccines-turbo-cancer-ivermectin-hcq/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": "https://media.wired.com/photos/6940528b4db6532247cba061/master/pass/Ivermectin-Quack-to-Chair-Presidents-Cancer-Panel-Science-1235006986.jpg"
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/voyager-jettisons-30-employees-novartis-hands-back-rights-2-programs\" hreflang=\"en\">Voyager jettisons 30 employees, Novartis hands back rights to 2 programs</a>",
+      "description_en": "Neurology biotech Voyager Therapeutics has laid off 30 employees, a spokesperson for the Massachusetts-based company confirmed to Fierce Biotech.",
+      "url": "https://www.fiercebiotech.com/biotech/voyager-jettisons-30-employees-novartis-hands-back-rights-2-programs",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/vistagens-ph3-flop-puts-future-fasedienol-social-anxiety-question-william-blair\" hreflang=\"en\">Vistagen phase 3 study sees placebo surprise, putting future of social anxiety asset into question: analyst</a>",
+      "description_en": "After a late-stage miss for Vistagen's prospective social anxiety disorder treatment fasedienol, the company's chances at an FDA approval in the indication are looking slimmer.",
+      "url": "https://www.fiercebiotech.com/biotech/vistagens-ph3-flop-puts-future-fasedienol-social-anxiety-question-william-blair",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/cro/lindus-health-and-quotient-team-create-one-stop-shop-early-midstage-trials\" hreflang=\"en\">Lindus Health and Quotient team up to create one-stop shop for early to mid-stage trials</a>",
+      "description_en": "Clinical development accelerator Quotient Sciences and CRO Lindus Health are joining forces to create a streamlined process for clients to advance from first-in-human (FIH) to pivotal trials.",
+      "url": "https://www.fiercebiotech.com/cro/lindus-health-and-quotient-team-create-one-stop-shop-early-midstage-trials",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/fired-nih-institute-director-sues-trump-health-officials-calling-ouster-illegal\" hreflang=\"en\">Fired NIH institute director sues Trump health officials, seeks reinstatement and backpay</a>",
+      "description_en": "The former director of the National Institutes of Health’s National Institute of Allergy and Infectious Diseases is suing Trump administration officials over her September firing, which she alleges violated her rights and was illegal under federal whistleblower protections.",
+      "url": "https://www.fiercebiotech.com/biotech/fired-nih-institute-director-sues-trump-health-officials-calling-ouster-illegal",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/norgine-gets-virs-hepatitis-d-program-eu550-european-licensing-pact\" hreflang=\"en\">Norgine gets in on Vir's hepatitis D program with €550 European licensing pact</a>",
+      "description_en": "Norgine secured an exclusive license to commercialize Vir Biotechnology's combo hepatitis D prospect of tobevibart and elebsiran in Europe, Australia and New Zealand.",
+      "url": "https://www.fiercebiotech.com/biotech/norgine-gets-virs-hepatitis-d-program-eu550-european-licensing-pact",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/cmr-surgical-grabs-fda-clearance-upgraded-versius-plus-robot\" hreflang=\"en\">CMR Surgical grabs FDA clearance for upgraded Versius Plus robot</a>",
+      "description_en": "After claiming its first U.S. robotic surgery clearance late last year, CMR Surgical is back with a new green light for the upgraded version of its multi-port, laparoscopic platform.",
+      "url": "https://www.fiercebiotech.com/medtech/cmr-surgical-grabs-fda-clearance-upgraded-versius-plus-robot",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/oncology-biotech-mythic-and-former-fundraising-heavy-weight-areteia-wind-down\" hreflang=\"en\">Oncology biotech Mythic and former fundraising heavyweight Areteia reach end of road</a>",
+      "description_en": "After layoffs this fall, Mythic Therapeutics is winding down, while asthma-focused Areteia Therapeutics is reportedly shuttering mere months after reporting a phase 3 win for its oral biologic.",
+      "url": "https://www.fiercebiotech.com/biotech/oncology-biotech-mythic-and-former-fundraising-heavy-weight-areteia-wind-down",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/medline-makes-nasdaq-debut-raising-626b-years-largest-ipo\" hreflang=\"en\">Medline makes Nasdaq debut, raising $6.26B in year’s largest IPO</a>",
+      "description_en": "After operating outside the spotlight for years, Medline is taking center stage with the biggest IPO of the year.",
+      "url": "https://www.fiercebiotech.com/medtech/medline-makes-nasdaq-debut-raising-626b-years-largest-ipo",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/medtronics-thrombectomy-system-goes-live-embolization-system-adds-indication\" hreflang=\"en\">Medtronic rolls out new peripheral thrombectomy system while making advances in brain bleeds</a>",
+      "description_en": "The Liberant aspiration catheters are designed to snake into blocked arteries and veins in the arms and legs, while Medtronic's Onyx liquid embolic system gained a new use in subdural hematoma.",
+      "url": "https://www.fiercebiotech.com/medtech/medtronics-thrombectomy-system-goes-live-embolization-system-adds-indication",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/harbour-biomed-docks-bristol-myers-squibb-90m-upfront-antibodies-deal\" hreflang=\"en\">Harbour BioMed docks with BMS in antibody discovery, development deal worth up to $1.1B</a>",
+      "description_en": "Bristol Myers Squibb has become the latest Big Pharma to tie up a biotech pact as we reach the year’s end, tapping Harbour BioMed for a multiyear research deal.",
+      "url": "https://www.fiercebiotech.com/biotech/harbour-biomed-docks-bristol-myers-squibb-90m-upfront-antibodies-deal",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/addition-tx-does-math-and-emerges-stealth-100m-biotech-vets-exec-team\" hreflang=\"en\">Addition Tx does the math and emerges from stealth with $100M, biotech vets on exec team</a>",
+      "description_en": "University of California spinout Addition Therapeutics has uncloaked, revealing “breakthrough” PRINT technology it hopes will fuel a new wave of genetic medicine.",
+      "url": "https://www.fiercebiotech.com/biotech/addition-tx-does-math-and-emerges-stealth-100m-biotech-vets-exec-team",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/nektar-claims-phase-2-alopecia-success-after-excluding-patients-who-should-never-have-been\" hreflang=\"en\">Nektar claims phase 2 alopecia success after excluding patients who 'should never have been enrolled'</a>",
+      "description_en": "Nektar Therapeutics is planning to bring its interleukin-2-targeting drug candidate into a phase 3 trial for severe alopecia areata, even after the asset narrowly missed the main goal of a midstage trial.",
+      "url": "https://www.fiercebiotech.com/biotech/nektar-claims-phase-2-alopecia-success-after-excluding-patients-who-should-never-have-been",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/siemens-healthineers-taps-alzpath-alzheimers-blood-test-biomarker\" hreflang=\"en\">Siemens Healthineers taps ALZpath for Alzheimer's blood test biomarker</a>",
+      "description_en": "ALZpath licensed out its pTau-217 antibody, currently under development, which Siemens Healthineers plans to incorporate in its Atellica immunoassay platforms.",
+      "url": "https://www.fiercebiotech.com/medtech/siemens-healthineers-taps-alzpath-alzheimers-blood-test-biomarker",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/ramaswamy-backed-ambros-therapeutics-launches-125m-develop-pain-drug\" hreflang=\"en\">Ramaswamy-backed Ambros Therapeutics launches with $125M to develop pain drug</a>",
+      "description_en": "Vivek Ramaswamy has found time out of his campaign for governor of Ohio to launch a new biotech. The new firm, Ambros Therapeutics, launched Tuesday with a $125 million series A and plans to develop a non-opioid pain medicine approved in Italy.",
+      "url": "https://www.fiercebiotech.com/biotech/ramaswamy-backed-ambros-therapeutics-launches-125m-develop-pain-drug",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/aldeyra-dry-eye-disease-candidate-hit-fda-delay-after-shifting-agency-guidance-company-says\" hreflang=\"en\">Aldeyra dry eye disease candidate hit by FDA delay amid shifting agency guidance, biotech says</a>",
+      "description_en": "The FDA has delayed an approval decision for Aldeyra Therapeutics’ lead dry eye disease candidate, adding another detour to the candidate’s winding road to potentially reach the market.",
+      "url": "https://www.fiercebiotech.com/biotech/aldeyra-dry-eye-disease-candidate-hit-fda-delay-after-shifting-agency-guidance-company-says",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/xoma-acquires-another-struggling-biotech-time-zeroing-generation-bio\" hreflang=\"en\">Xoma acquires another struggling biotech, this time zeroing in on Generation Bio</a>",
+      "description_en": "Xoma, which styles itself as a “biotech royalty aggregator,” has struck a deal to acquire Generation Bio for roughly $4.29 per share at the time of the planned merger’s close.",
+      "url": "https://www.fiercebiotech.com/biotech/xoma-acquires-another-struggling-biotech-time-zeroing-generation-bio",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/deal-making-flurry-continues-genentech-offers-caris-11b-biobucks-cancer-collab\" hreflang=\"en\">December deal flurry rolls on with Genentech-Caris cancer collab worth up to $1.1B</a>",
+      "description_en": "A flurry of dealmaking hasn’t let up as 2025 comes to a close, with Roche subsidiary Genentech getting in on the action and crafting a multi-year cancer collaboration with Caris Life Sciences.",
+      "url": "https://www.fiercebiotech.com/biotech/deal-making-flurry-continues-genentech-offers-caris-11b-biobucks-cancer-collab",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/yarrow-blooms-137b-deal-landing-autoimmune-thyroid-disease-drug-chinas-gensci\" hreflang=\"en\">Yarrow blooms with $1.37B deal, landing autoimmune thyroid disease drug from China's GenSci</a>",
+      "description_en": "U.S.-based Yarrow Bioscience is branching out, picking an autoimmune thyroid disease drug from China as its lead candidate.",
+      "url": "https://www.fiercebiotech.com/biotech/yarrow-blooms-137b-deal-landing-autoimmune-thyroid-disease-drug-chinas-gensci",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/fda-opens-door-massive-real-world-datasets-medical-device-submissions\" hreflang=\"en\">FDA opens door to massive real-world datasets in medical device submissions</a>",
+      "description_en": "The agency said the policy change aims to enable the use of more types of massive, deidentified databases, including those from national cancer registries, health systems, insurers and EHR networks.",
+      "url": "https://www.fiercebiotech.com/medtech/fda-opens-door-massive-real-world-datasets-medical-device-submissions",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/fda-clears-medivis-ar-headset-platform-neurosurgery-navigation\" hreflang=\"en\">FDA clears Medivis AR headset platform for neurosurgery navigation</a>",
+      "description_en": "The green light for the company’s cranial navigation system follows up on an FDA nod for its spine-focused platform earlier this year.",
+      "url": "https://www.fiercebiotech.com/medtech/fda-clears-medivis-ar-headset-platform-neurosurgery-navigation",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/maplight-brightens-sandboxaq-200m-deal-discover-new-cns-candidates\" hreflang=\"en\">MapLight brightens SandboxAQ with new deal to discover new CNS candidates</a>",
+      "description_en": "MapLight Therapeutics is the latest biotech to want a turn with Alphabet’s AI spinout SandboxAQ. The neuro-focused company is penning a strategic collaboration meant to develop new therapies for central nervous system diseases.",
+      "url": "https://www.fiercebiotech.com/biotech/maplight-brightens-sandboxaq-200m-deal-discover-new-cns-candidates",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Empower Pharmacy cuts hundreds of staff, stops New Jersey operations",
+      "description_en": "Empower Pharmacy, a large GLP-1 compounding pharmacy that’s faced allegations of poor quality drugs and a legal challenge from Eli Lilly, has stopped operations at its New Jersey manufacturing facility and laid off hundreds of ...",
+      "url": "https://endpoints.news/empower-pharmacy-cut-hundreds-of-staff-stopped-new-jersey-operations/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "European Commission unveils EU Biotech Act as it lags behind other countries",
+      "description_en": "The European Commission has unveiled a long-awaited proposal to make Europe a \"biotech powerhouse” by speeding up clinical trials, extending intellectual property protection and boosting biomanufacturing.\n\n The commission published the first half of the  ...",
+      "url": "https://endpoints.news/european-commission-unveils-eu-biotech-act-as-it-lags-behind-other-countries/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Senate passes Biosecure Act aimed at Chinese suppliers",
+      "description_en": "The Biosecure Act is slated to become law after the Senate on Wednesday passed a defense bill that includes the measure.\n\n It's a development that once would have sent panic through drugmaker boardrooms. But the ...",
+      "url": "https://endpoints.news/senate-passes-biosecure-act-aimed-at-chinese-suppliers/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "RFK Jr. adds conditions to newborn screening list after committee termination",
+      "url": "https://endpoints.news/rfk-jr-adds-conditions-to-newborn-screening-list-after-committee-termination/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "로버트 F. 케네디 주니어, 위원회 해산 후 신생아 검진 목록에 두 가지 질환 추가",
+      "summary_kr": "보건복지부(HHS) 장관 로버트 F. 케네디 주니어는 연방 신생아 검진 목록에 두 가지 질환을 새로 추가하며, 트럼프 행정부 시절 중단되었던 신생아 검진 확대 노력을 다시 활성화했습니다. 이번 조치로 인해 신생아 검진 대상 질환이 늘어났지만, 앞으로 더 많은 질병을 목록에 추가하는 과정은 여전히 불확실한 상태입니다. 신생아 검진은 조기 진단을 통해 아기들의 건강을 지키는 중요한 공중 보건 프로그램이며, 이번 결정은 수년간의 정체 이후 이루어진 변화입니다. 하지만 질병 추가 절차의 명확성 부족은 향후 진행에 대한 의문을 남깁니다. 이는 공중 보건 정책의 연속성과 미래 방향성에 대한 중요한 논점을 제기합니다."
+    },
+    {
+      "title_en": "CDC stops recommending universal hepatitis B birthdose",
+      "url": "https://endpoints.news/cdc-stops-recommending-universal-hepatitis-b-birthdose/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "CDC, 신생아 B형 간염 백신 보편적 출생 용량 권고 중단",
+      "summary_kr": "미국 질병통제예방센터(CDC)가 수십 년간 유지해온 신생아 B형 간염 백신에 대한 보편적 출생 용량 권고를 중단하고 새로운 권고안을 채택했습니다. 이전에는 모든 신생아에게 출생 후 B형 간염 백신 접종을 권장했으나, 이제는 산모의 B형 간염 검사 결과에 따라 접종 여부를 결정하도록 지침이 변경되었습니다. 새로운 지침에 따르면, 임신 중 B형 간염 검사 결과가 양성인 산모의 아기에게는 출생 직후 백신 접종이 여전히 중요하게 권고됩니다. 이러한 변화는 백신 접종 전략의 효율성과 특정 위험 그룹에 대한 집중도를 높이기 위한 것으로 보입니다. 이번 권고 변경은 공중 보건 전략의 진화를 반영하며, 의료 전문가들이 예방 접종에 대한 접근 방식을 재평가하도록 요구할 것입니다."
+    },
+    {
+      "title_en": "Several companies expected to announce ‘most favored nation’ deals Friday at White House",
+      "url": "https://endpoints.news/several-companies-expected-to-announce-most-favored-nation-deals-friday-at-white-house/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "백악관, 금요일 주요 제약사들과 '최혜국 대우' 협정 발표 예정",
+      "summary_kr": "소식통에 따르면, 백악관은 금요일에 행정부의 '최혜국 대우(Most Favored Nation)' 약가 정책 추진의 일환으로 주요 제약사들과의 여러 새로운 협정을 공개할 예정입니다. 이 정책은 미국 정부가 특정 의약품에 대해 다른 국가에서 지불하는 최저 가격과 비슷한 수준의 가격을 협상할 수 있도록 하는 것을 목표로 합니다. 이번 발표는 의약품 가격 인하에 대한 바이든 행정부의 지속적인 노력의 중요한 부분으로 해석됩니다. 이러한 협정들은 미국 소비자들이 보다 저렴한 가격으로 필수 의약품에 접근할 수 있도록 돕는 데 기여할 것으로 기대됩니다. 주요 제약사들과의 협상은 향후 의약품 가격 책정 모델에 상당한 영향을 미칠 것으로 예상되며, 이는 제약 산업 전반에 걸쳐 파급 효과를 가져올 수 있습니다."
+    },
+    {
+      "title_en": "GSK formally submits new leucovorin indication to FDA",
+      "url": "https://endpoints.news/gsk-formally-submits-new-leucovorin-indication-to-fda/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "GSK, 백혈병 치료제 류코보린의 새로운 적응증 FDA 공식 제출",
+      "summary_kr": "GSK가 자사의 약물인 류코보린(leucovorin)에 대한 새로운 라벨을 미국 식품의약국(FDA)에 공식적으로 제출했습니다. GSK는 규제 당국에 이 약물이 자폐증과 연관된 특정 발달 장애를 치료할 수 있다고 밝혔습니다. 회사 대변인은 이번 제출 사실을 확인했으며, 이는 류코보린의 치료 영역을 확장하려는 GSK의 중요한 시도입니다. 만약 승인된다면, 이 약은 자폐 스펙트럼 장애와 관련된 특정 발달 문제를 겪는 환자들에게 새로운 치료 옵션을 제공할 수 있을 것입니다. 이번 제출은 제약 산업에서 기존 약물의 새로운 잠재적 용도를 탐색하는 지속적인 추세를 보여주며, 이는 환자들에게 더 많은 치료 기회를 제공할 잠재력을 가집니다. 관련 임상 데이터의 평가 결과에 따라 최종 승인 여부가 결정될 것입니다."
+    },
+    {
+      "title_en": "Padcev-Keytruda combination notches another bladder cancer win",
+      "url": "https://endpoints.news/padcev-keytruda-combination-notches-another-bladder-cancer-win/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "팟세브-키트루다 병용 요법, 방광암 치료에서 또 한 번의 성공 거둬",
+      "summary_kr": "화이자(Pfizer), 아스텔라스(Astellas), 머크(Merck)는 수요일에 발표를 통해, 자사의 팟세브(Padcev)와 키트루다(Keytruda) 병용 요법이 특정 방광암 환자들의 생존 기간을 연장하는 데 도움을 주었음을 3상 임상시험에서 입증했다고 밝혔습니다. 이번 긍정적인 결과는 해당 병용 요법이 방광암 치료에 있어 중요한 진전임을 시사합니다. 세 회사는 이 치료법을 규제 당국에 제출하여 승인 절차를 논의할 계획입니다. 이번 성공은 기존 치료법에 반응하지 않거나 진행된 방광암 환자들에게 새로운 희망을 제공할 수 있을 것으로 기대됩니다. 이 병용 요법은 이미 몇몇 적응증에서 효과를 보인 바 있으며, 이번 결과는 그 치료 범위를 더욱 넓힐 가능성을 열어주며 환자들의 삶의 질 향상에 기여할 수 있습니다."
+    },
+    {
+      "title_en": "RTW's Yarrow to go public in reverse merger with Vyne Therapeutics",
+      "url": "https://endpoints.news/rtws-yarrow-to-go-public-in-reverse-merger-with-vyne-therapeutics/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "RTW의 야로우 바이오사이언스, 바인 테라퓨틱스와 역합병 통해 상장 추진",
+      "summary_kr": "바인 테라퓨틱스(Vyne Therapeutics)는 RTW의 야로우 바이오사이언스(Yarrow Bioscience)와의 역합병을 통해 나스닥 상장 지위를 야로우에 넘겨줄 예정입니다. 이 역합병은 야로우 바이오사이언스에 2억 달러의 현금 유입을 가져올 것으로 예상됩니다. 이번 전액 주식 거래 방식의 합병은 야로우 바이오사이언스가 복잡한 기업공개(IPO) 과정을 거치지 않고 공개 시장에 진출할 수 있는 효율적인 방법을 제공합니다. 이러한 움직임은 생명공학 스타트업이 자본을 유치하고 성장을 가속화하는 데 있어 역합병이 점점 더 인기 있는 전략이 되고 있음을 보여줍니다. 이번 합병으로 양사는 전략적 목표를 달성하고 시장에서의 입지를 강화할 것으로 기대되며, 특히 야로우 바이오사이언스의 연구 개발에 중요한 추진력을 제공할 것입니다."
+    },
+    {
+      "title_en": "Novo Nordisk hit with FDA warning letter over acquired Catalent factory",
+      "url": "https://endpoints.news/novo-nordisk-hit-with-fda-warning-letter-over-acquired-catalent-factory/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "노보 노디스크, 인수한 캐털런트 공장 문제로 FDA 경고 서한 받아",
+      "summary_kr": "미국 식품의약국(FDA)은 노보 노디스크(Novo Nordisk)에 경고 서한을 보내, 작년에 캐털런트(Catalent)로부터 인수한 모든 시설에 대한 분석을 요구했습니다. 이번 경고는 인디애나주 블루밍턴에 위치한 노보 노디스크의 문제가 있는 공장과 관련하여 발행되었습니다. FDA는 해당 공장에서의 제조 결함 및 품질 관리 문제에 대해 우려를 표명하며, 노보 노디스크가 철저한 조사를 실시하고 시정 조치를 취할 것을 명령했습니다. 이는 의약품 제조 시설의 품질 및 규제 준수에 대한 FDA의 엄격한 기준을 다시 한번 상기시키는 사례입니다. 이번 경고 서한은 노보 노디스크에게 광범위한 조사와 개선 계획을 요구할 것이며, 이는 향후 생산 및 공급망에 영향을 미칠 수 있어 면밀한 대응이 필요합니다."
+    },
+    {
+      "title_en": "Vir licensing deal; Cytokinetics wins China nod; Vistagen's social anxiety fail",
+      "url": "https://endpoints.news/vir-licensing-deal-cytokinetics-wins-china-nod-vistagens-social-anxiety-fail/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "버 바이오테크놀로지 라이선스 계약; 사이토키네틱스 중국 승인; 비스타젠 사회 불안 장애 임상 실패",
+      "summary_kr": "이번 과학 소식에는 여러 제약 및 생명공학 기업들의 주요 업데이트가 포함되어 있습니다. 첫째, 버 바이오테크놀로지(Vir Biotechnology)는 노르진 파마(Norgine Pharma)의 계열사와 라이선스 계약을 체결하여, 실험 단계에 있는 만성 델타형 간염 복합 치료제의 상업적 권리를 이전했습니다. 둘째, 사이토키네틱스(Cytokinetics)는 중국에서 중요한 승인을 획득하며 아시아 시장 진출에 박차를 가하고 있습니다. 반면, 비스타젠(Vistagen)은 사회 불안 장애 치료제 임상에서 실패를 겪으며 아쉬움을 남겼습니다. 이와 함께 뉴로크린(Neurocrine), 타그이디(TargED), 티-커스(T-CURX), 이뮤놈(Immunome), 코디악(Kodiak)에 대한 소식도 전해졌습니다. 이러한 소식들은 제약 및 바이오 산업의 활발한 연구 개발과 시장 동향을 보여주며, 각 기업의 성패가 명확히 엇갈리는 상황을 반영합니다."
+    },
+    {
+      "title_en": "AI biotech preview of 2026: Clinic takes center stage",
+      "url": "https://endpoints.news/ai-biotech-preview-of-2026-clinic-takes-center-stage/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2026년 AI 바이오텍 전망: 임상 연구가 핵심으로 부상",
+      "summary_kr": "크리스 발(Chris Bahl)은 2022년 말, 자신의 새로운 AI 스타트업의 미래에 대해 중요한 통찰을 얻었습니다. 그것은 '모델'보다 '분자(molecules)'가 더욱 중요해질 것이라는 깨달음이었습니다. 당시 발표된 두 편의 사전 인쇄 논문은 모두 임상적 적용 가능성을 입증하는 데이터의 중요성을 강조하고 있었고, 이는 단순히 이론적인 AI 모델 구축을 넘어 실제 임상 단계로의 전환이 필요함을 시사했습니다. 따라서 2026년에는 AI 바이오텍 분야에서 임상 연구와 실제 환자 치료에 적용될 수 있는 결과가 더욱 주목받을 것으로 예상됩니다. AI 기술이 신약 개발의 초기 단계에서 효율성을 높이는 것을 넘어, 실제 임상 시험을 통해 그 가치를 입증하는 것이 성공의 핵심 동인이 될 것입니다. 이러한 변화는 AI 바이오텍 산업의 성숙도를 보여주는 중요한 지표가 될 것입니다."
+    },
+    {
+      "title_en": "Post-Hoc Live: Endpoints winners and losers list for 2025",
+      "url": "https://endpoints.news/post-hoc-live-endpoints-winners-and-losers-list-for-2025/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "포스트-혹 라이브: 엔드포인트 선정 2025년 승자와 패자 목록 발표",
+      "summary_kr": "엔드포인트 뉴스(Endpoints News)의 연례 전통인 '승자와 패자 목록'이 돌아왔으며, 이번에는 '포스트-혹 라이브(Post-Hoc Live)'를 통해 동부 시간으로 목요일 정오에 공개될 예정입니다. 이 목록은 매년 제약 및 생명공학 산업에서 한 해 동안 두각을 나타냈거나 어려움을 겪었던 기업과 인물들을 선정하여 분석합니다. 이는 업계의 최신 동향과 주요 플레이어들의 성과를 한눈에 파악할 수 있는 중요한 자료를 제공합니다. 이번 라이브 이벤트에서는 2025년의 주요 성과와 실패 사례들을 심층적으로 다루며, 전문가들의 통찰력 있는 분석을 들을 기회를 제공할 것입니다. 이 목록은 업계 관계자들이 다음 해의 전략을 세우는 데 중요한 참고 자료가 되며, 투자자와 연구자 모두에게 유용한 정보를 제공합니다."
+    },
+    {
+      "title_en": "Addition Therapeutics raises $106.5M for all RNA 'jumping gene' therapies",
+      "url": "https://endpoints.news/addition-therapeutics-raises-106-5m-for-all-rna-jumping-gene-therapies/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "애디션 테라퓨틱스, 모든 RNA '점핑 유전자' 치료제 개발 위해 1억 650만 달러 유치",
+      "summary_kr": "유전자 삽입 분야의 도전적이고 경쟁적인 환경에 또 다른 자금력 있는 경쟁자가 등장했습니다. 캘리포니아 대학교 버클리 캠퍼스의 연구를 기반으로 설립된 스타트업인 애디션 테라퓨틱스(Addition Therapeutics)는 모든 RNA '점핑 유전자' 치료제 개발을 위한 새로운 방식에 대해 1억 650만 달러의 자금을 성공적으로 유치했습니다. 이 회사는 기존 유전자 삽입 기술의 한계를 극복하고 더 효율적이며 안전한 유전자 치료법을 개발하는 것을 목표로 합니다. 이번 대규모 자금 유치는 애디션 테라퓨틱스가 혁신적인 치료제 개발을 가속화하고, 유전 질환 및 암 치료에 새로운 가능성을 열어줄 것으로 기대됩니다. 이 분야는 기술적 난이도가 높지만, 성공할 경우 의학에 혁명적인 변화를 가져올 잠재력을 가지고 있으며, 이러한 투자는 그 잠재력을 현실로 만들 중요한 발판이 될 것입니다."
+    },
+    {
+      "title_en": "Hansa’s enzyme therapy flunks Phase 3 trial in rare kidney disease",
+      "url": "https://endpoints.news/hansas-enzyme-therapy-flunks-phase-3-trial-in-rare-kidney-disease/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "한사 바이오파마, 희귀 신장 질환 3상 임상시험에서 효소 치료제 실패",
+      "summary_kr": "한사 바이오파마(Hansa Biopharma)는 화요일에 자사의 IgG 표적 치료 후보 물질이 희귀 신장 질환에 대한 후기 단계 연구에서 실패했다고 발표했습니다. 이번 3상 임상시험의 실패는 대조군의 예상치 못한 높은 성과 때문으로 밝혀졌습니다. 스웨덴 생명공학 기업의 이믈리피다제(imlifidase)와 표준 치료법을 병용한 치료는 통계적으로 유의미한 우월성을 입증하지 못했습니다. 이는 희귀 질환 치료제 개발의 어려움을 다시 한번 보여주는 사례이며, 한사 바이오파마에게는 상당한 차질을 의미합니다. 이번 결과는 환자와 연구자들에게 아쉬움을 주지만, 희귀 질환 치료법 개발을 위한 지속적인 노력이 필요함을 강조하며, 향후 연구 방향에 대한 재평가를 요구할 것입니다."
+    },
+    {
+      "title_en": "GSK wins FDA approval for long-acting asthma drug",
+      "url": "https://endpoints.news/gsk-wins-fda-approval-for-long-acting-asthma-drug/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "GSK, 장기 지속형 천식 치료제 FDA 승인 획득",
+      "summary_kr": "GSK가 장기 지속형 천식 치료제에 대해 미국 식품의약국(FDA)의 승인을 획득했습니다. 이 염증성 질환 치료제는 최고 매출액이 30억 파운드(약 40억 달러)에 이를 수 있을 것으로 GSK는 전망하고 있습니다. FDA는 데페모키맙(depemokimab)을 12세 이상 환자를 위한 추가 치료제로 승인했습니다. 이는 특히 중증 천식 환자들에게 새로운 치료 옵션을 제공하며, 기존 치료법으로 증상 조절이 어려운 환자들에게 큰 도움이 될 것으로 기대됩니다. 이번 승인은 GSK의 호흡기 질환 포트폴리오를 강화하고, 천식 관리 분야에서 중요한 진전을 가져올 것입니다. 이 약물은 환자들의 삶의 질을 향상시키는 데 기여할 것으로 예상되며, 시장에 출시되면 천식 치료 시장에 상당한 영향을 미칠 것으로 보입니다."
+    },
+    {
+      "title_en": "Harbour makes $90M upfront deal with Bristol Myers for new antibodies",
+      "url": "https://endpoints.news/harbour-makes-90m-upfront-deal-with-bristol-myers-for-new-antibodies/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "하버 바이오메드, 브리스톨 마이어스 스큅과 9천만 달러 규모의 신규 항체 개발 계약 체결",
+      "summary_kr": "브리스톨 마이어스 스큅(Bristol Myers Squibb, BMS)이 중국의 신약 연구개발(R&D) 속도와 효율성을 활용하는 최신 대형 제약사가 되었습니다. 뉴욕에 본사를 둔 이 거대 제약사는 하버 바이오메드(Harbour BioMed)와의 계약을 통해 선지급금 및 기타 금액으로 최대 9천만 달러를 지불할 예정입니다. 이번 계약은 새로운 항체 개발을 위한 협력으로, 중국 생명공학 기업의 혁신적인 역량을 글로벌 제약사가 인정하는 추세를 반영합니다. BMS는 이번 파트너십을 통해 자사의 파이프라인을 강화하고, 빠르게 발전하는 중국 바이오 기술 시장에서 경쟁 우위를 확보할 것으로 기대됩니다. 이러한 전략적 협력은 전 세계 신약 개발 생태계의 변화를 보여주는 중요한 사례이며, 양사 모두에게 상호 이익이 되는 결과를 가져올 잠재력이 큽니다."
+    },
+    {
+      "title_en": "DBV charts new path to market peanut allergy patch after Phase 3 success",
+      "url": "https://endpoints.news/dbv-charts-new-path-to-market-peanut-allergy-patch-after-phase-3-success/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "DBV 테크놀로지스, 땅콩 알레르기 패치 3상 성공 후 시장 진출 새 경로 모색",
+      "summary_kr": "DBV 테크놀로지스(DBV Technologies)는 자사의 땅콩 알레르기 패치가 3상 임상시험에서 성공적인 결과를 보였다고 발표했습니다. 이는 규제 당국과의 오랜 논쟁 끝에 회사가 다시 한번 미국 식품의약국(FDA)에 제품을 제출할 수 있는 길을 열어주었습니다. 이번 임상시험에는 650명 이상의 어린이가 참여했으며, 패치가 땅콩 알레르기가 있는 어린이들에게 안전하고 효과적인 면역 치료법이 될 수 있음을 입증했습니다. 이 결과는 땅콩 알레르기로 고통받는 수많은 환자와 가족들에게 희망을 제공하며, 새로운 치료 옵션의 필요성을 강조합니다. DBV 테크놀로지스는 이번 성공을 바탕으로 FDA와의 논의를 재개하고 시장 진출을 위한 새로운 전략을 모색할 계획이며, 이는 해당 분야에 중요한 진전을 가져올 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Makary walks back talk of Covid-19 vaccine risk amid internal FDA debate",
+      "url": "https://endpoints.news/makary-walks-back-talk-of-covid-19-vaccine-risk-amid-internal-fda-debate/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "마카리 FDA 국장, 코로나19 백신 위험성 관련 발언 완화, 내부 논쟁 속 입장 조율",
+      "summary_kr": "마카리(Marty Makary) 미국 식품의약국(FDA) 국장은 최근 유출된 내부 메모에서 드러난 것보다 완화된 코로나19 백신에 대한 FDA의 견해를 제시했습니다. 그는 FDA가 백신에 가장 심각한 경고를 추가할 계획이 없다고 밝혔습니다. 이는 코로나19 백신의 안전성에 대한 내부 논의가 진행되는 가운데, 대중의 우려를 완화하고 공식적인 입장을 조율하려는 시도로 해석됩니다. 백신 안전성에 대한 정보 전달은 매우 민감한 사안으로, 규제 기관은 과학적 데이터와 공중 보건 메시지 사이의 균형을 유지해야 합니다. 마카리 국장의 발언은 FDA가 백신의 이점이 잠재적 위험보다 크다고 여전히 판단하고 있음을 시사하지만, 동시에 내부적으로는 다양한 의견이 논의되고 있음을 보여줍니다."
+    },
+    {
+      "title_en": "Verge Genomics' ALS drug fails as biotech shifts to partner model",
+      "url": "https://endpoints.news/verge-genomics-als-drug-fails-as-biotech-shifts-to-partner-model/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "버지 지노믹스, ALS 치료제 임상 실패 후 AI 기반 파트너십 모델로 전환",
+      "summary_kr": "엔드포인트 뉴스(Endpoints News)에 따르면, 버지 지노믹스(Verge Genomics)의 유일한 임상 단계 약물이 임상 시험에서 실패했으며, 이에 따라 이 캘리포니아 기반의 생명공학 기업은 AI 기반 신약 발굴 플랫폼을 위한 파트너십 모델로 전환할 예정입니다. 버지 지노믹스의 VRG50635는 임상 목표를 충족하지 못했습니다. 이번 실패는 희귀 신경퇴행성 질환인 근위축성 측삭 경화증(ALS) 치료제 개발의 어려움을 다시 한번 보여줍니다. 회사는 이제 자사의 강력한 AI 기반 플랫폼을 활용하여 다른 제약사들과 협력함으로써 새로운 약물 후보 물질을 발굴하고 개발하는 데 집중할 계획입니다. 이러한 전략적 변화는 자체 임상 개발의 위험을 분산하고, AI 기술의 가치를 극대화하려는 시도로 풀이되며, 미래 파이프라인 구축에 새로운 방향을 제시할 것입니다."
+    },
+    {
+      "title_en": "Mythic Therapeutics shuts down, ends ADC trial as funding dries up",
+      "description_en": "Mythic Therapeutics has ended operations, terminating its sole clinical trial after failing to raise enough money to move forward, Endpoints News has learned.\n\n The Boston-area biotech \"pursued various capital solutions during 2025 to fund its ...",
+      "url": "https://endpoints.news/mythic-therapeutics-shuts-down-ends-adc-trial-as-funding-dries-up/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Nektar's immunology drug misses in Phase 2b, execs cite enrollment errors",
+      "description_en": "Nektar Therapeutics said a Phase 2b study for its lead immunology drug failed in severe alopecia, but executives blamed the miss on trial enrollment errors and plan to advance the program into pivotal testing.  ...",
+      "url": "https://endpoints.news/nektars-immunology-drug-misses-in-phase-2b-execs-cite-enrollment-errors/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Pfizer bets big on obesity to offset major patent cliff",
+      "description_en": "Pfizer said it plans to start 15 new studies in obesity next year, many of them in Phase 3, as it seeks to replace about $17 billion in lost revenue by the end of the ...",
+      "url": "https://endpoints.news/pfizer-bets-big-on-obesity-to-offset-major-patent-cliff/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "J&J backs financing round for Stanford CAR-T cell therapy spinout Link Cell",
+      "description_en": "Link Cell Therapies launched Monday with a $60 million Series A round to fund the creation of the next wave of CAR-T therapies.\n\n The startup plans to go after the treatment of solid tumors, where ...",
+      "url": "https://endpoints.news/jj-backs-financing-round-for-stanford-car-t-cell-therapy-spinout-link-cell/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "FDA clears GSK’s twice-yearly asthma drug",
+      "description_en": "Exdensur is now the first asthma biologic to be approved for twice-yearly dosing, and could potentially change standard of care for those with severe disease.",
+      "url": "https://www.biopharmadive.com/news/fda-approval-gsk-twice-yearly-asthma-drug-depemokimab-exdensur/808121/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Peanut allergy patch succeeds in late-stage study 5 years after FDA rejection",
+      "description_en": "DBV Technologies plans to use the latest Phase 3 results in a new submission to U.S. regulators in 2026.",
+      "url": "https://www.biopharmadive.com/news/viaskin-peanut-allergy-patch-dbv-phase-3/808149/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "RA Capital backs drug for rare kind of chronic pain",
+      "description_en": "The investment firm co-led a $125 million Series A round for Ambros Therapeutics, a Vivek Ramaswamy co-founded company with a medicine nearing pivotal testing.",
+      "url": "https://www.biopharmadive.com/news/ambros-ra-capial-ramaswamy-chronic-pain-series-a-launch/808111/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Addition emerges with $100M to make gene therapies for chronic and rare diseases",
+      "description_en": "Backed by a handful of prominent investors including the Gates Foundation, the startup is pursuing an approach it believes can sidestep issues seen with traditional gene therapy technology.",
+      "url": "https://www.biopharmadive.com/news/addition-therapeutics-financing-rna-lipid-nanoparticle-gene-therapy/808038/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Developing a path forward in cancer cachexia",
+      "description_en": "Pfizer scientists have been working to advance understanding of – and potential treatments for – cachexia.",
+      "url": "https://www.biopharmadive.com/spons/developing-a-path-forward-in-cancer-cachexia/807572/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Nektar sees silver lining as autoimmune drug ‘narrowly’ misses in alopecia study",
+      "description_en": "Despite being unable to declare statistical success, the company claimed its therapy showed enough promise to support moving into late-stage testing.",
+      "url": "https://www.biopharmadive.com/news/nektar-rezpegaldesleukin-alopecia-areata-drug-results/808013/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "FDA ‘proactively’ hands J&J a voucher; Pfizer issues 2026 forecasts",
+      "description_en": "The FDA contacted J&J right after ASH to discuss using a special fast pass on a multiple myeloma regimen. Elsewhere, a new cell therapy player emerged and Sanofi cut deals with two startups.",
+      "url": "https://www.biopharmadive.com/news/tecvayli-voucher-pfizer-gilead-hiv-link-sanofi-dren/807885/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Enhertu combo cleared for use in frontline breast cancer",
+      "description_en": "The approval could help Enhertu, which is already a multibillion-dollar seller, supplant a regimen that’s been the standard of care for HER2-positive breast tumors for more than a decade.",
+      "url": "https://www.biopharmadive.com/news/enhertu-fda-approval-first-line-her2-breast-cancer/807969/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "‘Zombie’ biotech buyer Xoma to acquire Generation Bio",
+      "description_en": "The gene therapy developer has lost most of its value since going public in 2020 and saw a long road ahead for a delivery technology that had shown promise in preclinical tests.",
+      "url": "https://www.biopharmadive.com/news/xoma-generation-acquisition-zombie-biotech/807974/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "4DMT’s gene therapy hopeful for cystic fibrosis shows promise in Phase I trial",
+      "description_en": "4DMT is now examining the efficacy and safety of a low dose of 4D-710 in a Phase II trial in cystic fibrosis (CF).The post4DMT’s gene therapy hopeful for cystic fibrosis shows promise in Phase I trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/4dmt-4d-710-cystic-fibrosis-gene-therapy-phase-i-aerow/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "DBV to make new approval bid for VIASKIN Peanut on Phase III trial",
+      "description_en": "DBV received a complete response letter for the peanut allergy patch from the FDA in August 2020, citing adhesion and efficacy concerns with the patch.The postDBV to make new approval bid for VIASKIN Peanut on Phase III trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/dbv-to-make-new-approval-bid-for-viaskin-peanut-on-phase-iii-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Affibody’s ABY-271 breast cancer trial cleared to progress to next phase",
+      "description_en": "Affibody has received a recommendation from its Trial Review Committee (TRC) to proceed to the second part of its Phase I trial evaluating the radioligand therapy candidate ABY-271The postAffibody’s ABY-271 breast cancer trial cleared to progress to next phaseappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/affibody-aby-271/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Precision medicine approaches needed in oncology to match evolving SoC",
+      "description_en": "Targeted patient recruitment can increase the likelihood of trial success and help cultivate use of precision medicine.The postPrecision medicine approaches needed in oncology to match evolving SoCappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/precision-medicine-approaches-needed-in-oncology-to-match-evolving-soc/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null
+    },
+    {
+      "title_en": "Clinical Trials Arena Excellence Awards 2025: Kairos Pharma",
+      "url": "https://www.clinicaltrialsarena.com/excellence-awards/featured-company/2025-kairos-pharma/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2025 임상시험 아레나 엑설런스 어워드: 카이로스 파마, 혁신적 전립선암 임상으로 연구 개발상 수상",
+      "summary_kr": "카이로스 파마는 혁신적인 진행성 전립선암 임상 시험을 통해 '2025 임상시험 아레나 엑설런스 어워드'에서 연구 개발(R&D) 부문 상을 수상했습니다. 이 회사의 핵심 파이프라인인 ENV 105는 특히 진행성 전립선암 치료 분야에서 그 혁신성과 잠재력을 인정받았습니다. 이 수상은 카이로스 파마가 해당 질병에 대한 미충족 의료 수요를 해결하기 위해 기울인 노력을 반영합니다. ENV 105의 개발은 환자들에게 새로운 치료 옵션을 제공하고 삶의 질을 향상시킬 잠재력을 가지고 있습니다. 이번 수상은 임상 연구 분야에서 카이로스 파마의 선도적인 입지를 공고히 하는 중요한 이정표가 될 것입니다. 이러한 성과는 제약 산업 내 혁신과 발전을 장려하는 데 기여합니다."
+    },
+    {
+      "title_en": "First patient treated in trial of Beacon Therapeutics’ XLRP treatment",
+      "url": "https://www.clinicaltrialsarena.com/news/beacon-therapeutics-xlrp/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "비콘 테라퓨틱스, X-연관 망막색소변성증(XLRP) 유전자 치료제 임상에서 첫 환자 치료 시작",
+      "summary_kr": "비콘 테라퓨틱스는 X-연관 망막색소변성증(XLRP) 치료를 위한 잠재적 유전자 치료제 '라루-조바(laru-zova)'의 개방형 LANDSCAPE 임상 시험에서 첫 환자에게 약물 투여를 시작했다고 발표했습니다. XLRP는 심각한 유전성 망막 질환으로, 점진적인 시력 상실을 거쳐 결국 실명을 유발하며 현재 효과적인 치료법이 매우 제한적입니다. 이번 임상 시험은 라루-조바의 안전성과 효능을 평가하는 중요한 단계가 될 것입니다. 첫 환자 치료는 XLRP 환자들에게 새로운 희망을 제공하며, 비콘 테라퓨틱스가 이 분야에서 혁신적인 치료법을 개발하려는 노력을 보여줍니다. 이 유전자 치료제가 성공적으로 개발될 경우, XLRP로 고통받는 많은 환자들의 시력을 보존하고 삶의 질을 크게 개선할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Clinical Trials Arena Excellence Awards 2025: Atossa Therapeutics",
+      "url": "https://www.clinicaltrialsarena.com/excellence-awards/featured-company/2025-atossa-therapeutics/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2025 임상시험 아레나 엑설런스 어워드: 아토사 테라퓨틱스, 정밀 내분비 치료 부문 수상",
+      "summary_kr": "아토사 테라퓨틱스가 '2025 임상시험 아레나 엑설런스 어워드'에서 정밀 내분비 치료 분야의 연구 개발(R&D) 부문 상을 수상하는 영예를 안았습니다. 이번 수상은 아토사 테라퓨틱스가 호르몬 관련 질환에 대한 정밀 치료법 개발에 있어 보여준 혁신적인 접근과 뛰어난 성과를 인정받은 결과입니다. 특히 이 회사는 내분비 시스템에 초점을 맞춘 맞춤형 치료법 연구에 집중하여, 환자들에게 더욱 효과적이고 안전한 치료 옵션을 제공하기 위해 노력하고 있습니다. 이 상은 아토사 테라퓨틱스가 해당 분야에서 선도적인 역할을 수행하고 있음을 입증하며, 미래 의료 발전에 기여할 잠재력을 높이 평가받고 있음을 보여줍니다. 이러한 성과는 제약 및 바이오 산업 전반에 걸쳐 정밀 의학의 중요성을 다시 한번 강조합니다."
+    },
+    {
+      "title_en": "Clinical Trials Arena Excellence Awards 2025: BostonGene",
+      "url": "https://www.clinicaltrialsarena.com/excellence-awards/featured-company/2025-bostongene/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "2025 임상시험 아레나 엑설런스 어워드: 보스턴진, 연구 개발 및 혁신 부문 동시 수상",
+      "summary_kr": "보스턴진(BostonGene)은 '2025 임상시험 아레나 엑설런스 어워드'에서 연구 개발(Research & Development)과 혁신(Innovation) 두 개 부문에서 동시에 수상하는 쾌거를 이루었습니다. 이 다중 수상은 보스턴진이 임상 연구 분야에서 보여준 독보적인 기술력과 창의적인 접근 방식을 인정한 결과입니다. 특히, 이 회사는 암 치료 분야에서 환자 맞춤형 정밀 의학 솔루션을 제공하며 새로운 패러다임을 제시하고 있습니다. 그들의 혁신적인 연구는 질병 진단 및 치료 전략 수립에 기여하며, 환자 개개인의 특성을 고려한 최적의 치료법을 찾는 데 중요한 역할을 합니다. 이번 수상은 보스턴진이 암 연구 및 치료 분야의 선두 주자임을 확고히 하는 동시에, 미래 의료 혁신을 이끌어갈 잠재력을 증명합니다."
+    },
+    {
+      "title_en": "Aviceda Therapeutics to advance eye disease drug despite Phase IIb loss",
+      "url": "https://www.clinicaltrialsarena.com/news/aviceda-therapeutics-to-advance-eye-disease-drug-despite-phase-iib-loss/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "아비세다 테라퓨틱스, 2b상 임상 실패에도 안과 질환 치료제 개발 지속 추진",
+      "summary_kr": "아비세다 테라퓨틱스(Aviceda Therapeutics)가 최근 완료된 안과 질환 치료제 후보 물질의 2b상 임상 시험에서 예상치 못한 실패에도 불구하고, 해당 약물의 개발을 계속 추진할 것이라고 밝혔습니다. 이 회사는 2026년에 시작될 예정인 두 건의 3상 임상 시험을 통해 이 후보 물질을 추가적으로 평가할 계획입니다. 비록 초기 단계에서 어려움을 겪었지만, 아비세다는 이 약물의 잠재력에 대한 확신을 가지고 있으며, 이는 안과 질환으로 고통받는 환자들에게 새로운 희망을 제공할 수 있습니다. 3상 임상은 더 많은 환자를 대상으로 약물의 효능과 안전성을 광범위하게 검증하는 중요한 단계입니다. 이번 결정은 신약 개발의 복잡성과 도전을 보여주면서도, 환자들의 미충족 의료 수요를 해결하기 위한 제약사들의 지속적인 노력을 반영합니다."
+    },
+    {
+      "title_en": "Immunome seeks GSI inhibitor market entry on Phase III desmoid tumour win",
+      "url": "https://www.clinicaltrialsarena.com/news/immunome-varegacestat-phase-iii-desmoid-tumour-results/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "이뮤놈, 3상 데스모이드 종양 치료제 성공 기반 GSI 억제제 시장 진입 모색",
+      "summary_kr": "이뮤놈(Immunome)은 자사의 GSI(감마-세크레타제 억제제) 바레가세스타트(varegacestat)가 데스모이드 종양 치료를 위한 3상 임상 시험에서 긍정적인 결과를 얻음에 따라, 해당 시장 진입을 적극적으로 모색하고 있습니다. 만약 바레가세스타트가 미국 식품의약국(FDA)의 승인을 받게 된다면, 현재 데스모이드 종양 치료 시장을 지배하고 있는 옥시베오(Ogsiveo)의 독점적인 위치에 강력한 경쟁자가 될 것으로 예상됩니다. 데스모이드 종양은 희귀하고 공격적인 연조직 종양으로, 현재 효과적인 치료 옵션이 제한적입니다. 이뮤놈의 성공적인 임상 결과는 환자들에게 새로운 치료 대안을 제시하고, 시장 내 경쟁을 촉진하여 더 나은 의료 서비스로 이어질 가능성을 높입니다. 이번 진전은 이뮤놈의 혁신적인 연구 개발 능력을 입증하며, 희귀 질환 치료 분야에 중요한 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "New organoid atlas unveils four neurodevelopmental signatures",
+      "url": "https://www.thetransmitter.org/spectrum/new-organoid-atlas-unveils-four-neurodevelopmental-signatures/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-17",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-organoid-atlas.png",
+      "title": "새로운 오가노이드 아틀라스, 소두증, 간질 등 네 가지 신경발달 특징 규명",
+      "summary_kr": "최근 발표된 새로운 오가노이드 아틀라스는 뇌 발달 연구에 중요한 진전을 가져왔으며, 네 가지 독특한 신경발달 특징(neurodevelopmental signatures)을 밝혀냈습니다. 이 포괄적인 자원은 352명의 인구 집단에서 소두증, 다소뇌회증, 간질, 그리고 지적 장애와 관련된 상세한 데이터를 제공합니다. 연구진은 인간 뇌 오가노이드 모델을 활용하여 이러한 신경발달 장애의 기저 메커니즘을 심층적으로 분석했습니다. 이 아틀라스는 복잡한 뇌 질환의 병리학적 경로를 이해하는 데 필수적인 정보를 제공하며, 잠재적인 치료 표적을 식별하는 데 도움을 줄 것입니다. 이는 미래의 진단 및 치료 전략 개발에 있어 중요한 기반 자료가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Can neuroscientists decode memories solely from a map of synaptic connections?",
+      "url": "https://www.thetransmitter.org/brain-inspired/can-neuroscientists-decode-memories-solely-from-a-map-of-synaptic-connections/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-17",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-brain-inspired-277.png",
+      "title": "신경과학자들은 시냅스 연결 지도만으로 기억을 해독할 수 있을까? 전문가 논의",
+      "summary_kr": "“신경과학자들이 시냅스 연결 패턴 지도만을 통해 유기체의 ‘비평범한’ 기억을 해독할 수 있을까?”라는 질문에 대해 다섯 명의 전문가가 깊이 있는 논의를 펼쳤습니다. 이들은 뇌 연결성 분석을 통해 기억을 해독하려는 시도의 진전 상황, 잠재적 가능성, 그리고 직면한 난관에 대해 폭넓게 의견을 교환했습니다. 전문가들은 기억 해독의 복잡성을 강조하며, 단순히 뇌 연결성만으로는 완전한 기억 정보를 추출하기 어렵다는 점을 지적했습니다. 기억이 시냅스 연결뿐만 아니라 뉴런 활동의 동적인 패턴, 분자 수준의 변화 등 다양한 요소에 의해 형성되기 때문입니다. 그럼에도 불구하고, 뇌 연결 지도 연구는 기억 메커니즘을 이해하고 신경 질환을 치료하는 데 중요한 통찰력을 제공할 잠재력을 가지고 있습니다. 이 논의는 신경과학 분야의 흥미로운 도전과 미래 연구 방향을 제시합니다."
+    },
+    {
+      "title_en": "Phosphorylated tau exhibits antimicrobial activity capable of neutralizing herpes simplex virus 1 infectivity in human neurons",
+      "url": "https://www.nature.com/articles/s41593-025-02157-0",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "인산화된 타우 단백질, 인체 신경세포에서 헤르페스 심플렉스 바이러스 1형 감염 중화 항균 활성 보여",
+      "summary_kr": "새로운 연구에 따르면, 알츠하이머병과 관련된 단백질인 타우(tau)가 과인산화될 경우 병원성으로 간주되어 왔으나, 뇌의 선천 면역 체계의 일부로서 자연적인 기능을 하며 헤르페스 심플렉스 바이러스 1형(HSV-1)에 대한 보호 능력을 가짐이 밝혀졌습니다. 이 연구는 '네이처 신경과학(Nature Neuroscience)'에 온라인으로 게재되었습니다. 연구팀은 인산화된 타우가 인간 신경세포에서 HSV-1의 감염력을 중화시킬 수 있는 항균 활성을 나타낸다는 것을 발견했습니다. 이는 타우 단백질의 기능에 대한 기존의 이해를 확장하며, 알츠하이머병 연구에 새로운 관점을 제시합니다. 타우 단백질이 단순히 질병의 원인이 아니라, 특정 조건에서는 뇌 보호 메커니즘의 일부일 수 있다는 점은 향후 치료 전략 개발에 중요한 시사점을 제공합니다."
+    },
+    {
+      "title_en": "BOLD signal changes can oppose oxygen metabolism across the human cortex",
+      "url": "https://www.nature.com/articles/s41593-025-02132-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "인간 대뇌 피질에서 BOLD 신호 변화가 산소 대사와 상반될 수 있음이 밝혀져, fMRI 해석에 새 도전",
+      "summary_kr": "정량적 뇌 영상 기술을 사용한 새로운 연구에 따르면, 인간 대뇌 피질 전반에 걸쳐 산소 추출의 가변성 때문에 fMRI BOLD 신호와 대사 활동이 상반된 양상을 보일 수 있음이 밝혀졌습니다. 이 연구 결과는 '네이처 신경과학(Nature Neuroscience)'에 온라인으로 게재되었으며, 기존의 fMRI BOLD 신호 해석, 즉 신경 활동과의 직접적인 상관관계에 대한 통념적인 이해에 중요한 의문을 제기합니다. 일반적으로 BOLD 신호는 신경 활동 증가에 따른 혈류량 증가를 반영하는 것으로 해석되어 왔습니다. 그러나 이번 연구는 특정 영역에서는 BOLD 신호 변화가 산소 대사와 반대 방향으로 나타날 수 있음을 보여주어, 뇌 활동을 평가하는 데 있어 BOLD 신호의 해석에 더욱 신중한 접근이 필요함을 시사합니다. 이는 fMRI 연구의 방법론적 개선과 더 정확한 뇌 기능 매핑을 위한 새로운 방향을 제시합니다."
+    },
+    {
+      "title_en": "Detection of undiagnosed liver cirrhosis via AI-enabled electrocardiogram: a pragmatic, cluster-randomized clinical trial",
+      "url": "https://www.nature.com/articles/s41591-025-04058-y",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "AI 기반 심전도, 미진단 간경변증 발견율 크게 높여: 실용적 임상 시험 결과",
+      "summary_kr": "'네이처 의학(Nature Medicine)'에 게재된 연구에 따르면, AI 기반 심전도(ECG) 스크리닝 도구를 사용하여 진단되지 않은 진행성 만성 간 질환, 특히 간경변증을 기회적으로 발견하는 것이 기존의 표준 진료 방식보다 새로운 진단율을 크게 높이는 것으로 나타났습니다. 이번 실용적 클러스터 무작위 임상 시험은 45개 클리닉과 15,596건의 방문을 대상으로 진행되었습니다. 연구 결과, AI 기반 도구를 활용했을 때 간경변증과 같은 진행성 만성 간 질환의 조기 발견율이 유의미하게 증가했습니다. 이는 AI 기술이 일상적인 의료 환경에서 미진단 질환을 식별하고, 환자들이 적시에 치료를 받을 수 있도록 돕는 데 중요한 역할을 할 수 있음을 시사합니다. 이러한 접근 방식은 의료 자원의 효율성을 높이고, 궁극적으로 환자 예후를 개선하는 데 기여할 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "FDA approves first gene therapy from a non-profit organization, but pricing and access questions remain",
+      "url": "https://www.nature.com/articles/d41573-025-00207-7",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "FDA, 비영리 단체의 첫 유전자 치료제 승인: 가격 및 환자 접근성 문제 여전히 과제",
+      "summary_kr": "미국 식품의약국(FDA)이 비영리 단체에서 개발한 첫 유전자 치료제를 승인하는 역사적인 결정을 내렸습니다. 이 중대한 진전은 유전자 치료 분야의 혁신을 상징하며, 특히 비영리 부문이 신약 개발에 기여할 수 있는 가능성을 보여줍니다. 이 소식은 '네이처 리뷰 약물 발견(Nature Reviews Drug Discovery)'을 통해 알려졌습니다. 그러나 이번 승인에도 불구하고, 이 치료제의 가격 책정과 환자 접근성에 대한 중요한 질문들이 여전히 남아 있습니다. 유전자 치료제는 개발 비용이 매우 높아 고가로 책정되는 경우가 많아, 많은 환자들이 치료 혜택을 받기 어려운 현실적인 문제가 있습니다. 따라서 비영리 단체의 참여가 이러한 접근성 문제를 완화할 수 있을지에 대한 관심이 집중되고 있으며, 정책 입안자들과 제약 업계의 협력이 필요한 부분입니다."
+    },
+    {
+      "title_en": "Trends in target novelty in oncology R&amp;D",
+      "url": "https://www.nature.com/articles/d41573-025-00199-4",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "종양학 연구 개발(R&D)의 새로운 치료 표적 발굴 동향 분석",
+      "summary_kr": "'네이처 리뷰 약물 발견(Nature Reviews Drug Discovery)'에 게재된 이 기사는 종양학 연구 개발(R&D) 분야에서 새로운 치료 표적 발굴 동향을 심층적으로 분석하고 있습니다. 암 치료는 혁신적인 치료 표적을 발견하고 이를 기반으로 하는 약물을 개발하는 것이 매우 중요합니다. 연구는 최근 몇 년간 암 치료제 개발에 있어 기존의 잘 알려진 표적을 넘어 새로운 기전의 표적을 탐색하려는 노력이 증가하고 있음을 보여줍니다. 이러한 동향은 암의 복잡한 생물학적 특성을 이해하고, 기존 치료법에 반응하지 않는 환자들을 위한 새로운 치료 옵션을 제공하기 위한 것입니다. 새로운 표적 발굴은 면역항암제, 표적 치료제 등 차세대 암 치료법의 발전에 필수적이며, 이는 궁극적으로 암 환자의 생존율과 삶의 질 향상에 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Exploring the use of AI authors and reviewers at Agents4Science",
+      "url": "https://www.nature.com/articles/s41587-025-02963-8",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "Agents4Science에서 인공지능(AI) 저자 및 심사자 활용 가능성 탐색 연구",
+      "summary_kr": "'네이처 생명공학(Nature Biotechnology)'에 게재된 이 기사는 Agents4Science라는 플랫폼에서 인공지능(AI)을 저자와 심사자로 활용하는 방안에 대한 탐색적 연구를 다루고 있습니다. 과학 출판 분야에서 AI의 역할은 빠르게 확장되고 있으며, 이 연구는 AI가 학술 논문 작성 및 동료 심사 과정에 어떻게 통합될 수 있는지를 심층적으로 탐구합니다. AI 저자는 방대한 데이터를 분석하고 초고를 생성하는 데 잠재력을 가지며, AI 심사자는 논문의 일관성, 방법론적 결함, 표절 등을 효율적으로 검토하는 데 기여할 수 있습니다. 이 기술은 과학 출판의 효율성을 높이고, 연구자들이 핵심적인 과학적 발견에 더 집중할 수 있도록 도울 수 있습니다. 그러나 AI의 윤리적 사용, 편향성 문제, 그리고 인간의 비판적 사고와 통찰력을 대체할 수 있는지에 대한 논의도 활발하게 이루어지고 있습니다."
+    },
+    {
+      "title_en": "Targeting glycans for cancer immunotherapy",
+      "url": "https://www.nature.com/articles/s41587-025-02924-1",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "암 면역치료를 위한 글리칸 표적화 전략: 항체-렉틴 키메라의 탁월한 효능 입증",
+      "summary_kr": "'네이처 생명공학(Nature Biotechnology)'에 실린 연구는 암 면역치료의 새로운 접근법으로 글리칸(glycans)을 표적화하는 전략을 제시합니다. 이 연구는 항체-렉틴 키메라(AbLecs: Antibody–lectin chimeras)라는 새로운 면역치료 양식을 소개합니다. AbLecs는 암 환경에서 면역 억제에 기여하는 글리칸에 결합하여 이를 차단하도록 설계되었습니다. 연구 결과에 따르면, AbLecs는 시험관 내(in vitro) 및 생체 내(in vivo) 모두에서 항암 면역 반응을 현저히 강화하는 것으로 나타났습니다. 특히, 이들은 현재 승인된 암 치료제를 포함한 기존 항체 치료법보다 우수한 효능을 보였습니다. 이러한 발견은 암 치료에 있어 새로운 패러다임을 열 가능성이 있으며, 글리칸 표적화가 차세대 면역항암제 개발의 중요한 방향이 될 수 있음을 시사합니다."
+    },
+    {
+      "title_en": "Antibody-lectin chimeras for glyco-immune checkpoint blockade",
+      "url": "https://www.nature.com/articles/s41587-025-02884-6",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "당-면역 관문 차단을 위한 항체-렉틴 키메라: 암 면역치료의 새로운 지평",
+      "summary_kr": "최근 '네이처 생명공학(Nature Biotechnology)'에 발표된 연구에 따르면, 당-면역 관문(glyco-immune checkpoints)을 차단하는 항체-렉틴 키메라(antibody-lectin chimeras)가 암 면역치료에 상당한 이점을 제공할 수 있음이 밝혀졌습니다. 이 새로운 치료 전략은 암 세포 표면에 존재하는 특정 당 사슬(glycans)이 면역 세포의 기능을 억제하여 암의 성장을 돕는다는 사실에 기반을 둡니다. 항체-렉틴 키메라는 이러한 당-면역 관문을 효과적으로 차단함으로써, 인체의 면역 체계가 암 세포를 보다 효과적으로 인식하고 공격할 수 있도록 돕습니다. 이는 기존 면역 관문 억제제와는 다른 새로운 방식으로 면역 반응을 활성화시키는 잠재력을 가지고 있습니다. 이 연구는 암 면역치료 분야에서 혁신적인 진전을 의미하며, 다양한 암 유형에 적용될 수 있는 새로운 치료 옵션 개발에 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "The 25th Anniversary of a Nearly Unknown Health Policy Turning Point",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2515710?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-17",
+      "image_url": null,
+      "title": "거의 알려지지 않은 보건 정책 전환점의 25주년 재조명",
+      "summary_kr": "'뉴 잉글랜드 의학 저널(New England Journal of Medicine)'에 게재될 예정인 이 기사는 대중에게는 잘 알려지지 않았지만, 보건 정책에 중대한 영향을 미친 한 전환점의 25주년을 기념합니다. 기사는 특정 시점에 이루어진 정책 결정이 시간이 지나면서 의료 시스템과 공중 보건에 미친 장기적인 효과를 재조명합니다. 이러한 전환점은 종종 당시에는 그 중요성이 충분히 인식되지 못했으나, 이후 의료 서비스 제공, 접근성, 비용 효율성 등 다양한 측면에 지대한 영향을 미쳤습니다. 기사는 이러한 역사적 순간을 분석함으로써, 현재 보건 정책 입안자들이 미래의 도전을 해결하기 위한 통찰력을 얻을 수 있도록 돕고자 합니다. 이는 과거의 성공과 실패로부터 배우고, 더 나은 보건 시스템을 구축하기 위한 중요한 고찰의 기회를 제공합니다."
+    },
+    {
+      "title_en": "알파고 때 보여줬잖아? (데미스 하사비스)",
+      "url": "https://www.youtube.com/watch?v=7WMuH8BmtvY",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-17",
+      "image_url": "https://i4.ytimg.com/vi/7WMuH8BmtvY/hqhqdefault.jpg",
+      "title": "알파폴드와 AI의 미래: 데미스 하사비스의 통찰",
+      "summary_kr": "데미스 하사비스는 알파고가 보여줬던 것처럼 AI가 단백질 구조 예측에서 획기적인 성과를 이뤘음을 강조하며, 지난 50년간 수많은 과학자들이 15만 개의 단백질 구조를 규명하는 데 집중했지만, 알파폴드를 통해 불과 몇 년 만에 2억 개 이상의 단백질 구조를 예측할 수 있게 되었다고 설명합니다. 이는 AI가 단백질 구조의 근본적인 원리를 이해하고, 예측된 구조를 자체 예측과 비교하며 지속적으로 시스템을 개선해 나갈 수 있었기 때문입니다. 하사비스는 이 방대한 데이터를 기반으로 앞으로 생물학 분야에 엄청난 혁신이 일어날 것이라고 전망하며, 이러한 AI 기술의 발전을 통해 새로운 신약 개발 가속화, 환경 문제 해결, 기후 위기 대응 등 다양한 긍정적인 변화를 기대할 수 있다고 말합니다. 특히 그는 AI의 발전 속도가 매우 빠르며, 새로운 기술을 배우고 적응하는 능력이 중요하다고 강조하며, 앞으로 AI는 우리 삶의 생산성과 창의성을 증진시킬 것이라고 덧붙였습니다. 또한, AI의 발전과 함께 인류가 직면한 여러 문제들을 해결할 수 있을 것이라 기대하면서도, AI의 윤리적 문제와 안전성에 대한 논의가 필수적임을 시사했습니다. 그는 AI 기술의 잠재력과 위험성을 모두 인지하고, 책임감 있는 개발과 활용 방안에 대한 지속적인 대화와 성찰이 필요하다고 강조했습니다. 마지막으로, 그는 미래 사회는 AI와 함께 더욱 발전할 것이며, 이러한 변화를 예측하고 준비하는 것이 중요하다고 언급했습니다. 그는 특히 새로운 기술을 적극적으로 받아들이고 배우려는 자세가 중요하며, 우리 아이들이 AI 기술을 자유롭게 활용하여 혁신적인 결과물을 만들어내기를 기대한다고 밝혔습니다. 궁극적으로 AI는 인류의 삶을 더욱 풍요롭고 안전하게 만드는 데 기여할 것이라고 전망했습니다."
+    },
+    {
+      "title_en": "아직 풀어야할 숙제들 (얀 르쿤)",
+      "url": "https://www.youtube.com/watch?v=vGB8JuWVkew",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-17",
+      "image_url": "https://i3.ytimg.com/vi/vGB8JuWVkew/hqhqdefault.jpg",
+      "title": "로봇의 미래, 아직 풀어야 할 숙제들",
+      "summary_kr": "현재 로봇 산업은 테슬라 옵티머스 팀의 휴머노이드 로봇 개발과 같이 의미 있는 진전을 보여주며 로봇 산업 전체에 새로운 활력을 불어넣고 있습니다. 이러한 발전은 과거 10~20년간 침체되었던 로봇 산업에 새로운 가능성을 제시하고 있습니다. 특히, AI와 로봇 공학의 융합은 로봇이 인간과의 협업에서 더 효율적인 역할을 수행할 수 있도록 만들 것으로 기대됩니다.  하지만 아직 해결해야 할 과제들이 남아있습니다. 특히, 로봇이 인간처럼 복잡하고 맥락적인 상황을 이해하고, 그에 맞는 계획을 세우는 능력은 아직 초기 단계입니다.  예를 들어, 로봇이 집안일을 하거나 요리를 하는 것처럼 다양한 작업을 수행하기 위해서는 단순히 정해진 동작을 반복하는 것을 넘어, 상황을 인지하고 유연하게 대처하는 능력이 필요합니다.  현재의 로봇은 이러한 복잡한 과제를 수행하는 데 어려움을 겪고 있으며, 특히 인간에게 자연스럽게 느껴지는 수준의 행동 계획을 세우는 것은 매우 어려운 문제입니다.  영상을 기반으로 한 학습 방식은 로봇이 세상의 작동 방식을 이해하고 스스로 계획을 세우도록 하는 데 중요한 역할을 할 수 있습니다.  하지만 현재로서는 영상 기반 학습만으로는 충분한 진전을 이루기 어렵다는 점도 지적되었습니다.  로봇 공학 분야에서 박사 과정을 고민하는 학생들에게는 이러한 현실적인 어려움에도 불구하고, 여전히 혁신적인 연구를 수행할 수 있는 많은 기회가 존재합니다.  궁극적으로는 AI가 세상의 복잡성을 학습하고, 이를 바탕으로 인간과 상호작용하며, 인간의 삶을 풍요롭게 만드는 미래를 기대합니다."
+    },
     {
       "title_en": "The fast and the future-focused are revolutionizing motorsport",
       "url": "https://www.technologyreview.com/2025/12/15/1127432/the-fast-and-the-future-focused-are-revolutionizing-motorsport/",
