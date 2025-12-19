@@ -129,7 +129,7 @@ def get_gemini_batch_summary(articles_batch):
     # 2. API 호출
     for attempt in range(5): # 배치 실패 시 5번까지 재시도
         try:
-            log(f"  📤 [시도 {attempt+1}/{MAX_RETRIES}] 기사 {len(articles_batch)}개 요약 요청 중...", "INFO")
+            log(f"  📤 [시도 {attempt+1}/{max_retries}] 기사 {len(articles_batch)}개 요약 요청 중...", "INFO")
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt_full,
