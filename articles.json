@@ -1,7 +1,67 @@
 {
-  "last_updated": "2025-12-21 01:01:23",
+  "last_updated": "2025-12-22 00:51:58",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "Top Cancer Stories of 2025",
+      "url": "https://www.the-scientist.com/top-cancer-stories-of-2025-73859",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-22",
+      "image_url": null,
+      "title": "2025년 암 연구의 주요 성과와 동향",
+      "summary_kr": "2025년은 암 연구 분야에서 혁신적인 발견과 중요한 진전이 이루어진 한 해였습니다. 과학자들은 암 발생을 유발하는 핵심 요인들을 규명하기 위해 바이러스 감염, 장내 미생물총, 그리고 환경적 노출 요인(엑스포솜) 등 다양한 측면을 깊이 있게 탐구했습니다. 특히, 바이러스가 암을 유발하는 메커니즘과 장내 미생물 환경이 암의 성장 및 전이에 미치는 영향에 대한 심도 있는 연구 결과들이 발표되었습니다. 또한, 개인의 총체적인 환경 노출을 의미하는 엑스포솜이 암 발병 위험을 높이는 과정을 이해하려는 노력이 이어지면서, 예방 전략 수립에 기여했습니다. 이와 함께 질병을 더 정확하고 빠르게 진단할 수 있는 새로운 방법론과 환자 맞춤형 치료 효과를 극대화할 수 있는 혁신적인 치료법 개발에도 상당한 진전이 있었습니다. 이러한 다각적인 연구들은 암의 원인 규명부터 효과적인 진단 및 치료에 이르기까지 전반적인 암 관리 패러다임을 개선하는 데 중요한 발판을 마련했습니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Md Abu Taher",
+      "url": "https://www.the-scientist.com/postdoc-portrait-md-abu-taher-73869",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-22",
+      "image_url": null,
+      "title": "Md Abu Taher 박사후 연구원: 초고속 레이저 물질 공정 연구의 선구자",
+      "summary_kr": "Md Abu Taher 박사후 연구원은 초고속 레이저와 물질 간의 상호작용을 심층적으로 연구하는 과학자입니다. 그의 연구는 첨단 물질 가공 기술의 발전을 목표로 하며, 레이저가 물질과 만났을 때 발생하는 복잡한 물리적 현상을 이해하는 데 중점을 둡니다. 특히 초고속 레이저는 매우 짧은 시간 동안 강력한 에너지를 전달하여 물질의 미세 구조를 정밀하게 변화시킬 수 있는 잠재력을 가집니다. 이러한 특성은 기존 가공 방식으로는 불가능했던 초정밀 가공, 나노 스케일 구조 형성, 그리고 신소재 개발에 필수적인 기술로 평가받고 있습니다. Md Abu Taher 연구원의 노력은 반도체, 의료기기, 항공우주 등 다양한 산업 분야에서 혁신적인 제조 공법을 구현하고 새로운 물질 특성을 탐구하는 데 중요한 기반을 제공할 것으로 기대됩니다. 그의 연구는 미래 첨단 기술 발전에 핵심적인 역할을 할 것입니다."
+    },
+    {
+      "title_en": "STAT+: Mass General Brigham bolstered its bottom line. Other Mass. hospital groups reported multimillion losses",
+      "url": "https://www.statnews.com/2025/12/21/mass-general-brigham-finances/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-22",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/02/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_ryanAssemblyRow4biz--645x645.jpg",
+      "title": "매사추세츠 종합병원 브리검, 재정 개선으로 순이익 증대... 다른 병원 그룹들은 수백만 달러 손실 기록",
+      "summary_kr": "매사추세츠 주 병원들이 전반적으로 불확실성과 우려에 직면해 있음에도 불구하고, 이 주의 최대 의료 시스템인 매스 제너럴 브리검(Mass General Brigham, MGB)은 지난 한 해 동안 재정 상태가 크게 개선된 것으로 나타났습니다. 다른 많은 매사추세츠 병원 그룹들이 수백만 달러 규모의 손실을 보고한 것과는 대조적인 결과입니다. 이는 경제적 불확실성, 운영 비용 증가, 인력 부족 등 복합적인 요인으로 인해 많은 의료기관이 어려움을 겪고 있는 상황에서 이룬 성과입니다. MGB는 이러한 난관 속에서도 견고한 재무 관리와 효율적인 운영 전략을 통해 순이익을 증대시키며 재정 건전성을 강화할 수 있었습니다. 이번 실적은 MGB가 어려운 의료 환경 속에서도 탁월한 회복력과 경영 능력을 보여주었음을 시사합니다. 따라서 MGB의 긍정적인 재정 성과는 주 전역의 다른 병원들이 겪고 있는 재정난과 극명한 대비를 이루며, 의료 산업의 양극화된 현실을 드러내고 있습니다."
+    },
+    {
+      "title_en": "Research Reveals the Optimal Way to Optimize",
+      "url": "https://www.wired.com/story/researchers-discover-the-optimal-way-to-optimize/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-22",
+      "image_url": "https://media.wired.com/photos/693fdfa96b2907698cec70a5/master/pass/simplex-method-cr.Nash-Weerasekera-Lede.jpeg",
+      "title": "심플렉스 방법론, 최적화의 '궁극적 한계' 도달: 추가 개선 불가능 입증",
+      "summary_kr": "복잡한 물류 제약을 효과적으로 해결하는 데 광범위하게 활용되는 핵심 최적화 기법인 심플렉스 방법론의 선도적인 접근 방식이 더 이상 개선될 여지가 없다는 연구 결과가 발표되었습니다. 이번 연구는 심플렉스 방법론이 이미 최적의 성능에 도달하여, 추가적인 효율성 향상이 불가능하다는 점을 명확히 밝혔습니다. 이는 수십 년간 수많은 연구자들이 이 기법의 효율성을 높이기 위해 노력해왔음에도 불구하고, 현재의 심플렉스 알고리즘이 이론적 한계에 다다랐음을 의미합니다. 특히, 물류, 생산 계획, 자원 할당 등 다양한 분야에서 심플렉스 방법론에 의존하는 기업이나 기관들은 현재 수준의 효율성을 최대치로 활용해야 할 것입니다. 이번 연구는 최적화 분야에서 심플렉스 방법론의 위치를 재정립하고, 향후 새로운 최적화 패러다임의 필요성을 시사하는 중요한 발견으로 평가됩니다. 따라서 연구자들은 이제 심플렉스 방법론의 성능 향상보다는, 다른 혁신적인 최적화 기법 개발이나 기존 방식의 보완적 활용에 초점을 맞출 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Cytokinetics set to battle Bristol Myers as FDA approves heart drug",
+      "url": "https://www.biopharmadive.com/news/cytokinetics-myqorzo-fda-approval-obstructive-hypertrophic-cardiomyopathy-camzyos/808456/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-22",
+      "image_url": null,
+      "title": "사이토키네틱스, 심장병 치료제 '미코르조' FDA 승인 획득으로 브리스톨 마이어스와 경쟁 예고",
+      "summary_kr": "오랜 역사를 지닌 사이토키네틱스가 마침내 자사의 심장병 치료제 '미코르조'(Myqorzo)에 대해 미국 식품의약국(FDA)의 승인을 획득했습니다. 이는 회사 설립 이래 첫 번째 신약 승인으로, 사이토키네틱스에게는 매우 중요한 이정표가 됩니다. 이번 승인으로 미코르조는 이미 시장에서 강력한 입지를 구축하고 있는 브리스톨 마이어스 스큅(BMS)의 심장병 치료제 '캄지오스'(Camzyos)와 직접적인 경쟁을 펼치게 될 것입니다. 캄지오스는 올해 매출 10억 달러를 돌파할 것으로 예상되는 블록버스터 약물로, 치열한 시장 경쟁이 불가피할 전망입니다. 사이토키네틱스는 미코르조의 임상적 이점을 바탕으로 시장 점유율을 확보하기 위해 노력할 것으로 보입니다. 이번 FDA 승인은 심장병 환자들에게 새로운 치료 옵션을 제공할 뿐만 아니라, 두 제약사 간의 혁신 경쟁을 촉진할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Not playing around: Why neuroscience needs toy models",
+      "url": "https://www.thetransmitter.org/theoretical-neuroscience/not-playing-around-why-neuroscience-needs-toy-models/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-22",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-Ghosh-Toy-Models-525.png",
+      "title": "수십억 파라미터 시대에도 여전히 필수적인 이유: 신경과학에 '장난감 모델'이 필요한 까닭",
+      "summary_kr": "최근 인공지능 및 신경과학 분야에서는 수십억 개의 파라미터를 가진 거대 모델들이 급부상하며 복잡한 시스템을 분석하고 예측하는 데 놀라운 성능을 보여주고 있습니다. 이러한 방대한 모델의 등장은 신경과학 연구의 새로운 지평을 열었지만, 한편으로는 단순화된 모델의 가치에 대한 의문을 제기하기도 합니다. 그러나 저자는 이러한 추세 속에서도 소수의 뉴런만을 포함하는 '장난감 모델(toy models)'이 신경과학 연구에 있어 여전히 필수적이라고 강조합니다. 이 간소화된 모델들은 복잡한 뇌 기능의 핵심 원리를 추출하고 특정 가설을 명확히 검증하는 데 탁월한 효율성을 제공합니다. 나아가, 저자는 '장난감 모델'이 신경과학이 필요로 하는 모든 것을 제공할 수도 있다는 대담한 주장을 펼치며, 복잡성 속에서 본질적인 통찰력을 얻는 데 그 중요성이 결코 과소평가되어서는 안 된다고 역설합니다. 결론적으로, 거대 모델의 발전이 눈부시더라도 신경과학은 본질적인 질문에 답하기 위해 '장난감 모델'이 제공하는 명료하고 강력한 분석 도구를 적극적으로 활용해야 할 것입니다."
+    },
     {
       "title_en": "US Research Funding Under Fire",
       "url": "https://www.the-scientist.com/us-research-funding-under-fire-73872",
