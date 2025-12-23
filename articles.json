@@ -1,7 +1,747 @@
 {
-  "last_updated": "2025-12-22 00:51:58",
+  "last_updated": "2025-12-23 01:07:41",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "Welcome to Kenya’s Great Carbon Valley: a bold new gamble to fight climate change",
+      "url": "https://www.technologyreview.com/2025/12/22/1130153/geothermal-energy-carbon-capture-kenya-climate-solution/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "케냐의 ‘위대한 탄소 계곡’에 오신 것을 환영합니다: 기후 변화에 맞설 대담한 새 도전",
+      "summary_kr": "케냐 중남부에 위치한 얕은 담수 분지인 나이바샤 호수 주변 지역은 지질학적으로 매우 활발한 모습을 보인다. 1860년대에 분출했던 롱고노트 산의 화산재가 여전히 땅속에 남아 있으며, 흑요석 동굴과 뾰족한 돌탑들이 지면 틈새에서 뿜어져 나오는 증기를 감싸고 있다. 이러한 지열 활동은 기후 변화에 대처하기 위한 새로운 시도에 활용될 잠재력을 보여준다. 이 지역은 탄소 포집 및 저장 기술을 통해 대기 중 이산화탄소를 줄이는 데 기여할 수 있는 독특한 지리적 특성을 가지고 있다. 즉, 지구의 자연적인 활동을 활용하여 환경 문제 해결에 기여하려는 대담한 접근 방식이 이곳에서 시험되고 있다."
+    },
+    {
+      "title_en": "This company is developing gene therapies for muscle growth, erectile dysfunction, and “radical longevity”",
+      "url": "https://www.technologyreview.com/2025/12/22/1130288/gene-therapies-muscle-growth-erectile-dysfunction-radical-longevity/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "이 회사, 근육 성장, 발기부전 및 “급진적 수명 연장”을 위한 유전자 치료제 개발 중",
+      "summary_kr": "다음 달, 몇몇 자원봉사자들이 비범한 임상 시험의 일환으로 두 가지 실험적인 유전자 치료제를 주입받을 예정이다. 이 치료제들은 잠재적인 수명 연장 요법이라고 시험을 주관하는 Unlimited Bio의 CEO 이반 모르구노프가 밝혔다. 그의 장기적인 목표는 급진적인 인간 수명 연장을 달성하는 것이다. 이번 임상 시험은 근육 성장 촉진과 발기부전 치료뿐만 아니라, 궁극적으로는 인간의 노화 과정을 늦추거나 역전시켜 수명을 크게 늘리는 것을 목표로 한다. 이는 유전자 치료 기술이 단순한 질병 치료를 넘어 인간의 생물학적 한계를 확장하려는 야심 찬 시도임을 보여준다."
+    },
+    {
+      "title_en": "NAC controls nascent chain fate through tunnel sensing and chaperone action",
+      "url": "https://www.nature.com/articles/s41586-025-10058-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "NAC 단백질, 터널 감지 및 샤페론 작용을 통해 신생 사슬의 운명 제어",
+      "summary_kr": "이 연구는 NAC(Nascent Polypeptide-Associated Complex) 단백질이 리보솜 터널 내에서 합성되는 신생 폴리펩타이드 사슬의 운명을 어떻게 조절하는지에 대한 중요한 메커니즘을 밝혀냈다. NAC는 리보솜 터널을 통해 나오는 신생 사슬의 특정 신호를 감지하여 단백질 접힘(folding) 경로를 안내하거나, 다른 샤페론 단백질들과 협력하여 올바른 구조를 형성하도록 돕는 역할을 한다. 이러한 조절은 단백질이 세포 내에서 기능적으로 활성화되는 데 필수적이며, 잘못된 접힘으로 인한 질병 발생을 방지하는 데 기여한다. 이 발견은 세포 내 단백질 품질 관리 시스템에 대한 이해를 심화시키고, 관련 질병 연구에 중요한 통찰력을 제공한다."
+    },
+    {
+      "title_en": "Non-equilibrium snapshots of ligand efficacy at the μ-opioid receptor",
+      "url": "https://www.nature.com/articles/s41586-025-10056-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "뮤-오피오이드 수용체에서 리간드 효능의 비평형 스냅샷 분석",
+      "summary_kr": "이 연구는 뮤-오피오이드 수용체(μ-opioid receptor)와 다양한 리간드(ligand)들이 상호작용하는 과정을 비평형 상태에서 상세하게 관찰한 결과를 제시한다. 기존 연구들이 주로 평형 상태에서의 리간드 결합을 다루었다면, 이 연구는 실제 생체 내 환경과 유사한 동적인 비평형 상태에서 리간드가 수용체에 결합하고 활성화되는 순간적인 \"스냅샷\"을 포착했다. 이를 통해 연구진은 리간드의 결합 효능이 시간 경과에 따라 어떻게 달라지는지, 그리고 이것이 수용체의 기능적 반응에 어떤 영향을 미치는지에 대한 새로운 통찰력을 얻었다. 이 발견은 오피오이드 진통제 개발 및 오피오이드 중독 치료제 연구에 있어 중요한 기반을 제공할 것으로 기대된다."
+    },
+    {
+      "title_en": "Daily briefing: Explore 2025 with Leif Penguinson",
+      "url": "https://www.nature.com/articles/d41586-025-04120-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "일일 브리핑: 라이프 펭귄슨과 함께하는 2025년 탐험",
+      "summary_kr": "이 기사는 네이처(Nature)에서 발행된 2025년 12월 22일자 일일 브리핑으로, 라이프 펭귄슨(Leif Penguinson)이라는 가상의 인물 또는 캐릭터와 함께 한 해를 탐험하는 내용을 담고 있다. 특히, 기사 내용에는 \"올해 모든 게임에서 펭귄을 찾아낼 수 있을까요?\"라는 질문이 포함되어 있어, 독자들에게 흥미롭고 유쾌한 방식으로 한 해의 주요 과학 이슈나 재미있는 사실들을 소개하려는 의도가 엿보인다. 이는 과학 저널이 독자들에게 정보를 전달하는 동시에 즐거움을 제공하려는 시도의 일환으로 보인다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Deepika Godugu",
+      "url": "https://www.the-scientist.com/postdoc-portrait-deepika-godugu-73870",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "박사후 연구원 인물 탐구: 디피카 고두구",
+      "summary_kr": "이 기사는 암 치료제 개발 분야에서 활약하는 박사후 연구원 디피카 고두구(Deepika Godugu)의 연구 활동을 조명한다. 고두구 박사는 세포 기반 분석법과 동물 종양 모델을 활용하여 새로운 항암제를 개발하고 그 효능을 평가하는 데 전념하고 있다. 그녀의 연구는 실험실 단계에서 유망한 항암 후보 물질을 발굴하고, 이를 실제 임상 적용 가능성을 검증하는 중요한 과정을 포함한다. 이러한 노력은 암 환자들에게 더 효과적이고 안전한 치료법을 제공하기 위한 필수적인 단계이며, 항암 연구 분야에 중요한 기여를 하고 있다."
+    },
+    {
+      "title_en": "Top Cell Biology Stories of 2025",
+      "url": "https://www.the-scientist.com/top-cell-biology-stories-of-2025-73881",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "2025년 최고의 세포 생물학 뉴스",
+      "summary_kr": "이 기사는 2025년 한 해 동안 세포 생물학 분야에서 가장 큰 관심과 주목을 받았던 주요 연구 성과 및 소식들을 정리하여 소개한다. 세포 생물학은 생명 현상의 근원인 세포의 구조, 기능, 그리고 상호작용을 연구하는 학문으로, 매년 혁신적인 발견들이 쏟아져 나온다. 이 보고서는 유전자 편집 기술의 발전, 새로운 세포 소기관의 기능 규명, 질병 치료를 위한 세포 기반 접근법 등 다양한 주제들을 다룰 것으로 예상된다. 독자들은 이를 통해 최신 세포 생물학 트렌드를 파악하고, 미래 과학 연구 방향에 대한 통찰력을 얻을 수 있을 것이다."
+    },
+    {
+      "title_en": "Targeting RGS14 with AI-Guided Docking and Biochemical Assays",
+      "url": "https://www.the-scientist.com/targeting-rgs14-with-ai-guided-docking-and-biochemical-assays-73873",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "AI 기반 도킹 및 생화학적 분석을 통한 RGS14 표적화 연구",
+      "summary_kr": "이 웹 세미나에서는 로버트 로워리(Robert Lowrey)와 데이비드 사이데로브스키(David Siderovski) 박사가 인공지능(AI)을 활용한 혁신적인 신약 개발 접근법에 대해 논의할 예정이다. 특히, 이들은 기존 약물 개발이 어려웠던 단백질인 RGS14를 표적으로 하는 연구 사례를 중심으로 발표할 것이다. AI 기반 도킹 기술은 잠재적인 약물 후보 물질이 RGS14 단백질과 어떻게 결합할지 예측하는 데 사용되며, 이후 생화학적 분석을 통해 그 효능과 특이성을 검증한다. 이 웹 세미나는 AI가 복잡한 단백질을 표적으로 하는 신약 개발 과정을 어떻게 가속화하고 성공률을 높일 수 있는지에 대한 최신 통찰력을 제공할 것이다."
+    },
+    {
+      "title_en": "Kennedy ‘deeply committed to ending animal experimentation’",
+      "url": "https://www.science.org/content/article/kennedy-deeply-committed-ending-animal-experimentation",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "케네디, \"동물 실험 종식에 깊이 헌신\"",
+      "summary_kr": "미국 보건복지부(HHS) 장관 케네디는 동물 실험 종식에 대한 강한 의지를 표명했습니다. 그는 특히 미국의 원숭이 수입을 중단하고, 연구용 영장류의 은퇴를 추진하겠다고 밝혔습니다. 이는 동물 복지 증진과 과학 연구의 윤리적 기준 강화에 대한 그의 확고한 신념을 보여주는 조치입니다. 장관의 이러한 발언은 연구 공동체와 동물 권리 옹호자들 사이에서 큰 반향을 불러일으킬 것으로 예상됩니다. 향후 동물 실험 대체 방법 개발 및 적용에 대한 논의가 더욱 활발해질 것으로 보입니다. 이번 발표는 연구 윤리와 동물 복지에 대한 사회적 요구가 커지는 시점에서 중요한 의미를 가집니다."
+    },
+    {
+      "title_en": "This fish seems to use its bizarre skull like a drum",
+      "url": "https://www.science.org/content/article/fish-seems-use-its-bizarre-skull-drum",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "이 물고기는 기이한 두개골을 북처럼 사용한다",
+      "summary_kr": "락헤드 포처(rockhead poacher)라는 특이한 물고기가 자신의 기이한 두개골을 북처럼 활용하여 소통하는 것으로 보인다는 연구 결과가 나왔습니다. 이 물고기는 비정상적인 두개골 구조를 가지고 있는데, 과학자들은 이러한 독특한 해부학적 특징이 의사소통에 중요한 역할을 할 수 있다고 추정하고 있습니다. 이는 수중 환경에서 소리를 이용한 의사소통 방식에 대한 새로운 통찰을 제공하며, 동물의 진화와 행동에 대한 이해를 넓히는 데 기여할 것입니다. 이 발견은 해당 종의 생태학적 연구에 새로운 방향을 제시할 것으로 기대되며, 다른 수중 생물들의 소리 활용 방식에 대한 추가 연구를 촉발할 가능성도 있습니다."
+    },
+    {
+      "title_en": "Watch these raindrops turn into rolling ‘sandballs’",
+      "url": "https://www.science.org/content/article/watch-these-raindrops-turn-rolling-sandballs",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "빗방울이 굴러다니는 ‘모래 공’으로 변하는 현상 포착",
+      "summary_kr": "최근 한 연구에서 빗방울이 땅에 떨어지면서 굴러다니는 ‘모래 공(sandballs)’으로 변하는 흥미로운 현상이 관찰되었습니다. 이 놀라운 발견은 빗방울이 이전에 생각했던 것보다 최대 100배 더 강력한 침식력을 가질 수 있음을 시사합니다. 빗방울이 토양 표면과 상호작용하는 방식에 대한 전통적인 이해를 뒤집는 결과로, 토양 침식 과정에 대한 재평가가 필요함을 보여줍니다. 이러한 현상은 특히 건조하거나 반건조 지역의 지형 변화 연구에 중요한 영향을 미칠 수 있으며, 농업 및 환경 보호 분야에도 새로운 시사점을 제공할 것입니다. 이 현상에 대한 추가 연구는 효율적인 침식 방지 대책 마련에 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Sun’s gravitational lens could reveal alien planets’ surfaces",
+      "url": "https://www.science.org/content/article/sun-s-gravitational-lens-could-reveal-alien-planets-surfaces",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "태양의 중력 렌즈, 외계 행성 표면 밝혀낼 가능성 제시",
+      "summary_kr": "태양의 중력 렌즈 현상을 활용하여 외계 행성의 표면을 상세히 관찰할 수 있다는 대담한 개념이 제시되었습니다. 이 혁신적인 아이디어는 태양의 강력한 중력장을 렌즈처럼 사용하여 멀리 떨어진 외계 행성의 빛을 확대하고 집중시키는 원리를 이용합니다. 이를 위해서는 명왕성보다 10배나 먼 거리로 망원경을 보내야 하는 전례 없는 기술적 도전이 필요합니다. 만약 이 개념이 성공적으로 구현된다면, 인류는 외계 행성의 지형, 대기 조성, 심지어 생명체의 흔적까지도 탐색할 수 있는 획기적인 기회를 얻게 될 것입니다. 이는 우주 탐사 및 외계 생명체 탐색의 새로운 지평을 열 잠재력을 가지고 있으며, 천문학계에 큰 반향을 일으키고 있습니다."
+    },
+    {
+      "title_en": "Deer urine glows like holiday lights in the breeding season",
+      "url": "https://www.science.org/content/article/deer-urine-glows-holiday-lights-breeding-season",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "사슴 소변, 번식기에 홀리데이 조명처럼 빛나는 현상 발견",
+      "summary_kr": "사슴의 소변이 번식기에 마치 홀리데이 조명처럼 빛을 내는 '광발광(photoluminescence)' 현상이 발견되었습니다. 이 흥미로운 현상은 사슴들이 서로 의사소통하는 방식의 하나일 수 있다는 가설을 제시합니다. 연구자들은 이 빛이 번식 신호나 영역 표시와 같은 사회적 메시지를 전달하는 데 사용될 가능성을 탐구하고 있습니다. 이러한 발견은 사슴의 행동 생태학에 대한 기존의 이해를 확장하며, 야생동물의 복잡한 의사소통 체계에 대한 새로운 통찰을 제공합니다. 이는 육안으로는 관찰하기 어려운 화학적 및 시각적 신호의 중요성을 강조하며, 동물 행동 연구에 새로운 질문을 던지고 있습니다."
+    },
+    {
+      "title_en": "Will NIH’s new director reform his agency—or destroy it?",
+      "url": "https://www.science.org/content/article/will-nih-s-new-director-reform-his-agency-or-destroy-it",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "NIH 신임 국장, 기관 개혁할 것인가 파괴할 것인가?",
+      "summary_kr": "미국 국립보건원(NIH)의 신임 국장으로 임명된 제이 바타차리야가 기관을 개혁할지, 아니면 위기에 빠뜨릴지에 대한 우려와 논쟁이 커지고 있습니다. 바타차리야는 현재 자신이 기관을 효과적으로 이끌고 있으며 NIH의 최선의 이익을 위해 행동하고 있다는 점을 설득하는 데 어려움을 겪고 있습니다. 그의 과거 입장과 과학적 견해들이 NIH의 전통적인 접근 방식과 충돌할 수 있다는 지적이 제기되고 있습니다. 이러한 상황은 NIH의 미래 방향성과 과학 연구의 독립성에 대한 중요한 질문을 던지고 있으며, 앞으로 그의 리더십이 기관에 어떤 영향을 미칠지 관심이 집중됩니다. 과학계는 NIH의 안정성과 연구 우선순위 변화 가능성에 촉각을 세우고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Trump administration to scrap federal rule requiring transparency into health AI tools",
+      "url": "https://www.statnews.com/2025/12/22/hhs-proposes-scrapping-ai-model-cards-transparency-rule/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP20037762849886-645x645.jpg",
+      "title": "STAT+: 트럼프 행정부, 의료 AI 도구 투명성 연방 규정 폐지 추진",
+      "summary_kr": "트럼프 행정부가 환자 치료에 사용되는 인공지능(AI) 도구의 개발 및 테스트 방식에 대한 투명성 요구 규정을 폐지할 계획인 것으로 알려졌습니다. 이 규정은 개발자들이 의료 AI 도구의 작동 방식과 검증 절차를 공개하도록 의무화하여, 환자의 안전과 의료 서비스의 신뢰성을 확보하는 데 중요한 역할을 해왔습니다. 이번 폐지 추진은 의료 AI 시장의 혁신을 촉진하기 위한 것이라는 주장이 있지만, 동시에 AI의 '블랙박스' 문제와 환자 안전 문제에 대한 우려를 증폭시키고 있습니다. 전문가들은 이러한 결정이 의료 AI의 책임성 부족으로 이어질 수 있다고 경고하며, 장기적으로 의료 시스템에 미칠 영향에 대해 신중한 검토가 필요하다고 강조합니다. 이는 의료 분야의 AI 윤리 및 규제에 대한 중요한 논쟁을 촉발할 것입니다."
+    },
+    {
+      "title_en": "FDA approves pill version of Novo Nordisk’s Wegovy, possibly widening access",
+      "url": "https://www.statnews.com/2025/12/22/wegovy-pill-oral-weight-loss-treatment-approved/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2245790195-645x645.jpg",
+      "title": "FDA, 노보 노디스크 위고비 경구용 버전 승인…접근성 확대 기대",
+      "summary_kr": "미국 식품의약국(FDA)이 노보 노디스크(Novo Nordisk)의 주사형 체중 감량제 위고비(Wegovy)의 경구용 버전을 승인했습니다. 이로써 경구용 위고비는 비만 치료를 위해 규제 기관의 승인을 받은 최초의 GLP-1 알약이 되었습니다. 주사제에 대한 부담감을 느꼈던 환자들에게 새로운 치료 옵션을 제공하며, 체중 감량 치료에 대한 접근성을 크게 확대할 것으로 기대됩니다. 이번 승인은 비만 치료 시장에 중요한 변화를 가져올 것이며, 더 많은 환자들이 편리하게 약물 치료를 받을 수 있는 계기가 될 것입니다. 약 복용 편의성 증가는 환자 순응도를 높여 더 효과적인 치료 결과를 이끌어낼 가능성도 있으며, 비만과의 싸움에 새로운 전환점이 될 수 있습니다."
+    },
+    {
+      "title_en": "STAT+: Pharmaceutical industry evades drug price transparency, again",
+      "url": "https://www.statnews.com/2025/12/22/trump-delays-drug-price-transparency-drug-companies-pbm/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_724124786-645x645.jpeg",
+      "title": "STAT+: 제약 업계, 의약품 가격 투명성 공개 또다시 회피",
+      "summary_kr": "5년 이상 제약사들과 약국 관리 업체(PBM)들이 처방약의 실제 가격을 공개하지 않고 있어 투명성 논란이 지속되고 있습니다. 이들은 다양한 수단을 동원하여 약가 정보 공개 의무를 회피해왔으며, 이는 소비자들과 정부 기관의 비판을 불러일으키고 있습니다. 실제 약가 정보의 부재는 환자들이 부담하는 약값의 적정성을 판단하기 어렵게 만들고, 시장 내 불투명성을 심화시키는 주된 원인이 됩니다. 전문가들은 이러한 불투명성이 의약품 시장의 경쟁을 저해하고, 결국 환자들의 의료비 부담을 가중시키는 결과를 초래한다고 지적합니다. 정부와 시민 단체들은 약가 투명성 강화를 위한 제도적 개선을 촉구하며, 제약 산업의 책임 있는 자세를 요구하고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Your health care industry 2025, wrapped",
+      "url": "https://www.statnews.com/2025/12/22/health-care-inc-newsletter-most-important-stories-2025/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/240720_UnitedHealthGroupDrone_0450-645x645.jpg",
+      "title": "STAT+: 2025년 보건의료 산업 전망 총정리",
+      "summary_kr": "2025년 보건의료 산업은 여러 주요 이슈로 인해 큰 변화를 겪을 것으로 예상됩니다. 특히, 미국 최대 보험사인 유나이티드헬스(UnitedHealth) 그룹의 영향력 확대와 그에 따른 시장의 여파가 주목받고 있습니다. 또한, 저소득층 의료 지원 프로그램인 메디케이드(Medicaid) 시스템의 혼란과 개편이 예상되며, 이는 수많은 취약 계층의 의료 접근성에 중대한 영향을 미칠 것입니다. 이와 함께, 메디케어 어드밴티지(Medicare Advantage) 프로그램이 직면한 여러 문제점들 또한 의료 시스템 전반에 걸쳐 논의될 핵심 쟁점으로 부상하고 있습니다. 이러한 복합적인 요인들은 2025년 보건의료 시장의 지형을 재편하고, 정책 입안자들과 업계 관계자들에게 새로운 과제를 제시할 것으로 전망됩니다."
+    },
+    {
+      "title_en": "STAT+: Trump administration proposes Medicare pilots to lower drug prices on par with peer countries",
+      "url": "https://www.statnews.com/2025/12/22/trump-medicare-demonstrations-most-favored-nation-lower-drug-prices/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2214163125-645x645.jpg",
+      "title": "STAT+: 트럼프 행정부, 메디케어 약가 인하 시범사업 제안: 타 국가 수준으로 조정",
+      "summary_kr": "트럼프 행정부가 메디케어(Medicare) 프로그램의 약가 인하를 위한 시범사업을 제안했습니다. 이 시범사업의 핵심은 특정 의약품의 가격을 다른 선진국들이 지불하는 수준으로 대폭 낮추는 것입니다. 이를 통해 메디케어는 수십억 달러에 달하는 막대한 예산을 절감할 수 있을 것으로 기대됩니다. 이번 제안은 높은 약가로 인한 환자와 정부의 부담을 줄이고, 미국 내 의약품 가격 책정 방식에 대한 근본적인 변화를 모색하려는 의도로 풀이됩니다. 만약 이 시범사업이 성공적으로 실행된다면, 미국 의약품 시장의 가격 결정 방식에 상당한 파급 효과를 가져올 것으로 예상되며, 장기적으로는 환자들의 약값 부담 경감에 기여할 수 있을 것입니다."
+    },
+    {
+      "title_en": "An advocate who offered a window on the experience of living with brain cancer dies at 43",
+      "url": "https://www.statnews.com/2025/12/22/adam-hayden-cancer-patient-advocate-remembrance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2018/09/APT_AdamHayden25-645x645.jpg",
+      "title": "뇌암 투병 경험을 세상에 알린 옹호자, 43세의 나이로 별세",
+      "summary_kr": "뇌암 환자들의 삶과 투병 과정을 생생하게 전달하며 큰 울림을 주었던 환자 옹호자 애덤 헤이든(Adam Hayden) 씨가 43세의 젊은 나이로 세상을 떠났습니다. 그는 이전에 STAT 지에 프로필 기사로 소개된 바 있으며, 뇌암이라는 중증 질병에도 불구하고 용기와 희망을 잃지 않고 환자와 가족들에게 깊은 영감을 주었습니다. 헤이든 씨는 자신의 투병 경험을 솔직하게 공유하며 뇌암에 대한 인식 개선과 환자 권익 옹호에 헌신했습니다. 그의 죽음은 많은 이들에게 슬픔을 안겨주었지만, 그가 남긴 메시지와 옹호 활동은 앞으로도 뇌암 커뮤니티에 깊은 영향을 미칠 것입니다. 그의 삶은 고통 속에서도 희망을 찾고, 타인을 위한 헌신을 보여준 본보기로 기억될 것입니다."
+    },
+    {
+      "title_en": "STAT+: FDA flashpoints to watch next year",
+      "url": "https://www.statnews.com/2025/12/22/biotech-news-fda-2026-deregulations-and-predictions/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/05/GettyImages-2215773179-645x645.jpg",
+      "title": "STAT+: 내년 FDA의 주요 쟁점과 바이오기술 동향 전망",
+      "summary_kr": "다음 해에는 미국 식품의약국(FDA)을 둘러싼 여러 핵심 쟁점들이 주목받을 것으로 예상됩니다. 특히, 신약 승인 과정, 규제 변화, 그리고 혁신적인 바이오기술의 도입과 관련된 논의가 활발히 전개될 전망입니다. \"더 리드아웃(The Readout)\" 보고서에 따르면, 인공지능(AI) 기반 의료기기, 유전자 치료제, 그리고 개인 맞춤형 의학 등 첨단 바이오기술 분야에서 FDA의 규제 방향이 산업 전반에 큰 영향을 미칠 것입니다. 이 외에도 약물 안전성 문제, 임상시험 설계의 효율성 증대 방안, 그리고 팬데믹 대비 역량 강화 등의 이슈들이 중요한 화두로 떠오를 것으로 보입니다. 이 모든 요소들은 헬스케어 산업의 미래와 환자 접근성에 중대한 영향을 미칠 중요한 지점들이 될 것입니다."
+    },
+    {
+      "title_en": "STAT+: We’re reading about new TrumpRx deals, Samsung Biologics’ first U.S. plant, and more",
+      "url": "https://www.statnews.com/pharmalot/2025/12/22/pharma-news-samsung-plant-and-merck-voucher-arrive/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "STAT+: 트럼프 행정부의 새로운 약가 협상, 삼성바이오로직스의 첫 미국 공장 등 주요 제약 소식",
+      "summary_kr": "최신 제약 업계 소식에 따르면, 트럼프 행정부의 새로운 의약품 가격 협상 방안이 주목받고 있으며, 이는 미국 내 약가 정책에 상당한 변화를 가져올 것으로 예상됩니다. 이와 함께, 한국의 선도적인 바이오의약품 위탁생산(CDMO) 기업인 삼성바이오로직스가 미국에 첫 생산 공장을 건설한다는 소식이 전해져 글로벌 바이오 생산 역량 확장에 대한 기대감을 높이고 있습니다. \"파마랏 캠퍼스(Pharmalot campus)\"에서 발행되는 \"파마리틀 뉴스레터(Pharmalittle newsletter)\"를 통해 이러한 중요한 제약 산업 동향들이 상세히 다뤄지고 있습니다. 이러한 소식들은 제약 시장의 주요 플레이어들의 전략 변화와 함께, 전 세계 의약품 공급망 및 가격 책정 방식에 미칠 영향에 대한 심층적인 논의를 촉발할 것으로 보입니다."
+    },
+    {
+      "title_en": "The throughline between Ozempic and Prozac",
+      "url": "https://www.statnews.com/2025/12/22/health-news-how-prozac-now-ozempic-changed-our-brain/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/02/AP97012302219-645x645.jpg",
+      "title": "오젬픽과 프로작, 두 약물이 연결되는 지점과 최신 건강 소식",
+      "summary_kr": "오늘 \"모닝 라운드(Morning Rounds)\"가 전하는 건강 소식 중 흥미로운 점은 비만 및 당뇨 치료제인 오젬픽(Ozempic)과 항우울제인 프로작(Prozac) 사이의 예상치 못한 연결고리입니다. 겉보기에는 전혀 다른 두 약물처럼 보이지만, 최근 연구들은 이들이 뇌의 특정 경로에 영향을 미치거나 신체 대사 및 정신 건강에 복합적인 영향을 줄 수 있다는 가능성을 제시하고 있습니다. 이는 약물 연구의 새로운 방향을 제시하며, 질병 치료의 패러다임 변화를 암시합니다. 이 외에도 다양한 최신 건강 뉴스들이 오늘 소개되었으며, 이들 소식은 우리가 건강과 질병을 이해하는 방식에 새로운 통찰력을 제공할 것으로 기대됩니다. 이러한 연구들은 인체 시스템의 복잡성과 약물 작용 메커니즘에 대한 심층적인 이해를 요구합니다."
+    },
+    {
+      "title_en": "Study revives debate about unpopular diet for cancer patients",
+      "url": "https://www.statnews.com/2025/12/22/cancer-neutropenic-diet-lessened-risk-of-infection/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/FruitsVeg_GettyImages-645x645.jpg",
+      "title": "새로운 연구, 암 환자를 위한 논란의 '호중구 감소증 식단' 재조명",
+      "summary_kr": "한때 암 환자 치료에서 그 중요성이 감소하고 있었던 '호중구 감소증 식단(neutropenic diet)'에 대한 논쟁이 새로운 연구를 통해 다시 수면 위로 떠올랐습니다. 이 식단은 감염 위험을 최소화하기 위해 거의 모든 음식을 고온에서 조리하도록 권장하며, 면역력이 약화된 암 환자들에게 적용되어 왔습니다. 하지만 그 효과에 대한 회의론과 환자들의 삶의 질 저하 문제로 인해 점차 시행이 줄어드는 추세였습니다. 그러나 최근 발표된 연구 결과는 이 식단이 특정 환자군에서 여전히 유의미한 이점을 가질 수 있음을 시사하며, 이에 대한 의료계의 재평가를 촉구하고 있습니다. 이 연구는 암 환자 식단 관리에 대한 지침을 다시 확립하고, 환자별 맞춤형 접근 방식의 중요성을 강조하는 계기가 될 것으로 보입니다."
+    },
+    {
+      "title_en": "STAT+: A seasoned biotech VC looks to 2026 and sees a wave of IPOs coming",
+      "url": "https://www.statnews.com/2025/12/22/biotech-public-companies-ipos/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_600977965-645x645.jpeg",
+      "title": "베테랑 바이오텍 VC, 2026년 대규모 IPO 물결 예고",
+      "summary_kr": "지난 2년간의 침체기를 겪었던 바이오텍 산업에 새로운 활력이 찾아올 것으로 보인다. 업계에서 가장 존경받는 벤처 캐피털리스트 중 한 명은 2026년에 제약 회사들의 기업공개(IPO)가 대거 이뤄질 것으로 전망했다. 이는 오랜 침묵을 깨고 자본 시장에 새로운 자금 유입이 기대되는 신호탄이다. 이러한 예측은 바이오텍 섹터의 투자심리 회복과 더불어 신약 개발 기업들의 성장 가능성을 재평가하는 계기가 될 것이다. 많은 기업이 상장을 통해 대규모 자금을 확보하고 연구 개발에 박차를 가할 수 있을 것으로 보인다. 투자자들은 다가올 IPO 물결에 주목하며 잠재력 있는 기업들을 선별하기 위한 준비를 시작할 것으로 예상된다."
+    },
+    {
+      "title_en": "Opinion: STAT+: What Ozempic might tell us about the future of Alzheimer’s",
+      "url": "https://www.statnews.com/2025/12/22/ozempic-alzheimers-iconic-drugs/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/Neurotransmissions_Illustration_MollyFerguson_091925-645x645.jpg",
+      "title": "오젬픽이 알츠하이머병의 미래에 시사하는 바: 혁신적 치료제에 대한 고찰",
+      "summary_kr": "알츠하이머병 치료에 혁신적인 변화를 가져올 신약의 등장은 언젠가 현실이 될 것이다. 현재 당뇨 및 비만 치료제 '오젬픽'의 잠재적 효능에 대한 논의는 알츠하이머병 치료의 미래에 대해 깊이 고찰할 가치가 있음을 보여준다. 과학자들과 의료 전문가들은 오젬픽과 같은 약물이 신경 퇴행성 질환에 미칠 수 있는 영향을 다각도로 분석하고 있다. 이러한 연구는 알츠하이머병의 복잡한 병리를 이해하고 새로운 치료 접근법을 모색하는 데 중요한 단서를 제공할 수 있다. 비록 아직 초기 단계의 탐색이지만, 혁신적인 치료제의 개발 가능성에 대해 지금부터 논의하고 준비하는 것이 중요하다. 이는 환자들에게 희망을 주고 미래 의학의 방향을 제시하는 데 필수적인 과정이다."
+    },
+    {
+      "title_en": "STAT+: 3 key issues to watch at FDA as Makary struggles to stabilize the agency",
+      "url": "https://www.statnews.com/2025/12/22/fda-2026-outlook-commissioner-makary-future-vaccine-policy-deregulation/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-2-645x645.jpg",
+      "title": "FDA 안정화에 고심하는 마카리, 주목해야 할 3가지 핵심 쟁점",
+      "summary_kr": "미국 식품의약국(FDA)이 내부적으로 안정화에 어려움을 겪는 가운데, 마카리 국장이 기관의 효율성을 회복하기 위해 노력하고 있다. 이러한 상황에서 FDA의 향방을 결정할 세 가지 핵심 쟁점이 주목받고 있다. 첫째, 신약 및 의료기기 승인 절차의 속도와 투명성을 어떻게 확보할 것인가가 중요한 과제로 떠오르고 있다. 둘째, 공중 보건 위기 상황에서 신속하고 정확한 정보 제공 및 규제 대응 능력을 강화하는 방안이 논의될 것으로 예상된다. 셋째, 내부 인력의 사기 진작과 전문성 유지를 위한 조직 문화 개선 및 리더십 강화 방안 또한 면밀히 지켜봐야 할 부분이다. 이 세 가지 쟁점은 FDA가 미래에 직면할 도전 과제를 해결하고 국민의 신뢰를 회복하는 데 결정적인 역할을 할 것이다."
+    },
+    {
+      "title_en": "Opinion: Researchers have a moral obligation to push back when their studies are twisted to promote false health claims",
+      "url": "https://www.statnews.com/2025/12/22/research-misrepresented-vaccines-newsguard/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_678170243-645x645.jpeg",
+      "title": "연구 윤리: 왜곡된 연구 결과로 인한 허위 건강 정보 확산에 맞서야 할 연구자의 도덕적 의무",
+      "summary_kr": "최근 연구 결과가 잘못 해석되거나 왜곡되어 허위 건강 정보로 둔갑하는 사례가 빈번하게 발생하고 있다. 뉴스 가드(NewsGuard)가 \"허위 주장 지문(False Claim Fingerprints)\" 데이터베이스에 1,000개가 넘는 입증된 허위 진술을 수집했으며, 이 중 상당수가 오해의 소지가 있는 연구와 관련되어 있다. 이러한 상황에서 과학 연구자들은 자신들의 연구가 오용되는 것을 방지하고 진실을 옹호할 도덕적 의무를 지닌다. 연구자들은 자신들의 연구가 대중에게 정확하게 전달되도록 적극적으로 개입하고, 잘못된 주장에 대해 반박하는 목소리를 내야 한다. 이는 과학적 진실성을 보호하고 대중의 건강과 복지를 위협하는 허위 정보를 근절하는 데 필수적인 과정이다. 연구의 책임감을 갖고 사회적 영향력을 인지하는 것이 중요하다."
+    },
+    {
+      "title_en": "American food safety could be headed for a breakdown",
+      "url": "https://www.statnews.com/2025/12/22/american-food-safety-funding-cuts-foodnet/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2166171191-645x645.jpg",
+      "title": "미국 식품 안전 시스템 붕괴 위기, 식중독 발생 증가 우려",
+      "summary_kr": "올해 예산 삭감으로 인해 미국 식품 안전 시스템이 심각한 위기에 직면했다는 경고가 나왔다. 식품 안전 전문가들은 이러한 재정적 제약이 더 많은 미국인들을 식중독 질환에 노출시킬 것이라고 예측하고 있다. 정부의 지원 감소는 식품 검사 및 규제 활동의 축소로 이어져 식품 공급망 전반의 안전망이 약화될 수 있다. 이는 소비자 건강에 직접적인 위협이 될 뿐만 아니라, 식품 산업 전반에 대한 신뢰도 저하를 초래할 수 있다. 전문가들은 식품 안전 예산 삭감이 장기적으로 훨씬 더 큰 사회적, 경제적 비용을 발생시킬 수 있다고 경고하며, 즉각적인 정책적 개입의 필요성을 강조하고 있다. 식품 안전은 국가 안보와 직결되는 중요한 문제이므로, 예산 복원과 시스템 강화가 시급하다."
+    },
+    {
+      "title_en": "NIH study was a beacon for the topical steroid withdrawal community. Then, amid federal upheaval, the research stalled",
+      "url": "https://www.statnews.com/2025/12/22/topical-steroid-withdrawal-study-derailed-american-science-shattered/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/Research-14891-645x645.jpg",
+      "title": "NIH 국립보건원 연구, 스테로이드 금단 증후군 환자들에게 희망이었으나 연방 혼란 속 좌초",
+      "summary_kr": "국립보건원(NIH)에서 진행되던 한 연구는 국소 스테로이드 금단 증후군(TSW)으로 고통받는 환자들에게 한 줄기 빛과 같았다. 이 연구는 만성적인 피부 질환으로 인해 스테로이드에 의존하다가 발생하는 심각한 부작용과 금단 증상을 겪는 이들에게 중요한 정보를 제공하고 새로운 치료법을 모색할 것으로 기대되었다. 그러나 연방 정부의 혼란스러운 상황과 정치적 격변 속에 이 중요한 연구는 중단되고 말았다. 이는 TSW 커뮤니티에 큰 실망감을 안겨주었으며, 치료와 이해를 갈구하는 환자들에게 좌절감을 안겼다. 연구의 중단은 해당 질환에 대한 과학적 이해와 효과적인 치료법 개발이 지연될 수 있음을 의미하며, 환자들의 고통을 장기화시킬 수 있다는 우려를 낳고 있다. 이 연구가 다시 시작되어 TSW 환자들에게 희망을 줄 수 있기를 많은 이들이 바라고 있다."
+    },
+    {
+      "title_en": "In a surprise announcement, Tory Bruno is out as CEO of United Launch Alliance",
+      "url": "https://arstechnica.com/space/2025/12/in-a-surprise-announcement-tory-bruno-is-out-as-ceo-of-united-launch-alliance/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/NHQ202405060021large-500x500.jpg",
+      "title": "깜짝 발표: 유나이티드 론치 얼라이언스(ULA) CEO 토리 브루노 사임",
+      "summary_kr": "우주 발사 서비스 기업인 유나이티드 론치 얼라이언스(ULA)의 최고경영자(CEO) 토리 브루노가 갑작스러운 발표와 함께 사임했다. 이는 우주 산업계에 적지 않은 파장을 일으킬 것으로 예상된다. 브루노 CEO는 \"ULA의 변화를 이끌고 벌컨(Vulcan) 로켓을 운용하는 것은 큰 특권이었다\"고 소감을 밝혔다. 그의 리더십 아래 ULA는 주요 변화와 신기술 도입을 추진해왔으며, 특히 차세대 발사체인 벌컨 센타우르(Vulcan Centaur) 로켓의 개발 및 첫 비행 성공에 중요한 역할을 담당했다. 이번 사임은 ULA의 향후 전략과 리더십 변화에 대한 궁금증을 자아내고 있으며, 새로운 CEO의 역할에 관심이 집중될 전망이다. 우주 발사 시장의 경쟁이 심화되는 가운데, ULA의 미래 행보에 귀추가 주목된다."
+    },
+    {
+      "title_en": "US blocks all offshore wind construction, says reason is classified",
+      "url": "https://arstechnica.com/science/2025/12/us-government-finds-new-excuse-to-stop-construction-of-offshore-wind/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1350384252-500x500.jpg",
+      "title": "미국, 모든 해상풍력 발전 건설 중단… 이유는 '기밀'",
+      "summary_kr": "미국 정부가 모든 해상풍력 발전 프로젝트의 건설을 전면 중단한다고 발표했습니다. 국방부의 안보 우려가 주된 이유로 지목되었으나, 구체적인 이유는 '기밀'로 분류되어 공개되지 않고 있습니다. 현재 바다에 이미 설치된 하드웨어를 포함한 모든 관련 프로젝트가 즉시 중단된 상태입니다. 이러한 조치는 미국의 재생에너지 확대 계획에 상당한 영향을 미칠 것으로 예상됩니다. 국방부는 해상풍력 발전시설이 군사 작전 및 국가 안보에 미칠 수 있는 잠재적 위협을 우려하고 있는 것으로 보이며, 이번 결정은 에너지 정책과 국가 안보 사이의 복잡한 균형 문제를 다시 한번 부각시키고 있습니다."
+    },
+    {
+      "title_en": "When clouds flock together",
+      "url": "https://arstechnica.com/science/2025/12/when-clouds-flock-together/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1939763338-500x500.jpg",
+      "title": "구름이 뭉칠 때: 폭풍을 증폭시키는 새로운 메커니즘 발견",
+      "summary_kr": "과학자들이 구름이 서로 뭉쳐질 때 폭풍의 강도를 놀랍도록 증폭시키는 새로운 메커니즘을 발견했습니다. 연구 결과에 따르면, 여러 개의 구름 덩어리가 응집되는 현상이 특정 조건에서 폭풍 시스템에 막대한 에너지를 공급하는 역할을 한다고 합니다. 이러한 구름의 군집화는 강수량 증가 및 강력한 기상 현상 발생과 밀접한 관련이 있는 것으로 나타났습니다. 이번 발견은 기후 모델링의 정확도를 향상시키고, 더욱 정교한 폭풍 예측 시스템을 개발하는 데 중요한 기여를 할 것으로 기대됩니다. 이는 구름 역학에 대한 기존의 이해를 확장하며, 미래 기후 변화에 따른 극한 기상 현상 연구에 새로운 통찰력을 제공합니다."
+    },
+    {
+      "title_en": "FDA Approves Pill Version of Wegovy",
+      "url": "https://www.wired.com/story/fda-approves-pill-version-of-wegovy/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://media.wired.com/photos/6941334fb871f460797b4951/master/pass/Novo%20Nordisk%20oral%20semaglutide%2025%20mg_image%201.jpg",
+      "title": "FDA, 경구용 비만 치료제 '위고비' 승인",
+      "summary_kr": "미국 식품의약국(FDA)이 노보 노디스크(Novo Nordisk)의 비만 치료제 세마글루타이드(semaglutide)의 경구용 제형인 '위고비(Wegovy)'를 최종 승인했습니다. 이로써 미국인들은 매일 복용하는 알약 형태로 체중 감량을 위한 이 혁신적인 약물을 곧 이용할 수 있게 되었습니다. 기존의 위고비는 주사 형태로 투여되었으나, 경구용 버전의 등장은 환자들의 접근성과 편의성을 크게 향상시킬 것으로 기대됩니다. 이번 승인은 비만 치료 시장에 큰 변화를 가져올 것으로 전망되며, 체중 감량을 필요로 하는 수많은 사람들에게 새로운 치료 옵션을 제공할 것입니다. 전문가들은 경구용 위고비가 비만과의 싸움에서 중요한 전환점이 될 수 있다고 평가하고 있습니다."
+    },
+    {
+      "title_en": "The Doomsday Glacier Is Getting Closer and Closer to Irreversible Collapse",
+      "url": "https://www.wired.com/story/the-doomsday-glacier-is-getting-closer-and-closer-to-irreversible-collapse/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://media.wired.com/photos/69495f59d9e065212f7d60c3/master/pass/sci-doomsday-Glacier-1390504170.jpg",
+      "title": "'둠스데이 빙하' 스웨이츠 빙하, 되돌릴 수 없는 붕괴 임박 경고",
+      "summary_kr": "'둠스데이 빙하'로 알려진 남극 스웨이츠 빙하(Thwaites Glacier)가 되돌릴 수 없는 붕괴에 점점 더 가까워지고 있다는 충격적인 분석 결과가 발표되었습니다. 지난 20년간 스웨이츠 빙하의 균열 확장 양상을 정밀하게 분석한 연구에 따르면, 빙하 전체의 완전한 붕괴는 이제 시간 문제일 수 있다고 경고합니다. 이 빙하는 전 세계 해수면 상승에 가장 크게 기여할 수 있는 주요 빙하 중 하나로 꼽힙니다. 과학자들은 붕괴 속도가 가속화될 경우 전 세계 해수면이 수 미터 상승할 수 있으며, 이는 전례 없는 환경 재앙으로 이어질 수 있다고 우려하고 있습니다. 이번 연구는 기후 변화의 심각성을 다시 한번 일깨우며, 즉각적인 온실가스 감축 노력이 시급함을 강조합니다."
+    },
+    {
+      "title_en": "Brain Gear Is the Hot New Wearable",
+      "url": "https://www.wired.com/story/expired-tired-wired-wearables/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": "https://media.wired.com/photos/6938a1462c86f578e7dfdbb7/master/pass/WTE%20brain%20gear.jpg",
+      "title": "차세대 웨어러블 기기의 선두 주자: 뇌 웨어러블 기술 부상",
+      "summary_kr": "스마트워치가 한때 혁신적인 웨어러블 기기로 각광받았지만, 이제는 '뇌 웨어러블' 기술이 차세대 시장을 이끌 강력한 주자로 떠오르고 있습니다. 웨어러블 뉴로테크는 뇌 활동을 측정하고 분석하여 사용자에게 다양한 기능을 제공하는 기술입니다. 이는 집중력 향상, 스트레스 감소, 수면 질 개선 등 개인의 인지 능력과 정신 건강을 증진시키는 데 활용될 수 있습니다. 또한, 특정 뇌파를 감지하여 외부 기기를 제어하는 등의 혁신적인 인터페이스 개발 가능성도 점쳐지고 있습니다. 전문가들은 뇌 웨어러블 기기가 의료, 교육, 엔터테인먼트 등 다양한 분야에서 잠재력이 매우 크다고 평가하며, 앞으로 우리 삶의 여러 측면을 변화시킬 것으로 기대하고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/6-people-charged-manipulating-stock-price-2-biotechs-41m-insider-trading-scheme\" hreflang=\"en\">6 people charged in $41M insider trading scheme tied to 2 biotechs</a>",
+      "url": "https://www.fiercebiotech.com/biotech/6-people-charged-manipulating-stock-price-2-biotechs-41m-insider-trading-scheme",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "2개 바이오 기업 관련 4천1백만 달러 규모 내부자 거래 및 주가 조작 혐의로 6명 기소",
+      "summary_kr": "두 개의 바이오 기업과 관련된 4천1백만 달러 규모의 내부자 거래 및 주가 조작 혐의로 총 6명이 기소되었습니다. 이번 사건에는 투자 은행 씨티그룹 샌프란시스코 지점의 전직 직원도 포함되어 있어 충격을 주고 있습니다. 기소된 이들은 불법적으로 얻은 내부 정보를 활용하여 주식 가격을 조작하고 막대한 부당 이득을 취한 혐의를 받고 있습니다. 이러한 불법 행위는 금융 시장의 투명성과 공정성을 심각하게 훼손하며, 투자자들에게 막대한 피해를 입힐 수 있습니다. 당국은 이번 사건에 대한 철저한 수사를 통해 관련자들을 엄중히 처벌하고, 유사한 범죄 재발 방지를 위한 조치를 강화할 것이라고 밝혔습니다. 이는 바이오 산업 투자에 대한 신뢰를 회복하는 데 중요한 전환점이 될 것으로 보입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/abbotts-volt-pulsed-field-ablation-system-scores-fda-approval\" hreflang=\"en\">Abbott’s Volt pulsed field ablation system scores FDA approval</a>",
+      "url": "https://www.fiercebiotech.com/medtech/abbotts-volt-pulsed-field-ablation-system-scores-fda-approval",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "애보트, 부정맥 치료용 '볼트' PF 어블레이션 시스템 FDA 승인 획득",
+      "summary_kr": "애보트(Abbott)의 새로운 부정맥 치료 시스템인 '볼트(Volt) 펄스 전기장 절제(Pulsed Field Ablation, PFA)' 시스템이 미국 식품의약국(FDA)으로부터 최종 승인을 받았습니다. 이번 승인으로 애보트는 보스턴 사이언티픽, 메드트로닉, 존슨앤존슨 등 기존 시장 선두 주자들이 이미 진출해 있는 경쟁적인 PFA 시장에 합류하게 됩니다. 볼트 시스템은 부정맥 치료에 사용되는 혁신적인 기술로, 심장 조직을 정밀하게 절제하여 비정상적인 전기 신호를 차단함으로써 환자들의 삶의 질을 향상시키는 데 기여할 것으로 기대됩니다. 애보트의 시장 진입은 PFA 기술의 발전과 환자들에게 더 넓은 치료 선택권을 제공하는 계기가 될 것입니다. 전문가들은 이 새로운 시스템이 부정맥 치료 분야에서 중요한 경쟁 요소로 작용할 것으로 전망하고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/biomarin-quietly-discards-liver-disease-candidate-after-48b-amicus-announcement\" hreflang=\"en\">BioMarin quietly discards liver disease candidate after $4.8B Amicus announcement</a>",
+      "url": "https://www.fiercebiotech.com/biotech/biomarin-quietly-discards-liver-disease-candidate-after-48b-amicus-announcement",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "바이오마린, 48억 달러 규모 아미쿠스 인수 발표 속 간 질환 치료제 개발 중단",
+      "summary_kr": "바이오마린은 최근 48억 달러 규모의 아미쿠스 인수가 발표되는 대형 뉴스 속에서, 한때 동급 최고의 치료제가 될 것으로 기대를 모았던 유전성 폐 질환 치료제 후보 물질 개발을 조용히 중단했습니다. 회사는 이 소식을 대중의 이목을 끄는 다른 발표와 함께 살짝 흘려보냈습니다. 이는 거대 제약사들의 사업 전략 변화와 파이프라인 조정의 일환으로 보입니다. 특히 대규모 인수합병이 진행될 때, 기존 파이프라인의 우선순위가 재조정되면서 일부 프로젝트가 중단되는 경우가 흔합니다. 이번 결정은 바이오마린의 향후 전략과 자원 배분에 어떤 영향을 미칠지 주목됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/gilead-pays-35m-license-pair-hsv-assets-assembly-bio-pact\" hreflang=\"en\">Gilead pays $35M to license pair of HSV assets from Assembly Bio pact</a>",
+      "url": "https://www.fiercebiotech.com/biotech/gilead-pays-35m-license-pair-hsv-assets-assembly-bio-pact",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "길리어드, 어셈블리 바이오사이언스 파트너십 통해 HSV 치료제 후보물질 2종 3,500만 달러에 도입",
+      "summary_kr": "길리어드 사이언스는 어셈블리 바이오사이언스와의 파트너십을 통해 단순 포진 바이러스(HSV) 관련 자산 두 가지를 3,500만 달러에 라이선스 아웃했습니다. 이번 계약은 길리어드가 2년 전 어셈블리 바이오사이언스의 전체 파이프라인에 대한 우선 매수권을 확보한 이후, 그 결실을 처음으로 선택한 것입니다. 길리어드는 이 파트너십을 통해 자사의 감염병 치료제 포트폴리오를 강화하고 새로운 치료 옵션을 모색할 예정입니다. 어셈블리 바이오사이언스 입장에서는 연구 개발 자금을 확보하고, 자사의 혁신적인 파이프라인의 가치를 입증하는 계기가 될 것입니다. 이처럼 대형 제약사와 바이오벤처 간의 협력은 신약 개발의 리스크를 분산하고 속도를 높이는 중요한 전략 중 하나입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/editors-corner-fierce-medtechs-top-10-stories-2025-show-how-tech-can-treat\" hreflang=\"en\">Editor's corner: Fierce Medtech's top 10 stories of 2025 show how tech can treat</a>",
+      "url": "https://www.fiercebiotech.com/medtech/editors-corner-fierce-medtechs-top-10-stories-2025-show-how-tech-can-treat",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "2025년 Fierce Medtech 선정 10대 기사: 기술이 어떻게 의료를 변화시키는가",
+      "summary_kr": "Fierce Medtech에서 선정한 2025년 최고 인기 기사 10편은 기술이 의료 분야에 미치는 혁신적인 영향을 조명합니다. 이 기사들의 공통된 핵심 메시지는 새로운 기술이 의료 접근성을 크게 향상시킬 수 있다는 점입니다. 특히 인공지능, 로봇공학, 원격 의료 등 첨단 기술의 발전은 더 많은 환자들이 필요한 치료를 적시에 받을 수 있도록 돕고 있습니다. 의료 서비스의 접근성이 높아지면 질병과의 싸움에서 더 유리한 고지를 점할 수 있으며, 이는 전반적인 공중 보건 개선으로 이어질 것입니다. 이러한 기술 발전은 환자 중심의 의료 시스템을 구축하고, 치료의 효율성을 증대시키는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/latest-hologic-breast-cancer-study-bolsters-use-ai-detection\" hreflang=\"en\">Hologic breast cancer study bolsters use of mammogram AI</a>",
+      "url": "https://www.fiercebiotech.com/medtech/latest-hologic-breast-cancer-study-bolsters-use-ai-detection",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "홀로직 유방암 연구, 유방촬영술 AI 활용 중요성 강화",
+      "summary_kr": "홀로직(Hologic)은 유방암 진단을 위한 유방촬영술 AI 기술의 활용을 뒷받침하는 또 다른 연구 결과를 발표했습니다. 이번 연구는 홀로직의 인공지능 기술이 유방암 조기 발견에 얼마나 효과적인지 다시 한번 입증했습니다. AI 기반 유방촬영술은 영상 판독의 정확성을 높이고 의료진의 부담을 줄이는 데 기여할 수 있습니다. 특히 미세한 이상 징후를 놓치지 않고 포착함으로써, 환자들이 보다 빠르고 정확한 진단을 받을 수 있도록 돕습니다. 이러한 기술 발전은 유방암 검진의 질을 향상시키고, 궁극적으로 환자의 생존율을 높이는 데 중요한 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/boehringer-spells-out-448m-future-rectifys-abc-kidney-disease-program\" hreflang=\"en\">Boehringer spells out a $448M future for Rectify's ABC kidney disease program</a>",
+      "url": "https://www.fiercebiotech.com/biotech/boehringer-spells-out-448m-future-rectifys-abc-kidney-disease-program",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "베링거인겔하임, 렉티파이 파마슈티컬스와 4억 4,800만 달러 규모 만성 신장 질환 프로그램 협력 발표",
+      "summary_kr": "베링거인겔하임은 만성 신장 질환 치료 분야에서 새로운 전선을 열었습니다. 회사는 렉티파이 파마슈티컬스와 전임상 단계 프로그램에 대한 파트너십을 위해 최대 4억 4,800만 달러를 제안했습니다. 이번 협력을 통해 베링거인겔하임은 자사의 신장 질환 파이프라인을 강화하고, 아직 충족되지 않은 의료 수요가 높은 이 분야에서 혁신적인 치료제를 개발할 계획입니다. 렉티파이 파마슈티컬스에게는 자사의 기술력을 대규모 제약 파트너와 함께 발전시킬 수 있는 중요한 기회가 될 것입니다. 이처럼 대형 제약사들이 바이오벤처의 혁신 기술에 투자하는 사례는 신약 개발 생태계에 긍정적인 영향을 미치고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/big-pharma-backed-aktis-plans-ipo-fund-radiopharma-trials\" hreflang=\"en\">Big Pharma-backed Aktis plans IPO to fund radiopharma trials</a>",
+      "url": "https://www.fiercebiotech.com/biotech/big-pharma-backed-aktis-plans-ipo-fund-radiopharma-trials",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "대형 제약사 지원 악티스 온콜로지, 방사성 의약품 임상 자금 조달 위한 IPO 계획 발표",
+      "summary_kr": "대형 제약사들의 지원을 받는 악티스 온콜로지(Aktis Oncology)가 기업공개(IPO) 계획을 발표했습니다. 이는 내년 바이오텍 IPO 시장의 부활을 기대하는 이들에게 고무적인 신호로 해석됩니다. 악티스 온콜로지는 IPO를 통해 방사성 의약품(radiopharma) 임상 시험에 필요한 자금을 확보할 예정입니다. 방사성 의약품은 암 치료 분야에서 새로운 가능성을 제시하며 주목받고 있는 영역입니다. 이번 IPO는 혁신적인 치료법 개발에 필요한 대규모 자금 조달을 가능하게 할 뿐만 아니라, 바이오 시장 전반에 활력을 불어넣을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/novo-holdings-backed-windward-buys-rights-qyuns-clinical-stage-immunology-bispecific-700m\" hreflang=\"en\">Novo Holdings-backed Windward buys rights to Qyuns' clinical-stage immunology bispecific in $700M deal</a>",
+      "url": "https://www.fiercebiotech.com/biotech/novo-holdings-backed-windward-buys-rights-qyuns-clinical-stage-immunology-bispecific-700m",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "노보 홀딩스 지원 윈드워드 바이오, 퀴운스 임상 단계 이중특이성 면역 치료제 7억 달러에 인수",
+      "summary_kr": "노보 홀딩스의 지원을 받는 윈드워드 바이오(Windward Bio)가 퀴운스(Qyuns)의 임상 단계 이중특이성 면역 치료제에 대한 권리를 7억 달러에 인수하는 계약을 체결했습니다. 윈드워드 바이오는 올해 초 2억 달러 규모의 시리즈 A 투자를 유치하며 활발한 행보를 시작했으며, 연말에는 또 다른 임상 단계 약물에 대규모 투자를 단행하며 파이프라인을 확장하고 있습니다. 이중특이성 항체는 두 가지 다른 표적에 동시에 결합할 수 있어 면역 질환 치료에 새로운 가능성을 제시하는 혁신적인 접근 방식입니다. 이번 인수는 윈드워드 바이오의 면역학 분야 입지를 강화하고, 잠재적으로 시장에 혁신적인 치료제를 선보일 중요한 발판이 될 것입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/ipsen-continues-adc-push-1b-deal-simceres-preclinical-lrrc15-targeting-asset\" hreflang=\"en\">Ipsen continues ADC push with $1B deal for Simcere's preclinical LRRC15-targeting asset</a>",
+      "url": "https://www.fiercebiotech.com/biotech/ipsen-continues-adc-push-1b-deal-simceres-preclinical-lrrc15-targeting-asset",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "입센, 심시어의 전임상 LRRC15 표적 ADC 에셋 10억 달러 규모 계약으로 ADC 사업 확장 지속",
+      "summary_kr": "입센(Ipsen)은 최근 항체-약물 접합체(ADC) 분야에 진출했지만, 이 프랑스 바이오 제약사는 이 분야에서 뒤처진 시간을 만회하기 위해 적극적으로 나서고 있습니다. 최근 입센은 중국의 심시어(Simcere)와 전임상 단계의 LRRC15 표적 에셋에 대해 10억 달러 규모의 대규모 계약을 체결하며 ADC 파이프라인을 강화했습니다. LRRC15는 특정 암 세포 표면에 발현되는 단백질로 알려져 있으며, 이를 표적으로 하는 ADC는 암 치료에 새로운 가능성을 제시할 수 있습니다. 이번 계약은 입센이 혁신적인 항암 치료제 개발에 대한 의지를 강력하게 보여주는 사례로 평가됩니다. 특히 전임상 단계의 에셋에 대한 대규모 투자는 입센이 ADC 기술의 잠재력을 높이 평가하고 있음을 시사합니다. 이러한 전략적 움직임을 통해 입센은 빠르게 성장하는 ADC 시장에서 경쟁력을 확보하고 선도적인 위치를 구축하려는 목표를 가지고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/astrazeneca-flunks-lung-cancer-test-further-setback-synthetic-lethal-mechanism\" hreflang=\"en\">AstraZeneca flunks phase 3 lung cancer test in further setback to synthetic lethal mechanism </a>",
+      "url": "https://www.fiercebiotech.com/biotech/astrazeneca-flunks-lung-cancer-test-further-setback-synthetic-lethal-mechanism",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "아스트라제네카, 폐암 3상 시험 실패로 합성 치사 메커니즘 연구에 추가적인 차질 발생",
+      "summary_kr": "아스트라제네카(AstraZeneca)의 폐암 치료제 세랄라설팁(ceralasertib)에 대한 3상 임상 연구가 주요 목표점 달성에 실패했습니다. 이는 면역항암제에 대한 내성을 극복하기 위해 합성 치사(synthetic lethal) 메커니즘을 활용하려는 노력에 또 다른 타격을 안겨주었습니다. 합성 치사 전략은 두 가지 유전적 결함을 동시에 공격하여 암세포를 사멸시키는 방식인데, 이번 실패는 이 전략의 임상 적용에 대한 어려움을 다시 한번 드러냈습니다. 연구진은 세랄라설팁이 특정 유전자 변이를 가진 암세포를 표적하여 사멸시키려 했으나, 기대만큼의 치료 효과를 입증하지 못했습니다. 이번 결과는 폐암 환자들에게 새로운 치료 대안을 제공하려던 아스트라제네카의 노력에 부정적인 영향을 미칠 것으로 보입니다. 향후 이 합성 치사 메커니즘을 기반으로 한 다른 신약 개발 프로젝트에도 전반적인 영향을 미칠지 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/astrazeneca-fronts-100m-jacobios-clinical-stage-pan-kras-inhibitor\" hreflang=\"en\">AstraZeneca fronts $100M for Jacobio's clinical-stage pan-KRAS inhibitor</a>",
+      "url": "https://www.fiercebiotech.com/biotech/astrazeneca-fronts-100m-jacobios-clinical-stage-pan-kras-inhibitor",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "아스트라제네카, 자코비오의 임상 단계 팬-KRAS 억제제에 1억 달러 선투자",
+      "summary_kr": "아스트라제네카(AstraZeneca)가 KRAS 유전자 변이 암 치료제 개발 분야에 더욱 깊이 진출하기 위해 1억 달러를 선투자했습니다. 이 계약을 통해 아스트라제네카는 중국 자코비오 파마(Jacobio Pharma)의 임상 단계 다중 표적 KRAS 억제제에 대한 권리를 확보하게 되었습니다. KRAS는 다양한 암종에서 흔히 발견되는 돌연변이 유전자로, 오랫동안 '난공불락'의 표적으로 여겨져 왔습니다. 이번 투자는 아스트라제네카가 KRAS 돌연변이 암 치료제 시장에서 입지를 강화하려는 전략의 일환으로 해석됩니다. 자코비오의 후보 물질은 임상 단계에 있어 비교적 빠른 시일 내에 환자들에게 도달할 가능성이 있습니다. 이 계약은 아스트라제네카가 혁신적인 암 치료 솔루션을 확보하고 미충족 의료 수요를 해결하려는 노력을 보여줍니다."
+    },
+    {
+      "title_en": "Novo Nordisk eyes a strong launch with FDA approval of obesity pill",
+      "url": "https://endpoints.news/novo-nordisk-eyes-a-strong-launch-with-fda-approval-of-obesity-pill/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "노보 노디스크, FDA 비만 치료제 경구약 승인으로 강력한 시장 진입 예고",
+      "summary_kr": "덴마크 제약사 노보 노디스크(Novo Nordisk)가 10여 년 만에 처음으로 경구용 비만 치료제의 미국 식품의약국(FDA) 승인을 획득하며 시장에 강력한 출시를 예고하고 있습니다. 이 비만 치료제는 FDA로부터 지난 월요일 승인을 받았으며, 이는 비만 관리 분야에서 중요한 진전을 의미합니다. 기존의 비만 치료제들이 주사제 형태였던 반면, 경구용 약물의 등장은 환자들의 복용 편의성을 크게 높일 것으로 기대됩니다. 노보 노디스크는 이미 삭센다(Saxenda)와 위고비(Wegovy) 같은 주사형 비만 치료제로 시장을 선도하고 있으며, 이번 경구약 승인은 비만 치료 포트폴리오를 한층 강화할 것입니다. 이러한 혁신적인 접근은 비만으로 고통받는 수많은 환자들에게 새로운 치료 옵션을 제공하며, 향후 비만 치료 시장의 판도를 변화시킬 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "CMS proposes two long-awaited Medicare drug pricing demos",
+      "url": "https://endpoints.news/cms-proposes-two-long-awaited-medicare-drug-pricing-demos/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "CMS, 메디케어 약가 인하 위한 두 가지 시범 지불 모델 제안",
+      "summary_kr": "미국 메디케어 및 메디케이드 서비스 센터(CMS)가 메디케어 프로그램 내 약가 인하를 목표로 하는 두 가지 의무적인 지불 모델을 제안했습니다. 이 제안은 도널드 트럼프 전 대통령의 '최혜국 대우(most favored nation)' 계획을 기반으로 하고 있지만, 제약 산업으로부터 강력한 반발에 직면할 가능성이 높습니다. CMS의 이번 조치는 오랫동안 기다려온 약가 개혁의 일환으로, 메디케어 가입자들이 부담하는 약값을 줄이고 정부의 의료비 지출을 효율화하려는 목적을 가지고 있습니다. 제안된 두 가지 모델은 약제비 협상을 강화하고 약가 책정 방식에 변화를 가져올 것으로 예상됩니다. 그러나 제약업계는 이러한 정부 개입이 신약 개발에 대한 투자를 저해하고 혁신을 늦출 수 있다고 우려하며 반대 입장을 표명할 것으로 보입니다. 이번 제안은 미국 약가 정책의 미래에 중요한 영향을 미 미칠 것으로 예상되며, 관련 이해관계자들의 치열한 논쟁이 예상됩니다."
+    },
+    {
+      "title_en": "China's new commercial insurance model could broaden access to Alzheimer's drugs",
+      "url": "https://endpoints.news/chinas-new-commercial-insurance-model-could-broaden-access-to-alzheimers-drugs/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "중국의 새로운 상업 보험 모델, 알츠하이머병 치료제 접근성 확대 및 제약사 매출 증대 기대",
+      "summary_kr": "중국의 새로운 상업 건강 보험 혁신 의약품 목록(formulary)이 엘리 릴리(Eli Lilly)와 에자이(Eisai)와 같은 제약사들의 알츠하이머병 치료제에 대한 환자 접근성을 확대할 것으로 기대됩니다. 동시에 이는 해당 제약사들의 매출 증대에도 기여할 잠재력을 가지고 있습니다. 지난 12월에 발표된 이 상업 건강 보험 혁신 의약품 계획은 중국 내에서 고가의 혁신 신약에 대한 보험 적용 범위를 넓히는 것을 목표로 합니다. 특히 알츠하이머병 치료제는 치료 비용이 높고 환자 부담이 커 접근성이 제한적이었는데, 이번 조치를 통해 더 많은 환자들이 필요한 치료를 받을 수 있게 될 것입니다. 이는 중국 정부가 의료 개혁의 일환으로 국민 건강 증진과 혁신 의약품 시장 활성화를 동시에 추구하려는 의지를 보여줍니다. 제약사 입장에서는 거대한 중국 시장에서의 판매 확대 기회를 얻게 되어 긍정적인 영향을 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Bristol Myers brings IRA drug pricing fight to Supreme Court",
+      "url": "https://endpoints.news/bristol-myers-brings-ira-drug-pricing-fight-to-supreme-court/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "브리스톨 마이어스 스큅, 인플레이션 감축법 약가 관련 소송 대법원 상고",
+      "summary_kr": "브리스톨 마이어스 스큅(Bristol Myers Squibb, BMS)이 미국의 인플레이션 감축법(Inflation Reduction Act, IRA)에 따른 약가 정책에 대한 이의를 제기하며 연방 대법원에 상고했습니다. BMS는 이 법이 자사의 블록버스터 혈액 희석제인 엘리퀴스(Eliquis)를 불법적으로 저렴한 가격에 판매하도록 강요한다고 주장하고 있습니다. 이는 제약업계에서 IRA 약가 조항에 대해 대법원까지 소송을 제기한 두 번째 사례로, 해당 법안의 합헌성에 대한 논란이 가열되고 있음을 시사합니다. 제약업계는 IRA의 약가 협상 조항이 기업의 재산권을 침해하고 신약 개발 투자를 위축시킬 것이라고 주장하고 있습니다. 반면, 바이든 행정부는 해당 법안이 환자들의 약값 부담을 경감하고 정부 의료 예산을 절감하는 데 필수적이라고 강조하고 있습니다. 이번 대법원 상고는 IRA의 미래와 미국 약가 정책의 방향에 중대한 영향을 미칠 수 있는 중요한 법적 다툼이 될 것입니다."
+    },
+    {
+      "title_en": "US charges six people with insider trading in case including Olema Oncology",
+      "url": "https://endpoints.news/us-charges-six-people-with-insider-trading-in-case-including-olema-oncology/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "미국 법무부, 올라마 온콜로지 연루 내부자 거래 및 시세 조종 혐의로 6명 기소",
+      "summary_kr": "미국 법무부는 유방암 치료제 개발을 선도하는 캘리포니아 기반 바이오 기업 올라마 온콜로지(Olema Oncology)와 관련된 내부자 거래 및 시세 조종 혐의로 6명을 기소했습니다. 이번 사건은 올라마 온콜로지의 핵심 후보 물질 개발과 관련된 민감한 정보가 부당하게 활용된 정황을 포착하여 이루어졌습니다. 피고인들은 기업의 미공개 중요 정보를 이용하여 주식 시장에서 불법적인 이득을 취한 혐의를 받고 있습니다. 특히, 기소된 인물 중에는 올라마 온콜로지와 직접적인 관계를 가진 인물들이 포함되어 있어 사건의 심각성을 더하고 있습니다. 이들은 복잡한 거래 방식을 통해 규제 당국의 감시를 피하려 했으나, 광범위한 조사 끝에 혐의가 드러났습니다. 이번 기소는 바이오 산업 내 정보 투명성과 공정한 시장 질서 유지의 중요성을 다시 한번 강조하는 사례로 평가됩니다."
+    },
+    {
+      "title_en": "Windward gets bispecific from Qyuns in its second China deal of the year",
+      "url": "https://endpoints.news/windward-gets-bispecific-from-qyuns-in-its-second-china-deal-of-the-year/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "윈드워드 바이오, 중국 치윈스 바이오텍과 이중특이성 항체 도입 계약 체결",
+      "summary_kr": "스위스 바이오 기업 윈드워드 바이오(Windward Bio)가 올해 들어 두 번째로 중국 바이오텍으로부터 신약 후보 물질을 도입하며 파이프라인을 확장하고 있습니다. 이번 계약을 통해 윈드워드 바이오는 치윈스 바이오텍(Qyuns)의 이중특이성 항체 후보 물질에 대한 권리를 확보하게 되었습니다. 윈드워드 바이오는 호흡기 및 피부과 질환을 위한 다양한 치료제를 시장에 선보이는 것을 목표로 하고 있습니다. 구체적인 계약 조건에 따르면 윈드워드 바이오는 계약금과 더불어 개발 및 상업화 마일스톤에 따라 최대 특정 금액을 치윈스 바이오텍에 지급할 예정입니다. 이러한 전략적 제휴는 윈드워드 바이오가 글로벌 시장에서 경쟁력을 강화하고 혁신적인 치료 솔루션을 환자들에게 제공하려는 노력을 반영합니다. 양사는 긴밀한 협력을 통해 해당 후보 물질의 성공적인 개발을 추진할 계획입니다."
+    },
+    {
+      "title_en": "Shionogi to pay $2.5B to acquire one of the only approved ALS drugs",
+      "url": "https://endpoints.news/shionogi-will-pay-2-5b-to-acquire-one-of-the-only-approved-als-drugs/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "시오노기, ALS 치료제 확보 위해 25억 달러 규모 인수 계약 발표",
+      "summary_kr": "일본 제약사 시오노기(Shionogi)가 월요일, 희귀 질환 분야에서의 광범위한 야망을 실현하기 위해 약 25억 달러 규모의 계약을 통해 승인된 ALS(근위축성 측삭 경화증) 치료제 중 하나를 인수할 것이라고 발표했습니다. 이번 인수는 시오노기가 희귀 질환 분야에서의 입지를 강화하고, 치명적인 신경퇴행성 질환인 ALS로 고통받는 환자들에게 새로운 희망을 제공하려는 전략적 움직임입니다. 현재 시판 중인 ALS 치료제가 매우 제한적이라는 점에서 이번 인수의 의미는 더욱 큽니다. 시오노기는 이번 인수를 통해 해당 ALS 치료제의 글로벌 개발 및 상업화 권리를 확보하게 되며, 이는 회사의 연구개발 포트폴리오를 크게 확장할 것입니다. 이번 계약은 시오노기가 혁신적인 치료 솔루션을 제공하고, 의료 미충족 수요가 높은 희귀 질환 시장에서 선도적인 역할을 수행하겠다는 의지를 보여줍니다."
+    },
+    {
+      "title_en": "Ipsen gains access to ADC from Shanghai biotech Simcere Zaiming",
+      "url": "https://endpoints.news/ipsen-gains-access-to-adc-from-shanghai-biotech-simcere-zaiming/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "입센, 상하이 심시어 자이밍으로부터 ADC 접근 권한 확보",
+      "summary_kr": "글로벌 제약사 입센(Ipsen)이 상하이 기반 바이오 기업 심시어 자이밍(Simcere Zaiming)으로부터 항체-약물 접합체(ADC)에 대한 접근 권한을 확보하며 18개월간의 활발한 딜메이킹 행보를 이어갔습니다. 프랑스 파리에 본사를 둔 입센은 이번 계약을 통해 중화권을 제외한 지역에서 ADC 후보 물질에 대한 개발 및 상업화 권리를 획득하게 됩니다. 입센은 이 기술 도입을 위해 선급금 4천5백만 달러를 지불할 예정이며, 이는 혁신적인 항암 치료제 파이프라인을 강화하려는 전략의 일환입니다. ADC는 암세포에 약물을 직접 전달하여 부작용을 줄이고 치료 효과를 높이는 차세대 항암 치료법으로 주목받고 있습니다. 이번 제휴를 통해 입센은 자사의 종양학 포트폴리오를 확장하고, 심시어 자이밍의 앞선 ADC 기술을 활용하여 글로벌 시장에서의 경쟁력을 높일 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Boehringer taps Rectify to create pills for chronic kidney disease",
+      "url": "https://endpoints.news/boehringer-taps-rectify-to-create-pills-for-chronic-kidney-disease/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "베링거인겔하임, 렉티파이와 만성 신장 질환 경구용 치료제 개발 협력",
+      "summary_kr": "독일 제약사 베링거인겔하임(Boehringer Ingelheim)이 보스턴 기반 스타트업 렉티파이(Rectify)와 손잡고 만성 신장 질환(CKD)을 위한 경구용 치료제 개발에 나섭니다. 이번 파트너십은 최대 4억 4천8백만 달러 규모의 바이오벅스(biobucks)가 오가는 대형 계약으로, 렉티파이의 기술력과 잠재력을 크게 부각시키는 계기가 될 것입니다. 양사는 협력을 통해 혁신적인 경구용 약물을 개발하여 만성 신장 질환 환자들의 치료 옵션을 확대하고 삶의 질을 향상시키는 것을 목표로 합니다. 렉티파이는 초기에 개발 중인 경구용 약물 후보 물질들을 베링거인겔하임의 광범위한 개발 역량과 글로벌 상업화 네트워크와 결합함으로써 시너지를 창출할 것으로 기대됩니다. 이번 제휴는 베링거인겔하임이 신장 질환 분야에서의 입지를 강화하고, 혁신적인 치료제 개발에 대한 의지를 다시 한번 보여주는 사례로 평가받고 있습니다."
+    },
+    {
+      "title_en": "AstraZeneca bets up to $2B on Jacobio’s pan-KRAS inhibitor for cancer",
+      "url": "https://endpoints.news/astrazeneca-bets-up-to-2b-on-jacobios-pan-kras-inhibitor-for-cancer/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "아스트라제네카, 자코비오의 범-KRAS 억제제에 최대 20억 달러 투자",
+      "summary_kr": "아스트라제네카(AstraZeneca)가 자코비오 파마(Jacobio Pharma)가 개발한 초기 단계 암 치료제에 대해 중국 외 지역 독점 권한을 확보하기 위해 선급금 1억 달러를 포함하여 최대 20억 달러를 투자합니다. 이번 계약은 아스트라제네카가 혁신적인 암 치료제 파이프라인을 강화하려는 전략적 움직임의 일환입니다. 영국 기반의 아스트라제네카는 구강용 범-KRAS 억제제인 JAB-23E73의 개발 및 판매를 중국 외 지역에서 담당하게 됩니다. KRAS 유전자 변이는 다양한 암종에서 흔히 발견되며, 그동안 치료가 어려웠던 난치성 암의 주요 표적으로 알려져 있습니다. 이번 투자는 아스트라제네카가 암 연구 분야에서 선두 주자로서의 입지를 확고히 하고, 미충족 의료 수요가 높은 분야에 집중하겠다는 강력한 의지를 보여줍니다. 양사는 JAB-23E73의 성공적인 개발을 통해 암 환자들에게 새로운 치료 기회를 제공할 수 있기를 기대합니다."
+    },
+    {
+      "title_en": "Aktis Oncology files for IPO to fund Lilly-partnered radiopharma pipeline",
+      "url": "https://endpoints.news/aktis-oncology-files-for-ipo-to-fund-lilly-partnered-radiopharma-pipeline/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "악티스 온콜로지, 릴리와 파트너십 맺은 방사성의약품 파이프라인 자금 조달 위해 IPO 신청",
+      "summary_kr": "수개월간 잠잠했던 바이오텍 기업공개(IPO) 시장이 2026년 초에 다시 활기를 띠기 시작할 것으로 보입니다. 이 가운데 방사성의약품 분야에서 주목받는 바이오텍 악티스 온콜로지(Aktis Oncology)가 IPO 신청 서류를 제출했습니다. 악티스 온콜로지는 일라이 릴리(Lilly)와 파트너십을 맺고 있는 방사성의약품 파이프라인의 개발 자금을 조달하기 위해 상장을 추진하고 있습니다. 방사성의약품은 진단 및 치료에 사용되는 혁신적인 기술로, 최근 암 치료 분야에서 큰 기대를 모으고 있습니다. 이번 IPO는 악티스 온콜로지가 임상 개발을 가속화하고, 환자들에게 혁신적인 치료제를 더 빠르게 제공하려는 중요한 단계입니다. 시장의 관심이 높은 방사성의약품 분야에서 악티스 온콜로지의 상장 추진은 투자자들에게도 매력적인 기회가 될 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Biopharma climbs higher as 9 drugmakers ink ‘pandering’ drug price deals with Trump",
+      "url": "https://www.biopharmadive.com/news/trump-most-favored-nation-drug-price-deals/808466/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "트럼프 대통령과의 '약가 합의'로 바이오파마 기업들 주가 상승",
+      "summary_kr": "9개 제약회사가 트럼프 행정부와 약가 합의를 체결하면서 바이오파마 업계의 주가가 상승세를 보였습니다. 이 합의는 일부에서는 대중영합적이라는 비판을 받기도 했지만, 애널리스트들은 기업의 최종 수익에 미치는 영향은 미미할 것으로 분석하고 있습니다. 오히려 기업들은 이 합의를 통해 관세 압박을 피하고 다른 부가적인 혜택을 받을 수 있을 것으로 기대하고 있습니다. 따라서 이번 계약은 단기적으로는 기업들의 수익성에 큰 변화를 주지 않으면서도, 대외적인 불확실성을 줄여주는 긍정적인 요인으로 작용할 전망입니다. 이는 바이오파마 산업의 전반적인 투자심리 개선에도 기여할 것으로 보입니다."
+    },
+    {
+      "title_en": "Radiopharmaceutical specialist Aktis seeks an IPO",
+      "url": "https://www.biopharmadive.com/news/aktis-oncology-biotech-ipo-radiopharmaceuticals-nectin-4/808472/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "방사성의약품 전문기업 악티스, IPO 추진",
+      "summary_kr": "방사성의약품 전문 스타트업 악티스(Aktis)가 기업공개(IPO)를 추진하고 있습니다. 이번 IPO 신청은 전반적인 바이오기술 산업 회복세 속에서 이루어졌으며, 이는 내년에 바이오 섹터의 IPO 시장이 다시 활성화될 수 있다는 업계 관측자들의 낙관론에 힘을 실어주고 있습니다. 악티스와 같은 혁신적인 기업들이 상장을 통해 자금을 확보하고 연구 개발에 박차를 가할 수 있다면, 바이오 산업의 성장은 더욱 가속화될 것입니다. 많은 투자자들이 이 스타트업의 잠재력과 IPO 성공 여부에 주목하고 있습니다."
+    },
+    {
+      "title_en": "Neurocrine’s Phase III trial of valbenazine for DCP fails to meet endpoints",
+      "url": "https://www.clinicaltrialsarena.com/news/neurocrine-valbenazine/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "뉴로크린 바이오사이언스, 발베나진의 운동이상 뇌성마비 3상 임상 실패",
+      "summary_kr": "뉴로크린 바이오사이언스(Neurocrine Biosciences)는 소아 및 성인 운동이상 뇌성마비(DCP) 환자를 대상으로 한 발베나진(valbenazine)의 3상 임상시험이 최종 목표에 도달하지 못했다고 발표했습니다. 발베나진은 선택적 소포성 모노아민 수송체 2(VMAT2) 억제제로, 해당 질환의 치료제로 개발 중이었습니다. 이번 임상 실패는 관련 환자들에게 새로운 치료 옵션을 제공하려는 노력에 차질을 빚게 했습니다. 연구진은 향후 추가 분석을 통해 실패 원인을 파악하고 향후 개발 방향을 재검토할 것으로 예상됩니다. 이로 인해 운동이상 뇌성마비 치료제 개발 분야에 대한 제약업계의 관심과 도전은 계속될 것으로 보입니다."
+    },
+    {
+      "title_en": "Pharma positions itself for 2026 amid an evolving US landscape",
+      "url": "https://www.clinicaltrialsarena.com/features/pharma-positions-itself-for-2026-amid-an-evolving-us-landscape/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "변화하는 미국 정책 환경 속, 2026년 제약업계의 대응 전략",
+      "summary_kr": "미국은 관세 부과, 국내 생산 전환(온쇼어링), 최혜국 대우(MFN) 등 제약 산업에 영향을 미칠 수 있는 다양한 정책 변화를 겪고 있습니다. 이러한 정책들은 2026년까지 제약 기업들의 운영 및 전략에 중대한 영향을 미칠 것으로 예상됩니다. 제약사들은 이러한 변화에 선제적으로 대응하기 위해 생산 기지 이전, 공급망 재편, 그리고 가격 책정 전략 수정 등을 포함한 다각적인 준비를 하고 있습니다. 특히 바이오 의약품의 중요성이 더욱 커지는 상황에서, 미국 정부의 정책 방향은 글로벌 제약 시장의 판도를 바꿀 핵심 변수로 작용할 것입니다."
+    },
+    {
+      "title_en": "UAE positions itself as a regional leader and a clinical trial hub",
+      "url": "https://www.clinicaltrialsarena.com/news/uae-positions-itself-as-a-regional-leader-and-a-clinical-trial-hub/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "아랍에미리트, 중동 지역의 임상시험 허브로 부상",
+      "summary_kr": "아랍에미리트(UAE)가 탄탄한 인프라와 효율적인 규제 시스템을 바탕으로 중동 지역의 임상시험 허브로 빠르게 부상하고 있습니다. UAE는 최첨단 의료 시설과 숙련된 의료 인력을 확보하며 임상시험을 유치하는 데 적극적인 모습을 보이고 있습니다. 이러한 노력은 글로벌 제약사 및 연구기관들이 중동 지역에서 임상시험을 진행할 때 UAE를 최우선 고려 대상으로 삼게 만들고 있습니다. 임상시험 허브로서의 역할은 UAE가 생명과학 분야에서 지역 선두 주자로서의 입지를 강화하는 데 중요한 발판이 될 것입니다."
+    },
+    {
+      "title_en": "Ipsen’s ultra-rare bone disease drug flops in Phase II trial",
+      "url": "https://www.clinicaltrialsarena.com/news/ipsens-ultra-rare-bone-disease-drug-flops-in-phase-ii-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "입센의 초희귀 골 질환 치료제, 2상 임상시험에서 실패",
+      "summary_kr": "제약사 입센(Ipsen)의 초희귀 골 질환 치료제 후보 물질이 2상 임상시험에서 주요 목표 달성에 실패했습니다. 이번 실패는 레제네론(Regeneron)이 진행한 진행성 골화성 섬유이형성증(FOP) 연구가 성공적으로 목표에 도달하여 미국 식품의약국(FDA) 승인 신청으로 이어진 직후에 발표된 소식이라 더욱 주목받고 있습니다. 입센의 임상 실패는 해당 희귀 질환으로 고통받는 환자들에게 실망감을 안겨줄 수 있습니다. 이 결과는 희귀 질환 치료제 개발의 어려움을 다시 한번 보여주는 사례로 평가됩니다."
+    },
+    {
+      "title_en": "Psyence gains HREC nod to use PsyLabs’ psilocybin in adjustment disorder trial",
+      "url": "https://www.clinicaltrialsarena.com/news/psyence-psylabs-psilocybin/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "사이언스 바이오메드, 적응장애 임상시험에 사일랩스의 실로시빈 사용 승인 획득",
+      "summary_kr": "사이언스 바이오메드(Psyence BioMed)는 호주 벨베리 인간연구윤리위원회(HREC)로부터 사일랩스(PsyLabs)가 개발한 환각성 활성 의약품 성분(API)인 실로시빈 제품(NPX5)을 현재 진행 중인 2b상 임상시험에 사용할 수 있도록 공식 승인을 받았습니다. 이 임상시험은 적응장애(adjustment disorder)를 대상으로 하며, 실로시빈과 같은 환각성 물질의 치료 잠재력을 탐색하는 중요한 단계입니다. 이번 승인은 엄격한 윤리적 및 과학적 기준을 충족했음을 의미하며, 정신 건강 분야에서 새로운 치료법을 모색하는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Altimmune reports positive topline results from IMPACT Phase IIb trial",
+      "url": "https://www.clinicaltrialsarena.com/news/altimmune-positive-impact-iib-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "알트이뮨, IMPACT 2b상 임상시험에서 긍정적인 초기 결과 발표",
+      "summary_kr": "알트이뮨(Altimmune)이 비알코올성 지방간염(MASH) 환자를 대상으로 진행한 펨비두타이드(pemvidutide)의 IMPACT 2b상 임상시험에서 긍정적인 초기 결과가 나왔다고 발표했습니다. 펨비두타이드는 글루카곤과 GLP-1 이중 수용체 작용제로, 1:1의 균형 잡힌 비율로 작용하는 것이 특징입니다. 이번 임상시험의 성공적인 결과는 MASH 치료 분야에서 새로운 치료제 개발의 가능성을 시사합니다. MASH는 간 염증과 섬유화를 유발하며, 현재 효과적인 치료법이 제한적인 질환입니다. 알트이뮨은 이 결과를 바탕으로 향후 펨비두타이드의 추가 개발 및 상용화를 위한 단계를 밟을 것으로 예상됩니다. 이는 MASH 환자들에게 새로운 치료 옵션을 제공할 수 있는 중요한 진전입니다."
+    },
+    {
+      "title_en": "Autism in Kenya, organoid research, and more",
+      "url": "https://www.thetransmitter.org/spectrum/autism-in-kenya-organoid-research-and-more/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-23",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-spotted-20251223.png",
+      "title": "케냐의 자폐증 현황, 오가노이드 연구 등 최신 동향",
+      "summary_kr": "12월 22일 주간에 걸쳐 웹에서 수집된 자폐증 관련 최신 뉴스와 연구 동향을 종합적으로 소개합니다. 이 보고서에는 특히 케냐 지역에서의 자폐증 현황과 관련 정책, 그리고 자폐 스펙트럼 장애의 원인과 치료법을 탐색하기 위한 오가노이드(장기 유사체) 연구의 발전이 포함되어 있습니다. 오가노이드 연구는 인간 뇌 발달 및 질병 메커니즘을 이해하는 데 중요한 모델을 제공하며, 자폐증의 복잡한 신경학적 기반을 밝히는 데 기여하고 있습니다. 이 외에도 다양한 자폐증 관련 최신 연구 성과들이 요약되어 있어, 해당 분야의 전문가 및 관계자들에게 유용한 정보를 제공합니다. 이번 주 동향은 자폐증에 대한 이해를 넓히고 새로운 치료 전략을 모색하는 데 중요한 단초를 제공합니다."
+    },
+    {
+      "title_en": "‘Unprecedented’ dorsal root ganglion atlas captures 22 types of human sensory neurons",
+      "url": "https://www.thetransmitter.org/peripheral-nervous-system/unprecedented-dorsal-root-ganglion-atlas-captures-22-types-of-human-sensory-neurons/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2025-12-23",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-525-social-DRG-atlas.png",
+      "title": "전례 없는 등쪽뿌리신경절 아틀라스, 22가지 유형의 인간 감각 신경 포착",
+      "summary_kr": "최근 공개된 '등쪽뿌리신경절(DRG) 아틀라스'는 전례 없는 수준으로 22가지 유형의 인간 감각 신경을 상세하게 매핑하는 데 성공했습니다. 이 혁신적인 아틀라스는 통증 및 기타 감각 질환의 이해를 깊게 하는 데 결정적인 역할을 할 것으로 기대됩니다. 또한, 이 아틀라스는 새로운 통증 치료법 개발을 위한 분자 및 세포 수준의 표적을 제공합니다. 이를 통해 연구자들은 통증 신호 전달 경로를 보다 정밀하게 이해하고, 특정 감각 신경 유형을 표적으로 하는 맞춤형 치료 전략을 고안할 수 있게 됩니다. 이번 연구 결과는 만성 통증으로 고통받는 환자들에게 희망을 줄 수 있는 중요한 과학적 진전으로 평가됩니다."
+    },
+    {
+      "title_en": "Axonal Eif5a hypusination controls local translation and mitigates defects in FUS-ALS",
+      "url": "https://www.nature.com/articles/s41593-025-02101-2",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "축삭 Eif5a 하이푸시네이션이 국소 번역을 조절하고 FUS-ALS 결함을 완화",
+      "summary_kr": "최근 네이처 뉴로사이언스(Nature Neuroscience)에 발표된 Piol 외 연구진의 연구는 융합육종-근위축성 측삭경화증(FUS-ALS)의 새로운 병리학적 메커니즘을 규명했습니다. 연구팀은 운동 뉴런의 축삭에서 공간 전사체학(spatial transcriptomics) 기술을 활용하여, 진핵생물 개시 인자 5a(Eif5a)의 하이푸시네이션(hypusination) 과정 이상이 축삭 내 국소 번역과 신경 활동을 방해한다는 사실을 발견했습니다. FUS-ALS는 운동 뉴런의 점진적인 퇴화로 인해 심각한 운동 기능 상실을 초래하는 치명적인 질환입니다. 놀랍게도, 스페르미딘(spermidine) 보충을 통해 Eif5a 하이푸시네이션을 조절하는 것이 시험관 및 생체 내 ALS 모델에서 질병 표현형을 개선하는 것으로 나타났습니다. 이 연구는 FUS-ALS 치료를 위한 새로운 분자 표적을 제시하며, 향후 치료제 개발에 중요한 통찰력을 제공합니다."
+    },
+    {
+      "title_en": "Extracellular matrix proteolysis maintains synapse plasticity during brain development",
+      "url": "https://www.nature.com/articles/s41593-025-02153-4",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "뇌 발달 과정에서 세포외 기질 단백질 분해가 시냅스 가소성 유지에 기여",
+      "summary_kr": "네이처 뉴로사이언스(Nature Neuroscience)에 게재된 이 연구는 발달 중인 뇌의 세포외 기질(ECM)이 새로 생성된 시냅스를 안정화하는 데 중요한 역할을 한다는 사실을 밝혀냈습니다. 시냅스는 신경 세포 간의 연결 부위로, 뇌 기능과 학습, 기억에 필수적입니다. 연구진은 미세아교세포(microglial)에서 유래한 메탈로프로테아제(metalloprotease)라는 효소가 ECM을 분해하여 이들 신생 시냅스의 가소성을 증가시킨다는 것을 확인했습니다. 이러한 ECM의 분해와 재구성은 시냅스가 환경 변화에 맞춰 유연하게 반응하고 최적의 기능을 수행하도록 돕습니다. 이번 발견은 뇌 발달 과정에서의 시냅스 형성 및 조절 메커니즘에 대한 이해를 심화시키고, 신경 발달 장애와 관련된 새로운 치료 전략 개발에 기여할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Genetic mapping identifies <i>Homer1</i> as a developmental modifier of attention",
+      "url": "https://www.nature.com/articles/s41593-025-02155-2",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "유전자 매핑으로 Homer1이 주의력 발달 조절자임을 규명",
+      "summary_kr": "네이처 뉴로사이언스(Nature Neuroscience)에 발표된 연구에 따르면, 생쥐를 대상으로 한 유전자 매핑을 통해 Homer1a 유전자가 주의력 발달의 핵심 조절자임이 밝혀졌습니다. 이 연구는 전두엽 피질에서 Homer1a의 발달적 하향 조절이 억제성 신경 조절을 강화하고, 신경 신호 대 잡음비(signal-to-noise ratio)를 개선하여 성체의 주의력 수행 능력을 향상시킨다는 점을 보여주었습니다. 이는 주의력 조절의 새로운 메커니즘과 잠재적인 치료 표적을 제시합니다. 주의력 결핍 장애와 같은 질환의 이해를 깊게 하고, 새로운 치료 전략을 개발하는 데 중요한 통찰력을 제공할 것으로 기대됩니다. Homer1a의 역할을 이해하는 것은 인지 기능 개선 연구에 중요한 전기를 마련할 수 있습니다."
+    },
+    {
+      "title_en": "Vagus nerve-mediated neuroimmune modulation for rheumatoid arthritis: a pivotal randomized controlled trial",
+      "url": "https://www.nature.com/articles/s41591-025-04114-7",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2025-12-23",
+      "image_url": null,
+      "title": "미주신경 매개 신경면역 조절, 류마티스 관절염 치료의 핵심 무작위 대조군 임상시험",
+      "summary_kr": "네이처 메디슨(Nature Medicine)에 게재된 주요 무작위 대조군 임상시험 결과에 따르면, 이식형 미주신경 표적 장치가 류마티스 관절염 환자의 질병 활성도와 관절 손상을 안전하게 감소시키는 것으로 확인되었습니다. 이 연구는 기존 약물 치료에 반응하지 않거나 약물 부작용으로 인해 치료를 지속하기 어려운 환자들에게 새로운 비약물적 치료 옵션을 제공할 수 있음을 시사합니다. 미주신경은 염증 반응을 조절하는 데 중요한 역할을 하는 것으로 알려져 있으며, 이 기술은 신경계와 면역계의 상호작용을 활용하여 질병을 제어합니다. 이번 임상시험의 긍정적인 결과는 만성 자가면역 질환인 류마티스 관절염 환자들의 삶의 질을 향상시킬 잠재력을 가진 중요한 의학적 진전으로 평가됩니다."
+    },
+    {
+      "title_en": "숨겨진 구글 신무기 (아이소모픽 랩스, 딥마인드)",
+      "url": "https://www.youtube.com/watch?v=A5frWF7LZcM",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-23",
+      "image_url": "https://i2.ytimg.com/vi/A5frWF7LZcM/hqhqdefault.jpg",
+      "title": "구글의 숨겨진 AI 무기: 아이소모픽 랩스와 딥마인드",
+      "summary_kr": "본 영상은 구글이 개발 중인 AI 신기술, 특히 아이소모픽 랩스(Isomorphic Labs)와 딥마인드(DeepMind)의 역할을 조명합니다. AI가 신약 개발 과정에 어떻게 활용되고 있는지, 그리고 기존 방식과 비교하여 어떤 혁신을 가져오고 있는지 설명합니다. 전통적인 신약 개발은 수많은 시행착오를 거치며 많은 시간과 비용이 소요되지만, AI 기술을 활용하면 이러한 과정을 가상 현실에서 시뮬레이션하여 효율성을 극대화할 수 있습니다. 아이소모픽 랩스와 딥마인드는 AI 모델을 개발하여 단백질 구조를 예측하고, 다른 분자들과의 상호작용을 분석하며, 이를 통해 특정 질병에 최적화된 신약을 개발하는 데 중점을 두고 있습니다. 예를 들어, 알파폴드(AlphaFold)와 같은 AI 모델은 단백질 구조 예측에 혁신을 가져왔으며, 이는 과거에는 불가능하다고 여겨졌던 어려운 문제를 해결하는 데 기여했습니다. 더 나아가, AI는 약물이 인체 내에서 어떻게 작용하고 어떤 영향을 미치는지 예측하여 신약 개발의 정확도를 높입니다. 또한, AI 모델은 기존에는 발견되지 않았던 새로운 단백질 패턴을 식별하고, 이를 표적으로 하는 신약 후보 물질을 찾아내는 데에도 중요한 역할을 합니다. 노바티스(Novartis)와 일라이 릴리(Eli Lilly)와 같은 제약 회사와의 협력을 통해 아이소모픽 랩스는 이러한 AI 기술을 활용하여 신약 개발의 새로운 지평을 열고 있습니다. AI 기술은 신약 개발 과정에 걸리는 시간과 비용을 획기적으로 단축할 뿐만 아니라, 기존에는 해결하기 어려웠던 복잡한 질병에 대한 치료법 개발에도 기여할 것으로 기대됩니다. 궁극적으로 이러한 기술 발전은 인류의 건강 증진과 질병 정복에 크게 기여할 것입니다."
+    },
     {
       "title_en": "Top Cancer Stories of 2025",
       "url": "https://www.the-scientist.com/top-cancer-stories-of-2025-73859",
