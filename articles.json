@@ -1,7 +1,397 @@
 {
-  "last_updated": "2025-12-24 01:06:51",
+  "last_updated": "2025-12-25 01:04:21",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "Meet the man hunting the spies in your smartphone",
+      "url": "https://www.technologyreview.com/2025/12/24/1129294/ronald-deibert-citizen-lab-digital-threats-spies-cybersecurity/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "스마트폰 스파이를 추적하는 남자, 로널드 다이버트를 만나다",
+      "summary_kr": "2025년 4월, 보안 전문가 로널드 다이버트는 개인 전자기기 압수 위험을 피하고자 모든 기기를 토론토 집에 두고 비행기에 탑승했습니다. 일리노이에 도착한 그는 즉시 택시를 타고 애플 스토어로 향하여 새 노트북과 아이폰을 구매했습니다. 이러한 행동은 디지털 감시와 스파이웨어로부터 개인 정보를 보호하려는 그의 직업적 신념을 보여줍니다. 다이버트는 스마트폰을 포함한 디지털 기기에 숨어있는 스파이웨어를 찾아내고 분석하는 전문가로 널리 알려져 있습니다. 그의 사례는 디지털 보안 분야에서 개인이 직면할 수 있는 위협의 심각성을 단적으로 보여주며, 디지털 감시와 인권 침해에 맞서 싸우는 그의 중요한 역할을 강조합니다."
+    },
+    {
+      "title_en": "Four bright spots in climate news in 2025",
+      "url": "https://www.technologyreview.com/2025/12/24/1130191/good-climate-news-2025/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "2025년 기후 뉴스 속 네 가지 희망적인 소식",
+      "summary_kr": "2025년 기후 관련 소식은 전반적으로 우려되는 내용이 많았습니다. 전 세계 온실가스 배출량은 또 다시 사상 최고치를 기록했으며, 올해는 역사상 두 번째 또는 세 번째로 가장 더운 해가 될 것으로 예상되었습니다. 캘리포니아의 산불과 인도네시아 및 파키스탄의 홍수와 같은 기후 변화로 인한 재해들은 수많은 지역 사회를 황폐화시키고 수십억 달러의 피해를 입혔습니다. 그러나 이러한 암울한 지표들에도 불구하고, 기후 변화 대응 노력에 있어 몇 가지 주목할 만한 긍정적인 진전들도 있었습니다. 이 기사는 이러한 희망적인 네 가지 밝은 소식들을 집중 조명하며, 기후 위기 극복을 위한 노력이 계속되고 있음을 보여줍니다. 이는 전반적으로 부정적인 기후 뉴스 속에서 미래에 대한 희망의 불씨를 지피고 있습니다."
+    },
+    {
+      "title_en": "The Nature Podcast highlights of 2025",
+      "url": "https://www.nature.com/articles/d41586-025-03756-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "네이처 팟캐스트, 2025년 주요 하이라이트",
+      "summary_kr": "2025년 12월 24일 온라인으로 발행된 네이처(Nature) 팟캐스트는 지난 12개월 동안의 주요 과학 소식들을 다시 조명합니다. 팟캐스트 팀은 한 해 동안 다루었던 수많은 이야기들 중에서 자신들이 가장 좋아했던 에피소드들을 엄선하여 청취자들에게 제공합니다. 이 하이라이트 에피소드들은 2025년 과학계의 가장 중요한 발견과 흥미로운 연구, 그리고 논란이 되었던 주제들을 망라할 것으로 예상됩니다. 청취자들은 이를 통해 유전학, 물리학, 환경 과학 등 다양한 분야에서 일어난 주요 진전들을 한눈에 파악할 수 있을 것입니다. 이번 요약본은 바쁜 일상 속에서 과학계의 주요 동향을 놓치지 않으려는 이들에게 유용한 가이드가 될 것입니다."
+    },
+    {
+      "title_en": "Best Genomics Stories of 2025",
+      "url": "https://www.the-scientist.com/best-genomics-stories-of-2025-73884",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "2025년 최고의 유전체학 뉴스",
+      "summary_kr": "2025년은 유전체학 분야에서 흥미롭고 획기적인 소식들이 풍성했던 한 해였습니다. 특히, 멸종된 '다이어 늑대'의 복원 가능성에 대한 뜨거운 논쟁은 대중의 큰 관심을 모았습니다. 유전자 편집 기술의 새로운 장을 연 'CRISPR-GPT'의 등장은 유전체 연구자들 사이에서 큰 반향을 일으켰으며, 이를 통해 질병 치료와 생명 공학 분야에 혁신적인 변화가 기대됩니다. 이외에도 올해 가장 인기 있었던 유전체학 관련 기사들은 다양한 최신 연구와 기술 발전에 대한 심도 있는 논의를 담고 있습니다. 이러한 소식들은 유전체학이 인류의 미래에 미칠 영향과 무궁무진한 가능성을 다시 한번 일깨워주었습니다. 올해의 주요 뉴스는 이 분야의 끊임없는 발전을 증명합니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Gopal Niraula",
+      "url": "https://www.the-scientist.com/postdoc-portrait-gopal-niraula-73876",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "박사후 연구원 집중 조명: 고팔 니라울라, DNA 기반 센서로 세포 역학 연구",
+      "summary_kr": "고팔 니라울라 박사후 연구원은 세포 행동을 조절하는 기계적 힘의 역할을 규명하기 위해 혁신적인 연구를 수행하고 있습니다. 그는 DNA를 기반으로 하는 정교한 힘 센서를 개발하여 세포 내부와 외부에서 작용하는 미세한 물리적 힘을 정밀하게 측정하고 분석합니다. 이러한 센서는 세포가 외부 환경의 기계적 신호에 어떻게 반응하고, 그 결과 세포의 성장, 분화, 이동 등 핵심 생물학적 과정이 어떻게 변화하는지를 이해하는 데 필수적입니다. 니라울라 박사의 연구는 세포 생물학 분야에 새로운 통찰력을 제공하며, 세포 역학에 대한 깊이 있는 이해를 통해 질병의 발생 메커니즘을 밝히고 새로운 치료법 개발에도 기여할 것으로 기대됩니다. 그의 연구는 기계생물학 분야의 최전선에서 세포 기능의 복잡성을 탐구하는 중요한 역할을 합니다."
+    },
+    {
+      "title_en": "Five things to know about NSF’s new rules on merit review",
+      "url": "https://www.science.org/content/article/five-things-know-about-nsf-s-new-rules-merit-review",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "미국 국립과학재단(NSF)의 새로운 연구심사 규정: 알아야 할 5가지 핵심 사항",
+      "summary_kr": "미국 국립과학재단(NSF)이 새로운 연구심사(merit review) 규정을 도입하며 과학계에 적지 않은 변화가 예상됩니다. 이 새로운 규정은 주로 외부 심사위원의 참여를 줄이고, 신청자들에게 제공되는 피드백의 양도 축소될 것으로 보입니다. 이로 인해 심사 과정의 투명성과 피드백의 질에 대한 우려가 제기되고 있습니다. 또한, 최근 발표된 새로운 과학 이사회 보고서의 운명 또한 불확실해지면서 과학 정책 전반에 대한 논의가 활발해질 전망입니다. 이러한 변화는 연구 제안서 심사 과정의 효율성을 높이려는 목적이 있으나, 동시에 다양한 관점의 유입이 줄어들고 연구자들이 개선 기회를 잃을 수 있다는 비판도 따릅니다. 과학계는 NSF의 새로운 규정이 실제 연구 생태계에 어떤 장기적인 영향을 미칠지 예의주시하고 있습니다."
+    },
+    {
+      "title_en": "Nineteen states, D.C. sue HHS over gender-affirming care crackdown",
+      "url": "https://www.statnews.com/2025/12/24/gender-affirming-care-states-sue-block-federal-crackdown/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-2252759486-645x645.jpg",
+      "title": "19개 주 및 워싱턴 D.C., 성 전환 치료 규제 관련 HHS 제소",
+      "summary_kr": "미국 내 19개 주와 워싱턴 D.C.가 연방 보건복지부(HHS)를 상대로 성 전환 치료(gender-affirming care)에 대한 규제 강화에 대해 소송을 제기했습니다. 이번 소송은 민주당이 주도하는 주들과 워싱턴 D.C.가 로버트 F. 케네디 주니어(RFK Jr.)의 성 전환 치료 거부 선언이 HHS의 권한을 넘어선 조치라고 주장하며 이루어졌습니다. 이들은 연방 정부가 주 차원의 의료 서비스 제공에 부당하게 개입하고 있다고 보고 있습니다. 이번 법적 다툼은 성 소수자 커뮤니티의 의료 접근성과 권리를 둘러싼 첨예한 사회적, 정치적 논쟁을 반영합니다. 소송의 결과는 미국의 보건 정책과 성 전환 치료의 미래에 중요한 영향을 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Opinion: Proposed HHS rule on gender-affirming care radically expands use of Medicare, Medicaid as policy weapons",
+      "url": "https://www.statnews.com/2025/12/24/gender-affirming-care-hhs-rule-medicare-medicaid-weapons/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP25211634727537-645x645.jpg",
+      "title": "전문가 의견: 성 전환 치료 관련 HHS의 제안된 규정, 메디케어 및 메디케이드를 정책적 무기로 활용하는 선례 우려",
+      "summary_kr": "보건복지부(HHS)가 제안한 성 전환 치료에 대한 새로운 규정안이 논란의 중심에 서 있습니다. 이 규정안은 성 전환 치료에 대한 접근성을 제한하려는 시도로 해석되며, 전문가들은 이로 인해 메디케어(Medicare)와 메디케이드(Medicaid)와 같은 중요한 공공 의료보험 프로그램이 정치적 목적의 정책 무기로 전용될 수 있다고 경고하고 있습니다. 이들이 지적하는 핵심 우려는, 만약 이 규정이 실제로 시행된다면 \"어떤 종류의 의료 서비스든 유사한 대우를 받을 수 있다\"는 점입니다. 이는 환자의 의료 접근성을 심각하게 위협하고, 정치적 이념에 따라 의료 서비스의 제공 여부가 결정될 수 있는 위험한 선례를 남길 수 있다는 의미입니다. 이러한 움직임은 의료 서비스의 보편성과 공정성을 훼손할 수 있다는 점에서 광범위한 비판을 받고 있으며, 보건 정책의 미래에 대한 심각한 질문을 던지고 있습니다."
+    },
+    {
+      "title_en": "3 drug policy questions to watch in 2026",
+      "url": "https://www.statnews.com/2025/12/24/3-drug-policy-questions-to-watch-in-2026/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-6-645x645.jpg",
+      "title": "2026년 주목해야 할 3가지 약물 정책 질문",
+      "summary_kr": "2026년에는 미국 약물 정책과 관련하여 중요한 변화들이 예상되고 있습니다. 특히 트럼프 행정부는 환각제를 치료 목적으로 활용하는 방안과 대마초 규제 완화에 대해 강한 관심을 보여왔습니다. 이는 기존의 약물 규제 패러다임에 중대한 변화를 가져올 수 있음을 시사합니다. 향정신성 물질의 의료적 활용에 대한 논의는 과학적 연구와 사회적 합의를 바탕으로 더욱 심화될 것으로 예상됩니다. 대마초에 대한 정책 변화 역시 주(state) 차원을 넘어 연방 차원에서도 주목받을 가능성이 큽니다. 이러한 정책 변화들은 공중 보건, 경제, 그리고 사회 전반에 걸쳐 광범위한 영향을 미칠 것으로 전망됩니다."
+    },
+    {
+      "title_en": "STAT+: The 3 biggest issues to watch in vaccine policy in 2026",
+      "url": "https://www.statnews.com/2025/12/24/vaccine-policy-2026-stat-3-to-watch/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-8-645x645.jpg",
+      "title": "STAT+: 2026년 백신 정책의 가장 큰 3가지 핵심 쟁점",
+      "summary_kr": "2026년에는 미국의 백신 정책에 여러 중요한 변화가 있을 것으로 예상되며, 과학 전문 매체 STAT는 이에 대한 주요 쟁점들을 심층 분석했습니다. 특히 공중 보건 시스템 강화, 새로운 백신 개발 및 보급, 그리고 백신 접종률 증대를 위한 정책적 접근 방식이 핵심 쟁점이 될 전망입니다. 팬데믹 이후 백신의 중요성이 더욱 부각됨에 따라, 정부와 제약업계의 협력 모델, 백신 접근성 확대 방안, 그리고 백신 관련 정보의 투명성 확보에 대한 논의가 활발히 이루어질 것으로 보입니다. 또한, 새로운 전염병 발생에 대비한 백신 비축 및 신속한 개발 체계 구축도 중요한 정책 방향으로 다뤄질 것입니다. 이러한 정책 변화들은 미래 공중 보건 위기에 대한 대응력을 높이는 데 결정적인 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Opinion: What giving flu shots backstage taught me about public health",
+      "url": "https://www.statnews.com/2025/12/24/flu-shots-backstage-broadway-public-health/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_320885840-645x645.jpeg",
+      "title": "오피니언: 브로드웨이 백스테이지 독감 예방접종이 알려준 공중 보건의 진실",
+      "summary_kr": "이 기고문은 브로드웨이 공연장 백스테이지에서 독감 예방접종을 진행하며 깨달은 공중 보건의 본질에 대해 이야기합니다. 필자는 공중 보건이 거창한 정책이나 대규모 캠페인에 의해서만 결정되는 것이 아니라, 일상적인 대면 상호작용의 질에 따라 성패가 좌우된다는 점을 강조합니다. 즉, 사람들이 얼마나 쉽게 정보를 얻고, 신뢰할 수 있는 조언을 들으며, 편리하게 보건 서비스를 이용할 수 있는지 여부가 핵심이라는 것입니다. 브로드웨이 배우들과 스태프들에게 백스테이지에서 직접 예방접종을 제공함으로써, 접근성을 높이고 신뢰를 구축하는 것이 얼마나 중요한지 실감할 수 있었습니다. 이러한 작은 규모의 개인적인 접촉이 모여 전체 사회의 건강 수준을 결정짓는 중요한 요소임을 시사합니다. 이는 우리가 공중 보건 정책을 수립하고 실행할 때 간과해서는 안 될 중요한 교훈을 제공합니다."
+    },
+    {
+      "title_en": "Being Santa Claus is a year-round calling",
+      "url": "https://arstechnica.com/science/2025/12/being-santa-claus-is-a-year-round-calling/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/santa_claus_secret_header-500x500.jpg",
+      "title": "산타클로스는 1년 365일 계속되는 소명",
+      "summary_kr": "이 기사는 산타클로스의 역할이 단순히 크리스마스 기간에만 국한되지 않는, 연중 지속되는 소명임을 강조합니다. 진정한 산타클로스는 '하루 24시간, 일주일 7일, 일년 52주 내내 산타클로스'여야 한다는 철학을 담고 있습니다. 이는 산타클로스 복장을 벗었을 때에도 그들이 대중에게 보여주는 행동과 태도가 중요함을 의미합니다. 산타클로스 연기자는 아이들의 순수한 믿음과 '마법'을 깨뜨리지 않기 위해 항상 모범적인 모습을 유지해야 합니다. 평소의 부적절한 행동은 아이들의 환상을 깨고, 산타클로스 이미지에 대한 신뢰를 훼손할 수 있기 때문입니다. 따라서 산타클로스는 단순히 역할을 수행하는 것을 넘어, 그들이 상징하는 희망과 기쁨의 가치를 생활 속에서 구현해야 하는 특별한 책임감을 가집니다."
+    },
+    {
+      "title_en": "AlphaFold Changed Science. After 5 Years, It’s Still Evolving",
+      "url": "https://www.wired.com/story/alphafold-changed-science-after-5-years-its-still-evolving/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": "https://media.wired.com/photos/6945719619dbd1ce3aedd653/master/pass/1352901220",
+      "title": "알파폴드, 과학을 바꾸다: 5년 후에도 진화하는 그 영향력",
+      "summary_kr": "딥마인드의 혁신적인 AI 단백질 구조 예측 도구인 알파폴드가 과학계에 등장한 지 5년이 지났음에도 불구하고 여전히 진화를 거듭하며 생물학과 화학 분야에 지대한 영향을 미치고 있습니다. 노벨상 수상 연구로도 주목받는 이 프로젝트는 단백질 접힘 문제 해결에 획기적인 돌파구를 마련하며 수많은 과학적 발견을 가속화했습니다. WIRED는 딥마인드의 푸시미트 콜리와의 인터뷰를 통해 알파폴드의 최근 성과와 앞으로의 유망한 미래에 대해 심도 있게 논의했습니다. 이 기술은 신약 개발부터 질병 메커니즘 이해에 이르기까지 광범위한 분야에서 활용되며 과학 연구의 새로운 지평을 열어가고 있습니다. 알파폴드의 지속적인 발전은 앞으로도 과학계에 지속적인 변화와 혁신을 가져올 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Agios finally wins approval for Aqvesme in thalassemia",
+      "url": "https://endpoints.news/agios-finally-wins-approval-for-aqvesme-in-thalassemia/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "아지오스, 지중해빈혈 치료제 '아크베스메' 드디어 FDA 승인 획득",
+      "summary_kr": "아지오스 파마슈티컬스(Agios Pharmaceuticals)의 지중해빈혈 치료제 '미타피바트(mitapivat)'가 마침내 미국 식품의약국(FDA)으로부터 '아크베스메(Aqvesme)'라는 이름으로 공식 승인을 받았습니다. 이번 승인은 세 달간의 지연과 마감 기한을 넘긴 끝에 이루어진 것으로, 지중해빈혈 환자들에게 오랜 기다림 끝에 새로운 희망을 안겨주었습니다. 아크베스메는 미충족 의료 수요가 높았던 지중해빈혈 분야에서 환자들의 삶의 질을 크게 향상시킬 수 있는 중요한 치료 옵션이 될 것으로 기대됩니다. FDA의 승인은 아지오스에게 핵심적인 진전이며, 회사가 혈액 질환 분야에서 혁신적인 치료제를 개발하기 위한 꾸준한 노력을 입증하는 성과입니다. 이로써 아크베스메는 의료 현장에서 지중해빈혈로 고통받는 환자들에게 실질적인 도움을 제공할 수 있게 되었습니다."
+    },
+    {
+      "title_en": "Sanofi to buy hepatitis B vaccine maker Dynavax for $2.2B; gets CRL for MS drug",
+      "url": "https://endpoints.news/sanofi-buys-hepatitis-b-vaccine-maker-dynavax-for-2-2-billion-gets-crl-for-ms-drug/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "사노피, B형 간염 백신 기업 다이나박스 22억 달러에 인수 예정; MS 치료제는 보완 요청서 수령",
+      "summary_kr": "사노피(Sanofi)가 백신 사업을 강화하기 위해 B형 간염 백신 제조업체 다이나박스 테크놀로지스(Dynavax Technologies)를 현금 22억 달러에 인수할 예정이라고 양사가 수요일 공동 발표했습니다. 이번 인수는 사노피의 백신 포트폴리오를 확장하고 감염병 예방 분야에서의 시장 입지를 더욱 공고히 할 전략적 움직임으로 평가됩니다. 한편, 사노피는 별도로 개발 중인 다발성 경화증(MS) 치료제에 대해 미국 식품의약국(FDA)으로부터 '완료 심사 요청서(CRL)'를 수령했다고 밝혔습니다. 이는 해당 MS 치료제의 승인 과정에 추가적인 정보나 연구가 필요하다는 의미로, 제품 출시가 지연될 수 있음을 시사합니다. 사노피는 백신 사업 확대를 통한 성장 동력 확보와 동시에, 다른 치료제 파이프라인에 대한 규제 당국의 요구사항을 충족시키기 위한 노력을 병행해야 할 상황에 놓였습니다."
+    },
+    {
+      "title_en": "Pivoting to community-based research models to boost patient access",
+      "url": "https://www.clinicaltrialsarena.com/news/pivoting-to-community-based-research-models-to-boost-patient-access/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "환자 접근성 향상을 위한 한국 임상시험 모델, 지역사회 기반 연구로 전환",
+      "summary_kr": "한국의 임상시험 생태계가 환자들의 임상시험 참여 접근성을 획기적으로 개선하기 위해 분산형 임상시험(decentralised trials) 모델에서 더욱 포괄적인 지역사회 기반 연구 모델로 전환을 모색하고 있습니다. 이러한 변화는 임상시험 참여에 따르는 지리적, 시간적 제약을 최소화하여 더 많은 환자들이 새로운 치료법 개발 과정에 적극적으로 참여할 수 있도록 하기 위함입니다. 지역사회 기반 모델은 환자들이 익숙하고 편안한 환경에서 임상시험에 참여할 수 있게 함으로써 참여율을 높이고, 나아가 연구 결과의 대표성과 일반화 가능성을 향상시킬 수 있습니다. 이러한 전환은 임상시험의 효율성을 증대시키고, 궁극적으로는 신약 개발 속도를 가속화하는 데 중요한 역할을 할 것입니다. 한국은 이 같은 혁신적인 변화를 통해 임상시험 분야에서 글로벌 경쟁력을 강화하고 환자 중심의 의료 환경을 구축하고자 노력하고 있습니다."
+    },
+    {
+      "title_en": "Leads Biolabs and DNTH initiate trial of LBL-047 in SLE",
+      "url": "https://www.clinicaltrialsarena.com/news/leads-biolabs-dnth-lbl047-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "리드 바이오랩스 및 DNTH, 전신홍반루푸스(SLE) 치료제 LBL-047 임상 1상 개시",
+      "summary_kr": "리드 바이오랩스(Leads Biolabs)와 DNTH는 전신홍반루푸스(Systemic Lupus Erythematosus, SLE) 치료를 위한 신약 후보 물질인 LBL-047의 임상 1상 시험을 시작했다고 발표했다. 이번 임상 시험은 건강한 자원자들과 SLE 환자들을 대상으로 LBL-047의 안전성, 내약성, 약동학적 특성 등을 평가하는 데 중점을 둔다. 이 연구는 만성 자가면역 질환인 SLE로 고통받는 환자들에게 새로운 치료 옵션을 제공할 가능성을 탐색하고 있다. 임상 1상 결과는 LBL-047의 향후 개발 단계를 결정하는 중요한 근거가 될 것이며, 이는 SLE 분야의 미충족 의료 수요를 해결하는 데 기여할 것으로 기대된다."
+    },
+    {
+      "title_en": "A gut-to-brain pathway that limits protein intake",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01363-7?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "단백질 섭취를 제한하는 새로운 장-뇌 신호 전달 경로 발견",
+      "summary_kr": "국제 학술지 '셀(Cell)'에 게재된 최신 연구에서, 야쉬케(Jaschke)와 럭싱거(Luchsinger) 연구팀은 단백질 섭취량을 역동적으로 조절하는 새로운 장-뇌 신호 전달 메커니즘을 밝혀냈다. 이 연구에 따르면, 극심한 단식 후 회복기에 특정 식이 아미노산의 대사 과정에서 생성되는 암모니아가 중요한 역할을 한다. 이 암모니아는 장 상피세포에 존재하는 Trpa1 수용체에 의해 감지되며, 이는 곧 단백질 기피 경로의 활성화로 이어진다. 즉, 몸이 과도한 단백질 섭취를 스스로 제한하도록 돕는 생물학적 기전이 장과 뇌의 상호작용을 통해 이루어진다는 것이다. 이 발견은 영양 섭취 조절에 대한 이해를 심화시키고, 잠재적으로 섭식 장애 연구에 새로운 통찰을 제공할 수 있다."
+    },
+    {
+      "title_en": "Stimulants as agents of arousal in whole-brain functional connectivity",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01364-9?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "각성제가 뇌 전반의 기능적 연결성에 미치는 영향: 인지 개선의 각성 기반 경로",
+      "summary_kr": "국제 학술지 '셀(Cell)'에 실린 케이(Kay) 연구팀의 최신 연구는 각성제가 인간 뇌 네트워크에 강력하고 재현 가능한 차이를 유발함을 입증했다. 연구 결과에 따르면, 각성제를 복용한 사람들은 수면의 질 향상 및 신체 각성도 증가와 관련된 특정 뇌 네트워크에서 뚜렷한 기능적 연결성 변화를 보였다. 흥미롭게도, 일반적으로 주의력과 관련된다고 알려진 네트워크에서는 유의미한 연결성 변화가 관찰되지 않았다. 여러 데이터셋을 활용한 이번 다중 데이터셋 연구는 각성제가 인지 기능을 향상시키는 것이 각성도 기반 경로와 관련이 있을 수 있음을 시사한다. 이 발견은 각성제의 작용 메커니즘에 대한 이해를 넓히고, 인지 기능 개선을 위한 새로운 치료 전략 개발에 중요한 단서를 제공한다."
+    },
+    {
+      "title_en": "The evolving landscape of Alzheimer’s disease therapy: From Aβ to tau",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01368-6?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "알츠하이머병 치료의 진화: 아밀로이드 베타를 넘어 타우 단백질 표적 치료의 부상",
+      "summary_kr": "알츠하이머병 치료 분야는 최근 미국 식품의약국(FDA) 승인을 받은 항-아밀로이드 베타(Aβ) 치료제의 발전에 이어, 타우(tau) 단백질을 표적으로 하는 새로운 접근법들이 질병 진행 속도를 늦추는 데 유망한 가능성을 보여주며 진화하고 있다. 이 보고서는 알츠하이머병 치료제 개발의 현재 진행 상황을 조망하며, 타우 단백질을 대상으로 한 임상 시험 결과가 타우 병리 생물학에 대한 깊이 있는 통찰력을 제공하고 있음을 강조한다. 이러한 연구 성과들은 차세대 질병 진행 억제 치료법 개발을 위한 길을 열고 있다. 아밀로이드 베타와 타우는 알츠하이머병의 주요 병리 기전으로 알려져 있으며, 이 두 가지 핵심 단백질을 모두 겨냥하는 전략은 환자들에게 더욱 효과적인 치료 옵션을 제공할 것으로 기대된다. 이처럼 알츠하이머병 치료의 패러다임이 점차 확장되고 있으며, 환자들에게 더 나은 예후를 제공할 가능성이 커지고 있다."
+    },
+    {
+      "title_en": "Bacterial tubular networks channel carbohydrates in insect endosymbiosis",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01130-4?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "곤충 공생 세균의 탄수화물 전달을 위한 관형 네트워크 발견",
+      "summary_kr": "세포 내부에 서식하는 세균은 숙주 세포로부터 영양분을 얻어야 생존할 수 있습니다. 본 연구는 특정 공생 세균이 숙주로부터 영양분을 능동적으로 확보하는 독특한 적응 전략을 밝혀냈습니다. 연구팀은 고압 동결 고정 기술을 부피 전자 현미경 및 제자리 고해상도 화학 분석과 결합하여 세균 내부 구조를 정밀하게 분석했습니다. 그 결과, 세균이 복잡한 막성 네트워크를 형성하여 세균과 숙주 세포질 간의 교환 면적을 크게 늘린다는 사실을 확인했습니다. 이 네트워크는 탄수화물 획득을 극대화하는 역할을 하며, 이는 세포 내 공생 관계에서 세균이 영양분을 효율적으로 활용하는 새로운 메커니즘을 제시합니다."
+    },
+    {
+      "title_en": "An archaeal transcription factor bridges prokaryotic and eukaryotic regulatory paradigms",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01241-3?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "고세균 전사 인자, 원핵 및 진핵 생물 조절 패러다임의 연결고리 제시",
+      "summary_kr": "메탄 생성 고세균은 메틸아민을 감지하고 메틸아민 대사 유전자 발현을 조절하기 위해 단일 구성 요소 시스템인 AmzR을 활용합니다. 흥미롭게도 AmzR의 DNA 결합 모티프는 다른 원핵 생물 단일 구성 요소 시스템과는 달리, 주로 진핵 생물 전사 인자에서 발견되는 구조적 접힘을 닮아 있습니다. 이러한 발견은 원핵 생물과 진핵 생물의 유전자 조절 단백질 간에 기존에 존재했던 격차를 좁히는 중요한 통찰을 제공합니다. 이는 진화 과정에서 두 생명 영역의 유전자 조절 메커니즘이 생각보다 더 밀접하게 연관되어 있을 가능성을 시사합니다. 본 연구는 생명체 전반의 유전자 조절 시스템에 대한 이해를 심화하는 데 기여합니다."
+    },
+    {
+      "title_en": "A stepwise decoding mechanism for heat sensing in plants connects lipid remodeling to a nuclear signaling cascade",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01252-8?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "식물의 열 감지 단계적 해독 메커니즘: 세포막 지질 재구성과 핵 신호 전달의 연결",
+      "summary_kr": "식물은 열 스트레스 시 세포막 지질 재구성이 핵 내 신호 전달 캐스케이드와 연결되는 완전한 계층적 열 감지 해독 메커니즘을 가지고 있습니다. 본 연구는 식물이 고온 환경에 반응하여 세포막의 지질 조성을 변화시키고, 이 변화가 핵 내부의 유전자 발현을 조절하는 신호 전달 경로를 활성화시키는 과정을 상세히 밝혔습니다. 이러한 메커니즘은 식물이 열을 감지하고 이에 대응하는 복잡한 분자 경로를 이해하는 데 핵심적인 정보를 제공합니다. 특히, 벼를 대상으로 한 현장 실험에서 이 메커니즘을 맞춤형 내열성 작물 설계에 적용할 수 있는 잠재력이 입증되었습니다. 이 연구 결과는 기후 변화 시대에 농업 생산성을 유지하기 위한 중요한 돌파구가 될 수 있으며, 미래 식량 안보에 긍정적인 영향을 미칠 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Inhibition of oligomeric BAX by an anti-apoptotic dimer",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01242-5?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "항세포사멸 이합체에 의한 올리고머 BAX 억제 메커니즘 규명으로 세포사멸 조절의 새 지평 열어",
+      "summary_kr": "세포사멸 억제 단백질인 BCL-w의 완전한 이합체 형태가 올리고머 BAX에 의해 유도되는 미토콘드리아 투과성 변화와 세포사멸을 효과적으로 차단할 수 있음이 밝혀졌습니다. BAX 단백질이 올리고머를 형성하면 미토콘드리아 막에 구멍을 내어 세포사멸을 촉진하는 핵심 인자로 작용합니다. 본 연구는 BCL-w 이합체가 이러한 BAX 올리고머의 활성을 직접적으로 억제함으로써 세포사멸 경로를 제어하는 새로운 방식을 제시합니다. 이는 세포사멸 조절에 대한 기존의 이해에 새로운 통찰을 더하며, 세포사멸 관련 질병 치료를 위한 새로운 표적 발굴에 기여할 수 있습니다. 이 발견은 세포 사멸 조절의 복잡성을 이해하는 데 중요한 진전을 이루었으며, 암이나 퇴행성 신경 질환과 같은 다양한 질병 연구에 활용될 가능성을 보여줍니다."
+    },
+    {
+      "title_en": "Phase separation to buffer growth-mediated dilution in synthetic circuits",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01182-1?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "합성 유전자 회로에서 성장에 따른 희석을 완화하는 상 분리 기술",
+      "summary_kr": "상 분리 현상이 합성 유전자 회로를 안정화하고, 세포의 동적인 성장 조건 하에서도 단백질 생산을 크게 증대시키는 것으로 나타났습니다. 이 메커니즘은 전사 인자를 프로모터 위치에 국부적으로 농축시킴으로써 작동합니다. 결과적으로, 유전자 발현이 세포 성장으로 인한 단백질 희석 효과로부터 보호됩니다. 이러한 상 분리 전략은 유전자 회로 공학 분야에 광범위하게 적용될 수 있는 새로운 접근 방식을 제공합니다. 특히, 빠르게 증식하는 세포 시스템에서 유전자 발현의 견고성과 효율성을 향상시키는 데 기여할 것으로 기대됩니다. 이는 생명공학 및 합성 생물학 연구에 중요한 진전을 가져올 수 있습니다."
+    },
+    {
+      "title_en": "Fertilization triggers early proteomic symmetry breaking in mammalian embryos",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01255-3?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "포유류 배아에서 수정이 유발하는 초기 단백질체 비대칭성",
+      "summary_kr": "단일 세포 단백질체학(Single-cell proteomics) 연구를 통해 인간과 쥐 배아의 2세포기부터 자매 할구(blastomere) 간의 단백질체 비대칭성이 발견되었습니다. 이 비대칭성은 알파(alpha)와 베타(beta)라는 두 가지 상이한 세포 상태를 정의합니다. 흥미롭게도 이러한 알파-베타 비대칭성은 수정란(zygote) 단계까지 거슬러 올라갈 수 있으며, 수정 과정에 의해 촉발되는 것으로 확인되었습니다. 더욱이 이 비대칭성은 할구의 차등적인 발달 잠재력과 밀접하게 연관되어 있으며, 특히 베타 할구는 알파 할구에 비해 더 높은 발달 잠재력을 지닌 것으로 밝혀졌습니다. 이 연구는 배아 발달 초기 단계에서 세포 운명이 결정되는 중요한 메커니즘을 밝혀내어 발생학 분야에 새로운 통찰력을 제공합니다."
+    },
+    {
+      "title_en": "Adrenergic signaling coordinates distant and local responses to amputation in axolotl",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01125-0?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "아홀로틀 사지 절단 후 아드레날린 신호가 원격 및 국부 재생 반응을 조율",
+      "summary_kr": "아홀로틀(axolotl)의 신경계가 사지 절단 후 전신적인 반응을 조절하여, 멀리 떨어진 부속 기관들까지 두 번째 부상 시 더 빠른 재생을 할 수 있도록 준비시키는 현상이 규명되었습니다. 이러한 생존 전략은 야생에서 반복적으로 사지 손실을 겪는 도롱뇽과 같은 양서류에게 특히 중요한 의미를 가집니다. 연구 결과에 따르면, 아드레날린 신호(adrenergic signaling)가 이러한 원격 및 국부 반응을 효율적으로 조율하는 데 핵심적인 역할을 하는 것으로 밝혀졌습니다. 이 메커니즘은 재생 능력이 뛰어난 생물의 독특한 생물학적 특성을 이해하는 데 중요한 기여를 하며, 향후 재생 의학 분야에 새로운 통찰력과 치료 전략 개발의 가능성을 제시합니다. 이는 복잡한 생체 시스템의 회복 과정을 이해하는 데 중요한 진전입니다."
+    },
+    {
+      "title_en": "Distinct components of mRNA vaccines cooperate to instruct efficient germinal center responses",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01358-3?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "mRNA 백신 구성 요소들의 협력: 효율적인 배중심 반응 유도 기전",
+      "summary_kr": "이 연구는 mRNA 백신의 다양한 구성 요소들이 면역 반응에 개별적으로 어떻게 기여하고 협력하는지 면밀히 분석했습니다. 주요 발견으로, 뉴클레오사이드 변형 mRNA는 제1형 인터페론(type I interferons)의 생성을 촉진하며, 이는 수지상 세포(dendritic cells)에 작용하여 면역 반응을 조절합니다. 동시에, 지질 나노입자(lipid nanoparticles)는 수지상 세포에 Tfh 세포(follicular helper T-cell)를 유도하는 특정한 능력을 부여하는 것으로 나타났습니다. 이 두 가지 핵심 구성 요소는 최적의 배중심(germinal center) 반응을 유도하는 데 필수적인 요소로 밝혀졌습니다. 배중심 반응은 강력하고 지속적인 항체 생성을 위한 핵심 면역 과정이므로, 이 연구 결과는 mRNA 백신의 효능을 극대화하고 미래 백신 개발에 중요한 과학적 기반을 제공합니다."
+    },
+    {
+      "title_en": "Gut-to-brain signaling restricts dietary protein intake during recovery from catabolic states",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01134-1?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "장-뇌 신호, 이화작용 회복기 단백질 섭취 조절 메커니즘 규명",
+      "summary_kr": "우리 몸이 에너지를 소모하는 이화작용 상태에서 회복할 때, 장과 뇌 사이의 신호 전달이 식단 내 단백질 섭취량을 정밀하게 조절한다는 새로운 연구 결과가 발표되었습니다. 연구에 따르면, 장은 음식물로 섭취된 아미노산에서 유래하는 암모니아 생성 과정을 감지합니다. 이렇게 장에서 감지된 암모니아 생성 신호는 뇌로 전달되어 단백질 섭취를 제한하는 역할을 합니다. 이는 신체가 회복기에 불필요하거나 과도한 단백질 섭취를 스스로 조절하는 중요한 메커니즘임을 시사합니다. 본 연구는 영양소 섭취 조절에 대한 이해를 심화시키고, 향후 대사 질환이나 영양 불균형 관련 치료법 개발에 새로운 방향을 제시할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "De novo designed voltage-gated anion channels suppress neuron firing",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01091-8?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "인공 전압 개폐 음이온 채널 개발, 신경 세포 발화 억제 잠재력 확인",
+      "summary_kr": "최근 연구에서 기존의 천연 채널과는 확연히 다른, 인공적으로 설계된 전압 개폐 음이온 채널이 성공적으로 개발되었습니다. 이 인공 채널은 전압에 따라 이온 전도도가 변화하는 특징을 보이며, 이는 특정 전압에서 활성화되어 이온 흐름을 조절할 수 있음을 의미합니다. 특히, 이 채널은 신경 세포의 발화를 효과적으로 억제하는 능력을 가지고 있어 생물학적 응용 가능성이 매우 높습니다. 연구진은 이 채널을 신경 활동 조절과 같은 생물학적 응용 분야에 맞춰 조절할 수 있음을 입증했습니다. 이 발견은 새로운 신경 조절 도구 개발의 길을 열었으며, 향후 신경 회로 제어 및 신경 질환 치료법 개발에 중요한 기여를 할 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Zebrafish use spectral information to suppress the visual background",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01138-9?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "제브라피쉬, 스펙트럼 정보로 배경 시야 억제... 원추 세포의 진화적 기능 재조명",
+      "summary_kr": "척추동물의 눈은 물속에서 처음 진화했으며, 물속에서는 거리에 따라 빛의 스펙트럼(색상) 정보가 급격히 사라지는 특성이 있습니다. 흥미롭게도 제브라피쉬는 이러한 스펙트럼 정보의 손실을 활용하여 시각적 배경을 억제하는 전략을 사용하는 것으로 밝혀졌습니다. 이들은 원추 세포 신호를 길항적으로 이용하여 배경을 효과적으로 제거합니다. 본 연구는 원추 세포의 조상적 기능이 색상 감지보다는 거리 추정이었을 가능성을 강력히 시사합니다. 이는 시각 시스템의 진화와 깊이 인지에 대한 기존의 이해에 새로운 관점을 제공하며, 척추동물 시각 진화 연구에 중요한 단서를 제공합니다."
+    },
+    {
+      "title_en": "Stimulant medications affect arousal and reward, not attention networks",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01373-X?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "각성제, 주의력 아닌 각성 및 보상 시스템 조절로 집중력 향상",
+      "summary_kr": "메틸페니데이트와 같은 각성제는 뇌의 주의력 네트워크에 작용하여 집중력을 향상시키는 것으로 오랫동안 알려져 왔습니다. 그러나 최근 기능적 연결성 데이터를 활용한 연구에서 각성제의 작용 메커니즘에 대한 새로운 사실이 밝혀졌습니다. 연구 결과에 따르면, 각성제는 주의력 시스템과는 직접적인 관련이 없으며, 대신 뇌의 각성(arousal) 및 보상 시스템에 변화를 유도하는 것으로 나타났습니다. 이는 각성제가 주의력 능력을 직접적으로 강화하기보다는, 경계심(vigilance)을 높이고 과제에 대한 인지된 가치를 증가시켜 전반적인 수행 능력을 향상시킨다는 것을 시사합니다. 이 발견은 각성제 작용 방식에 대한 기존 이해를 뒤집으며, 주의력 결핍 과잉 행동 장애(ADHD)와 같은 질환의 치료 접근 방식 및 새로운 약물 개발 전략 수립에 중요한 영향을 미 미칠 것으로 예상됩니다."
+    },
+    {
+      "title_en": "In vivo transcriptomic, functional, circuit-based, and translational analyses of enteric neurons",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01359-5?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "장 신경계 뉴런의 생체 내 전사체, 기능적 회로 및 치료적 접근 분석",
+      "summary_kr": "쥐의 위장관 전체를 아우르는 포괄적인 신경 분자 지도가 성공적으로 구축되었습니다. 이 지도는 유전적으로 정의된 장 신경세포 하위 유형들이 운동성, 분비, 포만감 조절, 그리고 염증 반응에 미치는 역할을 생체 내에서 선택적으로 심층 연구할 수 있는 길을 열었습니다. 특히, 쥐의 장 신경 지도를 인간의 장 신경 지도와 비교 분석한 결과, 보존된 핵심 회로와 더불어 종 특이적인 고유한 회로가 모두 존재함을 밝혀냈습니다. 이러한 발견은 장 신경세포를 다양한 장 질환의 효과적인 치료 표적으로 삼을 수 있음을 강력히 시사합니다. 이는 향후 장 관련 질환 치료 전략 개발에 중요한 과학적 기반을 제공할 것입니다."
+    },
+    {
+      "title_en": "Properties and functions of transcriptionally distinct enteric neurons",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01246-2?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "전사적으로 구분되는 장 신경세포의 특성 및 기능 연구",
+      "summary_kr": "이 연구에서는 생체 내에서 전사적으로 명확히 구별되는 장 신경세포에 대한 유전적 접근 기술을 개발했습니다. 이 기술의 개발로 인해 다양한 세포 유형에 걸쳐 나타나는 형태학적 이질성을 정밀하게 검사할 수 있게 되었습니다. 나아가, 각 특정 세포 유형이 위장관 기능에 미치는 고유한 영향력을 체계적으로 분석하는 것이 가능해졌습니다. 이러한 접근 방식은 장 신경계의 복잡한 조절 메커니즘을 심층적으로 이해하는 데 필수적인 기반을 제공합니다. 궁극적으로, 세포 유형별 특이적 연구는 장 관련 질환의 새로운 진단 및 치료 전략을 개발하는 데 중요한 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "StealTHY: An immunogen-free CRISPR platform to expose concealed metastasis regulators in immunocompetent models",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01136-5?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "StealTHY: 면역 적격 모델에서 숨겨진 전이 조절 인자를 발굴하는 면역원성 회피 CRISPR 플랫폼",
+      "summary_kr": "StealTHY CRISPR 플랫폼은 Cas9 효소의 면역원성을 성공적으로 회피함으로써, 면역 적합성이 높은 환경에서 생체 내 유전자 스크리닝을 가능하게 하는 혁신적인 기술입니다. 이 플랫폼은 인간화 암 모델에도 직접 적용 가능하여 임상적 유용성이 매우 높습니다. 연구진은 이 면역-스텔스 전략을 활용하여 암 전이를 유발하는 숨겨진 핵심 인자들을 효율적으로 발견할 수 있었습니다. 특히, AMH-AMHR2 축이 암종 전이를 효과적으로 억제할 수 있는 임상적으로 실행 가능한 경로임을 밝혀낸 것은 주목할 만합니다. 이는 암 전이 치료법 개발에 있어 새로운 가능성을 제시하며, 향후 항암 치료 전략 발전에 중요한 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Charting the landscape of cytoskeletal diversity in microbial eukaryotes",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01127-4?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "미생물 진핵생물의 세포골격 다양성 지도화 연구",
+      "summary_kr": "200종 이상의 미생물 진핵생물에 대한 이미징 자원이 세포골격 다양성의 놀라운 세계를 엿볼 기회를 제공했습니다. 이 연구는 미생물 진핵생물 내 세포골격의 복잡하고 다양한 구조를 심층적으로 탐구합니다. 과학자들은 고해상도 이미징 기술을 활용하여 이들 생물의 세포 내 골격 시스템이 어떻게 진화하고 기능적으로 특화되었는지 파악하고자 했습니다. 이를 통해 생명 다양성의 기본적인 측면을 이해하고, 세포골격이 다양한 환경에 적응하는 데 어떻게 기여하는지 밝히는 데 중요한 통찰력을 제공할 것으로 기대됩니다. 이 대규모 이미징 데이터는 향후 연구를 위한 귀중한 기반 자료가 될 것입니다."
+    },
+    {
+      "title_en": "Retraction notice to: Transcriptome-scale RNA-targeting CRISPR screens reveal essential lncRNAs in human cells",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01367-4?rss=yes",
+      "source": "Cell",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "'인간 세포에서 필수적인 lncRNA를 밝히는 전사체 규모 RNA 표적 CRISPR 스크리닝' 논문 철회 공지",
+      "summary_kr": "본 공지는 이전에 Cell 저널에 게재되었던 'Transcriptome-scale RNA-targeting CRISPR screens reveal essential lncRNAs in human cells' 논문에 대한 철회 공지입니다. 해당 논문은 2024년 12월 26일 Cell 187권, 7637-7654.e1-e29 페이지에 출판된 바 있습니다. 논문의 철회 사유에 대한 구체적인 내용은 명시되지 않았으나, 과학 학술지에서 논문 철회는 데이터의 오류, 재현 불가능성, 혹은 윤리적 문제 등 다양한 이유로 발생할 수 있습니다. 이 결정은 과학적 진실성과 연구의 신뢰성을 유지하기 위한 중요한 과정으로, 학계에 해당 논문의 결과가 더 이상 유효하지 않음을 알리는 목적을 가집니다."
+    },
+    {
+      "title_en": "Psychedelic research must be grounded in pharmacology",
+      "url": "https://www.nature.com/articles/s41593-025-02186-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-25",
+      "image_url": null,
+      "title": "환각제 연구, 약리학적 기반 위에 서야 한다",
+      "summary_kr": "네이처 뉴로사이언스에 게재된 이 논평은 빠르게 성장하는 환각제(사이키델릭) 연구 분야가 약리학적 이해를 바탕으로 진행되어야 한다고 강조합니다. 환각제 연구는 새로운 치료법 개발에 큰 가능성을 제시하지만, 급격한 성장은 몇 가지 문제점을 야기하고 있습니다. 주요 문제점으로는 해당 분야의 역사와 기존 성과에 대한 이해 부족, 그리고 환각제 및 5-HT2A 수용체의 약리학적 작용에 대한 불충분한 이해가 지적됩니다. 이러한 간극들은 연구 분야가 책임감 있게 발전하기 위해 반드시 인지하고, 인정하며, 해결되어야 합니다. 약리학적 기반을 확고히 함으로써 환각제 연구는 더욱 안전하고 효과적인 방향으로 나아갈 수 있을 것입니다."
+    },
+    {
+      "title_en": "미래는 바다에 있다? 해양수도가 필요한 이유! | 해양수도, 항구 도시, 부산",
+      "url": "https://www.youtube.com/watch?v=wmOh2-sFLNk",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2025-12-25",
+      "image_url": "https://i4.ytimg.com/vi/wmOh2-sFLNk/hqhqdefault.jpg",
+      "title": "바다는 우리의 미래: 해양수도의 중요성",
+      "summary_kr": "영상은 에티오피아와 에리트레아 간의 분쟁과 아비 아흐메드 총리가 노벨 평화상을 수상하게 된 배경을 설명하며 시작합니다. 2019년, 에티오피아와 에리트레아의 국경 분쟁을 해결한 공로로 아비 아흐메드 총리가 노벨 평화상을 수상했지만, 6년이 지난 현재 에티오피아는 전쟁을 준비해야 한다는 이야기가 나오고 있습니다. 에티오피아는 아프리카 동북부에 위치한 내륙 국가로, 원래 에리트레아의 영토였으나 1880년대 이탈리아 식민지가 된 이후, 1952년 유엔 결정으로 에티오피아와 연방 국가 형식으로 합병되었습니다. 이후 에티오피아가 이 연합을 해체하고 주도적으로 병합해 버리자, 에티오피아 사람들에게는 기쁨과 환호의 순간이었지만 에티오피아 사람들에게는 충격적인 일이었습니다. 이로 인해 두 나라 간의 분쟁이 시작되었습니다.\n\n이 영상은 국제 사회에서 '미승인 국가'로 남아 있는 소말릴란드를 예로 들며, 한국이 해양수도에 집중해야 하는 이유를 설명합니다. 현재 한국은 세계 물류의 80% 이상이 해로를 통해 이루어지고 있음을 강조하며, 바다를 통해 해양 경제권을 구축하는 것이 중요하다고 말합니다. 네덜란드의 로테르담 항구를 예로 들면서, 단순한 물류 거점 항만을 넘어 산업, 경제, 금융 인프라를 갖춘 '메가 리전'으로서의 해양수도 발전 가능성을 보여줍니다. 로테르담 항은 17세기 네덜란드 동인도 회사의 세계적인 무역망을 바탕으로 성장했으며, 이는 산업 혁명의 요파가 유럽으로 퍼져나가면서 더욱 가속화되었습니다. 또한, 2차 세계대전 이후 재건 과정을 거치며 더욱 현대화된 항구 도시로 발전했습니다. 영상은 한국 역시 부산, 울산, 거제 등 항구 도시를 중심으로 해양수도 건설을 통해 글로벌 인재를 키워낼 교육 인프라를 구축하고, 동남권 경쟁력을 강화해야 한다고 주장합니다. 최근 통과된 '해양수도 이전기관 지원 특별법'이 이러한 상징적인 의미를 가지며, 앞으로 한국이 해양 강국으로 나아가기 위한 중요한 발판이 될 것이라고 강조합니다."
+    },
     {
       "title_en": "Researchers are getting organoids pregnant with human embryos",
       "url": "https://www.technologyreview.com/2025/12/23/1130415/organoid-uterus-microfluidic-chip-embryo/",
