@@ -1,7 +1,47 @@
 {
-  "last_updated": "2025-12-25 01:04:21",
+  "last_updated": "2025-12-26 00:42:27",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "AI Wrapped: The 14 AI terms you couldn’t avoid in 2025",
+      "url": "https://www.technologyreview.com/2025/12/25/1130298/ai-wrapped-the-14-ai-terms-you-couldnt-avoid-in-2025/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-26",
+      "image_url": null,
+      "title": "2025년 AI 트렌드 결산: 올해를 장식한 14가지 필수 AI 용어",
+      "summary_kr": "지난 12개월간의 동향을 살펴보면 인공지능(AI) 열풍이 멈출 기미를 보이지 않는다는 점이 명확합니다. 불과 연초만 해도 딥시크(DeepSeek)와 같은 혁신적인 AI 기술이 업계 전체의 판도를 바꾸기 전이었으며, 당시 메타(Meta)는 메타버스 시도 실패로 더 잘 알려져 있었다는 사실이 믿기 어려울 정도입니다. 이는 AI 산업이 얼마나 빠르게 발전하고 변화하는지를 여실히 보여주는 대목입니다. 매년 예측하기 어려운 속도로 새로운 기술과 개념들이 등장하며 기존의 통념과 트렌드를 빠르게 대체하고 있습니다. 본 기사에서는 이처럼 역동적인 AI 환경 속에서 2025년에 가장 주목받았고, 피할 수 없었던 핵심 AI 용어 14가지를 집중적으로 분석하여 독자들이 AI 시대의 흐름을 이해하는 데 도움을 줄 것입니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Rooppreet Sohal-Bagri",
+      "url": "https://www.the-scientist.com/postdoc-portrait-rooppreet-sohal-bagri-73878",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-26",
+      "image_url": null,
+      "title": "루프릿 소할-바그리 박사후 연구원 인물 탐구",
+      "summary_kr": "루프릿 소할-바그리 박사후 연구원은 중등 학생들을 위한 진로 개발 프로그램이 이들의 장기적인 삶의 결과에 미치는 영향을 심층적으로 연구하고 있습니다. 그녀의 연구는 학생들이 고등학교를 졸업한 후 어떤 진로를 선택하며, 그 과정에서 진로 지도가 어떤 핵심적인 역할을 하는지 분석하는 데 중점을 둡니다. 특히, 다양한 진로 개발 프로그램의 설계와 실행이 학생들의 학업 성취, 직업 만족도, 그리고 전반적인 삶의 만족도에 어떤 긍정적 또는 부정적 영향을 미치는지 다각도로 탐구하고 있습니다. 이러한 연구는 교육 정책 입안자들이나 학교 관계자들이 청소년에게 더욱 효과적인 진로 교육 프로그램을 개발하는 데 중요한 과학적 근거를 제공할 것으로 기대됩니다. 궁극적으로 그녀의 목표는 모든 학생들이 자신의 잠재력을 최대한 발휘하고 만족스러운 미래를 설계할 수 있도록 돕는 실질적인 전략을 제시하는 것입니다. 소할-바그리 연구원의 작업은 단순한 학술 연구를 넘어, 실제 교육 현장에 긍정적인 변화를 가져올 수 있는 잠재력을 지니고 있습니다."
+    },
+    {
+      "title_en": "The Best Immunology Stories of 2025",
+      "url": "https://www.the-scientist.com/the-best-immunology-stories-of-2025-73882",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-26",
+      "image_url": null,
+      "title": "2025년 면역학 분야 주요 연구 성과 및 동향",
+      "summary_kr": "2025년은 면역학 연구에 있어 특히 중요한 발견과 혁신이 이어진 한 해였습니다. 본 기사는 올 한 해 면역학 분야에서 가장 두드러진 연구 성과들을 엄선하여 독자들에게 소개합니다. 주요 내용으로는 암 면역 치료의 획기적인 발전, 자가면역 질환의 새로운 치료법 개발, 그리고 팬데믹 대응을 위한 백신 및 치료제 연구 진전 등이 포함됩니다. 이러한 연구들은 인류의 건강 증진과 질병 극복에 있어 새로운 희망을 제시하며, 의료 기술의 지평을 넓히는 데 크게 기여했습니다. 특히 개인 맞춤형 면역 조절 기술과 면역 반응 메커니즘에 대한 심층적인 이해는 미래 의학의 방향을 제시하고 있습니다. 이 기사를 통해 2025년 면역학 분야의 핵심 동향과 주요 성과들을 포괄적으로 파악할 수 있을 것입니다."
+    },
+    {
+      "title_en": "‘Wolf DNA’ Lurks in Many Modern Dog Breeds",
+      "url": "https://www.wired.com/story/wolf-dna-lurks-in-many-modern-dog-breeds/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-26",
+      "image_url": "https://media.wired.com/photos/694569cf73ab74971a81d484/master/pass/1326569262",
+      "title": "현대 개 품종 다수에서 '늑대 DNA' 발견",
+      "summary_kr": "늑대와 개 사이의 이종 교배는 오랫동안 매우 드문 현상으로 여겨져 왔습니다. 하지만 최근의 과학 연구는 이러한 기존의 통념을 뒤집는 중요한 사실을 밝혀냈습니다. 최신 연구 결과에 따르면, 오늘날 존재하는 수많은 현대 개 품종들이 예상외로 소량의 늑대 유전자를 지니고 있는 것으로 확인되었습니다. 이는 개가 가축화되는 과정에서 늑대와의 유전적 교류가 생각보다 훨씬 더 빈번하게 발생했음을 강력히 시사합니다. 이번 발견은 개 품종의 진화 역사와 가축화 경로에 대한 우리의 이해를 근본적으로 재고하게 만들며, 현대견의 유전적 다양성에 늑대가 미친 영향을 심도 깊게 탐구할 필요성을 제기하고 있습니다. 앞으로 이 늑대 유전자가 현대견의 특정 특성 발현이나 건강에 어떤 영향을 주었는지에 대한 추가 연구가 활발히 진행될 것으로 기대됩니다."
+    },
     {
       "title_en": "Meet the man hunting the spies in your smartphone",
       "url": "https://www.technologyreview.com/2025/12/24/1129294/ronald-deibert-citizen-lab-digital-threats-spies-cybersecurity/",
