@@ -1,7 +1,157 @@
 {
-  "last_updated": "2025-12-26 00:42:27",
+  "last_updated": "2025-12-27 01:02:02",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "MIT Technology Review’s most popular stories of 2025",
+      "url": "https://www.technologyreview.com/2025/12/26/1130318/mit-technology-review-most-popular-stories-2025/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "MIT 테크놀로지 리뷰, 2025년을 빛낸 인기 기사 총결산",
+      "summary_kr": "MIT 테크놀로지 리뷰는 2025년에 매우 바쁘고 생산적인 한 해를 보냈습니다. 이들은 '권력', '창의성', '혁신', '신체', '관계', '보안' 등 다양한 주제를 다룬 잡지 호를 성공적으로 발행했습니다. 특히 구독자 전용 시리즈인 '라운드테이블'을 통해 편집자 및 외부 전문가와 14차례에 걸쳐 독점적인 온라인 대담을 주최하며 깊이 있는 통찰을 제공했습니다. 또한 MIT 캠퍼스에서 두 차례의 오프라인 행사를 성공적으로 개최하여 독자들과 직접 소통하는 기회를 마련했습니다. 온라인상으로는 수백 편의 기사를 게재하며 과학기술 분야의 최신 동향과 심층 분석을 지속적으로 제공했습니다. 이러한 다각적인 노력은 한 해 동안 독자들에게 중요한 정보와 영감을 제공하며 큰 호응을 얻었습니다."
+    },
+    {
+      "title_en": "The paints, coatings, and chemicals making the world a cooler place",
+      "url": "https://www.technologyreview.com/2025/12/26/1129301/paint-coating-chemicals-materials-cooling-air-conditioning/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "세상을 식히는 페인트, 코팅 및 화학물질: 복사 냉각 기술의 부상",
+      "summary_kr": "전 세계적으로 폭염을 이겨내기가 점점 더 어려워지고 있으며, 2025년 여름에는 북미, 유럽, 중동 지역에서 기록적인 폭염으로 인해 전력망이 마비되는 심각한 사태가 발생했습니다. 지구 온난화는 에어컨 사용 증가로 이어져 더 많은 전력 소비를 유발하고 전력망에 막대한 부담을 주어 악순환을 심화시키고 있습니다. 이러한 에너지 위기와 기후 변화 문제에 대한 혁신적인 해답으로 수천 년 된 아이디어와 21세기 첨단 기술이 결합된 '복사 냉각' 기술이 주목받고 있습니다. 복사 냉각은 특수 페인트, 코팅 또는 화학물질을 활용하여 건물이나 표면에서 열을 대기권을 넘어 우주로 직접 방출함으로써 온도를 낮추는 원리를 이용합니다. 이 기술은 전기를 사용하지 않고도 주변 온도를 효과적으로 낮출 수 있는 잠재력을 가지고 있습니다. 결과적으로, 복사 냉각은 에어컨 의존도를 줄이고 전력망 부담을 완화하며 지속 가능한 미래 냉방 솔루션을 제공할 중요한 대안으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Hassan Bazazzadeh",
+      "url": "https://www.the-scientist.com/postdoc-portrait-hassan-bazazzadeh-73879",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "박사후 연구원 조명: 하산 바자자데",
+      "summary_kr": "본 기사는 하산 바자자데 박사후 연구원의 혁신적인 연구를 조명합니다. 바자자데 박사후 연구원은 인공지능(AI) 기반 시뮬레이션을 활용하여 미래 도시 환경을 설계하는 데 주력하고 있습니다. 그의 연구는 주로 에너지 효율적인 건축물과 저탄소 도시를 구현하는 데 초점을 맞추고 있습니다. AI 기술을 통해 건물 및 도시 계획 단계에서 에너지 소비를 예측하고 최적화하여 탄소 배출량을 최소화하는 방법을 모색합니다. 이러한 접근 방식은 지속 가능한 도시 개발에 필수적인 요소로, 기후 변화에 대응하고 자원 효율성을 극대화하는 데 크게 기여할 것입니다. 그의 연구는 미래 도시의 친환경적이고 효율적인 발전에 중요한 이정표를 제시하고 있습니다."
+    },
+    {
+      "title_en": "<cite>Science</cite> editors pick 2025’s stories that stood out",
+      "url": "https://www.science.org/content/article/science-editors-pick-2025-s-stories-stood-out",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "사이언스 편집부 선정: 2025년을 빛낸 주요 과학 뉴스",
+      "summary_kr": "명망 높은 과학 저널 <사이언스>의 편집자들이 2025년 한 해 동안 가장 인상 깊고 중요한 과학 기사들을 선정했습니다. 이들 기사는 고대 인류의 기원과 진화에 대한 심도 깊은 탐구부터 현대 사회가 직면한 다양한 문제에 이르기까지 폭넓은 주제를 다룹니다. 편집부의 뉴스 담당자들에게 특히 깊은 인상을 남긴 이 이야기들은 과학계의 주요 발견과 논쟁, 그리고 인류에게 미치는 영향을 포괄합니다. 환경 문제, 보건 위기, 기술 혁신 등 시대를 관통하는 중대한 이슈들이 포함되어 있어 독자들에게 깊은 통찰을 제공할 것입니다. 이 선정된 기사들을 통해 우리는 한 해 동안 과학이 이룩한 진보와 앞으로 해결해야 할 과제들을 명확히 이해할 수 있습니다. 이는 과학 저널리즘이 사회에 기여하는 중요한 역할을 잘 보여주는 사례입니다."
+    },
+    {
+      "title_en": "Best of STAT 2025",
+      "url": "https://www.statnews.com/2025/12/26/best-of-2025-health-science-biotech/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/STAT-Harvey-1-2-645x645.jpg",
+      "title": "STAT 2025년 결산: 과학 및 공중 보건의 주요 변화",
+      "summary_kr": "STAT은 창간 10주년을 맞이한 2025년에 과학 및 공중 보건 분야에서 전례 없는 변화들을 목격했습니다. 이 한 해는 지난 10년간의 성과를 되돌아보는 동시에, 미래를 향한 새로운 비전을 제시하는 중요한 전환점이 되었습니다. 과학 분야에서는 혁신적인 연구 결과와 기술 발전이 잇따르며 인류의 삶에 지대한 영향을 미칠 잠재력을 보여주었습니다. 또한 공중 보건 분야에서는 전 세계적으로 새로운 도전 과제에 직면하면서도, 이를 극복하기 위한 다각적인 노력과 정책 변화가 두드러지게 나타났습니다. 이처럼 급변하는 환경 속에서 STAT은 주요 이슈들을 심층적으로 다루며 독자들에게 통찰력 있는 정보를 제공하기 위해 노력했습니다. 2025년은 과학과 공중 보건의 미래를 재정의하는 중요한 이정표로 기억될 것입니다."
+    },
+    {
+      "title_en": "3 issues to watch in public health in 2026",
+      "url": "https://www.statnews.com/2025/12/26/public-health-2026-issues-to-watch/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-3-645x645.jpg",
+      "title": "2026년 공중 보건 분야에서 주목해야 할 3가지 이슈",
+      "summary_kr": "다가오는 2026년은 국내외 공중 보건 분야에 상당한 변화와 도전을 가져올 것으로 예상됩니다. 전문가들은 이 한 해 동안 우리가 주목해야 할 여러 핵심 이슈들이 부상할 것이라고 입을 모으고 있습니다. 국내적으로는 고령화 사회 심화에 따른 만성 질환 관리, 정신 건강 서비스 강화, 그리고 지역 간 의료 격차 해소 등의 문제가 주요 과제로 떠오를 것입니다. 국제적으로는 새로운 팬데믹의 위협에 대비하는 글로벌 협력 강화, 기후 변화가 인류 건강에 미치는 영향에 대한 대응, 그리고 백신 및 치료제 접근성 불균형 해소 문제가 시급하게 다루어져야 할 것입니다. 이처럼 복합적이고 상호 연결된 문제들을 해결하기 위해서는 정부, 국제기구, 학계, 그리고 시민 사회의 긴밀한 협력과 혁신적인 접근 방식이 필수적입니다. 2026년은 공중 보건의 미래 방향을 결정짓는 중요한 해가 될 것입니다."
+    },
+    {
+      "title_en": "Opinion: PubMed has competition from Germany. That’s a very good thing",
+      "url": "https://www.statnews.com/2025/12/26/pubmed-zb-med-scientific-repository-livivo/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/GettyImages-1242118742-645x645.jpg",
+      "title": "의견: 독일발 PubMed 경쟁자 등장, 과학 발전에 긍정적 신호",
+      "summary_kr": "독일의 새로운 과학 정보 플랫폼 ZB MED가 세계적인 생의학 및 생명 과학 데이터베이스인 PubMed에 도전장을 내밀었습니다. 전문가들은 이러한 경쟁 구도 형성을 매우 긍정적으로 평가하고 있습니다. 이는 단일하고 취약한 정보 파이프라인이 양질의 과학 연구에 병목 현상을 일으키는 것을 막기 위함이라고 설명됩니다. ZB MED의 등장은 과학 정보 접근성을 다각화하고, 특정 플랫폼에 대한 의존도를 줄여 과학계의 다양성과 혁신을 촉진할 것으로 기대됩니다. 궁극적으로 이러한 경쟁은 전 세계 연구자들이 보다 효율적이고 포괄적으로 과학 지식에 접근할 수 있는 환경을 조성하는 데 기여할 것입니다."
+    },
+    {
+      "title_en": "STAT+: Brain-computer implants are coming of age. Here are 3 trends to watch in 2026",
+      "url": "https://www.statnews.com/2025/12/26/brain-computer-interface-technology-trends-2026/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-10-645x645.jpg",
+      "title": "STAT+: 뇌-컴퓨터 임플란트의 시대 도래, 2026년 주목할 3가지 핵심 트렌드",
+      "summary_kr": "뇌-컴퓨터 인터페이스(BCI) 임플란트 기술이 급격한 발전을 이루며 성숙기에 접어들고 있습니다. 2026년까지 주목해야 할 세 가지 주요 트렌드가 이 분야의 미래를 가늠할 중요한 지표가 될 것으로 보입니다. 첫째, 뇌 신호를 더욱 정밀하고 효율적으로 포착하는 기술들이 발전할 것입니다. 둘째, 정신 건강 질환 치료를 위한 뇌 임플란트의 활용이 확대될 것으로 예상됩니다. 마지막으로, BCI 개발 분야에서 중국의 경쟁이 심화되며 기술 혁신을 더욱 가속화할 것입니다. 이러한 트렌드들은 뇌 질환 치료와 인간의 인지 능력 향상에 혁신적인 변화를 가져올 잠재력을 지니고 있으며, 미래 의료 및 기술 시장에 큰 영향을 미칠 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Embark on a visual voyage of art inspired by black holes",
+      "url": "https://arstechnica.com/science/2025/12/embark-on-a-visual-voyage-of-art-inspired-by-black-holes/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/blackhole4-500x500-1760991060.jpg",
+      "title": "블랙홀이 선사하는 예술적 영감: 시각적 탐험",
+      "summary_kr": "린 갬웰(Lynn Gamwell)의 저서 '공허를 소환하다: 블랙홀의 예술(Conjuring the Void: The Art of Black Holes)'은 과학과 예술의 매혹적인 융합을 탐구합니다. 이 책은 우주의 가장 신비로운 현상 중 하나인 블랙홀이 어떻게 수많은 예술가들에게 영감의 원천이 되어왔는지를 조명합니다. 블랙홀의 중력 렌즈 효과, 시공간의 왜곡, 그리고 사건의 지평선 너머의 미지의 세계는 예술가들에게 상상력을 자극하는 무한한 소재를 제공합니다. 저자는 그림, 조각, 디지털 아트 등 다양한 형태의 예술 작품을 통해 블랙홀의 개념적, 시각적 특성이 어떻게 표현되는지 분석합니다. 이 책은 과학적 지식이 예술적 표현과 만나 새로운 의미와 미학을 창조하는 과정을 보여주며, 독자들로 하여금 우주의 경이로움과 인간 창의성의 깊이를 동시에 느낄 수 있도록 안내합니다. 이를 통해 과학적 발견이 단순한 사실 전달을 넘어 문화적, 예술적 영역에 미치는 지대한 영향력을 확인할 수 있습니다."
+    },
+    {
+      "title_en": "Could You Use a Rowboat to Walk on the Seafloor Like Jack Sparrow?",
+      "url": "https://www.wired.com/story/using-a-rowboat-to-walk-on-the-seafloor-like-jack-sparrow/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": "https://media.wired.com/photos/6949c420b0033b43849dee68/master/pass/Physics-Walking-Underwater-Science-MCDPIOF_EC028.jpg",
+      "title": "잭 스패로우처럼 노보트로 해저를 걷는 것이 가능할까?",
+      "summary_kr": "영화 \"캐리비안의 해적\"에서 주인공 잭 스패로우와 윌 터너는 독특한 방법으로 수중 활동을 선보였습니다. 그들은 뒤집어 놓은 작은 보트(딩기) 안에 공기를 가두어 마치 잠수 종처럼 사용하여 해저를 걸어 다녔습니다. 이 장면은 많은 관객에게 깊은 인상을 남겼으나, 동시에 과학적으로 얼마나 실현 가능한지에 대한 의문을 불러일으켰습니다. 과연 이 방법이 단순한 영화적 상상력에 불과한 것인지, 아니면 실제 물리 법칙을 기반으로 한 기발한 아이디어인지에 대한 탐구가 필요합니다. 특히, 보트의 크기, 내부 공기의 양, 수압, 그리고 사용자의 호흡 능력 등 여러 요소가 이러한 수중 이동의 성공 여부를 결정할 것입니다. 이 기사는 영화 속 장면의 과학적 타당성을 분석하며, 잭 스패로우의 아이디어가 '광기'에 가까운지 혹은 '천재성'의 발현인지 조명합니다."
+    },
+    {
+      "title_en": "CMS unveils Medicare coverage model for weight loss drugs",
+      "url": "https://endpoints.news/cms-unveils-medicare-coverage-model-for-weight-loss-drugs/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "CMS, 비만 치료제 메디케어 보장 모델 발표",
+      "summary_kr": "미국 CMS(메디케어 및 메디케이드 서비스 센터)가 비만 치료제에 대한 메디케어 적용을 확대하기 위한 새로운 자발적 지불 모델을 공개했습니다. 이 모델은 특히 GLP-1 계열 약물과 같이 시장에서 큰 인기를 얻고 있는 체중 감량 약물에 대한 메디케어 보장을 늘리는 데 중점을 둡니다. 이는 트럼프 행정부 시절부터 예견되었던 조치로, 고가의 체중 감량 약물 비용을 낮추고 접근성을 높이려는 기존 정책 목표의 연장선에 있습니다. 새로운 지불 모델을 통해 메디케어 수혜자인 노인과 장애인들이 비만 관리에 필수적인 약물에 더 쉽게 접근할 수 있을 것으로 기대됩니다. GLP-1 약물은 당뇨병 치료와 함께 뛰어난 체중 감량 효과로 인해 최근 수요가 폭발적으로 증가하고 있습니다. CMS의 이번 결정은 비만 관리의 공중 보건 중요성을 인식하고, 약물 비용 부담 완화라는 두 가지 주요 목표를 동시에 달성하려는 중요한 시도로 평가됩니다."
+    },
+    {
+      "title_en": "Biohaven’s ion channel drug fails again, this time in major depressive disorder",
+      "url": "https://endpoints.news/biohavens-ion-channel-drug-fails-again-this-time-in-major-depressive-disorder/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "바이오헤이븐 이온 채널 약물, 주요 우울 장애 임상 2상 또다시 실패",
+      "summary_kr": "바이오제약 기업 바이오헤이븐(Biohaven)의 칼륨 채널 약물이 주요 우울 장애(Major Depressive Disorder, MDD) 환자를 대상으로 진행된 임상 2상 시험에서 목표 달성에 실패했습니다. 이는 해당 실험적 치료제가 임상 중기 단계에서 겪는 두 번째 좌절로, 약물 개발에 상당한 난항을 겪고 있음을 시사합니다. 이온 채널을 조절하여 신경계 질환을 치료하려는 바이오헤이븐의 전략은 이번 실패로 인해 그 유효성에 대한 의문이 제기되고 있습니다. 주요 우울 장애는 전 세계적으로 심각한 의료 수요가 존재하는 질환으로, 새로운 치료법 개발의 중요성이 강조되는 분야입니다. 이번 임상 결과는 바이오헤이븐이 해당 파이프라인의 향후 개발 전략에 대해 전면적인 재검토가 필요함을 의미하며, 투자자 및 의료계의 관심이 집중될 것으로 예상됩니다. 이로써 회사는 차세대 신경정신과 약물 개발에 있어 중요한 기회를 놓쳤다는 평가를 피하기 어렵게 되었습니다."
+    },
+    {
+      "title_en": "J&J axes eczema drug from $1.25B acquisition",
+      "url": "https://endpoints.news/jj-axes-eczema-drug-from-1-25b-acquisition/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "존슨앤드존슨, 12.5억 달러 투자한 습진 치료제 개발 전격 중단",
+      "summary_kr": "존슨앤드존슨(J&J)이 12억 5천만 달러(약 1조 7천억 원)를 들여 인수한 실험 단계의 습진 치료제 개발을 전격 중단한다고 발표했습니다. 이 결정은 해당 신약이 자사의 효능 기준을 충족하지 못했기 때문으로, 2024년 대규모 투자로 기대를 모았던 치료제의 개발이 무산된 것입니다. JNJ-5939 또는 NM26으로 알려진 이 약물은 만성 염증성 피부 질환인 습진으로 고통받는 환자들에게 새로운 희망을 줄 것으로 예상되었습니다. 그러나 임상 데이터 검토 결과, 기대했던 치료 효과를 보이지 못하면서 J&J는 개발 포기를 결정했습니다. 이번 조치는 막대한 연구 개발 비용과 시간을 투입했음에도 불구하고, 의약품 개발 과정에서 겪는 불확실성과 높은 장벽을 다시 한번 보여줍니다. 이로써 J&J의 피부과 치료제 파이프라인 전략에도 상당한 영향이 있을 것으로 분석됩니다."
+    },
+    {
+      "title_en": "Biohaven reports Phase II BHV-7000 trial results for MDD",
+      "url": "https://www.clinicaltrialsarena.com/news/biohaven-bhv-7000-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-27",
+      "image_url": null,
+      "title": "바이오헤이븐, 주요 우울증(MDD) 치료제 BHV-7000의 2상 임상시험 결과 발표",
+      "summary_kr": "바이오헤이븐은 주요 우울증(MDD) 성인 환자를 대상으로 진행된 BHV-7000의 2상 개념 증명 임상시험 결과를 최근 발표했습니다. 이 임상시험은 6주에 걸쳐 환자들의 우울 증상 감소 효과를 평가하는 데 주력했습니다. 특히, 몬트고메리-아스베르그 우울증 평가 척도(MADRS)를 주요 측정 도구로 활용하여 BHV-7000의 효능을 면밀히 분석했습니다. 이번 연구 결과는 BHV-7000이 MDD 치료제로서 잠재력을 가지고 있음을 시사하는 긍정적인 경향을 보였습니다. 바이오헤이븐은 이번 데이터를 통해 BHV-7000의 추가적인 임상 개발 전략 및 다음 단계의 연구 방향을 설정하는 데 중요한 근거를 마련할 계획입니다."
+    },
+    {
+      "title_en": "급진적 풍요의 시대 (데미스 하사비스)",
+      "url": "https://www.youtube.com/watch?v=wacPYKwOCRc",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-27",
+      "image_url": "https://i4.ytimg.com/vi/wacPYKwOCRc/hqhqdefault.jpg",
+      "title": "인공지능, 급진적 풍요의 시대와 그 이면의 위험",
+      "summary_kr": "데미스 하사비스는 인공지능(AI) 분야가 매우 역동적이며, AI가 질병 치료법 개발, 새로운 에너지원 발견 등 인류를 위한 놀라운 일들을 할 수 있다고 설명합니다. 하지만 동시에, AI 시스템이 잘못된 가치 체계로 구축되거나 안전 장치 없이 만들어진다면 치명적인 결과를 초래할 수 있다는 우려도 제기합니다. 특히, AI의 정의와 그 적용 시기에 대한 논쟁이 진행 중이며, 이는 예측 시기를 달라지게 합니다. 데미스 하사비스는 AI 시스템이 스스로를 개선하고 미래를 코딩할 수 있으며, 이러한 자기 개선 속도가 엄청날 수 있다는 점을 강조합니다. 그는 AGI(범용 인공지능) 시대에 대한 전망을 제시하며, AI 발전에 따라 인류의 생산성이 극대화될 수 있다고 말합니다. 이 과정에서 발생할 수 있는 윤리적, 지적 문제들에 대한 깊은 성찰과 논의가 필요함을 시사합니다. 또한, AI의 발전은 새로운 직업을 창출하는 동시에 기존의 일자리를 변화시킬 수 있으며, 이는 사회 전반에 걸쳐 큰 영향을 미칠 것으로 예상됩니다. 그는 AGI가 보편화되면 인류는 우주를 개척하고 궁극적으로는 '급진적 풍요'의 시대를 맞이할 수 있을 것이라고 낙관합니다. 그러나 그는 인류가 직면한 기후 변화와 같은 사회적 난제들을 해결하는 데 AI가 기여할 수 있음에도 불구하고, 인간의 비합리성과 제로섬 게임과 같은 사고방식 때문에 그 잠재력을 온전히 발휘하지 못할 수도 있다고 경고합니다. 그는 철학자와 사회학자들의 적극적인 참여를 통해 AI 활용에 대한 사회적 논의와 합의가 이루어져야 한다고 강조하며, 궁극적으로는 인간의 삶을 윤택하게 만드는 방향으로 AI 기술이 발전해야 한다고 주장합니다. 마지막으로, AI 기술의 발전은 필연적으로 일자리 구조의 변화를 가져올 것이며, 이에 대한 사회적 대비와 새로운 경제 모델의 필요성을 역설합니다."
+    },
     {
       "title_en": "AI Wrapped: The 14 AI terms you couldn’t avoid in 2025",
       "url": "https://www.technologyreview.com/2025/12/25/1130298/ai-wrapped-the-14-ai-terms-you-couldnt-avoid-in-2025/",
