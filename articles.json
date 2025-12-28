@@ -1,7 +1,207 @@
 {
-  "last_updated": "2025-12-27 01:02:02",
+  "last_updated": "2025-12-28 01:02:14",
   "failed_queue": [],
   "articles": [
+    {
+      "title_en": "How the NIH Became the Backbone of US Medical Research",
+      "url": "https://www.the-scientist.com/how-the-nih-became-the-backbone-of-us-medical-research-73871",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "미국 의학 연구의 중추, NIH의 역할과 미래 위협",
+      "summary_kr": "미국 국립보건원(NIH)은 미국 의학 연구의 핵심이자 공중 보건 개선 노력에 필수적인 기관으로 평가받습니다. 이 기관은 질병 치료법 개발, 예방 전략 수립, 그리고 기초 과학 연구를 통해 수많은 의학적 진보를 이끌어 왔습니다. NIH의 연구 지원은 단순히 과학적 발견을 넘어, 국가 경제 발전과 국민 건강 증진에 지대한 영향을 미쳐왔습니다. 하지만 2026년 예산안에서 제안된 대규모 삭감은 NIH의 미래를 심각하게 위협하고 있습니다. 이러한 예산 삭감은 장기적으로 혁신적인 연구 개발을 저해하고, 미국의 의료 경쟁력 약화로 이어질 수 있다는 우려를 낳고 있습니다. 전문가들은 NIH의 안정적인 예산 지원이 미국의 건강 증진과 과학적 리더십 유지를 위해 필수적이라고 강조합니다."
+    },
+    {
+      "title_en": "STAT+: Director of NIH neurological disorders institute is ousted, adding to leadership churn",
+      "url": "https://www.statnews.com/2025/12/27/nih-neurological-disorders-stroke-institute-director-koroshetz-ousted/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-28",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/20384488641_d3898389be_o-645x645.jpg",
+      "title": "NIH 신경 질환 연구소장 경질, 연이은 리더십 교체 속 혼란 가중",
+      "summary_kr": "미국 국립보건원(NIH) 산하 국립 신경 질환 및 뇌졸중 연구소(NINDS)의 월터 코로쉐츠(Walter Koroshetz) 소장이 곧 자리에서 물러날 예정이라고 STAT 매체가 보도했습니다. 코로쉐츠 소장은 오랫동안 NINDS를 이끌며 신경과학 분야 연구 발전에 기여해 온 인물로 평가받고 있습니다. 그의 갑작스러운 퇴임은 NIH 내부의 리더십 교체 바람을 더욱 가속화하는 최근의 여러 변화 중 하나로 여겨집니다. 최근 몇 년간 NIH 산하 연구소들의 절반 가까이에서 수장들이 교체되거나 퇴임을 앞두고 있어 조직 내부의 불안정성이 커지고 있다는 지적이 나옵니다. 이러한 연이은 리더십 변동은 중요한 연구 프로그램과 기관의 장기적인 방향성에 영향을 미칠 수 있다는 우려를 낳고 있습니다. 특히 신경 질환 분야는 혁신적인 치료법 개발이 시급한 영역이기에, 연구소장의 부재가 연구 추진력에 미칠 영향에 관심이 쏠리고 있습니다."
+    },
+    {
+      "title_en": "Behold the Manifold, the Concept that Changed How Mathematicians View Space",
+      "url": "https://www.wired.com/story/behold-the-manifold-the-concept-that-changed-how-mathematicians-view-space/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-28",
+      "image_url": "https://media.wired.com/photos/693fddfac50190c987e8c8fc/master/pass/What-is-a-Manifold-cr-Mark-Belan-Lede-2.jpeg",
+      "title": "다양체: 수학자들이 공간을 바라보는 방식을 혁신한 개념",
+      "summary_kr": "19세기 중반, 수학자 베른하르트 리만은 수학적 공간에 대한 새로운 사고방식인 '다양체' 개념을 제시했습니다. 이 혁신적인 개념은 고전적인 유클리드 기하학의 한계를 뛰어넘어, 휘어진 공간이나 다차원 공간을 체계적으로 다룰 수 있는 기반을 마련했습니다. 다양체는 국소적으로는 유클리드 공간처럼 보이지만 전역적으로는 복잡한 구조를 가질 수 있는 위상 공간을 의미합니다. 리만의 이러한 통찰은 현대 기하학 발전에 결정적인 기여를 했으며, 이후 알베르트 아인슈타인의 일반 상대성 이론에 영향을 미쳐 우주의 시공간 구조를 설명하는 핵심 도구가 되었습니다. 그 결과, 다양체는 물리학뿐만 아니라 컴퓨터 그래픽스, 데이터 과학 등 다양한 분야에서 복잡한 데이터를 시각화하고 분석하는 데 필수적인 개념으로 자리매김했습니다. 이처럼 다양체는 추상적인 수학적 개념을 넘어 과학과 기술 전반에 걸쳐 지대한 영향을 미친 기념비적인 발견으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "The Environmental and Human Rights Costs of China’s Clean Energy Investments Abroad",
+      "url": "https://www.wired.com/story/chinas-clean-energy-investments-abroad-are-a-boon-for-climate-but-human-rights-and-the-environment-are-a-different-story/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-28",
+      "image_url": "https://media.wired.com/photos/6949df8da46fe401a8537230/master/pass/Climate-Desk-Chinas-Clean-Energy-Investments-Abroad-Boon-For-Climate-Science-2151426546.jpg",
+      "title": "중국 해외 청정에너지 투자의 그림자: 환경 및 인권 문제 심화",
+      "summary_kr": "중국 기업들은 전 세계적으로 수천억 달러 규모의 청정에너지 제조 투자를 약속하며 글로벌 에너지 전환에 중요한 역할을 하고 있습니다. 이러한 투자는 재생에너지 기술 확산과 탄소 배출 저감이라는 긍정적인 목표를 가지고 있습니다. 그러나 문제는 이러한 해외 프로젝트들이 상당한 사회적, 환경적, 그리고 인권적 부작용을 초래하고 있다는 점입니다. 현지 지역사회는 토지 수용, 생계 파괴, 오염 증가 등으로 고통받고 있으며, 노동자 인권 침해와 강제 노동 논란도 끊이지 않고 있습니다. 특히, 청정에너지 산업에 필요한 광물 채굴 과정에서 발생하는 환경 파괴와 아동 노동 등의 인권 유린 문제는 심각한 윤리적 질문을 던지고 있습니다. 따라서 국제사회는 중국의 청정에너지 투자가 지속 가능한 방식으로 이루어지도록 환경 보호 기준 강화와 인권 존중 의무를 강력히 요구해야 할 시점입니다."
+    },
+    {
+      "title_en": "An Intravenous Brain-Penetrant Enzyme Therapy for Mucopolysaccharidosis II",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2508681?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "뮤코다당증 II형에 대한 정맥 투여 뇌 침투 효소 치료법",
+      "summary_kr": "뮤코다당증 II형(헌터 증후군)은 체내 특정 효소 부족으로 인해 복합 탄수화물이 축적되어 다양한 장기 손상과 심각한 신경학적 문제를 야기하는 희귀 유전 질환입니다. 기존 효소 대체 요법은 전신 증상 완화에 기여했지만, 뇌 혈관 장벽을 효과적으로 통과하지 못해 인지 및 신경학적 퇴행을 막는 데 한계가 있었습니다. 본 연구는 이러한 미충족 의료 수요를 해결하기 위해 뇌 침투 능력을 가진 새로운 효소 치료법을 정맥 투여 방식으로 개발했습니다. 이 혁신적인 접근법은 뇌 내 축적된 독성 물질을 분해하여 신경학적 증상을 개선하고 질병의 진행을 늦추는 데 중요한 진전을 제공할 것으로 기대됩니다. 뉴잉글랜드 의학 저널에 게재된 이번 연구 결과는 뮤코다당증 II형 환자들의 삶의 질을 향상시키는 데 큰 희망을 제시하며, 신경학적 합병증 치료에 새로운 지평을 열었습니다."
+    },
+    {
+      "title_en": "Cardiogenic Shock",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2312086?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "심장성 쇼크",
+      "summary_kr": "심장성 쇼크는 심장이 신체에 필요한 충분한 혈액을 공급하지 못하여 발생하는 생명을 위협하는 응급 상황입니다. 이는 주로 급성 심근경색의 심각한 합병증으로 발생하지만, 중증 심부전, 심근염, 또는 판막 질환과 같은 다양한 심장 문제로 인해 유발될 수도 있습니다. 심장성 쇼크는 전신에 혈액 공급이 부족해지면서 다발성 장기 부전을 초래하며, 적절한 치료가 신속하게 이루어지지 않을 경우 매우 높은 사망률을 보입니다. 본 기사는 심장성 쇼크의 최신 진단 기준, 병태생리학적 이해, 그리고 혈역학적 지지 요법 및 기계적 순환 보조 장치(예: 대동맥내 풍선 펌프, 체외막형 산화기)를 포함한 치료 전략에 대해 심층적으로 다루고 있습니다. 뉴잉글랜드 의학 저널에 실린 이 내용은 심장성 쇼크 환자의 생존율을 높이기 위한 최신 지견과 임상적 접근법을 제시하며, 의료 전문가들에게 중요한 정보를 제공합니다."
+    },
+    {
+      "title_en": "More on Long-Term Outcomes of the DanGer Shock Trial",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2514551?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "댄저 쇼크 연구의 장기 성과에 대한 추가 고찰",
+      "summary_kr": "이 보고서는 댄저 쇼크(DanGer Shock) 임상시험의 장기적인 결과에 대한 추가적인 심층 분석을 제공합니다. 해당 연구는 특정 의학적 개입이나 치료법이 환자에게 미치는 장기적인 영향을 평가하는 데 초점을 맞추고 있습니다. 뉴 잉글랜드 의학 저널(New England Journal of Medicine) 394권 1호에 2026년 1월 1일자로 게재되었으며, 102-103페이지에 걸쳐 상세한 내용을 담고 있습니다. 이는 해당 임상시험의 초기 보고서에서 다루지 않았던 중요한 후속 데이터와 분석을 포함할 것으로 예상됩니다. 과학 및 의료 커뮤니티는 이러한 장기 결과 데이터를 통해 연구의 임상적 유용성과 안전성에 대한 보다 포괄적인 이해를 얻을 수 있을 것입니다."
+    },
+    {
+      "title_en": "Digitoxin in Patients with Heart Failure and Reduced Ejection Fraction",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515452?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "박출률 감소 심부전 환자에서의 디지톡신 효능",
+      "summary_kr": "본 기사는 심박출률 감소 심부전(Heart Failure with Reduced Ejection Fraction, HFrEF)을 겪는 환자들에게 디지톡신(Digitoxin) 약물이 미치는 영향을 다루고 있습니다. 디지톡신은 심장 기능을 개선하는 데 사용되는 심장 배당체 중 하나로, 특히 수축 기능이 저하된 심부전 환자들에게 중요한 치료 옵션으로 고려될 수 있습니다. 이 연구는 해당 환자군에서 디지톡신의 임상적 효능, 안전성 및 장기적 예후에 대한 심도 깊은 분석을 제공합니다. 뉴 잉글랜드 의학 저널(New England Journal of Medicine) 394권 1호, 96-98페이지에 2026년 1월 1일자로 실렸으며, 심부전 치료 전략 발전에 기여할 중요한 통찰을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Monoclonal Gammopathy of Undetermined Significance",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515512?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "미결정 의의의 단클론감마병증(MGUS)",
+      "summary_kr": "미결정 의의의 단클론감마병증(Monoclonal Gammopathy of Undetermined Significance, MGUS)은 혈액 내 비정상 단백질인 단클론성 M 단백질이 검출되는 전암성 상태를 의미합니다. 이 질환은 대부분의 경우 무증상이지만, 약 1%의 환자에게서 다발성 골수종, 림프종, 또는 아밀로이드증과 같은 심각한 혈액 질환으로 진행될 수 있어 지속적인 모니터링이 중요합니다. 본 기사는 2026년 1월 1일 발행된 『뉴잉글랜드 의학 저널』 제394권 제1호 100-102페이지에 게재되었습니다. 해당 기사는 MGUS의 진단 기준, 질병 진행 위험 예측 인자, 그리고 최신 관리 전략에 대한 심층적인 분석을 제공하며, 임상적 의미와 환자 관리 방향에 대한 중요한 지견을 제시할 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Targeting APOC3 with Olezarsen in Moderate Hypertriglyceridemia",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2515639?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "중등도 고중성지방혈증 환자를 위한 올레자르센을 이용한 APOC3 표적 치료",
+      "summary_kr": "고중성지방혈증은 혈액 내 중성지방 수치가 비정상적으로 높은 상태로, 심혈관 질환 발생 위험을 증가시키는 주요 원인 중 하나입니다. 아포지단백 C-III(Apolipoprotein C-III, APOC3)는 중성지방의 분해를 억제하는 역할을 하는 단백질로 알려져 있으며, 이를 표적으로 하는 치료법은 고중성지방혈증 관리에 새로운 지평을 열 것으로 기대됩니다. 본 기사는 2026년 1월 1일 『뉴잉글랜드 의학 저널』 제394권 제1호 98-100페이지에 실렸습니다. 이 연구는 APOC3를 표적으로 하는 약물인 올레자르센(Olezarsen)이 중등도 고중성지방혈증 환자에게 미치는 치료 효과와 안전성을 평가한 임상 시험 결과를 다루고 있습니다. 이번 연구는 고중성지방혈증 환자들의 치료 선택지를 확대하고 심혈관 질환 예방에 기여할 중요한 과학적 근거를 제공할 것입니다."
+    },
+    {
+      "title_en": "Direct-Acting Antiviral Agents in Hepatitis C–Associated Indolent Lymphomas",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2513023?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "C형 간염 관련 저등급 림프종 치료를 위한 직접 작용 항바이러스제",
+      "summary_kr": "C형 간염 바이러스(HCV) 감염은 특정 유형의 림프종, 특히 저등급 비호지킨 림프종 발생과 밀접한 관련이 있는 것으로 알려져 있습니다. 과거에는 C형 간염 치료가 어려웠으나, 최근 직접 작용 항바이러스제(DAAs)의 등장으로 C형 간염 치료의 패러다임이 크게 변화했습니다. 이러한 DAAs는 HCV를 효과적으로 박멸하여 간 기능 개선뿐만 아니라, C형 간염 관련 림프종의 임상 경과에도 긍정적인 영향을 미칠 수 있음을 시사합니다. 본 기사는 C형 간염으로 인한 저등급 림프종 환자에게 DAAs가 어떻게 작용하며, 기존 치료법과 비교하여 어떤 이점과 한계를 가지는지 심층적으로 다룹니다. 특히, DAAs 투여 후 림프종의 관해 또는 진행 억제 가능성에 대한 최신 연구 결과와 임상적 중요성을 탐구하며, 향후 치료 전략에 미칠 영향을 논의합니다. 이는 C형 간염 관련 림프종 환자들에게 새로운 치료 희망을 제시할 중요한 연구 분야입니다."
+    },
+    {
+      "title_en": "Navigating the Evolving Landscape of EGFR-Mutated NSCLC",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2514042?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "EGFR 변이 비소세포폐암 치료의 변화하는 지형 탐색",
+      "summary_kr": "표피 성장 인자 수용체(EGFR) 변이 비소세포폐암(NSCLC)은 전 세계적으로 가장 흔한 폐암 유형 중 하나이며, 표적 치료제 개발의 중요한 축을 이루고 있습니다. 초기에는 1세대 EGFR-TKI가 혁신적인 효과를 보였으나, 약물 내성 문제에 직면했습니다. 이후 2세대 및 3세대 EGFR-TKI가 개발되면서 치료 옵션이 확장되었고, 특히 3세대 약물은 내성 기전을 극복하며 더 우수한 치료 성과를 보여주었습니다. 본 기사는 EGFR 변이 NSCLC 치료에 있어서 끊임없이 발전하는 치료 환경을 종합적으로 조명합니다. 최신 임상 시험 결과와 다양한 세대의 표적 치료제들의 효능 및 안전성 프로파일을 비교 분석하며, 내성 기전과 이에 대응하기 위한 새로운 치료 전략을 심층적으로 논의합니다. 또한, 바이오마커 기반의 정밀 의학 접근 방식과 병용 요법의 잠재력에 대해서도 다루며, 환자 맞춤형 치료의 미래 방향을 제시합니다."
+    },
+    {
+      "title_en": "Breaking Barriers in Mucopolysaccharidosis Type II",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2514617?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "뮤코다당증 2형 치료의 새로운 지평: 장벽을 허물다",
+      "summary_kr": "뉴잉글랜드 의학 저널에 발표된 이번 기사는 희귀 유전 질환인 뮤코다당증 2형(헌터 증후군) 치료 분야의 획기적인 발전을 다루고 있습니다. 이 질환은 글리코사미노글리칸(GAG) 분해 효소 결핍으로 인해 체내에 GAG가 축적되어 다양한 장기 손상을 유발합니다. 특히 중추신경계 침범은 기존 치료법으로는 접근하기 어려웠던 주요 난제였습니다. 본 논문은 이러한 치료의 한계를 극복하고 뇌혈관 장벽을 통과할 수 있는 새로운 치료 전략이나 약물 전달 시스템의 도입을 제안하고 있습니다. 이를 통해 환자들의 삶의 질을 현저히 개선하고 질병의 진행을 늦출 수 있는 가능성을 제시하며, 향후 임상 시험과 추가 연구의 중요성을 강조하고 있습니다. 이 연구는 뮤코다당증 2형 환자들에게 새로운 희망을 안겨줄 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Closing the Gap",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcps2506820?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "의료 격차 해소: 더 나은 접근성과 치료 결과를 향한 노력",
+      "summary_kr": "뉴잉글랜드 의학 저널에 실린 이 기사는 현대 의학 분야에서 여전히 중요한 과제로 남아있는 의료 격차 문제를 심층적으로 분석하고 있습니다. 본 논문은 소득, 지리적 위치, 인종, 사회경제적 지위 등 다양한 요인에 의해 발생하는 의료 서비스 접근성 및 치료 결과의 불균형을 조명합니다. 특히 특정 질환군의 진단 및 치료에 있어 나타나는 불평등을 구체적인 사례를 통해 제시하며, 이러한 격차가 환자 개개인의 건강뿐만 아니라 공중 보건 전체에 미치는 부정적인 영향을 강조합니다. 기사는 이러한 격차를 줄이기 위한 정책적, 제도적, 그리고 임상적 개입의 필요성을 역설하고 있으며, 데이터 기반의 접근 방식과 커뮤니티 참여를 통한 해결 방안을 모색합니다. 궁극적으로 모든 사람이 공정하고 평등한 의료 혜택을 받을 수 있는 미래를 위한 다각적인 노력이 시급함을 시사합니다."
+    },
+    {
+      "title_en": "Osteogenesis Imperfecta",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2510135?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "골형성부전증",
+      "summary_kr": "골형성부전증은 '취약한 뼈 질환'으로도 알려진 유전 질환으로, 뼈가 매우 약해져 사소한 충격에도 쉽게 골절되는 것이 특징입니다. 이 질환은 주로 콜라겐 생성에 관여하는 유전자의 돌연변이로 인해 발생하며, 심한 경우 태아기에 이미 골절이 발견되기도 합니다. 환자는 짧은 키, 푸른 공막, 난청, 치아 문제 등 다양한 증상을 동반할 수 있으며, 증상의 경중도는 매우 다양합니다. 치료는 주로 골절 예방, 통증 관리, 골밀도 강화를 위한 약물 치료 및 재활 요법에 중점을 둡니다. 권위 있는 '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 게재되는 만큼, 골형성부전증의 새로운 병태생리학적 이해, 진단 기준 개선, 또는 혁신적인 치료 전략에 대한 중요한 연구 결과가 담겨 있을 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Congenital Zika Syndrome",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2511220?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "선천성 지카 증후군",
+      "summary_kr": "선천성 지카 증후군은 임신 중 지카 바이러스에 감염된 산모에게서 태어난 아기에게 나타나는 일련의 심각한 선천성 결함과 발달 이상을 총칭합니다. 가장 특징적인 증상은 소두증으로, 비정상적으로 작은 머리와 뇌 발달 부진을 동반합니다. 이 외에도 뇌 석회화, 안구 손상, 관절 구축(예: 내반족), 청력 상실, 발작 등 다양한 신경학적 및 신체적 문제를 야기할 수 있습니다. 지카 바이러스는 모기를 통해 전염되며, 특히 임신 초기 및 중기에 감염될 경우 태아에게 치명적인 영향을 미칠 수 있습니다. '뉴잉글랜드 의학 저널(New England Journal of Medicine)'에 해당 주제의 논문이 실린다는 것은 선천성 지카 증후군의 장기적인 예후, 새로운 진단 기술, 또는 예방 전략에 대한 중요한 진전이 있었음을 시사하며, 관련 연구자들과 임상 의사들에게 큰 관심을 받을 것으로 보입니다."
+    },
+    {
+      "title_en": "Periumbilical Erythema Migrans",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2512486?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "배꼽 주위 유주성 홍반",
+      "summary_kr": "이 논문은 권위 있는 뉴잉글랜드 의학 저널 2026년 1월 1일자 394권 1호에 게재된 '배꼽 주위 유주성 홍반'에 대한 내용을 다루고 있습니다. 유주성 홍반은 라임병의 특징적인 피부 증상 중 하나로, 감염된 진드기에 물린 후 나타나는 원형 또는 타원형의 발진을 의미합니다. 특히 본 기사는 발진이 배꼽 주위에 나타나는 드문 사례를 집중적으로 조명하며, 이러한 비정형적 발현이 진단 과정에서 의료진에게 혼란을 줄 수 있음을 강조합니다. 따라서 의료 전문가들이 라임병의 다양한 임상 양상을 인지하고 올바른 진단과 치료를 수행하는 데 중요한 정보를 제공합니다. 본 연구는 라임병 진단 및 치료 전략 개선에 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Where Do I Put This?",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2507796?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "무엇을 어디에 두어야 할까?",
+      "summary_kr": "이 기사는 2026년 1월 1일 발행된 뉴잉글랜드 의학 저널 394권 1호의 9~11페이지에 실린 '무엇을 어디에 두어야 할까?'라는 제목의 논문입니다. 이 제목은 의료 현장에서 의료진이 직면하는 복잡한 결정들을 은유적으로 표현하고 있는 것으로 보입니다. 아마도 특정 의료 기기의 최적 배치 위치 선정, 환자 관리 프로토콜의 선택, 또는 임상적 딜레마 상황에서의 윤리적 판단 등에 대한 깊이 있는 논의를 다루고 있을 것입니다. 의료진은 진단 장비, 치료 방법, 혹은 환자 데이터와 같은 다양한 요소를 어디에 '두어야' 가장 효과적이고 안전한 결과를 얻을 수 있을지 끊임없이 고민합니다. 세계적으로 권위 있는 뉴잉글랜드 의학 저널에 게재된 만큼, 이 논문은 의료 전문가들에게 중요한 통찰력과 지침을 제공하며, 의료 실무의 개선에 기여할 것으로 예상됩니다. 단순히 물리적인 위치를 넘어, 정보의 분류와 활용, 그리고 의사 결정 과정의 복잡성을 탐구하며 현대 의학의 도전 과제를 제시하는 내용일 가능성이 높습니다."
+    },
+    {
+      "title_en": "From Patients to Consumers — The Corporatization of Ambulatory Care",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2415483?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-28",
+      "image_url": null,
+      "title": "환자에서 소비자로: 외래 진료의 기업화",
+      "summary_kr": "최근 의료 시스템은 환자 중심의 모델에서 소비자 중심의 시장 모델로 변화하는 양상을 보이고 있으며, 이는 특히 외래 진료 분야에서 두드러지게 나타나고 있습니다. 본 논문은 의료 서비스, 특히 외래 진료 부문의 기업화가 심화되는 현상과 그 배경을 심층적으로 분석합니다. 사모 펀드와 대기업이 독립적인 외래 진료 클리닉을 인수하고 관리하는 사례가 증가하면서, 의료 서비스 제공의 목적과 방식에 근본적인 변화가 초래되고 있습니다. 이러한 변화는 의료 서비스의 질, 환자의 접근성, 그리고 의료비용에 미치는 영향뿐만 아니라, 의사와 환자 간의 관계에도 중대한 영향을 미칠 수 있습니다. 이 글은 의료 시스템의 기업화가 의료 윤리, 환자 안전, 그리고 장기적인 공공 보건에 미치는 잠재적 위험과 기회를 다루며, 정책 입안자와 의료 전문가들에게 신중한 접근을 촉구합니다."
+    },
+    {
+      "title_en": "우리는 멍청해지고 있다 (칼 뉴포트)",
+      "url": "https://www.youtube.com/watch?v=rDW-Av2InIE",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-28",
+      "image_url": "https://i3.ytimg.com/vi/rDW-Av2InIE/hqhqdefault.jpg",
+      "title": "우리는 멍청해지고 있다: 스마트폰 시대의 인지 능력 저하와 대처법",
+      "summary_kr": "영상은 우리 사회가 스마트폰의 영향으로 인해 인지 능력, 특히 사고 및 집중력, 학습 능력 등이 저하되고 있다고 주장하며, 이에 대한 심각성을 강조합니다. 최근 발표된 OECD의 PISA 테스트 결과와 다른 연구들을 통해 2010년대 초부터 전 세계적으로 십대들의 인지 능력이 하락세를 보이고 있다는 데이터를 제시합니다. 특히, 스마트폰이 대중화되기 시작한 시점과 인지 능력 저하가 시작된 시점이 일치한다는 점을 주목하며, 스마트폰의 '어텐션 이코노미'가 우리의 뇌 구조를 변화시켜 집중력을 저하시키는 원인임을 지적합니다. 스마트폰 앱들은 사용자의 관심을 끌기 위해 지속적으로 자극적인 콘텐츠를 제공하도록 설계되어 있으며, 이는 뇌의 보상 회로를 자극하여 더 빠르고 강렬한 자극을 갈망하게 만듭니다. 결과적으로 우리는 스마트폰에 몰입하게 되고, 책을 읽거나 깊이 사고하는 등 뇌를 적극적으로 사용하는 활동에 투자할 시간이 줄어들고 있습니다. 이러한 스마트폰의 부정적인 영향은 우리의 집중력을 약화시키고, 문제 해결 능력을 저하시키며, 결과적으로 우리를 멍청하게 만들고 있다고 분석합니다. 따라서 우리는 이러한 패턴에 맞서 싸우기 위한 의식적인 노력이 필요하며, 스마트폰과의 거리를 두거나 '집중력 운동' 루틴을 만드는 등의 방법을 통해 잃어버린 인지 능력을 회복하고 더 똑똑해질 수 있다고 제안합니다. 책을 읽는 행위, 혹은 깊은 사고와 집중을 요구하는 활동은 뇌를 건강하게 유지하는 데 필수적이며, 스마트폰에 의해 분산된 주의력을 회복하는 데 도움을 줄 수 있다고 강조합니다."
+    },
     {
       "title_en": "MIT Technology Review’s most popular stories of 2025",
       "url": "https://www.technologyreview.com/2025/12/26/1130318/mit-technology-review-most-popular-stories-2025/",
