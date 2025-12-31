@@ -1,17 +1,347 @@
 {
-  "last_updated": "2025-12-30 01:07:38",
+  "last_updated": "2025-12-31 01:08:51",
   "failed_queue": [
     {
-      "title_en": "90년생들 다 알잖아 (WWE - 트리플H)",
+      "title_en": "가짜면 뭐 어때? (WWE - 트리플H)",
       "description_en": "Translated by J\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
       "url": "https://www.youtube.com/watch?v=6dhyhUlknhs",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2025-12-30",
+      "date": "2025-12-31",
       "image_url": "https://i3.ytimg.com/vi/6dhyhUlknhs/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "The ascent of the AI therapist",
+      "url": "https://www.technologyreview.com/2025/12/30/1129392/book-reviews-ai-therapy-mental-health/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "AI 치료사의 시대: 정신 건강 위기 속 새로운 희망",
+      "summary_kr": "세계보건기구(WHO)에 따르면 전 세계적으로 10억 명 이상이 정신 건강 문제로 고통받고 있으며, 우리는 현재 전 지구적인 정신 건강 위기에 직면해 있습니다. 특히 젊은 세대를 중심으로 불안과 우울증의 유병률이 증가하고 있으며, 매년 수십만 명이 극단적인 선택으로 목숨을 잃고 있는 심각한 상황입니다. 이러한 배경 속에서 인공지능(AI) 기반의 치료 서비스가 새로운 해결책으로 주목받고 있습니다. AI 치료사는 접근성의 장벽을 낮추고, 익명성을 보장하며, 필요한 사람들에게 즉각적인 지원을 제공함으로써 현재의 의료 시스템이 감당하기 어려운 수요를 충족시킬 잠재력을 가지고 있습니다. 이 기사는 AI가 정신 건강 분야에서 어떻게 발전하고 있으며, 향후 인류의 정신 건강 증진에 어떤 긍정적인 영향을 미칠 수 있는지 심층적으로 탐구합니다. 이는 의료 인력 부족 문제를 완화하고, 보다 개인화된 맞춤형 치료를 제공하는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Can boomerangs bounce?",
+      "url": "https://www.nature.com/articles/d41586-025-03989-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "부메랑, 과연 '튕겨 나갈' 수 있을까?: 네이처 아카이브가 던지는 질문",
+      "summary_kr": "오랜 역사를 지닌 과학 저널 '네이처'의 주간 아카이브 코너에서 흥미로운 질문이 제기되었습니다. 한 독자는 부메랑의 '튕겨 나가는' 능력에 대한 목격담이 과연 과학적으로 합당한지에 대해 의문을 표했습니다. 일반적으로 부메랑은 던지면 다시 돌아오는 특유의 비행 경로로 알려져 있지만, 특정 상황에서 마치 물체가 튕겨 나가듯 보이는 현상에 대한 관찰은 종종 과학적 설명의 여지를 남기곤 합니다. 이 기사는 이러한 목격담의 배경을 탐색하고, 부메랑의 공기역학적 원리나 관찰자의 인지적 오류 가능성 등 다양한 측면에서 그 진실을 규명하려 합니다. 과학적 탐구는 종종 일반적인 믿음이나 목격담에 대한 비판적 질문에서 시작되며, 이러한 접근은 자연 현상에 대한 우리의 이해를 더욱 깊게 하는 중요한 과정임을 시사합니다. 따라서 이 질문은 단순한 호기심을 넘어 과학적 회의주의와 관찰의 정확성에 대한 중요한 논의를 촉발합니다."
+    },
+    {
+      "title_en": "Safe as houses",
+      "url": "https://www.nature.com/articles/d41586-025-04026-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "주택의 안전성 확보: 건설적인 피드백의 핵심 역할",
+      "summary_kr": "'집처럼 안전하다'는 표현은 견고하고 신뢰할 수 있는 주택의 이미지를 나타내지만, 이러한 안전성은 저절로 얻어지는 것이 아닙니다. 이 기사는 주택의 안전성을 최고 수준으로 유지하기 위한 필수 요소로 '건설적인 피드백'의 중요성을 강조합니다. 건축 설계 단계부터 시공, 그리고 사용 후 유지보수에 이르기까지 모든 과정에서 전문가와 사용자로부터의 비판적이고 개선 지향적인 의견은 구조적 결함을 방지하고, 재료의 효율성을 높이며, 궁극적으로 거주자의 안전을 보장하는 데 결정적인 역할을 합니다. 이러한 피드백은 잠재적인 위험 요소를 사전에 식별하고, 새로운 기술이나 재료의 적용 가능성을 탐색하며, 기존 시스템의 개선점을 찾는 데 필수적인 원동력이 됩니다. 결국, 주택이 진정으로 '집처럼 안전'하게 되기 위해서는 지속적인 평가와 이를 바탕으로 한 개선 작업, 즉 끊임없는 건설적인 피드백 순환이 필요함을 역설합니다."
+    },
+    {
+      "title_en": "Science in 2050: the future breakthroughs that will shape our world — and beyond",
+      "url": "https://www.nature.com/articles/d41586-025-04100-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "2050년 과학의 지평: 인류와 세상을 바꿀 미래의 돌파구들",
+      "summary_kr": "2050년이 되면 인류는 상상하기 어려웠던 과학적, 기술적 진보를 목격하게 될 것입니다. 이 기사는 다가오는 중세기(mid-century)까지 우리의 세계를 넘어선 삶의 방식까지 근본적으로 변화시킬 것으로 예상되는 주요 과학적 돌파구들을 조명합니다. 특히, 핵융합 에너지의 상용화는 인류의 에너지 문제를 해결하고 탄소 중립 사회로의 전환을 가속화할 혁명적인 변화를 가져올 것입니다. 또한, 인류의 화성 거주 시대가 도래하여 우주 탐사의 새로운 지평을 열고, 인류의 생존 가능 영역을 확장할 것으로 예측됩니다. 무엇보다 인공 일반 지능(AGI)의 출현은 지능의 본질에 대한 우리의 이해를 재정의하고, 거의 모든 산업 분야에서 전례 없는 혁신을 이끌어낼 잠재력을 가지고 있습니다. 이러한 기술적 진보들은 인류 문명의 패러다임을 전환시키며, 미래 사회의 모습을 근본적으로 재편할 중요한 변곡점이 될 것입니다."
+    },
+    {
+      "title_en": "Mummies give up their secrets — but not their mystery",
+      "url": "https://www.nature.com/articles/d41586-025-04103-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "미라, 비밀을 드러내다 — 그러나 여전히 미스터리로 남다",
+      "summary_kr": "2025년 12월 30일 네이처에 발표된 이 기사는 선조들의 보존된 시신인 미라에 대한 인류의 깊은 관심과 이들을 어떻게 다뤄야 할지에 대한 근본적인 질문을 던지는 도전적인 전시회를 조명합니다. 전시회는 미라가 수천 년의 시간을 넘어선 인류 역사의 증거이자 동시에 죽음과 영생에 대한 인간의 보편적인 질문을 상징하는 존재임을 강조합니다. 미라를 통해 우리는 고대 문명의 삶과 문화, 그리고 죽음에 대한 관념을 엿볼 수 있지만, 그들의 정체성과 영혼에 대한 근원적인 미스터리는 여전히 풀리지 않은 채 남아있습니다. 기사는 이러한 보존된 인류 유산을 과학적 연구의 대상으로만 볼 것인지, 아니면 존엄성을 가진 고대인의 유해로 존중해야 할지에 대한 윤리적 딜레마를 심도 있게 다룹니다. 더 나아가, 미라가 현대 사회에 던지는 메시지는 무엇이며, 이를 통해 우리가 미래 세대에게 전달해야 할 가치는 무엇인지에 대한 성찰을 유도합니다. 결국, 미라는 과거와 현재, 그리고 미래를 잇는 고리로서 인류가 자신과 세상에 대해 끊임없이 질문하게 만드는 존재임을 시사합니다."
+    },
+    {
+      "title_en": "Put pressure on publishers to follow best practice — external regulation is the answer",
+      "url": "https://www.nature.com/articles/d41586-025-04099-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "출판사, 최선의 관행 준수하도록 압박해야 — 외부 규제가 해답이다",
+      "summary_kr": "이 기사는 2025년 12월 30일 네이처에 게재된 논평으로, 학술 출판사들이 저자와 독자의 요구를 모두 충족시키는 최선의 관행을 따르도록 외부 규제를 통해 압력을 가해야 한다고 주장합니다. 현재의 학술 출판 환경에서는 저널마다 품질과 윤리적 기준이 상이하여, 연구의 투명성과 신뢰성에 대한 우려가 제기되고 있습니다. 기사는 이러한 문제를 해결하기 위해 저자와 독자의 권익을 보호하고 학술 연구의 질을 높이는 데 기여하는 저널들을 공개적으로 인정하고 장려해야 한다고 강조합니다. 이를 통해 다른 저널들도 더 높은 기준을 따르도록 유도하며, 궁극적으로는 학술 출판 생태계 전체의 개선을 목표로 합니다. 또한, 외부 규제는 독립적인 감사와 평가를 통해 저널들이 약속한 표준을 실제로 준수하는지 확인할 수 있는 강력한 도구가 될 수 있다고 설명합니다. 이러한 시스템은 학술 커뮤니티 전체의 신뢰도를 높이고, 연구 결과가 더욱 공정하고 효과적으로 전파될 수 있는 기반을 마련할 것입니다."
+    },
+    {
+      "title_en": "Top Neuroscience Stories of 2025",
+      "url": "https://www.the-scientist.com/top-neuroscience-stories-of-2025-73885",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "2025년 신경과학 분야 주요 뉴스 총정리",
+      "summary_kr": "이 기사는 2025년 한 해 동안 독자들을 놀라게 하고, 궁금증을 자아내며, 깊은 흥미를 유발했던 뇌 과학 분야의 주요 소식들을 연말 결산 형태로 정리합니다. 2025년은 신경과학 분야에서 혁신적인 연구 결과와 새로운 발견들이 쏟아져 나온 한 해였으며, 특히 뇌의 복잡한 기능과 질병 메커니즘을 밝히는 데 상당한 진전이 있었습니다. 기사는 인공지능과 뇌-컴퓨터 인터페이스(BCI) 기술의 발전이 뇌 기능 연구에 어떤 새로운 지평을 열었는지, 그리고 이것이 인류의 삶에 미칠 잠재적 영향에 대해 조명합니다. 또한, 알츠하이머병, 파킨슨병 등 신경퇴행성 질환의 조기 진단 및 치료법 개발과 관련된 희망적인 연구 성과들을 다루며, 환자와 그 가족들에게 새로운 기대를 제시합니다. 인지 기능 향상, 감정 조절, 그리고 의식의 본질과 같은 근본적인 질문에 대한 연구 역시 독자들의 뜨거운 관심을 받았던 주요 주제로 언급됩니다. 이러한 연구들은 뇌 과학이 단순히 질병 치료를 넘어 인간 이해의 폭을 넓히고 미래 사회의 모습을 변화시킬 잠재력을 가지고 있음을 다시 한번 확인시켜 줍니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Madhulika Rai",
+      "url": "https://www.the-scientist.com/postdoc-portrait-madhulika-rai-73891",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "박사후 연구원 집중 조명: 마둘리카 라이",
+      "summary_kr": "마둘리카 라이 박사는 발달 대사 분야의 전문성을 바탕으로 다양한 조직에서 대사 신호가 건강에 미치는 영향을 연구하고 있습니다. 그녀의 연구는 신체의 성장과 발달 과정에서 대사 시스템이 어떻게 핵심적인 역할을 하는지 밝히는 데 중점을 둡니다. 특히, 대사 신호의 조절이 질병 예방 및 치료에 어떤 새로운 가능성을 제공할 수 있는지 탐구합니다. 라이 박사의 연구는 개개인의 건강 상태를 대사적 관점에서 이해하고, 이를 통해 맞춤형 치료법을 개발하는 데 중요한 기여를 할 것으로 기대됩니다. 그녀는 대사 이상이 발생하는 메커니즘을 규명하고, 이를 바탕으로 질병의 조기 진단 및 개입 전략을 모색하고 있습니다. 이러한 연구는 장기적으로 인간의 건강 증진과 질병 관리 패러다임 변화에 큰 영향을 미칠 것입니다."
+    },
+    {
+      "title_en": "After legal deal, NIH to review grant proposals frozen, denied, or withdrawn because of Trump directives",
+      "url": "https://www.science.org/content/article/after-legal-deal-nih-review-grant-proposals-frozen-denied-or-withdrawn-because-trump",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "법적 합의 이후 NIH, 트럼프 행정부 지침으로 동결·거부·철회된 연구 제안서 재검토 착수",
+      "summary_kr": "최근 법적 합의에 따라 미국 국립보건원(NIH)이 트럼프 행정부의 지침으로 인해 보류되거나 거부, 또는 철회되었던 수백 건의 연구비 지원 제안서를 재검토하게 되었습니다. 이 합의는 NIH가 해당 신청서들을 표준 절차에 따라 \"선의로\" 평가하도록 의무화합니다. 이는 과거 정치적 이유로 연구 심사가 부당하게 지연되거나 불이익을 받았던 사례들을 바로잡기 위한 조치로 풀이됩니다. 과학 연구의 독립성과 공정성을 회복하는 중요한 계기가 될 것으로 보이며, 그동안 기회를 얻지 못했던 연구자들에게 다시 한번 기회가 주어질 것입니다. NIH는 이번 재검토를 통해 과학적 타당성을 최우선으로 하여 연구 과제를 선정하고, 투명하고 공정한 심사 과정을 보장할 방침입니다."
+    },
+    {
+      "title_en": "Is ‘open science’ delivering benefits? Major study finds proof is sparse",
+      "url": "https://www.science.org/content/article/open-science-delivering-benefits-major-study-finds-proof-sparse",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "'오픈 사이언스'의 실질적 이점은? 대규모 연구 결과, 증거 부족 지적",
+      "summary_kr": "'오픈 사이언스' 운동이 확산되고 있지만, 실제로 그 이점이 충분히 발현되고 있는지에 대한 의문이 제기되고 있습니다. 최근 대규모 연구에 따르면, 논문과 데이터를 무료로 공개하는 '오픈 사이언스' 방식이 사회적 및 경제적으로 가져오는 영향에 대한 명확한 증거가 아직 부족한 것으로 나타났습니다. 연구자들은 공개된 데이터와 논문의 활용도를 측정하고 그것이 창출하는 가치를 정량화하는 것이 어렵다고 지적합니다. 이는 '오픈 사이언스'의 효과를 입증하고 정책적 지원을 정당화하는 데 어려움을 초래할 수 있습니다. 따라서 '오픈 사이언스'의 가치를 보다 정확하게 측정하고, 그 잠재적 이점을 극대화하기 위한 새로운 평가 방법론 개발이 필요하다는 목소리가 커지고 있습니다. 이러한 분석은 오픈 사이언스 운동의 방향성과 전략을 재고하는 중요한 기점이 될 것입니다."
+    },
+    {
+      "title_en": "<cite>Science</cite>’s favorite news visuals of 2025",
+      "url": "https://www.science.org/content/article/science-s-favorite-news-visuals-2025",
+      "source": "Science",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "사이언스, 2025년 최고의 과학 뉴스 비주얼 자료 선정",
+      "summary_kr": "과학 전문지 '사이언스'의 비주얼 에디터들이 2025년 한 해 동안 발행된 기사들 가운데 특히 영감을 주었던 이미지와 미디어 자료들을 엄선하여 소개했습니다. 이 선정된 비주얼 자료들은 복잡한 과학적 개념을 대중에게 시각적으로 명확하게 전달하며, 연구의 중요성과 아름다움을 효과적으로 부각시키는 데 기여했습니다. 에디터들은 단순히 정보를 제공하는 것을 넘어, 독자들에게 과학적 발견의 경이로움을 느끼게 하고 새로운 시각을 제시하는 자료들을 높이 평가했습니다. 이번 목록에는 데이터 시각화부터 현미경 이미지, 그리고 혁신적인 과학 기술을 담은 영상에 이르기까지 다양한 형태의 시각 자료들이 포함되었습니다. 이는 과학 커뮤니케이션에서 시각 자료의 역할이 얼마나 중요한지를 다시 한번 강조하는 결과입니다."
+    },
+    {
+      "title_en": "NIH begins review of thousands of delayed research proposals, funding 135 on first day",
+      "url": "https://www.statnews.com/2025/12/30/nih-grant-delays-new-review-no-guarantee-approval/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AdobeStock_314690964_Editorial_Use_Only-645x645.jpeg",
+      "title": "NIH, 지연된 연구 제안서 수천 건 심사 착수 및 첫날 135건 자금 지원 결정",
+      "summary_kr": "미국 국립보건원(NIH)이 트럼프 행정부 시절 지연되었던 수천 건의 연구 제안서에 대한 심사를 마침내 시작했으며, 심사 첫날에만 135건의 연구에 자금을 지원하기로 결정했습니다. 이러한 진전은 다양성, 형평성, 포용성(DEI) 관련 보조금 제안서의 지연 문제로 트럼프 행정부를 고소했던 단체들과 NIH 간의 합의가 결실을 맺기 시작했음을 명확히 보여줍니다. 이번 조치는 오랫동안 계류되어 있던 중요한 연구 프로젝트들이 비로소 진행될 수 있는 중요한 발판을 마련했습니다. NIH는 이번 심사를 통해 지연된 연구 프로젝트들이 과학계에 기여하고 중요한 발견을 이끌어낼 수 있도록 신속하게 지원할 방침입니다. 이로써 DEI를 강조하는 연구들이 더욱 활발하게 진행될 것으로 기대되며, 연구자들은 지연 문제로 인한 불확실성을 해소할 수 있게 되었습니다."
+    },
+    {
+      "title_en": "STAT+: A new drug allowed them to go in the sun for the first time. They’re terrified they may have to give it up",
+      "url": "https://www.statnews.com/2025/12/30/erythropoietic-protoporphyria-treatment-bitopertin/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_ryansun7biz-645x645.jpg",
+      "title": "STAT+: 희귀 혈액 질환 환자들, 햇빛 노출 가능케 한 신약 중단 위기 우려",
+      "summary_kr": "STAT+ 보도에 따르면, 희귀 혈액 질환인 적혈구 생성 프롤토포르피린증(EPP)을 앓는 환자들이 새로운 약물 덕분에 처음으로 햇빛을 쬐고 야외 활동을 할 수 있었지만, 이 약물의 지속적인 공급이 불확실해지면서 깊은 공포에 빠져 있습니다. EPP는 햇빛의 따스함조차 환자에게는 몸속에서부터 타오르는 듯한 극심한 고통을 유발하여 일상생활을 심각하게 제한하는 질환입니다. 이 신약은 EPP 환자들에게 삶의 질을 현저히 향상시키는 혁신적인 치료법으로, 오랫동안 어둠 속에서 지내야 했던 이들에게 비로소 희망의 빛을 선사했습니다. 그러나 약의 공급 문제, 높은 비용, 또는 보험 적용 등의 불확실성으로 인해 환자들은 다시 햇빛을 피하는 삶으로 돌아갈지도 모른다는 극심한 불안감에 시달리고 있습니다. 이들의 절망은 희귀 질환 치료제 접근성 문제의 심각성을 다시 한번 사회에 일깨워주고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Three major health care policy issues to watch in 2026",
+      "url": "https://www.statnews.com/2025/12/30/health-care-policy-2026-top-issues-examined-stat-3-to-watch/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/3-to-watch-7-645x645.jpg",
+      "title": "2026년 주목해야 할 3대 주요 보건 정책 이슈",
+      "summary_kr": "2026년에는 미국 보건 정책 분야에서 세 가지 주요 이슈가 주목받을 것으로 예상됩니다. 첫째, 환자들의 보험료 부담을 경감하는 데 필수적인 ACA(Affordable Care Act) 보험료 보조금 정책의 향방이 중요합니다. 이 보조금은 수백만 명의 미국인들이 건강보험에 접근할 수 있도록 돕는 핵심적인 요소로, 그 연장 여부와 규모에 따라 상당한 사회적 파장이 예상됩니다. 둘째, 의약품 가격 책정 방식의 변화 또한 중요한 논의 대상입니다. 고가의 신약 및 필수 의약품 가격 문제에 대한 대중의 관심이 높아지면서, 제약 산업과 정부 간의 약가 협상 및 규제 개혁이 활발히 논의될 것입니다. 셋째, PBM(Pharmacy Benefit Manager, 약국 혜택 관리자) 개혁은 의약품 공급망의 투명성과 효율성을 높이기 위한 핵심 과제입니다. PBM의 역할과 영향력에 대한 비판이 제기되면서, 이들의 운영 방식에 대한 개혁 논의가 심화될 것으로 보입니다. 이 세 가지 이슈는 2026년 미국 의료 시스템의 미래를 좌우할 중대한 정책 결정에 영향을 미칠 것입니다."
+    },
+    {
+      "title_en": "STAT’s most memorable photos of 2025",
+      "url": "https://www.statnews.com/2025/12/30/stat-most-memorable-photos-of-2025/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/ChrisSanfordPortraits_031-1-645x645.jpg",
+      "title": "STAT 선정 2025년 가장 기억에 남는 사진들: 상실, 희망, 용기의 이야기",
+      "summary_kr": "과학 및 건강 분야 전문 매체 STAT은 2025년 한 해 동안 가장 인상 깊었던 사진들을 선정하여 공개했습니다. 이 사진들은 단순한 이미지를 넘어, 인류가 직면한 다양한 보건 위기와 그 속에서 피어난 인간적인 드라마를 생생하게 담아내고 있습니다. 팬데믹, 질병과의 싸움, 그리고 의료 현장에서 벌어진 순간들을 포착한 이 작품들은 깊은 상실감과 고통의 순간들을 보여주지만, 동시에 회복을 향한 강렬한 희망과 절망 속에서도 빛나는 용기를 조명합니다. 의료진의 헌신적인 노력, 환자와 가족들의 끈기 있는 투쟁, 그리고 과학자들의 끊임없는 연구 과정이 이 사진들 속에 응축되어 있습니다. STAT의 이번 선정은 한 해 동안 의료 현장에서 겪었던 어려움과 극복의 과정을 다시 한번 되새기며, 우리 사회의 회복탄력성과 인간 정신의 위대함을 시각적으로 증명하는 중요한 기록으로 평가됩니다."
+    },
+    {
+      "title_en": "Opinion: Patients are consulting AI. Doctors should, too",
+      "url": "https://www.statnews.com/2025/12/30/ai-patients-doctors-chatgpt-med-school-dartmouth-harvard/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/12/AP25273512083245-645x645.jpg",
+      "title": "논평: 환자들이 AI를 활용하듯, 의사들도 인공지능을 도입해야 한다",
+      "summary_kr": "최근 환자들이 건강 관련 정보를 얻기 위해 인공지능(AI) 상담 시스템을 활발히 이용하고 있는 가운데, 의료 전문가들도 이러한 AI 기술을 적극적으로 활용해야 한다는 주장이 제기되었습니다. 새로운 의학 연구 결과와 임상 데이터는 기하급수적으로 증가하고 있으며, 개별 의사 한 명이 이 방대한 정보를 모두 습득하고 최신 지견을 따라가는 것은 사실상 불가능한 수준에 이르렀습니다. 이러한 정보의 과부하로 인해 최신 치료법이나 진단 기준이 실제 임상 현장에 적용되기까지 오랜 시간이 걸리기도 합니다. 인공지능은 수많은 논문과 데이터를 빠르게 분석하여 의사에게 필요한 정보를 제공하고, 진단 보조 및 맞춤형 치료 계획 수립에 기여할 수 있습니다. 따라서 AI는 단순한 도구를 넘어, 의사들이 환자에게 더 나은 의료 서비스를 제공하고 의료 효율성을 높이는 데 필수적인 파트너가 될 것입니다. 이러한 기술의 도입은 의료 현장의 질을 향상시키는 중요한 전환점이 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "The science of how (and when) we decide to speak out—or self-censor",
+      "url": "https://arstechnica.com/science/2025/12/the-science-of-how-and-when-we-decide-to-speak-out-or-self-censor/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2014/05/censorship_2-500x500.jpg",
+      "title": "우리가 언제 침묵하고 언제 목소리를 낼 것인가에 대한 과학적 분석",
+      "summary_kr": "최근 연구에 따르면 개인이 사회적 상황에서 자신의 의견을 표명할지, 아니면 자기 검열을 통해 침묵할지 결정하는 심리적, 사회적 메커니즘이 분석되었습니다. 연구진은 개인이 목소리를 내는 행위가 권위주의적 경향의 확산을 억제하는 중요한 역할을 한다고 강조합니다. 이는 단순히 개인의 용기 문제를 넘어, 사회 전체의 건전성을 유지하는 데 필수적인 요소임을 시사합니다. 따라서 이번 연구는 개개인의 '대담함'이 집단 역학에 미치는 긍정적인 영향을 과학적으로 조명하며, 사회 구성원들이 용기 있게 자신의 견해를 밝히는 것이 얼마나 중요한지를 역설합니다. 이러한 통찰은 민주 사회의 건강한 발전을 위한 중요한 메시지를 전달합니다."
+    },
+    {
+      "title_en": "Lawsuit over Trump rejecting medical research grants is settled",
+      "url": "https://arstechnica.com/science/2025/12/feds-researchers-settle-suit-over-grants-blocked-by-now-illegal-order/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2224898877-500x500-1767120293.jpg",
+      "title": "트럼프 행정부의 의료 연구 보조금 거부 관련 소송 합의",
+      "summary_kr": "도널드 트럼프 전 대통령 행정부가 이념적 이유로 특정 의료 연구 보조금 지원을 거부했던 사건에 대한 소송이 최근 합의로 마무리되었습니다. 이번 합의에 따라 미국 국립보건원(NIH)은 과거 이념적 근거로 인해 거부되었던 연구 보조금 신청들을 재검토하게 됩니다. 이는 과학적 연구의 독립성과 객관성이 정치적, 이념적 편향에 의해 침해되어서는 안 된다는 중요한 원칙을 재확인하는 계기가 될 것으로 보입니다. 이번 합의는 향후 정부의 과학 연구 지원 정책 수립에 있어 정치적 개입을 최소화하고 순수한 과학적 가치에 기반한 평가가 이루어져야 한다는 점을 분명히 합니다. 과학계는 이번 합의를 통해 연구의 자율성이 존중받고, 중요한 의학 연구가 이념적 이유로 지연되거나 중단되는 사태가 재발하지 않기를 기대하고 있습니다."
+    },
+    {
+      "title_en": "Looking for friends, lobsters may stumble into an ecological trap",
+      "url": "https://arstechnica.com/science/2025/12/looking-for-friends-lobsters-may-stumble-into-an-ecological-trap/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2251921243-500x500.jpg",
+      "title": "친구를 찾다 생태학적 함정에 빠지는 어린 가시발새우",
+      "summary_kr": "어린 가시발새우들이 포식자로부터 자신을 보호하기 위해 무리를 짓는 행동이 오히려 생태학적 함정이 될 수 있다는 연구 결과가 발표되었습니다. 일반적으로 무리 생활은 포식자의 위협으로부터 벗어나는 효과적인 방어 전략으로 알려져 있습니다. 그러나 어린 가시발새우의 경우, 방어를 위해 모인 집단이 오히려 포식자에게 더 눈에 띄게 되어 공격받을 위험을 높일 수 있다는 것입니다. 이는 개체의 생존을 위한 본능적인 행동이 환경 변화나 다른 요인으로 인해 치명적인 결과를 초래할 수 있는 '생태학적 함정'의 대표적인 사례로 꼽힙니다. 이번 연구는 동물 행동학적 측면에서 생존 전략의 양면성을 보여주며, 종 보존 노력에 있어 예상치 못한 위협 요소를 고려해야 할 필요성을 시사합니다."
+    },
+    {
+      "title_en": "The Great Big Power Play",
+      "url": "https://www.wired.com/story/expired-tired-wired-nuclear-plants/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": "https://media.wired.com/photos/6938e46985743395b8c52764/master/pass/WTE-big-power-play-2x1.jpg",
+      "title": "거대한 에너지 전환의 서막: 미국, 원자력 지지 급증과 전력 전쟁의 새로운 전선",
+      "summary_kr": "미국에서 원자력 에너지에 대한 지지가 크게 증가하며 에너지 정책의 중요한 변화를 예고하고 있습니다. 동시에, 석탄 발전소는 점차 축소되는 추세이며, 막대한 전력을 소비하는 데이터 센터들은 강한 반대에 직면하고 있습니다. 이러한 상황은 에너지 산업의 새로운 전선을 형성하며, 과거의 에너지원들이 퇴장하고 새로운 기술과 수요가 충돌하는 양상을 보입니다. 특히 데이터 센터의 급증하는 전력 수요는 기존 전력망과 환경에 큰 부담을 주어 사회적 논의의 중심으로 떠올랐습니다. 이러한 다각적인 변화들은 미국의 에너지 미래를 재편할 핵심적인 요소로 작용할 것이며, 전력 공급 및 소비 방식에 대한 근본적인 재고를 요구합니다. 이는 단순한 에너지원 전환을 넘어선 거대한 전력 정책의 전환점으로 평가됩니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/cro/breast-cancer-tops-list-most-studied-diseases-5th-year-row-report\" hreflang=\"en\">Breast cancer tops list of most-studied diseases for 5th year in a row: report</a>",
+      "url": "https://www.fiercebiotech.com/cro/breast-cancer-tops-list-most-studied-diseases-5th-year-row-report",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "유방암, 5년 연속 최다 연구 질병 1위 등극: Phesi 보고서 발표",
+      "summary_kr": "Phesi가 발표한 세계에서 가장 많이 연구되는 질병 보고서에 따르면, 유방암이 5년 연속으로 최다 연구 질병 1위 자리를 지켰습니다. 이 보고서는 매년 연말에 발표되어 의약계의 중요한 전통으로 자리 잡았으며, 올해 순위에서도 큰 이변은 없었습니다. 유방암의 지속적인 1위 유지는 전 세계적으로 이 질병에 대한 의학적, 과학적 관심과 연구 투자가 얼마나 집중되고 있는지를 명확히 보여줍니다. 또한, 상위 5위권에 속한 다른 질병들도 2024년과 동일하게 유지되어, 특정 질병 분야에 대한 연구 우선순위가 크게 변하지 않았음을 시사합니다. 이는 이들 질병이 여전히 인류 건강에 중대한 위협이 되며, 효과적인 치료법 개발을 위한 지속적인 노력이 필요함을 강조합니다."
+    },
+    {
+      "title_en": "Biotech’s groove is back for 2026 as XBI surges on M&A and lower rates",
+      "url": "https://endpoints.news/biotechs-groove-is-back-for-2026-as-xbi-surges-on-ma-and-lower-rates/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "바이오텍 산업, M&A 활성화 및 금리 인하 기대감에 2026년 반등 조짐: XBI 지수 급등",
+      "summary_kr": "바이오텍 산업의 경영진과 주주들은 거의 5년 만에 처음으로 새로운 한 해를 맞이하며 한숨을 돌릴 수 있게 되었습니다. 최근 인수합병(M&A) 활동 증가와 금리 인하에 대한 기대감이 맞물려 바이오텍 상장지수펀드(XBI)가 급등하면서 산업 전반에 활기가 돌고 있습니다. 이는 오랜 침체기를 겪었던 바이오텍 시장에 긍정적인 신호로 해석됩니다. 특히, 오는 1월에 열릴 JP모건 헬스케어 컨퍼런스에 참석하는 업계 리더들은 이러한 회복세에 힘입어 더욱 고무된 분위기 속에서 논의를 진행할 것으로 예상됩니다. 전반적인 시장 환경 개선은 신약 개발 및 기술 혁신에 대한 투자심리를 회복시키고, 향후 바이오텍 산업의 지속적인 성장을 견인할 중요한 동력이 될 것으로 보입니다."
+    },
+    {
+      "title_en": "Insilico caps the year with a soaring Hong Kong IPO",
+      "url": "https://endpoints.news/insilico-caps-the-year-with-a-soaring-hong-kong-ipo/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "인실리코 메디슨, 홍콩 IPO 성공으로 한 해 마무리",
+      "summary_kr": "인공지능 기반 신약 개발 기업인 인실리코 메디슨이 4년간의 상장 시도 끝에 홍콩 증권 시장에 성공적으로 상장했습니다. 11년 역사의 이 제약 개발사는 지난 화요일 상장을 통해 총 수익을 확보하며 2023년 한 해를 성공적으로 마무리했습니다. 이번 IPO는 인실리코 메디슨의 성장을 가속화하고, AI 기반 신약 발굴 분야에서의 선도적인 입지를 더욱 공고히 할 것으로 기대됩니다. 인실리코는 AI를 활용하여 신약 발굴 프로세스의 효율성을 혁신하며, 기존 방식 대비 시간과 비용을 크게 절감할 잠재력을 보여주고 있습니다. 이번 상장을 통해 확보된 자금은 향후 연구 개발에 재투자되어 더욱 혁신적인 치료제 개발에 기여할 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Verastem axes Phase 1/2 lung cancer trial of Avmapki, pivots to KRAS blocker",
+      "url": "https://endpoints.news/verastem-axes-phase-1-2-lung-cancer-trial-of-avmapki-pivots-to-kras-blocker/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "베라스템 온콜로지, 폐암 치료제 '아브맙키' 임상 중단 후 KRAS 억제제 개발로 전환",
+      "summary_kr": "베라스템 온콜로지(Verastem Oncology)는 폐암 치료제 '아브맙키(Avmapki)'의 MEK 억제제 초기 단계 임상 1/2상을 중단한다고 발표했습니다. 이 회사는 환자들에게 더 큰 치료적 영향을 미칠 수 있다고 판단되는 새로운 KRAS 억제제 프로그램으로 개발 초점을 전환하고 있습니다. 아브맙키 임상 중단 결정은 비록 초기 단계였지만, 베라스템의 신약 개발 전략에 있어 중요한 변화를 의미합니다. 베라스템은 현재 연구 중인 KRAS 억제제가 더욱 유망한 치료 가능성을 가지고 있다고 판단하여 이러한 결정을 내렸다고 설명했습니다. KRAS 변이는 여러 암종에서 흔히 발견되는 유전자 변이로, 이를 표적으로 하는 치료제는 미충족 의료 수요가 높은 분야입니다. 회사는 새로운 KRAS 억제제 개발을 통해 암 환자들에게 혁신적인 치료 옵션을 제공할 수 있기를 기대하고 있습니다."
+    },
+    {
+      "title_en": "QurAlis announces Phase I QRL-101 trial topline results in ALS",
+      "url": "https://www.clinicaltrialsarena.com/news/quralis-qrl101-trial-topline-results/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "큐어앨리스, ALS 치료제 QRL-101의 임상 1상 주요 결과 발표",
+      "summary_kr": "큐어앨리스(QurAlis)는 루게릭병(ALS) 환자를 대상으로 한 QRL-101의 임상 1상 작용기전 증명(proof-of-mechanism) 시험의 주요 결과를 발표했습니다. 이번 임상시험은 QRL-101의 안전성과 함께 ALS 환자에서의 잠재적인 치료 효과를 탐색하는 데 중점을 두었습니다. 발표된 결과는 QRL-101이 ALS 치료에 있어 유망한 가능성을 가지고 있음을 시사하며, 이는 해당 질병으로 고통받는 환자들에게 희망적인 소식입니다. 비록 임상 1상은 주로 약물의 안전성과 약동학적 특성 평가에 중점을 두지만, 작용기전 증명 데이터는 향후 개발 방향을 설정하는 데 매우 중요한 역할을 합니다. 큐어앨리스는 이번 긍정적인 결과를 바탕으로 QRL-101의 추가적인 개발 단계를 신속하게 진행할 계획입니다."
+    },
+    {
+      "title_en": "Senhwa to evaluate Pidnarulex and Enhertu in Phase Ib trial",
+      "url": "https://www.clinicaltrialsarena.com/news/senhwa-evaluate-pidnarulex-enhertu/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "센화 바이오사이언스, 피드나룰렉스 및 엔허투 병용요법 1b상 임상시험 착수",
+      "summary_kr": "센화 바이오사이언스가 자사의 혁신 신약 후보 물질인 피드나룰렉스(CX-5461)와 항체-약물 접합체(ADC)인 트라스투주맙 데룩스테칸(엔허투)의 병용요법에 대한 1b상 임상시험을 진행할 예정입니다. 이번 연구는 이 두 약물의 병용 투여가 환자에게 미치는 영향, 특히 안전성과 초기 유효성을 평가하는 데 중점을 둘 것입니다. 피드나룰렉스는 암세포 증식을 억제하는 기전으로 알려져 있으며, 엔허투는 표적 항체와 강력한 세포 독성 약물을 결합한 차세대 항암제입니다. 이 두 약물의 조합은 기존 치료법에 반응하지 않거나 내성이 생긴 환자들에게 새로운 치료 옵션을 제공할 가능성을 모색합니다. 1b상 임상시험은 소규모 환자군을 대상으로 안전성, 내약성 및 약물 동태학적 특성을 확인하는 중요한 단계이며, 성공적인 결과는 향후 더 큰 규모의 임상시험으로 이어져 해당 암종 치료에 새로운 지평을 열 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "An open science resource for accelerating scalable digital health research in autism and other neurodevelopmental conditions",
+      "url": "https://www.nature.com/articles/s41593-025-02146-3",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "자폐 및 신경발달 질환 디지털 건강 연구 가속화를 위한 개방형 과학 자원",
+      "summary_kr": "네이처 뉴로사이언스에 게재된 이 논문은 자폐 스펙트럼 장애 및 기타 신경발달 질환 분야에서 확장 가능한 디지털 건강 연구를 가속화하기 위한 중요한 개방형 자원을 소개합니다. '사이먼스 수면 프로젝트(Simons Sleep Project)'로 명명된 이 자원은 자폐 아동의 수면 및 일상 행동에 대한 연구를 촉진하기 위해 고안되었습니다. 특히, 이 프로젝트는 다수의 웨어러블 및 니어러블 기기에서 동기화된 기록을 활용하여 3,600일 밤낮 이상의 방대한 데이터를 수집했습니다. 이를 통해 연구자들은 자폐 아동의 수면 패턴과 행동 변화를 장기간에 걸쳐 정량적으로 분석할 수 있게 되었습니다. 이러한 개방형 데이터 자원은 연구자들이 표준화된 방식으로 데이터를 공유하고 분석함으로써 연구의 재현성을 높이고 새로운 통찰력을 도출하는 데 크게 기여할 것입니다. 궁극적으로 이 프로젝트는 자폐 및 관련 신경발달 질환을 가진 아동의 삶의 질을 향상시키는 맞춤형 개입 전략 개발에 중요한 기반을 제공할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Infinite hidden Markov models can dissect the complexities of learning",
+      "url": "https://www.nature.com/articles/s41593-025-02130-x",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "무한 은닉 마르코프 모델, 학습 복잡성 분석의 새 지평을 열다",
+      "summary_kr": "네이처 뉴로사이언스에 실린 브루인스(Bruijns) 외 연구진의 논문은 학습의 복잡성을 효과적으로 분석할 수 있는 새로운 모델링 도구를 제시합니다. 이 도구는 '무한 은닉 마르코프 모델(Infinite Hidden Markov Models)'을 기반으로 하며, 피험자 간의 학습 동역학을 추적하여 행동이 어떻게 나타나고 적응하는지를 밝혀내는 데 탁월한 성능을 보입니다. 연구진은 이 모델을 쥐를 대상으로 한 의사결정 과제에 적용하여 개체 간의 학습 과정에서 나타나는 유사점과 차이점을 성공적으로 밝혀냈습니다. 이는 복잡한 행동 변화를 시계열 데이터에서 추출하고, 숨겨진 학습 상태를 추론하는 데 강력한 분석 프레임워크를 제공합니다. 이 모델은 개별 학습자의 독특한 전략과 적응 과정을 이해하는 데 중요한 통찰력을 제공하며, 신경과학 연구에서 학습 및 행동 분석의 정밀도를 한층 높일 수 있습니다. 궁극적으로 이 연구는 인공지능 및 기계 학습 분야뿐만 아니라 교육학, 심리학 등 다양한 분야에서 학습 과정을 이해하고 최적화하는 데 기여할 잠재력을 지니고 있습니다."
+    },
+    {
+      "title_en": "Leveraging insights from neuroscience to build adaptive artificial intelligence",
+      "url": "https://www.nature.com/articles/s41593-025-02169-w",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "신경과학 통찰력을 활용한 적응형 인공지능 구축",
+      "summary_kr": "이 관점 논문은 동물처럼 온라인 학습, 일반화, 빠른 적응이 가능한 AI, 즉 적응형 지능에 대한 비전을 제시합니다. 신경과학 분야의 최신 연구는 이러한 적응형 AI 시스템을 개발하는 데 중요한 통찰력을 제공하고 있습니다. 본 논문은 유연하고 적응적인 AI 알고리즘을 구축하기 위한 생물학적 기반, 인공지능 분야의 현재 진행 상황, 그리고 뇌에서 영감을 받은 전략들을 심층적으로 검토합니다. 궁극적으로 인간의 뇌가 가진 학습 및 적응 능력을 모방함으로써, 미래 AI는 예측 불가능한 환경에서도 더욱 효율적으로 작동할 수 있을 것으로 기대됩니다. 이러한 연구는 AI 기술의 한계를 뛰어넘어, 실제 세계 문제 해결에 더욱 강력하게 기여할 수 있는 길을 열어줄 것입니다."
+    },
+    {
+      "title_en": "Distinct endocannabinoids specifically signal to astrocytes or neurons in the adult mouse hippocampus",
+      "url": "https://www.nature.com/articles/s41593-025-02148-1",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "성체 생쥐 해마에서 별개의 내인성 칸나비노이드가 성상교세포 또는 뉴런에 특이적으로 신호 전달",
+      "summary_kr": "최신 연구에 따르면 성체 생쥐의 해마에서 서로 다른 내인성 칸나비노이드(endocannabinoids)가 성상교세포(astrocytes) 또는 뉴런(neurons) 중 한쪽에만 특이적으로 신호를 전달하는 것으로 밝혀졌습니다. 이러한 특이적인 신호 전달 방식의 차이는 시냅스 기능에 대한 상반된 조절을 유발합니다. 이는 뇌 기능에 있어 뉴런과 성상교세포 사이의 신호 전달이 매우 복잡하게 얽혀 있음을 명확히 보여주는 결과입니다. 본 연구는 뇌 속 세포 간 소통의 미묘하고 정교한 메커니즘을 이해하는 데 중요한 기여를 합니다. 궁극적으로 이러한 발견은 향후 뇌 질환 연구 및 치료법 개발에 새로운 방향을 제시할 수 있을 것입니다. 뇌 기능의 복잡성을 한층 더 깊이 이해하는 데 필수적인 통찰력을 제공합니다."
+    },
+    {
+      "title_en": "Who Can See Their PCP?",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2514239?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2025-12-31",
+      "image_url": null,
+      "title": "누가 자신의 주치의를 만날 수 있는가?",
+      "summary_kr": "이 기사는 뉴잉글랜드 의학 저널(New England Journal of Medicine) 2026년 1월 1일자 394권 1호에 게재된 논문입니다. 제목인 '누가 자신의 주치의(PCP)를 만날 수 있는가?'는 현재 의료 시스템 내에서 환자들이 자신의 주치의(Primary Care Physician)에게 접근하고 진료를 받는 과정에서 겪는 어려움과 불균형에 대한 중요한 질문을 던지고 있습니다. 이 기사는 의료 서비스 접근성, 주치의 제도 운영의 효율성, 그리고 환자들이 적시에 필요한 의료 서비스를 받을 수 있는지에 대한 심도 깊은 분석을 담고 있을 것으로 예상됩니다. 특히, 특정 인구 집단이나 지역 사회에서 주치의와의 만남이 얼마나 용이한지, 또는 어떤 제약이 따르는지를 중점적으로 다룹니다. 이는 더 나은 의료 시스템 구축을 위한 정책적 함의를 제시하며, 의료 불평등 해소를 위한 논의를 촉발할 가능성이 큽니다."
+    },
+    {
+      "title_en": "비트코인 입장 바꿨다 (블랙락)",
+      "url": "https://www.youtube.com/watch?v=Nr4wrWuxs9w",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2025-12-31",
+      "image_url": "https://i3.ytimg.com/vi/Nr4wrWuxs9w/hqhqdefault.jpg",
+      "title": "비트코인 입장 바꾼 블랙록 CEO 래리 핑크",
+      "summary_kr": "블랙록 CEO 래리 핑크가 과거 암호화폐에 대해 회의적인 입장에서 긍정적으로 변화한 이유와 비트코인 ETF의 잠재력에 대해 언급했습니다. 그는 과거에는 비트코인을 '가치 없는 투기 수단'으로 규정하며 부정적인 시각을 보였으나, 이제는 암호화폐를 새로운 디지털 금으로 인식하며 투자자들에게 새로운 기회를 제공할 수 있다고 평가했습니다. 특히, 2022년부터 블랙록은 자체적으로 비트코인 ETF를 출시하고 운용하며 암호화폐 시장의 가능성을 적극적으로 탐색하고 있습니다. 핑크 CEO는 자신이 과거 워싱턴 D.C.에서 암호화폐에 대한 부정적인 견해를 밝혔던 것에 대해, 시대의 변화와 기술 발전, 그리고 사회적 인식의 변화를 반영하여 자신의 관점이 달라졌다고 설명했습니다. 그는 암호화폐가 기존 금융 시스템의 비효율성을 개선하고, 더 많은 사람들에게 금융 접근성을 제공할 수 있는 잠재력을 가지고 있다고 강조했습니다. 또한, 그는 미국이 글로벌 금융 위기 속에서도 자본 시장의 발달로 빠르게 회복할 수 있었던 점을 언급하며, 기술 혁신을 통한 금융 시스템의 발전 가능성을 높이 평가했습니다. 그는 AI와 블록체인 기술이 금융 서비스 산업을 근본적으로 변화시킬 것이며, 대학 교육 시스템 또한 이러한 변화에 맞춰 혁신해야 한다고 주장했습니다. 마지막으로 핑크 CEO는 자신이 30년 후 미래를 내다보며 투자하며, 단기적인 시장 변동에 일희일비하지 않고 장기적인 관점에서 좋은 제품을 만드는 데 집중할 것이라고 밝혔습니다. 그는 특히 미국이 AI와 디지털 자산 분야에서 선도적인 역할을 수행하여 미래 금융 시장을 주도해야 한다고 강조했습니다."
+    },
+    {
+      "title_en": "마오쩌둥의 30년을 파헤친 중국의 금서가 있다? | 프랑크 디쾨터, 마오쩌둥, 인민 3부작",
+      "url": "https://www.youtube.com/watch?v=I5CcM95mgvU",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2025-12-31",
+      "image_url": "https://i2.ytimg.com/vi/I5CcM95mgvU/hqhqdefault.jpg",
+      "title": "프랑크 디쾨터의 '인민 3부작'과 마오쩌둥 시대의 진실",
+      "summary_kr": "이 영상은 프랑크 디쾨터의 '인민 3부작' 시리즈를 통해 마오쩌둥 시대의 중국 현대사를 조명합니다. 특히 중국에서는 금서로 지정된 책들의 내용을 소개하며, 영상은 1945년 중화인민공화국 수립부터 1976년 마오쩌둥 사망까지의 격동적인 시기를 다룹니다. 디쾨터는 그의 저서를 통해 토지 개혁, 대약진 운동, 문화대혁명 등 주요 사건들을 상세히 분석합니다. 대약진 운동 시기 발생한 수천만 명의 인명 피해와 농민들의 고통스러운 삶, 그리고 이에 대한 중국 정부의 은폐 의혹을 지적합니다. 또한, 문화대혁명 시기 발생했던 홍위병의 폭력성과 엘리트 계층에 대한 박해가 사회 전반에 미친 파괴적인 영향 또한 조명합니다. 영상에서는 중국 공산당이 이러한 역사적 사실을 어떻게 기록하고 평가하는지, 그리고 서구 사회의 시각과는 다른 지점이 있음을 시사합니다. 특히, 마오쩌둥 시대의 폭력적이고 억압적인 정치 체제가 어떻게 정당화되었으며, 그 과정에서 수많은 희생이 발생했는지 구체적인 사례를 통해 설명합니다. 또한, 중국 공산당의 공식 입장이 '내란'으로 규정된 문화대혁명에 대한 비판적인 시각을 제시하며, 이 시기가 중국 사회에 얼마나 큰 상처를 남겼는지 강조합니다. 디쾨터는 스탈린의 폭력성과 전체주의적 야만성을 언급하며 마오쩌둥의 통치 방식과 비교하고, 중국 현대사를 이해하는 데 있어 이러한 역사적 사건들에 대한 정확한 조명이 중요함을 역설합니다. 결론적으로, 중국 현대사를 이해하는 데 있어 복잡하고도 비극적인 사건들을 다룬 이 책의 중요성을 강조하며, 독자들에게 깊은 성찰의 기회를 제공합니다."
+    },
     {
       "title_en": "Bangladesh’s garment-making industry is getting greener",
       "url": "https://www.technologyreview.com/2025/12/29/1129308/bangladesh-garment-sustainability-frugal-factories/",
