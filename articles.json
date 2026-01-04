@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-03 01:13:07",
+  "last_updated": "2026-01-04 00:58:25",
   "failed_queue": [
     {
       "title_en": "일론 머스크 최신대화 전체번역",
@@ -7,11 +7,51 @@
       "url": "https://www.youtube.com/watch?v=NYgq7_FUJic",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2026-01-03",
+      "date": "2026-01-04",
       "image_url": "https://i3.ytimg.com/vi/NYgq7_FUJic/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Polio Vaccine History: The Shot That Saved Millions",
+      "url": "https://www.the-scientist.com/polio-vaccine-history-the-shot-that-saved-millions-73901",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-01-04",
+      "image_url": null,
+      "title": "소아마비 백신: 수백만 생명을 구원한 의학적 승리",
+      "summary_kr": "소아마비는 한때 전 세계 어린이들에게 심각한 마비와 사망을 초래하며 인류를 공포에 떨게 했던 질병입니다. 특히 환자들이 호흡을 위해 '철의 허파'와 같은 장치에 의존해야 했던 모습은 당시 질병의 참혹함을 여실히 보여주었습니다. 이러한 절망적인 상황 속에서, 조나스 소크 박사가 개발한 소아마비 백신은 인류에게 혁명적인 희망을 안겨주었습니다. 소크 박사의 백신은 안전성과 효능을 입증하며 전 세계적으로 보급되었고, 수백만 명의 생명을 구하고 수많은 이들을 영구적인 장애로부터 보호하는 데 결정적인 역할을 했습니다. 그의 이 위대한 의학적 성과는 인류 역사상 가장 중요한 공중 보건 승리 중 하나로 기록되었으며, 소아마비 박멸이라는 원대한 목표를 향한 여정의 시발점이 되었습니다. 오늘날 소아마비가 거의 박멸 단계에 이른 것은 백신의 힘과 전 세계적인 협력의 중요성을 보여주는 상징적인 사례로 평가받고 있습니다."
+    },
+    {
+      "title_en": "Mapping MASH: Understanding Liver Disease from Blood Samples",
+      "url": "https://www.the-scientist.com/mapping-mash-understanding-liver-disease-from-blood-samples-73900",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-01-04",
+      "image_url": null,
+      "title": "MASH 지도화: 혈액 샘플로 간 질환의 비밀을 풀다",
+      "summary_kr": "Hepta의 하메드 아미니(Hamed Amini) 연구원은 대사 기능 이상 관련 지방간염(MASH)의 생물학적 특성을 규명하기 위한 획기적인 협력과 새로운 액체 생검 기술에 대해 논의했습니다. 이 연구는 기존의 침습적인 진단 방법을 대체할 수 있는 조기 비침습적 MASH 진단법 개발에 중요한 전환점이 될 것으로 기대됩니다. 특히 액체 생검 기술은 혈액 샘플만으로 질병의 진행 상황과 특징을 파악할 수 있어 환자에게 가해지는 부담을 현저히 줄일 수 있습니다. 이번 공동 연구를 통해 MASH의 복잡한 생물학적 경로를 심층적으로 매핑함으로써, 질병의 초기 단계에서 정확한 예측과 발견이 가능해질 것입니다. 이는 환자들이 더욱 신속하고 정확하게 진단받고, 개별 환자에게 최적화된 치료 전략을 수립하는 데 필수적인 정보를 제공할 것입니다. 궁극적으로 이러한 비침습적 진단 기술의 발전은 MASH의 관리 및 치료 패러다임에 혁신적인 변화를 가져올 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Author Correction: The cold-induced lipokine 12,13-diHOME promotes fatty acid transport into brown adipose tissue",
+      "url": "https://www.nature.com/articles/s41591-025-04172-x",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-01-04",
+      "image_url": null,
+      "title": "저자 정정: 저온 유도 리포카인 12,13-diHOME, 갈색 지방 조직의 지방산 수송 촉진",
+      "summary_kr": "네이처 메디슨(Nature Medicine)에 게재된 저자 정정 논문은 저온 유도 리포카인인 12,13-diHOME의 중요한 생체 기능을 다시 한번 강조하고 있습니다. 이 지질 분자는 추운 환경에 노출될 때 체내에서 생성되는 것으로 알려져 있으며, 체온 조절 메커니즘에서 핵심적인 역할을 합니다. 특히, 12,13-diHOME은 에너지를 열로 전환하는 갈색 지방 조직(BAT)으로의 지방산 수송을 적극적으로 촉진하는 것으로 밝혀졌습니다. 이 리포카인은 지방산이 갈색 지방 조직으로 효율적으로 전달되어 에너지원으로 활용되도록 도움으로써, 신체가 추위에 대응하여 열을 생성하고 대사를 조절하는 데 기여합니다. 이러한 작용 기전은 저온 환경에서 에너지 균형을 유지하고 체온을 보존하는 데 있어 12,13-diHOME이 핵심적인 역할을 할 수 있음을 시사합니다. 이번 정정은 해당 연구의 신뢰성을 더욱 높이며, 저온 반응 및 대사 조절 메커니즘에 대한 이해를 심화하는 데 중요한 기반을 제공합니다."
+    },
+    {
+      "title_en": "유튜브 너무 많이 떼간다",
+      "url": "https://www.youtube.com/watch?v=m67Dg1Xg404",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-01-04",
+      "image_url": "https://i2.ytimg.com/vi/m67Dg1Xg404/hqhqdefault.jpg",
+      "title": "유튜브 CEO 닐 모한, 창작자와의 상생 및 플랫폼 발전 전략 논의",
+      "summary_kr": "유튜브 CEO 닐 모한이 'All-In Summit'에 참여하여 유튜브 플랫폼의 발전 방향과 창작자 생태계에 대한 깊이 있는 대화를 나눴습니다. 그는 유튜브가 지난 10년 동안 창작자 경제에 700억 달러 이상을 지급했으며, 이는 유튜브가 전 세계 최대 규모의 창작자 경제를 이끌고 있음을 방증한다고 밝혔습니다. 또한, 유튜브는 단순히 광고 수익뿐만 아니라, 구독 모델, 멤버십 등을 통해 다양한 방식으로 수익을 창출하며 창작자들에게 안정적인 수입원을 제공하고 있다고 강조했습니다. 그는 또한 AI 기술을 활용하여 콘텐츠 제작 및 추천 시스템을 혁신하고, 사용자의 니즈에 맞는 맞춤형 경험을 제공하는 것이 중요하다고 언급했습니다. 특히, 유튜브는 전 세계 20억 명의 사용자를 기반으로, 각 국가의 문화적 맥락과 법률을 고려한 콘텐츠 운영을 통해 표현의 자유를 보장하며, 이러한 접근 방식이 유튜브의 성공 요인이라고 설명했습니다. AI 생성 콘텐츠에 대한 우려와 함께, 책임감 있는 AI 활용과 투명한 운영을 위한 커뮤니티 가이드라인의 중요성도 강조했습니다. 그는 앞으로도 유튜브가 창작자들과 함께 성장하며, 플랫폼의 지속 가능한 발전을 위해 노력할 것이라고 다짐했습니다. 마지막으로, 그는 유튜브의 다양한 서비스와 콘텐츠가 사용자들에게 긍정적인 경험을 제공하는 데 중점을 둘 것이라고 덧붙였습니다."
+    },
     {
       "title_en": "3 things Will Douglas Heaven is into right now",
       "url": "https://www.technologyreview.com/2026/01/02/1129409/will-douglas-heaven-el-estepario-siberiano-ed-atkins-laura-jean-mckay/",
