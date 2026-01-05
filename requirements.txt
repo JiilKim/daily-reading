@@ -5,3 +5,4 @@ google-genai
 youtube_transcript_api==0.6.2
 python-dotenv
 packaging
+yt-dlp
