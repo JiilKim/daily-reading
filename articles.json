@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-04 00:58:25",
+  "last_updated": "2026-01-05 02:31:12",
   "failed_queue": [
     {
       "title_en": "일론 머스크 최신대화 전체번역",
@@ -7,11 +7,159 @@
       "url": "https://www.youtube.com/watch?v=NYgq7_FUJic",
       "source": "B_ZCF YouTube",
       "category": "Video",
-      "date": "2026-01-04",
+      "date": "2026-01-05",
       "image_url": "https://i3.ytimg.com/vi/NYgq7_FUJic/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "트럼프 : 미국에 반하지 마라",
+      "description_en": "Translated by J \n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=ClbqR3Cz1ko",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-01-05",
+      "image_url": "https://i4.ytimg.com/vi/ClbqR3Cz1ko/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "VC? 돈 벌어야지 (세콰이어 캐피탈)",
+      "description_en": "\"VC도 당연히 돈 벌어야지.\" 세콰이어 캐피탈은 이런말 해도 됩니다. \n\n세콰이어가 전설적인 이유 : 1972년 설립 이후 애플, 구글, 엔비디아, 시스코, 유튜브 등 IT 산업의 지형을 바꾼 상징적인 기업들을 전부 투자. 초기 단계 펀드에서 수십 년간 평균 40% 이상의 IRR(내부수익률)을 기록하고 1998년 펀드에서 117%라는 경이로운 성과를 냄. 현재 약 600억 달러(약 80조 원) 이상의 자산(AUM)을 운용 중. \n\nTranslated by J\n\nDISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
+      "url": "https://www.youtube.com/watch?v=RMQEmNK-Iv4",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-01-05",
+      "image_url": "https://i3.ytimg.com/vi/RMQEmNK-Iv4/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Author Correction: Repulsions instruct synaptic partner matching in an olfactory circuit",
+      "url": "https://www.nature.com/articles/s41586-025-10089-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "저자 정정: 후각 회로의 시냅스 파트너 매칭을 지시하는 반발력",
+      "summary_kr": "본 기사는 네이처(Nature)지에 게재된 '후각 회로의 시냅스 파트너 매칭을 지시하는 반발력'이라는 연구에 대한 저자 정정 내용을 담고 있습니다. 이 정정은 이전에 발표된 연구 결과에 대한 오류 수정 또는 추가 설명을 제공하는 것으로 보입니다. 원래 연구는 후각 시스템 내에서 신경 세포들이 정확한 시냅스 연결을 형성하는 과정에서 특정 분자적 혹은 세포적 반발력들이 어떻게 핵심적인 역할을 하는지를 탐구했습니다. 이러한 반발 메커니즘은 복잡한 후각 정보를 처리하는 데 필수적인 정밀한 신경 회로의 형성을 보장하는 데 중요합니다. 이번 정정은 해당 연구의 과학적 정확성과 신뢰성을 더욱 높이는 데 기여할 것입니다."
+    },
+    {
+      "title_en": "Author Correction: Rewiring an olfactory circuit by altering cell-surface combinatorial code",
+      "url": "https://www.nature.com/articles/s41586-025-10090-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "저자 정정: 세포 표면 조합 코드 변경을 통한 후각 회로 재배선",
+      "summary_kr": "이 기사는 네이처(Nature)지에 실린 '세포 표면 조합 코드 변경을 통한 후각 회로 재배선'이라는 논문에 대한 저자 정정을 다루고 있습니다. 이는 이전에 발표된 연구의 특정 부분에 대한 수정이나 보완 설명을 제공하기 위함입니다. 본래 연구는 신경 세포의 표면에 존재하는 복합적인 분자 '코드'를 조작함으로써 후각 시스템의 신경 회로 연결 방식을 성공적으로 재구성할 수 있음을 보여주었습니다. 이러한 발견은 뇌 회로의 발달과 기능에 대한 깊이 있는 이해를 제공하며, 특정 신경 연결을 표적화하여 조절할 수 있는 잠재력을 시사합니다. 따라서 이번 정정은 해당 연구의 과학적 정밀성을 강화하고, 관련 분야의 연구자들에게 정확한 정보를 제공하는 데 중요한 의미를 가집니다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Rohit Kumar",
+      "url": "https://www.the-scientist.com/postdoc-portrait-rohit-kumar-73895",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "박사후 연구원 집중 조명: 로히트 쿠마르, 기후 스마트 농업의 지속 가능성 연구",
+      "summary_kr": "로히트 쿠마르 박사후 연구원은 기후 스마트 농업 분야에서 중요한 연구를 수행하고 있습니다. 그는 작물과 가축 생산 시스템 내에서 지속 가능성과 관련된 복잡한 상충 관계(trade-offs)를 분석하는 데 초점을 맞추고 있습니다. 이 연구는 기후 변화 시대에 농업 생산성을 유지하면서도 환경 발자국을 최소화하는 방법을 모색합니다. 특히, 자원 효율성 증대, 온실가스 배출량 감소, 그리고 생물 다양성 보존 등 다양한 환경적, 사회적 요소를 통합적으로 고려합니다. 쿠마르 박사의 연구는 미래 식량 안보를 확보하고 보다 지속 가능한 농업 관행을 개발하기 위한 과학적 기반을 제공하는 데 핵심적인 기여를 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Why Do Weather Changes Cause Joint Pain?",
+      "url": "https://www.the-scientist.com/why-do-weather-changes-cause-joint-pain-73898",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "날씨 변화가 관절 통증을 유발하는 과학적 원리 규명",
+      "summary_kr": "많은 사람들이 경험하는 날씨 변화에 따른 관절 통증은 과학적으로 설명 가능한 현상입니다. 기온 하강과 기압 저하를 포함한 대기 변화는 민감한 관절 내부의 조직과 체액에 직접적인 영향을 미칠 수 있습니다. 특히, 기압이 낮아지면 관절을 둘러싼 조직과 관절액의 부피가 미세하게 팽창하게 되어 관절 내부의 압력이 증가하고, 이는 주변 신경을 자극하여 통증을 유발할 수 있습니다. 또한, 낮은 기온은 근육과 인대를 수축시키고 혈액 순환을 저하시켜 관절의 유연성을 떨어뜨리고 통증 민감도를 높이는 요인으로 작용합니다. 이러한 복합적인 생리적 반응들이 날씨 변화 시 관절 통증이 심해지는 주된 원인으로 지목되며, 특히 관절염 등 기존 관절 질환을 가진 사람들에게 더욱 두드러지게 나타나는 경향이 있습니다."
+    },
+    {
+      "title_en": "Storytelling Reveals How Strokes Impact Speech",
+      "url": "https://www.the-scientist.com/storytelling-reveals-how-strokes-impact-speech-73903",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "스토리텔링 연구, 뇌졸중이 언어 능력에 미치는 영향 규명",
+      "summary_kr": "최근 연구에 따르면, 뇌졸중이 언어 능력, 특히 음성 언어 정보의 뇌 저장 방식에 심각한 영향을 미치는 것으로 밝혀졌습니다. 연구진은 자원봉사자들이 이야기를 듣는 동안 뇌 활동을 면밀히 평가하여, 뇌졸중으로 인해 뇌가 음성 소리를 효율적으로 유지하고 처리하는 능력이 저하됨을 확인했습니다. 이는 뇌졸중 환자들이 겪는 단순한 발음 문제 이상의 근본적인 인지적 어려움이 있음을 시사합니다. 이번 발견은 뇌졸중 후 언어 재활 치료의 접근 방식을 개선하고, 환자들의 의사소통 능력을 회복시키는 데 중요한 단서를 제공할 것으로 기대됩니다. 나아가, 스토리텔링과 같은 인지 자극 활동이 뇌 회복 과정에 미치는 긍정적인 영향에 대한 추가 연구의 필요성도 제기되고 있습니다."
+    },
+    {
+      "title_en": "Trump Wants Venezuela’s Oil. Getting It Might Not Be So Simple",
+      "url": "https://www.wired.com/story/trump-wants-venezuelas-oil-getting-it-might-not-be-so-simple/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": "https://media.wired.com/photos/695aacdd549c2434b696ec86/master/pass/2252639554",
+      "title": "트럼프 행정부, 베네수엘라 석유 확보 난항 예상",
+      "summary_kr": "트럼프 행정부는 니콜라스 마두로 베네수엘라 대통령의 체포 시도가 베네수엘라의 방대한 석유 매장량과 관련이 있음을 명확히 밝혔습니다. 이는 미국이 베네수엘라의 막대한 석유 자원에 대한 강력한 관심을 가지고 있음을 시사하는 대목입니다. 그러나 미국 기업들이 실제로 이 석유 자원에 어떻게 접근할 수 있을지는 여전히 불확실하며, 이는 단순한 정치적 의지만으로는 해결되기 어려운 문제입니다. 베네수엘라의 불안정한 정치 상황, 노후화된 인프라, 그리고 복잡한 국제 법적 제약들이 복합적으로 작용하여 실질적인 접근을 어렵게 만들고 있습니다. 심지어 미국 기업들조차 현재의 복잡하고 위험한 상황에서 베네수엘라 석유 개발에 참여할 의사가 있는지 불분명한 상태입니다. 따라서 트럼프 행정부의 열망에도 불구하고, 베네수엘라 석유 확보는 현실적으로 많은 난관에 직면할 것으로 예측됩니다."
+    },
+    {
+      "title_en": "A New Bridge Links the Strange Math of Infinity to Computer Science",
+      "url": "https://www.wired.com/story/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": "https://media.wired.com/photos/693fd8699d0ebfe2d23b02bd/master/pass/Set-Theory-Algorythms-cr-Valentin-Tkach-Lede.jpg",
+      "title": "무한의 기묘한 수학, 컴퓨터 과학과 새로운 연결고리를 찾다",
+      "summary_kr": "기술 집합론자들은 무한대의 수학이라는 특정 분야를 연구하며, 그들의 추상적인 문제를 구체적인 알고리즘의 언어로 재구성할 수 있음을 입증했습니다. 이 연구는 언뜻 보기에 매우 동떨어져 보이는 두 학문 분야인 무한대의 개념을 다루는 순수 수학과 실제 계산을 수행하는 컴퓨터 과학 사이에 예상치 못한 다리를 놓았습니다. 이는 수학의 가장 추상적인 영역 중 하나인 무한의 세계가 어떻게 실용적인 컴퓨터 과학과 연결될 수 있는지를 보여주는 중요한 진전입니다. 연구자들은 기술 집합론의 난해한 문제들을 알고리즘적으로 해석함으로써, 컴퓨터 과학자들이 접근하고 해결할 수 있는 형태로 변환하는 방법을 제시했습니다. 이러한 접근 방식은 전통적인 수학 문제 해결에 새로운 관점을 제공할 뿐만 아니라, 이론적인 무한대 개념을 실제 계산 가능한 문제로 전환하는 잠재력을 가지고 있습니다. 궁극적으로 이 발견은 두 분야의 상호 발전에 기여할 수 있는 새로운 연구 방향을 제시하며, 더욱 심도 있는 탐구의 문을 열었습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/teverelix-new-direction-prostate-cancer-and-urologic-health\" hreflang=\"en\">Teverelix: A New Direction in Prostate Cancer and Urologic Health</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/teverelix-new-direction-prostate-cancer-and-urologic-health",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "테베렐릭스: 전립선암 및 비뇨기 건강 관리의 새로운 지평",
+      "summary_kr": "전립선암은 남성에게 흔히 발생하는 암 중 하나로, 효과적인 치료법 개발이 지속적으로 이루어지고 있습니다. 그러나 전립선암 환자들, 특히 장기 치료를 받는 환자들에게서 심혈관 질환은 사망의 주요 원인으로 부각되고 있습니다. 이는 기존 전립선암 치료법들이 심혈관 건강에 부정적인 영향을 미칠 수 있기 때문입니다. 이러한 배경 속에서 '테베렐릭스'는 전립선암 치료 및 전반적인 비뇨기 건강 관리에 있어 새로운 방향을 제시하고 있습니다. 테베렐릭스는 암 치료 효능과 더불어 심혈관 합병증 위험을 최소화할 수 있는 잠재력을 가지며, 이는 환자의 전반적인 생존율과 삶의 질 향상에 기여할 것으로 기대됩니다. 따라서 테베렐릭스와 같은 신약 개발은 전립선암 치료 패러다임을 변화시키고 환자 중심의 통합적인 건강 관리를 가능하게 할 중요한 진전으로 평가받고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/insilico-fresh-its-hong-kong-ipo-pens-potential-888m-cancer-rd-pact-servier\" hreflang=\"en\">Insilico, fresh off its Hong Kong IPO, pens potential $888M cancer R&amp;D pact with Servier</a>",
+      "url": "https://www.fiercebiotech.com/medtech/insilico-fresh-its-hong-kong-ipo-pens-potential-888m-cancer-rd-pact-servier",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "홍콩 상장 직후 인실리코, 세르비에와 최대 8억 8,800만 달러 규모 암 연구개발 계약 체결",
+      "summary_kr": "인실리코 메디슨(Insilico Medicine)이 홍콩 증시 상장(IPO)을 성공적으로 마친 직후, 프랑스 제약사 세르비에(Servier)와 대규모 암 연구개발 협약을 체결하며 새해를 시작했습니다. 이번 계약은 최대 8억 8,800만 달러에 달하는 잠재적 가치를 지닌 것으로 알려져, 인실리코의 AI 기반 신약 개발 역량이 글로벌 제약 업계에서 높은 평가를 받고 있음을 보여줍니다. 특히 상장 직후 곧바로 대규모 파트너십을 발표한 것은 회사의 빠른 성장세와 시장에서의 신뢰도를 입증하는 사례로 주목받고 있습니다. 양사는 이번 협력을 통해 혁신적인 항암제를 발굴하고 개발하는 데 주력할 예정입니다. 인실리코의 인공지능 플랫폼과 세르비에의 제약 개발 전문성이 결합하여 암 치료 분야에 새로운 돌파구를 마련할 것으로 기대됩니다. 이는 AI 신약 개발 기술이 실제 의약품 상용화에 더욱 빠르게 기여할 수 있음을 시사하는 중요한 진전으로 평가됩니다."
+    },
+    {
+      "title_en": "The 1,000 neuron challenge",
+      "url": "https://www.thetransmitter.org/computational-neuroscience/the-1000-neuron-challenge/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-01-05",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2025/12/cropped-1000NeuronModels-Horizontal-525.png",
+      "title": "1,000 뉴런 챌린지: 효율적인 신경 모델의 설계 경쟁",
+      "summary_kr": "최근 과학계에서는 작고 효율적인 신경 모델을 설계하는 것이 중요한 도전 과제로 부상하고 있습니다. 이러한 배경 속에서 '1,000 뉴런 챌린지'와 같은 대회가 주목받고 있으며, 이는 제한된 수의 뉴런으로도 복잡한 기능을 수행하는 모델을 개발하는 것을 목표로 합니다. 이 경쟁은 실제 뇌가 어떻게 최소한의 자원으로 고도로 효율적인 처리를 하는지에 대한 새로운 통찰력을 제공할 것으로 기대됩니다. 특히 생물학적 뇌의 원리를 모방하여 인공지능 모델의 효율성을 극대화하는 방안을 모색할 수 있습니다. 나아가, 이는 각기 다른 방향으로 진행되던 신경 모델링 연구 노력들을 한데 모으는 중요한 촉매제가 될 가능성도 있습니다. 궁극적으로 이러한 시도는 인공지능 기술의 발전과 뇌 과학 연구의 심화를 동시에 이끌어낼 것으로 전망됩니다."
+    },
+    {
+      "title_en": "Pharmacological targeting of the JAK–STAT pathway: new concepts and emerging indications",
+      "url": "https://www.nature.com/articles/s41573-025-01336-9",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "JAK-STAT 경로 약물 표적화: 최신 개념과 확장되는 치료 적응증",
+      "summary_kr": "JAK-STAT(야누스 키나아제-신호 변환 및 전사 활성화 인자) 경로는 사이토카인과 성장 인자에 대한 세포 반응을 매개하는 핵심적인 신호전달 시스템입니다. 이 경로의 기능 이상은 자가면역 질환, 다양한 암, 신경퇴행성 질환 등 광범위한 질병의 발생과 진행에 중요한 역할을 하는 것으로 알려져 있습니다. '네이처 리뷰스 약물 개발(Nature Reviews Drug Discovery)'에 게재된 이 리뷰는 JAK-STAT 신호전달 체계에 대한 포괄적인 개요를 제공합니다. 특히, 현재까지 개발된 치료 전략은 물론, 새롭게 부상하고 있는 치료적 개입 방안들에 대해 심도 있게 논의합니다. 또한, JAK-STAT 경로를 표적으로 하는 약물 개발에 있어 직면하는 주요 도전 과제들을 면밀히 검토하며, 이 경로를 활용할 수 있는 새로운 치료 적응증의 가능성을 모색합니다. 이 연구는 다양한 질병 치료를 위한 JAK-STAT 경로 기반 약물 개발의 현재와 미래를 조명하는 중요한 정보를 제공합니다."
+    },
+    {
+      "title_en": "Collision Lesion",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2512705?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "충돌 병변",
+      "summary_kr": "충돌 병변(Collision Lesion)은 의학 분야에서 두 가지 이상의 독립적인 병변이나 병리적 과정이 동일한 해부학적 위치에서 우연히 동시에 발생하는 현상을 일컫는 용어입니다. 이는 단순히 두 가지 질환이 같은 부위에 존재함을 넘어, 서로의 발현 양상에 영향을 미치거나 진단을 더욱 복잡하게 만들 수 있습니다. 예를 들어, 서로 다른 유형의 악성 종양이 한 장기 내에서 동시에 발견되거나, 종양과 염증성 병변이 병합되어 나타나는 경우 등을 충돌 병변의 예로 들 수 있습니다. 이러한 병변의 정확한 진단은 각 구성 요소의 개별적인 특징을 이해하고 종합적인 관점에서 접근하는 것이 중요하며, 치료 전략 수립에도 상당한 영향을 미칩니다. 이 중요한 주제에 대한 새로운 연구 결과가 권위 있는 뉴잉글랜드 의학 저널(New England Journal of Medicine)에 게재될 예정이며, 현재 'Ahead of Print' 상태로 온라인을 통해 선공개되었습니다. 이는 충돌 병변에 대한 이해를 심화하고 향후 진단 및 치료에 있어 새로운 지침을 제공할 것으로 기대를 모으고 있습니다."
+    },
+    {
+      "title_en": "My Brother’s Sister",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2507252?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-01-05",
+      "image_url": null,
+      "title": "나의 형제의 자매",
+      "summary_kr": "이 기사는 세계적으로 권위 있는 '뉴 잉글랜드 의학 저널(New England Journal of Medicine)'에 출간될 예정인 논문입니다. 현재 'Ahead of Print' 상태로, 정식 출판에 앞서 온라인으로 먼저 공개된 것으로 보입니다. '나의 형제의 자매'라는 제목은 의학 저널의 일반적인 과학 논문 제목과는 사뭇 다른, 개인적이고 서사적인 뉘앙스를 풍깁니다. 이는 특정 질환의 가족력, 유전적 특성, 성 정체성 문제, 혹은 형제자매 간의 특별한 유대 관계가 의학적 관점에서 다루어질 가능성을 시사합니다. 하지만 제공된 정보가 제목과 출판 상태에 국한되어 있어, 논문의 구체적인 내용, 연구 방법론, 주요 발견 또는 결론에 대한 상세한 요약은 현재로서는 불가능합니다. 전체 내용은 정식 출판 후 확인할 수 있을 것으로 예상됩니다."
+    },
     {
       "title_en": "Polio Vaccine History: The Shot That Saved Millions",
       "url": "https://www.the-scientist.com/polio-vaccine-history-the-shot-that-saved-millions-73901",
