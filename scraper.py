@@ -18,6 +18,8 @@ from google import genai
 from google.genai import types
 import sys
 import re
+import yt_dlp
+
 # 타임존 처리를 위한 라이브러리 (Python 3.9+)
 try:
     from zoneinfo import ZoneInfo
@@ -38,6 +40,7 @@ MAX_NEW_ARTICLES_PER_RUN = 8000
 API_DELAY_SECONDS = 2 # API 안정성을 위해 1초 -> 2초로 늘림
 # 재시도 횟수 설정 (총 3번 시도)
 max_retries = 5
+MAX_VIDEO_DURATION_SEC = 45 * 60  # 45분 (초 단위)
 
 # 팔로알토 시간대 (썸머타임 자동 적용)
 try:
@@ -221,7 +224,7 @@ def get_gemini_summary_youtube(article_data):
             if 'YouTube' in source:
                 print(f"  [AI] 🎥 유튜브 영상 분석 중: '{title_en[:40]}...'")
                 
-                prompt = f"""
+                prompt = """
                         당신은 영상 요약 전문가입니다. 이 유튜브 영상을 분석하여 한국어 제목과 한국어 요약문을 생성해 주세요.
                         출력은 반드시 지정된 JSON 형식을 따라야 합니다.
                         
@@ -354,6 +357,29 @@ def scrape_feed(feed_url, source_name, category_name):
 # 유튜브 채널 스크래퍼
 # ============================================================================
 
+def get_video_duration(url):
+    """
+    yt-dlp를 사용하여 영상의 길이를 초(seconds) 단위로 반환합니다.
+    실패 시 None 반환.
+    """
+    ydl_opts = {
+        'quiet': True,
+        'no_warnings': True,
+        'skip_download': True, # 다운로드 안 함
+        'noplaylist': True,
+        # 봇 탐지 회피를 위한 설정
+        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    }
+    
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            return info.get('duration', 0)
+    except Exception as e:
+        # 에러 나면 로그 남기고 0(통과)이나 None으로 처리
+        # 여기서는 안전하게 None 반환하여 스킵 여부 결정 맡김
+        return None
+
 def scrape_youtube_videos(channel_id, source_name, category_name):
     articles = []
     log(f"🔍 [{source_name}] 유튜브 크롤링 중... (채널: {channel_id})")
@@ -362,7 +388,7 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
     try:
         response = requests.get(feed_url, headers=HEADERS, timeout=20)
         response.raise_for_status()
-        feed = feedparser.parse(response.content)
+        feed = feedparser.parse(response.content)            
 
         # [핵심] 유튜브도 무조건 오늘(Palo Alto) 날짜로 고정
         palo_alto_now = datetime.now(PALO_ALTO_TZ)
@@ -378,9 +404,7 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 title_en = entry.title
                 link = entry.link
                 video_id = link.split('v=')[-1]
-
-                # [삭제됨] 기존의 published_parsed 로직 제거
-                
+                            
                 # 고화질 썸네일
                 image_url = None
                 if entry.get('media_thumbnail') and entry.media_thumbnail:
@@ -390,6 +414,13 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 description_text = BeautifulSoup(description_en, 'html.parser').get_text(strip=True)
                 
                 log(f"    [i] 영상 {video_id} 로드됨.")
+
+                # yt-dlp로 길이 확인 (너무 긴 영상은 API 오류 유발)
+                duration = get_video_duration(link)
+                
+                if duration is not None and duration > MAX_VIDEO_DURATION_SEC:
+                    log(f"  ⏭️ 스킵: 영상 길이가 45분을 초과함 ({duration//60}분) - {entry.title[:20]}...", "INFO")
+                    continue
 
                 articles.append({
                     'title_en': title_en,
