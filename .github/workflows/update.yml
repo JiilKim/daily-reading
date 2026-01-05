@@ -43,6 +43,7 @@ jobs:
       - name: Run scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }} 
         run: python -u scraper.py
       
       # [안전장치 2] 실행 결과(json)를 임시 저장소에 업로드 (Git Push 실패해도 다운로드 가능!)
