@@ -18,7 +18,7 @@ from google import genai
 from google.genai import types
 import sys
 import re
-import yt_dlp
+import isodate
 
 # 타임존 처리를 위한 라이브러리 (Python 3.9+)
 try:
@@ -357,27 +357,49 @@ def scrape_feed(feed_url, source_name, category_name):
 # 유튜브 채널 스크래퍼
 # ============================================================================
 
-def get_video_duration(url):
+# ============================================================================
+# [핵심] YouTube Data API로 영상 길이 체크
+# ============================================================================
+
+def get_video_duration_via_api(video_url):
     """
-    yt-dlp를 사용하여 영상의 길이를 초(seconds) 단위로 반환합니다.
-    실패 시 None 반환.
+    YouTube Data API v3를 사용하여 영상 길이를 가져옵니다.
+    반환값: 초(Seconds) 단위의 길이 (실패 시 None)
     """
-    ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'skip_download': True, # 다운로드 안 함
-        'noplaylist': True,
-        # 봇 탐지 회피를 위한 설정
-        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    }
+    api_key = os.environ.get('YOUTUBE_API_KEY')
+    if not api_key:
+        log("⚠️ YOUTUBE_API_KEY가 없습니다. 시간 체크를 건너뜁니다.", "WARNING")
+        return 0 # 키 없으면 그냥 통과시킴 (혹은 None으로 해서 스킵 가능)
+
+    # URL에서 Video ID 추출
+    video_id = ""
+    if "v=" in video_url:
+        video_id = video_url.split("v=")[1].split("&")[0]
+    elif "youtu.be" in video_url:
+        video_id = video_url.split("/")[-1]
+    
+    if not video_id:
+        return None
+
+    # API 호출 (contentDetails 파트만 가져옴 - 할당량 최소 소모)
+    api_url = f"https://www.googleapis.com/youtube/v3/videos?id={video_id}&part=contentDetails&key={api_key}"
     
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-            return info.get('duration', 0)
+        response = requests.get(api_url, timeout=10)
+        data = response.json()
+        
+        if "items" in data and len(data["items"]) > 0:
+            # ISO 8601 포맷 (예: PT1H2M10S) 추출
+            duration_iso = data["items"][0]["contentDetails"]["duration"]
+            # 초 단위로 변환
+            duration_seconds = isodate.parse_duration(duration_iso).total_seconds()
+            return duration_seconds
+        else:
+            log(f"  [API] 영상 정보를 찾을 수 없음: {video_id}", "WARNING")
+            return None
+            
     except Exception as e:
-        # 에러 나면 로그 남기고 0(통과)이나 None으로 처리
-        # 여기서는 안전하게 None 반환하여 스킵 여부 결정 맡김
+        log(f"  [API] 시간 체크 실패: {e}", "ERROR")
         return None
 
 def scrape_youtube_videos(channel_id, source_name, category_name):
@@ -415,12 +437,16 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 
                 log(f"    [i] 영상 {video_id} 로드됨.")
 
-                # yt-dlp로 길이 확인 (너무 긴 영상은 API 오류 유발)
-                duration = get_video_duration(link)
+                # [API 사용] 영상 길이 체크 (45분 컷)
+                duration = get_video_duration_via_api(link)
                 
-                if duration is not None and duration > MAX_VIDEO_DURATION_SEC:
-                    log(f"  ⏭️ 스킵: 영상 길이가 45분을 초과함 ({duration//60}분) - {entry.title[:20]}...", "INFO")
-                    continue
+                if duration is not None:
+                    duration_min = duration // 60
+                    if duration > MAX_VIDEO_DURATION_SEC:
+                        log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {entry.title[:15]}...", "INFO")
+                        continue
+                    else:
+                        log(f"  🆗 통과: {int(duration_min)}분 - {entry.title[:15]}...", "INFO")
 
                 articles.append({
                     'title_en': title_en,
