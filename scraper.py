@@ -318,9 +318,6 @@ def scrape_feed(feed_url, source_name, category_name):
             if not link or not title:
                 continue
 
-            # [삭제됨] 기존의 published_parsed 로직 제거
-            # 무조건 위에서 정의한 date_str(오늘)을 사용합니다.
-            
             # 이미지 추출
             image_url = None
             if entry.get('media_thumbnail'):
@@ -619,10 +616,10 @@ def main():
             if duration is not None:
                 duration_min = duration // 60
                 if duration > MAX_VIDEO_DURATION_SEC:
-                    log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {entry.title[:15]}...", "INFO")
+                    log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {art['title_en'][:15]}...", "INFO")
                     continue
                 else:
-                    log(f"  🆗 통과: {int(duration_min)}분 - {entry.title[:15]}...", "INFO")
+                    log(f"  🆗 통과: {int(duration_min)}분 - {art['title_en'][:15]}...", "INFO")
             
             title_kr, summary_kr = get_gemini_summary_youtube(art)
             
