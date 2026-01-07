@@ -180,7 +180,7 @@ def get_gemini_batch_summary(articles_batch):
             log(f"  ⚠️ 배치 에러(시도 {attempt+1}): {e}", "WARNING")
             
             # 마지막 시도가 아니라면 대기
-            if attempt < MAX_RETRIES - 1:
+            if attempt < max_retries - 1:
                 log(f"  ⏳ {wait}초 후 재시도합니다...", "INFO")
                 time.sleep(wait)
     
@@ -437,17 +437,6 @@ def scrape_youtube_videos(channel_id, source_name, category_name):
                 
                 log(f"    [i] 영상 {video_id} 로드됨.")
 
-                # [API 사용] 영상 길이 체크 (45분 컷)
-                duration = get_video_duration_via_api(link)
-                
-                if duration is not None:
-                    duration_min = duration // 60
-                    if duration > MAX_VIDEO_DURATION_SEC:
-                        log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {entry.title[:15]}...", "INFO")
-                        continue
-                    else:
-                        log(f"  🆗 통과: {int(duration_min)}분 - {entry.title[:15]}...", "INFO")
-
                 articles.append({
                     'title_en': title_en,
                     'description_en': description_text,
@@ -623,6 +612,17 @@ def main():
         for art in unique_youtube_candidates:
             # 유튜브 처리 전 안전 대기 (선택사항)
             time.sleep(5)
+
+            # [API 사용] 영상 길이 체크 (45분 컷)
+            duration = get_video_duration_via_api(art['url'])
+            
+            if duration is not None:
+                duration_min = duration // 60
+                if duration > MAX_VIDEO_DURATION_SEC:
+                    log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {entry.title[:15]}...", "INFO")
+                    continue
+                else:
+                    log(f"  🆗 통과: {int(duration_min)}분 - {entry.title[:15]}...", "INFO")
             
             title_kr, summary_kr = get_gemini_summary_youtube(art)
             
