@@ -25051,5 +25051,687 @@
       "level": "INFO",
       "message": "데이터 저장 완료 (articles.json)"
     }
+  ],
+  "2026-01-28": [
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "=== 스크립트 시작 (날짜: 2026-01-28) ==="
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "🔍 [B_ZCF YouTube] 유튜브 크롤링 중... (채널: UCWgXoKQ4rl7SY9UHuAwxvzQ)"
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 AdY5ZFN3ceM 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 Kip-dvYIRrE 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 GBNBN4K-Osc 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/ZgGuNHoRaPk 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 EVTRXxLGfQE 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 L2qDH6ovGo0 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 PLe30uUu6qs 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/2vOyLmNcCAw 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/QyfCJncKoXI 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 CxtehreILw0 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/5LNrYhg-ZM8 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/bqdFqKELCIE 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 5nEw2IFpCeQ 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 2z9JsnMDWHE 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 7frgi0BmzVY 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "🔍 [김지윤의 지식Play YouTube] 유튜브 크롤링 중... (채널: UCXql5C57vS4ogUt6CPEWWHA)"
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 k7r7HGv2t_s 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 tl5NFrAMqAo 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 8E4GRrlDDrs 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 I5CcM95mgvU 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 wmOh2-sFLNk 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 CxD_PFTexlM 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 Uei7soViEPI 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 IaifoI5pqGY 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 ubP8FvSP9Uo 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 EfWiK1_B_HY 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 5YSe315kblg 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 l2PxoOzzgks 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 uWZ68qCmrZo 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 vYmzkgCa5w0 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "    [i] 영상 fkNKnWRUiyU 로드됨."
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "크롤링 시작: MIT Tech Rev"
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:36:35",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "[Nature] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "크롤링 시작: The Scientist"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "[The Scientist] 완료: 97개 기사 수집됨"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "크롤링 시작: Science"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "[Science] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:36:36",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (News & Comment)"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "크롤링 시작: STAT News"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "[STAT News] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "크롤링 시작: Ars Technica"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "[Ars Technica] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "크롤링 시작: Wired"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "[Wired] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "크롤링 시작: Fierce Biotech"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
+    },
+    {
+      "time": "00:36:37",
+      "level": "INFO",
+      "message": "크롤링 시작: Endpoints News"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "[Endpoints News] 완료: 24개 기사 수집됨"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "크롤링 시작: BioPharmaDive"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "크롤링 시작: Clinical Trials Arena"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:36:38",
+      "level": "INFO",
+      "message": "크롤링 시작: The Transmitter"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "[The Transmitter] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "크롤링 시작: Science (Paper)"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "[Science (Paper)] 완료: 38개 기사 수집됨"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "크롤링 시작: Cell"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "[Cell] 완료: 22개 기사 수집됨"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Neuroscience"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Medicine"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:36:39",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Drug Discovery"
+    },
+    {
+      "time": "00:36:40",
+      "level": "INFO",
+      "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:36:40",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Biotechnology"
+    },
+    {
+      "time": "00:36:40",
+      "level": "INFO",
+      "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:36:40",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (Paper)"
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "크롤링 시작: NEJM"
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "[NEJM] 완료: 50개 기사 수집됨"
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "--- 텍스트 기사 처리 시작 (총 78개 -> 10개 블록으로 분할) ---"
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "📡 블록 1/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:36:41",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:37:08",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:37:08",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:37:08",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:40:28",
+      "level": "INFO",
+      "message": "📡 블록 2/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:40:28",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:40:49",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:40:49",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:40:49",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:44:09",
+      "level": "INFO",
+      "message": "📡 블록 3/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:44:09",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:44:31",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:44:31",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:44:31",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:47:51",
+      "level": "INFO",
+      "message": "📡 블록 4/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:47:51",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:48:10",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:48:10",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:48:10",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:51:30",
+      "level": "INFO",
+      "message": "📡 블록 5/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:51:30",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:51:33",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "00:51:33",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "00:54:53",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:55:15",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:55:15",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:55:15",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:58:35",
+      "level": "INFO",
+      "message": "📡 블록 6/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:58:35",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:58:58",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:58:58",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:58:58",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:02:18",
+      "level": "INFO",
+      "message": "📡 블록 7/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "01:02:18",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "01:02:47",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "01:02:47",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "01:02:47",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:06:07",
+      "level": "INFO",
+      "message": "📡 블록 8/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "01:06:07",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "01:06:31",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "01:06:31",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "01:06:31",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:09:51",
+      "level": "INFO",
+      "message": "📡 블록 9/10 처리 중 (기사 7개 포함)..."
+    },
+    {
+      "time": "01:09:51",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 7개 요약 요청 중..."
+    },
+    {
+      "time": "01:09:54",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "01:09:54",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:13:14",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 7개 요약 요청 중..."
+    },
+    {
+      "time": "01:13:41",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "01:13:41",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (7개 기사 요약됨)"
+    },
+    {
+      "time": "01:13:41",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:17:01",
+      "level": "INFO",
+      "message": "📡 블록 10/10 처리 중 (기사 7개 포함)..."
+    },
+    {
+      "time": "01:17:01",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 7개 요약 요청 중..."
+    },
+    {
+      "time": "01:17:24",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "01:17:24",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (7개 기사 요약됨)"
+    },
+    {
+      "time": "01:17:24",
+      "level": "INFO",
+      "message": "--- 유튜브 영상 처리 시작 (1건) ---"
+    },
+    {
+      "time": "01:17:29",
+      "level": "INFO",
+      "message": "  🆗 통과: 14분 - 현대가 그리는..."
+    },
+    {
+      "time": "01:17:42",
+      "level": "INFO",
+      "message": "  [AI] ✅ 완료: 보스턴 다이내믹스의 로봇 일반화 여정..."
+    },
+    {
+      "time": "01:17:42",
+      "level": "INFO",
+      "message": "최종 결과: 성공 79건, 실패/보류 0건"
+    },
+    {
+      "time": "01:17:42",
+      "level": "INFO",
+      "message": "데이터 저장 완료 (articles.json)"
+    }
   ]
 }
