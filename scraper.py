@@ -134,7 +134,7 @@ def get_gemini_batch_summary(articles_batch):
         try:
             log(f"  📤 [시도 {attempt+1}/{max_retries}] 기사 {len(articles_batch)}개 요약 요청 중...", "INFO")
             response = client.models.generate_content(
-                model='gemini-3.0-flash',
+                model='gemini-3-flash-preview',
                 contents=prompt_full,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
@@ -244,7 +244,7 @@ def get_gemini_summary_youtube(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model='gemini-3.1-flash-lite', # 모델 버전
+                    model='gemini-3.1-flash-lite-preview', # 모델 버전
                     contents=[
                         prompt,
                         types.Part.from_uri(
