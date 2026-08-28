@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📚 일일 읽을거리</title>
+    <title>📚 오늘의 바이오 뉴스</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -44,6 +44,9 @@
 
     <main class="max-w-4xl mx-auto p-3 md:p-4">
         <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4"></div>
+        <div id="loadMoreContainer" class="hidden text-center py-6">
+            <button id="loadMoreButton" onclick="loadMoreArticles()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2.5 px-6 rounded-full shadow-md transition-colors"></button>
+        </div>
         
         <div id="addonsContainer" class="hidden space-y-6">
             <div class="bg-white p-5 rounded-xl shadow-lg border border-slate-200">
@@ -119,6 +122,11 @@
         let currentFilter = 'all';
         let favoriteArticles = new Set();
         let charts = {};
+        let articleByUrl = new Map();
+        let datePositionByUrl = new Map();
+        let logsLoaded = false;
+        let logsLoading = false;
+        let visibleDateCount = 1;
 
         // 3. 즐겨찾기 불러오기 (Firestore)
         function loadFavorites() {
@@ -130,8 +138,10 @@
                 } else {
                     favoriteArticles = new Set();
                 }
-                // 데이터가 로드된 상태라면 화면 갱신
-                if (allArticles.length > 0) renderContent();
+                if (allArticles.length > 0) {
+                    if (currentFilter === 'favorites') renderContent();
+                    else updateFavoriteButtons();
+                }
             });
         }
 
@@ -149,7 +159,8 @@
             }, { merge: true })
             .catch((error) => console.error("즐겨찾기 저장 실패:", error));
 
-            renderContent(); // 즉시 UI 반영
+            if (currentFilter === 'favorites') renderContent();
+            else updateFavoriteButtons(url);
         };
 
         // 5. 데이터 로드 및 초기화
@@ -161,16 +172,12 @@
         async function loadData() {
             try {
                 // 기사 데이터
-                const artRes = await fetch(`articles.json?v=${Date.now()}`);
+                // 캐시를 완전히 무효화하지 않고 ETag 재검증을 허용한다.
+                const artRes = await fetch('articles.json', { cache: 'no-cache' });
                 const artData = await artRes.json();
                 allArticles = artData.articles || [];
                 document.getElementById('lastUpdated').textContent = artData.last_updated;
-
-                // 로그 데이터 (실패해도 무방)
-                try {
-                    const logRes = await fetch(`logs.json?v=${Date.now()}`);
-                    if(logRes.ok) logData = await logRes.json();
-                } catch(e) { console.log("로그 없음"); }
+                buildArticleIndexes();
 
                 renderTabs();
                 renderContent();
@@ -206,8 +213,45 @@
 
         window.setFilter = (filter) => {
             currentFilter = filter;
+            visibleDateCount = 1;
             renderTabs();
             renderContent();
+        }
+
+        window.loadMoreArticles = () => {
+            visibleDateCount += 1;
+            renderContent();
+        };
+
+        function buildArticleIndexes() {
+            articleByUrl = new Map(allArticles.map(article => [article.url, article]));
+            const articlesByDate = new Map();
+
+            allArticles.forEach(article => {
+                if (!articlesByDate.has(article.date)) articlesByDate.set(article.date, []);
+                articlesByDate.get(article.date).push(article.url);
+            });
+
+            datePositionByUrl = new Map();
+            articlesByDate.forEach(urls => {
+                urls.forEach((url, index) => {
+                    datePositionByUrl.set(url, { index: index + 1, total: urls.length });
+                });
+            });
+        }
+
+        function updateFavoriteButtons(url = null) {
+            const selector = url
+                ? `[data-favorite-url="${CSS.escape(encodeURIComponent(url))}"]`
+                : '[data-favorite-url]';
+
+            document.querySelectorAll(selector).forEach(button => {
+                const buttonUrl = decodeURIComponent(button.dataset.favoriteUrl);
+                const isFavorite = favoriteArticles.has(buttonUrl);
+                button.textContent = isFavorite ? '★' : '☆';
+                button.classList.toggle('text-yellow-400', isFavorite);
+                button.classList.toggle('text-slate-300', !isFavorite);
+            });
         }
 
         // 7. 콘텐츠 렌더링
@@ -216,14 +260,15 @@
             const logs = document.getElementById('logsContainer');
             const addons = document.getElementById('addonsContainer');
             const msg = document.getElementById('loadingMessage');
+            const loadMore = document.getElementById('loadMoreContainer');
 
             // 모두 숨김
-            [container, logs, addons, msg].forEach(el => el.classList.add('hidden'));
+            [container, logs, addons, msg, loadMore].forEach(el => el.classList.add('hidden'));
 
             // 탭별 분기
             if (currentFilter === 'logs') {
                 logs.classList.remove('hidden');
-                setupLogDateSelect();
+                loadLogs();
                 return;
             }
             if (currentFilter === 'addons') {
@@ -249,30 +294,32 @@
                 return;
             }
 
-            // 날짜별 인덱싱 (뱃지용)
-            const dateMap = {};
-            allArticles.forEach(a => {
-                if (!dateMap[a.date]) dateMap[a.date] = [];
-                dateMap[a.date].push(a.url);
-            });
+            const shouldPaginate = currentFilter !== 'favorites';
+            const filteredDates = [...new Set(filtered.map(article => article.date).filter(Boolean))]
+                .sort()
+                .reverse();
+            const visibleDates = new Set(filteredDates.slice(0, visibleDateCount));
+            const visibleArticles = shouldPaginate
+                ? filtered.filter(article => visibleDates.has(article.date))
+                : filtered;
 
-            container.innerHTML = filtered.map(article => {
+            container.innerHTML = visibleArticles.map(article => {
                 const isFav = favoriteArticles.has(article.url);
                 
                 // 뱃지 계산
                 let badgeHtml = '';
-                if (article.date && dateMap[article.date]) {
-                    const idx = dateMap[article.date].indexOf(article.url) + 1;
-                    badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${article.date} (${idx}/${dateMap[article.date].length})</span>`;
+                const datePosition = datePositionByUrl.get(article.url);
+                if (article.date && datePosition) {
+                    badgeHtml = `<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-md border border-indigo-100 shadow-sm">${article.date} (${datePosition.index}/${datePosition.total})</span>`;
                 }
 
                 let sourceColor = article.source?.includes('YouTube') ? 'bg-red-100 text-red-700' : 'bg-slate-100 text-slate-600';
                 
                 return `
-                <article class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all duration-200 hover:-translate-y-1" onclick='openModal("${article.url}")'>
+                <article data-article-url="${encodeURIComponent(article.url)}" class="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden flex flex-col cursor-pointer hover:shadow-xl transition-all duration-200 hover:-translate-y-1" onclick="openModal(decodeURIComponent(this.dataset.articleUrl))">
                     ${article.image_url ? `
                     <div class="relative h-40 overflow-hidden group">
-                        <img src="${article.image_url}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.parentElement.style.display='none'">
+                        <img src="${article.image_url}" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.parentElement.style.display='none'">
                         <div class="absolute top-2 right-2">
                             <span class="bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-md shadow-sm">${article.date}</span>
                         </div>
@@ -280,7 +327,7 @@
                     <div class="p-4 flex-1 flex flex-col">
                         <div class="flex justify-between items-center mb-3">
                             ${badgeHtml}
-                            <button onclick="event.stopPropagation(); toggleFavorite('${article.url}')" class="text-2xl transition-transform active:scale-125 ${isFav ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
+                            <button data-favorite-url="${encodeURIComponent(article.url)}" onclick="event.stopPropagation(); toggleFavorite(decodeURIComponent(this.dataset.favoriteUrl))" class="text-2xl transition-transform active:scale-125 ${isFav ? 'text-yellow-400' : 'text-slate-300 hover:text-yellow-400'}">
                                 ${isFav ? '★' : '☆'}
                             </button>
                         </div>
@@ -292,9 +339,35 @@
                     </div>
                 </article>`;
             }).join('');
+
+            if (shouldPaginate && visibleDateCount < filteredDates.length) {
+                loadMore.classList.remove('hidden');
+                const nextDate = filteredDates[visibleDateCount];
+                document.getElementById('loadMoreButton').textContent =
+                    `${nextDate} 더 보기 (${visibleArticles.length.toLocaleString()} / ${filtered.length.toLocaleString()})`;
+            }
         }
 
         // 8. 로그 관련 함수
+        async function loadLogs() {
+            if (logsLoaded || logsLoading) return;
+            logsLoading = true;
+            document.getElementById('logContent').innerHTML = '<div class="text-center py-4">로그를 불러오는 중...</div>';
+
+            try {
+                const response = await fetch('logs.json', { cache: 'no-cache' });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                logData = await response.json();
+                logsLoaded = true;
+                setupLogDateSelect();
+            } catch (error) {
+                console.error('로그 로드 실패:', error);
+                document.getElementById('logContent').innerHTML = '<div class="text-center py-4 text-red-300">로그를 불러올 수 없습니다.</div>';
+            } finally {
+                logsLoading = false;
+            }
+        }
+
         function setupLogDateSelect() {
             const select = document.getElementById('logDateSelect');
             const dates = Object.keys(logData).sort().reverse();
@@ -366,7 +439,7 @@
 
         // 10. 모달 함수
         window.openModal = (url) => {
-            const a = allArticles.find(i => i.url === url);
+            const a = articleByUrl.get(url);
             if (!a) return;
             document.getElementById('modalTitle').innerText = a.title;
             document.getElementById('modalTitleEn').innerText = a.title_en;
