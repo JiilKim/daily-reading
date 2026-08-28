@@ -3,9 +3,15 @@ name: Update Articles Daily
 on:
   schedule:
     - cron: '0 6 * * *'
-  workflow_dispatch:     # 수동 실행 버튼
+  workflow_dispatch: # 수동 실행 버튼
 
-# 중복 실행 방지 (혹시 이전 작업이 안 끝났으면 대기)
+# 자동 커밋과 GitHub Pages 배포에 필요한 권한
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 이전 실행이 끝나기 전에 다음 실행이 시작되는 것을 방지
 concurrency:
   group: update-articles
   cancel-in-progress: false
@@ -13,63 +19,75 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      
-      # [안전장치 1] API 키가 제대로 설정됐는지 확인
+
       - name: Check API Key
         env:
           THE_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -z "$THE_KEY" ]; then
-            echo "⛔ CRITICAL ERROR: GEMINI_API_KEY not found in Secrets!"
+            echo "CRITICAL ERROR: GEMINI_API_KEY not found in Secrets!"
             exit 1
           else
-            echo "✅ API Key found. Length: ${#THE_KEY}"
+            echo "API Key found. Length: ${#THE_KEY}"
           fi
 
-      # [핵심] -u 옵션으로 로그 실시간 출력 (멈춘 것처럼 보이는 현상 방지)
       - name: Run scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }} 
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -u scraper.py
-      
-      # [안전장치 2] 실행 결과(json)를 임시 저장소에 업로드 (Git Push 실패해도 다운로드 가능!)
-      - name: Upload articles.json as artifact
+
+      # Git push에 실패하더라도 결과 파일을 Actions 화면에서 받을 수 있도록 보관
+      - name: Upload crawled data as artifact
         uses: actions/upload-artifact@v4
-        if: always()  # 앞 단계가 에러나도 무조건 실행
+        if: always()
         with:
           name: crawled-data
           path: |
             articles.json
             logs.json
-      
+
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions-bot@github.com'
           git add articles.json logs.json
-          
-          # 변경 사항이 있는지 확인
+
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
             git commit -m "📰 자동 업데이트: 기사 목록 갱신"
-            
-            # [에러 해결] 원격 저장소의 최신 변경사항을 가져와서 합침 (충돌 방지)
             git pull --rebase origin main
-            
             git push
           fi
+
+      # GITHUB_TOKEN으로 만든 커밋은 Pages 빌드를 자동으로 시작하지 않으므로
+      # 같은 workflow 안에서 사이트 파일을 직접 배포한다.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
