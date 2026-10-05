@@ -2,8 +2,9 @@ name: Update Articles Daily
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch: # 수동 실행 버튼
+    - cron: '17 1 * * *'
+      timezone: America/Los_Angeles
+  workflow_dispatch: # 수동 실행 버튼 유지
 
 # 자동 커밋과 GitHub Pages 배포에 필요한 권한
 permissions:
