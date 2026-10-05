@@ -198161,5 +198161,1152 @@
       "level": "INFO",
       "message": "데이터 저장 완료 (articles.json)"
     }
+  ],
+  "2026-10-05": [
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "=== 스크립트 시작 (날짜: 2026-10-05) ==="
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "지난 실행 실패 항목 1개 재시도 대기"
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "🔍 [B_ZCF YouTube] 유튜브 크롤링 중... (채널: UCWgXoKQ4rl7SY9UHuAwxvzQ)"
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/LFzJwutIAQs 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/V1FeV-Qp-_I 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/h77Smp9hVYE 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/_f6uM07wBUc 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/Q0PVuUk9D4A 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/58zIn_8SE4Y 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/yBj8kVJ2KN8 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/bLo62CAMdMc 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/tDenPzL3iWg 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/hyxmanhOIqE 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/XS6TTLSI-K0 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/rVfIVVilmaw 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/1xEYZdecWEE 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/w-_gvIapdCw 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/CPwJT-k3S2E 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "🔍 [김지윤의 지식Play YouTube] 유튜브 크롤링 중... (채널: UCXql5C57vS4ogUt6CPEWWHA)"
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 y-p5Jpzoht8 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 qpsPEK3OdBo 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 zw9sVOxV3Fo 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 LAQHlel75oM 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/4MpgKa_PYgM 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 dTTiz4e7U7M 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/o9zillExufE 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/MgbqpjQe1OA 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 kpYGrIs44Rs 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/fbzkTLuChj0 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 Fj8kM6zg55g 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/LHxREeaUzy0 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 gMNvvResqu0 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/TWNPw96iuDM 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "    [i] 영상 JRTjw5L88g8 로드됨."
+    },
+    {
+      "time": "06:46:40",
+      "level": "INFO",
+      "message": "크롤링 시작: MIT Tech Rev"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "[Nature] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "크롤링 시작: The Scientist"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "[The Scientist] 완료: 100개 기사 수집됨"
+    },
+    {
+      "time": "06:46:41",
+      "level": "INFO",
+      "message": "크롤링 시작: Science"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "[Science] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (News & Comment)"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "크롤링 시작: STAT News"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "[STAT News] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "06:46:42",
+      "level": "INFO",
+      "message": "크롤링 시작: Ars Technica"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "[Ars Technica] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "크롤링 시작: Wired"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "[Wired] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "크롤링 시작: Fierce Biotech"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
+    },
+    {
+      "time": "06:46:43",
+      "level": "INFO",
+      "message": "크롤링 시작: Endpoints News"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "[Endpoints News] 완료: 24개 기사 수집됨"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "크롤링 시작: BioPharmaDive"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "크롤링 시작: Clinical Trials Arena"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "06:46:44",
+      "level": "INFO",
+      "message": "크롤링 시작: The Transmitter"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "[The Transmitter] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "크롤링 시작: Science (Paper)"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "[Science (Paper)] 완료: 45개 기사 수집됨"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "크롤링 시작: Cell"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "[Cell] 완료: 22개 기사 수집됨"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Neuroscience"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "06:46:45",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Medicine"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Drug Discovery"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Biotechnology"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "06:46:46",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (Paper)"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "크롤링 시작: NEJM"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "[NEJM] 완료: 52개 기사 수집됨"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "--- 텍스트 기사 처리 시작 (총 49개 -> 10개 블록으로 분할) ---"
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "📡 블록 1/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "06:46:48",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "06:48:08",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "06:48:08",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (5개 기사 요약됨)"
+    },
+    {
+      "time": "06:48:08",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "06:51:28",
+      "level": "INFO",
+      "message": "📡 블록 2/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "06:51:28",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "06:51:28",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "06:51:28",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "06:54:48",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "06:55:14",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "06:55:14",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "06:58:34",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:02:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:02:03",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:05:23",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:06:17",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:06:17",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:09:37",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:09:40",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:09:40",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "07:09:40",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "07:13:00",
+      "level": "INFO",
+      "message": "📡 블록 3/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "07:13:00",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:13:08",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:13:08",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:16:28",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:16:29",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:16:29",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:19:49",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:19:51",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:19:51",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:23:11",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:23:12",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:23:12",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:26:32",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:26:35",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:26:35",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "07:26:35",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "07:29:55",
+      "level": "INFO",
+      "message": "📡 블록 4/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "07:29:55",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:29:57",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:29:57",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:33:17",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:34:01",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "07:34:01",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (5개 기사 요약됨)"
+    },
+    {
+      "time": "07:34:01",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "07:37:21",
+      "level": "INFO",
+      "message": "📡 블록 5/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "07:37:21",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:37:21",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:37:21",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:40:41",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:40:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:40:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:44:02",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:44:02",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:44:02",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:47:22",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:48:27",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "07:48:27",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (5개 기사 요약됨)"
+    },
+    {
+      "time": "07:48:27",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "07:51:47",
+      "level": "INFO",
+      "message": "📡 블록 6/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "07:51:47",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:51:50",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:51:50",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:55:10",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "07:55:28",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "07:55:28",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "07:58:48",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:01:12",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "08:01:12",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:04:32",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:04:35",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "08:04:35",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:07:55",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:07:56",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "08:07:56",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "08:07:56",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "08:11:16",
+      "level": "INFO",
+      "message": "📡 블록 7/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "08:11:16",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:11:17",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h48m42.956810972s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31722s'}]}}"
+    },
+    {
+      "time": "08:11:17",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:14:37",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:14:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "08:14:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:18:02",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:18:02",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h41m57.811358688s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31317s'}]}}"
+    },
+    {
+      "time": "08:18:02",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:21:22",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:21:22",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h38m37.638125298s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31117s'}]}}"
+    },
+    {
+      "time": "08:21:22",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:24:42",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:28:36",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "08:28:36",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (5개 기사 요약됨)"
+    },
+    {
+      "time": "08:28:36",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "08:31:56",
+      "level": "INFO",
+      "message": "📡 블록 8/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "08:31:56",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:31:56",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h28m3.703663785s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30483s'}]}}"
+    },
+    {
+      "time": "08:31:56",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:35:16",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:35:16",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h24m43.546254271s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30283s'}]}}"
+    },
+    {
+      "time": "08:35:16",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:38:36",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:38:36",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h21m23.406204098s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30083s'}]}}"
+    },
+    {
+      "time": "08:38:36",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:41:56",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:41:56",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h18m3.239925039s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29883s'}]}}"
+    },
+    {
+      "time": "08:41:56",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:45:16",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:45:16",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h14m43.084187212s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29683s'}]}}"
+    },
+    {
+      "time": "08:45:16",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "08:45:16",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "08:48:36",
+      "level": "INFO",
+      "message": "📡 블록 9/10 처리 중 (기사 5개 포함)..."
+    },
+    {
+      "time": "08:48:36",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:48:37",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h11m22.868397096s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29482s'}]}}"
+    },
+    {
+      "time": "08:48:37",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:51:57",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:51:57",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h8m2.736077933s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29282s'}]}}"
+    },
+    {
+      "time": "08:51:57",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:55:17",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:55:17",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h4m42.188646354s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29082s'}]}}"
+    },
+    {
+      "time": "08:55:17",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "08:58:37",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "08:58:37",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 8h1m22.042474699s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28882s'}]}}"
+    },
+    {
+      "time": "08:58:37",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "09:01:57",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 5개 요약 요청 중..."
+    },
+    {
+      "time": "09:01:58",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h58m1.842720739s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28681s'}]}}"
+    },
+    {
+      "time": "09:01:58",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "09:01:58",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "09:05:18",
+      "level": "INFO",
+      "message": "📡 블록 10/10 처리 중 (기사 4개 포함)..."
+    },
+    {
+      "time": "09:05:18",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 4개 요약 요청 중..."
+    },
+    {
+      "time": "09:05:18",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h54m41.668420543s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28481s'}]}}"
+    },
+    {
+      "time": "09:05:18",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "09:08:38",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 4개 요약 요청 중..."
+    },
+    {
+      "time": "09:08:38",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h51m21.483182618s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28281s'}]}}"
+    },
+    {
+      "time": "09:08:38",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "09:11:58",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 4개 요약 요청 중..."
+    },
+    {
+      "time": "09:11:58",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h48m1.339574413s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28081s'}]}}"
+    },
+    {
+      "time": "09:11:58",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "09:15:18",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 4개 요약 요청 중..."
+    },
+    {
+      "time": "09:15:18",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h44m41.149882843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27881s'}]}}"
+    },
+    {
+      "time": "09:15:18",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "09:18:38",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 4개 요약 요청 중..."
+    },
+    {
+      "time": "09:18:39",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 7h41m20.996171446s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27680s'}]}}"
+    },
+    {
+      "time": "09:18:39",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "09:18:39",
+      "level": "INFO",
+      "message": "--- 유튜브 영상 처리 시작 (4건) ---"
+    },
+    {
+      "time": "09:18:44",
+      "level": "WARNING",
+      "message": "  [API] 영상 정보를 찾을 수 없음: LFlk6VJOR9Q"
+    },
+    {
+      "time": "09:28:13",
+      "level": "INFO",
+      "message": "  [AI] ✅ 완료: SK 최태원 회장이 전하는 엔비디아와..."
+    },
+    {
+      "time": "09:35:44",
+      "level": "INFO",
+      "message": "  [AI] ✅ 완료: 젠슨 황 엔비디아 CEO가 말하는 성..."
+    },
+    {
+      "time": "09:45:22",
+      "level": "INFO",
+      "message": "  [AI] ✅ 완료: 가혹하게 대하는 이유..."
+    },
+    {
+      "time": "09:45:22",
+      "level": "INFO",
+      "message": "최종 결과: 성공 23건, 실패/보류 30건"
+    },
+    {
+      "time": "09:45:23",
+      "level": "INFO",
+      "message": "데이터 저장 완료 (articles.json)"
+    }
   ]
 }
