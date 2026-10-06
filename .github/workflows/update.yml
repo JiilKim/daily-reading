@@ -2,7 +2,7 @@ name: Update Articles Daily
 
 on:
   schedule:
-    - cron: '17 1 * * *'
+    - cron: '17 18 * * *'
       timezone: America/Los_Angeles
   workflow_dispatch: # 수동 실행 버튼 유지
 
