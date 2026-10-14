@@ -204720,787 +204720,677 @@
   ],
   "2026-10-13": [
     {
-      "time": "00:48:13",
+      "time": "23:13:15",
       "level": "INFO",
       "message": "=== 스크립트 시작 (날짜: 2026-10-13) ==="
     },
     {
-      "time": "00:48:13",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "지난 실행 실패 항목 1개 재시도 대기"
     },
     {
-      "time": "00:48:13",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "🔍 [B_ZCF YouTube] 유튜브 크롤링 중... (채널: UCWgXoKQ4rl7SY9UHuAwxvzQ)"
     },
     {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/JBCwA1v2x88 로드됨."
+      "message": "❌ [B_ZCF YouTube] 오류: 404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWgXoKQ4rl7SY9UHuAwxvzQ"
     },
     {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/X38YHjMmVRo 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/C7lNPDomh7w 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/LnCZqqwZg-U 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/6eY6e7xgSCE 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/HDkeWk5E2Og 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/_KFT7im5Ms8 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/Pxa1LZfIdj4 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/3Icb_5emZ8c 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/FWpeXpnj3FA 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/Zu93aK06SAs 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/-_YNFwfz3U0 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/Vtvc2zoy3Dw 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/HD7aMLDHRTQ 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/K7J3PkhEgp0 로드됨."
-    },
-    {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "🔍 [김지윤의 지식Play YouTube] 유튜브 크롤링 중... (채널: UCXql5C57vS4ogUt6CPEWWHA)"
     },
     {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
-      "message": "    [i] 영상 y-p5Jpzoht8 로드됨."
+      "message": "❌ [김지윤의 지식Play YouTube] 오류: 404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXql5C57vS4ogUt6CPEWWHA"
     },
     {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 qpsPEK3OdBo 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 zw9sVOxV3Fo 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 LAQHlel75oM 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/4MpgKa_PYgM 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 dTTiz4e7U7M 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/o9zillExufE 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/MgbqpjQe1OA 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 kpYGrIs44Rs 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/fbzkTLuChj0 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 Fj8kM6zg55g 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/LHxREeaUzy0 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 gMNvvResqu0 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 https://www.youtube.com/shorts/TWNPw96iuDM 로드됨."
-    },
-    {
-      "time": "00:48:14",
-      "level": "INFO",
-      "message": "    [i] 영상 JRTjw5L88g8 로드됨."
-    },
-    {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "크롤링 시작: MIT Tech Rev"
     },
     {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "00:48:14",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "크롤링 시작: Nature"
     },
     {
-      "time": "00:48:15",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "[Nature] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "00:48:15",
+      "time": "23:13:16",
       "level": "INFO",
       "message": "크롤링 시작: The Scientist"
     },
     {
-      "time": "00:48:15",
+      "time": "23:13:17",
       "level": "INFO",
       "message": "[The Scientist] 완료: 100개 기사 수집됨"
     },
     {
-      "time": "00:48:15",
+      "time": "23:13:17",
       "level": "INFO",
       "message": "크롤링 시작: Science"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:17",
       "level": "INFO",
       "message": "[Science] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:17",
       "level": "INFO",
       "message": "크롤링 시작: Nature (News & Comment)"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "크롤링 시작: STAT News"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "[STAT News] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "00:48:16",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "크롤링 시작: Ars Technica"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "[Ars Technica] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "크롤링 시작: Wired"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "[Wired] 완료: 20개 기사 수집됨"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:18",
       "level": "INFO",
       "message": "크롤링 시작: Fierce Biotech"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "크롤링 시작: Endpoints News"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "[Endpoints News] 완료: 24개 기사 수집됨"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "크롤링 시작: BioPharmaDive"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "00:48:17",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "크롤링 시작: Clinical Trials Arena"
     },
     {
-      "time": "00:48:18",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "00:48:18",
+      "time": "23:13:19",
       "level": "INFO",
       "message": "크롤링 시작: The Transmitter"
     },
     {
-      "time": "00:48:19",
+      "time": "23:13:20",
       "level": "INFO",
       "message": "[The Transmitter] 완료: 10개 기사 수집됨"
     },
     {
-      "time": "00:48:19",
+      "time": "23:13:20",
       "level": "INFO",
       "message": "크롤링 시작: Science (Paper)"
     },
     {
-      "time": "00:48:19",
+      "time": "23:13:20",
       "level": "INFO",
       "message": "[Science (Paper)] 완료: 36개 기사 수집됨"
     },
     {
-      "time": "00:48:19",
+      "time": "23:13:20",
       "level": "INFO",
       "message": "크롤링 시작: Cell"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:21",
       "level": "INFO",
       "message": "[Cell] 완료: 22개 기사 수집됨"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:21",
       "level": "INFO",
       "message": "크롤링 시작: Nature Neuroscience"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:21",
       "level": "INFO",
       "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:21",
       "level": "INFO",
       "message": "크롤링 시작: Nature Medicine"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:22",
       "level": "INFO",
       "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "00:48:20",
+      "time": "23:13:22",
       "level": "INFO",
       "message": "크롤링 시작: Nature Drug Discovery"
     },
     {
-      "time": "00:48:21",
+      "time": "23:13:22",
       "level": "INFO",
       "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "00:48:21",
+      "time": "23:13:22",
       "level": "INFO",
       "message": "크롤링 시작: Nature Biotechnology"
     },
     {
-      "time": "00:48:21",
+      "time": "23:13:23",
       "level": "INFO",
       "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
     },
     {
-      "time": "00:48:21",
+      "time": "23:13:23",
       "level": "INFO",
       "message": "크롤링 시작: Nature (Paper)"
     },
     {
-      "time": "00:48:22",
+      "time": "23:13:24",
       "level": "INFO",
       "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
     },
     {
-      "time": "00:48:22",
+      "time": "23:13:24",
       "level": "INFO",
       "message": "크롤링 시작: NEJM"
     },
     {
-      "time": "00:48:23",
+      "time": "23:13:24",
       "level": "INFO",
       "message": "[NEJM] 완료: 51개 기사 수집됨"
     },
     {
-      "time": "00:48:23",
+      "time": "23:13:24",
       "level": "INFO",
-      "message": "--- 텍스트 기사 처리 시작 (총 61개 -> 10개 블록으로 분할) ---"
+      "message": "--- 텍스트 기사 처리 시작 (총 83개 -> 10개 블록으로 분할) ---"
     },
     {
-      "time": "00:48:23",
+      "time": "23:13:24",
       "level": "INFO",
-      "message": "📡 블록 1/10 처리 중 (기사 7개 포함)..."
+      "message": "📡 블록 1/10 처리 중 (기사 9개 포함)..."
     },
     {
-      "time": "00:48:23",
+      "time": "23:13:24",
       "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 7개 요약 요청 중..."
+      "message": "  📤 [시도 1/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "00:49:01",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "00:49:01",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (7개 기사 요약됨)"
-    },
-    {
-      "time": "00:49:01",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "00:52:21",
-      "level": "INFO",
-      "message": "📡 블록 2/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "00:52:21",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "00:52:50",
+      "time": "23:13:58",
       "level": "INFO",
       "message": "  📥 응답 수신 완료! 데이터 해석 중..."
     },
     {
-      "time": "00:52:50",
+      "time": "23:13:58",
       "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
+      "message": "  ✅ 배치 처리 완료! (9개 기사 요약됨)"
     },
     {
-      "time": "00:52:50",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "00:56:10",
-      "level": "INFO",
-      "message": "📡 블록 3/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "00:56:10",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "00:56:42",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "00:56:42",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "00:56:42",
+      "time": "23:13:58",
       "level": "INFO",
       "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
     },
     {
-      "time": "01:00:02",
+      "time": "23:17:18",
       "level": "INFO",
-      "message": "📡 블록 4/10 처리 중 (기사 6개 포함)..."
+      "message": "📡 블록 2/10 처리 중 (기사 9개 포함)..."
     },
     {
-      "time": "01:00:02",
+      "time": "23:17:18",
       "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
+      "message": "  📤 [시도 1/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "01:00:24",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "01:00:24",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "01:00:24",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "01:03:44",
-      "level": "INFO",
-      "message": "📡 블록 5/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "01:03:44",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:03:53",
+      "time": "23:17:21",
       "level": "WARNING",
       "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
     },
     {
-      "time": "01:03:53",
+      "time": "23:17:21",
       "level": "INFO",
       "message": "  ⏳ 200초 후 재시도합니다..."
     },
     {
-      "time": "01:07:13",
+      "time": "23:20:41",
       "level": "INFO",
-      "message": "  📤 [시도 2/5] 기사 6개 요약 요청 중..."
+      "message": "  📤 [시도 2/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "01:07:41",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "01:07:41",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "01:07:41",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "01:11:01",
-      "level": "INFO",
-      "message": "📡 블록 6/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "01:11:01",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:11:33",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "01:11:33",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "01:11:33",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "01:14:53",
-      "level": "INFO",
-      "message": "📡 블록 7/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "01:14:53",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:15:23",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "01:15:23",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "01:15:23",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "01:18:43",
-      "level": "INFO",
-      "message": "📡 블록 8/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "01:18:43",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:18:43",
-      "level": "WARNING",
-      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
-    },
-    {
-      "time": "01:18:43",
-      "level": "INFO",
-      "message": "  ⏳ 200초 후 재시도합니다..."
-    },
-    {
-      "time": "01:22:03",
-      "level": "INFO",
-      "message": "  📤 [시도 2/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:22:28",
-      "level": "INFO",
-      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
-    },
-    {
-      "time": "01:22:28",
-      "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
-    },
-    {
-      "time": "01:22:28",
-      "level": "INFO",
-      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
-    },
-    {
-      "time": "01:25:48",
-      "level": "INFO",
-      "message": "📡 블록 9/10 처리 중 (기사 6개 포함)..."
-    },
-    {
-      "time": "01:25:48",
-      "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:25:48",
-      "level": "WARNING",
-      "message": "  ⚠️ 배치 에러(시도 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
-    },
-    {
-      "time": "01:25:48",
-      "level": "INFO",
-      "message": "  ⏳ 200초 후 재시도합니다..."
-    },
-    {
-      "time": "01:29:08",
-      "level": "INFO",
-      "message": "  📤 [시도 2/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:29:09",
+      "time": "23:20:41",
       "level": "WARNING",
       "message": "  ⚠️ 배치 에러(시도 2): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
     },
     {
-      "time": "01:29:09",
+      "time": "23:20:41",
       "level": "INFO",
       "message": "  ⏳ 200초 후 재시도합니다..."
     },
     {
-      "time": "01:32:29",
+      "time": "23:24:01",
       "level": "INFO",
-      "message": "  📤 [시도 3/5] 기사 6개 요약 요청 중..."
+      "message": "  📤 [시도 3/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "01:32:31",
+      "time": "23:24:13",
       "level": "WARNING",
       "message": "  ⚠️ 배치 에러(시도 3): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
     },
     {
-      "time": "01:32:31",
+      "time": "23:24:13",
       "level": "INFO",
       "message": "  ⏳ 200초 후 재시도합니다..."
     },
     {
-      "time": "01:35:51",
+      "time": "23:27:33",
       "level": "INFO",
-      "message": "  📤 [시도 4/5] 기사 6개 요약 요청 중..."
+      "message": "  📤 [시도 4/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "01:35:51",
-      "level": "WARNING",
-      "message": "  ⚠️ 배치 에러(시도 4): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
-    },
-    {
-      "time": "01:35:51",
-      "level": "INFO",
-      "message": "  ⏳ 200초 후 재시도합니다..."
-    },
-    {
-      "time": "01:39:11",
-      "level": "INFO",
-      "message": "  📤 [시도 5/5] 기사 6개 요약 요청 중..."
-    },
-    {
-      "time": "01:39:44",
+      "time": "23:28:22",
       "level": "INFO",
       "message": "  📥 응답 수신 완료! 데이터 해석 중..."
     },
     {
-      "time": "01:39:44",
+      "time": "23:28:22",
       "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
+      "message": "  ✅ 배치 처리 완료! (9개 기사 요약됨)"
     },
     {
-      "time": "01:39:44",
+      "time": "23:28:22",
       "level": "INFO",
       "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
     },
     {
-      "time": "01:43:04",
+      "time": "23:31:42",
       "level": "INFO",
-      "message": "📡 블록 10/10 처리 중 (기사 6개 포함)..."
+      "message": "📡 블록 3/10 처리 중 (기사 9개 포함)..."
     },
     {
-      "time": "01:43:04",
+      "time": "23:31:42",
       "level": "INFO",
-      "message": "  📤 [시도 1/5] 기사 6개 요약 요청 중..."
+      "message": "  📤 [시도 1/5] 기사 9개 요약 요청 중..."
     },
     {
-      "time": "01:43:35",
+      "time": "23:31:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h28m17.522991969s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '62897s'}]}}"
+    },
+    {
+      "time": "23:31:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:35:02",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 9개 요약 요청 중..."
+    },
+    {
+      "time": "23:35:02",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h24m57.402603495s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '62697s'}]}}"
+    },
+    {
+      "time": "23:35:02",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:38:22",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 9개 요약 요청 중..."
+    },
+    {
+      "time": "23:38:22",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h21m37.266784397s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '62497s'}]}}"
+    },
+    {
+      "time": "23:38:22",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:41:42",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 9개 요약 요청 중..."
+    },
+    {
+      "time": "23:41:43",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "time": "23:41:43",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:45:03",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 9개 요약 요청 중..."
+    },
+    {
+      "time": "23:45:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h14m56.629785911s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '62096s'}]}}"
+    },
+    {
+      "time": "23:45:03",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "23:45:03",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "23:48:23",
+      "level": "INFO",
+      "message": "📡 블록 4/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "23:48:23",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "23:48:23",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h11m36.47238095s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '61896s'}]}}"
+    },
+    {
+      "time": "23:48:23",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:51:43",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "23:51:43",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h8m16.357878487s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '61696s'}]}}"
+    },
+    {
+      "time": "23:51:43",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:55:03",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "23:55:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h4m56.226161538s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '61496s'}]}}"
+    },
+    {
+      "time": "23:55:03",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "23:58:23",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "23:58:23",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 17h1m36.105371707s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '61296s'}]}}"
+    },
+    {
+      "time": "23:58:23",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "00:01:43",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:02:00",
       "level": "INFO",
       "message": "  📥 응답 수신 완료! 데이터 해석 중..."
     },
     {
-      "time": "01:43:35",
+      "time": "00:02:00",
       "level": "INFO",
-      "message": "  ✅ 배치 처리 완료! (6개 기사 요약됨)"
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
     },
     {
-      "time": "01:43:35",
+      "time": "00:02:00",
       "level": "INFO",
-      "message": "--- 유튜브 영상 처리 시작 (10건) ---"
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
     },
     {
-      "time": "01:43:40",
+      "time": "00:05:20",
+      "level": "INFO",
+      "message": "📡 블록 5/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:05:20",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:05:52",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:05:52",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:05:52",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:09:12",
+      "level": "INFO",
+      "message": "📡 블록 6/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:09:12",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:09:33",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:09:33",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:09:33",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:12:53",
+      "level": "INFO",
+      "message": "📡 블록 7/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:12:53",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:13:18",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:13:18",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:13:18",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:16:38",
+      "level": "INFO",
+      "message": "📡 블록 8/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:16:38",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:16:57",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:16:57",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:16:57",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:20:17",
+      "level": "INFO",
+      "message": "📡 블록 9/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:20:17",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:20:38",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:20:38",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:20:38",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "00:23:58",
+      "level": "INFO",
+      "message": "📡 블록 10/10 처리 중 (기사 8개 포함)..."
+    },
+    {
+      "time": "00:23:58",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 8개 요약 요청 중..."
+    },
+    {
+      "time": "00:24:15",
+      "level": "INFO",
+      "message": "  📥 응답 수신 완료! 데이터 해석 중..."
+    },
+    {
+      "time": "00:24:15",
+      "level": "INFO",
+      "message": "  ✅ 배치 처리 완료! (8개 기사 요약됨)"
+    },
+    {
+      "time": "00:24:15",
+      "level": "INFO",
+      "message": "--- 유튜브 영상 처리 시작 (1건) ---"
+    },
+    {
+      "time": "00:24:20",
       "level": "WARNING",
       "message": "  [API] 영상 정보를 찾을 수 없음: LFlk6VJOR9Q"
     },
     {
-      "time": "01:51:53",
+      "time": "00:32:21",
       "level": "INFO",
-      "message": "  [AI] ✅ 완료: K-팝의 개척자 이수만이 제시하는 새..."
+      "message": "최종 결과: 성공 74건, 실패/보류 10건"
     },
     {
-      "time": "01:52:01",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 사업을 계속해야 할지 고민될 때의 기..."
-    },
-    {
-      "time": "01:52:12",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 나쁜 판단을 많이 해보시길: 올바른 ..."
-    },
-    {
-      "time": "01:52:22",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 패션 디자이너 톰 포드가 말하는 패션..."
-    },
-    {
-      "time": "01:52:32",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 성공하는 사업의 본질: 고객이 원하는..."
-    },
-    {
-      "time": "01:52:44",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 톰 포드의 자기 성찰과 성장에 관한 ..."
-    },
-    {
-      "time": "01:52:55",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 지속 가능한 비즈니스를 만드는 핵심:..."
-    },
-    {
-      "time": "01:53:06",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 톰 포드: 대중 앞에서의 자신감은 하..."
-    },
-    {
-      "time": "01:53:16",
-      "level": "INFO",
-      "message": "  [AI] ✅ 완료: 효과적인 제품 가격 책정 전략..."
-    },
-    {
-      "time": "01:53:16",
-      "level": "INFO",
-      "message": "최종 결과: 성공 70건, 실패/보류 1건"
-    },
-    {
-      "time": "01:53:17",
+      "time": "00:32:22",
       "level": "INFO",
       "message": "데이터 저장 완료 (articles.json)"
     }
