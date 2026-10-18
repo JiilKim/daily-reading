@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16 23:46:52",
+  "last_updated": "2026-10-17 23:23:50",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -12,6 +12,56 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "How Peatland Bogs Sequester Massive Amounts of Carbon",
+      "url": "https://www.the-scientist.com/how-peatland-bogs-sequester-massive-amounts-of-carbon-75149",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-10-17",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56844/bog-carbon-sequestration-800-x-560-t.jpg",
+      "title": "이탄지 습지가 막대한 양의 탄소를 격리하는 화학적 메커니즘 규명",
+      "summary_kr": "최근 연구진은 이탄 이끼의 세포 표면 화학 구조를 분석하여 이탄지 습지가 탄소를 저장하는 구체적인 원리를 밝혀냈습니다. 이탄지 습지는 지구상의 모든 생물체를 합친 것보다 더 많은 양의 탄소를 저장할 수 있는 놀라운 능력을 갖추고 있습니다. 연구 결과에 따르면 이탄 이끼 세포벽의 독특한 화학적 특성이 유기물의 분해 속도를 현저히 늦추어 탄소를 효과적으로 가두는 역할을 합니다. 이러한 발견은 지구 온난화 대응에 있어 탄소 흡수원으로서의 이탄지 보존이 얼마나 중요한지를 과학적으로 뒷받침합니다. 특히 미생물의 활동을 억제하여 탄소 배출을 막는 이끼의 세포 표면 작용이 탄소 격리의 핵심 요인임이 확인되었습니다. 이번 연구는 기후 변화 완화를 위한 자연 기반 솔루션으로서 습지 관리 및 복원에 대한 새로운 통찰을 제공합니다."
+    },
+    {
+      "title_en": "Science says your boss should talk less in meetings",
+      "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-10-17",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/meetingboredom-500x500.jpg",
+      "title": "과학이 증명한 효율적인 회의의 조건: 상사는 말을 줄이고 더 많이 들어야 한다",
+      "summary_kr": "최근 연구에 따르면 효과적인 리더십과 생산적인 회의를 위해 상사는 발언을 줄이고 팀원들의 의견을 경청하는 태도를 갖추어야 합니다. 상사가 주도적으로 발언을 독점하는 기존의 회의 방식은 오히려 팀의 창의성과 소통을 저해하는 요인이 될 수 있습니다. 반면 리더가 경청하는 비중을 높일 때 팀원들은 자신의 아이디어를 더 자유롭게 제안하게 되며 이는 조직 전반의 성과 향상으로 이어집니다. 또한 과학적 데이터는 목적 없이 길어지는 회의를 과감하게 축소하거나 폐지하는 것이 업무 효율성을 높이는 데 필수적임을 시사합니다. 불필요한 회의를 줄임으로써 확보된 시간은 실질적인 업무에 집중할 수 있는 환경을 조성해 줍니다. 결국 성공적인 조직 관리를 위해서는 리더의 발언권 조절과 더불어 회의의 질적 개선이 병행되어야 한다는 결론에 도달할 수 있습니다."
+    },
+    {
+      "title_en": "Microplastics React With Water, a New Study Says. That’s a Problem for Biology",
+      "url": "https://www.wired.com/story/microplastics-react-with-water-new-study-says-thats-a-problem-for-biology/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-10-17",
+      "image_url": "https://media.wired.com/photos/6ad106cafa571af93e3403ed/master/pass/1245245666",
+      "title": "미세 플라스틱, 물과 반응한다는 새로운 연구 결과 발표: 생물학적 위협 가능성 제기",
+      "summary_kr": "최근 연구에 따르면 일반적으로 화학적으로 비활성인 것으로 알려진 플라스틱이 미세한 입자 상태가 되면 물과 반응할 수 있다는 사실이 밝혀졌습니다. 이는 환경과 인체 내 어디에나 존재하는 가장 흔한 분자인 물이 미세 플라스틱과 상호작용하여 예기치 못한 화학 반응을 일으킬 수 있음을 의미합니다. 미세 플라스틱의 이러한 반응성은 단순히 물리적인 오염을 넘어, 생태계와 생명체의 대사 과정에 심각한 영향을 미칠 수 있다는 점에서 우려를 낳고 있습니다. 연구진은 플라스틱 표면의 미세한 균열이나 변화가 물 분자와 결합할 때 독성 물질을 방출하거나 세포막에 영향을 줄 수 있는 새로운 경로를 발견했습니다. 특히 우리 몸의 상당 부분이 물로 이루어져 있다는 점을 고려할 때, 체내로 유입된 미세 플라스틱이 일으키는 화학적 변화는 장기적인 건강 문제를 초래할 수 있습니다. 이번 연구는 미세 플라스틱 오염에 대한 기존의 인식을 바꾸고, 생물학적 안전성에 대한 보다 심층적인 연구와 규제가 필요함을 시사합니다."
+    },
+    {
+      "title_en": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+      "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-10-17",
+      "image_url": "https://media.wired.com/photos/6acf63d6b06331734b2e70d7/master/pass/Physical%20Genome%20cr-Samuel%20Velasco%20and%20Hannah%20Waters_Quanta%20Magazine-Lede.jpg",
+      "title": "AI가 우리의 복잡한 유전체를 정복하기에 아직 역부족인 이유",
+      "summary_kr": "우리 세포 내부의 DNA는 단순히 나열된 지시 사항의 집합이 아니라 훨씬 더 역동적이고 복잡한 구조를 가지고 있습니다. 현재의 인공지능 모델들은 유전체를 선형적인 데이터로 처리하는 경향이 있으나 실제 생물학적 게놈은 3차원적 구조와 상호작용을 통해 기능합니다. 과학자들조차 이러한 복잡한 메커니즘을 완전히 이해하지 못한 상태이며 AI 역시 이를 정확히 해독하기 위한 충분한 데이터를 확보하지 못한 상황입니다. 유전체의 진정한 의미를 파악하려면 단순한 염기서열 정보를 넘어 세포 내 환경에 따른 변화까지 고려해야 하지만 현재의 기술력으로는 이러한 변동성을 모두 담아내기에 한계가 있습니다. 따라서 AI가 유전학 분야에서 혁신적인 성과를 내기 위해서는 데이터의 양뿐만 아니라 생물학적 역동성을 반영한 질적 데이터의 확보가 선행되어야 합니다. 결론적으로 AI는 아직 인간 게놈의 고도로 정교한 체계를 완전히 해독할 준비가 되지 않았습니다."
+    },
+    {
+      "title_en": "A search for ‘the statin of Alzheimer’s’; Arrowhead injectable lowers tau; and more",
+      "url": "https://endpoints.news/a-search-for-the-statin-of-alzheimers-arrowhead-injectable-lowers-tau-and-more/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-10-17",
+      "image_url": null,
+      "title": "‘알츠하이머의 스타틴’을 찾아서: 타우 단백질 수치를 낮추는 Arrowhead의 주사제 및 최신 바이오 동향",
+      "summary_kr": "이번 엔드포인트 위클리에서는 알츠하이머 치료의 새로운 표준이 될 ‘알츠하이머의 스타틴’을 찾기 위한 제약 업계의 끊임없는 여정을 심도 있게 다룹니다. 특히 Arrowhead Pharmaceuticals에서 개발한 주사형 치료제가 알츠하이머의 주요 병리 인자인 타우(tau) 단백질 수치를 유의미하게 낮춘다는 소식이 업계의 큰 주목을 받고 있습니다. 또한 이번 주 뉴욕에서 성황리에 개최된 AI Day 행사에서는 인공지능이 바이오 제약 산업의 연구 개발 방식을 어떻게 혁신하고 있는지에 대한 다채로운 논의가 이루어졌습니다. 시니어 바이오 통신원 앤드류 던의 사회로 진행된 이번 컨퍼런스는 최첨단 기술과 생명과학의 결합이 가져올 미래 가치를 조명하는 자리가 되었습니다. 이 외에도 최신 임상 데이터와 기업 간의 전략적 파트너십 소식 등 전문가들이 놓쳐서는 안 될 핵심적인 비즈니스 인사이트가 대거 포함되었습니다. 이러한 혁신적인 연구 성과와 기술적 진보는 향후 알츠하이머를 비롯한 난치성 질환의 치료 패러다임을 근본적으로 변화시킬 것으로 기대됩니다."
+    },
     {
       "title_en": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
