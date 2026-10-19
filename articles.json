@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17 23:23:50",
+  "last_updated": "2026-10-18 23:57:46",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -12,6 +12,156 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "A Microfluidic Bacterial Display Platform Reimagines Protein Engineering",
+      "url": "https://www.the-scientist.com/a-microfluidic-bacterial-display-platform-reimagines-protein-engineering-75142",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56817/arush-kalia-caravel-bio-t.png",
+      "title": "미세유체 박테리아 디스플레이 플랫폼을 통한 단백질 공학의 새로운 패러다임",
+      "summary_kr": "카라벨 바이오(Caravel Bio) 연구팀은 상업적 규모의 바이오 기술 생산 효율을 획기적으로 개선하기 위해 미세유체 기술을 도입했습니다. 이들은 세포가 없는 상태에서도 단백질 합성이 가능한 무세포 합성 기술과 캡슐 내부에 보호된 박테리아를 활용하는 혁신적인 방식을 결합했습니다. 이 플랫폼은 기존의 단백질 공학적 접근 방식이 가졌던 한계를 극복하고 대량 생산 공정의 정밀도를 높이는 데 기여합니다. 특히 미세유체 환경 내에서 특정 단백질을 효율적으로 선별하고 발현하도록 설계되어 연구와 산업의 간극을 줄여줍니다. 이러한 기술적 진보는 의약품 제조나 산업용 효소 생산 등 다양한 바이오 공정에서 비용 절감과 속도 향상을 가능하게 할 것입니다. 결론적으로 이 플랫폼은 미생물을 활용한 생산 시스템의 능력을 한 단계 끌어올리는 중요한 도구로 평가받고 있습니다."
+    },
+    {
+      "title_en": "How Cadavers Are Breathing New Life into Drug Discovery",
+      "url": "https://www.the-scientist.com/how-cadavers-are-breathing-new-life-into-drug-discovery-75150",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56852/elizabethhudson-1-photo-by-winni-wintermeyer-t.jpg",
+      "title": "신약 개발의 돌파구가 된 사후 인체 조직의 단백체학 연구",
+      "summary_kr": "기증된 인간의 사후 조직을 활용한 연구가 현대 신약 개발 및 질병 이해에 새로운 기회를 제공하고 있습니다. 연구진은 기증받은 사후 조직으로부터 방대한 규모의 단백체학(proteomics) 지도를 구축하여 건강한 인체의 분자적 지형을 세밀하게 재구성했습니다. 이 지도는 인간의 신체가 정상적인 상태에서 어떠한 분자적 상호작용을 하는지 보여주는 핵심적인 기준점 역할을 수행합니다. 기존의 생검 연구만으로는 파악하기 어려웠던 깊은 수준의 세포 내 정보를 제공함으로써 신약의 타겟이 되는 분자를 더욱 정확하게 식별할 수 있습니다. 결과적으로 이러한 데이터베이스는 약물의 효능을 극대화하고 예기치 못한 부작용을 줄이는 데 결정적인 근거를 제공할 것으로 기대됩니다. 이는 사후 조직 기증이 인류의 건강 증진과 정밀 의료 시대를 앞당기는 데 기여하고 있음을 보여주는 중요한 사례입니다."
+    },
+    {
+      "title_en": "Bats&rsquo; Viral Immunity May Have Driven Their Long Lifespans",
+      "url": "https://www.the-scientist.com/bats-viral-immunity-may-have-driven-their-long-lifespans-75153",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56864/lauterbur-and-vazquez-t.jpg",
+      "title": "박쥐의 바이러스 면역력이 장수의 비결일 수 있다",
+      "summary_kr": "박쥐는 다른 소형 포유류에 비해 이례적으로 긴 수명을 누리는 동물로 알려져 있습니다. 최근 연구에 따르면 박쥐가 가진 독특한 바이러스 면역 체계가 이러한 장수와 깊은 관련이 있을 가능성이 제기되었습니다. 박쥐는 강력한 면역 반응을 통해 체내 염증을 억제하고 암과 같은 노화 관련 질병에 대한 탁월한 저항력을 보여줍니다. 과학자들은 박쥐의 이러한 생물학적 기전이 인간의 노화 방지 및 암 치료법 개발에 중요한 단서를 제공할 것으로 기대하고 있습니다. 장수 동물이 질병에 저항하는 방식을 깊이 이해함으로써 인류의 건강 수명을 연장할 수 있는 새로운 해법을 찾을 수 있을 것입니다. 따라서 박쥐의 면역 시스템은 현대 의학 연구의 핵심적인 모델로 주목받고 있습니다."
+    },
+    {
+      "title_en": "40 Years of The Scientist: What the Magazine Means to Researchers",
+      "url": "https://www.the-scientist.com/40-years-of-the-scientist-what-the-magazine-means-to-researchers-75154",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56871/frank-bradke-t.jpg",
+      "title": "'더 사이언티스트' 창간 40주년: 연구자들에게 이 잡지가 갖는 의미",
+      "summary_kr": "과학 전문 잡지인 '더 사이언티스트'가 올해로 창간 40주년을 맞이하며 과학계의 중요한 이정표를 세웠습니다. 지난 40년 동안 이 잡지는 최신 연구 동향과 과학적 발견을 전달하며 연구자들에게 필수적인 정보원으로 자리매김해 왔습니다. 많은 과학자들은 이 잡지가 자신의 경력 형성과 성장에 어떠한 긍정적인 영향을 미쳤는지에 대해 회고하고 있습니다. 단순한 정보 전달을 넘어 과학 공동체 내에서 소통과 협력을 촉진하는 매개체로서의 역할도 톡톡히 해왔습니다. 창간 40주년을 기념하여 연구자들은 이 매체가 앞으로도 과학의 발전과 대중화에 기여하기를 바라는 기대를 내비쳤습니다. '더 사이언티스트'는 과학계의 역사를 기록하고 미래를 전망하는 플랫폼으로서 그 가치를 지속적으로 증명하고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Cambridge scientist David Sabatini speaks out after courtroom victory: ‘The hardest years of my life’",
+      "url": "https://www.statnews.com/2026/10/18/david-sabatini-speaks-out-after-courtroom-win-metoo-trial/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/4LK3WINEDMMIR2JEHVX56ICPOY-645x645.avif",
+      "title": "케임브리지 과학자 데이비드 사바티니, 법정 승소 후 심경 토로: \"내 생애 가장 힘들었던 시간\"",
+      "summary_kr": "케임브리지 대학교의 저명한 과학자인 데이비드 사바티니가 법정 소송에서 승리한 후, 그간 겪었던 극심한 고통에 대해 입을 열었습니다. 그는 MIT와 화이트헤드 연구소에서 불명예스럽게 물러난 이후의 기간을 자신의 인생에서 가장 힘들었던 해로 기억하며 그간의 소회를 밝혔습니다. 이번 법적 판결은 그를 둘러싼 여러 논란에 대한 전환점이 될 것으로 보이며, 과학계 안팎에서 큰 관심을 모으고 있습니다. 사바티니는 소송 과정에서 자신의 명예와 경력이 무너지는 것을 지켜봐야 했으며, 이는 개인적으로도 감당하기 어려운 시련이었다고 설명했습니다. 그는 승소 이후 다시 연구에 전념하며 과학자로서의 삶을 재건하기 위해 노력하고 있으며, 진실이 밝혀진 것에 대해 안도감을 표했습니다. 이번 사건은 과학계 내의 공정성과 절차적 정의에 대한 중요한 논의를 다시금 촉발하는 계기가 되었습니다."
+    },
+    {
+      "title_en": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+      "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg",
+      "title": "데이터 센터의 새로운 홍보 전략: 아이들의 현장 학습을 통한 이미지 개선 시도",
+      "summary_kr": "최근 데이터 센터 건립에 대한 지역 사회의 반발이 거세지자, 관련 업계에서는 청소년들을 대상으로 한 창의적인 홍보 전략을 펼치고 있습니다. 업계 단체들은 학생들의 현장 체험 학습 프로그램을 활용하여 데이터 센터의 역할과 중요성을 긍정적으로 알리려는 시도를 이어가고 있습니다. 이러한 전략은 미래 세대인 아이들에게 데이터 센터에 대한 친밀감을 심어주어 장기적인 우호 여론을 형성하려는 전통적이고도 효과적인 방식입니다. 기피 시설로 인식되던 데이터 센터를 교육적인 장소로 탈바꿈시켜 산업에 대한 부정적인 인식을 불식시키겠다는 의도로 풀이됩니다. 일부 비판론자들은 이러한 홍보 방식이 데이터 센터가 초래하는 실제 환경 문제나 에너지 소비 문제를 가릴 수 있다고 경고하고 있습니다. 그럼에도 불구하고 데이터 센터 산업은 지역 사회와의 접점을 넓히기 위해 다양한 교육적 콘텐츠와 소통 채널을 지속적으로 확대할 계획입니다."
+    },
+    {
+      "title_en": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
+      "url": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://media.wired.com/photos/6acf777ced16e31e6734c24b/master/pass/GettyImages-2281567983.jpg",
+      "title": "마그네슘 영양제, 광고 문구와 달리 실제로는 뇌에 도달하지 못할 수 있다",
+      "summary_kr": "현재 시중에 유통되는 다양한 마그네슘 영양제들은 성분이 뇌 조직까지 직접 침투하여 인지 기능을 개선한다는 화려한 마케팅 문구를 내세우고 있습니다. 하지만 생물학적 관점에서 볼 때 외부에서 섭취한 특정 물질이 뇌를 보호하는 혈액-뇌 장벽을 통과하는 것은 매우 복잡하고 까다로운 과정입니다. 많은 제조업체가 특정 형태의 화합물이 뇌에 더 잘 전달된다고 주장하지만, 이러한 마케팅적 선언이 항상 실제 생리적 결과로 이어지는 것은 아닙니다. 인체의 엄격한 대사 기전은 상업적인 약속을 따르기보다 고유의 생물학적 원칙에 따라 작동하기 때문에 소비자들은 제품 선택 시 주의가 필요합니다. 과학적 근거가 충분히 뒷받침되지 않은 영양제에 의존하기보다는 전문가의 조언을 구하고 과학적으로 검증된 사실을 먼저 확인해야 합니다. 결국 마케팅이 생물학적 한계를 마음대로 넘어서기 어렵다는 점을 인식하는 것이 현명한 소비의 시작입니다."
+    },
+    {
+      "title_en": "Climate Change Has It In for the World’s Best Surfing",
+      "url": "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": "https://media.wired.com/photos/6ad1f583d142c5fc200c01f2/master/pass/GettyImages-200028593-001.jpg",
+      "title": "기후 변화가 전 세계 최고의 서핑 명소와 지역 관광 경제를 위협하고 있다",
+      "summary_kr": "지구 온난화로 인한 급격한 기후 변화가 전 세계에서 가장 유명한 서핑 지점들의 지형적 구조를 근본적으로 변화시키고 있습니다. 해안선이 변함에 따라 파도가 부서지는 고유의 지점인 서프 브레이크가 사라지거나 변형되면서 최고 수준의 파도를 더 이상 볼 수 없게 될 위기에 처했습니다. 이러한 환경적 변화는 서핑을 즐기는 사람뿐만 아니라, 서핑 관광 자원에 전적으로 의존하는 지역 사회의 경제 모델에도 심각한 타격을 줄 것으로 보입니다. 해수면 상승과 연안 침식은 서핑 산업의 기반이 되는 자연 환경을 무너뜨리며 수많은 관련 업계 종사자들의 생계를 위협하고 있습니다. 서핑 명소가 사라지면 이를 중심으로 형성된 독특한 문화적 가치와 막대한 관광 수익 역시 함께 소멸할 위험이 큽니다. 따라서 기후 위기에 대응하기 위한 해안 보호 전략은 해양 생태계 보존뿐만 아니라 지역 경제의 지속 가능성 차원에서도 매우 시급한 과제입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/nouscom-raises-135m-pivotal-trial-cancer-preventing-vaccine-candidate\" hreflang=\"en\">Nouscom raises $135M for pivotal trial of cancer-preventing vaccine candidate</a>",
+      "url": "https://www.fiercebiotech.com/biotech/nouscom-raises-135m-pivotal-trial-cancer-preventing-vaccine-candidate",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "누스콤, 암 예방 백신 후보물질의 중추적 임상을 위해 1억 3,500만 달러 투자 유치",
+      "summary_kr": "이탈리아의 생명공학 기업 누스콤(Nouscom)은 암 예방 백신의 허가용 임상 시험을 진행하기 위해 총 1억 3,500만 달러의 자금을 성공적으로 조달했습니다. 이번 자금은 암 발생 가능성이 높은 환자들을 대상으로 하는 혁신적인 예방 백신의 효능을 입증하는 데 집중적으로 사용될 예정입니다. 누스콤의 기술은 암이 발병하기 전 이를 차단하는 선제적 대응을 목표로 하며, 이는 암 치료 분야에서 매우 중요한 진전으로 평가받고 있습니다. 대규모 임상 시험을 통해 백신의 안전성과 면역 반응 유도 능력을 과학적으로 검증하는 것이 이번 단계의 핵심입니다. 이번 투자 유치 성공은 암 예방 백신 시장에서 누스콤의 경쟁력을 강화하고 상용화 가능성을 높이는 중요한 이정표가 될 것입니다. 최종적으로는 규제 당국의 승인을 획득하여 전 세계 암 환자와 고위험군에게 새로운 대안을 제시할 계획입니다."
+    },
+    {
+      "title_en": "Nouscom raises $135M in Series D for lead cancer vaccine",
+      "url": "https://endpoints.news/nouscom-raises-135m-in-series-d-round-for-lead-cancer-vaccine/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "누스콤, 주력 암 백신 개발 가속화를 위해 1억 3,500만 달러 규모의 시리즈 D 투자 유치",
+      "summary_kr": "임상 단계 생명공학 기업인 누스콤이 시리즈 D 펀딩 라운드를 통해 1억 3,500만 달러의 대규모 투자금을 확보하는 데 성공했습니다. 이번 펀딩은 투자자들의 높은 관심 속에 초과 청약으로 마무리되었으며, 이는 누스콤의 차세대 암 백신 기술에 대한 시장의 높은 기대를 반영합니다. 유치된 자금은 누스콤의 주력 백신 후보물질을 임상 2상 단계로 진전시키는 데 중점적으로 사용될 계획입니다. 회사 경영진은 이번 투자 성공에 대해 큰 기대를 표하며, 자사의 백신이 암 치료의 미래를 바꿀 수 있는 강력한 잠재력을 지니고 있다고 강조했습니다. 향후 진행될 임상 2상 연구는 백신의 면역학적 효과와 환자의 생존율 개선 가능성을 구체적으로 확인하는 과정이 될 것입니다. 누스콤은 이번 자본 확충을 발판 삼아 연구 개발 속도를 높이고 혁신적인 암 치료 옵션을 시장에 선보이기 위해 박차를 가할 예정입니다."
+    },
+    {
+      "title_en": "What to do when traditional mechanistic approaches no longer work",
+      "url": "https://www.thetransmitter.org/methods/what-to-do-when-traditional-mechanistic-approaches-no-longer-work/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-10-18",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/10/cropped-Brain-Mechanisms-525.png",
+      "title": "전통적인 기계론적 접근 방식이 더 이상 작동하지 않을 때의 대처 방안",
+      "summary_kr": "현대 과학에서 수많은 복잡한 현상들은 기존의 기계론적 설명 방식에 완강히 저항하며 여전히 난제로 남아 있습니다. 이러한 복잡한 행동들을 제대로 해독하기 위해서는 과거의 패러다임을 뛰어넘는 완전히 새로운 연구 접근 방식이 절실히 요구됩니다. 어쩌면 우리는 지금까지 당연하게 여겨온 과학적 '이해'라는 개념 자체를 새롭게 정의해야 할 필요가 있을지도 모릅니다. 단순한 부분의 합으로 전체를 설명하려는 환원주의적 관점은 이제 생명체나 사회 시스템의 복잡한 상호작용을 온전히 담아내지 못하고 있습니다. 따라서 현대 과학은 이러한 한계를 극복하기 위해 다학제적인 시각을 도입하고 지식의 습득 체계를 근본적으로 재검토해야 합니다. 결국 기존의 방법론이 더 이상 유효하지 않은 시점에서 새로운 패러다임으로의 전환만이 진정한 과학적 진보를 가능하게 할 것입니다."
+    },
+    {
+      "title_en": "Spinal Tuberculosis",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607513?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "척추 결핵(Spinal Tuberculosis)에 관한 최신 의학적 고찰",
+      "summary_kr": "척추 결핵은 결핵균이 척추 뼈에 침투하여 발생하는 심각한 감염성 질환으로, 흔히 포트 병(Pott's disease)이라고도 알려져 있습니다. 이 질환은 폐외 결핵 중 가장 위험한 형태 중 하나로 손꼽히며, 제때 치료하지 않을 경우 척추 변형이나 척수 압박으로 인한 마비 증상을 초래할 수 있습니다. 최근 세계적인 의학 학술지 뉴잉글랜드 저널 오브 메디신(NEJM)에 발표된 최신 지견은 척추 결핵의 조기 진단과 체계적인 약물 요법의 중요성을 다시 한번 강조하고 있습니다. 주요 증상으로는 만성적인 등 통증, 미열, 식은땀, 체중 감소 등이 나타나며 병이 진행됨에 따라 척추가 뒤로 굽는 후만증 변형이 발생할 수 있습니다. 치료의 핵심은 수개월 이상의 장기적인 항결핵제 복용이며, 신경학적 결손이나 척추의 불안정성이 심한 경우에는 외과적 수술이 병행되기도 합니다. 이번 기사는 임상 현장에서의 정확한 감별 진단과 환자 맞춤형 치료 전략을 통해 합병증을 최소화하고 완치율을 높이는 방법을 상세히 설명하고 있습니다."
+    },
+    {
+      "title_en": "What I See before Anyone Speaks",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2604584?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "누군가 입을 열기 전에 내가 보는 것: 의료 현장의 시각적 통찰",
+      "summary_kr": "이 글은 세계적인 의학 학술지 뉴잉글랜드 저널 오브 메디신(NEJM)에 게재된 에세이로, 의료진이 환자와 본격적인 대화를 시작하기 전에 관찰을 통해 얻는 임상적 단서의 중요성을 조명합니다. 저자는 환자의 표정, 자세, 걸음걸이와 같은 비언어적 요소들이 질병의 상태나 환자의 정서적 안녕에 대해 많은 것을 말해준다고 설명합니다. 이러한 시각적 정보는 때때로 첨단 장비를 이용한 검사 결과보다 더 직관적이고 깊이 있는 통찰을 제공하며 실제 진단 과정에서 핵심적인 역할을 수행합니다. 의사가 환자를 대면하는 첫 순간에 이루어지는 이 짧은 관찰은 단순한 진찰을 넘어 환자와의 정서적 유대감을 형성하는 기반이 됩니다. 현대 의학의 급격한 기술적 발전 속에서도 의료인의 숙련된 관찰력은 여전히 환자 중심의 진료를 실현하는 필수적인 요소임을 역설합니다. 결론적으로 진료의 질을 높이기 위해서는 말로 표현되지 않는 환자의 미묘한 신호들을 예민하게 포착하려는 전문적인 노력이 필요함을 시사하고 있습니다."
+    },
+    {
+      "title_en": "Why Shared-Savings ACOs Have Failed to Deliver for Primary Care",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2605590?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "공유 절감액 기반 책임진료기구(ACO)가 일차 의료 분야에서 성과를 내지 못한 원인 분석",
+      "summary_kr": "본 기사는 뉴잉글랜드 저널 오브 메디슨(NEJM)에 게재된 최신 연구를 통해 공유 절감액 방식의 책임진료기구(ACO)가 일차 의료 현장에서 직면한 한계를 심도 있게 다룹니다. ACO 모델은 의료 비용을 절감하고 품질을 높이는 것을 목표로 하지만 현재의 보상 체계는 일차 의료 기관에 실질적인 혜택을 주지 못하고 있습니다. 특히 일차 의료 기관이 환자 관리를 위해 선제적으로 투자해야 하는 인프라 비용에 비해 사후에 배분되는 절감액의 불확실성이 크다는 점이 큰 장애물로 지적됩니다. 또한 기존의 행위별 수가제 체제 안에서 운영되는 공유 절감액 모델은 가치 기반 의료로의 완전한 전환을 방해하는 구조적 문제를 안고 있습니다. 연구진은 이러한 실패를 극복하기 위해 보다 예측 가능하고 안정적인 인두제 방식의 지불 모델로의 전환이 필수적이라고 강조합니다. 결론적으로 일차 의료의 잠재력을 극대화하고 의료 체계의 효율성을 높이기 위해서는 현재의 불균형한 재정 인센티브 구조를 전면적으로 재설계해야 합니다."
+    },
+    {
+      "title_en": "Community Engagement Requirements in Medicaid — Law as a Determinant of Health",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2608810?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-10-18",
+      "image_url": null,
+      "title": "메디케이드의 지역사회 참여 요건 — 건강의 결정 요인으로서의 법률",
+      "summary_kr": "이 논문은 메디케이드 수혜자들에게 부과되는 지역사회 참여 요건, 즉 근로 의무 조항이 건강에 미치는 영향을 법률적 관점에서 분석합니다. 저자들은 법률이 단순히 사회적 규범을 정의하는 것을 넘어, 개인의 건강 상태를 결정짓는 핵심적인 사회적 결정 요인 중 하나임을 강조합니다. 지역사회 참여 요건은 저소득층의 의료 서비스 접근성을 제한함으로써 오히려 건강 불평등을 심화시킬 위험이 있다는 점을 지적합니다. 연구진은 이러한 정책이 실질적인 고용 증대 효과보다는 행정적 장벽으로 작용하여 수혜자들이 자격을 상실하게 만드는 결과를 초래한다고 분석합니다. 따라서 법적 프레임워크가 보건 의료 시스템 내에서 어떻게 작동하는지를 이해하는 것은 공중 보건 정책 수립에 있어 필수적입니다. 결론적으로, 건강 형평성을 달성하기 위해서는 법률이 건강에 미치는 부정적인 영향을 최소화하고 포용적인 정책 설계를 지향해야 한다고 제언합니다."
+    },
     {
       "title_en": "How Peatland Bogs Sequester Massive Amounts of Carbon",
       "url": "https://www.the-scientist.com/how-peatland-bogs-sequester-massive-amounts-of-carbon-75149",
