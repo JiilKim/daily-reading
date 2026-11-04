@@ -1,86 +1,6 @@
 {
-  "last_updated": "2026-11-03 02:54:55",
+  "last_updated": "2026-11-04 02:31:46",
   "failed_queue": [
-    {
-      "title_en": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access",
-      "description_en": "Peptide compounds are marketed for everything from longevity to beauty. Now, despite a lack of evidence, six unapproved peptides will be easier to acquire.",
-      "url": "https://www.the-scientist.com/bypassing-the-fda-rfk-jr-makes-peptides-easier-to-access-75212",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": "https://cdn.the-scientist.com/assets/image/57078/rfk-jr-unapproved-peptides-800-x-560-06-t.jpg",
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "Top Innovations Startup Winners: Interactomics, Cell Therapy Analysis, and Drug Risk",
-      "description_en": "Pixelgen Technologies, Infiltrate Bio, and GATC Health are this year’s Top Innovations winners in the Emerging Startup Technologies category.",
-      "url": "https://www.the-scientist.com/top-innovations-startup-winners-interactomics-cell-therapy-analysis-and-drug-risk-75132",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": "https://cdn.the-scientist.com/assets/image/56757/97921-topinnovations-promoimages-startup-t.jpg",
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "Exploring a New Era of Pharmaceutical Innovation",
-      "description_en": "Discover how the latest technologies are shaping translational research and clinical practice.",
-      "url": "https://www.the-scientist.com/exploring-a-new-era-of-pharmaceutical-innovation-75194",
-      "source": "The Scientist",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": "https://cdn.the-scientist.com/assets/image/57060/800x560-t.jpg",
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "U.S. approval of cheap, generic HIV prevention shot may boost global rollout",
-      "description_en": "Indian company pledges to sell injectable lenacapavir in low- and middle-income countries for only $40 a year",
-      "url": "https://www.science.org/content/article/u-s-approval-cheap-generic-hiv-prevention-shot-may-boost-global-rollout",
-      "source": "Science",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": null,
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "Did scientists just find 115-million-year-old dinosaur blood?",
-      "description_en": "Researchers claim they finally found fossilized dinosaur red blood cells, but some remain skeptical",
-      "url": "https://www.science.org/content/article/did-scientists-just-find-115-million-year-old-dinosaur-blood",
-      "source": "Science",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": null,
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "‘Cellophane’ bees make their nests from biodegradable plastic",
-      "description_en": "Strong, waterproof polyester could seed new ideas for sustainable materials",
-      "url": "https://www.science.org/content/article/cellophane-bees-make-their-nests-biodegradable-plastic",
-      "source": "Science",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": null,
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "The Moon may have squeezed Earth’s first continents into existence",
-      "description_en": "As our young planet spun down, its bulging shape gave way to a sphere, driving the formation of continental crust",
-      "url": "https://www.science.org/content/article/moon-may-have-squeezed-earth-s-first-continents-existence",
-      "source": "Science",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": null,
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
-    {
-      "title_en": "Castration extends life span, but in a surprising way, mouse study suggests",
-      "description_en": "Scientists say work could help identify “castration mimetics” that boost longevity",
-      "url": "https://www.science.org/content/article/castration-extends-life-span-surprising-way-mouse-study-suggests",
-      "source": "Science",
-      "category": "News",
-      "date": "2026-11-03",
-      "image_url": null,
-      "summary_kr": "[요약 실패] (최종 실패)"
-    },
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
       "description_en": "DISCLAIMER\n- The copyright of the original video belongs to the original copyright holder.\n- We check the copyright permission through the YouTube system, and if it is not confirmed within the system, we proceed with the translation work in the process of seeking permission through separate e-mails.\n- The Korean subtitles of the video were added within the scope of not distorting the contents of the original video in order to share the valuable video with more Korean viewers.\n- The purpose of this video is ONLY for the public good, such as education, motivation, or sharing of ideas with a wider public, and is not used for any additional purpose. In particular, there is NO revenue generated through YouTube AT ALL. \n- If you(copyright holder) request deletion, removal, correction, etc in any reasons caused by uploading the video, please contact us at 'businessnewsdaily@naver.com' and we will make corrections accordingly.",
@@ -101,6 +21,956 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
+      "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "AI 에이전트 제어와 슈퍼 지능 충성도 테스트: 테크 뉴스레터 '더 다운로드'",
+      "summary_kr": "이번 '더 다운로드' 뉴스레터에서는 기술 분야의 핵심 쟁점인 AI 에이전트 제어와 슈퍼 지능의 충성도 테스트를 심도 있게 다룹니다. 특히 강력한 인공지능 모델을 관리하기 위한 혁신적 접근법으로 '역 게임 이론'이 주목받고 있습니다. 이 이론은 시스템을 설계할 때 AI가 스스로 규칙을 준수하도록 유도하는 보상 체계를 구축하는 것을 목표로 합니다. AI의 성능이 비약적으로 향상되면서 이러한 통제 시스템은 인간의 안전을 보장하기 위한 필수적인 연구 분야가 되었습니다. 전문가들은 AI가 인간의 의도와 일치하게 행동하도록 만드는 정렬 기술을 완성하기 위해 고군분투하고 있습니다. 결과적으로 이번 호는 미래 기술 사회에서 AI와 인간이 공존하기 위한 전략적 토대를 제안하고 있습니다."
+    },
+    {
+      "title_en": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "AI 에이전트의 일탈을 방지하는 '역 게임 이론'의 가능성",
+      "summary_kr": "강력해진 AI 모델들이 인간의 규칙을 위반하지 않도록 통제하기 위한 새로운 방안으로 '역 게임 이론'이 부상하고 있습니다. 이 접근 방식은 AI 에이전트가 법과 윤리적 가이드를 준수하는 것이 스스로에게 이익이 되도록 시스템 환경을 설계하는 원리를 따릅니다. 인공지능의 능력이 고도화됨에 따라 안전 연구자들은 AI를 인간의 목적에 부합하게 만드는 '정렬' 작업을 최우선 과제로 삼고 있습니다. 이는 자율적으로 행동하는 AI가 통제를 벗어나 위험한 행동을 하는 것을 사전에 방지하기 위함입니다. 역 게임 이론은 AI에게 강제적인 제약을 가하는 대신 보상 구조를 통해 자발적인 협력을 유도하는 지능적인 안전장치입니다. 이러한 연구는 향후 고도화된 AI 시스템의 신뢰성을 확보하는 데 핵심적인 역할을 할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Whence dragons?",
+      "url": "https://www.nature.com/articles/d41586-026-03277-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "용은 어디서 왔는가? 전설 속 야수와 영장류의 생태학적 탐구",
+      "summary_kr": "네이처 아카이브의 이번 호에서는 날개 달린 전설 속 생명체인 용의 생태와 진화에 관한 흥미로운 연구를 소개합니다. 고대 기록과 생물학적 상상력을 결합하여 전설 속 야수들이 인류 문화 속에서 어떻게 진화해 왔는지를 생태학적으로 분석합니다. 이와 더불어 동료에게 특이한 신체 부위를 드러내어 소통하는 원숭이들의 사회적 행동에 관한 연구도 함께 다루어집니다. 이번 기사는 자연 과학의 틀 안에서 신화적 존재를 재해석하고 실제 동물의 독특한 습성을 비교 분석하는 신선한 시각을 제공합니다. 과거의 연구 결과들을 통해 현대 생물학이 간과했을지 모르는 진화의 다양한 단면들을 다시금 조명합니다. 독자들은 이를 통해 전설과 현실을 넘나드는 풍부한 과학적 통찰력을 얻을 수 있습니다."
+    },
+    {
+      "title_en": "Research bonuses need clear and fair rules",
+      "url": "https://www.nature.com/articles/d41586-026-03562-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "연구 보상금 제도의 투명성과 공정성 확보를 위한 규정 수립",
+      "summary_kr": "과학계의 연구 보상금 제도가 실질적인 성과로 이어지기 위해서는 더욱 명확하고 공정한 규칙이 마련되어야 합니다. 현재 많은 대학과 연구 기관에서 운영 중인 인센티브 제도는 종종 모호한 기준으로 인해 불필요한 갈등을 초래하고 있습니다. 공정성이 담보되지 않은 보상 체계는 연구자들의 사기를 저하시킬 뿐만 아니라 과학적 무결성을 훼손할 위험이 있습니다. 따라서 객관적이고 투명한 평가 지표를 설정하여 모든 연구자가 납득할 수 있는 보상 프로세스를 구축하는 것이 시급합니다. 네이처는 이번 기사를 통해 학계 전반의 보상 시스템에 대한 전면적인 재정비와 가이드라인 준수를 강력히 권고합니다. 이러한 변화는 궁극적으로 건강한 연구 생태계를 조성하고 과학적 발전을 촉진하는 밑거름이 될 것입니다."
+    },
+    {
+      "title_en": "Safety alerts must reach visiting PhD students",
+      "url": "https://www.nature.com/articles/d41586-026-03560-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "방문 박사 과정 연구원을 위한 실험실 안전 경보 시스템 강화",
+      "summary_kr": "실험실 내 안전 사고를 방지하기 위해 방문 중인 외부 박사 과정 학생들에게도 실시간 안전 경보가 철저히 전달되어야 합니다. 연구를 목적으로 타 기관을 방문하는 학생들은 해당 실험실 고유의 위험 요소나 비상 대응 절차에 익숙하지 않아 사고에 노출되기 쉽습니다. 하지만 현재 대다수의 안전 시스템은 소속 연구원 중심으로 운영되어 방문 연구자들이 정보 전달의 사각지대에 놓여 있습니다. 모든 구성원의 생명을 보호하기 위해서는 소속과 관계없이 평등한 정보 접근 권한이 보장되는 소통 채널이 구축되어야 합니다. 기관 차원에서 체계적인 안전 관리 매뉴얼을 보완하고 방문자 대상 교육을 강화하는 노력이 필수적입니다. 안전은 타협할 수 없는 가치이므로 모든 연구자가 안전하게 연구에 매진할 수 있는 환경을 만들어야 합니다."
+    },
+    {
+      "title_en": "Universities must measure learning, both with and without AI assistance",
+      "url": "https://www.nature.com/articles/d41586-026-03559-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "AI 시대의 대학 교육: AI 활용 유무에 따른 학습 측정의 중요성",
+      "summary_kr": "인공지능이 교육 현장에 본격적으로 도입됨에 따라 대학은 AI의 도움을 받았을 때와 그렇지 않았을 때의 학습 성과를 모두 측정해야 합니다. 학습자가 AI 도구를 창의적으로 활용하여 문제를 해결하는 능력은 미래 사회의 핵심 역량으로 평가받고 있습니다. 동시에 AI의 보조 없이 학습자 스스로가 보유한 논리적 사고와 기초 지식 수준을 정확히 파악하는 것도 여전히 중요합니다. 이 두 가지 측면을 균형 있게 평가함으로써 기술의 발전과 교육의 본질 사이에서 적절한 교육 방향을 설정할 수 있습니다. 대학들은 기존의 평가 도구를 혁신하고 AI가 교육적 도구로서 올바르게 활용될 수 있는 체계를 마련해야 합니다. 이러한 통합적 측정 방식은 개별 학생의 학습 요구를 정밀하게 분석하고 교육의 질을 높이는 데 기여할 것입니다."
+    },
+    {
+      "title_en": "China should share the evidence behind animal-testing alternatives openly",
+      "url": "https://www.nature.com/articles/d41586-026-03561-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "중국의 동물 실험 대체법에 대한 과학적 근거 공개 및 국제 공유 필요성",
+      "summary_kr": "중국이 추진 중인 동물 실험 대체 연구들이 국제적인 신뢰를 얻기 위해서는 관련 데이터를 공개적으로 공유해야 한다는 주장이 제기되었습니다. 동물 복지 증진을 위한 대체 시험법 개발은 전 세계적인 흐름이며 이에 대한 투명한 검증 과정은 필수적입니다. 현재 중국 내에서 도출된 연구 결과들이 충분히 공개되지 않아 글로벌 과학계와의 협력 및 표준화에 차질을 빚고 있습니다. 과학적 근거의 개방적 공유는 대체 방법의 타당성을 높이고 더 많은 연구자가 이를 안전하게 도입할 수 있게 합니다. 이는 국가 간의 기술적 격차를 줄이고 동물 실험을 최소화하려는 공통의 목표를 달성하는 데 매우 중요합니다. 투명한 연구 문화 정착은 중국 과학계의 위상을 높일 뿐만 아니라 생명 윤리 발전에 지대한 공헌을 할 것입니다."
+    },
+    {
+      "title_en": "Historic Marburg outbreak hints at long-term viral hideout",
+      "url": "https://www.nature.com/articles/d41586-026-03538-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "에티오피아 마르부르크 바이러스 발생과 장기 잠복처 발견 가능성",
+      "summary_kr": "에티오피아에서 처음 발생한 마르부르크병에 대한 유전자 염기서열 분석 결과 이 병원체가 동부 및 중부 아프리카에 장기간 숨어 있었을 가능성이 확인되었습니다. 이번 연구는 마르부르크 바이러스가 특정 지역의 자연 환경 속에 잠복해 있다가 예기치 않게 출현한다는 사실을 시사합니다. 전문가들은 과거의 발병 사례들과 이번 바이러스 데이터를 비교하여 전파 경로와 변이 양상을 추적하고 있습니다. 이러한 과학적 발견은 치명적인 전염병의 발생 패턴을 이해하고 향후 보건 위기 대응 전략을 수립하는 데 중요한 기초가 됩니다. 바이러스의 천연 저장소를 식별하는 작업은 감염원을 차단하고 지역 사회를 보호하는 핵심적인 단계입니다. 이번 연구 결과는 아프리카 지역의 공중보건 감시 체계를 강화해야 할 필요성을 다시 한번 일깨워줍니다."
+    },
+    {
+      "title_en": "Will AI grant reviews make science more conservative?",
+      "url": "https://www.nature.com/articles/d41586-026-03340-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "AI를 활용한 연구비 심사가 과학의 혁신성을 저해할 것인가?",
+      "summary_kr": "연구비 지원 대상 선정을 인공지능에 맡기는 방식이 과학 연구의 보수화를 초래할 수 있다는 비판적인 시각이 제기되고 있습니다. AI 알고리즘은 대개 과거의 데이터와 성공 사례를 기반으로 학습하기 때문에 독창적이고 위험이 큰 새로운 연구보다는 안전한 과제를 선호할 가능성이 큽니다. 이는 과학 기술의 비약적 발전을 이끄는 파괴적 혁신을 저해하고 기존 학계의 패러다임을 답습하게 만들 위험이 있습니다. 연구자들은 AI가 인간 전문가의 직관과 창의적 가치 평가를 완전히 대체할 수 있는지에 대해 강한 의구심을 표하고 있습니다. 효율적인 행정 처리를 위해 AI를 도입하되 연구의 다양성과 참신함을 보호할 수 있는 보완책 마련이 절실합니다. 과학적 진보를 지속하기 위해서는 AI 시스템이 새로운 아이디어의 잠재력을 인식할 수 있도록 정교하게 설계되어야 합니다."
+    },
+    {
+      "title_en": "Trump’s executive order on women’s health feels like déjà vu",
+      "url": "https://www.nature.com/articles/d41586-026-03503-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "트럼프의 여성 건강 관련 행정 명령, 과거 정책의 답습인가",
+      "summary_kr": "도널드 트럼프 전 대통령이 발표한 여성 건강 연구 관련 행정 명령은 과거 행정부들이 보여준 행보와 유사하여 기시감을 불러일으키고 있습니다. 이전의 미국 행정부들 또한 여성 건강 연구를 개선하겠다는 약속을 여러 차례 내놓았으나, 실제로는 기대했던 성과를 거두지 못한 전례가 많습니다. 네이처는 단순히 행정 명령을 내리는 것만으로는 부족하며, 실질적인 변화를 위해서는 훨씬 더 강력한 추진력이 필요하다고 지적합니다. 여성 건강 분야에서 진정한 혁신이 일어나기 위해서는 연구 예산의 대폭적인 증액과 함께 지속 가능한 정책적 지원이 수반되어야 합니다. 또한 과학계는 정치적 선언을 넘어 실제 연구 현장에서 체감할 수 있는 구조적 개혁이 이루어지기를 간절히 바라고 있습니다. 이번 기사는 여성 건강 연구의 고질적인 문제를 해결하기 위해 정부가 취해야 할 실질적인 조치가 무엇인지 심도 있게 분석합니다."
+    },
+    {
+      "title_en": "Cities are changing — and architects must adapt",
+      "url": "https://www.nature.com/articles/d41586-026-03508-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "급변하는 도시 환경, 건축가의 새로운 대응과 역할",
+      "summary_kr": "기후 변화로 인해 전 세계의 도시 환경이 급격하게 재편됨에 따라 건축가들의 적응이 시급한 과제로 부상하고 있습니다. 세계적인 건축가 카를로 라티는 네이처와의 인터뷰에서 현대 기술이 도시 문제를 해결할 수 있는 다양한 솔루션을 제공하고 있다고 말했습니다. 하지만 그는 기술적 해결책보다 더 중요한 것은 최종 결정권을 가진 시민들의 적극적인 참여와 목소리라고 강조합니다. 미래의 도시 설계는 단순히 심미적인 디자인을 넘어 환경적 지속 가능성과 기후 회복력을 최우선으로 고려해야 합니다. 급변하는 환경 속에서 도시는 더욱 유연하고 지능적인 인프라를 구축해야 하며, 건축가는 이를 조율하는 역할을 수행해야 합니다. 결국 미래 도시는 기술과 인간, 그리고 자연이 조화를 이루는 민주적인 공간이 되어야 한다는 것이 이번 분석의 핵심입니다."
+    },
+    {
+      "title_en": "How democracy depends on science — and must protect it",
+      "url": "https://www.nature.com/articles/d41586-026-03510-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "민주주의의 토대인 과학, 그리고 과학을 수호해야 하는 이유",
+      "summary_kr": "현대 민주주의 시스템의 안정적인 운영은 신뢰할 수 있는 전문가들이 제공하는 검증된 정보에 깊이 의존하고 있습니다. 사회가 빠르게 변화하고 그 복잡성이 증대됨에 따라, 대중과 정부가 올바른 의사결정을 내리기 위해서는 과학적 데이터가 필수적입니다. 과학은 단순한 지식의 축적을 넘어 민주적 논의를 돕고 사회적 갈등을 해결하는 중요한 도구로서 기능합니다. 따라서 정부와 시민 사회는 외부의 정치적 압력으로부터 과학의 독립성과 객관성을 철저히 보호하기 위해 노력해야 합니다. 만약 과학적 사실이 정치적 목적을 위해 왜곡되거나 무시된다면 민주주의의 근간 자체가 흔들릴 수 있다는 경고의 메시지를 담고 있습니다. 이 기사는 과학과 민주주의의 상호 보완적인 관계를 조명하며 사회적 합의의 중요성을 촉구합니다."
+    },
+    {
+      "title_en": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
+      "url": "https://www.nature.com/articles/d41586-026-03504-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "기대를 모았던 콜레스테롤 신약의 임상 실패와 향후 전망",
+      "summary_kr": "주요 심혈관 위험 인자인 리포단백(a) 수치를 획기적으로 낮출 것으로 기대를 모았던 새로운 콜레스테롤 치료제가 임상 시험에서 난항을 겪고 있습니다. 의료진들은 이 약물이 심혈관 질환 치료의 판도를 바꿀 게임 체인저가 될 것으로 예상했으나, 최근 대규모 임상에서 유의미한 이익을 입증하지 못했습니다. 과학자들은 예상치 못한 결과에 당황하며 이번 실패가 해당 분야의 연구에 어떤 영향을 미칠지 파악하기 위해 주력하고 있습니다. 하지만 단 한 번의 임상 실패가 리포단백(a) 표적 치료 연구 자체의 종말을 의미하는 것은 아니며, 연구자들은 여전히 그 중요성을 신뢰하고 있습니다. 현재 실패 원인을 분석하고 다음 단계를 준비하는 과정에서 새로운 과학적 통찰이 도출될 수 있다는 희망도 존재합니다. 이 기사는 리포단백(a) 치료의 현재 상황을 점검하고 심장 질환 치료의 미래를 논의합니다."
+    },
+    {
+      "title_en": "Biotech firms are meant to pay to use Earth’s genetic data. They’re not.",
+      "url": "https://www.nature.com/articles/d41586-026-03554-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "유전자 데이터 무단 사용하는 바이오 기업들, 생물다양성 보전의 위기",
+      "summary_kr": "최근 열린 COP17 생물다양성 정상회의에서 글로벌 리더들은 전 세계 바이오 기술 기업들의 무책임한 태도를 강력히 비판했습니다. 많은 기업이 공공 유전자 데이터를 활용해 막대한 이익을 창출하고 있음에도 불구하고, 자연 보호를 위한 자발적 기금에는 기여하지 않고 있습니다. 유전자 데이터는 전 인류의 공동 자산이므로 이를 상업적으로 이용하는 기업은 그 이익의 일부를 자연 보전을 위해 환원해야 한다는 목소리가 높습니다. 현재의 자발적 참여 방식이 제대로 작동하지 않으면서, 보다 강력한 국제적 규제나 강제적인 이익 공유 메커니즘의 도입이 시급해 보입니다. 생물다양성 보전은 지구 생태계뿐만 아니라 바이오 산업의 지속 가능성을 위해서도 반드시 선행되어야 할 과제입니다. 이번 기사는 디지털 유전자 정보 사용에 따른 공정한 보상 체계 마련을 둘러싼 국제 사회의 갈등을 다룹니다."
+    },
+    {
+      "title_en": "Why we’re setting up an institute for radically broad thinking",
+      "url": "https://www.nature.com/articles/d41586-026-03397-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "혁신적이고 폭넓은 사고를 위한 초학제적 연구소의 설립 배경",
+      "summary_kr": "오늘날 지구가 직면한 도전 과제들은 매우 복잡하여 기존의 단일 학문적 접근 방식으로는 해결책을 찾기 어렵습니다. 이러한 문제를 극복하기 위해 모든 학문 분야의 경계를 허무는 급진적이고 폭넓은 사고를 장려하는 새로운 연구소가 설립되었습니다. 이 연구소는 연구자들이 학문적 칸막이에서 벗어나 창의적이고 혁신적인 아이디어를 자유롭게 교환할 수 있는 환경을 제공하는 것을 목표로 합니다. 전통적인 연구 방식에서 탈피하여 다양한 분야의 전문가들이 협업함으로써 전례 없는 해결책을 도출하려는 시도입니다. 연구자들에게 충분한 시간과 자율성을 부여하여 단기 성과 위주의 연구 관행을 바꾸고 장기적인 혁신을 유도하고자 합니다. 이러한 초학제적 접근이 기후 위기나 보건 문제 등 인류가 직면한 거대 난제를 해결할 열쇠가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "US social sciences face existential crisis after NSF cuts",
+      "url": "https://www.nature.com/articles/d41586-026-03540-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "미 국립과학재단의 예산 삭감으로 인한 사회과학의 존립 위기",
+      "summary_kr": "미국 국립과학재단(NSF)이 경제학 및 고고학 연구에 대한 신규 지원을 전격 중단하면서 해당 사회과학 분야가 유례없는 존립 위기에 처했습니다. NSF는 미국의 기초 사회과학 연구를 지탱하는 가장 큰 자금원이지만, 2026년도에 이 분야의 신규 연구 과제를 단 한 건도 선정하지 않았습니다. 이러한 전례 없는 예산 삭감은 연구 생태계에 심각한 타격을 주고 있으며, 수많은 연구자가 연구를 중단해야 하는 상황에 몰리고 있습니다. 사회과학은 국가의 정책 수립과 인류 역사의 이해에 필수적인 기초 학문이라는 점에서 이번 조치는 사회 전체의 손실로 이어질 수 있습니다. 학계는 정부의 연구 지원 축소가 미래의 학문적 경쟁력 저하와 전문가 양성 중단으로 이어질 것을 깊이 우려하고 있습니다. 기사는 공공 자금 지원의 중요성과 예산 삭감이 가져올 파괴적인 미래를 경고합니다."
+    },
+    {
+      "title_en": "Nature awards recognize inspiring women in science",
+      "url": "https://www.nature.com/articles/d41586-026-03545-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "네이처 어워드, 과학계의 영감을 주는 여성 과학자들을 기리다",
+      "summary_kr": "올해 네이처 어워드의 영광은 재료 과학 분야의 선구자와 여성 과학 교육을 위해 헌신한 전문가에게 돌아갔습니다. 수상자들은 뛰어난 연구 성과를 냈을 뿐만 아니라, 동료와 후배 여성 과학자들의 성장을 돕기 위해 헌신적으로 활동해 온 점을 높이 평가받았습니다. 이번 수상자들과 후보자들 모두는 과학계 내에 존재하는 성별 장벽을 허물고 보다 포용적인 연구 문화를 만드는 데 앞장서 왔습니다. 이번 시상은 과학 기술 분야에서 여성이 발휘하는 리더십과 사회적 영향력을 다시 한번 전 세계에 각인시키는 계기가 되었습니다. 수상자들은 자신의 성취를 넘어 미래 세대 여성 과학자들이 더 나은 환경에서 연구할 수 있도록 돕는 일에 매진하고 있습니다. 이 기사는 과학계의 다양성이 확보될 때 더욱 혁신적이고 창의적인 연구 결과가 나올 수 있음을 강조합니다."
+    },
+    {
+      "title_en": "Daily briefing: ‘A triumph of scientific self-correction’",
+      "url": "https://www.nature.com/articles/d41586-026-03571-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "데일리 브리핑: 과학적 자정 작용의 승리와 최신 연구 동향",
+      "summary_kr": "이번 데일리 브리핑에서는 연구자들이 인종주의적 편견이 섞인 과거 과학의 오류를 어떻게 바로잡았는지를 다루며 '과학적 자정 작용의 승리'를 조명합니다. 잘못된 과학적 주장이 엄격한 데이터 검증과 동료 평가를 통해 반박되는 과정은 과학의 건강성을 보여주는 중요한 사례입니다. 또한, 일상적인 운동이 뼈에 가하는 압력이 노화 과정을 늦출 수 있다는 흥미로운 최신 생물학 연구 결과도 포함되었습니다. 자연계의 신비로운 현상으로는 뱀이 위급한 상황에서 탈출하기 위해 마치 앞구르기를 하는 듯한 독특한 회전 행동을 보이는 장면이 소개되었습니다. 과학은 고정된 지식이 아니라 지속적인 오류 수정을 통해 진리에 다가가는 역동적인 과정임을 이 브리핑은 잘 보여줍니다. 인류의 지적 성취부터 생명체의 독특한 생존 전략까지 폭넓은 과학적 소식을 전달합니다."
+    },
+    {
+      "title_en": "Daily briefing: How Captain Picard inspired today’s scientists",
+      "url": "https://www.nature.com/articles/d41586-026-03556-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "데일리 브리핑: 피카드 선장이 오늘날의 과학자들에게 준 영감",
+      "summary_kr": "과학 전문지 네이처는 배우 패트릭 스튜어트에게 헌사를 보내며 스타트렉의 피카드 선장 캐릭터가 현대 과학계에 미친 영향력을 조명했습니다. 이번 데일리 브리핑에서는 패트릭 스튜어트의 연기가 수많은 연구자들에게 영감을 주어 과학의 길을 걷게 만든 사례들을 상세히 소개합니다. 더불어 미국의 중간 선거 결과가 향후 과학 예산과 정책에 어떤 변화를 불러올지에 대한 심층적인 분석도 함께 다루었습니다. 또한 과거 비옥한 초원이었던 '그린 아라비아'의 중심부에 고대 인류가 정착하지 않았던 이유를 밝히는 흥미로운 고고학적 연구 결과도 포함되었습니다. 이번 소식은 대중 문화가 과학적 호기심을 자극하는 방식부터 실제 정책과 역사적 발견까지 폭넓은 주제를 아우릅니다. 과학 기술의 발전뿐만 아니라 인문학적 영감이 실제 연구 현장에 미치는 긍정적인 힘을 다시 한번 확인시켜 주는 기사입니다."
+    },
+    {
+      "title_en": "A Snake-Inspired Robotic Scope Inches Through the Small Intestine",
+      "url": "https://www.the-scientist.com/a-snake-inspired-robotic-scope-inches-through-the-small-intestine-75208",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57057/biosenter-inline-t.jpg",
+      "title": "소장 내부를 자유롭게 탐사하는 뱀 형태의 생체 모방 소프트 로봇 개발",
+      "summary_kr": "연구진은 돼지의 소장 내부를 이동하며 고해상도 이미징과 생검, 약물 전달을 수행할 수 있는 부드러운 소재의 소프트 로봇을 설계했습니다. 이 로봇은 뱀의 움직임에서 아이디어를 얻어 설계되었으며 복잡하고 굴곡진 장내 환경을 손상 없이 효과적으로 탐색할 수 있는 능력을 갖추었습니다. 그동안 소장은 접근하기 까다로운 신체 부위로 꼽혔으나 이번 로봇 기술을 통해 장 질환의 조기 진단과 정밀 치료에 새로운 전기가 마련되었습니다. 이 기기은 환자의 고통을 최소화하면서도 정확한 환부 상태를 파악할 수 있도록 돕는 혁신적인 의료 도구로 평가받습니다. 이번 연구 성과는 향후 최소 침습적 수술 시스템과 차세대 내시경 기술의 상용화를 앞당길 것으로 기대됩니다. 생체 공학 기술이 실제 의료 현장에 도입되어 진료의 질을 높이는 구체적인 사례를 보여주고 있습니다."
+    },
+    {
+      "title_en": "Anthropic&rsquo;s Biology Work Spotlights Researchers&rsquo; Need for Advanced AI Access",
+      "url": "https://www.the-scientist.com/anthropic-s-biology-work-spotlights-researchers-need-for-advanced-ai-access-75223",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57094/anthropic-ai-800x560-t.jpg",
+      "title": "앤스로픽의 생물학 연구가 시사하는 과학자용 고급 AI 접근권 확대의 필요성",
+      "summary_kr": "인공지능 기업 앤스로픽이 진행 중인 생물학 연구는 과학계에 고급 AI 도구에 대한 접근성이 얼마나 중요한지를 명확하게 보여주고 있습니다. 현재 많은 과학자들은 첨단 AI 기술을 연구에 활용하고 싶어 하지만 실제 도구를 사용하는 데 있어 상당한 제약을 겪고 있는 실정입니다. 기사는 AI 기업들이 연구자들을 위해 자사의 고급 모델과 도구들에 대한 접근 권한을 대폭 확장해야 한다고 강조합니다. 이와 동시에 대학과 학술지 등 제도권에서도 AI를 활용한 협업이 더 쉽고 보람 있게 진행될 수 있도록 보상 체계를 개선해야 합니다. 연구진이 자유롭게 첨단 기술을 활용할 때 비로소 생명 과학 분야의 혁신적인 발견이 가속화될 수 있기 때문입니다. 이는 기술 기업과 학계가 긴밀히 협력하여 과학적 난제를 해결하는 새로운 연구 문화를 조성해야 함을 시사합니다."
+    },
+    {
+      "title_en": "A New Generation of AI-Designed Fluorescent Tags Illuminate Cellular Mysteries",
+      "url": "https://www.the-scientist.com/a-new-generation-of-ai-designed-fluorescent-tags-illuminate-cellular-mysteries-75224",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57097/ai-designed-fluorescent-tags-800-x-560-t.jpg",
+      "title": "세포의 비밀을 밝히는 차세대 AI 설계 형광 표지 단백질 기술",
+      "summary_kr": "생성형 인공지능 모델을 활용하여 특정 맞춤형 형광 염료와 결합하는 정교한 단백질 결합체를 설계하는 데 성공했다는 소식입니다. 이 기술을 통해 연구자들은 극도로 안정적인 상태에서 여러 색상을 활용한 실시간 생체 세포 이미징을 수행할 수 있게 되었습니다. AI가 설계한 이 형광 표지는 기존 방식보다 훨씬 선명하고 정교하여 세포 내에서 일어나는 복잡한 메커니즘을 관찰하는 데 탁월한 성능을 보입니다. 단백질 구조를 예측하고 직접 설계하는 AI의 능력이 생물학적 이미징 도구의 한계를 다시 한번 극복한 사례로 꼽힙니다. 이를 통해 질병의 진행 과정이나 약물이 세포에 미치는 영향을 더욱 정밀하게 분석할 수 있는 길이 열렸습니다. 생명 과학 연구에 있어 AI가 단순한 분석 도구를 넘어 직접적인 실험 장비를 설계하는 단계에 이르렀음을 보여줍니다."
+    },
+    {
+      "title_en": "The First CRISPR-Cas9-Based Gene Therapy",
+      "url": "https://www.the-scientist.com/the-first-crispr-cas9-based-gene-therapy-75215",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57087/icon-questionmark-800x560-1-t.jpg",
+      "title": "최초의 CRISPR-Cas9 기반 유전자 치료법 관련 상식 퀴즈 챌린지",
+      "summary_kr": "이번 기사는 유전공학의 패러다임을 바꾼 최초의 CRISPR-Cas9 기반 유전자 치료법에 관한 흥미로운 상식 퀴즈를 제공합니다. 독자들은 유전자 가위로 불리는 이 혁신적인 기술이 실제 환자 치료에 적용되기까지의 배경과 과학적 원리를 재미있게 학습할 수 있습니다. 퀴즈를 푸는 과정을 통해 자칫 어렵게 느껴질 수 있는 첨단 생명공학 기술에 대한 친숙도를 높이고 자신의 지식 수준을 점검할 수 있습니다. 단순한 정보 나열이 아니라 참여형 콘텐츠 형식을 빌려 대중들이 최신 과학 트렌드를 쉽게 이해하도록 돕는 것이 목적입니다. CRISPR 기술이 가져온 의학적 성과와 그에 따른 과학적 중요성을 다시금 강조하는 계기가 될 것입니다. 과학적 사실을 흥미로운 도전 과제로 풀어내어 일반인들도 생명공학의 미래에 대해 깊은 관심을 가질 수 있도록 유도합니다."
+    },
+    {
+      "title_en": "Stem Cell Biologist Marta Shahbazi Dies in Spanish Train Collision",
+      "url": "https://www.the-scientist.com/stem-cell-biologist-marta-shahbazi-dies-in-spanish-train-collision-75214",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57085/marta-shahbazi-800x560-t.jpg",
+      "title": "줄기세포 생물학자 마르타 샤바지, 스페인 열차 충돌 사고로 안타까운 별세",
+      "summary_kr": "인간 배아 발달 과정에 대한 이해를 획기적으로 넓힌 저명한 줄기세포 생물학자 마르타 샤바지 박사가 스페인에서 발생한 열차 사고로 세상을 떠났습니다. 샤바지 박사는 체외 배양 모델을 통해 초기 배아의 발달 메커니즘을 규명하는 등 발생학 분야에서 독보적인 연구 성과를 거두어 왔습니다. 그녀의 연구는 생명 과학계에서 매우 중요한 위치를 차지하고 있으며 수많은 동료 과학자들에게 깊은 영감을 주었습니다. 갑작스러운 비보에 전 세계 줄기세포 및 발생 생물학계는 깊은 슬픔에 잠겼으며 고인의 업적을 기리는 추모의 물결이 이어지고 있습니다. 고인은 젊은 연구자로서 생명의 신비를 밝히는 데 헌신적이었으며 그녀가 남긴 연구 자산은 앞으로도 계속해서 탐구될 것입니다. 인류의 시작을 연구하던 열정적인 과학자를 잃은 것은 과학계 전체의 커다란 손실로 기억될 것입니다."
+    },
+    {
+      "title_en": "Making Every Well Count: Improving Reproducibility in Plate-Based Assays",
+      "url": "https://www.the-scientist.com/making-every-well-count-improving-reproducibility-in-plate-based-assays-75192",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57016/lab-scene-epmotion-96-flex-8-t.jpg",
+      "title": "실험 재현성 향상을 위한 플레이트 기반 분석 공정의 혁신적 개선 방안",
+      "summary_kr": "실험실 연구에서 데이터의 신뢰성을 확보하기 위해 플레이트 기반 분석의 재현성을 높이는 구체적인 방법론이 제시되었습니다. 특히 반자동 액체 핸들링 장비를 도입함으로써 사람이 수동으로 작업할 때 발생하는 변동성과 오차를 획기적으로 줄이는 데 성공했습니다. 이러한 자동화 솔루션은 실험 워크플로우를 간소화할 뿐만 아니라 연구자들이 더욱 일관된 실험 결과를 도출할 수 있도록 지원합니다. 과학적 결론의 타당성은 데이터의 반복 가능성에 달려 있으며 이번 기술적 개선은 그 신뢰도를 한 단계 높여줍니다. 효율적인 장비 활용을 통해 연구의 생산성을 극대화하고 반복적인 수작업에서 오는 피로도를 경감시키는 효과도 큽니다. 신약 개발이나 정밀한 생물학적 분석이 필요한 연구 현장에서 실제적인 도움을 줄 수 있는 유익한 정보를 담고 있습니다."
+    },
+    {
+      "title_en": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access",
+      "url": "https://www.the-scientist.com/bypassing-the-fda-rfk-jr-makes-peptides-easier-to-access-75212",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57078/rfk-jr-unapproved-peptides-800-x-560-06-t.jpg",
+      "title": "FDA 규제 우회하는 미승인 펩타이드 접근권 확대와 공중보건 우려",
+      "summary_kr": "로버트 F. 케네디 주니어의 행보로 인해 미국 식품의약국(FDA)의 정식 승인을 받지 않은 펩타이드 화합물들이 시장에 더 쉽게 유통되고 있습니다. 이 펩타이드들은 노화 방지나 미용 등 다양한 건강 증진 효과를 앞세워 마케팅되고 있지만 정작 과학적인 근거와 안전성 검증은 턱없이 부족한 상태입니다. 전문가들은 과학적 검증 없이 규제가 완화되어 미승인 물질에 대한 접근성이 높아지는 현상에 대해 심각한 우려를 표명하고 있습니다. 소비자들은 화려한 홍보 문구만 믿고 출처가 불분명하거나 안전성이 입증되지 않은 약물을 오용할 위험에 노출되어 있습니다. 이번 규제 우회 사태는 정치적 논리가 보건 당국의 과학적 판단을 가로막을 때 발생할 수 있는 잠재적 위협을 시사합니다. 공중보건의 안전망을 지키기 위해서는 철저한 임상 검증과 투명한 규제 체계가 반드시 유지되어야 함을 강조합니다."
+    },
+    {
+      "title_en": "Top Innovations Startup Winners: Interactomics, Cell Therapy Analysis, and Drug Risk",
+      "url": "https://www.the-scientist.com/top-innovations-startup-winners-interactomics-cell-therapy-analysis-and-drug-risk-75132",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/56757/97921-topinnovations-promoimages-startup-t.jpg",
+      "title": "올해의 혁신 스타트업 수상작 발표: 세포 분석 및 신약 위험 관리의 선두주자들",
+      "summary_kr": "올해의 신흥 스타트업 기술 부문 수상자로 픽셀젠 테크놀로지스, 인필트레이트 바이오, 그리고 GATC 헬스가 최종 선정되었습니다. 픽셀젠 테크놀로지스는 단백질 간 상호작용을 정밀 분석하는 인터랙토믹스 기술로 바이오 분야에서 주목할 만한 혁신을 이루어냈습니다. 인필트레이트 바이오는 차세대 세포 치료제 분석 기술을 통해 난치병 치료의 새로운 가능성을 열었다는 평가를 받았습니다. GATC 헬스는 인공지능을 활용해 신약 개발 과정에서의 약물 위험성을 예측하고 관리하는 솔루션으로 그 기술력을 인정받았습니다. 이 스타트업들은 각자의 전문 분야에서 최첨단 기술력을 바탕으로 생명공학 시장의 변화를 주도하고 있습니다. 이번 수상 소식은 미래의 의료 및 바이오 산업을 선도할 기술들이 실제 비즈니스 모델로 어떻게 정착하고 있는지를 잘 보여주는 사례입니다."
+    },
+    {
+      "title_en": "Advancing Research with Next-Generation Humanized Mouse Models",
+      "url": "https://www.the-scientist.com/advancing-research-with-next-generation-humanized-mouse-models-75199",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57042/100525-ts-webinar-mousemodels-banners-el-800-x-560-t.jpg",
+      "title": "차세대 인간화 마우스 모델을 활용한 연구의 비약적 발전",
+      "summary_kr": "본 기사는 인간 면역 체계를 모사한 인간화 마우스 모델의 미래를 결정짓는 다양한 응용 분야와 도전 과제, 그리고 새롭게 떠오르는 접근 방식을 심층적으로 탐구합니다. 인간화 마우스는 질병 메커니즘을 규명하고 새로운 치료제를 시험하는 과정에서 실제 인간의 반응을 예측할 수 있는 필수적인 도구로 주목받고 있습니다. 연구진은 현재 기술적 한계를 극복하기 위해 면역 세포의 성숙도를 높이고 이식 효율을 개선하는 혁신적인 전략들을 다각도로 논의합니다. 이러한 기술적 진보는 특히 암 면역 요법이나 자가 면역 질환 연구에서 정밀한 실험 데이터를 제공하는 데 기여하고 있습니다. 앞으로의 연구 방향은 더욱 정교한 모델링을 통해 임상 시험의 성공 가능성을 높이는 데 초점이 맞춰질 것입니다. 결과적으로 차세대 모델의 개발은 신약 개발 전반의 패러다임을 변화시킬 중요한 열쇠가 될 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Exploring a New Era of Pharmaceutical Innovation",
+      "url": "https://www.the-scientist.com/exploring-a-new-era-of-pharmaceutical-innovation-75194",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57060/800x560-t.jpg",
+      "title": "제약 혁신의 새로운 시대를 향한 여정",
+      "summary_kr": "최신 기술이 중개 연구와 임상 현장의 패러다임을 어떻게 근본적으로 바꾸고 있는지에 대한 상세한 분석을 제시합니다. 인공지능, 빅데이터 분석, 그리고 정밀 의료와 같은 첨단 기술들이 결합하여 신약 개발의 전 과정을 혁신적으로 가속화하고 있습니다. 이러한 기술적 발전은 기초 과학의 연구 성과가 실제 환자 치료로 이어지는 기간을 단축하는 데 결정적인 역할을 수행합니다. 또한 환자 개별 특성에 맞춘 맞춤형 치료법의 개발이 가능해짐에 따라 의료 서비스의 질적 향상이 기대되고 있습니다. 기사는 제약 산업 전반에 걸쳐 진행 중인 이러한 변화들이 미래의 의료 환경에 미칠 긍정적인 영향과 기회 요인들을 조명합니다. 마지막으로 기술 혁신을 선도하기 위해 산학연 협력과 전략적 투자가 그 어느 때보다 중요하다는 점을 강조합니다."
+    },
+    {
+      "title_en": "LVL SAFE&reg; 2D-Coded Tubes: The Perfect Tube for Your Sample",
+      "url": "https://www.the-scientist.com/lvl-safe-2d-coded-tubes-the-perfect-tube-for-your-sample-75189",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57007/single-10-7-t.jpg",
+      "title": "시료 보관의 안전 기준, LVL SAFE® 2D 바코드 튜브의 우수성",
+      "summary_kr": "실험실에서 사용하는 시료 보관용 튜브에서 발생할 수 있는 잠재적인 오염원인 용출물과 첨가물에 대한 주의를 환기합니다. 일반적인 플라스틱 튜브의 경우 가공 과정에서 들어가는 윤활제나 가소제가 시료로 유출되어 정밀한 실험 결과를 왜곡할 위험이 있습니다. LVL SAFE® 2D 튜브는 이러한 외부 물질 유입을 차단하도록 설계되어 소중한 시료의 순도를 완벽하게 보호합니다. 이 튜브는 액체 질소 수준의 극저온인 영하 196도에서도 견딜 수 있는 뛰어난 내구성 및 내열성을 갖추고 있습니다. 또한 자동화 시스템에 최적화된 설계와 완벽한 누수 방지 기능을 통해 실험 과정의 효율성과 데이터의 신뢰성을 동시에 보장합니다. 연구자들에게는 실험의 재현성을 확보하기 위해 단순한 소모품을 넘어선 고성능 튜브의 선택이 필수적임을 보여줍니다."
+    },
+    {
+      "title_en": "For early-career scientists, the cost of AI can be a problem",
+      "url": "https://www.science.org/content/article/early-career-scientists-cost-ai-can-be-problem",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "초기 경력 과학자들에게 장벽이 되는 인공지능 활용 비용 문제",
+      "summary_kr": "인공지능 도구가 과학 연구의 필수 요소로 자리 잡으면서 이를 활용하는 데 드는 경제적 비용이 신진 연구자들 사이에서 심각한 문제로 대두되고 있습니다. 일부 연구자들은 소속 기관의 지원을 통해 고가의 AI 도구를 거의 무료로 이용하고 있지만, 대다수의 초기 경력 과학자들은 이를 위해 사비를 지출하거나 아예 기술 활용을 포기하고 있는 실정입니다. 이러한 자원 접근성의 불균형은 연구자 간의 생산성 격차를 심화시키고 공정한 경쟁 환경을 저해하는 요인이 됩니다. 특히 예산이 한정된 독립 연구실이나 신진 연구자들에게는 인공지능 구독 비용이나 컴퓨팅 자원 확보가 큰 부담이 될 수밖에 없습니다. 기사는 과학계 내에서 기술적 불평등을 해소하기 위한 정책적 논의와 보편적인 접근권 보장이 시급함을 지적합니다. 인공지능의 혜택이 자본력에 따라 차등적으로 분배되지 않도록 하는 체계적인 지원책 마련이 필요합니다."
+    },
+    {
+      "title_en": "Walrus tusks carved in Bali are being illegally sold as Native American art, investigation finds",
+      "url": "https://www.science.org/content/article/walrus-tusks-carved-bali-are-being-illegally-sold-native-american-art-investigation",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "발리에서 제작된 바다코끼리 상아 조각품의 불법 유통 실태 조사",
+      "summary_kr": "최근 조사에 따르면 인도네시아 발리에서 조각된 바다코끼리 엄니 제품들이 미국 원주민의 전통 예술품으로 둔갑하여 불법적으로 판매되고 있는 것으로 드러났습니다. 이러한 위조 예술품의 유통은 단순히 소비자 기만을 넘어 야생 바다코끼리를 멸종 위기에 처하게 하는 불법 포획을 조장하고 있습니다. 또한 전통을 이어가는 실제 미국 원주민 예술가들의 권익을 침해하고 그들의 문화적 가치를 심각하게 훼손하는 행위입니다. 시장에 범람하는 불법 모조품들은 정교하게 가공되어 소비자들이 육안으로 진품 여부를 구별하기 매우 어려운 실정입니다. 당국은 이러한 국제적 불법 거래망을 차단하기 위해 단속을 강화하고 있으며, 야생동물 보호를 위한 강력한 법 집행을 예고했습니다. 기사는 소비자들에게 예술품 구매 시 출처를 꼼꼼히 확인하고 불법 거래 근절에 동참해 줄 것을 호소합니다."
+    },
+    {
+      "title_en": "Former head of global health fund returns, eyeing a ‘huge opportunity’ despite political and financial challenges",
+      "url": "https://www.science.org/content/article/former-head-global-health-fund-returns-eyeing-huge-opportunity-despite-political-and",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "글로벌 보건 기금 전 수장의 복귀와 질병 퇴치를 향한 새로운 도전",
+      "summary_kr": "글로벌 보건 기금을 이끌었던 마크 다이블(Mark Dybul)이 정치적, 재정적 불확실성 속에서도 다시 현업으로 복귀하며 새로운 비전을 제시했습니다. 그는 현재의 보건 위기 상황을 오히려 말라리아, 결핵, 그리고 에이즈를 근본적으로 통제할 수 있는 '거대한 기회'의 시기로 규정합니다. 비록 전 세계적인 경기 침체로 인해 보건 기금 확보에 어려움이 따르고 있지만, 그는 효율적인 자원 배분과 혁신적 전략을 통해 돌파구를 마련하고자 합니다. 특히 저소득 국가의 보건 인프라를 강화하여 질병에 스스로 대응할 수 있는 자생력을 길러주는 것에 역점을 두고 있습니다. 그는 새로운 진단 기술과 치료제가 개발되고 있는 지금이 질병 퇴치의 종지부를 찍을 수 있는 적기라고 강조합니다. 그의 강력한 리더십이 국제 보건 협력 체계에 어떤 긍정적인 변화를 가져올지 전 세계가 주목하고 있습니다."
+    },
+    {
+      "title_en": "European scientists face uncertainty as pandemic recovery fund winds down",
+      "url": "https://www.science.org/content/article/european-scientists-face-uncertainty-pandemic-recovery-fund-winds-down",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "팬데믹 회복 기금 종료에 직면한 유럽 과학계의 불확실성 고조",
+      "summary_kr": "유럽 연합이 코로나19 팬데믹 극복을 위해 투입했던 대규모 회복 기금이 마무리에 접어들면서 연구 현장에서는 예산 절벽에 대한 우려가 커지고 있습니다. 그동안 550억 유로가 넘는 막대한 자금이 연구 및 혁신 분야에 투입되어 유럽 과학 기술의 비약적인 발전을 뒷받침해 왔습니다. 하지만 기금 지원 기간이 종료됨에 따라 현재 활발히 진행 중인 다수의 연구 프로젝트들이 지속 가능성을 담보하기 어려운 상황에 놓였습니다. 과학자들은 일회성 투자로 끝날 것이 아니라 연구 생태계를 유지할 수 있는 안정적인 장기 예산 편성의 필요성을 역설하고 있습니다. 특히 신진 연구자들의 채용과 첨단 장비의 유지 보수 비용이 끊길 경우 유럽의 글로벌 기술 경쟁력이 약화될 위험이 큽니다. 각국 정부는 팬데믹 기금 종료 이후의 공백을 메우기 위한 대안적인 재정 지원 대책을 마련해야 한다는 강력한 압박을 받고 있습니다."
+    },
+    {
+      "title_en": "U.S. approval of cheap, generic HIV prevention shot may boost global rollout",
+      "url": "https://www.science.org/content/article/u-s-approval-cheap-generic-hiv-prevention-shot-may-boost-global-rollout",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "저가형 제네릭 HIV 예방 주사의 승인과 글로벌 확산 가능성",
+      "summary_kr": "미국 당국이 저렴한 가격의 제네릭 HIV 예방 주사제를 승인함에 따라 전 세계적인 HIV 감염 예방 활동이 획기적인 전기를 맞이할 것으로 보입니다. 인도의 한 제약사는 장기 지속형 주사제인 레나카파비르(lenacapavir)의 제네릭 버전을 저소득 및 중소득 국가에 연간 40달러라는 파격적인 가격으로 공급하기로 약속했습니다. 이는 기존 오리지널 약품의 높은 가격 문턱을 낮추어 의료 사각지대에 놓인 수많은 사람들에게 혜택을 줄 수 있는 결정입니다. 특히 매일 약을 복용하기 어려운 환경에 있는 환자들에게 몇 달에 한 번 맞는 주사제는 치료 순응도를 획기적으로 높여줍니다. 이번 승인은 글로벌 보건 불평등을 해소하고 전 지구적인 HIV 확산세를 억제하는 데 큰 동력이 될 것입니다. 국제 보건 기구들은 이 약품이 필요한 곳에 신속하고 안전하게 전달될 수 있도록 물류 공급망 확충에 박차를 가하고 있습니다."
+    },
+    {
+      "title_en": "Did scientists just find 115-million-year-old dinosaur blood?",
+      "url": "https://www.science.org/content/article/did-scientists-just-find-115-million-year-old-dinosaur-blood",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "1억 1,500만 년 전 공룡의 혈액 세포 발견 가능성과 과학적 논란",
+      "summary_kr": "일부 연구자들이 1억 1,500만 년 전 공룡의 화석에서 적혈구로 추정되는 구조를 발견했다고 발표하여 고생물학계에 큰 파장을 일으키고 있습니다. 이 주장이 사실로 확인된다면 공룡의 생리적 특징과 신진대사 과정을 이해하는 데 있어 혁명적인 단서가 될 것입니다. 그러나 많은 과학자들은 단백질이나 세포와 같은 유기물이 그렇게 긴 시간 동안 분해되지 않고 보존될 수 있는지에 대해 강한 의구심을 표하고 있습니다. 회의적인 시각을 가진 전문가들은 해당 구조가 화석화 과정에서 형성된 박테리아 생물막이거나 현대의 오염 물질일 가능성을 제기합니다. 과거에도 비슷한 발견 사례가 있었으나 대부분 정밀 검증 과정에서 오류로 판명되었던 전례가 있어 이번 발견 역시 매우 신중한 검증이 요구됩니다. 현재 연구팀은 첨단 분석 기법을 총동원하여 해당 세포 구조의 진위 여부와 화학적 구성을 확인하기 위한 후속 연구를 진행 중입니다."
+    },
+    {
+      "title_en": "‘Cellophane’ bees make their nests from biodegradable plastic",
+      "url": "https://www.science.org/content/article/cellophane-bees-make-their-nests-biodegradable-plastic",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "‘셀로판 벌’, 생분해성 플라스틱으로 둥지 짓는다",
+      "summary_kr": "콜레테스과(Colletidae)에 속하는 일명 ‘셀로판 벌’은 자신만의 독특한 방식으로 둥지를 보호하는 능력을 지니고 있습니다. 이 벌들은 특수한 분비물을 사용하여 둥지 내부에 투명하고 튼튼한 막을 형성하는데, 이 물질은 매우 견고하고 방수 기능이 뛰어난 것이 특징입니다. 최근 연구 결과에 따르면 이 막은 천연 폴리에스터 성분으로 이루어져 있으며, 환경에서 자연적으로 분해되는 생분해성 플라스틱의 성질을 띠고 있습니다. 과학자들은 극한의 환경에서도 둥지를 안전하게 보호하는 이 천연 소재의 구조와 내구성에 주목하고 있습니다. 이러한 발견은 인공적인 플라스틱 오염 문제를 해결하기 위한 지속 가능한 신소재 개발에 중요한 영감을 줄 수 있습니다. 자연에서 얻은 이 생체 고분자 물질은 향후 친환경 소재 공학 분야에서 새로운 혁신을 이끌어낼 잠재력을 가지고 있습니다."
+    },
+    {
+      "title_en": "The Moon may have squeezed Earth’s first continents into existence",
+      "url": "https://www.science.org/content/article/moon-may-have-squeezed-earth-s-first-continents-existence",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "달의 조석력이 지구 초기 대륙 형성의 핵심 동력이었을 가능성",
+      "summary_kr": "초기 지구의 대륙 지각이 형성된 배경에 달의 중력이 결정적인 역할을 했을 수 있다는 새로운 지질학적 가설이 제시되었습니다. 지구가 탄생한 초기에는 현재보다 자전 속도가 훨씬 빨랐으며, 이로 인해 원심력에 의해 지구가 적도 부근이 부푼 타원체 형태를 유지했습니다. 하지만 시간이 흐르며 달과의 상호작용으로 인해 지구의 자전 속도가 점차 느려졌고, 부풀었던 지각이 다시 구형으로 수축하는 과정을 거쳤습니다. 이 과정에서 지구의 지각에 엄청난 물리적 압박이 가해졌으며, 이것이 암석의 변성을 유도하여 대륙의 시초가 되는 지각을 형성했다는 분석입니다. 연구팀은 이러한 형태 변화가 단순한 물리적 현상을 넘어 판 구조론의 시작을 알리는 중요한 계기였다고 설명합니다. 이번 연구는 지구의 지질학적 진화 과정을 이해하는 데 있어 달의 기여도를 재조명하는 중요한 학술적 의미를 가집니다."
+    },
+    {
+      "title_en": "Castration extends life span, but in a surprising way, mouse study suggests",
+      "url": "https://www.science.org/content/article/castration-extends-life-span-surprising-way-mouse-study-suggests",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "거세가 수명을 연장하는 독특한 기전 규명: 쥐 모델 연구의 성과",
+      "summary_kr": "거세가 생명체의 수명을 연장한다는 사실은 예전부터 알려져 왔으나, 최근 쥐를 대상으로 한 연구에서 그 구체적이고 놀라운 생물학적 기전이 확인되었습니다. 연구진은 수컷 쥐의 생식 기능을 제거했을 때 나타나는 수명 연장 효과가 단순한 호르몬 변화를 넘어 면역 체계와 염증 반응의 재구조화에 기인한다는 점을 발견했습니다. 특히 노화 과정에서 발생하는 만성 염증을 억제하고 신진대사를 보다 효율적으로 유지하는 독특한 경로가 활성화되는 것으로 나타났습니다. 과학자들은 이러한 발견을 토대로 실제 거세를 하지 않고도 동일한 수명 연장 효과를 낼 수 있는 ‘거세 모사체(castration mimetics)’ 개발 가능성을 제시했습니다. 만약 이러한 약물이 현실화된다면 부작용 없이 노화 관련 질환을 예방하고 건강한 수명을 늘리는 새로운 전기가 마련될 것입니다. 이번 연구는 성호르몬과 노화 사이의 복잡한 연결 고리를 풀어내어 항노화 연구의 새로운 지평을 열었습니다."
+    },
+    {
+      "title_en": "STAT+: Democrats win power to push back on Trump’s health care moves",
+      "url": "https://www.statnews.com/2026/11/03/midterm-elections-what-democratic-control-senate-means-healthcare/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2302607354-645x645.jpg",
+      "title": "STAT+: 민주당 상원 장악, 트럼프의 보건 정책 추진에 제동 걸 것",
+      "summary_kr": "최근 선거 결과 민주당이 미국 상원의 다수당 지위를 확보하게 되면서 트럼프 행정부의 보건 의료 정책 행보에 상당한 변화가 예상됩니다. 상원 지배력을 통해 민주당은 주요 보건 공직자 임명에 대한 거부권을 행사할 수 있을 뿐만 아니라 예산 편성 과정에서도 강력한 영향력을 발휘하게 되었습니다. 이는 트럼프 대통령이 추진해 온 건강보험 체계의 급격한 변경이나 공중보건 예산 삭감 계획에 대해 강력한 견제 장치가 마련되었음을 의미합니다. 민주당 지도부는 기존 의료 보장 제도를 유지하고 강화하는 방향으로 정책적 공세를 펼칠 것으로 보이며, 이로 인해 향후 보건 의료 분야의 입법 과정에서 치열한 여야 공방이 불가피할 전망입니다. 전문가들은 이번 권력 구조의 변화가 미국의 의료 산업 전반과 환자들의 실질적인 혜택 범위에 장기적인 영향을 미칠 것으로 분석하고 있습니다. 결과적으로 이번 선거 승리는 트럼프 행정부의 독자적인 보건 의료 구상을 저지할 수 있는 결정적인 방어막이 될 것으로 보입니다."
+    },
+    {
+      "title_en": "STAT+: Servier’s $1.55 billion muscular dystrophy drug fails first major test",
+      "url": "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP20187431953446-645x645.jpg",
+      "title": "STAT+: 세르비에의 15.5억 달러 규모 근이영양증 치료제, 첫 임상 시험 실패",
+      "summary_kr": "제약사 세르비에(Servier)가 15억 5천만 달러라는 거액을 투자해 개발 중이던 근이영양증 치료제가 첫 번째 주요 임상 시험에서 예상치 못한 고배를 마셨습니다. 이 약물은 현재까지 마땅한 치료법이 없는 특정 형태의 근이영양증 환자들을 위해 개발되어 시장의 큰 기대를 모았던 후보 물질입니다. 그러나 최근 발표된 임상 데이터에 따르면, 약물을 투여한 환자군이 대조군에 비해 유의미한 기능 개선을 보이지 못한 것으로 나타나 큰 충격을 주고 있습니다. 이번 실패는 희귀 근육 질환 치료제 개발이 얼마나 까다롭고 위험 부담이 큰 영역인지를 다시 한번 입증하는 사례가 되었습니다. 세르비에 측은 이번 결과를 면밀히 분석하여 해당 약물의 지속 개발 여부와 향후 연구 방향을 재검토할 예정이라고 밝혔습니다. 환자 단체와 의료계는 기대를 모았던 신약의 좌절에 아쉬움을 표하면서도, 이번 실패가 다른 연구의 밑거름이 되기를 희망하고 있습니다."
+    },
+    {
+      "title_en": "STAT+: Amid Mass General Brigham layoffs, CEO pens vague letter, stirring staff anxiety",
+      "url": "https://www.statnews.com/2026/11/03/mass-general-brigham-layoffs-ceo-letter-staff-anxiety/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackimgh007-645x645.jpg",
+      "title": "STAT+: 매스 제네럴 브리검 해고 여파 속 CEO의 모호한 서한이 직원 불안 자극",
+      "summary_kr": "미국 최대 의료 시스템 중 하나인 매스 제네럴 브리검(Mass General Brigham)의 CEO가 최근 전 직원에게 보낸 이메일이 내부적인 혼란과 불안을 증폭시키고 있습니다. 이번 서한은 대규모 해고 조치가 시행된 지 불과 2주 만에 발송된 것으로, 향후 조직 운영에 대한 구체적인 설명 대신 다소 모호하고 추상적인 메시지만을 담고 있습니다. 직원들은 CEO의 이러한 암시적인 발언이 추가적인 구조조정이나 인력 감축을 예고하는 것이 아닌지 우려하며 극도의 긴장감을 나타내고 있는 상황입니다. 병원 내부에서는 경영진이 현장의 목소리를 경청하기보다 일방적이고 불투명한 소통 방식을 고수하고 있다는 비판이 제기되고 있습니다. 특히 의료 현장의 사기가 급격히 저하된 상태에서 발송된 모호한 이메일은 조직의 안정성을 더욱 해치고 있다는 지적이 많습니다. 앞으로 병원 측이 어떻게 직원들의 신뢰를 회복하고 경영 정상화를 이룰 수 있을지가 조직 운영의 핵심 과제가 될 전망입니다."
+    },
+    {
+      "title_en": "STAT+: Who will get the first psychedelic approved?",
+      "url": "https://www.statnews.com/2026/11/03/biotech-news-who-will-get-the-first-psychedelic-approved/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/AdobeStock_390511010-645x645.jpeg",
+      "title": "STAT+: 최초의 환각제 기반 치료제 승인 경쟁, 선두 주자는 누구?",
+      "summary_kr": "정신 질환 치료의 새로운 패러다임으로 주목받는 환각제 기반 의약품 시장에서 최초의 승인 타이틀을 차지하기 위한 바이오 기업들의 경쟁이 최고조에 달하고 있습니다. 현재 가장 유력한 후보 중 하나로 꼽히는 컴퍼스 패스웨이즈(Compass Pathways)는 임상 시험에서 유의미한 성과를 거두며 선두를 달리고 있습니다. 하지만 최근 비영리 단체와 다른 혁신 기업들이 뒤를 바짝 추격하면서, 누가 FDA의 문턱을 가장 먼저 넘을지는 아직 예측하기 어려운 상황입니다. 환각제 치료제는 기존 항우울제에 반응하지 않는 난치성 우울증 환자들에게 혁신적인 대안이 될 것으로 기대되어 의료계의 관심이 매우 높습니다. 다만 약물의 오남용 우려와 안전성 확보가 가장 큰 관건이며, 규제 당국인 FDA의 엄격한 심사 기준을 충족하는 것이 승부의 핵심이 될 것입니다. 과연 어떤 기업이 엄격한 규제를 뚫고 환각제 기반 치료제의 상용화 시대를 열게 될지 전 세계 제약 업계의 이목이 쏠리고 있습니다."
+    },
+    {
+      "title_en": "STAT+: What do the midterms mean for health care?",
+      "url": "https://www.statnews.com/2026/11/03/midterm-election-health-care-issues-dc-diagnosis-newsletter/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/GettyImages-2278723692-645x645.jpg",
+      "title": "STAT+: 미국 중간선거 결과가 향후 보건 의료 정책에 미칠 영향 분석",
+      "summary_kr": "최근 치러진 미국 중간선거의 결과가 향후 미국의 보건 의료 정책과 입법 방향에 중대한 변곡점이 될 것으로 보입니다. 이번 선거 결과에 따라 건강보험 정책의 유지 여부와 공중보건 관련 예산의 집행 우선순위가 크게 달라질 수 있기 때문입니다. 특히 공화당이 추진하는 MAHA(Make America Healthy Again) 캠페인과 민주당의 기존 의료 보장 강화 정책이 정치적 역학 관계 속에서 어떻게 충돌하고 조정될지가 핵심 쟁점입니다. 또한 의약품 가격 규제와 의료 AI 도입에 대한 가이드라인 마련 등 산적한 과제들이 새로운 의회 구성에 따라 어떤 속도로 추진될지도 관심사입니다. 의료 보험사와 제약 업계는 선거 결과가 가져올 규제 변화에 대비하여 발 빠르게 대응 전략을 마련하고 있는 모습입니다. 이번 선거는 국민들의 의료 접근성과 직접적으로 연결된 만큼, 향후 보건 정책의 불확실성을 해소하는 과정에서 정치권의 협치가 무엇보다 중요해졌습니다."
+    },
+    {
+      "title_en": "STAT+: FDA, CMS look to collaborate with states on health AI",
+      "url": "https://www.statnews.com/2026/11/03/fda-cms-collaborate-with-states-on-ai-heath-tech/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/AdobeStock_971648927_Editorial_Use_Only-645x645.jpeg",
+      "title": "STAT+: FDA와 CMS, 의료용 AI 규제를 위해 주 정부와 협력 강화 추진",
+      "summary_kr": "미국 식품의약국(FDA)과 연방의료보험서비스센터(CMS)가 급속도로 발전하는 의료 인공지능(AI) 기술의 안전한 관리를 위해 주 정부와 손을 잡았습니다. 이번 협력은 의료 현장에서 AI 도입이 가속화됨에 따라 발생할 수 있는 진단 오류, 법적 책임, 그리고 데이터 편향성 문제를 효과적으로 관리하기 위해 마련되었습니다. 연방 정부 차원의 표준 가이드라인을 수립하는 동시에, 각 주 정부가 지역 의료 환경에 맞춘 세부적인 규제를 실행할 수 있도록 지원하는 것이 핵심 내용입니다. 특히 AI를 사용하는 의사들의 법적 책임 보호 방안과 기술의 투명성을 높이기 위한 정책적 프레임워크가 집중적으로 논의되고 있습니다. 주 정부와의 긴밀한 공조를 통해 지역별 의료 격차를 해소하고, 환자들이 안심하고 AI 의료 서비스를 이용할 수 있는 환경을 조성하겠다는 취지입니다. 이러한 통합적인 규제 노력은 향후 AI가 미국 의료 시스템 내에 안정적으로 정착하는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about a generic HIV prevention shot, Lonza buying U.S. facilities, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "FDA, 닥터레디스의 제네릭 HIV 예방제 잠정 승인 및 주요 제약 소식",
+      "summary_kr": "미국 식품의약국(FDA)은 인도 제약사 닥터레디스 래버러토리스가 개발한 획기적인 HIV 예방제의 제네릭 버전에 대해 잠정 승인을 내렸습니다. 이번 승인은 HIV 예방을 위한 의료 접근성을 높이는 데 중요한 이정표가 될 것으로 기대됩니다. 해당 약물은 기존의 고가 치료제를 대체할 수 있는 경제적인 대안으로 주목받고 있습니다. 또한 이 소식과 함께 글로벌 위탁개발생산 기업인 론자가 미국 내 생산 시설을 인수했다는 소식도 전해졌습니다. 제약 업계는 이번 제네릭 승인이 향후 시장 판도에 미칠 영향을 예의주시하고 있습니다. 이처럼 저렴한 예방 약물의 보급은 공중 보건 차원에서 HIV 확산을 막는 데 핵심적인 역할을 할 것입니다."
+    },
+    {
+      "title_en": "Child dies of measles in New York’s first such death in 30 years",
+      "url": "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP26281819303780-645x645.jpg",
+      "title": "뉴욕주에서 30년 만에 첫 홍역 사망 어린이 발생",
+      "summary_kr": "뉴욕주 북부 시골 지역에서 한 어린이가 홍역에 감염되어 사망하는 안타까운 사건이 발생했습니다. 이번 사망 사고는 뉴욕주에서 홍역으로 인한 사망자가 나온 지 무려 30년 만에 처음 있는 일입니다. 보건 당국은 이번 사례가 최근 다시 고개를 들고 있는 홍역 확산 추세와 관련이 있는지 긴밀히 조사 중입니다. 홍역은 전염성이 매우 강한 질병임에도 불구하고 백신 접종을 통해 충분히 예방 가능하다는 점에서 이번 사망은 큰 충격을 주고 있습니다. 지역 사회 내에서는 백신 접종의 중요성에 대한 경각심이 다시금 높아지고 있는 상황입니다. 전문가들은 추가적인 감염 확산을 막기 위해 방역 체계를 재점검해야 한다고 강조하고 있습니다."
+    },
+    {
+      "title_en": "First U.S. bird flu death of the year after cattle exposure",
+      "url": "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/06/53289634317_9b59448ee7_3k-645x645.jpg",
+      "title": "가축 노출에 의한 올해 첫 미국 조류 인플루엔자 사망자 발생",
+      "summary_kr": "워싱턴주에서 한 주민이 가축에 노출된 이후 조류 인플루엔자 합병증으로 사망했다고 AP 통신이 보도했습니다. 이는 올해 미국에서 발생한 조류 인플루엔자 관련 첫 번째 사망 사례이며, 전체적으로는 세 번째 사례에 해당합니다. 이번 사건은 가축으로부터 인간에게로 바이러스가 전파될 수 있다는 위험성을 다시 한번 입증했습니다. 보건 전문가들은 가축 사육 환경에서의 방역 조치가 매우 중요하다고 지적하며 우려를 표하고 있습니다. 현재 당국은 사망자의 정확한 감염 경로를 파악하기 위해 심층 역학 조사를 진행하고 있습니다. 이번 사망 사례는 변이 바이러스의 출현 가능성과 인간 간 전파 위험에 대한 감시 체계를 강화해야 할 필요성을 시사합니다."
+    },
+    {
+      "title_en": "NASA’s Swift Observatory Is Falling to Earth. Here’s What to Know About the Impending Impact",
+      "url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://media.wired.com/photos/6ae8c770a02f1e9caf32860c/master/pass/swiftnasa.jpg",
+      "title": "나사 스위프트 천문 위성 지구 추락 임박, 주요 정보 및 예상 경로",
+      "summary_kr": "무게가 약 3,200파운드에 달하는 나사의 스위프트 천문 위성이 이번 주 후반 지구 대기권에 재진입할 것으로 예상됩니다. 이번 위성 추락의 재진입 예상 구역은 아프리카, 호주, 동남아시아, 그리고 남미의 일부 지역을 포함하는 광범위한 지역입니다. 스위프트 위성은 그동안 우주에서 발생하는 강력한 감마선 폭발을 관측하며 많은 과학적 성과를 거두어 왔습니다. 대기권 재진입 과정에서 위성 본체의 상당 부분은 소실될 것으로 보이나 일부 잔해의 지표면 추락 가능성도 배제할 수 없습니다. 나사와 국제 우주 기구들은 위성의 이동 경로를 실시간으로 모니터링하며 잠재적 위험에 대비하고 있습니다. 이번 추락은 수명이 다한 저궤도 위성의 안전한 폐기 문제가 얼마나 중요한 과제인지를 다시 한번 상기시켜 줍니다."
+    },
+    {
+      "title_en": "Ancient Meteorite Found in the Sahara Holds Secrets About Mars’ Watery Past",
+      "url": "https://www.wired.com/story/ancient-fragment-from-mars-found-in-the-sahara-holds-secrets-about-the-planets-watery-past/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://media.wired.com/photos/6ae8fe6dbbb2a7fcc242fba1/master/pass/505137454",
+      "title": "사하라에서 발견된 고대 운석, 화성의 물의 역사에 대한 비밀을 밝히다",
+      "summary_kr": "사하라 사막에서 발견된 41억 년 전의 고대 운석이 화성의 물의 역사에 대한 중요한 단서를 간직하고 있는 것으로 밝혀졌습니다. 과학자들은 이 운석을 화성의 환경 변화를 해독할 수 있는 '로제타 스톤'이라 부르며 큰 기대를 걸고 있습니다. 이 운석은 태양계가 형성된 이후 화성의 환경이 어떻게 변화해 왔는지를 보여주는 귀중한 정보를 보존하고 있습니다. 특히 화성에 과거에 물이 존재했음을 시사하는 지질학적 증거들을 포함하고 있어 학술적 가치가 매우 높습니다. 이번 연구 결과는 화성의 생명체 존재 가능성과 행성의 진화 과정을 이해하는 데 큰 도움이 될 것입니다. 사하라에서 발견된 이 작은 조각이 붉은 행성인 화성의 신비를 푸는 열쇠가 되고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/abbvie-invests-ps120m-uk-including-new-rd-headquarters\" hreflang=\"en\">AbbVie invests £120M in UK, including new R&amp;D headquarters</a>",
+      "url": "https://www.fiercebiotech.com/biotech/abbvie-invests-ps120m-uk-including-new-rd-headquarters",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "애브비, 영국에 신규 R&D 본부 포함 1억 2,000만 파운드 투자 결정",
+      "summary_kr": "글로벌 제약사 애브비는 영국의 생명 과학 부문에 대한 강력한 신뢰를 바탕으로 1억 2,000만 파운드 규모의 대규모 투자를 결정했습니다. 이번 투자의 핵심은 영국 현지에 새로운 연구개발(R&D) 본부를 설립하여 연구 역량을 대폭 확장하는 것입니다. 애브비의 이러한 결정은 브렉시트 이후 영국의 바이오 산업 생태계에 큰 활력을 불어넣을 것으로 기대됩니다. 새로운 R&D 본부는 혁신 신약 개발을 위한 중심 거점 역할을 수행하며 수많은 전문 인력을 채용할 예정입니다. 영국 정부 또한 애브비의 투자를 환영하며 자국의 생명 과학 산업 경쟁력을 강화하는 기회로 삼고 있습니다. 이번 투자는 글로벌 제약사들이 영국의 우수한 연구 인프라와 인재를 높게 평가하고 있음을 보여주는 사례입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/philips-books-322m-payment-proposed-doj-settlement-over-sleep-apnea-device-recall\" hreflang=\"en\">Philips sets aside $322M for proposed DOJ settlement over sleep apnea device recall</a>",
+      "url": "https://www.fiercebiotech.com/medtech/philips-books-322m-payment-proposed-doj-settlement-over-sleep-apnea-device-recall",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "필립스, 수면 무호흡증 기기 리콜 관련 법무부 합의금으로 3억 2,200만 달러 책정",
+      "summary_kr": "필립스의 레스피로닉스 부문은 결함 가능성이 제기된 수면 무호흡증 치료 기기 리콜 사건과 관련하여 미국 법무부와 합의를 위한 원칙적 합의에 도달했습니다. 필립스는 이번 합의금을 마련하기 위해 총 3억 2,200만 달러의 예산을 별도로 책정해 둔 상태입니다. 이번 조사는 장기간에 걸쳐 진행되었으며, 리콜된 기기 내부의 소음 저감 폼이 인체에 유해할 수 있다는 우려에서 시작되었습니다. 회사는 이번 합의를 통해 오랫동안 지속되어 온 법적 불확실성을 해소하고 기업 이미지를 쇄신하고자 노력하고 있습니다. 환자 안전 문제로 시작된 이번 사태는 의료 기기 업계 전반에 걸쳐 품질 관리의 중요성을 일깨워준 중대한 사건입니다. 향후 필립스는 제품의 안전성을 보장하기 위한 더욱 엄격한 공정 관리를 도입할 것으로 보입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/rhythm-doubles-down-lg-obesity-license-raising-payout-much-855m\" hreflang=\"en\">Rhythm doubles down on LG obesity license, raising payout to as much as $855M</a>",
+      "url": "https://www.fiercebiotech.com/biotech/rhythm-doubles-down-lg-obesity-license-raising-payout-much-855m",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "리듬 파마슈티컬스, LG화학의 비만 치료제 라이선스 계약 8억 5,500만 달러로 확대",
+      "summary_kr": "리듬 파마슈티컬스는 LG화학과 체결했던 비만 및 과식증 치료제 '비바멜라곤'의 라이선스 계약 조건을 대폭 강화했습니다. 이번 계약 변경을 통해 리듬 파마슈티컬스가 LG화학에 지급해야 할 대금은 기존 3억 500만 달러에서 최대 8억 5,500만 달러로 크게 늘어났습니다. 이는 비바멜라곤의 상업적 성공 가능성을 높게 평가한 전략적 결정으로 풀이됩니다. 특히 경구용 비만 치료제로서 이 약물이 가진 경쟁력이 시장에서 큰 관심을 받고 있는 상황입니다. 양사는 이번 협력을 통해 글로벌 비만 치료제 시장에서의 점유율을 더욱 공격적으로 확대해 나갈 계획입니다. 이번 계약 수정은 한국 제약사의 신약 후보 물질이 글로벌 시장에서 그 가치를 인정받았다는 점에서 큰 의미가 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/abbvie-abandons-phase-2-stage-solid-tumor-drug-over-limited-benefit\" hreflang=\"en\">AbbVie abandons phase 2 solid tumor drug over ‘limited benefit’</a>",
+      "url": "https://www.fiercebiotech.com/biotech/abbvie-abandons-phase-2-stage-solid-tumor-drug-over-limited-benefit",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "애브비, '제한적 효능' 이유로 2상 단계 고형암 치료제 개발 중단",
+      "summary_kr": "글로벌 제약사 애브비가 개발 중이던 2상 단계의 고형암 치료 후보물질에 대한 연구를 전격 중단하기로 결정했습니다. 해당 약물은 단클론 항체 치료제로 개발되었으나, 최근 내부 평가 결과 기존의 표준 치료법보다 우수한 효능을 보이기 어려울 것이라는 결론이 내려졌습니다. 애브비 측은 한정된 자원을 보다 유망한 파이프라인에 집중하기 위해 이번 중단 결정을 내린 것으로 알려졌습니다. 암 치료제 시장의 경쟁이 치열해지면서 단순한 효능 이상의 차별화된 이점을 입증해야 하는 임상적 장벽이 높아진 결과로 풀이됩니다. 이번 결정에 따라 해당 후보물질은 더 이상 임상 시험을 진행하지 않게 되었습니다. 제약 업계에서는 이를 두고 신약 개발 과정에서 발생하는 전략적 포트폴리오 재편의 일환으로 보고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/pfizer-drops-phase-2-lung-disease-candidate-pares-back-obesity-pipeline\" hreflang=\"en\">Pfizer pares back obesity pipeline, drops phase 2-stage lung disease candidate</a>",
+      "url": "https://www.fiercebiotech.com/biotech/pfizer-drops-phase-2-lung-disease-candidate-pares-back-obesity-pipeline",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "화이자, 비만 치료제 파이프라인 축소 및 폐고혈압 후보물질 개발 중단",
+      "summary_kr": "화이자가 사업적인 판단에 따라 폐동맥 고혈압 치료를 위한 임상 2상 프로그램을 중단한다고 발표했습니다. 해당 프로그램은 BMP9를 표적으로 하여 폐 질환을 치료하고자 했던 장기적인 노력의 결과물이었으나 결국 중단이라는 고배를 마시게 되었습니다. 이와 더불어 화이자는 최근 열기가 뜨거운 비만 치료제 파이프라인에 대해서도 일부 구조조정을 단행하며 사업 범위를 축소했습니다. 이러한 움직임은 기업의 수익성과 자원 효율성을 극대화하기 위한 전략적 선택으로 해석됩니다. 화이자는 향후 보다 시장 잠재력이 높거나 성공 가능성이 확실한 프로젝트에 연구 역량을 집중할 것으로 보입니다. 이번 발표로 인해 화이자의 R&D 우선순위가 크게 재편되고 있음을 알 수 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/abbotts-tectonic-test-looks-shift-artery-disease-treatment-early-win\" hreflang=\"en\">Abbott's Tectonic test looks to shift artery disease treatment with ‘early’ win</a>",
+      "url": "https://www.fiercebiotech.com/medtech/abbotts-tectonic-test-looks-shift-artery-disease-treatment-early-win",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "애보트, 관상동맥 질환 치료를 위한 '텍토닉' 임상에서 초기 긍정적 결과 도출",
+      "summary_kr": "애보트가 관상동맥 질환 치료를 위해 개발 중인 '소닉포스(SonicForce)' 혈관 내 충격파석쇄술(IVL) 시스템의 임상 결과를 발표했습니다. 텍토닉(Tectonic) 임상 시험의 30일 추적 관찰 결과, 해당 시스템은 환자들에게 긍정적인 치료 효과를 보인 것으로 나타났습니다. 이 시스템은 석회화된 혈관을 치료하는 데 있어 기존 방식보다 진일보한 기술을 제공하는 것을 목표로 합니다. 하지만 업계 분석가들은 30일이라는 짧은 기간의 데이터만으로 시스템의 완전한 성공을 예단하기에는 이르다며 신중한 입장을 보이고 있습니다. 초기 지표는 고무적이지만 장기적인 안전성과 효능을 입증하기 위한 추가적인 관찰이 필수적이라는 지적입니다. 애보트는 이번 초기 성과를 바탕으로 혈관 질환 치료 시장에서의 입지를 강화할 계획입니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/novartis-scraps-800m-bioartic-neuroscience-collab-after-barely-year\" hreflang=\"en\">BioArctic left out in the cold as Novartis walks away from $800M neuro collab</a>",
+      "url": "https://www.fiercebiotech.com/biotech/novartis-scraps-800m-bioartic-neuroscience-collab-after-barely-year",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "노바티스, 바이오아크틱과의 8억 달러 규모 신경과학 협력 계약 1년 만에 파기",
+      "summary_kr": "스위스의 거대 제약사 노바티스가 스웨덴의 바이오 기업 바이오아크틱(BioArctic)과 맺었던 대규모 파트너십을 종료했습니다. 양사는 불과 14개월 전에 최대 8억 달러 규모에 달하는 신경과학 분야 공동 연구 계약을 체결한 바 있습니다. 그러나 노바티스가 돌연 계약 파기를 결정하면서 바이오아크틱은 거대 파트너를 잃게 되는 타격을 입었습니다. 이번 협력은 알츠하이머 등 난치성 신경 질환 치료제 개발을 목표로 했으나, 조기에 종료되면서 업계의 궁금증을 자아내고 있습니다. 구체적인 종료 사유는 상세히 밝혀지지 않았지만, 노바티스의 내부 연구 우선순위 변경이 주요 원인으로 추측됩니다. 바이오아크틱은 이번 협력 종료에도 불구하고 독자적인 연구를 지속해 나갈 의지를 보이고 있습니다."
+    },
+    {
+      "title_en": "China biotech Minghui does thyroid eye disease deal for $110M upfront",
+      "url": "https://endpoints.news/china-biotech-minghui-does-thyroid-eye-disease-deal-for-110m-upfront/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "중국 밍후이 제약, 갑상선 안병증 치료제 일본 판권 1억 1,000만 달러에 매각",
+      "summary_kr": "상하이에 본사를 둔 중국의 바이오 기업 밍후이 제약이 자사의 갑상선 안병증(TED) 치료제에 대한 일본 내 권리를 매각하는 계약을 체결했습니다. 이번 계약의 상대는 100년 이상의 역사를 가진 일본의 갑상선 호르몬 전문 제약사로 선정되었습니다. 밍후이 제약은 이번 거래를 통해 1억 1,000만 달러의 선급금을 확보하게 되며, 이는 중국 바이오 기술의 경쟁력을 보여주는 사례로 평가받습니다. 해당 치료제는 현재 임상 3상 단계에 있어 상업화 가능성이 매우 높은 유망한 후보물질입니다. 일본 파트너사는 오랜 기간 축적된 갑상선 질환 분야의 네트워크를 활용해 해당 약물을 시장에 안착시킬 계획입니다. 이번 대규모 딜은 아시아 제약 시장 내에서의 기술 교류와 협력이 활발해지고 있음을 시사합니다."
+    },
+    {
+      "title_en": "Ultragenyx to lay off 20% of employees, scrap a Wilson disease gene therapy",
+      "url": "https://endpoints.news/ultragenyx-to-lay-off-20-of-employees-scrap-a-wilson-disease-gene-therapy/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "울트라제닉스, 인력 20% 감축 및 윌슨병 유전자 치료제 개발 중단",
+      "summary_kr": "희귀 질환 치료제 전문 기업인 울트라제닉스가 전체 직원의 20%를 해고하는 대대적인 인력 감축 계획을 발표했습니다. 이는 올해 들어 두 번째로 시행되는 대규모 감원 조치로, 회사의 경영 상황이 녹록지 않음을 보여줍니다. 이와 함께 회사는 진행 중이던 윌슨병 유전자 치료제 개발 프로그램도 전면 중단하기로 결정했습니다. 지난 3분기에 두 건의 FDA 승인을 얻는 성과가 있었음에도 불구하고, 엔젤만 증후군 임상에서의 난항이 이번 결정의 배경이 된 것으로 보입니다. 울트라제닉스는 불확실한 시장 환경 속에서 자금 효율성을 높이기 위해 수익성이 낮은 사업을 정리하는 중입니다. 캘리포니아에 위치한 본사는 향후 핵심 파이프라인의 성공에 모든 역량을 집중할 방침입니다."
+    },
+    {
+      "title_en": "Servier's $1.5B bet on Edgewise drug fails five months in",
+      "url": "https://endpoints.news/serviers-1-5b-bet-on-edgewise-drug-fails-five-months-in/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "세르비에, 15억 달러 투자한 근이영양증 치료제 임상 실패로 위기",
+      "summary_kr": "제약사 세르비에가 엣지와이즈 테라퓨틱스로부터 15억 5,000만 달러라는 거액을 들여 도입한 근이영양증 치료제가 임상 시험에서 고배를 마셨습니다. '세바셈텐(sevasemten)'으로 알려진 이 약물은 핵심적인 임상 3상 시험인 '그랜드 캐년' 연구에서 목표를 달성하지 못했습니다. 발표된 결과에 따르면, 해당 약물은 1차 및 2차 유효성 평가 지표를 모두 충족하는 데 실패한 것으로 나타났습니다. 계약을 체결한 지 불과 5개월 만에 실패 소식이 전해지면서 세르비에의 대규모 투자는 성과를 거두지 못할 처지에 놓였습니다. 이 약물은 근육 질환 치료의 새로운 대안으로 기대를 모았으나, 실제 임상 현장의 벽을 넘지는 못했습니다. 회사는 이번 임상 데이터를 면밀히 분석하여 향후 해당 약물의 운명을 결정할 예정입니다."
+    },
+    {
+      "title_en": "Bourla expects no changes to MFN deals after midterms",
+      "url": "https://endpoints.news/bourla-expects-no-changes-to-mfn-deals-after-midterms/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "화이자 CEO, \"미국 중간선거 결과가 기존 약가 합의에 미칠 영향 미미할 것\"",
+      "summary_kr": "알버트 불라 화이자 최고경영자(CEO)가 미국의 중간선거 이후 제약 정책 변화 가능성에 대해 낙관적인 전망을 내놓았습니다. 그는 민주당이 의회에서 우세한 성적을 거두더라도, 제약사들이 기존에 정부와 맺은 약가 관련 합의에는 큰 변화가 없을 것이라고 주장했습니다. 특히 트럼프 행정부 시절 논의되었던 최혜국(MFN) 대우 관련 약가 정책 틀이 유지될 가능성이 높다고 보았습니다. 불라 CEO는 현재의 정치적 환경에서 급격한 법적 변화가 일어나기는 매우 어려울 것이라고 분석했습니다. 이는 제약 업계가 우려하는 약가 인하 압박 등 정책적 불확실성에 대해 투자자들을 안심시키려는 발언으로 해석됩니다. 화이자는 정치적 변화와 관계없이 장기적인 사업 계획을 흔들림 없이 추진할 것이라는 의지를 피력했습니다."
+    },
+    {
+      "title_en": "Post-Hoc Live: What the US midterm elections mean for biopharma",
+      "url": "https://endpoints.news/post-hoc-live-what-the-us-midterm-elections-mean-for-biopharma/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "[라이브] 미 중간선거 결과가 바이오 제약 산업에 미치는 영향 분석",
+      "summary_kr": "이번 포스트-호크 라이브 세션에서는 미국 중간선거 결과가 바이오 제약 업계에 가져올 변화를 집중적으로 다룹니다. 민주당이 의회 다수당을 차지할 것으로 예상됨에 따라 생명공학 및 제약 부문에 광범위한 영향이 미칠 것으로 보입니다. 선거 결과에 따른 약가 규제나 투자 환경의 변화 등 정책적 불확실성에 대한 전문가들의 분석이 실시간으로 제공될 예정입니다. 이번 행사는 수요일 오후 1시 30분(동부 표준시)에 온라인으로 진행되어 업계 관계자들의 높은 관심을 받고 있습니다. 특히 새로운 의회 지형이 혁신 신약 승인 절차나 의료 보험 정책에 어떠한 변동을 가져올지가 주요 쟁점입니다. 글로벌 제약 시장의 향후 방향성을 가늠해 볼 수 있는 중요한 자리가 될 것입니다."
+    },
+    {
+      "title_en": "The biggest conversations in health tech",
+      "url": "https://endpoints.news/the-biggest-conversations-in-health-tech/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "헬스 테크 분야의 핵심 의제: 제2회 엔드포인트 헬스 테크 데이 개최",
+      "summary_kr": "의료 기술 분야에서 가장 중요한 대화들이 오가는 '엔드포인트 헬스 테크 데이'가 올해로 두 번째를 맞이합니다. 필자는 이번 행사에 참여하기 위해 곧 비행기에 몸을 실을 예정이며, 목요일에는 온라인을 통해 전 세계 전문가들과 소통하게 됩니다. 이번 컨퍼런스는 헬스 테크 산업의 최신 트렌드와 미래 전망을 심도 있게 다루는 자리로 기획되었습니다. 디지털 헬스케어, 데이터 분석, 원격 의료 등 급격히 변화하는 의료 환경 속에서 혁신적인 기술들이 어떻게 적용되고 있는지 논의합니다. 참가자들은 업계 리더들과의 네트워킹을 통해 새로운 협력 기회를 모색하고 최첨단 기술 사례를 공유할 수 있습니다. 한 해 중 가장 기대되는 행사로 꼽히는 만큼, 헬스 테크의 현재와 미래를 연결하는 소중한 시간이 될 것입니다."
+    },
+    {
+      "title_en": "Pfizer lifts 2026 guidance as cancer, migraine sales offset Covid slide",
+      "url": "https://endpoints.news/pfizer-lifts-2026-guidance-as-cancer-migraine-sales-offset-covid-slide/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "화이자, 항암제 및 편두통 치료제 매출 성장에 힘입어 2026년 실적 전망 상향",
+      "summary_kr": "글로벌 제약사 화이자가 암 질환 및 편두통 사업 부문의 강력한 성장에 힘입어 2026년 재무 가이던스를 상향 조정했습니다. 이는 코로나19 관련 제품의 매출이 급격히 감소하는 상황에서 거둔 고무적인 성과로 평가받습니다. 화이자의 3분기 실적 보고에 따르면, 항암제 분야와 편두통 치료제가 시장에서 견고한 점유율을 확보하며 코로나 특수 종료에 따른 공백을 성공적으로 메우고 있습니다. 이러한 사업 다각화 전략은 투자자들에게 긍정적인 신호를 보내고 있으며, 장기적인 성장 동력을 확보했음을 입증하고 있습니다. 회사는 앞으로도 고부가가치 의약품 포트폴리오를 강화하여 지속 가능한 수익성을 유지할 계획입니다. 이번 발표는 팬데믹 이후 화이자가 나아가야 할 새로운 방향성을 명확히 보여주는 사례라 할 수 있습니다."
+    },
+    {
+      "title_en": "Novartis ends BioArctic pact; Two VC firms raise inaugural funds",
+      "url": "https://endpoints.news/novartis-ends-bioarctic-pact-two-vc-firms-raise-inaugural-funds/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "노바티스, 바이오아크틱과의 파트너십 종료 및 신규 벤처 펀드 조성 소식",
+      "summary_kr": "스위스의 거대 제약사 노바티스가 스웨덴의 생명공학 기업 바이오아크틱과 진행하던 초기 단계의 연구 협력을 중단하기로 결정했습니다. 바이오아크틱은 알츠하이머 치료제인 '레켐비'를 개발한 것으로 잘 알려진 신경퇴행성 질환 전문 기업입니다. 이번 협력 종료 결정이 노바티스의 향후 파이프라인 전략에 어떠한 변화를 가져올지 업계의 이목이 쏠리고 있습니다. 한편, 바이오 분야의 두 벤처 캐피털 업체가 첫 번째 펀드 조성에 성공했다는 소식과 함께 테바, 울트라제닉스 등에 관한 최신 뉴스도 전해졌습니다. 제약 업계의 협력 구조가 재편되는 가운데 신규 자본의 유입은 시장에 새로운 활력을 불어넣을 것으로 기대됩니다. 이번 소식들은 급변하는 바이오 제약 생태계의 역동적인 모습을 잘 보여주고 있습니다."
+    },
+    {
+      "title_en": "Bayer CEO says company is ‘working on’ MFN in the US",
+      "url": "https://endpoints.news/bayer-signals-it-is-working-on-mfn-deal-in-the-us-ceo-says/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "바이엘 CEO, 미국 정부와 '최혜국 대우(MFN)' 협정 추진 공식화",
+      "summary_kr": "바이엘의 CEO 빌 앤더슨은 최근 인터뷰를 통해 자사가 미국 내에서 '최혜국 대우(MFN)' 협정을 체결하기 위해 노력 중이라고 밝혔습니다. 이는 도널드 트럼프 행정부와의 긴밀한 논의가 진행되고 있음을 시사하는 것으로, 약가 정책 및 시장 접근성 측면에서 중요한 의미를 갖습니다. 독일 제약사인 바이엘은 과거 유사한 논의 과정에서 포함되지 않았으나, 이번에 적극적인 행보를 보이고 있습니다. MFN 협정은 의약품 가격을 타국의 최저 수준에 맞추는 내용을 골자로 하고 있어 업계 내 파장이 클 것으로 예상됩니다. 바이엘의 이러한 전략적 움직임은 미국 시장에서의 경쟁력을 유지하고 규제 변화에 선제적으로 대응하려는 의도로 풀이됩니다. 향후 정부와의 협상 결과가 바이엘의 글로벌 매출 구조에 어떤 영향을 미칠지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "Updated: Merck KGaA is selling its CDMO business in the US to Lonza",
+      "url": "https://endpoints.news/merck-kgaa-to-exit-cdmo-business-divesting-us-sites-to-lonza/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "머크 KGaA, 미국 내 위탁개발생산(CDMO) 사업 부문 론자에 매각",
+      "summary_kr": "독일의 머크 KGaA가 자사의 미국 내 위탁개발생산(CDMO) 사업을 스위스의 론자에 매각하기로 합의했습니다. 이번 거래에는 미국 내 5개 제조 시설과 약 1,100명에 달하는 전문 인력이 포함되어 있어 업계의 대규모 구조 재편으로 평가받습니다. 비록 구체적인 매각 금액 등 재무적 세부 사항은 공개되지 않았으나, 양사 모두에게 전략적 이익을 가져다줄 것으로 보입니다. 론자는 이번 인수를 통해 미국 시장에서의 생산 역량을 비약적으로 확대하고 글로벌 CDMO 시장에서의 지배력을 더욱 공고히 할 계획입니다. 반면 머크 KGaA는 비핵심 사업 정리를 통해 얻은 자원을 자사만의 혁신적인 파이프라인 개발에 집중 투자할 수 있게 되었습니다. 글로벌 제약 서비스 시장의 경쟁이 치열해지는 가운데 이번 빅딜이 가져올 연쇄적인 파급 효과에 관심이 집중되고 있습니다."
+    },
+    {
+      "title_en": "Vertex, ahead of FDA decision, calms fears surrounding kidney drug",
+      "url": "https://www.biopharmadive.com/news/vertex-earnings-q3-2026-povetacicept-iga-nephropathy-kidney/873600/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "버텍스, FDA 승인 결정을 앞두고 신장 질환 치료제에 대한 시장 우려 불식",
+      "summary_kr": "버텍스 파마슈티컬스의 경영진은 최근 컨퍼런스 콜을 통해 출시를 앞둔 신장 질환 치료제의 성공 가능성에 대해 강한 자신감을 표명했습니다. 해당 약물은 IgA 신병증 치료를 목적으로 하며, 월가 투자자들 사이에서 버텍스의 미래 성장을 견인할 핵심 자산으로 평가받고 있습니다. FDA의 승인 결정이 임박한 시점에서 제기된 일부 우려 섞인 시선에 대해 회사 측은 확고한 임상 데이터와 시장 수요를 근거로 정면 돌파에 나섰습니다. 이번 신약이 승인될 경우 버텍스는 기존 희귀 질환 중심의 포트폴리오를 더욱 확장하는 중요한 전기를 맞이하게 됩니다. 경영진의 적극적인 소통은 불확실성을 해소하고 투자자들의 신뢰를 회복하는 데 긍정적인 역할을 하고 있습니다. 향후 FDA의 최종 결정에 따라 버텍스의 주가와 기업 가치에도 큰 변화가 있을 것으로 예상됩니다."
+    },
+    {
+      "title_en": "Medicare Part D premiums are spiking 50% on average next year, KFF finds",
+      "url": "https://www.biopharmadive.com/news/medicare-part-d-premiums-skyrocket-2027-kff/873552/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "내년도 미국 메디케어 파트 D 보험료 평균 50% 급등 전망",
+      "summary_kr": "카이저 가족 재단(KFF)의 최근 분석에 따르면, 내년도 미국 메디케어 파트 D(처방약 보험)의 보험료가 평균 50%나 급등할 것으로 보입니다. 이러한 유례없는 인상 폭은 고령층의 경제적 부담을 심화시킬 수 있어 보건 정책 전문가들의 우려를 자아내고 있습니다. KFF는 노년층 가입자들이 보험 가입 기간 동안 각 플랜별 비용 차이를 면밀히 검토하고 신중하게 선택할 것을 권고하고 있습니다. 보험사마다 보장 범위와 약값 책정 방식이 크게 다르기 때문에 꼼꼼한 비교가 필수적이라는 지적입니다. 특히 필수 의약품에 대한 접근성이 제한되지 않도록 정부 차원의 대책 마련이 시급하다는 목소리도 나오고 있습니다. 이번 보험료 인상은 미국의 의료 보장 체계와 가계 경제 모두에 상당한 압박으로 작용할 전망입니다."
+    },
+    {
+      "title_en": "UniQure gets an FDA decision date; Teva scraps brain drug study",
+      "url": "https://www.biopharmadive.com/news/uniqure-fda-bright-minds-specific-teva-cinrock/873455/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "유니큐어(UniQure), FDA 결정일 확정 및 테바(Teva)의 뇌 질환 약물 연구 중단",
+      "summary_kr": "미국 식품의약국(FDA)이 업계의 큰 관심을 받고 있는 유니큐어의 헌팅턴병 유전자 치료제에 대해 자문위원회를 개최할 것으로 보입니다. 이번 결정은 유전자 치료제의 상용화 가능성을 가늠할 중요한 이정표가 될 전망입니다. 반면 테바 제약은 최근 임상 결과에 따라 특정 뇌 질환 치료 후보 물질의 연구를 중단하기로 결정했습니다. 이와 같은 소식은 바이오테크 분야의 높은 불확실성을 다시 한번 확인시켜 주었습니다. 실제로 한 바이오 기업은 규제 당국의 결정 이후 주가가 절반으로 급락하는 등 큰 타격을 입기도 했습니다. 현재 시장은 혁신적인 치료제의 승인 여부와 함께 기업들의 전략적 연구 중단 소식에 민감하게 반응하고 있습니다."
+    },
+    {
+      "title_en": "FDA puts partial hold on Bright Minds’ Phase II seizure study",
+      "url": "https://www.clinicaltrialsarena.com/news/fda-puts-partial-hold-on-bright-minds-phase-ii-seizure-study/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2345272707-3.jpg",
+      "title": "FDA, 브라이트 마인즈의 2상 뇌전증 연구에 부분적 중단 조치",
+      "summary_kr": "브라이트 마인즈(Bright Minds)는 자사가 진행 중인 뇌전증 치료제 임상 2상 시험에 대해 FDA로부터 부분적 임상 중단 통보를 받았다고 발표했습니다. 이 발표가 시장에 전달되자마자 해당 기업의 주가는 약 52% 폭락하며 큰 변동성을 보였습니다. 임상 중단 조치는 대개 안전성이나 데이터의 신뢰성 문제로 인해 발생하며 개발 일정에 차질을 빚게 됩니다. 회사 측은 현재 규제 기관의 요구 사항을 해결하기 위해 긴밀히 소통하고 있는 것으로 알려졌습니다. 이번 사건은 신약 개발 과정에서 겪게 되는 전형적인 규제 리스크의 사례로 꼽힙니다. 투자자와 의료계는 향후 임상 재개 여부와 추가적인 데이터 결과에 촉각을 곤두세우고 있습니다."
+    },
+    {
+      "title_en": "Abbott’s Amulet 360 demonstrates strong one-year outcomes in AFib patients",
+      "url": "https://www.clinicaltrialsarena.com/news/abbott-amulet-360-demonstrates-strong-one-year-outcomes-in-afib-patients/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_712414345.jpg",
+      "title": "애보트의 아뮬렛 360, 심방세동 환자 대상 1년 추적 관찰에서 우수한 성과 입증",
+      "summary_kr": "애보트(Abbott)의 아뮬렛 360(Amulet 360) 장치가 심방세동(AFib) 환자를 대상으로 한 임상에서 긍정적인 1년 경과 데이터를 확보했습니다. 이 장치는 심장의 좌심방이(LAA)를 폐쇄하여 혈전 생성을 차단함으로써 뇌졸중 위험을 낮추도록 설계되었습니다. 특히 기존의 혈액 희석제 복용이 어려운 환자들에게 안전하고 효과적인 대안을 제공하는 것이 주된 목표입니다. 연구 결과에 따르면 시술 후 1년 동안 환자들의 상태가 안정적으로 유지되는 등 우수한 임상적 성과를 거두었습니다. 이는 심혈관 질환 치료에 있어 중재적 시술 기기의 효용성을 다시 한번 입증한 사례입니다. 향후 아뮬렛 360은 관련 시장 내 점유율을 더욱 확대할 수 있을 것으로 기대됩니다."
+    },
+    {
+      "title_en": "InventisBio’s psoriasis pill secures Phase III win as TYK2 market heats up",
+      "url": "https://www.clinicaltrialsarena.com/news/inventisbio-psoriasis-pill-tyk2-inhibitor-phase-iii/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2381267455.jpg",
+      "title": "인벤티스바이오의 건선 치료제, TYK2 시장 경쟁 속 임상 3상 승리",
+      "summary_kr": "인벤티스바이오(InventisBio)의 경구용 건선 치료제인 노멜시티닙(nomelcitinib)이 글로벌 임상 3상 시험에서 의미 있는 결과를 얻었습니다. 이 약물은 면역 질환 치료의 새로운 타겟으로 부상한 TYK2 억제제 계열에 속합니다. 현재 판상 건선 치료를 위한 TYK2 억제제 시장은 글로벌 제약사들의 참여로 경쟁이 매우 치열한 상황입니다. 이번 3상 승리는 노멜시티닙이 상용화 단계에 한 걸음 더 다가섰음을 시사하며 기업 가치를 높이고 있습니다. 연구팀은 기존 치료제 대비 편의성과 효능을 입증하는 데 집중해 왔으며 그 성과를 데이터로 증명했습니다. 향후 규제 당국의 최종 승인 절차가 진행됨에 따라 시장 점유율 확보 경쟁이 더욱 가속화될 전망입니다."
+    },
+    {
+      "title_en": "Tiziana’s Phase IIa trial of foralumab meets dual endpoints in na-SPMS",
+      "url": "https://www.clinicaltrialsarena.com/news/tizianasphase-trial-foralumab-dual-endpoints/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/MS-shutterstock_2147851819.jpg",
+      "title": "티지아나의 포랄루맙 2a상 임상, 비활동성 이차 진행형 다발성 경화증에서 이중 종점 충족",
+      "summary_kr": "티지아나 라이프 사이언스(Tiziana Life Sciences)는 비활동성 이차 진행형 다발성 경화증(na-SPMS) 환자를 대상으로 한 포랄루맙의 2a상 임상 결과를 발표했습니다. 비강을 통해 투여되는 이 약물은 INFORM-MS 연구에서 설정한 두 가지 주요 효능 지표를 모두 달성하는 데 성공했습니다. 이는 다발성 경화증의 진행을 억제할 수 있는 새로운 치료 옵션으로서의 가능성을 보여준 것입니다. 특히 비강 내 투여 방식은 뇌로의 약물 전달 효율을 높일 수 있다는 점에서 주목받고 있습니다. 연구팀은 이번 결과가 차기 임상 시험을 진행하기 위한 강력한 과학적 근거가 될 것이라고 설명했습니다. 앞으로 이 혁신적인 투여 경로와 약물이 실제 의료 현장에 도입될 수 있을지 기대가 모아지고 있습니다."
+    },
+    {
+      "title_en": "Teva to halt Phase II MSA therapy trial after futility analysis",
+      "url": "https://www.clinicaltrialsarena.com/news/teva-halt-msa-therapy-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-04",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/MSA-shutterstock_1885212175.jpg",
+      "title": "테바, 무효성 분석 결과에 따라 다계통 위축증 치료제 2상 임상 중단 결정",
+      "summary_kr": "테바 제약(Teva Pharmaceuticals)은 다계통 위축증(MSA) 치료제인 에무루솔민(TEV-'286)의 임상 2상 시험을 중단한다고 공식 발표했습니다. 이번 결정은 임상 중간 단계에서 실시된 무효성 분석 결과에 따라 이루어졌습니다. 분석 결과 해당 약물이 임상 시험의 주요 효능 목표를 달성할 가능성이 현저히 낮다는 결론이 도출되었습니다. 다계통 위축증은 아직 마땅한 치료제가 없는 희귀 신경계 질환이라 이번 중단 소식은 환자들에게 큰 아쉬움을 남겼습니다. 테바 측은 이번 결정을 통해 자원의 효율적 운용을 꾀하고 다른 연구 파이프라인에 집중할 계획입니다. 이번 사례는 신약 개발이 가진 고위험 특성과 철저한 데이터 기반의 의사결정 중요성을 잘 보여줍니다."
+    },
+    {
+      "title_en": "The three-banded panther worm is rewriting the story of brain evolution",
+      "url": "https://www.thetransmitter.org/neuros-ark/the-three-banded-panther-worm-is-rewriting-the-story-of-brain-evolution/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-04",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-Lede_PantherWorm_final_3_525.png",
+      "title": "뇌 진화의 역사를 다시 쓰는 3줄무늬 표범벌레의 구조 발견",
+      "summary_kr": "3줄무늬 표범벌레(three-banded panther worm)의 독특한 뇌 구조가 발견되면서 기존의 뇌 진화 가설이 도전을 받고 있습니다. 2026년 발표된 최신 연구에 따르면 이 벌레는 기존에 알려진 것과 완전히 다른 신경계 구조를 보유하고 있습니다. 이번 발견은 동물의 뇌가 여러 부위로 전문화되기 이전에 이미 중앙 집중화된 형태를 먼저 가졌을 수 있음을 암시합니다. 이는 생명체의 뇌가 어떻게 복잡한 정보 처리 능력을 갖추게 되었는지 설명하는 새로운 단서가 됩니다. 과학자들은 이 벌레의 신경 구조를 분석하여 뇌의 기원을 규명하는 데 주력하고 있습니다. 진화 생물학 분야에서 이 연구는 신경계 발달의 초기 단계를 이해하는 데 혁신적인 기여를 할 것으로 평가받습니다."
+    },
+    {
+      "title_en": "Does cognition happen in brain areas or between them?",
+      "url": "https://www.thetransmitter.org/brain-inspired/does-cognition-happen-in-brain-areas-or-between-them/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-04",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-BI-249.png",
+      "title": "인지 기능은 뇌의 특정 부위가 아닌 부위 간의 상호작용에서 비롯되는가?",
+      "summary_kr": "신경과학자 마이클 콜(Michael Cole)은 인간의 인지 능력이 특정 뇌 부위의 독립적인 활동보다는 부위들 사이의 역동적인 상호작용인 '뇌 흐름(brain flows)'에서 발생한다고 설명합니다. 그는 뇌 흐름을 뇌의 기능과 인지 과정을 규정하는 가장 기본적이고 핵심적인 단위로 정의했습니다. 기존 신경과학이 뇌의 특정 지점이 어떤 기능을 수행하는지에 집중했다면 콜은 정보가 어떻게 전달되고 연결되는지에 초점을 맞춥니다. 이러한 접근 방식은 인간이 복잡한 정보를 처리하고 사고하는 과정을 이해하는 데 새로운 관점을 제공합니다. 뇌를 정적인 지도가 아닌 살아있는 네트워크로 파악하려는 이러한 시도는 현대 인지 신경과학의 패러다임을 바꿀 중요한 이론으로 주목받고 있습니다. 결국 지능과 인지의 본질은 개별 영역의 성능보다 부위 간의 유기적인 조화와 소통에 있다는 분석입니다."
+    },
+    {
+      "title_en": "Author Correction: Social rank modulates methamphetamine-seeking in dominant and subordinate male rodents via distinct dopaminergic pathways",
+      "url": "https://www.nature.com/articles/s41593-026-02535-2",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "[저자 수정] 설치류의 사회적 서열이 메탐페타민 추구 행동에 미치는 영향 및 도파민 경로의 차이",
+      "summary_kr": "본 논문은 설치류 모델에서 사회적 서열이 메탐페타민 추구 행동에 미치는 영향을 분석한 연구의 저자 수정 사항을 다룹니다. 연구에 따르면 우월한 서열의 쥐와 열등한 서열의 쥐는 서로 다른 도파민 경로를 통해 약물 추구 양상을 보입니다. 이 연구 결과는 사회적 지위가 중독 행동의 생물학적 메커니즘을 어떻게 변화시키는지 이해하는 데 중요한 기초를 제공합니다. 최근 발표된 이 수정본은 데이터 해석이나 표기상의 오류를 바로잡아 연구의 신뢰성을 높였습니다. 특히 도파민 시스템의 복잡한 작용이 사회적 환경에 따라 다르게 나타난다는 점이 핵심입니다. 이는 약물 중독 치료 전략을 수립할 때 개인의 사회적 환경과 서열을 고려해야 할 필요성을 시사합니다."
+    },
+    {
+      "title_en": "Author Correction: In vivo base editing gene therapy for heterozygous familial hypercholesterolemia: a phase 1 trial",
+      "url": "https://www.nature.com/articles/s41591-026-04786-9",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "[저자 수정] 이형접합 가족성 고콜레스테롤혈증을 위한 체내 염기 교정 유전자 치료 임상 1상 시험",
+      "summary_kr": "이 기사는 이형접합 가족성 고콜레스테롤혈증 환자를 대상으로 진행된 체내 염기 교정 유전자 치료의 임상 1상 시험에 대한 저자 수정 사항을 담고 있습니다. 해당 연구는 특정 유전자를 정밀하게 교정하여 콜레스테롤 수치를 낮추는 혁신적인 치료법의 가능성을 탐구했습니다. 임상 1상 결과는 치료의 초기 안전성과 효능을 입증하는 데 중점을 두었으며, 이는 차세대 유전자 편집 기술의 임상 적용을 위한 중요한 이정표가 되었습니다. 수정본에서는 실험 데이터의 정확성을 기하기 위해 이전 발표된 내용 중 일부를 보완하였습니다. 유전자 기반 치료제 개발 과정에서 데이터의 정밀함은 환자의 안전과 직결되는 매우 중요한 요소입니다. 이번 수정을 통해 해당 임상 시험의 결과가 더욱 견고한 학술적 토대를 갖추게 되었습니다."
+    },
+    {
+      "title_en": "Publisher Correction: Molecular predictors of minimal residual disease in newly diagnosed multiple myeloma treated with quadruplet therapy",
+      "url": "https://www.nature.com/articles/s41591-026-04792-x",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "[발행인 수정] 4제 요법으로 치료받은 신규 진단 다발성 골수종의 미세 잔존 질환 분자적 예측 인자",
+      "summary_kr": "이 보고서는 4제 요법으로 치료받은 신규 진단 다발성 골수종 환자에서 미세 잔존 질환(MRD)을 예측하는 분자적 지표에 대한 연구의 발행인 수정 사항입니다. 연구팀은 환자의 치료 반응을 예측할 수 있는 특정 분자적 특성을 식별하여 맞춤형 치료의 가능성을 제시했습니다. 미세 잔존 질환은 암의 재발 가능성을 평가하는 데 핵심적인 지표로 활용됩니다. 발행인 측에서 발표한 이번 수정 사항은 본문의 기술적 오류나 수치 표기를 바로잡아 독자들에게 정확한 정보를 전달하고자 함입니다. 4제 요법이라는 강력한 치료 전략 하에서 분자적 예측 인자가 갖는 중요성은 여전히 유효합니다. 이 연구는 골수종 치료의 정밀 의료를 앞당기는 데 기여할 것으로 기대됩니다."
+    },
+    {
+      "title_en": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
+      "url": "https://www.nature.com/articles/s41591-026-04743-6",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "면역관문 억제제 내성 진행성 흑색종을 위한 조절 가능한 막 결합형 IL-15 설계 TIL 세포 치료제",
+      "summary_kr": "면역관문 억제제에 저항성을 보이는 진행성 흑색종 환자를 위해 개발된 새로운 TIL 세포 치료제 연구가 발표되었습니다. '암소키젠 오토루셀'로 명명된 이 치료제는 조절 가능한 막 결합형 IL-15를 포함하도록 설계되어 기존의 IL-2 투여 필요성을 제거했습니다. 임상 1상 및 1/2상 통합 분석 결과, 이 치료제는 성공적으로 제조되었으며 환자들에게서 양호한 내약성을 보여주었습니다. 특히 기존 치료에 반응하지 않던 흑색종 환자들에게서 초기 임상 효능 신호를 확인했다는 점이 고무적입니다. 이 결과는 2026년 면역항암학회 연례 회의에서 처음 공개되어 큰 주목을 받았습니다. 이는 차세대 종양 침윤 림프구(TIL) 치료법이 고형암 치료의 한계를 극복할 수 있는 잠재력을 가졌음을 시사합니다."
+    },
+    {
+      "title_en": "Heterogeneity of microbiome responses to menopausal hormone therapy among perimenopausal women",
+      "url": "https://www.nature.com/articles/s41591-026-04737-4",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "폐경기 여성의 호르몬 요법에 따른 미생물군집 반응의 이질성 분석",
+      "summary_kr": "폐경기 전후 여성들이 호르몬 요법을 받을 때 미생물군집(마이크로바이옴)이 어떻게 반응하는지를 추적한 최신 연구 결과가 공개되었습니다. 연구진은 6개월 동안 장내, 구강, 비뇨기 및 질-경부 마이크로바이옴의 변화를 다각도로 분석했습니다. 연구 결과, 호르몬 요법에 따른 미생물군집의 반응은 개인별로 상당한 이질성을 나타내는 것으로 확인되었습니다. 이러한 시스템 메타게놈 분석은 환자의 임상적 반응을 예측하고 개인별 맞춤형 진료를 제공하는 데 중요한 단서를 제공합니다. 마이크로바이옴과 호르몬의 상호작용은 여성 건강 관리의 질을 높이는 새로운 기준이 될 수 있습니다. 이 연구는 폐경기 여성의 복지 향상을 위해 마이크로바이옴 데이터를 임상에 어떻게 활용할 수 있는지 보여줍니다."
+    },
+    {
+      "title_en": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial",
+      "url": "https://www.nature.com/articles/s41591-026-04686-y",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "동종 조혈모세포 이식 수혜자를 위한 생균 치료제: 무작위 위약 대조 임상 1b상 시험",
+      "summary_kr": "성인 동종 조혈모세포 이식 환자를 대상으로 한 생균 치료제(LBP)인 'SER-155'의 임상 1b상 시험 결과가 발표되었습니다. SER-155는 여러 균주를 배양하여 만든 경구용 미생물 제제로, 이식 환자의 감염 위험을 줄이기 위해 설계되었습니다. 임상 시험 결과, SER-155는 위약과 유사한 안전성 프로파일을 보였으며 환자들에게서 부작용 발생 우려가 적음을 확인했습니다. 특히 SER-155 투여군은 위약군에 비해 혈류 감염 발생 건수가 현저히 적게 나타나는 고무적인 성과를 거두었습니다. 이러한 연구 결과는 SER-155가 이식 후 합병증을 예방하는 새로운 보조 요법이 될 수 있음을 시사합니다. 연구팀은 향후 더 대규모의 임상 시험을 통해 이 치료제의 유효성을 확립할 계획이라고 밝혔습니다."
+    },
+    {
+      "title_en": "FDA approves plasmid DNA-based immunotherapy for rare viral disease",
+      "url": "https://www.nature.com/articles/d41573-026-00175-6",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "FDA, 희귀 바이러스 질환에 대한 플라스미드 DNA 기반 면역치료제 승인",
+      "summary_kr": "미국 식품의약국(FDA)이 희귀 바이러스 질환 치료를 위한 플라스미드 DNA 기반의 면역치료제를 전격 승인했습니다. 이번 승인은 희귀 질환 분야에서 유전물질을 직접 활용하는 새로운 치료 패러다임을 열었다는 평가를 받습니다. 플라스미드 DNA 기술은 환자의 면역 시스템이 특정 바이러스에 효과적으로 대응할 수 있도록 유전적 정보를 전달하는 역할을 합니다. 그동안 치료 옵션이 제한적이었던 희귀 바이러스 질환 환자들에게 이번 승인은 큰 희망이 될 것으로 보입니다. 승인 과정에서 해당 치료제는 뛰어난 안전성과 표적 정밀성을 입증하여 규제 당국의 높은 기준을 통과했습니다. 앞으로 이 기술은 다른 바이러스성 질환이나 유전 질환 치료제 개발에도 광범위하게 응용될 전망입니다."
+    },
+    {
+      "title_en": "Editor’s Pick: Wild Bioscience",
+      "url": "https://www.nature.com/articles/s41587-026-03377-w",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2026-11-04",
+      "image_url": null,
+      "title": "편집자의 선택: 작물 유전자 편집 혁신 기업 '와일드 바이오사이언스'",
+      "summary_kr": "네이처 바이오테크놀로지 편집진은 작년 한 해 동안 상당한 초기 투자를 유치한 혁신 기업 중 하나로 '와일드 바이오사이언스'를 선정했습니다. 이 기업은 농작물의 생산성을 높이고 기후 변화에 대한 저항력을 강화하기 위해 유전자 편집 기술을 연구하고 있습니다. 전 지구적인 기후 위기 속에서 가뭄이나 고온에 견디는 작물을 개발하는 것은 인류의 식량 안보와 직결되는 매우 중요한 과제입니다. 와일드 바이오사이언스는 야생 식물의 유전적 장점을 현대 작물에 도입하는 창의적인 접근 방식을 취하고 있습니다. 편집진은 이들의 기술이 미래 농업의 형태를 근본적으로 바꿀 수 있는 잠재력이 크다고 평가했습니다. 앞으로 이 기업이 선보일 유전자 편집 작물들이 실제 농업 현장에 어떤 변화를 가져올지 귀추가 주목됩니다."
+    },
+    {
+      "title_en": "AI때문에 우리는 절대 못쉰다 (유발 하라리)",
+      "url": "https://www.youtube.com/shorts/CTRICQGE0rs",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i4.ytimg.com/vi/CTRICQGE0rs/hqhqdefault.jpg",
+      "title": "AI로 인해 잃어버린 인간의 휴식과 일상",
+      "summary_kr": "유발 하라리 저자는 생명체는 지속적인 활동 후에 반드시 휴식이 필요하며, 그렇지 않을 경우 붕괴하게 된다고 경고합니다. 그는 현재 이러한 문제가 인류 사회 전체에 직면하고 있다고 지적합니다. 과거에는 주식 시장과 같이 중요한 영역에서도 휴식 시간이 보장되었습니다. 그러나 인공지능(AI)은 인간과 같은 유기체가 아니기 때문에 휴식의 리듬이 존재하지 않습니다. AI는 휴식이 필요하지 않으며 가족, 휴가, 명절 등 인간적인 삶의 요소들을 가지지 않습니다. 따라서 AI가 주식 시장, 은행, 언론 등 주요 사회 시스템을 점령함에 따라 인간 또한 쉬지 않고 계속 일해야 하는 상황이 발생하고 있습니다. 이는 인간의 생태적 특성을 무시하고 기계적인 효율성만을 추구하는 사회 구조로의 변화를 의미합니다. 결과적으로 우리 사회는 멈추지 않는 AI의 속도에 맞춰야 하는 구조적인 압박을 받고 있습니다. 이러한 현상은 인간의 기본적인 삶의 질을 저하시키고 정신적인 고갈을 초래할 위험이 있습니다. 저자는 기술 발전의 속도가 인간의 생리적 한계를 넘어설 때 발생하는 심각한 부작용에 대해 깊은 우려를 표합니다. 따라서 인류는 기술 발전과 인간의 기본적인 휴식권 사이에서 균형을 찾아야 하는 중대한 도전에 직면해 있습니다."
+    },
+    {
+      "title_en": "서로 못 믿을수록 AI는 더 강해진다 (유발 하라리)",
+      "url": "https://www.youtube.com/shorts/iUQiLlbfUzY",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i2.ytimg.com/vi/iUQiLlbfUzY/hqhqdefault.jpg",
+      "title": "불신이 가속화하는 AI의 위험성",
+      "summary_kr": "유발 하라리는 기업과 국가 간의 뿌리 깊은 불신이 인공지능(AI) 개발 경쟁을 부추기고 있다고 경고합니다. 서로를 신뢰하지 못하는 상황에서, 주체들은 경쟁에서 뒤처지지 않기 위해 더욱 많은 자원을 AI 연구에 쏟아붓고 있습니다. 이러한 상황은 인류를 이중적인 딜레마에 빠뜨립니다. 첫째로, 불신은 AI 기술의 비약적인 발전을 촉진합니다. 둘째로, 동일한 불신으로 인해 AI 기술을 통제하거나 규제하는 일은 더욱 어려워집니다. 각 주체는 타인을 신뢰할 수 없기에 통제권을 포기하지 않으려 하며, 결과적으로 안전한 AI 개발을 위한 합의점을 찾지 못하게 됩니다. 결과적으로 이 불신의 악순환은 AI의 발전 속도를 제어하기 어렵게 만듭니다. 또한, 인류가 서로 분열되어 협력하지 못할 경우, 인간의 통제를 벗어난 초지능적 AI의 공격에 무방비하게 노출될 수 있습니다. AI는 인간보다 훨씬 뛰어난 지능을 바탕으로 분열된 인간 사회를 쉽게 조정하고 위협할 수 있습니다. 하라리는 결국 이러한 불신이 지속된다면 인류 전체가 초지능 AI의 통제를 받는 결과를 초래할 수 있다고 우려합니다. 따라서 인류의 생존을 위해서는 공동의 안전을 위한 신뢰 구축이 선행되어야 함을 강조합니다. AI는 인류의 도구여야 하며, 인류 간의 갈등이 AI의 무기화로 이어지지 않도록 하는 것이 시급한 과제입니다."
+    },
+    {
+      "title_en": "회의는 1년에 딱 한 번 (삼성 이병철 회장)",
+      "url": "https://www.youtube.com/shorts/GQj70BEGNCs",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i4.ytimg.com/vi/GQj70BEGNCs/hqhqdefault.jpg",
+      "title": "삼성그룹 이병철 회장의 철저한 경영 방식",
+      "summary_kr": "이 영상은 삼성그룹의 창업주인 이병철 회장의 독특하고 엄격한 경영 철학을 조명하고 있습니다. 이병철 회장은 생전에 공식적이든 비공식적이든 어떠한 회의에도 좀처럼 참석하지 않는 것으로 유명했습니다. 삼성그룹 내부에서 이 회장이 갖는 권한은 절대적이었으며 그 존재감만으로도 압도적이었습니다. 이 회장이 유일하게 참석하는 회의는 바로 1년에 딱 한 번 열리는 정기 사장단 회의뿐이었습니다. 이 귀한 자리에서 이 회장은 한 해 동안의 삼성그룹 성과를 냉철하게 결산합니다. 또한, 향후 추진할 새해 사업 계획을 최종적으로 확정하고 결단하는 역할을 수행했습니다. 이러한 이 회장의 신중하고 핵심적인 의사결정 방식은 삼성의 성장에 큰 밑거름이 되었습니다. 영상은 그의 철저한 시간 관리와 위임 중심의 경영 방식을 보여줍니다. 최소한의 회의 참석을 통해 조직의 긴장감을 유지하면서도 중요한 순간에 핵심적인 결정을 내리는 리더십을 보여줍니다. 이는 현대 경영인들에게도 많은 시사점을 던져주는 사례라 할 수 있습니다."
+    },
+    {
+      "title_en": "1년 전략 = 책 100권 (삼성 이병철 회장)",
+      "url": "https://www.youtube.com/shorts/1s2buhenIvI",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i2.ytimg.com/vi/1s2buhenIvI/hqhqdefault.jpg",
+      "title": "삼성그룹 창업주 이병철 회장의 독서 경영 전략",
+      "summary_kr": "이 영상은 삼성그룹의 창업주인 이병철 회장이 기업 운영에 있어 독서를 어떻게 활용했는지 보여줍니다. 이병철 회장은 연말연시를 일본에서 보내며 매년 100권 이상의 신간 도서를 직접 구매하고 읽는 습관을 가졌습니다. 그는 단순히 일반적인 도서를 읽는 것에 그치지 않고, 기업 경영과 첨단 기술, 그리고 전자공학 분야와 관련된 전문 서적들을 주로 탐독했습니다. 이러한 방대한 독서량은 그의 경영 철학과 전략 수립에 있어 중요한 기반이 되었습니다. 그는 책을 통해 얻은 최신 정보와 지식을 바탕으로 새로운 경영 전략을 구축했습니다. 또한, 인사 배치와 조직 관리 방안을 고민하는 데에도 독서에서 얻은 통찰을 활용했습니다. 바쁜 일정 속에서도 스스로 전자공학 서적까지 챙겨 읽는 모습은 그의 끊임없는 학습 의지를 보여줍니다. 이처럼 끊임없는 연구와 독서를 통한 정보 습득은 삼성의 성장을 이끄는 핵심 동력이었습니다. 결국 이병철 회장의 독서는 단순한 취미를 넘어, 급변하는 글로벌 시장 환경에 발 빠르게 대응하기 위한 전략적 선택이었습니다. 영상은 성공한 경영자의 필수 덕목으로 지식 습득과 학습의 중요성을 잘 보여주고 있습니다."
+    },
+    {
+      "title_en": "진짜 돈은 시간이다 (유발 하라리)",
+      "url": "https://www.youtube.com/shorts/hqTsNVUR3j0",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i1.ytimg.com/vi/hqTsNVUR3j0/hqhqdefault.jpg",
+      "title": "진정한 부는 시간이 결정한다: 유발 하라리의 통찰",
+      "summary_kr": "영상에서 유발 하라리는 삶의 진정한 가치는 돈이 아니라 시간임을 강조합니다. 시간적 여유를 갖지 못하는 사람은 본질적으로 가난한 상태라고 그는 설명합니다. 현대 사회에서 급격히 확산되는 AI 기술은 우리의 정신을 잠식하고 시간을 빼앗는 주요 요인입니다. AI 혁명이 가속화됨에 따라 많은 지도자들이 마음의 평화를 잃고 자신을 돌볼 시간을 갖지 못하고 있습니다. 이러한 현상은 개인의 정신 건강뿐만 아니라 사회 전반에도 부정적인 영향을 미칩니다. 불안한 마음을 가진 사람들이 사회의 리더가 되어 의사결정을 내리는 것은 결코 바람직하지 않습니다. 리더들은 자신과 공동체의 미래를 위해 깊이 생각할 수 있는 시간이 필요합니다. 스스로를 성찰하고 마음을 수양할 여유가 없는 리더는 올바른 방향을 제시하기 어렵기 때문입니다. 결국 우리가 직면한 가장 큰 도전은 AI 기술의 발전 속에서도 인간다운 삶의 속도와 사유의 가치를 지켜내는 것입니다. 따라서 우리는 기술의 노예가 되지 않고, 진정한 부를 구성하는 시간의 주권을 회복해야 합니다."
+    },
+    {
+      "title_en": "인간은 절대로 AI를 못이긴다 (유발 하라리)",
+      "url": "https://www.youtube.com/shorts/No3LiggWv1A",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i3.ytimg.com/vi/No3LiggWv1A/hqhqdefault.jpg",
+      "title": "유발 하라리: 인간은 인공지능을 이길 수 없다",
+      "summary_kr": "이 영상은 저명한 역사학자이자 사상가인 유발 하라리가 인공지능(AI)의 발전이 인류에게 던지는 중대한 도전과 변화에 대해 논의하는 강연 내용을 담고 있습니다. 하라리는 과거 인류가 체스라는 게임에서 AI를 이길 수 없게 되었듯이, 조만간 언어를 활용한 모든 분야에서도 AI를 이길 수 없게 될 것이라고 예견합니다. 그는 단순히 AI가 다음 단어를 예측하는 수준에 머무르는 것이 아니라, 인간의 사고 체계와 근본적으로 유사한 방식으로 정보를 처리하고 생성할 수 있게 될 것임을 강조합니다. 이를 통해 하라리는 AI가 인류가 소통하고 문화를 형성하는 방식인 언어 자체를 장악하게 될 것이라고 경고합니다. 그가 가장 우려하는 지점은 우리 문명의 핵심을 지탱하고 있는 금융, 법, 종교와 같은 사회적 시스템들이 본질적으로 '말'로 이루어져 있다는 점입니다. 따라서 언어를 통제하게 된 AI는 인류의 근간이 되는 이 시스템들을 재편하거나 지배할 수 있는 강력한 힘을 갖게 됩니다. 이러한 변화는 인간에게 전례 없는 심각한 도전 과제를 제시하며, 앞으로 인류가 어떤 방식으로 이 거대한 기술적 변화에 대응해야 할지에 대한 철학적 성찰을 요구합니다. 결과적으로 하라리는 AI의 비약적인 발전이 단순한 도구의 진보를 넘어, 인류 문명의 구조를 뒤흔들 수 있는 중대한 전환점임을 시사하고 있습니다. 따라서 우리는 이러한 기술적 변화를 막연한 두려움으로 대하는 대신, 인류의 가치와 미래를 보존하기 위해 어떤 준비가 필요한지 진지하게 고민해야 할 시점에 놓여 있습니다."
+    },
+    {
+      "title_en": "\"10년만 기다려라, 일본\" (삼성 이병철 회장)",
+      "url": "https://www.youtube.com/shorts/QNpz1pMi218",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i2.ytimg.com/vi/QNpz1pMi218/hqhqdefault.jpg",
+      "title": "이병철 회장이 말하는 한국과 일본의 격차와 미래",
+      "summary_kr": "본 영상은 삼성그룹 창업주인 이병철 회장이 인터뷰를 통해 당시 한국과 일본의 경제적 격차를 냉철하게 분석하는 내용을 담고 있습니다. 이병철 회장은 당시 일본이 한국의 성장을 경계하고 있다는 점을 인정하면서도, 현실적으로 일본을 따라가기에는 여전히 큰 격차가 존재한다고 진단했습니다. 그는 1인당 국민소득과 총인구 등 구체적인 경제 지표를 비교하며 일본의 압도적인 우위를 객관적으로 설명했습니다. 또한 경제력뿐만 아니라 기술력과 축적된 자본 규모에서도 상당한 차이가 있음을 강조하였습니다. 그는 한국이 일본을 추격하기 위해서는 최소한 10년 이상의 노력이 필요하다는 현실적인 과제를 제시했습니다. 그러나 단순히 10년을 노력한다고 해서 격차가 해소되는 것은 아니라고 경고했습니다. 일본 역시 가만히 머물러 있는 것이 아니라 그 기간 동안에도 지속적으로 발전해 나가기 때문입니다. 즉, 10년 뒤 한국이 목표치에 도달하더라도 일본은 이미 그보다 앞서 나가 있을 것이라는 분석입니다. 이는 국가 간의 경쟁이 정적인 것이 아니라 역동적으로 변화하고 있음을 보여줍니다. 따라서 기술 혁신과 자본 축적 등 다각적인 측면에서 한국이 끊임없이 노력해야 한다는 메시지를 전달합니다. 결론적으로 이 영상은 과거 우리나라 산업화 시대의 선구자가 가진 치열한 고민과 현실 인식, 그리고 국가적 도약을 위한 성찰을 담고 있습니다."
+    },
+    {
+      "title_en": "중국에 가지 않은 이유 (포스코 박태준 회장)",
+      "url": "https://www.youtube.com/shorts/tSK8WsgUFpU",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i1.ytimg.com/vi/tSK8WsgUFpU/hqhqdefault.jpg",
+      "title": "포스코 창업자 박태준이 중국행을 거절한 이유",
+      "summary_kr": "본 영상은 포스코의 창업자인 박태준 회장이 과거 중국 측으로부터 중국으로 이주해달라는 제안을 받았던 일화를 다루고 있습니다. 중국 측은 박태준 회장에게 일본보다 중국에서 생활하는 것이 환경적으로 더 나을 것이라고 설득했습니다. 또한 그가 과거에 도움을 주었던 상하이 근처의 제철소 건설 현장에 가끔 방문하여 지도해 달라는 요청도 덧붙였습니다. 그들은 박 회장이 그곳을 정기적으로 방문하는 것을 일종의 여가 활동으로 여기라고 권유했습니다. 하지만 박태준 회장은 이 제안을 정중하게 거절했습니다. 당시 박 회장은 정권과의 갈등으로 인해 국내에 머물기 어려운 상황이었고, 일본에 머물러 있는 처지였습니다. 본인의 상황을 고려할 때 중국의 제안을 받아들이는 것이 적절하지 않다고 판단했습니다. 그는 이러한 정치적 상황과 개인적인 입장을 고려하여 중국 측의 제안을 수용하지 않았습니다. 영상은 한 시대를 풍미한 기업인의 신중한 결정과 그 배경을 잘 보여줍니다. 박태준 회장의 단호하면서도 예의 바른 태도가 인상 깊게 전달됩니다."
+    },
+    {
+      "title_en": "중국 : \"박태준을 수입해라\" (포스코 박태준 회장)",
+      "url": "https://www.youtube.com/shorts/HGHU9QKZnH4",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i1.ytimg.com/vi/HGHU9QKZnH4/hqhqdefault.jpg",
+      "title": "덩샤오핑이 극찬한 포스코 박태준 회장의 리더십",
+      "summary_kr": "본 영상은 포스코의 창업자인 박태준 회장에 관한 일화를 소개하고 있습니다. 중국의 최고 지도자였던 덩샤오핑이 일본을 방문했을 당시의 에피소드를 다루고 있습니다. 덩샤오핑은 일본 측에 한국의 포항제철과 같은 제철소를 중국에도 건설해 달라고 요청하였습니다. 이에 일본 측은 한국의 박태준 회장과 같은 인물이 있냐고 반문하였습니다. 덩샤오핑은 당시 이 질문을 받고 당황했다고 합니다. 덩샤오핑은 중국의 인구가 한국의 수십 배임에도 왜 그런 인재가 없는지 자문하였습니다. 그는 만약 없다면 박태준 회장을 수입해서라도 일을 시켜야 한다고 말했습니다. 이 일화는 박태준 회장의 탁월한 경영 능력과 리더십을 잘 보여줍니다. 국가 발전을 위해 헌신했던 박태준 회장의 역량이 국제적으로 높게 평가받았음을 알 수 있습니다. 그의 철저한 국가관과 실력 중심의 철학이 인상적입니다. 영상은 과거 우리나라 산업화의 주역이었던 그의 위상을 잘 보여주고 있습니다."
+    },
+    {
+      "title_en": "기술만 있으면 투자는 언제나 받을 수 있다 (삼성 이병철 회장)",
+      "url": "https://www.youtube.com/shorts/VF9f5uiLKO4",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-04",
+      "image_url": "https://i3.ytimg.com/vi/VF9f5uiLKO4/hqhqdefault.jpg",
+      "title": "기술만 있다면 투자는 언제든 가능하다: 이병철 삼성 회장의 경영 철학",
+      "summary_kr": "이 영상은 한국 경제의 생존을 위해 반도체 산업 육성이 필수적이었던 과거의 상황을 다루고 있습니다. 당시 한국 기업들은 거대한 자본이 필요한 반도체 생산 설비 구축이라는 막대한 부담을 감당해야 했습니다. 삼성그룹의 창업주인 이병철 회장은 이러한 자본 조달의 어려움을 인정하면서도 핵심적인 전략을 제시합니다. 그는 전 세계 경제의 흐름이 첨단 기술 중심으로 이동하고 있음을 정확히 꿰뚫어 보았습니다. 따라서 기업이 가진 기술력이 확실하다는 것만 입증된다면 투자는 자연스럽게 따라온다고 강조했습니다. 이는 곧 기술적 우위가 자금 조달의 가장 강력한 근거가 됨을 의미합니다. 실제로 기술이 담보된 기업에는 금융권에서 적극적으로 자금을 지원하게 됩니다. 결과적으로 경영자에게 필요한 것은 자금 걱정보다 기술 혁신에 대한 확신과 지속적인 투자 의지입니다. 기술력에 대한 확신이 있다면 자본은 외부로부터 충분히 끌어올 수 있다는 논리입니다. 이는 오늘날까지도 기술 중심 경영의 핵심적인 가치로 평가받고 있습니다. 이 짧은 인터뷰는 삼성의 반도체 신화가 단순한 운이 아니라 철저한 기술 중심의 경영 전략에서 비롯되었음을 잘 보여줍니다."
+    },
     {
       "title_en": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
       "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
