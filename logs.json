@@ -219730,5 +219730,1262 @@
       "level": "INFO",
       "message": "데이터 저장 완료 (articles.json)"
     }
+  ],
+  "2026-11-07": [
+    {
+      "time": "00:54:49",
+      "level": "INFO",
+      "message": "=== 스크립트 시작 (날짜: 2026-11-07) ==="
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "지난 실행 실패 항목 128개 재시도 대기"
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "🔍 [B_ZCF YouTube] 유튜브 크롤링 중... (채널: UCWgXoKQ4rl7SY9UHuAwxvzQ)"
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/wByIq-xtZDU 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/fOYQCNUAy98 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/TdG9EjCic58 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/-lwzk605TA8 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/5SooWInvXBQ 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/aDiij_9KAfU 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/dNEA19izHUE 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/9m6SoxrZtWg 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/ovrZDUvJktM 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/qKFXMfbcIkk 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/mE2SajjbbjI 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/IKT0HgqxPRo 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/bKGNjcjIOZY 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/L0n9FO8mWFk 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/pm-_idhCLJE 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "🔍 [김지윤의 지식Play YouTube] 유튜브 크롤링 중... (채널: UCXql5C57vS4ogUt6CPEWWHA)"
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 G7nx5qjBT7A 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/09OVZISnXI0 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 3Rh9THir2gA 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 0iwSgfzb01o 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 2UiyCATTff8 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/4QGwCQ0ua4g 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 DuFvLnm8RJM 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 y-p5Jpzoht8 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 qpsPEK3OdBo 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 zw9sVOxV3Fo 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 LAQHlel75oM 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/4MpgKa_PYgM 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 dTTiz4e7U7M 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/o9zillExufE 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "    [i] 영상 https://www.youtube.com/shorts/MgbqpjQe1OA 로드됨."
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "크롤링 시작: MIT Tech Rev"
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "[MIT Tech Rev] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:54:50",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "[Nature] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "크롤링 시작: The Scientist"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "[The Scientist] 완료: 100개 기사 수집됨"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "크롤링 시작: Science"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "[Science] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (News & Comment)"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "[Nature (News & Comment)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "크롤링 시작: STAT News"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "[STAT News] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:54:51",
+      "level": "INFO",
+      "message": "크롤링 시작: Ars Technica"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[Ars Technica] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: Wired"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[Wired] 완료: 20개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: Fierce Biotech"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[Fierce Biotech] 완료: 25개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: Endpoints News"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[Endpoints News] 완료: 24개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: BioPharmaDive"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[BioPharmaDive] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: Clinical Trials Arena"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "[Clinical Trials Arena] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:54:52",
+      "level": "INFO",
+      "message": "크롤링 시작: The Transmitter"
+    },
+    {
+      "time": "00:54:53",
+      "level": "INFO",
+      "message": "[The Transmitter] 완료: 10개 기사 수집됨"
+    },
+    {
+      "time": "00:54:53",
+      "level": "INFO",
+      "message": "크롤링 시작: Science (Paper)"
+    },
+    {
+      "time": "00:54:53",
+      "level": "INFO",
+      "message": "[Science (Paper)] 완료: 45개 기사 수집됨"
+    },
+    {
+      "time": "00:54:53",
+      "level": "INFO",
+      "message": "크롤링 시작: Cell"
+    },
+    {
+      "time": "00:54:54",
+      "level": "INFO",
+      "message": "[Cell] 완료: 25개 기사 수집됨"
+    },
+    {
+      "time": "00:54:54",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Neuroscience"
+    },
+    {
+      "time": "00:54:55",
+      "level": "INFO",
+      "message": "[Nature Neuroscience] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:54:55",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Medicine"
+    },
+    {
+      "time": "00:54:55",
+      "level": "INFO",
+      "message": "[Nature Medicine] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:54:55",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Drug Discovery"
+    },
+    {
+      "time": "00:54:56",
+      "level": "INFO",
+      "message": "[Nature Drug Discovery] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:54:56",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature Biotechnology"
+    },
+    {
+      "time": "00:54:56",
+      "level": "INFO",
+      "message": "[Nature Biotechnology] 완료: 8개 기사 수집됨"
+    },
+    {
+      "time": "00:54:56",
+      "level": "INFO",
+      "message": "크롤링 시작: Nature (Paper)"
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "[Nature (Paper)] 완료: 75개 기사 수집됨"
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "크롤링 시작: NEJM"
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "[NEJM] 완료: 52개 기사 수집됨"
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "--- 텍스트 기사 처리 시작 (총 165개 -> 10개 블록으로 분할) ---"
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "📡 블록 1/10 처리 중 (기사 17개 포함)..."
+    },
+    {
+      "time": "00:54:57",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "00:54:58",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "00:54:58",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "00:58:18",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "00:58:18",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "00:58:18",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:01:38",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:01:38",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:01:38",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:04:58",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:04:58",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:04:58",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:08:18",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:08:18",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:08:18",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "01:08:18",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:11:38",
+      "level": "INFO",
+      "message": "📡 블록 2/10 처리 중 (기사 17개 포함)..."
+    },
+    {
+      "time": "01:11:38",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:11:38",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:11:38",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:14:58",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:14:58",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:14:58",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:18:18",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:18:18",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:18:18",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:21:38",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:21:39",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:21:39",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:24:59",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:24:59",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:24:59",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "01:24:59",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:28:19",
+      "level": "INFO",
+      "message": "📡 블록 3/10 처리 중 (기사 17개 포함)..."
+    },
+    {
+      "time": "01:28:19",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:28:19",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:28:19",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:31:39",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:31:39",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:31:39",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:34:59",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:34:59",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:34:59",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:38:19",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:38:19",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:38:19",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:41:39",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:41:39",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:41:39",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "01:41:39",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "01:44:59",
+      "level": "INFO",
+      "message": "📡 블록 4/10 처리 중 (기사 17개 포함)..."
+    },
+    {
+      "time": "01:44:59",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:44:59",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:44:59",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:48:19",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:48:19",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:48:19",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:51:39",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:51:40",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:51:40",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:55:00",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:55:00",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:55:00",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "01:58:20",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "01:58:20",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "01:58:20",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "01:58:20",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "02:01:40",
+      "level": "INFO",
+      "message": "📡 블록 5/10 처리 중 (기사 17개 포함)..."
+    },
+    {
+      "time": "02:01:40",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "02:01:40",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:01:40",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:05:00",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "02:05:00",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:05:00",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:08:20",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "02:08:20",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:08:20",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:11:40",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "02:11:40",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:11:40",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:15:00",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 17개 요약 요청 중..."
+    },
+    {
+      "time": "02:15:01",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:15:01",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "02:15:01",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "02:18:21",
+      "level": "INFO",
+      "message": "📡 블록 6/10 처리 중 (기사 16개 포함)..."
+    },
+    {
+      "time": "02:18:21",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:18:21",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:18:21",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:21:41",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:21:41",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:21:41",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:25:01",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:25:01",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:25:01",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:28:21",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:28:21",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:28:21",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:31:41",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:31:41",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:31:41",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "02:31:41",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "02:35:01",
+      "level": "INFO",
+      "message": "📡 블록 7/10 처리 중 (기사 16개 포함)..."
+    },
+    {
+      "time": "02:35:01",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:35:01",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:35:01",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:38:21",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:38:21",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:38:21",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:41:41",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:41:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:41:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:45:02",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:45:02",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:45:02",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:48:22",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:48:22",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:48:22",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "02:48:22",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "02:51:42",
+      "level": "INFO",
+      "message": "📡 블록 8/10 처리 중 (기사 16개 포함)..."
+    },
+    {
+      "time": "02:51:42",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:51:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:51:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:55:02",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:55:02",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:55:02",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "02:58:22",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "02:58:22",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "02:58:22",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:01:42",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:01:42",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:01:42",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:05:02",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:05:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:05:03",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "03:05:03",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "03:08:23",
+      "level": "INFO",
+      "message": "📡 블록 9/10 처리 중 (기사 16개 포함)..."
+    },
+    {
+      "time": "03:08:23",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:08:23",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:08:23",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:11:43",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:11:43",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:11:43",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:15:03",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:15:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:15:03",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:18:23",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:18:23",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:18:23",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:21:43",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:21:43",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:21:43",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "03:21:43",
+      "level": "INFO",
+      "message": "⏳ 다음 블록 처리를 위해 200초 대기합니다..."
+    },
+    {
+      "time": "03:25:03",
+      "level": "INFO",
+      "message": "📡 블록 10/10 처리 중 (기사 16개 포함)..."
+    },
+    {
+      "time": "03:25:03",
+      "level": "INFO",
+      "message": "  📤 [시도 1/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:25:03",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 1): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:25:03",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:28:23",
+      "level": "INFO",
+      "message": "  📤 [시도 2/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:28:23",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:28:23",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:31:43",
+      "level": "INFO",
+      "message": "  📤 [시도 3/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:31:44",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:31:44",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:35:04",
+      "level": "INFO",
+      "message": "  📤 [시도 4/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:35:04",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 4): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:35:04",
+      "level": "INFO",
+      "message": "  ⏳ 200초 후 재시도합니다..."
+    },
+    {
+      "time": "03:38:24",
+      "level": "INFO",
+      "message": "  📤 [시도 5/5] 기사 16개 요약 요청 중..."
+    },
+    {
+      "time": "03:38:24",
+      "level": "WARNING",
+      "message": "  ⚠️ 배치 에러(시도 5): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash-preview is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "time": "03:38:24",
+      "level": "ERROR",
+      "message": "  ❌ 배치 처리 최종 실패. 해당 기사들을 'failed_queue'로 보냅니다."
+    },
+    {
+      "time": "03:38:24",
+      "level": "INFO",
+      "message": "--- 유튜브 영상 처리 시작 (15건) ---"
+    },
+    {
+      "time": "03:38:29",
+      "level": "WARNING",
+      "message": "  [API] 영상 정보를 찾을 수 없음: LFlk6VJOR9Q"
+    },
+    {
+      "time": "05:31:48",
+      "level": "INFO",
+      "message": "  🆗 통과: 18분 - 민주당의 대승! 2026 미..."
+    },
+    {
+      "time": "05:39:49",
+      "level": "INFO",
+      "message": "최종 결과: 성공 0건, 실패/보류 180건"
+    },
+    {
+      "time": "05:39:49",
+      "level": "INFO",
+      "message": "데이터 저장 완료 (articles.json)"
+    }
   ]
 }
