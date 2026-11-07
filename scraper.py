@@ -93,7 +93,7 @@ def get_gemini_batch_summary(articles_batch):
             art['summary_kr'] = "[요약 실패] API Key 누락"
         return articles_batch
 
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=api_key, http_options={"api_version": "v1beta"},)
     
     # 1. 프롬프트 구성
     prompt_intro = """
@@ -134,7 +134,7 @@ def get_gemini_batch_summary(articles_batch):
         try:
             log(f"  📤 [시도 {attempt+1}/{max_retries}] 기사 {len(articles_batch)}개 요약 요청 중...", "INFO")
             response = client.models.generate_content(
-                model='gemini-3-flash-preview',
+                model='gemini-3.5-flash-lite',
                 contents=prompt_full,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
@@ -216,7 +216,7 @@ def get_gemini_summary_youtube(article_data):
         print("  [AI] ❌ GEMINI_API_KEY를 찾을 수 없습니다. 번역을 건너뜁니다.")
         return title_en, f"[요약 실패] API 키 없음. (원본: {description_en[:100]}...)"
     
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=api_key, http_options={"api_version": "v1beta"},)
 
     for attempt in range(max_retries):
         try:        
@@ -244,7 +244,7 @@ def get_gemini_summary_youtube(article_data):
                         """
     
                 response = client.models.generate_content(
-                    model='gemini-3.1-flash-lite-preview', # 모델 버전
+                    model='gemini-3.8-flash', # 모델 버전
                     contents=[
                         prompt,
                         types.Part.from_uri(
