@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07 15:53:40",
+  "last_updated": "2026-11-08 02:09:00",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -18,45 +18,229 @@
       "category": "Video",
       "date": "2026-11-02",
       "image_url": "https://i4.ytimg.com/vi/WZOrwyK5Nmc/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "현대 시스템은 AI를 위해 설계됐다 (유발 하라리)",
-      "description_en": "",
-      "url": "https://www.youtube.com/shorts/TdG9EjCic58",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2026-11-07",
-      "image_url": "https://i1.ytimg.com/vi/TdG9EjCic58/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "정말 좋은 제품인가? (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
-      "description_en": "",
-      "url": "https://www.youtube.com/shorts/-lwzk605TA8",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2026-11-07",
-      "image_url": "https://i2.ytimg.com/vi/-lwzk605TA8/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "민주당의 대승! 2026 미국 중간선거 리뷰",
-      "description_en": "#중간선거 #미국 #민주당 #공화당 \n\n민주당의 대승! 2026 미국 중간선거 리뷰\n\n즐거움과 유익함이 가득가득, 김지윤의 지식Play!\nkimjyTV@gmail.com",
-      "url": "https://www.youtube.com/watch?v=G7nx5qjBT7A",
-      "source": "김지윤의 지식Play YouTube",
-      "category": "Video",
-      "date": "2026-11-07",
-      "image_url": "https://i4.ytimg.com/vi/G7nx5qjBT7A/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "브랜드 ＜ 좋은 제품 (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
-      "description_en": "",
-      "url": "https://www.youtube.com/shorts/eLrh2tvbhkk",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2026-11-07",
-      "image_url": "https://i2.ytimg.com/vi/eLrh2tvbhkk/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Four Neurodevelopment Papers Retracted Over Data Integrity Issues",
+      "url": "https://www.the-scientist.com/four-neurodevelopment-papers-retracted-over-data-integrity-issues-75231",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-08",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57121/neurodevelopment-retractions-800-x-560-t.jpg",
+      "title": "데이터 무결성 문제로 신경발달 연구 논문 4편 철회",
+      "summary_kr": "대학 내부 조사 결과 임신성 당뇨병과 태아 신경관 결손에 관한 여러 연구에서 이미지 중복과 데이터 이상이 발견되어 4편의 신경발달 논문이 철회되었습니다."
+    },
+    {
+      "title_en": "Predicting lung cancer risk goes beyond age and smoking history",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/predicting-lung-cancer-risk/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-08",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2524736185.jpg",
+      "title": "폐암 위험 예측, 연령과 흡연력을 넘어서다",
+      "summary_kr": "이번 연구는 폐암 접근 방식이 종양 조기 발견에서 종양이 발생할 수 있는 환경을 인식하는 방향으로 전환될 가능성을 시사합니다."
+    },
+    {
+      "title_en": "WHO adds two more Ebola vaccines to clinical trial",
+      "url": "https://www.clinicaltrialsarena.com/news/who-adds-two-more-ebola-vaccines-to-clinical-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-08",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2795513059.jpg",
+      "title": "WHO, 에볼라 백신 임상시험에 백신 2종 추가",
+      "summary_kr": "세계보건기구(WHO)가 에볼라 백신 임상시험에 ChAdOx1과 mRNA-1469 백신 두 종의 추가를 승인했다."
+    },
+    {
+      "title_en": "Pregnancy complication indicator for risk of disease",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/pregnancy-complication-indicator-risk-disease/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-08",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2201838695.jpg",
+      "title": "임신 합병증과 장기 질환 위험 간의 연관성 연구",
+      "summary_kr": "2026년 10월호 BMJ Medicine에 2000년부터 2022년 사이에 임신했던 여성들을 추적 관찰하여 장기적인 건강 결과를 확인한 연구가 실렸다."
+    },
+    {
+      "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602919?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "원외 심정지 환자의 병원 전 체외생명유지술",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Discontinuing Statins in Older Adults without Cardiovascular Disease",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2606634?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "심혈관 질환이 없는 고령자의 스타틴 복용 중단",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2610159?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "높은 지단백(a) 환자에서의 펠라카르센과 심혈관 결과",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612126?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "동맥경화성 질환을 위한 질티베키맙을 이용한 인터루킨-6 억제",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612922?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "제2형 당뇨병 환자에서의 적극적인 혈압 강하 치료",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612924?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "이전 허혈성 뇌졸중 환자에서의 적극적인 혈압 조절",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2611265?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "알도스테론 합성효소 억제제 장기 투여 후의 원발성 알도스테론증 관해",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2612650?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "원외 심정지 환자를 위한 신속한 재관류 치료 확대 방안",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Lung Hernia with a Chest-Wall Hematoma",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607065?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "흉벽 혈종을 동반한 폐 허니아",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Early Days, Late Nights",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2607215?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "초기, 그리고 늦은 밤",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Equity in Maternal–Fetal Medicine — Technological Advances and a Potential Path Forward",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2607107?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "모체태아의학에서의 형평성: 기술 발전과 향후 과제",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Mass Surveillance with Artificial Intelligence — A New Determinant of Health?",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2611224?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-08",
+      "image_url": null,
+      "title": "인공지능을 이용한 대규모 감시, 새로운 건강 결정요인이 될 것인가",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "현대 시스템은 AI를 위해 설계됐다 (유발 하라리)",
+      "url": "https://www.youtube.com/shorts/TdG9EjCic58",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i1.ytimg.com/vi/TdG9EjCic58/hqhqdefault.jpg",
+      "title": "현대 시스템은 AI를 위해 설계되었다: 유발 하라리가 경고하는 관료제와 인공지능",
+      "summary_kr": "『사피엔스』의 저자 유발 하라리는 인간이 수천 년에 걸쳐 지구상에 구축해 온 인공적인 환경에 주목합니다. 인류가 만들어낸 현대 문명은 수많은 언어 토큰, 방대한 데이터, 복잡한 관료제로 가득 차 있습니다. 그는 자연계에서 물고기가 바다에 살고 원숭이가 숲에 살듯이, 인공지능에게는 관료제가 본래의 서식지라고 비유합니다. 본래 인류는 사무실이 아닌 숲에서 진화하고 태어난 존재입니다. 반면에 인공지능은 데이터와 서류, 규정으로 가득 찬 관료제 환경에서 태어난 고유종입니다. 이로 인해 대다수의 인간은 경직되고 복잡한 관료제적 절차 속에서 숨이 막히는 압박감을 느끼곤 합니다. 그러나 인공지능에게 이러한 관료적 환경과 데이터는 생존에 필수적인 산소와 같은 역할을 합니다. 복잡한 규정과 서류 처리는 인간보다 AI가 훨씬 더 효율적으로 처리할 수 있는 영역입니다. 따라서 시간이 지남에 따라 현대 관료제를 움직이고 제어하는 힘은 점차 인공지능에게 넘어갈 가능성이 큽니다. 하라리는 결국 인간이 스스로 구축한 사회 시스템의 통제권을 인공지능에게 빼앗길 위험이 크다고 강력하게 경고합니다."
+    },
+    {
+      "title_en": "정말 좋은 제품인가? (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
+      "url": "https://www.youtube.com/shorts/-lwzk605TA8",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i2.ytimg.com/vi/-lwzk605TA8/hqhqdefault.jpg",
+      "title": "AI 시대에 고품질 제품과 탁월한 전문성이 중요한 이유",
+      "summary_kr": "기예르모 라우치 버셀(Vercel) CEO는 인공지능 기술의 발전으로 질 낮은 결과물이 범람할 것이라는 대중의 우려에 대해 입장을 밝힙니다. 그는 이러한 우려에 대한 가장 확실한 해답은 시장에 더 높은 품질의 완성도 높은 제품을 제공하는 것이라고 강조합니다. 누구나 AI를 활용해 손쉽게 결과물을 만들 수 있는 환경이 되었지만, 고객의 선택 기준은 여전히 최상의 품질에 머물러 있습니다. 소비자는 다양한 선택지 중에서 특정 목적에 부합하는 가장 뛰어난 성능의 솔루션을 우선적으로 찾습니다. 라우치 CEO는 세상이 언제나 평범함 대신 탁월한 장인정신과 전문성을 추구해 왔다고 설명합니다. 따라서 특정 작업마다 가장 우수한 제품이 선택받는 구조에서는 차별화된 완성도가 필수적입니다. 이러한 배경 속에서 그는 모든 분야를 어설프게 다루기보다는 진정으로 통달할 수 있는 소수의 영역에 역량을 집중하는 전략을 취했습니다. 여러 분야를 두루 다루지만 어느 하나도 완벽하게 해내지 못하는 형태로는 경쟁력을 확보하기 어렵습니다. 진정한 경쟁 우위는 자신이 가장 잘할 수 있는 핵심 분야를 깊이 있게 파고들어 최고 수준의 결과물을 도출하는 데서 나옵니다. 결국 AI 시대가 심화될수록 기능의 다양성보다 본질적인 완성도와 압도적인 제품 퀄리티가 성패를 가르게 됩니다."
+    },
+    {
+      "title_en": "민주당의 대승! 2026 미국 중간선거 리뷰",
+      "url": "https://www.youtube.com/watch?v=G7nx5qjBT7A",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i4.ytimg.com/vi/G7nx5qjBT7A/hqhqdefault.jpg",
+      "title": "미국 중간선거 블루 웨이브 분석과 2028년 대선 전망",
+      "summary_kr": "최근 치러진 미국 중간선거에서 민주당이 상원과 하원을 모두 석권하며 거센 '블루 웨이브'를 일으켰습니다. 이번 선거에서 공화당이 참패한 주요 원인으로는 이란 전쟁 발발에 따른 유가 급등, 지속되는 인플레이션, 건강보험 보조금 만료 등 유권자들이 체감하는 경제적 위기가 꼽힙니다. 특히 전통적인 보수 텃밭으로 여겨졌던 텍사스에서 민주당 후보가 주지사와 상원의원에 동시 당선되는 역사적인 이변이 발생했습니다. 텍사스의 변화는 외부 인구 유입뿐만 아니라, 특정 정당에 얽매이지 않고 실질적 경제 문제에 민감하게 반응하는 젊은 히스패닉 유권자들의 표심 이동이 크게 작용한 결과로 분석됩니다. 또한 노스캐롤라이나와 조지아 등 격전지에서도 높은 대중적 인기를 얻은 민주당 후보들이 승리를 거두며 의회 주도권을 굳건히 다졌습니다. 양원을 장악한 민주당이지만 트럼프 대통령의 법안 거부권과 상원의 필리버스터 장벽이 존재하는 만큼 향후 입법 대치는 더욱 격화될 전망입니다. 특히 예산 승인권과 연방 판사 인준 권한을 둘러싸고 의회와 백악관이 충돌하면서 정부 셧다운 위기 등 첨예한 정치적 갈등이 빚어질 가능성이 큽니다. 공화당 측에서는 전쟁을 반대했음에도 이번 참패의 여파를 고스란히 받게 된 JD 밴스 부통령을 비롯한 행정부 핵심 인사들의 차기 대권 행보에 비상이 걸렸습니다. 반면 민주당 내부에서는 펜실베이니아에서 압승을 거둔 조시 샤피로 주지사와 앤디 배시어 켄터키 주지사 같은 중도파 인물들이 유력한 차기 대권 주자로 떠오르고 있습니다. 동시에 진보 좌파 진영의 상징적 인물인 알렉산드리아 오카시오코르테스(AOC) 의원 또한 대선 후보군으로 주목받으며 2028년 대선을 향한 양당의 복잡한 정치 지형이 이미 시작되었습니다."
+    },
+    {
+      "title_en": "브랜드 ＜ 좋은 제품 (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
+      "url": "https://www.youtube.com/shorts/eLrh2tvbhkk",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i2.ytimg.com/vi/eLrh2tvbhkk/hqhqdefault.jpg",
+      "title": "버셀 CEO 기에르모 라우치가 밝히는 브랜딩의 본질: 마케팅보다 제품과 기본기에 집중해야 하는 이유",
+      "summary_kr": "클라우드 플랫폼 버셀(Vercel)의 CEO인 기에르모 라우치는 진정한 브랜드 구축의 본질에 대해 설명한다. 그는 버셀이 브랜드를 위해 한 최고의 일들은 역설적으로 브랜드를 의식하지 않고 실행했던 일들이라고 말한다. 고객의 신뢰는 의도적으로 투입하는 입력값이 아니라 우수한 결과물이 만들어내는 산출물에 가깝다. 그는 흔히 통용되는 ‘복근은 부엌에서 만들어진다’는 비유를 들며 브랜딩에 대한 잘못된 통념을 지적한다. 많은 사람들이 단순히 트윗을 많이 올리거나 화려한 웹사이트를 꾸미는 식의 겉치레만으로 강력한 브랜드를 만들 수 있다고 착각한다. 하지만 이러한 눈에 띄는 단편적인 전술이나 표면적인 활동은 브랜드를 성공시키는 근본적인 해답이 될 수 없다. 브랜드 가치를 높이는 진짜 핵심은 매일 꾸준히 업무에 임하고 제품의 세부 사항을 깊이 파고드는 태도에 있다. 서비스 내의 버그를 집요하게 수정하고 사용자 경험을 단순하고 직관적으로 다듬는 실질적인 노력이 무엇보다 중요하다. 또한 친절하고 체계적인 공식 문서를 구축하여 제품을 이용하는 고객의 편의성을 극대화해야 한다. 결국 화려한 마케팅보다는 비즈니스의 기본기를 단단히 다지고 우수한 제품을 완성하는 데 공을 들이는 것이 강력한 브랜드를 구축하는 지름길이다."
+    },
+    {
+      "title_en": "앞으로 '사람'이 할 일 (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
+      "url": "https://www.youtube.com/shorts/j8V7NKxF2QY",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i3.ytimg.com/vi/j8V7NKxF2QY/hqhqdefault.jpg",
+      "title": "AI 시대에 인간이 맡게 될 핵심 역할과 자본 배분의 중요성",
+      "summary_kr": "버셀(Vercel)의 CEO 기예르모 라우치는 인공지능 시대에 인간이 수행해야 할 가장 중요한 역할이 바로 자원과 자본의 배분이라고 강조합니다. AI 에이전트의 기술이 고도화됨에 따라 단순 업무 실행은 대부분 인공지능이 담당하게 됩니다. 그러나 특정 결과물을 더 정밀하게 다듬거나 성능을 한 단계 끌어올리는 과정에서는 수확 체감의 법칙이 적용됩니다. 이는 이전보다 훨씬 많은 시간, 컴퓨팅 파워, 비용이 요구된다는 것을 의미합니다. 이러한 상황에서 AI 에이전트는 인간에게 작업의 효율성과 추가 자원 투입 필요성을 보고하게 됩니다. 예를 들어 목표 수준에 도달하기 위해 수천 시간의 추가 리소스가 필요한지 되묻는 상황이 발생합니다. 결국 AI는 인간에게 선택에 따른 기회비용과 상충 관계(트레이드오프)를 제시하는 역할을 하게 됩니다. 인간은 이러한 제안을 바탕으로 추가적인 자본을 투입할 가치가 있는지 신중하게 검토해야 합니다. 결과적으로 어떤 프로젝트에 우선적으로 자원을 분배할지 최종 판단을 내리는 주체는 여전히 인간입니다. 따라서 미래의 인간은 실행자가 아닌 전략적 의사결정권자로서 중요한 결정을 내리는 위치에 서게 됩니다."
+    },
+    {
+      "title_en": "고객 리뷰 천개 읽어봄? (Vercel 창업자 기예르모 라우치(Guillermo Rauch))",
+      "url": "https://www.youtube.com/shorts/0_k8cefVOXA",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-08",
+      "image_url": "https://i1.ytimg.com/vi/0_k8cefVOXA/hqhqdefault.jpg",
+      "title": "버셀(Vercel) CEO가 말하는 고객의 불만과 제품 문제를 직면하는 법",
+      "summary_kr": "버셀(Vercel)의 CEO 기예르모 라우치는 회사를 운영할 때 제품의 결함과 고객의 고통을 외면하지 말고 정면으로 마주해야 한다고 강조합니다. 많은 기업들이 회사가 겉보기에 잘 굴러가면 제품에서 망가지거나 부족한 부분을 애써 모른 척하곤 합니다. 그는 리더들이 고객이 제품에서 무엇을 싫어하는지 제대로 조사하고 파고드는 노력을 충분히 기울이지 않는다고 지적합니다. 가령 이용자가 계정을 삭제할 때마다 탈퇴 설문조사를 수집하는 기업은 많습니다. 그러나 그 수많은 설문 답변을 각 잡고 1,000개씩 끝까지 읽어보는 경영진은 매우 드뭅니다. 마치 몸에 좋은 채소를 챙겨 먹듯이 고통스러운 피드백을 직접 소화하는 인내의 과정이 반드시 필요합니다. 또한 서비스에 크게 실망하거나 화가 나서 이탈한 고객에게 직접 먼저 연락을 취해본 적이 있는지도 되돌아보아야 합니다. 고객이 겪는 쓰라린 불편과 불만을 회피하지 않고 직접 마주하는 것이야말로 제품을 진정으로 개선하는 열쇠입니다. 진정한 제품 혁신은 부정적인 비판을 두려워하지 않고 고객의 이탈 원인을 철저히 분석하는 태도에서 출발합니다. 따라서 창업가와 리더는 제품의 결함에 솔직해지고 고객의 솔직한 목소리에 지속적으로 귀를 기울여야 합니다."
+    },
     {
       "title_en": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
       "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
