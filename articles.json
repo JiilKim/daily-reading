@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08 02:09:00",
+  "last_updated": "2026-11-09 02:41:35",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -21,6 +21,236 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
+      "url": "https://www.nature.com/articles/d41586-026-03631-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "지구 온도 1.5°C 목표 초과 임박 속 COP31 개막",
+      "summary_kr": "지구 온도가 1.5°C 기후 목표를 곧 초과할 위기에 직면한 가운데 COP31이 개막했습니다. 과학자들은 세계 기온을 안전한 수준으로 되돌리기 위해 각국 정부가 이산화탄소 제거(carbon dioxide removal)를 약속해야 한다고 촉구했습니다."
+    },
+    {
+      "title_en": "What Are the Biggest Challenges in Neuroscience? Researchers Share",
+      "url": "https://www.the-scientist.com/what-are-the-biggest-challenges-in-neuroscience-researchers-share-75242",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57148/trends-neuro-challenges-800-x-560-2-t.jpg",
+      "title": "신경과학 분야의 주요 난제들: 연구자들의 제언",
+      "summary_kr": "약물 전달(drug delivery)부터 인공지능(AI), 신경면역학(neuroimmunology)에 이르기까지 연구자들이 오늘날 신경과학이 직면한 가장 큰 난제들과 오해들을 조명했습니다."
+    },
+    {
+      "title_en": "Then and Now: Lynne-Marie Postovit Puts Cancer Cells Under Pressure",
+      "url": "https://www.the-scientist.com/then-and-now-lynne-marie-postovit-puts-cancer-cells-under-pressure-75243",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57150/then-now-postovit-800-x-560-t.jpg",
+      "title": "암세포의 압박을 연구하는 린마리 포스토빗의 연구 여정",
+      "summary_kr": "암 연구자 린마리 포스토빗(Lynne-Marie Postovit)은 저산소증과 종양 미세환경 신호가 암세포의 가소성을 조절하여 공격적인 질병 진행을 유발하는 과정을 추적하고 있습니다."
+    },
+    {
+      "title_en": "Opinion: STAT+: CVS’ split doesn’t fix its fundamental problem",
+      "url": "https://www.statnews.com/2026/11/09/cvs-health-split-pbm-conflict-examined-anthony-loiacono-judi-health/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2303025346-645x645.jpg",
+      "title": "기고: CVS의 분할은 근본적인 문제를 해결하지 못한다",
+      "summary_kr": "주디 헬스(Judi Health)의 최고경영자 A.J. 로이아코노(A.J. Loiacono)는 CVS의 두 회사로의 분할이 근본적인 문제를 해결하지 못한다고 지적했다."
+    },
+    {
+      "title_en": "Liver experts finally agree on what acute-on-chronic liver failure is",
+      "url": "https://www.statnews.com/2026/11/09/acute-on-chronic-liver-failure-new-definition/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/12/AdobeStock_690454058-645x645.jpeg",
+      "title": "간 질환 전문가들, 만성 간부전 급성 악화의 정의에 마침내 합의",
+      "summary_kr": "모두가 각자의 방식으로 정의하던 만성 간부전 급성 악화(acute-on-chronic liver failure)에 대해 환자들이 고통받는 가운데 간 질환 전문가들이 마침내 합의에 이르렀다."
+    },
+    {
+      "title_en": "STAT+: Democrats begin asking: How far can we go on health care?",
+      "url": "https://www.statnews.com/2026/11/09/democrat-healthcare-agenda-new-lawmakers-weigh-popular-vs-possible/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP26279201480102-645x645.jpg",
+      "title": "민주당, 의료 개혁은 어디까지 나아가야 하는가에 대한 논의 착수",
+      "summary_kr": "당내 많은 인사들이 민주당 의원들에게 의료 분야에서 과감한 추진을 요구하고 있으나, 그들의 이상은 현실의 벽에 부딪힐 수 있다."
+    },
+    {
+      "title_en": "AI chatbots aren’t therapists. But can they finally get men to open up?",
+      "url": "https://www.statnews.com/2026/11/09/ai-chatbots-can-overcome-mental-health-barriers-in-men/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/Stat_11_4_2026-1-645x645.jpg",
+      "title": "인공지능 챗봇은 치료사가 아니지만, 남성들의 마음을 열 수 있을까?",
+      "summary_kr": "인공지능(AI) 챗봇은 완벽한 치료사가 아니지만, 남성들이 대화를 시작하도록 유도할 수 있는지에 대한 질문이 제기된다."
+    },
+    {
+      "title_en": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
+      "url": "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-1277241907-645x645.jpg",
+      "title": "목격자와 응급구조사 교육에도 불구하고 심정지 후 생존율 개선되지 않아",
+      "summary_kr": "새로운 연구에 따르면 응급구조사와 목격자에 대한 사전 교육에도 불구하고 심정지(sudden cardiac arrest) 이후의 생존율은 향상되지 않았다. 그러나 연구진은 해당 가능성을 완전히 배제하지는 않고 있다."
+    },
+    {
+      "title_en": "STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype",
+      "url": "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_182456094-645x645.jpeg",
+      "title": "최근 심장 치료제 개발 실패가 인공지능 과장 광고에 회의론을 가져와야 하는 이유",
+      "summary_kr": "신약 연구 속도를 높일 것으로 기대되었던 새로운 기술이 다시 한번 기대를 충족하지 못하고 실패했다."
+    },
+    {
+      "title_en": "Physicists listened to electrical noise to crack a superconductor mystery",
+      "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-90737843-500x500.jpg",
+      "title": "물리학자들, 전기 노이즈 분석을 통해 초전도체 미스터리 규명",
+      "summary_kr": "전자 노이즈를 측정하면 전자들이 쌍을 이루었는지 여부를 확인할 수 있다."
+    },
+    {
+      "title_en": "A 55-Year-Old Math Problem Was Solved—This Time by Humans",
+      "url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://media.wired.com/photos/6aece579f9b9f1f7ef48cd46/master/pass/GrahamConjecture-crIrenePe%CC%81rez-Lede.jpg",
+      "title": "55년 만에 인간의 힘으로 풀린 수학 난제",
+      "summary_kr": "젊은 수학자들로 구성된 연구팀이 저글링에서 영감을 얻은 오랜 미해결 추측의 해답을 무작위성과 협력을 통해 찾아냈다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/argenx-inks-115b-unnatural-products-buyout-expand-oral-peptides\" hreflang=\"en\">Argenx inks $1.15B Unnatural Products buyout to expand in oral peptides</a>",
+      "url": "https://www.fiercebiotech.com/biotech/argenx-inks-115b-unnatural-products-buyout-expand-oral-peptides",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "아르젠엑스, 경구용 펩타이드 기술 확보 위해 언내추럴 프로덕츠 11억 5000만 달러에 인수",
+      "summary_kr": "아르젠엑스(Argenx)가 경구용 펩타이드(oral peptide) 역량을 강화하기 위해 언내추럴 프로덕츠(Unnatural Products)를 5억 5000만 달러의 선급금을 포함해 총 11억 5000만 달러 규모에 인수하는 계약을 체결했다. 이번에 인수되는 언내추럴 프로덕츠는 머크(Merck & Co.) 및 노바티스(Novartis)와 협력해 온 바이오 기업이다."
+    },
+    {
+      "title_en": "Vir says hepatitis D drug combination succeeds in first pivotal study",
+      "url": "https://endpoints.news/virs-hepatitis-d-drug-succeeds-in-first-pivotal-study/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "비르 바이오테크놀로지, 만성 D형 간염 치료제 임상 3상 성공",
+      "summary_kr": "비르 바이오테크놀로지(Vir Biotechnology)의 만성 D형 간염 치료제가 세 건의 후기 단계 임상시험 중 첫 번째 연구에서 성공을 거두며 길리어드(Gilead) 및 미룸 파마슈티컬스(Mirum Pharmaceuticals)와의 경쟁에 불을 지폈다. 비르 바이오테크놀로지는 월 1회 투여하는 토베비바트(tobevibart) 등을 투여받은 환자의 44%에서 긍정적인 결과가 나타났다고 밝혔다."
+    },
+    {
+      "title_en": "OCT New England 2026: Tackling the Patient Enrolment Crisis",
+      "url": "https://www.clinicaltrialsarena.com/features/oct-new-england-2026-tackling-the-patient-enrolment-crisis/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-09",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2707244113.jpg",
+      "title": "2026 뉴잉글랜드 안과 옥테인(OCT New England 2026) 학회: 임상시험 환자 모집 위기 해결 방안",
+      "summary_kr": "전문가들은 정보가 부족하고 지원을 받지 못한다고 느끼는 환자들의 임상시험(clinical trial) 참여율 저조 문제를 해결하기 위해 논의를 진행하고 있습니다."
+    },
+    {
+      "title_en": "Amid funding uncertainty, graduate neuroscience programs in the U.S. adapt",
+      "url": "https://www.thetransmitter.org/special-report-graduate-education-in-flux/amid-funding-uncertainty-graduate-neuroscience-programs-in-the-u-s-adapt/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-09",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525_NeuroEdu2-Survey-COLORWAY-3-3.png",
+      "title": "자금 불확실성 속에서 적응해 나가는 미국의 신경과학 대학원 프로그램들",
+      "summary_kr": "매체 더 트랜스미터(The Transmitter)는 50명의 대학원 프로그램 책임자를 대상으로 현황을 조사했습니다. 그 결과 신입생을 위한 실험실 확보가 가장 큰 우려 사항 중 하나로 나타났습니다."
+    },
+    {
+      "title_en": "The changing nature of the neuroscience Ph.D.",
+      "url": "https://www.thetransmitter.org/special-report-graduate-education-in-flux/the-changing-nature-of-the-neuroscience-ph-d/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-09",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525_NeuroEdu2-QALipscombe-COLORWAY-3-4.png",
+      "title": "변화하는 신경과학 박사 과정의 양상",
+      "summary_kr": "다이앤 립스콤(Diane Lipscombe)은 최고의 과학 분야가 유지되려면 초기 단계 과학자들의 지속적인 유입과 이들이 가져오는 혁신적인 아이디어가 필수적이라고 강조합니다. 그는 국제 학생의 감소, 훈련 지원금(training grant)의 가치, 그리고 대학원 교육이 직면한 앞으로의 과제들을 되돌아봅니다."
+    },
+    {
+      "title_en": "Rethinking neuroscience graduate education in the age of AI",
+      "url": "https://www.thetransmitter.org/special-report-graduate-education-in-flux/rethinking-neuroscience-graduate-education-in-the-age-of-ai/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-09",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525_NeuroEdu2-BigPic-COLORWAY-3-2.png",
+      "title": "인공지능 시대의 신경과학 대학원 교육 재고",
+      "summary_kr": "인공지능 시대에 접어들면서 전통적인 훈련 프로토콜에서 어떤 지식을 유지하고 무엇을 폐기해야 하며, 어떤 새로운 유형의 훈련을 도입해야 하는지에 대해 6명의 신경과학자가 의견을 밝혔습니다."
+    },
+    {
+      "title_en": "Effects of semaglutide on cardiac structure and function in heart failure with preserved ejection fraction and obesity: a pre-specified cardiac magnetic resonance substudy of the CAMEO-SEMA trial",
+      "url": "https://www.nature.com/articles/s41591-026-04787-8",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "비만 동반 박출률 보존 심부전 환자에서 세마글루티드의 심장 구조 및 기능 개선 효과: CAMEO-SEMA 임상시험의 심장 자기공명영상 하위 연구",
+      "summary_kr": "2026년 미국심장협회(AHA) 학술대회에서 발표된 CAMEO-SEMA 임상시험의 심장 자기공명영상(cardiac magnetic resonance) 하위 연구 결과에 따르면, 세마글루티드(semaglutide)는 비만을 동반한 박출률 보존 심부전(heart failure with preserved ejection fraction) 환자의 심장 구조와 기능을 유의미하게 개선했습니다. 특히 좌심방 저수조 변형능(left atrial reservoir strain)과 좌심실 충만 동역학(left ventricular filling dynamics) 등의 지표에서 긍정적인 개선 효과가 확인되었습니다."
+    },
+    {
+      "title_en": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+      "url": "https://www.nature.com/articles/s41591-026-04762-3",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "비만 동반 박출률 보존 심부전 환자에서 세마글루티드의 혈역학적 효과: 위장 대조군 무작위 임상시험",
+      "summary_kr": "2026년 미국심장협회(American Heart Association) 과학 세션에서 발표된 위장 대조군 무작위 임상시험 결과, 세마글루티드(semaglutide)는 비만을 동반한 박출률 보존 심부전(heart failure with preserved ejection fraction) 환자의 저강도 운동 중 폐동맥 쐐기압(pulmonary artery wedge pressure)을 비롯한 혈역학적 지표들을 유의미하게 개선했습니다."
+    },
+    {
+      "title_en": "Retatrutide Once Weekly in Adults with Knee Osteoarthritis Pain and Obesity",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2610676?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "비만 동반 무릎 골관절염 환자를 위한 주 1회 레타트루타이드 치료",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Community and EMS Interventions to Improve Survival in Cardiac Arrest",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612757?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "심정지 생존율 향상을 위한 지역사회 및 응급의료서비스 중재",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612972?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "방실차단 환자를 위한 좌각 및 수지상 페이징 대 우심실 페이징 비교",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A Liver-Targeted CIDEB siRNA in Adults with MASLD",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2612905?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-09",
+      "image_url": null,
+      "title": "MASLD 성인 환자를 위한 간 표적 CIDEB siRNA 연구",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "Four Neurodevelopment Papers Retracted Over Data Integrity Issues",
       "url": "https://www.the-scientist.com/four-neurodevelopment-papers-retracted-over-data-integrity-issues-75231",
