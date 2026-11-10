@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09 02:41:35",
+  "last_updated": "2026-11-10 02:49:31",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -21,6 +21,966 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "데이터센터를 향한 반발의 진짜 원인은 전력일지도 모른다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "낸시 펠로시의 후임, 인공지능(AI) 규제 나설 준비 마쳐",
+      "summary_kr": "캘리포니아주 상원의원이자 첨단 인공지능(AI) 위험 억제 법안을 발의했던 스콧 위너(Scott Wiener)가 하원의원 선거에서 승리하며 연방 인공지능 정책 수립에서 핵심적인 역할을 맡을 가능성이 제기되었다."
+    },
+    {
+      "title_en": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "다운로드: 근거 없는 인공지능(AI) 기후 주형과 엔비디아(Nvidia) 조사",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "특수 화학 산업에서의 인공지능(AI) 기반 혁신",
+      "summary_kr": "기업들이 인공지능, 클라우드 컴퓨팅, 고급 모델링을 통해 혁신을 가속화하려는 가운데, 특수 화학 제조사인 루브리졸(Lubrizol)은 연구자들이 아이디어를 더 빠르게 테스트하고 정보에 입각한 결정을 내릴 수 있도록 디지털 전환을 추진하고 있다."
+    },
+    {
+      "title_en": "The climate case for AI has not been made",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "인공지능(AI)의 기후 영향에 대한 타당성은 아직 입증되지 않았다",
+      "summary_kr": "튀르키예 안탈리아에서 열린 유엔 기후변화 회의에서 인공지능이 주요 화두로 떠오른 가운데, 전 세계 산업계에서 인공지능이 기후 행동을 지원하는 방식으로 설계되고 전력 공급 및 배포되고 있는지에 대한 타당성은 아직 충분히 입증되지 않았다."
+    },
+    {
+      "title_en": "He spent a year on ‘Mars’: NASA science officer emerges from mock mission",
+      "url": "https://www.nature.com/articles/d41586-026-03588-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "모의 화성 탐사 임무 마친 NASA 과학관, 1년간의 고립 생활 마쳐",
+      "summary_kr": "378일간의 모의 화성 탐사 임무를 마친 엔지니어 매튜 몽고메리(Matthew Montgomery)가 2주간의 외부 통신 두절을 포함한 인류와의 단절된 삶에 대한 소감을 밝혔다."
+    },
+    {
+      "title_en": "The super El Niño is more than a climate shock – it’s a health one, too",
+      "url": "https://www.nature.com/articles/d41586-026-03628-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "슈퍼 엘니뇨, 기후 충격을 넘어 보건 충격으로 이어지다",
+      "summary_kr": "슈퍼 엘니뇨로 인해 식량 부족과 질병 발병이 예상되며, 이를 함께 해결해야 할 필요성이 제기되었다."
+    },
+    {
+      "title_en": "How to make failure your friend and teacher in science",
+      "url": "https://www.nature.com/articles/d41586-026-03654-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "과학에서 실패를 친구이자 스승으로 만드는 방법",
+      "summary_kr": "수습생들이 반복적인 작업을 통해 전문성을 개발하고 실수로부터 배우듯이 과학자들도 이와 다르지 않다고 루스 모건(Ruth Morgan)은 주장한다."
+    },
+    {
+      "title_en": "Carlo Rovelli says fundamental physics is overrated",
+      "url": "https://www.nature.com/articles/d41586-026-03626-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "카를로 로벨리 \"기초 물리학은 과대평가되었다\"",
+      "summary_kr": "이론물리학자인 카를로 로벨리(Carlo Rovelli)는 과학계에 더 많은 겸손이 필요하다고 강조하며 인공지능이 의식을 가질 수 있는지에 대한 견해를 밝혔다."
+    },
+    {
+      "title_en": "Author Correction: Histone H3 trimethylation at lysine 36 guides m<sup>6</sup>A RNA modification co-transcriptionally",
+      "url": "https://www.nature.com/articles/s41586-026-11375-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "저자 정정: 리신 36번의 히스톤 H3 삼메틸화는 전사와 동시에 m6A RNA 수식을 유도한다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "AI has transformed maths — this is how we got here",
+      "url": "https://www.nature.com/articles/d41586-026-03627-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "인공지능이 수학을 어떻게 변화시켰는가",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "How academic freedom is changing around the world — by the numbers",
+      "url": "https://www.nature.com/articles/d41586-026-02998-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "수치로 보는 전 세계 학문의 자유 변화",
+      "summary_kr": "네이처는 최근 몇 년간 학문의 자유가 급락하거나 급증한 5개국의 상황을 보도했다."
+    },
+    {
+      "title_en": "What postdoc ads ask for and what they leave unsaid",
+      "url": "https://www.nature.com/articles/d41586-026-02903-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "박사후연구원 구인 광고가 요구하는 것과 말하지 않는 것",
+      "summary_kr": "네 자녀를 키우며 박사후연구원 자리를 찾던 웬환 쉬는 많은 구인 광고가 실제 직무보다 이상적인 지원자의 모습을 훨씬 더 명확하게 묘사하고 있음을 깨달았다."
+    },
+    {
+      "title_en": "Daily briefing: Ancient cave art found hiding in plain sight",
+      "url": "https://www.nature.com/articles/d41586-026-03648-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "일일 브리핑: 눈에 띄지 않던 고대 동굴 벽화 발견",
+      "summary_kr": "스페인의 한 동굴에서 발견된 암각화는 2만 6000년 전의 것으로 거슬러 올라간다. 또한 유연 근무 제도가 결국 학업을 병행하는 어머니들에게 더 많은 업무 부담을 안겨줄 수 있다는 점과 켈트어 및 게르만어의 기원이 다뤄졌다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Carlos Iglesias-Aguirre Tackles Infant Gut Microbiome Restoration",
+      "url": "https://www.the-scientist.com/postdoc-portrait-carlos-iglesias-aguirre-tackles-infant-gut-microbiome-restoration-75236",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57132/carlos-iglesias-aguirre-800-x-5603-t.jpg",
+      "title": "영유아 장내 마이크로바이옴 복원에 매진하는 박사후연구원 카를로스 이글레시아스 아기레",
+      "summary_kr": "이 박사후연구원은 영유아의 장내 미생물군(gut microbial communities)을 재구축하여 초기 생애 생태계가 면역계 성숙을 어떻게 형성하는지 해독하고 있다."
+    },
+    {
+      "title_en": "How &ldquo;Forever Chemicals&rdquo; Siphon Soil Fertility",
+      "url": "https://www.the-scientist.com/how-forever-chemicals-siphon-soil-fertility-75244",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57152/pfas-soil-fertility-800x560-t.jpg",
+      "title": "영구 화학 물질이 토양의 비옥도를 고갈시키는 방식",
+      "summary_kr": "과유기화합물(PFAS)이 전 세계 토양을 오염시키고 있다. 연구에 따르면 이들은 영양분 순환에 필수적인 미생물과 효소를 교란하여 작물 생산성을 위협할 수 있다."
+    },
+    {
+      "title_en": "A National Mentoring Program Helps Scientists Advance Their Careers",
+      "url": "https://www.the-scientist.com/a-national-mentoring-program-helps-scientists-advance-their-careers-75255",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57220/nrmn-thumbnail-t.jpg",
+      "title": "과학자들의 경력 발전을 돕는 국가 멘토링 프로그램",
+      "summary_kr": "한 이니셔티브는 미국 전역의 연수생과 초기 경력 연구원들을 멘토, 전문 자원, 그리고 과학계 다양성 제고를 돕는 기회와 연결하고 있다."
+    },
+    {
+      "title_en": "Rethinking Centrifugation for a More Sustainable Laboratory",
+      "url": "https://www.the-scientist.com/rethinking-centrifugation-for-a-more-sustainable-laboratory-75228",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57109/key-visual-centrifuge-5811-r-page-2-rgb-t.jpg",
+      "title": "더욱 지속 가능한 실험실을 위한 원심분리기 재고",
+      "summary_kr": "일상적인 실험실 장비는 연구 성능을 저하시키지 않으면서도 에너지 소비와 환경적 영향을 줄일 수 있는 기회를 제공한다."
+    },
+    {
+      "title_en": "Make It Local, Make It Last: The Evolution of mRNA Protein Replacement Therapy",
+      "url": "https://www.the-scientist.com/make-it-local-make-it-last-the-evolution-of-mrna-protein-replacement-therapy-75249",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57194/screenshot-2026-11-06-092546-t.png",
+      "title": "mRNA 단백질 대체 치료제의 진화: 지역화와 지속성",
+      "summary_kr": "mRNA 치료제, 지질 나노입자(lipid nanoparticle) 제조, 유전체 편집 분야의 발전상을 살펴보고, 지역화된 생산이 치료 접근성과 치료 옵션을 어떻게 개선할 수 있는지 알아본다."
+    },
+    {
+      "title_en": "Neurons in a dish are the newest computing machines",
+      "url": "https://www.science.org/content/article/neurons-dish-are-newest-computing-machines",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "접시 위의 뉴런이 차세대 컴퓨팅 기기로 부상하다",
+      "summary_kr": "연구자들이 뇌 오가노이드(brain organoid)의 능력을 활용하는 법을 배울 수 있다면, 이는 매우 효율적인 정보 처리를 제공할 수 있다."
+    },
+    {
+      "title_en": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+      "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "미국, 생물테러 방지 위해 합성 DNA 주문에 새로운 규제 도입",
+      "summary_kr": "새로운 생물안전 정책이 도입되면서 생물보안 전문가들로부터 절제된 칭찬을 받고 있다."
+    },
+    {
+      "title_en": "Researchers sue to block NSF from demolishing social science directorate",
+      "url": "https://www.science.org/content/article/researchers-sue-block-nsf-demolishing-social-science-directorate",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "연구자들, NSF의 사회과학국 철거 저지 소송 제기",
+      "summary_kr": "개입이 없으면 NSF는 한 달 안에 사회·행동·경제과학국을 완전히 폐쇄할 수 있는 상황이다."
+    },
+    {
+      "title_en": "AI beats scientists at finding errors in clinical research papers",
+      "url": "https://www.science.org/content/article/ai-beats-scientists-finding-errors-clinical-research-papers",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "임상 연구 논문 오류 찾기에서 AI가 과학자들을 능가해",
+      "summary_kr": "새로운 연구 결과는 의료 결정이 걸려 있는 연구에서 기술적 결함을 찾아내는 인공지능의 능력을 입증했다."
+    },
+    {
+      "title_en": "STAT+: State Democratic wins make Medicaid expansion a possibility for more than a million people",
+      "url": "https://www.statnews.com/2026/11/10/medicaid-expansion-holdout-states-midterm-election-power-shift/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2303395318-645x645.jpg",
+      "title": "민주당의 주 단위 승리로 100만 명 이상에게 메디케이드 확대 가능성 열려",
+      "summary_kr": "텍사스, 조지아, 위스콘신주는 민주당이 집권할 경우 메디케이드 프로그램을 확대할 가능성이 있다."
+    },
+    {
+      "title_en": "Opinion: AI’s health advice can be accurate and still make us sicker",
+      "url": "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-1462188153-645x645.jpg",
+      "title": "인공지능의 건강 조언은 정확하더라도 오히려 건강을 해칠 수 있어",
+      "summary_kr": "연구자들은 사실에 기반한 건강 관련 메시지조차 사람들을 덜 건강하게 만드는 방식으로 행동을 바꿀 수 있다고 지적한다."
+    },
+    {
+      "title_en": "Opinion: STAT+: BIO CEO: American biotech needs a coordinated plan to beat China — now",
+      "url": "https://www.statnews.com/2026/11/10/china-biotech-bio-plan-space-race/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/sputnik_asm-645x645.jpg",
+      "title": "미국 바이오테크 산업, 중국을 이기기 위한 통합된 계획 필요해",
+      "summary_kr": "바이오 CEO는 오늘의 바이오테크 경쟁이 우리 세대의 우주 경쟁과 같다고 언급했다."
+    },
+    {
+      "title_en": "STAT+: Ionis Pharmaceuticals shares plummet after slow rollout of biotech’s triglyceride-lowering drug",
+      "url": "https://www.statnews.com/2026/11/09/ionis-pharmaceuticals-shares-plummet-after-tryngolza-slow-rollout/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AP7357695644179726-645x645.jpg",
+      "title": "중성지방 저하제 출시 부진으로 아이오니스 파마슈티컬스 주가 급락",
+      "summary_kr": "아이오니스 파마슈티컬스는 중성지방 저하제의 매출 전망치를 하향 조정한 후 월요일에 시가총액 10억 달러 이상을 잃었다."
+    },
+    {
+      "title_en": "STAT+: FDA approves novel Bayer drug to reduce recurrence of stroke",
+      "url": "https://www.statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2019/09/AP_060324030695-645x645.jpg",
+      "title": "FDA, 뇌졸중 재발 방지 위한 바이엘의 신약 승인",
+      "summary_kr": "바이엘의 약물은 출혈 위험을 높이지 않으면서 혈전을 예방하도록 설계된 새로운 계열의 첫 번째 약물이다."
+    },
+    {
+      "title_en": "STAT+: Trump administration removes WuXi AppTec from its Chinese military list",
+      "url": "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_756530745_Editorial_Use_Only-645x645.jpeg",
+      "title": "트럼프 행정부, 우시앱텍을 중국 군사 기업 명단에서 제외해",
+      "summary_kr": "트럼프 행정부는 제약 산업의 주요 파트너인 우시앱텍을 미국 내에서 운영되는 중국 군사 기업 명단에서 제외했다."
+    },
+    {
+      "title_en": "STAT+: Bill Ackman’s bold plan to transform brain research",
+      "url": "https://www.statnews.com/2026/11/09/bill-ackman-launches-new-brain-research-institute/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2213174570-645x645.jpg",
+      "title": "빌 애크먼의 뇌 연구 혁신을 위한 대담한 계획",
+      "summary_kr": "억만장자 빌 애크먼은 비극적인 개인사를 계기로 뇌 연구를 혁신하기 위한 대담한 계획을 가지고 있다."
+    },
+    {
+      "title_en": "STAT+: Hospitals win the midterms, and Chopping Very Strategically",
+      "url": "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2293235980-645x645.jpg",
+      "title": "병원에 유리한 중간선거 결과와 CVS 분할의 배경",
+      "summary_kr": "CVS의 기업 분할 배경과 민주당의 선거 승리가 병원들에 호재가 되는 이유를 설명합니다."
+    },
+    {
+      "title_en": "STAT+: Heart association meeting’s readout is trending ‘neutral’",
+      "url": "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-1504745575-645x645.jpg",
+      "title": "미국심장협회 학술대회 결과는 중립적 흐름을 보였으나 연구는 지속",
+      "summary_kr": "미국심장협회(American Heart Association) 학술대회에서 발표된 연구 결과들은 전반적으로 중립적인 양상을 보였습니다. 그럼에도 불구하고 연구자들은 염증 억제와 Lp(a) 저하 연구를 중단할 의향이 없는 것으로 나타났습니다."
+    },
+    {
+      "title_en": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",
+      "url": "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_6400491-645x645.jpeg",
+      "title": "FDA, GLP-1 계열 약물의 드문 안과 질환 위험 경고",
+      "summary_kr": "미국 식품의약국(FDA)은 월요일 GLP-1 계열 약물이 드물지만 심각한 안과 질환 위험을 수반할 수 있다고 경고했습니다. 해당 질환은 '안구 중풍'으로도 불립니다."
+    },
+    {
+      "title_en": "STAT+: Gene therapy’s long-debated cancer risk materializes",
+      "url": "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/AdobeStock_290077952-645x645.jpeg",
+      "title": "오랫동안 논쟁이 되었던 유전자 치료제의 암 유발 위험 현실화",
+      "summary_kr": "유전자 치료 연구에서 바이러스를 이용해 대체 유전자를 세포로 전달할 때 종양이 발생할 수 있는지에 대해 수년간 논쟁이 이어졌습니다. 소수의 사례가 확인되면서 이와 관련된 강력한 증거가 제시되었습니다."
+    },
+    {
+      "title_en": "STAT+: Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in studies",
+      "url": "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/GettyImages-2092473213-645x645.jpg",
+      "title": "일라이 릴리의 경구용 GLP-1 파운다요, 임상에서 수면 무호흡증 완화 효과 확인",
+      "summary_kr": "일라이 릴리(Eli Lilly)의 경구용 GLP-1 약물인 파운다요(Foundayo)는 두 건의 후기 임상시험에서 수면 무호흡증을 완화하는 데 도움을 준 것으로 나타났습니다. 다만 릴리의 주사형 약물인 제프바운드(Zepbound)만큼 효과적인 것으로 보이지는 않습니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about a Novartis heart drug, BIO fighting a Trump program, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "노바티스, 심장병 예방 효과 부족으로 블록버스터 기대 신약 개발 포기",
+      "summary_kr": "노바티스(Novartis)는 한때 블록버스터 의약품으로 기대를 모았던 심장 치료제에 대한 임상시험 결과 심장마비와 사망 예방 가능성이 낮다는 점이 확인되면서 해당 약물 개발을 대거 포기하기로 했습니다."
+    },
+    {
+      "title_en": "STAT+: A new rule to prevent the spread of bioweapons",
+      "url": "https://www.statnews.com/2026/11/09/health-news-new-rule-to-prevent-bioweapon-spread/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/01/AdobeStock_1146014256-645x645.jpeg",
+      "title": "생물무기 확산 방지를 위한 새로운 규정 추진",
+      "summary_kr": "인공지능(AI)은 새로운 잠재적 의약품 개발을 쉽게 만들지만 악의적인 행위자가 새로운 생물무기를 만들 가능성도 높일 수 있습니다. 이에 따라 트럼프 행정부 관료들은 새로운 지침을 마련하고 있습니다."
+    },
+    {
+      "title_en": "Pentagon mulls placing fleet of military satellites around the Moon",
+      "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/55199774765_6e77d97b51_o-500x500.jpg",
+      "title": "펜타곤, 달 주변 군사 위성 함대 배치 검토",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
+      "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2219660369-500x500.jpg",
+      "title": "새로운 민주당 의회, 트럼프의 '골든 돔' 계획 수정 전망",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Scientists May Have Discovered a Massive Starless Galaxy",
+      "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://media.wired.com/photos/6ae4b0b9fafa122d7f6143a0/master/pass/103016-Starless%20Galaxy.jpg",
+      "title": "과학자들, 별이 없는 거대 은하 발견 가능성 제기",
+      "summary_kr": "유력한 후보 은하는 태양 질량의 약 20억 배에 달하는 수소를 포함하고 있으나 별은 없는 것으로 보입니다. 이 은하를 연구하면 수년간 천문학자들을 괴롭혀온 질문에 답하는 데 도움이 될 수 있습니다."
+    },
+    {
+      "title_en": "These Robotic Arms Are Powered by Algae. Watch How They Move",
+      "url": "https://www.wired.com/story/these-robotic-arms-are-made-of-algae-watch-how-they-move/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://media.wired.com/photos/6aeb82bb5d3f8b6dd9946810/master/pass/Soft-robot-arm_3.jpeg",
+      "title": "조류 광합성으로 구동되는 유연한 로봇 팔의 움직임",
+      "summary_kr": "이 유연한 로봇들의 움직임의 핵심은 조류(algae)의 광합성 능력에 있다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/coherus-shrinks-headcount-30-narrow-focus-cancer-combo\" hreflang=\"en\">Coherus shrinks headcount 30% to narrow focus of cancer combo</a>",
+      "url": "https://www.fiercebiotech.com/biotech/coherus-shrinks-headcount-30-narrow-focus-cancer-combo",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "코히루스 온콜로지, 항암제 병용요법 집중 위해 인력 30% 감축",
+      "summary_kr": "코히루스 온콜로지(Coherus Oncology)가 CCR8 표적 항체의 식도암 연구에 집중하기 위해 전체 인력의 30%를 다시 한번 감축한다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/mercks-mash-hopeful-efinopegdutide-wins-mid-stage-study\" hreflang=\"en\">Merck’s MASH hopeful efinopegdutide wins in mid-stage study</a>",
+      "url": "https://www.fiercebiotech.com/biotech/mercks-mash-hopeful-efinopegdutide-wins-mid-stage-study",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "머크의 MASH 치료 후보물질 에피노페그두타이드, 중기 임상시험서 성공",
+      "summary_kr": "머크(Merck & Co.)는 GLP-1 및 글루카곤 수용체 공동 작용제인 에피노페그두타이드가 위약 대비 간 섬유화 악화 없이 MASH(대사이상 관련 지방간염) 환자들의 증상을 개선했다고 중기 임상시험 결과를 밝혔다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/research/onchilles-believes-it-has-molecule-cancer-has-never-seen\" hreflang=\"en\">‘Cancer hasn't seen this molecule before’: Onchilles’ injection shows potential for solid tumors</a>",
+      "url": "https://www.fiercebiotech.com/research/onchilles-believes-it-has-molecule-cancer-has-never-seen",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "온칠레스의 백신형 신약 후보물질 N17350, 고형암 치료 잠재력 입증",
+      "summary_kr": "샌디에이고 소재 바이오 기업 온칠레스(Onchilles)는 백신과 유사한 치료제인 N17350을 종양에 직접 주사했을 때, 주사 부위에서 떨어진 원격 종양 병변까지 제거할 수 있음을 입증했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/delix-drums-100m-its-non-hallucinatory-psychedelic-therapy-depression\" hreflang=\"en\">J&amp;J-backed Delix drums up $100M series C for non-hallucinatory psychedelic for depression</a>",
+      "url": "https://www.fiercebiotech.com/biotech/delix-drums-100m-its-non-hallucinatory-psychedelic-therapy-depression",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "존슨앤드존슨 지원받은 딜릭스, 우울증 치료를 위한 비환각성 사이키델릭 개발에 1억 달러 투자 유치",
+      "summary_kr": "딜릭스 테라퓨틱스(Delix Therapeutics)는 존슨앤드존슨(Johnson & Johnson) 등이 지원하는 시리즈 C 투자 라운드에서 1억 달러를 조달했으며, 이를 통해 임상 2상 진입을 앞둔 우울증 치료용 비환각성 사이키델릭 치료제 개발을 추진할 예정이다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/marea-now-lisata-subsidiary-touts-mid-stage-hypertriglyceridemia-clinical-win\" hreflang=\"en\">Recent Lisata prize Marea touts ‘exciting’ lipid disorder phase 2 win, mulls obesity potential</a>",
+      "url": "https://www.fiercebiotech.com/biotech/marea-now-lisata-subsidiary-touts-mid-stage-hypertriglyceridemia-clinical-win",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "마레아 테라퓨틱스, 지질 대사 질환 임상 2상 성공 및 비만 치료 가능성 모색",
+      "summary_kr": "종양학 약물 개발사인 리사타 테라퓨틱스와의 합병을 마친 심장대사 질환 바이오 기업 마레아 테라퓨틱스(Marea Therapeutics)는 임상 2b 연구의 첫 번째 파트 결과, 자사의 약물 후보물질 MAR001이 고중성지방혈증 환자의 혈중 지방 수치를 유의미하게 감소시켰다고 밝혔다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/aha-boehringer-aims-2027-survodutide-submission-after-obesity-drug-passes-phase-3-cardio\" hreflang=\"en\">AHA: Boehringer aims for 2027 survodutide submission after obesity drug passes cardio test</a>",
+      "url": "https://www.fiercebiotech.com/biotech/aha-boehringer-aims-2027-survodutide-submission-after-obesity-drug-passes-phase-3-cardio",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "베링거인겔하임, 심혈관 임상 통과한 비만 치료제 서보두타이드 2027년 허가 신청 목표",
+      "summary_kr": "베링거인겔하임(Boehringer Ingelheim)은 최근 진행된 심혈관 임상 3상 연구에서 비만 치료제인 서보두타이드(survodutide)가 심혈관 효능을 입증함에 따라 내년 규제 기관에 승인 신청을 준비하고 있다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/spruce-propagates-preclinical-asset-newly-formed-adrenyx-biosciences\" hreflang=\"en\">Spruce spins out preclinical endocrinology program into newly formed Adrenyx</a>",
+      "url": "https://www.fiercebiotech.com/biotech/spruce-propagates-preclinical-asset-newly-formed-adrenyx-biosciences",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "스프루스 바이오사이언스, 전임상 내분비학 프로그램 분사해 아드레닉스 바이오사이언스 설립",
+      "summary_kr": "스프루스 바이오사이언스(Spruce Biosciences)는 전임상 내분비학 프로그램을 새로 설립된 자회사인 아드레닉스 바이오사이언스(Adrenyx Biosciences)로 분사하며, 이름이 알려지지 않은 투자자로부터 최대 5,000만 달러의 지원을 받는다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/zura-scraps-hidradenitis-suppurativa-program-after-phase-2-miss\" hreflang=\"en\">Zura scraps hidradenitis suppurativa program after phase 2 miss, sinking stock</a>",
+      "url": "https://www.fiercebiotech.com/biotech/zura-scraps-hidradenitis-suppurativa-program-after-phase-2-miss",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "주라 바이오, 임상 2상 실패로 화농성 한선염 프로그램 중단 및 주가 하락",
+      "summary_kr": "주라 바이오(Zura Bio)의 티불리주맙(tibulizumab)이 화농성 한선염 임상 2상 시험에서 실패하면서, 해당 적응증에 대한 개발을 중단하고 다른 환경에서의 연구는 계속 이어가기로 했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/sanofi-backed-windward-breezes-toward-204m-ipo-fund-respiratory-pipeline\" hreflang=\"en\">Sanofi-backed Windward breezes toward $204M IPO to fund respiratory pipeline from China</a>",
+      "url": "https://www.fiercebiotech.com/biotech/sanofi-backed-windward-breezes-toward-204m-ipo-fund-respiratory-pipeline",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "사노피 지원 받는 윈드워드, 중국 도입 호흡기 파이프라인 자금 조달 위해 2억 400만 달러 규모 IPO 추진",
+      "summary_kr": "윈드워드 바이오(Windward Bio)는 중국에서 라이선스 도입한 두 가지 호흡기 치료제 파이프라인의 자금을 조달하기 위해 2억 달러 이상의 공모 자금 확보를 목표로 기업공개(IPO)를 추진하고 있다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/philippe-lopes-fernandes-executive-vice-president-chief-business-officer-ipsen\" hreflang=\"en\">Looking Beyond the First Answer Towards Delivering Impact</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/philippe-lopes-fernandes-executive-vice-president-chief-business-officer-ipsen",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "최초의 정답을 넘어 임팩트를 만들기 위해",
+      "summary_kr": "과학은 드물게 직선으로 움직이며, Philippe Lopes-Fernandes는 예상치 못한 전환이 어떻게 진보로 가는 신뢰할 수 있는 길을 드러낼 수 있는지 탐구합니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/when-china-fits-global-clinical-development-strategy\" hreflang=\"en\">When China Fits a Global Clinical Development Strategy</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/when-china-fits-global-clinical-development-strategy",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "중국이 글로벌 임상 개발 전략에 부합하는 방법",
+      "summary_kr": "중국에서 생성된 근거, 환자 접근성, 규제 계획 및 현지 전문성이 어떻게 글로벌 임상 프로그램을 강화할 수 있는지 살펴봅니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/advanced-analytics-help-reduce-control-animal-use-while-preserving-scientific-rigor\" hreflang=\"en\">Advanced Analytics Help Reduce Control Animal Use While Preserving Scientific Rigor</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/advanced-analytics-help-reduce-control-animal-use-while-preserving-scientific-rigor",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "고도화된 분석을 통한 대조군 동물 사용 감소와 과학적 엄밀성 유지",
+      "summary_kr": "고도화된 분석 기법은 새로운 연구에 엄선된 과거 대조군 데이터를 활용하여 과학적 엄밀성을 유지하면서도 동물 실험 사용을 줄이는 데 기여합니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/sponsored/use-kidney-genetics-strengthen-clinical-trial-design\" hreflang=\"en\">Use Kidney Genetics to Strengthen Clinical Trial Design</a>",
+      "url": "https://www.fiercebiotech.com/sponsored/use-kidney-genetics-strengthen-clinical-trial-design",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "신장 유전학을 활용한 임상시험 디자인 강화",
+      "summary_kr": "유전자형으로 정의된 신장 질환 데이터가 임상시험 대상자 모집, 평가변수 및 등록 전략에 어떻게 활용될 수 있는지 팟캐스트를 통해 들어봅니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/kyorin-pens-140m-deal-japan-rights-edesas-phase-3-stage-respiratory-drug\" hreflang=\"en\">Kyorin pens $140M deal for Japan rights to Edesa’s phase 3 respiratory drug</a>",
+      "url": "https://www.fiercebiotech.com/biotech/kyorin-pens-140m-deal-japan-rights-edesas-phase-3-stage-respiratory-drug",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "교린제약, 에데사의 3상 호흡기 치료제 일본 판권 1억 4천만 달러에 확보",
+      "summary_kr": "교린제약(Kyorin Pharmaceutical)은 급성 호흡기 곤란 증후군 치료를 위한 에데사 바이오테크(Edesa Biotech)의 항TLR4 항체 일본 판권을 확보하기 위해 선급금 1,200만 달러를 지불합니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/faeths-phase-2-data-power-oral-combo-forward-cancer-targeted-adc-heavyweights\" hreflang=\"en\">Faeth’s phase 2 data power oral combo forward in cancer targeted by ADC heavyweights</a>",
+      "url": "https://www.fiercebiotech.com/biotech/faeths-phase-2-data-power-oral-combo-forward-cancer-targeted-adc-heavyweights",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "페에스의 2상 데이터, 항체-약물 접합체(ADC) 주도 암 치료 분야에서 경구용 병용요법 추진력 강화",
+      "summary_kr": "페에스 테라퓨틱스(Faeth Therapeutics)의 자궁내막암 치료 후보물질이 2상 유효성 기준을 충족했으며, 주사제가 주를 이루는 해당 분야에서 경구용 치료법 확립을 위한 노력을 가속화하고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/virs-phase-3-hepatitis-delta-win-fuels-push-eclipse-gilead\" hreflang=\"en\">Vir’s phase 3 hepatitis delta win fuels push to eclipse Gilead</a>",
+      "url": "https://www.fiercebiotech.com/biotech/virs-phase-3-hepatitis-delta-win-fuels-push-eclipse-gilead",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "비르, B형 간염 델타 바이러스 3상 성공으로 길리어드 추격 가속화",
+      "summary_kr": "비르 바이오테크놀로지(Vir Biotechnology)의 만성 B형 간염 델타 바이러스 대상 3상 임상시험이 1차 유효성 평가변수를 달성했으며, 이를 통해 내년 FDA 승인 신청을 위한 첫 번째 기반을 마련했습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/valneva-sees-limmatech-vaccine-reduce-shigella-infections-phase-2-test\" hreflang=\"en\">Valneva sees LimmaTech vaccine reduce Shigella infections in phase 2 test</a>",
+      "url": "https://www.fiercebiotech.com/biotech/valneva-sees-limmatech-vaccine-reduce-shigella-infections-phase-2-test",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "발네바, 2상 시험에서 리마테크 백신의 시겔라 감염 감소 효과 확인",
+      "summary_kr": "발네바(Valneva)의 시겔라(Shigella) 백신이 2상 임상시험의 주요 평가변수를 달성하며 장내 감염 사례를 감소시키는 것으로 나타났습니다."
+    },
+    {
+      "title_en": "London startup raises $60M for degraders aimed at Alzheimer’s protein tau",
+      "url": "https://endpoints.news/london-startup-raises-60m-for-degraders-aimed-at-alzheimers-protein-tau/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "런던 스타트업, 알츠하이머병 원인 단백질 타우 표적 분해제 개발 위해 6,000만 달러 유치",
+      "summary_kr": "오이스터 테라퓨틱스(Oyster Therapeutics)는 알츠하이머병과 관련된 뇌 단백질인 타우의 병원성 형태를 파괴하는 경구용 약물 개발을 위해 6,000만 달러를 모금했습니다. 이번 시리즈 A-2 자금 조달은 생명과학 벤처캐피탈 펀드인 4BIO 캐피털이 주도했습니다."
+    },
+    {
+      "title_en": "Bayer wins FDA approval for stroke prevention drug Sunharbo",
+      "url": "https://endpoints.news/bayer-wins-fda-approval-for-stroke-prevention-drug-sunharbo/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "바이엘, 뇌졸중 예방약 순하르보에 대한 FDA 승인 획득",
+      "summary_kr": "바이엘(Bayer)의 아순덱시안(asundexian)이 최근 경증에서 중등도의 비심장성 허혈성 뇌졸중이나 고위험 일과성 허혈 발작을 겪은 사람들의 뇌졸중 위험을 줄이기 위한 용도로 미국 식품의약국(FDA)의 승인을 받았습니다. 규제 기관은 월요일에 해당 약물의 승인을 허가했습니다."
+    },
+    {
+      "title_en": "How early efforts to build autonomous clinical AI tools are approaching regulation",
+      "url": "https://endpoints.news/how-early-efforts-to-build-autonomous-clinical-ai-tools-are-approaching-regulation/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "자율형 임상 AI 도구 개발을 위한 초기 노력과 규제 접근 방식",
+      "summary_kr": "미국보건의료첨단연구계획국(ARPA-H)의 어드보케이트(Advocate) 프로그램에 참여하는 여러 팀이 임상 인공지능(AI) 이니셔티브가 출범한 지 2달도 채 되지 않아 미국 식품의약국(FDA)과 첫 정보 공유 미팅을 가졌다고 ARPA-H 프로그램 매니저 하이더 워라이치(Haider Warraich)가 목요일 밝혔습니다."
+    },
+    {
+      "title_en": "Trump’s drug pricing deals force tough choices on launches",
+      "url": "https://endpoints.news/trumps-drug-pricing-deals-force-tough-choices-on-launches/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "트럼프의 약가 책정 합의로 인해 신약 출시를 앞둔 제약사들의 고심 깊어져",
+      "summary_kr": "도널드 트럼프 대통령의 약가 정책에 동참한 기업들이 신약 출시 과정에서 어려운 결정에 직면했습니다. '최혜국 대우(Most Favored Nation)' 약가 정책은 미국의 의약품 가격을 다른 국가에서 부과되는 가격과 연동하는 것을 목표로 하고 있습니다."
+    },
+    {
+      "title_en": "FDA orders GLP-1 drugmakers to warn of rare eye disease",
+      "url": "https://endpoints.news/fda-orders-glp-1-drugmakers-to-warn-of-rare-eye-disease/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "미국 FDA, GLP-1 계열 약물 제조사에 희귀 안과 질환 경고 문구 추가 명령",
+      "summary_kr": "미국 식품의약국(FDA)은 GLP-1 제제 약물 제조사들에게 실명으로 이어질 수 있는 희귀 안과 질환의 위험 증가를 반영하도록 제품 라벨을 업데이트하라고 지시했습니다. 규제 기관은 기업들이 이러한 내용을 추가할 것을 요구하고 있다고 밝혔습니다."
+    },
+    {
+      "title_en": "US government removes WuXi AppTec from Chinese military list",
+      "url": "https://endpoints.news/us-government-removes-wuxi-apptec-from-chinese-military-list/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "미 국방부, 우시앱텍을 중국군 기업 명단에서 제외",
+      "summary_kr": "미국 국방부가 우시앱텍(WuXi AppTec)을 중국군 기업 명단에서 제외했습니다. 다만 상하이 기반의 해당 서비스 제공 기업에 대해서는 재지정될 위험이 여전히 남아 있습니다. 미 국방부 부장관이 우시앱텍의 명단 제외를 결정했습니다."
+    },
+    {
+      "title_en": "Third Rock enters $2B partnership with AI-focused Chinese biotech",
+      "url": "https://endpoints.news/third-rock-enters-2b-partnership-with-ai-focused-chinese-biotech/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "써드 록 벤처스, AI 기반 중국 바이오기업과 20억 달러 규모 파트너십 체결",
+      "summary_kr": "써드 록 벤처스(Third Rock Ventures)가 잘 알려지지 않은 중국 바이오기업의 인공지능(AI) 플랫폼에 최대 21억 6천만 달러를 투자합니다. 퍼넬 바이오사이언스(Funnel Biosciences)는 스스로를 AI 기반 생물학적 제제 기업으로 설명하고 있습니다."
+    },
+    {
+      "title_en": "Heron sells assets to CorMedix for $145M upfront; Faeth's stock tumbles",
+      "url": "https://endpoints.news/heron-sells-assets-to-cormedix-for-145m-upfront-faeths-stock-tumbles/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "헤론, 코메딕스에 자산 1억 4500만 달러에 매각 및 파에스 주가 하락",
+      "summary_kr": "코메딕스는 헤론의 포트폴리오를 인수했습니다. 이번 거래에는 1억 4500만 달러의 선불금이 포함되어 있으며 이와 함께 파에스(Faeth)의 주가가 급락했습니다. 아울러 면보반트, 아베오나 테라퓨틱스 등 다른 바이오 기업들의 소식도 함께 전해졌습니다."
+    },
+    {
+      "title_en": "Neuroplastogen biotech Delix raises $100M Series C",
+      "url": "https://endpoints.news/neuroplastogen-biotech-delix-raises-100m-series-c/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "신경가소성 유도 약물 개발 바이오기업 델릭스, 1억 달러 규모 시리즈 C 투자 유치",
+      "summary_kr": "델릭스 테라퓨틱스(Delix Therapeutics)가 정신 건강 및 정신 의학 분야의 새로운 치료제 물결에 합류하기 위해 시리즈 C 라운드에서 1억 달러를 조달했습니다. 이번 투자는 급부상하는 사이키델릭 및 신경가소성(neuroplastogen) 약물 개발사들과의 격차를 좁히기 위한 것입니다."
+    },
+    {
+      "title_en": "#AHA26: Boehringer to seek approval of obesity shot, but gaining market share could be tricky",
+      "url": "https://endpoints.news/aha26-boehringer-to-seek-approval-of-obesity-shot-but-gaining-market-share-could-be-tricky/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "베링거인겔하임, 비만 치료제 서보두타이드 승인 신청 예정이나 시장 점유율 확보는 과제",
+      "summary_kr": "베링거인겔하임(Boehringer Ingelheim)은 임상시험에서 해당 약물이 심장마비나 뇌졸중 같은 심혈관계 사건의 위험을 증가시키지 않는다는 점이 확인된 후, 내년에 비만 치료를 위한 인크레틴(incretin) 주사제인 서보두타이드(survodutide)의 승인을 신청할 예정입니다."
+    },
+    {
+      "title_en": "#AHA26: Lilly gets another sleep apnea win, this time with obesity pill",
+      "url": "https://endpoints.news/aha26-lilly-gets-another-sleep-apnea-win-this-time-with-obesity-pill/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "일라이 릴리, 폐쇄성 수면 무호흡증 치료 적응증 확대를 위한 비만 치료제 임상 3상 성공",
+      "summary_kr": "일라이 릴리(Eli Lilly)가 폐쇄성 수면 무호흡증(obstructive sleep apnea) 환자를 대상으로 한 비만 치료제의 긍정적인 임상 3상 결과를 바탕으로 해당 적응증에 대한 승인을 신청할 계획입니다. 이는 노보노디스크의 높은 판매고를 올리고 있는 웨고비(Wegovy)와 경쟁할 수 있는 새로운 기반을 제공할 수 있습니다."
+    },
+    {
+      "title_en": "#AHA26: Marea’s triglyceride candidate could have an edge in diabetic patients",
+      "url": "https://endpoints.news/aha26-mareas-triglyceride-candidate-could-have-an-edge-in-diabetic-patients/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "마레아의 중성지방 치료 후보물질, 당뇨병 환자 대상 잠재력 보여",
+      "summary_kr": "마레아 테라퓨틱스(Marea Therapeutics)의 임상 단계 지질 저하제가 혈중 중성지방 수치가 위험할 정도로 높은 환자들을 대상으로 중성지방을 낮추는 데 추가적인 가능성을 입증했다. 특히 이 약물은 환자의 혈당을 높이지 않은 것으로 나타나 당뇨병 환자 치료에서 경쟁력을 가질 수 있을 것으로 기대된다."
+    },
+    {
+      "title_en": "Zura reports Phase 2 flop in painful skin disorder, stock nosedives",
+      "url": "https://endpoints.news/zura-reports-phase-2-flop-in-painful-skin-disorder-stock-nosedives/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "주라 바이오, 통증성 피부 질환 임상 2상 실패에 주가 급락",
+      "summary_kr": "소규모 생명공학사인 주라 바이오(Zura Bio)는 고통스러운 피부 질환을 적응증으로 한 실험용 치료제 티불리주맙(tibulizumab)의 임상 2상 시험이 실패했다고 발표한 후 주가가 급락했다. 발표에 따르면 시험에 사용된 두 가지 용량 모두 위약 대비 우수한 효과를 입증하지 못했다."
+    },
+    {
+      "title_en": "Argenx to acquire Unnatural Products in deal worth up to $1.15B",
+      "url": "https://endpoints.news/argenx-to-acquire-unnatural-products-in-deal-worth-up-to-1-15b/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "아르젠엑스, 언내추럴 프로덕츠를 최대 11억 5000만 달러에 인수",
+      "summary_kr": "아르젠엑스(Argenx)는 차고에서 시작한 대환상체(macrocycle) 생명공학 기업인 언내추럴 프로덕츠(Unnatural Products)를 인수하기로 했다고 밝혔다. 이번 거래는 선급금 5억 5000만 달러의 현금 지급과 함께, 마일스톤에 따라 최대 5억 9500만 달러를 추가로 지급하는 조건으로 총 11억 5000만 달러 규모에 이른다."
+    },
+    {
+      "title_en": "London biotech Oyster harvests $60M for tau-targeting brain drugs",
+      "url": "https://www.biopharmadive.com/news/oyster-venture-financing-tau-targeted-protein-degraders/874160/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "런던 바이오 기업 오이스터, 타우 표적 뇌 질환 치료제 개발 위해 6000만 달러 투자 유치",
+      "summary_kr": "오이스터(Oyster)는 알츠하이머병 치료제 연구의 주요 초점이었던 타우(tau) 단백질을 분해하는 데 도움을 줄 수 있도록 전통적인 단백질 분해 기술을 개선했다고 밝혔다. 이를 바탕으로 회사는 6000만 달러의 자금을 조달했다."
+    },
+    {
+      "title_en": "BIO unveils plan for US to remain biotech’s ‘global leader’",
+      "url": "https://www.biopharmadive.com/news/bio-bioadvance-proposal-us-trial-competition-china/874162/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "미국 바이오협회, 미국의 글로벌 바이오 리더 지위 유지를 위한 7대 계획 공개",
+      "summary_kr": "주요 로비단체인 미국바이오협회(BIO)는 미국의 신약 개발 속도를 가속화하고 중국의 급격한 부상에 대응하기 위한 7가지 과제로 구성된 제안서를 공개했다."
+    },
+    {
+      "title_en": "Bayer wins FDA nod for a new kind of blood thinner",
+      "url": "https://www.biopharmadive.com/news/bayer-sunharbo-asundexian-fda-approve-stroke-factor-xi/872837/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "바이엘, 새로운 기전의 항응고제에 대해 미국 FDA 허가 획득",
+      "summary_kr": "선하르보(Sunharbo)의 미국 승인은 뇌졸중 예방 분야의 잠재적인 진전으로 기대를 모아온 제11a응고인자(Factor XIa) 억제제 계열 약물로는 최초의 승인이다."
+    },
+    {
+      "title_en": "Vir hepatitis D drug succeeds in first pivotal study",
+      "url": "https://www.biopharmadive.com/news/vir-chronic-hepatitis-d-drug-results-elebsiran-tobevibart/874089/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "비르, 첫 번째 후기 임상시험에서 B형·D형 간염 치료제 성공 거둬",
+      "summary_kr": "비르(Vir)가 감염병 연구 중심에서 전환하는 과정에서도 살아남은 치료제 개발 프로그램이 모든 연구 목표를 달성했다. 또한 이 약물은 후기 개발 단계에 있는 경쟁 약물보다 더 강력한 효능을 보였다."
+    },
+    {
+      "title_en": "Argenx to buy peptide platform in potentially billion-dollar deal",
+      "url": "https://www.biopharmadive.com/news/argenx-unnatural-products-acquisition-deal-peptides-protein-macrocyclic-immune/874119/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "아르젠엑스, 최대 10억 달러 규모의 펩타이드 플랫폼 인수 추진",
+      "summary_kr": "아르젠엑스는 선급금 5억 5000만 달러를 지불하고 언내추럴 프로덕츠의 대환상 펩타이드(macrocyclic peptide) 기술을 확보하기로 했다. 이를 통해 심각한 면역 매개 질환을 치료할 수 있는 경구용 및 지속형 의약품을 개발할 계획이다."
+    },
+    {
+      "title_en": "Ramaswamy’s biotech baggage haunted his political run",
+      "url": "https://www.biopharmadive.com/news/vivek-ramaswamy-biotech-axovant-roivant-ohio/874093/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "라마스와미의 바이오 사업 경력, 정치 행보에 부담으로 작용",
+      "summary_kr": "비벡 라마스와미(Vivek Ramaswamy)의 정치적 부상과 연관된 핵심 알츠하이머병 임상시험은 주요 평가지표 달성에 실패한 사례로 남게 되었다."
+    },
+    {
+      "title_en": "State incentives for commercial-stage life sciences companies",
+      "url": "https://www.biopharmadive.com/spons/state-incentives-for-commercial-stage-life-sciences-companies/873753/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "상업화 단계 생명과학 기업을 위한 주 정부 인센티브",
+      "summary_kr": "입지 결정을 개선하고 약정을 관리하며 자본을 확보하기 위해 확장 계획 초기 단계에 인센티브를 반영해야 합니다."
+    },
+    {
+      "title_en": "Translating Phase II success into Phase III readiness takes more than scale",
+      "url": "https://www.biopharmadive.com/spons/translating-phase-ii-success-into-phase-iii-readiness-takes-more-than-scale/833059/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "임상 2상 성공을 3상 준비로 전환하는 데 필요한 규모 이상의 요건",
+      "summary_kr": "임상 2상에서 3상으로의 이동은 단순한 임상적 이정표가 아니라 개발 전반에 걸친 전환 과정으로 다뤄져야 합니다."
+    },
+    {
+      "title_en": "Making the ‘impossible’ executable in life sciences construction",
+      "url": "https://www.biopharmadive.com/spons/making-the-impossible-executable-in-life-sciences-construction/873537/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "생명과학 분야 건설에서 불가능을 실행 가능하게 만들기",
+      "summary_kr": "복잡한 생명과학 프로젝트가 관례에 도전할 때 초기 기술 전문성이 중요한 이유를 다루고 있습니다."
+    },
+    {
+      "title_en": "Vir Biotechnology’s hepatitis D drug scores in Phase II and Phase III trials",
+      "url": "https://www.clinicaltrialsarena.com/news/vir-eclipse-1-trial-meets-primary-endpoint/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-10-11-2026-shutterstock_2159556759.jpg",
+      "title": "버어 바이오테크놀로지의 B형 간염 치료제, 임상 2상과 3상에서 성과 거둬",
+      "summary_kr": "버어 바이오테크놀로지(Vir Biotechnology)는 만성 D형 간염(CHD)에 대한 연구용 병용요법을 평가한 임상 3상 ECLIPSE 1 시험이 1차 평가변수를 충족했다고 발표했습니다."
+    },
+    {
+      "title_en": "Familial hypercholesterolemia linked to increased odds of preeclampsia",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/familial-hypercholesterolemia-increased-odds-preeclampsia/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2266075907.jpg",
+      "title": "가족성 고콜레스테롤혈증과 자간전증 위험 증가 간의 연관성",
+      "summary_kr": "글로벌데이터(GlobalData) 역학자들은 주요 7대 시장(7MM)에서 모든 연령대의 여성 중 진단된 이형 접합 가족성 고콜레스테롤혈증(FH) 유병 환자 수가 2026년 25만 6,000명에서 2035년 26만 1,000명으로 증가할 것으로 전망했습니다."
+    },
+    {
+      "title_en": "AHA26: Lilly’s Foundayo benefits beyond weight loss in Phase III sleep apnoea win",
+      "url": "https://www.clinicaltrialsarena.com/news/aha26-lillys-foundayo-benefits-beyond-weight-loss-in-phase-iii-sleep-apnoea-win/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2435911987-2.jpg",
+      "title": "미국심장협회 학술대회(AHA): 릴리의 파운다요, 임상 3상 수면 무호흡증 임상 성공으로 체중 감량 외의 혜택 입증",
+      "summary_kr": "릴리(Lilly)의 파운다요(Foundayo)는 2026년 1월 미국에서 체중 감량 목적으로 승인을 받았으며, 현재 회사는 수면 무호흡증 시장으로 영역 확장을 기대하고 있습니다."
+    },
+    {
+      "title_en": "Faeth’s combo posts mid-stage refractory endometrial cancer win",
+      "url": "https://www.clinicaltrialsarena.com/news/faeths-combo-posts-mid-stage-refractory-endometrial-cancer-win/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2371815021.jpg",
+      "title": "페이스의 병용요법, 중기 난치성 자궁내막암 임상에서 성공 거둬",
+      "summary_kr": "표적 치료제가 자궁내막암 후기 임상 파이프라인을 거쳐 진행됨에 따라 페스(Faeth)의 PIKTOR가 이러한 결과를 확보했습니다."
+    },
+    {
+      "title_en": "Supply continuity in clinical trials: Why certification alone is not enough",
+      "url": "https://www.clinicaltrialsarena.com/sponsored/supply-continuity-in-clinical-trials-why-certification-alone-is-not-enough/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/Article-Image-Supply-Continuity-in-Clinical-TrialsWhy-Certification-Alone-Is-Not-Enough.jpg",
+      "title": "임상시험 공급 연속성: 인증만으로는 충분하지 않은 이유",
+      "summary_kr": "규제 감독은 환자를 보호하고 운영 감독은 일정을 보호하며, 가장 강력한 임상 프로그램은 공급 연속성을 위해 이 두 가지를 모두 통합합니다."
+    },
+    {
+      "title_en": "BMS’s Camzyos shows continued benefit in paediatric oHCM at 56 weeks",
+      "url": "https://www.clinicaltrialsarena.com/news/bms-56-week-camzyos-trial-data-paediatric-ohcm/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-2-09-11-2026-shutterstock_2285138621.jpg",
+      "title": "BMS의 캠지오스, 소아 폐쇄성 비대성 심근병증(oHCM) 환자 대상 56주간 지속적 효과 입증",
+      "summary_kr": "BMS는 유증상 소아 oHCM 환자를 대상으로 캠지오스(Camzyos)를 평가한 임상 3상 SCOUT-HCM 임상시험의 56주 결과를 발표했습니다."
+    },
+    {
+      "title_en": "OncoC4 announces positive Phase I/II findings for cesalatamig in NSCLC",
+      "url": "https://www.clinicaltrialsarena.com/news/oncoc4-positive-phase-i-ii-findings-cesalatamig/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-10",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-09-11-2026-shutterstock_2396463009.jpg",
+      "title": "온코씨포, 비소세포폐암 대상 세살라타미그 임상 1/2상 긍정적 결과 발표",
+      "summary_kr": "온코씨포(OncoC4)는 이중특이항체 후보물질인 세살라타미그(cesalatamig)를 단독 요법으로 투여한 이치료 전력의 비소세포폐암(NSCLC) 환자 대상 임상 1/2상 시험에서 긍정적인 결과를 보고했다."
+    },
+    {
+      "title_en": "Language development during the first 1,000 days; and more",
+      "url": "https://www.thetransmitter.org/spectrum/language-development-during-the-first-1000-days-and-more/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-10",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-spotted-20261110.png",
+      "title": "생애 첫 1,000일 동안의 언어 발달 및 자폐증 관련 소식",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "What ‘Brain Flows’ gets right",
+      "url": "https://www.thetransmitter.org/reviews/what-brain-flows-gets-right/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-10",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525_BookReview_BrianFlows_ScottBalmer.png",
+      "title": "신간 '브레인 플로우스'가 다루는 뇌 신호 운동의 핵심",
+      "summary_kr": "마이클 W. 콜의 신간 도서는 신호의 역동적인 움직임이 뇌의 거의 모든 기능을 뒷받침한다고 설득력 있게 주장하지만 관련 이론 및 단일세포 연구에 대한 언급은 누락하고 있다."
+    },
+    {
+      "title_en": "Deep learning-based gait analysis predicts multisystem health phenotypes",
+      "url": "https://www.nature.com/articles/s41591-026-04725-8",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "딥러닝 기반 보행 분석을 통한 다기관 건강 표현형 예측",
+      "summary_kr": "연구진은 5가지 운동 과제 동안 깊이 카메라로 기록한 3,328명의 심층 표현형 성인의 3차원 골격 모션 데이터를 바탕으로 보행 파운데이션 모델을 개발했다. 해당 임베딩은 3,210개의 표현형 표적 중 1,887개를 유의미하게 예측했으며 남성의 경우 18개 신체 시스템 전체에서, 여성의 경우 18개 중 17개 시스템에서 예측력 향상을 보였다. 또한 이 모델은 임상 진단 및 약물 사용에 대한 예측력도 향상시켰다."
+    },
+    {
+      "title_en": "Resistance exercise to attenuate lean mass loss during tirzepatide therapy for obesity: a randomized controlled trial",
+      "url": "https://www.nature.com/articles/s41591-026-04752-5",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "비만 치료제 티르제파타이드 투여 중 제지방량 감소를 완화하기 위한 저항 운동: 무작위 대조 임상시험",
+      "summary_kr": "티르제파타이드(tirzepatide) 치료를 받으면서 저항 운동을 병행한 참가자들은 티르제파타이드 단독 투여 환자들에 비해 제지방량 손실이 더 적었다."
+    },
+    {
+      "title_en": "An ulcerative colitis taxonomy defined by individual patient-reported response trajectories",
+      "url": "https://www.nature.com/articles/s41591-026-04741-8",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "환자 보고 응답 궤적에 따른 궤양성 대장염 분류 체계",
+      "summary_kr": "궤양성 대장염 환자에서 베돌리주맙(vedolizumab)에 대한 환자 보고 응답 궤적을 분석한 결과 질환 엔도타입이 정의되었으며 혈관 염증이 잠재적인 저항 기전으로 확인되었다."
+    },
+    {
+      "title_en": "Histone lysine demethylases in the third decade: biology and therapeutic prospects",
+      "url": "https://www.nature.com/articles/s41573-026-01561-w",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "히스톤 라이신 탈메틸화효소의 생물학적 특성과 치료적 전망",
+      "summary_kr": "히스톤 라이신 탈메틸화효소는 유전자 발현과 염색질 구조를 조절하며 후생유전학과 대사 및 면역 반응을 통합하는 데 기여한다. 이 리뷰 논문은 암을 비롯한 질병 병생리에 대한 이들 탈메틸화효소의 다양한 기여와 소분자 화합물을 활용해 이들을 표적화하려는 연구 노력을 논의한다."
+    },
+    {
+      "title_en": "Conditional biologics in cancer immunotherapy: mechanisms, applications and clinical progress",
+      "url": "https://www.nature.com/articles/s41573-026-01552-x",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "암 면역 치료에서의 조건부 생물학적 제제: 기전, 응용 및 임상 진행 상황",
+      "summary_kr": "종양 미세환경 내에서 선택적으로 활성화되도록 공학적으로 설계된 단백질 치료제인 조건부 생물학적 제제(CB)는 암 면역 치료의 효능을 높이고 표적 외 부작용을 제한할 잠재력이 있다. 이 리뷰 논문은 조건부 생물학적 제제의 설계 원칙과 활성화 기전을 설명하고 임상에서 연구 중인 제제들을 평가하며 해당 분야의 지속되는 과제와 향후 방향을 다룬다."
+    },
+    {
+      "title_en": "ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612463?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-10",
+      "image_url": null,
+      "title": "고중성지방혈증 성인을 위한 ANGPTL4 억제",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
       "url": "https://www.nature.com/articles/d41586-026-03631-w",
