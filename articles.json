@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 02:29:46",
+  "last_updated": "2026-11-12 02:46:43",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -21,6 +21,1246 @@
     }
   ],
   "articles": [
+    {
+      "title_en": "What to know about this year’s UN climate talks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "올해 UN 기후변화협상 주요 내용과 쟁점",
+      "summary_kr": "수천 명의 대표단, 로비스트, 언론인이 참석한 연례 UN 기후변화협상(COP31)이 튀르키예 안탈리아에서 11월 8일 공식 개막했습니다. 이번 협상은 튀르키예와 호주가 공동으로 주최하며 기후 분야의 가장 큰 무대 중 하나로서 협상을 시작했습니다."
+    },
+    {
+      "title_en": "The Download: preserving minds and weighing open AI risks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "기술 소식: 기억 보존 아이디어와 개방형 인공지능 위험성 분석",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Rattlesnakes have personalities too — to venomous effect",
+      "url": "https://www.nature.com/articles/d41586-026-03536-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "방어 성향이 방울뱀의 독 분비량에 미치는 영향",
+      "summary_kr": "실험실 테스트에서 뱀의 방어 성향이 독을 얼마나 생산하는지에 영향을 미칠 수 있다는 연구 결과가 나왔습니다."
+    },
+    {
+      "title_en": "Iconic first image of black hole holds up to scrutiny",
+      "url": "https://www.nature.com/articles/d41586-026-03642-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "블랙홀 최초 촬영 이미지의 신뢰성 검증",
+      "summary_kr": "최초의 블랙홀 이미지를 도출했던 데이터를 새롭게 분석한 결과, 기존과 동일한 고리 모양의 형태가 다시 확인되면서 기존 이미지의 신뢰성이 유지되었습니다."
+    },
+    {
+      "title_en": "Too dry for cacti: extreme droughts could push iconic species to extinction",
+      "url": "https://www.nature.com/articles/d41586-026-03671-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "극심한 가뭄으로 인한 선인장 멸종 위기 및 비만 진단법 연구",
+      "summary_kr": "분석 결과 아메리카 대륙 전역에서 선인장 등이 심각한 서식지 손실에 직면해 있는 것으로 나타났으며, 연구자들은 새로운 비만 진단 방법을 테스트했습니다."
+    },
+    {
+      "title_en": "Getting a grasp on the global wildlife trade",
+      "url": "https://www.nature.com/articles/d41586-026-03591-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "전 세계 야생동물 거래 규모 추정치 발표",
+      "summary_kr": "합법 및 불법을 포함하여 전 세계적으로 약 10만 7천 종이 거래되고 있다는 연구 결과가 발표되었습니다. 이는 이전 추정치보다 두 배 이상 많은 수치입니다."
+    },
+    {
+      "title_en": "Efficient catalyst-controlled C–H arylation of arenes",
+      "url": "https://www.nature.com/articles/s41586-026-11391-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "아렌스의 효율적인 촉매 제어형 C-H 아릴화 반응",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A guide to Nature Index tables",
+      "url": "https://www.nature.com/articles/d41586-026-03441-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "네이처 인덱스 테이블 활용 가이드",
+      "summary_kr": "2026 네이처 스포트라이트 에너지 분야 순위 산정에 사용된 방법론에 대한 정보가 제공됩니다."
+    },
+    {
+      "title_en": "Even giant anteaters in remote Brazil have microplastics in their blood",
+      "url": "https://www.nature.com/articles/d41586-026-03660-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "브라질 오지의 큰개미핥기 혈액에서 검출된 미세플라스틱",
+      "summary_kr": "아마존과 다른 지역의 야생동물 이동을 인간 활동에 대한 노출과 연계하여 지도화함으로써 보호 이니셔티브에 유용한 정보를 제공할 수 있습니다."
+    },
+    {
+      "title_en": "Microplastics change the colour of the sea near the Great Pacific Garbage Patch",
+      "url": "https://www.nature.com/articles/d41586-026-03637-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "태평양 거대 쓰레기 지대 인근 바다 색상을 바꾸는 미세플라스틱",
+      "summary_kr": "부유 쓰레기 구역 주변의 바닷물은 미세한 플라스틱 조각의 높은 수치로 인해 더 녹색과 푸른색을 띠는 것으로 나타났습니다."
+    },
+    {
+      "title_en": "Salty grains in Saturn’s outermost ring formed from the slow freeze of plumes from the moon Enceladus",
+      "url": "https://www.nature.com/articles/d41586-026-03489-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "토성의 가장 바깥쪽 고리에서 발견된 염분 입자의 기원",
+      "summary_kr": "토성의 고리 중 하나는 각각 독특한 구성을 가진 얼음과 암석 입자로 이루어져 있으며, 이러한 입자는 위성 엔셀라두스에서 나온 분출물이 천천히 냉동되면서 형성된 것으로 설명됩니다."
+    },
+    {
+      "title_en": "Cacti are severely threatened by drought in a warming world",
+      "url": "https://www.nature.com/articles/d41586-026-03496-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "기후변화와 심각한 가뭄으로 심각한 위협을 받는 선인장",
+      "summary_kr": "기후변화가 생물다양성에 미치는 영향을 예측할 때 극단적인 사건을 제외하는 기존 방식과 달리 심각한 가뭄을 포함한 전망에 따르면 평가된 993종의 선인장 중 대다수가 적합한 기후 지역을 크게 잃을 것으로 예상됩니다. 특히 2100년까지 25%가 넘는 종이 적합 지역의 최소 80%를 잃을 수 있습니다."
+    },
+    {
+      "title_en": "Extraordinary materials shaped by the principles of complex networks",
+      "url": "https://www.nature.com/articles/d41586-026-03272-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "복잡계 네트워크 원리로 설계된 고성능 소재",
+      "summary_kr": "네트워크 과학은 힘이 가해질 때 변형을 분산시키고, 강도를 조절할 수 있으며, 진동파를 제어하는 소재의 디자인에 영감을 주었습니다."
+    },
+    {
+      "title_en": "DeepMind's ultra-powerful AI for genome mapping wows scientists",
+      "url": "https://www.nature.com/articles/d41586-026-03673-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "유전체 매핑을 위한 딥마인드의 고성능 인공지능이 과학자들을 매료시키다",
+      "summary_kr": "알파게놈 2(AlphaGenome 2)는 특정 DNA 변이가 작용할 가능성이 있는 세포의 유형을 예측할 수 있다."
+    },
+    {
+      "title_en": "Proteins that form the nuclear pore barrier move like liquids",
+      "url": "https://www.nature.com/articles/d41586-026-03428-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "핵막 공성 장벽을 형성하는 단백질이 액체처럼 움직인다",
+      "summary_kr": "핵막은 세포핵 안팎으로의 분자 이동을 조절한다. 살아있는 세포에서의 측정과 분자역학 시뮬레이션에 따르면, 핵막의 선택적 장벽을 형성하는 유연한 단백질 사슬은 이동성이 매우 높으며 당쇄화와 운반체 단백질인 임포틴-β(importin-β)가 이러한 동적 상태를 유지하는 데 도움을 준다."
+    },
+    {
+      "title_en": "How to avoid aliens and live",
+      "url": "https://www.nature.com/articles/d41586-026-03515-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "외계인을 피하고 생존하는 법",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Earth’s early history told by 3.9-billion-year-old rocks from northern China",
+      "url": "https://www.nature.com/articles/d41586-026-03499-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "중국 북부의 39억 년 된 암석이 들려주는 지구 초기 역사",
+      "summary_kr": "중국 북부의 고대 암석은 39억 5천만 년 전에 이미 표면이 변형된 해양 지각이 50킬로미터 이상의 깊이로 급격히 매몰되어 부분적으로 용융되었음을 보여준다. 이 지각은 지각이 초기 맨틀로부터 분리된 43억 년 전 무렵에 남겨진 맨틀 저수지에서 유래했다."
+    },
+    {
+      "title_en": "Biotech innovations are an opportunity to limit climate change",
+      "url": "https://www.nature.com/articles/d41586-026-03621-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "기후변화를 제한하기 위한 기회인 생명공학 혁신",
+      "summary_kr": "과거 환경과학과 대립했던 농업 생명공학 이제 식품 시스템이 지구 온난화와 생물다양성 손실에 미치는 영향을 줄일 수 있게 되었다."
+    },
+    {
+      "title_en": "How I balance my life as a professional surfer and a university researcher",
+      "url": "https://www.nature.com/articles/d41586-026-03183-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "프로 서퍼와 대학 연구원으로 살아가는 삶의 균형을 맞추는 법",
+      "summary_kr": "클리프 카포노(Cliff Kapono)는 두 가지 서로 다른 경력을 탐색하고 성장시키는 방법에 대한 조언을 공유한다."
+    },
+    {
+      "title_en": "Hideki Shirakawa obituary: chemist who showed that plastics can conduct electricity",
+      "url": "https://www.nature.com/articles/d41586-026-03633-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "플라스틱이 전기를 통한다는 사실을 밝힌 화학자 시라カワ 히데키 부고",
+      "summary_kr": "노벨상 수상자의 우연한 발견은 새로운 형태의 소재, 발광 다이오드 및 태양전지로 이어졌다."
+    },
+    {
+      "title_en": "Give biologists the space to be curious, not just better tools",
+      "url": "https://www.nature.com/articles/d41586-026-03669-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "생물학자들에게 더 나은 도구뿐만 아니라 호기심을 가질 수 있는 공간을 주어야 한다",
+      "summary_kr": "기술은 생물학 연구를 그 어느 때보다 강력하게 만들고 있지만, 발견의 배후에 있는 진정한 원동력은 사람이다."
+    },
+    {
+      "title_en": "Anthropic bought a one-person, AI-powered biotech: is this drug discovery’s future?",
+      "url": "https://www.nature.com/articles/d41586-026-03640-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "앤트로픽이 1인 인공지능 기반 바이오기업을 인수하다: 이것이 신약 개발의 미래인가?",
+      "summary_kr": "유망한 생명공학 기업이 희귀 질환을 치료할 수 있는 새로운 접근법을 개발했지만, 유일한 직원이 모든 작업을 혼자 수행한 것은 아니다."
+    },
+    {
+      "title_en": "Move over BMI: new obesity definition is better for predicting your health",
+      "url": "https://www.nature.com/articles/d41586-026-03636-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "BMI는 비켜라: 새로운 비만 정의가 건강 예측에 더 유용하다",
+      "summary_kr": "체중과 신장뿐만 아니라 허리둘레를 고려하는 새로운 접근법은 더욱 정확한 분류를 제공한다."
+    },
+    {
+      "title_en": "New culprit in early Alzheimer’s: Blood–brain barrier blocks protective proteins",
+      "url": "https://www.nature.com/articles/d41586-026-03655-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "알츠하이머병 초기 단계의 새로운 주범: 혈뇌장벽이 보호 단백질을 차단하다",
+      "summary_kr": "뇌는 뉴런을 유지하기 위해 핵심 단백질에 의존한다. 신경 질환을 가진 생쥐에서는 이 시스템이 손상되어 있다."
+    },
+    {
+      "title_en": "AI’s energy paradox: will the AI boom strain energy systems or be the source of solutions?",
+      "url": "https://www.nature.com/articles/d41586-026-03412-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "인공지능의 에너지 역설: 인공지능 붐은 에너지 시스템에 부담을 줄까, 아니면 해결책의 원천이 될까?",
+      "summary_kr": "지넬 그린데와스메스(Ginelle Greene-Dewasmes)는 인공지능의 에너지 소비를 순양성(net-positive)으로 만드는 방법을 탐구하는 간학문적 전문가 커뮤니티를 이끌고 있다."
+    },
+    {
+      "title_en": "Retractions of old papers are on the rise: when should bad science be culled?",
+      "url": "https://www.nature.com/articles/d41586-026-03624-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "오래된 논문의 철회가 증가하고 있다: 잘못된 과학은 언제 걸러내야 하는가?",
+      "summary_kr": "수십 년 된 논문들이 문헌에서 점점 더 많이 철회되고 있으며, 이로 인해 여러 가지 과제가 제기되고 있다."
+    },
+    {
+      "title_en": "Author or just ‘acknowledged’? How women are not gaining full credit for research",
+      "url": "https://www.nature.com/articles/d41586-026-03448-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "저자인가, 단순 감사의뢰인가: 연구 기여도 인정에서 성별과 지위가 미치는 영향",
+      "summary_kr": "연구자들의 성별과 지위가 저자 등재 여부와 단순 감사 표시(acknowledgement) 중 어디에 속할지에 미치는 영향 분석을 통해, 여성 연구원들이 연구에 대한 온전한 기여를 인정받지 못하는 경향이 있음을 강조했다."
+    },
+    {
+      "title_en": "Engineered bacteria are weaning farms away from synthetic fertilizers",
+      "url": "https://www.nature.com/articles/d41586-026-03641-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "합성 비료를 대체하는 유전자 조작 박테리아",
+      "summary_kr": "과학자들이 주요 작물에 더 많은 질소를 공급할 수 있도록 미생물을 유전자 편집하여 농가가 합성 비료 의존도를 줄이도록 돕고 있다."
+    },
+    {
+      "title_en": "Proposed approach for diagnosing obesity outperforms old method",
+      "url": "https://www.nature.com/articles/d41586-026-03425-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "허리둘레와 장기 부전을 반영한 새로운 비만 진단 접근법, 기존 방법보다 우수해",
+      "summary_kr": "2025년에 제안된 비만 진단 체계는 허리둘레 등의 측정값을 반영하고 비만으로 인한 장기 부전을 바탕으로 임상적 비만과 전임상적 비만을 구분한다. 844,108명의 성인을 대상으로 한 국제 다기관 코호트 연구에서 이 체계는 기존의 체질량지수(BMI) 기반 진단 기준보다 비만 진단 및 사망 위험 계층화에서 더 우수한 성능을 보였다."
+    },
+    {
+      "title_en": "Personal incentives for public officials drove a drop in China’s fertility",
+      "url": "https://www.nature.com/articles/d41586-026-03274-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "공무원 개인의 승진 인센티브가 중국의 출산율 하락을 주도하다",
+      "summary_kr": "관료들의 승진 전망이 출산 목표와 연계되면서 중국의 한 자녀 정책이 더욱 효과적으로 작용하게 되었다. 정부가 이 효과를 다시 역전시킬 수 있을지가 주목된다."
+    },
+    {
+      "title_en": "Can green technologies deliver energy security in an unstable world?",
+      "url": "https://www.nature.com/articles/d41586-026-03409-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "불안정한 세계에서 녹색 기술은 에너지 안보를 달성할 수 있는가",
+      "summary_kr": "글로벌 에너지 시장이 지속적인 정치적 변동성을 겪음에 따라 연구자들이 이에 대한 해결책을 깊이 탐구하고 있다."
+    },
+    {
+      "title_en": "Human replisomes direct a dedicated leading-strand primase for fork restart",
+      "url": "https://www.nature.com/articles/s41586-026-11204-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "인간 복제 기구에 의한 전도 가닥 프리마제의 독점적 조절과 복제 포크 재시작",
+      "summary_kr": "구조 및 생화학적 연구 결과에 따르면, CMG 헬리카제(CMG helicase)가 전도 가닥 재프라이밍을 위해 PRIMPOL을 직접 모집함으로써 복제 포크 재시작을 가능하게 하고 복제 후 DNA 틈을 제한하는 것으로 나타났다."
+    },
+    {
+      "title_en": "Bureaucratic incentives shaped effectiveness of the one-child policy in China",
+      "url": "https://www.nature.com/articles/s41586-026-11232-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "관료적 인센티브가 중국 한 자녀 정책의 실효성에 미친 영향",
+      "summary_kr": "중국의 '일표부결제(one vote veto policy)' 체제 하에서 더욱 강력해진 관료적 인센티브가 한 자녀 정책의 집행을 강화했으며, 1990년대 중국의 출산율 감소 중 거의 절반을 차지한 것으로 나타났다."
+    },
+    {
+      "title_en": "Validation of clinical and preclinical obesity across global cohorts",
+      "url": "https://www.nature.com/articles/s41586-026-11237-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "글로벌 코호트를 통한 임상 및 전임상 비만 진단 기준의 타당성 검증",
+      "summary_kr": "란셋 위원회(Lancet Commission)가 제안한 비만 진단 프레임워크를 대규모 데이터 분석으로 평가한 결과, 체질량지수(BMI)와 허리둘레 및 장기 기능 등 다른 기준을 결합한 이 프레임워크가 BMI 단독 분류보다 훨씬 유용하다는 사실이 확인되었다."
+    },
+    {
+      "title_en": "<i>UNC13A</i> splice correction rescues synaptic dysfunction induced by TDP-43 loss",
+      "url": "https://www.nature.com/articles/s41586-026-11256-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "UNC13A 스플라이싱 교정을 통한 TDP-43 결손 유발 시냅스 기능 장애 회복",
+      "summary_kr": "TDP-43의 손실은 뉴런이 구조적으로는 유지되면서도 시냅스 전달에 심각한 장애를 겪는 퇴행 전 단계를 유도한다. 이에 스플라이싱 전환 안티센스 올리고뉴클레오타이드(splice-switching antisense oligonucleotides)를 사용하여 UNC13A 암호 스플라이싱을 교정하는 치료 전략이 발견되었다."
+    },
+    {
+      "title_en": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation",
+      "url": "https://www.nature.com/articles/s41586-026-11324-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "NRF2: NLRP3 인플라마조엠 활성화를 조절하는 기계 감수성 체크포인트",
+      "summary_kr": "세포외 기질의 강도가 시험관 내(in vitro) 및 생체 내(in vivo)에서 NLRP3 인플라마조엠(NLRP3 inflammasome)의 활성화를 좌우하는 핵심 요인으로 규명되었다."
+    },
+    {
+      "title_en": "Non-halogen aqueous electrolytes for four-electron iodine conversion",
+      "url": "https://www.nature.com/articles/s41586-026-11282-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "4전자 요오드 변환을 위한 비할로겐계 수계 전해질",
+      "summary_kr": "음이온 화학을 활용해 계면 미세환경과 분자 간 상호작용을 조율하는 전해질 체계가 할로겐이 없는 수계 전해질에서 가역적인 4전자 요오드 변환을 가능하게 하며, 이는 금속-요오드 전지에서 검증되었다."
+    },
+    {
+      "title_en": "Bistable regulation of adipocyte heterogeneity governs thermogenesis",
+      "url": "https://www.nature.com/articles/s41586-026-11308-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "지방세포 이질성의 쌍안정 조절을 통한 열발생 제어",
+      "summary_kr": "호중구와 대식세포에서 분비되는 IL-1β는 인근의 갈색 지방세포를 낮은 UCP1 상태로 안정화시킨다. 추운 온도는 교감신경을 통해 IL-1β를 감소시켜 높은 UCP1 상태로의 전환과 열발생 증가를 유도하는 반면, 고온은 그와 반대의 효과를 나타낸다."
+    },
+    {
+      "title_en": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis",
+      "url": "https://www.nature.com/articles/s41586-026-11230-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "유방암 진단 및 예후 예측을 위한 유방 종양의 후성유전학적 이질성",
+      "summary_kr": "단일세포 후성유전학 분석을 통해 환자들 간에 보존되는 공통의 후성유전학적 특징이 밝혀졌으며, 이는 유방암 환자 중 질병 재발 위험이 높은 이를 식별하는 데 도움을 줄 수 있다."
+    },
+    {
+      "title_en": "A plant RNA-binding protein senses 2′,3′-cNMP produced by insect effectors",
+      "url": "https://www.nature.com/articles/s41586-026-11259-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "식물 RNA 결합 단백질의 곤충 유래 신호 물질 감지 및 방어 면역 경로 규명",
+      "summary_kr": "쌀의 RNA 결합 단백질인 NIB1은 곤충 타액의 RNase에서 생성된 2′,3′-고리형 뉴클레오티드를 감지한다. 이를 통해 핵 응축물을 형성하고 EDS1을 모집하여 방어 작용을 활성화함으로써, 식물에서 보존된 신호 전달 기반 면역 경로를 드러낸다."
+    },
+    {
+      "title_en": "Flexible rubber blades for tidal turbines",
+      "url": "https://www.nature.com/articles/s41586-026-11278-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "조력 발전기를 위한 유연한 고무 블레이드",
+      "summary_kr": "수동 후단 변형 기능을 갖춘 유연한 조력 발전기 블레이드는 능동 피치 제어 블레이드와 유사한 에너지 생산량을 유지한다. 동시에 피로를 유발하는 하중 변동을 최대 3분의 1까지 줄여 유지보수의 복잡성을 낮춘다."
+    },
+    {
+      "title_en": "Hadean mantle depletion and 3.95-Gyr subduction implied by North China rocks",
+      "url": "https://www.nature.com/articles/s41586-026-11280-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "중국 북부 암석으로 밝혀진 하데스 이온 맨틀 고갈과 39.5억 년 전 섭입 현상",
+      "summary_kr": "중국 허베이성 동부에서 발견된 39.5억 년 된 트롱예마이트 편마암 분석에 따르면, 이 암석은 저온에서 변성된 현무암질 기원을 시사한다. 이 기원 물질은 하데스 이온 동안 고갈된 맨틀에서 유래했으며, 일시적인 섭입 이벤트를 통해 맨틀 깊은 곳으로 이동하여 부분 용융됨으로써 트롱예마이트를 생성한 것으로 나타났다."
+    },
+    {
+      "title_en": "Human land use drives microplastic abundance in terrestrial wildlife",
+      "url": "https://www.nature.com/articles/s41586-026-11285-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "인간의 토지 이용이 육상 야생동물의 미세플라스틱 축적에 미치는 영향",
+      "summary_kr": "브라질의 맥아더테이퍼와 개미핥기에서 발견되는 미세플라스틱 오염은 인간에 의해 변형된 토지 이용과 개발 지역에의 인접성에 따라 증가한다. 그러나 원격 서식지에 사는 동물들도 미세플라스틱을 보유하고 있으며, 이는 경관 변화와 개별 공간 활용이 야생동물의 노출을 복합적으로 형성함을 보여준다."
+    },
+    {
+      "title_en": "Transient nuclear softening for zygotic gene activation in mice",
+      "url": "https://www.nature.com/articles/s41586-026-11240-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "생쥐의 접합자 유전자 활성화를 위한 일시적인 핵 연화 현상",
+      "summary_kr": "생명의 시작 시점에서 배아가 획득하는 독특한 물리적 핵 상태가 접합자 전사 프로그램의 개시를 지원하는 것으로 나타났다."
+    },
+    {
+      "title_en": "Suppression of epithelial proliferation and tumorigenesis by IgA",
+      "url": "https://www.nature.com/articles/s41586-026-11264-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "면역글로불린 A에 의한 상피세포 증식 및 종양 발생 억제",
+      "summary_kr": "생쥐 모델을 이용한 실험에서 장 내강의 면역글로불린 A는 결장 상피세포의 회전율을 조절하는 역할을 하며, 생쥐의 대장암 감수성을 감소시키는 것으로 나타났다."
+    },
+    {
+      "title_en": "Evolutionary dynamics in the years preceding acute myeloid leukaemia",
+      "url": "https://www.nature.com/articles/s41586-026-11269-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "급성 골수성 백혈병 진단 전 수년간의 진화적 동역학 분석",
+      "summary_kr": "급성 골수성 백혈병 진단 전 수년 동안 관찰된 조혈세포의 체세포 진화 역사는 혈액의 클론 동역학이 일련의 단순한 진화 규칙을 따르고 있음을 보여준다."
+    },
+    {
+      "title_en": "Scale-rich network-based metamaterials",
+      "url": "https://www.nature.com/articles/s41586-026-11191-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "규모가 풍부한 네트워크 기반 메타머티리얼",
+      "summary_kr": "역학적 메타머티리얼에 네트워크 이질성을 내재화하는 네트워크 과학 기반 프레임워크를 활용하여, 전통적인 단일 규모 시스템에서는 구현할 수 없는 특성을 나타내는 규모 풍부형 메타머티리얼을 제작했다."
+    },
+    {
+      "title_en": "The molecular basis of replication fork restart via repriming by PRIMPOL",
+      "url": "https://www.nature.com/articles/s41586-026-11276-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "PRIMPOL의 재프라이밍을 통한 복제 포크 재개시의 분자적 기전",
+      "summary_kr": "PRIMPOL은 복제 헬리카제인 CDC45–MCM2–7–GINS와의 상호작용을 통해 정지된 복제 포크에 모집된다. 이 과정은 PRIMPOL에서 고충실도 DNA 중합효소 엡실론으로의 프라이머 전달을 촉진하여 돌연변이를 유발하는 DNA 합성을 최소화한다."
+    },
+    {
+      "title_en": "Domain-alteration chimeras rewire oncogenic complexes in prostate cancer",
+      "url": "https://www.nature.com/articles/s41586-026-11262-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "전립선암에서 안드로겐 수용체 도메인 변형 키메라를 통한 온코제닉 복합체 재조선",
+      "summary_kr": "새로운 치료 양식은 비정상적인 안드로겐 수용체와 p300/CBP 간의 상호작용을 유도하여 안드로겐 수용체 전사 프로그램을 붕괴시킨다. 이는 전이성 전립선암에 대해 강력한 억제 효과와 계통 선택적 억제를 유발하며, 유도된 근접성을 활용하는 광범위한 치료 전략으로서 도메인 변형 키메라의 가능성을 제시한다."
+    },
+    {
+      "title_en": "Glycosylation and importins liquefy the FG barrier in live nuclear pores",
+      "url": "https://www.nature.com/articles/s41586-026-11258-0",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "생체 핵공에서 글리코실화와 임포틴에 의한 FG 장벽의 유동화",
+      "summary_kr": "핵공 단백질들은 조율된 분자 상호작용을 통해 유동적이고 공간적으로 조직된 장벽을 유지한다. 이는 세포가 어떻게 선택적 수송을 달성하는지 설명하고 핵공 구조에 대한 상반된 모델들을 조화시킨다."
+    },
+    {
+      "title_en": "Severe drought and warming increase the extinction risk of cacti",
+      "url": "https://www.nature.com/articles/s41586-026-11265-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "심각한 가뭄과 온난화가 선인장의 멸종 위험에 미치는 영향",
+      "summary_kr": "심각한 가뭄과 온난화는 선인장 종에 적합한 기후 서식지의 손실을 실질적으로 가중시킬 것으로 예상된다."
+    },
+    {
+      "title_en": "Low-power 2D CFETs using single-crystal high-<i>κ</i> dielectrics",
+      "url": "https://www.nature.com/articles/s41586-026-11272-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "단결정 고유전율 유전체를 활용한 저전력 2차원상보형전계효과트랜지스터",
+      "summary_kr": "전사 가능한 단결정 아나타제 이산화티타늄 유전체는 2차원 반도체와 고품질 계면을 형성한다. 이를 통해 이상적인 스위칭 특성, 낮은 이력 현상, 그리고 초저전력 상보형 트랜지스터 및 인버터 구현이 가능하다."
+    },
+    {
+      "title_en": "Independent interferometric observable confirms black hole shadow in M87*",
+      "url": "https://www.nature.com/articles/s41586-026-11241-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "독립적인 간섭계 관측으로 M87* 블랙홀 그림자 재확인",
+      "summary_kr": "폐쇄 불변 형식주의와 확산 기반 재구성 알고리즘을 초대형 블랙홀 초장기선 전파 간섭계 데이터셋에 적용한 결과, 기존의 보정 및 이미징 가정에서 벗어나 고리 형태의 그림자와 질량을 독자적으로 복원할 수 있게 되었다."
+    },
+    {
+      "title_en": "Mitochondrial protein import defects enhance tumour immunogenicity",
+      "url": "https://www.nature.com/articles/s41586-026-11249-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "미토콘드리아 단백질 수송 결함에 따른 종양 면역원성 강화",
+      "summary_kr": "미토콘드리아 단백질 수송의 억제는 미토콘드리아 DNA 방출을 촉진함으로써 종양 면역원성을 강화할 수 있다."
+    },
+    {
+      "title_en": "Metasurface waveguides for all-day augmented reality glasses",
+      "url": "https://www.nature.com/articles/s41586-026-11277-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "상시 착용형 증강현실 안경을 위한 메타표면 도파관",
+      "summary_kr": "이중층 메타표면 기반 도파관과 3개의 일치된 격자 패턴을 사용한 종일 착용 가능한 증강현실 안경 시제품은 높은 휘도 효율을 유지하면서 8×8-mm2의 2차원 아이박스에서 30°의 시야각을 달성한다."
+    },
+    {
+      "title_en": "Daily briefing: Where academic freedom is declining — and where it’s on the rise",
+      "url": "https://www.nature.com/articles/d41586-026-03664-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "일일 브리핑: 학문의 자유가 쇠퇴하는 곳과 상승하는 곳",
+      "summary_kr": "전 세계적으로 학문의 자유가 악화하고 있지만, 최근 몇 년 동안 일부 국가에서는 크게 급증했다. 또한 1년 동안 진행된 화성 모의 임무 참가자의 증언과 주요 균류 네트워크가 몽골의 상징적인 초원을 구할 수 있는 방법이 함께 다뤄졌다."
+    },
+    {
+      "title_en": "A Cellular Trio Drives Pancreatic Cancer-Associated Cachexia",
+      "url": "https://www.the-scientist.com/a-cellular-trio-drives-pancreatic-cancer-associated-cachexia-75246",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57166/cachexia-t.jpg",
+      "title": "세 가지 세포 유형이 주도하는 췌장암 연관 악액질",
+      "summary_kr": "췌장암 세포, 대식세포, 섬유아세포 하위 집단 간의 상호작용이 소모성 증후군인 악액질에 기여하며, 이는 해당 상태에 대한 생체표지자 식별에 도움이 될 수 있다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Luciana Correia Borges Studies Evidence and Policy",
+      "url": "https://www.the-scientist.com/postdoc-portrait-luciana-correia-borges-studies-evidence-and-policy-75256",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57222/luciana-correia-borges-800-x-5604-t.jpg",
+      "title": "포스트닥 초상: 증거와 정책을 연구하는 루시아나 코레이아 보르헤스",
+      "summary_kr": "이 박사후연구원은 기업의 메시지 전달, 정책 설계, 과학적 정의가 공중보건 조치와 글로벌 담배 규제에 어떤 영향을 미치는지 조사한다."
+    },
+    {
+      "title_en": "Sino Biological Advances AI-Designed Molecule Validation with 4RISE",
+      "url": "https://www.the-scientist.com/sino-biological-advances-ai-designed-molecule-validation-with-4rise-75263",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57239/sino-biological-logo-t.png",
+      "title": "정보가 부족하여 요약본을 만들지 못했음.",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Improving Western Blot Analysis of Biofluid Samples",
+      "url": "https://www.the-scientist.com/improving-western-blot-analysis-of-biofluid-samples-75247",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57169/picture1-t.png",
+      "title": "생체액 시료의 웨스턴 블롯 분석 개선",
+      "summary_kr": "생체액 시료의 웨스턴 블롯 분석에서 발생하는 과제를 해결하기 위한 전략을 살펴본다. 단백질 특성 분석을 지원하기 위해 동적 범위 관리, 분석 방법 선택, 총 단백질 정규화 적용 방식을 다룬다."
+    },
+    {
+      "title_en": "Opinion: 3 things new governors must do to lead on health",
+      "url": "https://www.statnews.com/2026/11/12/new-governors-2027-health-priorities-agenda/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2214082466-645x645.jpg",
+      "title": "오피니언: 보건 리더십을 위해 신임 주지사들이 반드시 해야 할 3가지",
+      "summary_kr": "맨디 코언과 엘렌 몬츠는 취임 첫날 주지사들이 카운티별 유치원 백신 접종률을 파악해야 한다고 강조한다."
+    },
+    {
+      "title_en": "Opinion: I research MAHA and Black Americans. The relationship is complicated — and fascinating",
+      "url": "https://www.statnews.com/2026/11/12/maha-black-american-activists-voters-health-care-midterms/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP8209161283-645x645.jpg",
+      "title": "오피니언: MAHA와 흑인 미국인을 연구하며 느낀 복잡하고 매혹적인 관계",
+      "summary_kr": "제렐 이제엘은 케네디와 MAHA가 흑인 운동가들의 전략을 차용하면서도 동시에 흑인 미국인들을 적극적으로 훼손해왔다고 지적한다."
+    },
+    {
+      "title_en": "Newly elected doctors and scientists hope to restore trust in science. It won’t be easy",
+      "url": "https://www.statnews.com/2026/11/12/trust-in-science-physician-lawmakers-rebuild-belief/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2301389322-645x645.jpg",
+      "title": "과학에 대한 신뢰 회복을 바라는 새로 당선된 의사들과 과학자들",
+      "summary_kr": "지난주 수많은 의사와 과학자들이 선출된 가운데, 이들이 과학에 대한 대중의 신뢰 회복으로 이어질 수 있을지에 대한 관심이 모이고 있다."
+    },
+    {
+      "title_en": "All of Us study finds thousands of new genetic variants affecting drug responses",
+      "url": "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_35613037-645x645.jpeg",
+      "title": "약물 반응에 영향을 미치는 수천 개의 새로운 유전자 변이를 밝혀낸 올 오브 어스 연구",
+      "summary_kr": "다양한 배경을 가진 약 10만 명의 미국인을 대상으로 한 연구를 통해 처방약에 대한 우리의 반응에 영향을 미치는 유전자 내 수천 개의 새로운 변이가 확인되었다."
+    },
+    {
+      "title_en": "STAT+: Most-favored nations policy makes drugmakers rethink launches abroad",
+      "url": "https://www.statnews.com/2026/11/11/biotech-news-mfn-makes-drugmakers-rethink-launches-abroad/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/03/AdobeStock_137486342-645x645.jpeg",
+      "title": "최혜국 대우 약가 정책에 대응해 해외 신약 출시 재검토하는 제약사들",
+      "summary_kr": "제약 회사들은 트럼프의 최혜국 대우 정책으로부터 미국 내 매출을 보호하기 위한 우회로를 모색하고 있는 것으로 나타났다."
+    },
+    {
+      "title_en": "Opinion: What MAHA’s support for Russell Brand tells us about the movement",
+      "url": "https://www.statnews.com/2026/11/11/maha-russell-brand-conviction-violence-rfk-jr/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2303454856-645x645.jpg",
+      "title": "MAHA 운동과 러셀 브랜드의 연대가 시사하는 바",
+      "summary_kr": "개빈 야미는 MAHA와 러셀 브랜드 간의 연대가 단순한 예외적 사건이 아니라고 분석했다."
+    },
+    {
+      "title_en": "STAT+: BMI alternative would flip obesity diagnosis for millions, study finds",
+      "url": "https://www.statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_1327253268_Editorial_Use_Only-645x645.jpeg",
+      "title": "새로운 비만 진단 기준 도입 시 수백만 명의 진단 결과 뒤바뀔 수 있어",
+      "summary_kr": "새롭게 제안된 비만 식별 방식을 통해 수백만 명의 비만 진단 여부가 뒤바뀔 수 있으며, 지지자들은 이를 통해 더욱 정밀한 치료가 가능해질 것이라고 주장한다."
+    },
+    {
+      "title_en": "STAT+: Why this former ER doc thinks giving AI less information is sometimes better",
+      "url": "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AIPrognosis_Wordpress_Graham-Walker-645x645.jpg",
+      "title": "인공지능에 더 적은 정보를 주는 것이 더 나을 수 있다고 보는 전직 응급실 의사",
+      "summary_kr": "MDCalc의 공동 창립자인 그레이엄 워커와의 인터뷰를 통해 회사의 새로운 AI 도구와 관련된 견해가 소개되었다."
+    },
+    {
+      "title_en": "STAT+: Cassidy sets key vote on Overton, even as he remains undecided on nominee to lead FDA",
+      "url": "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AP26267649095665-645x645.jpg",
+      "title": "캐시디 의원, 식품의약국 국장 지명자 하이디 오버턴에 대한 투표 일정 설정 속에서도 입장 유보",
+      "summary_kr": "캐시디 의원은 자신을 포함한 공화당 의원들이 식품의약국(FDA)을 이끌 헬디 오버턴 지명자에 대해 아직 결정을 내리지 못했다고 밝혔다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about Dems eyeing Trump MFN deals, fewer drug launches in Europe, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "민주당 의원들의 트럼프 최혜국 대우 약가 협상 조사 착수와 유럽의 신약 출시 감소",
+      "summary_kr": "의회 주요 위원회의 민주당 소속 차기 위원장들이 최혜국 대우 약가 협상에 대한 조사를 향한 새로운 조치를 취했다."
+    },
+    {
+      "title_en": "The U.S. may soon lose measles elimination status",
+      "url": "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/03/53483249134_d5488da1d2_o-645x645.jpg",
+      "title": "미국, 홍역 퇴치 지위 상실 위기에 직면",
+      "summary_kr": "세계보건기구(WHO) 산하 지역 기구가 미국의 홍역 퇴치 지위 유지 여부를 결정하기 위한 4일간의 회의를 개최할 예정인 가운데, 모든 정황은 지위 상실을 가리키고 있다."
+    },
+    {
+      "title_en": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+      "url": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/longwaveirsensor-500x500.jpg",
+      "title": "궤도 상의 밤에도 적의 기동 포착 가능한 첫 위성 개발한 안두릴",
+      "summary_kr": "안두릴은 자사의 첫 번째 위성이 매우 넓은 동적 범위를 가져 완전한 어둠 속에서도 사물을 볼 수 있다고 밝혔다."
+    },
+    {
+      "title_en": "IBM to offer access to a dual-processor quantum system in 2027",
+      "url": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/IBM-Quantum-Nighthawk-r2-and-r3-processors-comparison-500x500-1794412960.jpg",
+      "title": "IBM, 2027년 듀얼 프로세서 양자 시스템 제공 계획 발표",
+      "summary_kr": "IBM은 내년이 끝나기 전에 두 개의 520큐비트 칩을 연결할 계획이라고 밝혔다."
+    },
+    {
+      "title_en": "The Polar Vortex Is About to Make Weather Weird From the UK to the US",
+      "url": "https://www.wired.com/story/the-polar-vortex-is-about-to-make-weather-weird-from-the-uk-to-the-us/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://media.wired.com/photos/6ae9f4b9174ddb15ddc58a96/master/pass/Science_PolarVortex_v1.jpg",
+      "title": "영국에서 미국까지 날씨 변화를 예고하는 극소용돌이",
+      "summary_kr": "북극해류가 이처럼 이른 시기에 붕괴한 것은 전례가 없으며, 전례 없는 엘니뇨 현상과 맞물려 그 결과를 예측하기 어렵다."
+    },
+    {
+      "title_en": "A Startup Wants to Fight AI Bioweapons With AI",
+      "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://media.wired.com/photos/6af2619c5a9cd51895c4c0be/master/pass/science_ai_fight_bioweapon.jpg",
+      "title": "인공지능을 이용해 인공지능 생물무기에 맞서고자 하는 스타트업",
+      "summary_kr": "래디컬 누메릭스는 인터넷 연결 없이도 자연 및 AI 조작 병원체를 식별할 수 있다고 주장하는 모델을 개발했다."
+    },
+    {
+      "title_en": "Michigan Residents Voted to Get Corporate Money Out of Politics. Now Utilities Are Suing",
+      "url": "https://www.wired.com/story/michigan-voters-want-utility-money-out-of-politics-lawsuit/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://media.wired.com/photos/6af3bec02dbfcb3b37437f4a/master/pass/science_michigan_utilities_money_politics2.jpg",
+      "title": "미시간 주민들의 정치 자금 제한 투표에 맞서 소송 제기한 전력회사들",
+      "summary_kr": "전기 요금이 상승하는 가운데 미시간 주민들은 전력회사들의 선거 자금 지출을 제한하는 주민투표안을 압도적으로 통과시켰으나, 전력회사들은 이 조치가 표현의 자유를 제한한다고 주장하며 소송을 제기했다."
+    },
+    {
+      "title_en": "A New Benchmark for De-Aging Comes From Slowly Turning Back Cells’ Clocks",
+      "url": "https://www.wired.com/story/a-new-benchmark-for-de-aging-comes-from-slowly-turning-back-cells-clocks/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://media.wired.com/photos/6ae0fe13b1846b1aa519246b/master/pass/leadimagesize.jpg",
+      "title": "세포 시계를 천천히 되돌려 노화 역전의 새로운 기준을 제시하다",
+      "summary_kr": "독일 연구진이 인간 세포의 나이를 수십 년 동안 점진적으로 되돌렸다. 이를 통해 기존의 회춘 실험에서는 불가능했던 방식으로 노화 역전 과정을 추적할 수 있게 되었다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/pfizer-taps-blackstone-15b-pave-path-glp-1-launch\" hreflang=\"en\">Pfizer taps Blackstone for up to $1.5B to pave path to GLP-1's obesity launch</a>",
+      "url": "https://www.fiercebiotech.com/biotech/pfizer-taps-blackstone-15b-pave-path-glp-1-launch",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "화이자, 월간 투여 GLP-1 비만 치료제 개발 위해 블랙스톤으로부터 최대 15억 달러 확보",
+      "summary_kr": "화이자가 월간 투여 방식의 GLP-1 수용체 작용제(GLP-1 receptor agonist) 개발 자금을 조달하기 위해 블랙스톤 라이프 사이언스(Blackstone Life Sciences)로부터 최대 15억 달러를 확보했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/addex-spinout-neurosterix-raises-105m-series-b-fund-phase-2-schizophrenia-trial\" hreflang=\"en\">Addex spinout Neurosterix raises $105M series B to fund phase 2 schizophrenia trial</a>",
+      "url": "https://www.fiercebiotech.com/biotech/addex-spinout-neurosterix-raises-105m-series-b-fund-phase-2-schizophrenia-trial",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "아덱스 스핀아웃 뉴로스테릭스, 조현병 임상 2상 자금 조달 위해 1억 5천만 달러 규모 시리즈 B 투자 유치",
+      "summary_kr": "아덱스 테라퓨틱스(Addex Therapeutics)의 신경정신과 분야 스핀아웃 기업이 조현병 치료제의 예정된 임상 2상 연구 자금을 확보하기 위해 시리즈 B 펀딩을 통해 1억 5천만 달러를 유치했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/flagship-ai-based-biotechs-valo-montai-tie-knot\" hreflang=\"en\">Valo and Montai become one as the Flagship AI-based biotechs tie the knot</a>",
+      "url": "https://www.fiercebiotech.com/biotech/flagship-ai-based-biotechs-valo-montai-tie-knot",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "플래그십 산하 AI 기반 바이오 기업 발로와 몬타이, 합병 추진",
+      "summary_kr": "플래그십 파이오니어링(Flagship Pioneering)이 설립한 AI 기반 신약 발굴 및 개발 바이오 기업인 발로 헬스(Valo Health)와 몬타이 테라퓨틱스(Montai Therapeutics)가 합병을 통해 힘을 합친다. 이번 합병은 몬타이의 초기 및 전임상 파이프라인을 발전시키고 기존의 대형 파트너십을 이어가는 것을 목표로 한다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/cro/rivia-launches-ai-powered-automated-clinical-trial-data-review-platform\" hreflang=\"en\">Rivia launches AI-powered clinical trial data review module, with Scancell as early adopter</a>",
+      "url": "https://www.fiercebiotech.com/cro/rivia-launches-ai-powered-automated-clinical-trial-data-review-platform",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "리비아, AI 기반 임상시험 데이터 검토 모듈 출시… 스캔셀이 초기 도입",
+      "summary_kr": "스위스의 데이터 엔진 기업 리비아(Rivia)가 임상 데이터 정리를 가속화하기 위해 새로운 AI 기반 데이터 검토 모듈을 출시했다. 스캔셀(Scancell)이 이 모듈의 초기 도입 기업으로 참여했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/will-we-see-10-chinese-big-pharmas-within-decade-some-ceos-think-so\" hreflang=\"en\">Could we see 10 Chinese Big Pharmas within a decade? Some CEOs think so</a>",
+      "url": "https://www.fiercebiotech.com/biotech/will-we-see-10-chinese-big-pharmas-within-decade-some-ceos-think-so",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "10년 안에 10개의 중국 대형 제약사가 탄생할 수 있을까? 일부 CEO들의 전망",
+      "summary_kr": "피어스(Fierce)와 인터뷰한 다수의 중국 신약 개발 기업 임원들에게 진정한 목표는 글로벌 대형 제약사 반열에 오르는 것이다. 최근 몇 년 동안 이 목표는 막연한 열망에서 구체적인 목표로 변화했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/pharma/biontech-pays-205m-fda-voucher-speed-late-stage-oncology-pipeline\" hreflang=\"en\">BioNTech pays $205M for FDA voucher to speed up ‘late-stage oncology pipeline’</a>",
+      "url": "https://www.fiercebiotech.com/pharma/biontech-pays-205m-fda-voucher-speed-late-stage-oncology-pipeline",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "바이오엔테크, 후기 종양학 파이프라인 가속화 위해 FDA 우선심사 바우처 2억 5천만 달러에 매입",
+      "summary_kr": "바이오엔테크(BioNTech)가 '후기 종양학 파이프라인(late-stage oncology pipeline)'에 속한 약물의 향후 허가 신청을 지원하기 위해 FDA 우선심사 바우처(priority review voucher)를 2억 5천만 달러에 구매하기로 합의했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/amgen-builds-sjogrens-case-detailed-phase-3-data-ahead-novartis-showdown\" hreflang=\"en\">Amgen builds Sjögren’s case with detailed phase 3 data ahead of Novartis showdown</a>",
+      "url": "https://www.fiercebiotech.com/biotech/amgen-builds-sjogrens-case-detailed-phase-3-data-ahead-novartis-showdown",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "암젠, 노바티스와의 경쟁 앞두고 상세한 쇼그렌 증후군 임상 3상 데이터 공개",
+      "summary_kr": "암젠(Amgen)이 분석가들을 놀라게 했던 쇼그렌 증후군(Sjögren’s disease) 임상 3상 시험의 추가 데이터를 공유하며 노바티스와의 경쟁 구도를 형성할 세부 내용을 파고들었다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/capricor-nextcure-shed-light-recent-layoffs\" hreflang=\"en\">Capricor, NextCure shed light on recent layoffs as they gear up for approval decision, merger</a>",
+      "url": "https://www.fiercebiotech.com/biotech/capricor-nextcure-shed-light-recent-layoffs",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "카프리코와 넥스트큐어, 약물 승인 결정 및 합병 앞두고 최근 구조조정 배경 설명",
+      "summary_kr": "카프리코(Capricor)와 넥스트큐어(NextCure)가 각각 희망하는 약물 승인과 합병을 준비하는 과정에서 최근 진행한 대규모 해고에 대한 입장을 밝혔다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/cro/start-opens-first-early-phase-cancer-clinical-trial-site-italy\" hreflang=\"en\">Start Center for Cancer Research opens first early-phase clinical trial site in Italy</a>",
+      "url": "https://www.fiercebiotech.com/cro/start-opens-first-early-phase-cancer-clinical-trial-site-italy",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "스타트 암 연구 센터, 이탈리아에 첫 초기 단계 암 임상시험 센터 개소",
+      "summary_kr": "스타트 암 연구 센터(Start Center for Cancer Research)가 이스티투티 피시오테라피치 오스피탈리에리(Istituti Fisioterapici Ospitalieri)와 협력하여 이탈리아에 첫 초기 단계 암 임상시험 센터를 개소하며 현지 진출을 확장했다."
+    },
+    {
+      "title_en": "Neurosterix pulls in $105M for schizophrenia drug, taps Cobenfy vets",
+      "url": "https://endpoints.news/neurosterix-pulls-in-105m-for-schizophrenia-drug-recruits-cobenfy-vets/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "뉴로스테릭스, 조현병 치료제 개발 위해 1억 5천만 달러 유치 및 코벤피 출신 인사 영입",
+      "summary_kr": "코벤피(Cobenfy)의 주요 개발 인물들이 합류한 뉴로스테릭스가 브리스톨마이어스스큅(Bristol Myers Squibb) 약물의 표적 중 하나를 공략하는 선도 조현병 치료제 후보물질의 자금 조달을 위해 시리즈 B 펀딩으로 1억 5천만 달러를 확보했다."
+    },
+    {
+      "title_en": "How Hims plans to reinvigorate its business",
+      "url": "https://endpoints.news/how-hims-plans-to-revive-its-business-after-pivoting-to-branded-glp-1s/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "힘스, 사업 활성화 위해 브랜드 의약품 및 대형 제약사와의 협력으로 노선 변경",
+      "summary_kr": "과거 맞춤형 복합 의약품을 통한 개인화된 케어 제공에 집중했던 힘스 앤 허스(Hims & Hers)가 이제는 브랜드 의약품과 과거에 저가 공세를 펼쳤던 제약 거물들에 의존하고 있다. 힘스는 일라이릴리(Eli Lilly)와 계약을 체결했다."
+    },
+    {
+      "title_en": "Flagship merges two startups; J&J scores a bipolar mania success",
+      "url": "https://endpoints.news/flagship-merges-two-startups-jj-scores-a-bipolar-mania-success/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "플래그십, 두 스타트업 합병 및 J&J 조울증 치료 성과 거둬",
+      "summary_kr": "플래그십 파이오니어링(Flagship Pioneering)의 두 스타트업인 발로 헬스(Valo Health)와 몬타이 테라퓨틱스(Montai Therapeutics)가 하나의 회사로 합병을 진행하며, 아스트라제네카(AstraZeneca), 브라이트진(BrightGene), 펩겐(PepGen), 프라임 메디신(Prime Medicine) 관련 소식도 함께 전해졌다."
+    },
+    {
+      "title_en": "Beeline reveals Phase 2 lupus data from old Bristol Myers drug",
+      "url": "https://endpoints.news/beeline-reveals-phase-2-lupus-data-from-old-bristol-myers-drug/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "비라인, 구(舊) 브리스톨 마이어스 약물로 임상 2상 루푸스 데이터 공개",
+      "summary_kr": "비라인 메디신스(Beeline Medicines)는 전신 홍반루푸스(systemic lupus) 임상 중간 단계에서 인상적인 성과를 거두었으며, 브리스톨 마이어스 스큅(Bristol Myers Squibb)의 이전 약물을 바탕으로 임상 3상 시험을 준비하고 있다."
+    },
+    {
+      "title_en": "UK science minister calls for more life sciences investment",
+      "url": "https://endpoints.news/uk-science-minister-calls-for-more-life-sciences-investment/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "영국 과학 장관, 생명과학 분야 투자 확대 촉구",
+      "summary_kr": "영국 정부가 의약품 지출을 늘린 가운데, 생명과학 기업들도 자국 내 투자에 동참해 줄 것을 요구하고 나섰다."
+    },
+    {
+      "title_en": "VectorY bags $83.5M for antibody gene therapies in neurodegenerative diseases",
+      "url": "https://endpoints.news/vectory-bags-83-5m-for-antibody-gene-therapies-in-neurodegenerative-diseases/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "벡터와이, 신경퇴행성 질환 항체 유전자 치료 위해 8,350만 달러 확보",
+      "summary_kr": "벡터와이 테라퓨틱스(VectorY Therapeutics)는 뇌에서 항체를 생성하는 유전자 치료제 개발을 자금 지원하기 위해 시리즈 A 투자 라운드에서 7,450만 유로(약 8,350만 달러)를 추가로 조달했다."
+    },
+    {
+      "title_en": "Merck KGaA lands FDA nod for joint tumor drug it licensed from Abbisko",
+      "url": "https://endpoints.news/merck-kgaa-lands-fda-nod-for-joint-tumor-drug-it-licensed-from-abbisko/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "머크 KGaA, 아비스코로부터 도입한 관절 희귀 종양 치료제 FDA 승인 획득",
+      "summary_kr": "머크 KGaA(Merck KGaA)는 중국 기반 바이오 기업으로부터 라이선스 도입한 약물이 관절에 영향을 미치는 희귀 비암성 종양 치료제로 미국 식품의약국(FDA) 승인을 받았다고 발표했다."
+    },
+    {
+      "title_en": "Drug price hikes in Germany could push US costs higher, study says",
+      "url": "https://www.biopharmadive.com/news/germany-us-drug-price-study-healthcare-costs/874360/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "독일의 약가 인상으로 미국 의약품 비용이 상승할 수 있다는 연구 결과 발표",
+      "summary_kr": "이번 보고서는 약가 문제를 둘러싸고 미국과 독일 간의 긴장이 고조되는 가운데 발표되었으며, 여러 대형 제약사들은 이에 대응하여 독일 내 투자를 축소하고 있다."
+    },
+    {
+      "title_en": "AstraZeneca buys vaccine startup; FDA issues GLP-1 safety warning",
+      "url": "https://www.biopharmadive.com/news/glp1-naion-compass-zura-abeona/874076/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "아스트라제네카, 백신 스타트업 인수 및 FDA의 GLP-1 안전성 경고 발령",
+      "summary_kr": "이번 인수를 통해 아스트라제네카는 접합백신(conjugate vaccine)을 더 간단하게 제조할 수 있는 방법을 확보했다. 한편, 환각제 계열 우울증 치료제가 FDA에 제출되었으며 자가면역질환 전문 바이오 기업의 주가가 폭락했다."
+    },
+    {
+      "title_en": "Lilly reports promising 52-week results from TOGETHER-PsA trial in PsA",
+      "url": "https://www.clinicaltrialsarena.com/news/lilly-promising-results-together-psa-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-12-11-2026-shutterstock_2491465745.jpg",
+      "title": "릴리, 건선성 관절염 대상 TOGETHER-PsA 임상 3b상의 유망한 52주 결과 발표",
+      "summary_kr": "릴리(Lilly)는 과체중 또는 비만 성인의 활성 건선성 관절염(PsA) 치료를 위해 탈츠(Taltz)와 젭바운드(Zepbound)를 병용 평가한 TOGETHER-PsA 임상 3b상의 유망한 52주 결과를 발표했다."
+    },
+    {
+      "title_en": "AHA26: Orforglipron outpaces oral semaglutide on predicted cardiovascular risk",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/aha26-orforglipron-outpaces-oral-semaglutide-on-predicted-cardiovascular-risk/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2381322279.jpg",
+      "title": "오포글리프론, 예상 심혈관 위험 측면에서 경구용 세마글티드 앞서",
+      "summary_kr": "글로벌데이터(GlobalData)는 일라이 릴리(Eli Lilly)가 이러한 심혈관 위험 데이터와 오포글리프론(orforglipron)의 복용 편의성을 결합하여 경구용 세마글티드(oral semaglutide)와 차별화할 것으로 예상하고 있다."
+    },
+    {
+      "title_en": "PepGen’s stock skyrockets on record-breaking DM1 trial data",
+      "url": "https://www.clinicaltrialsarena.com/news/pepgens-stock-skyrockets-on-record-breaking-dm1-trial-data/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2721837775-2-scaled.jpg",
+      "title": "펩겐, DM1 임상 데이터 호조에 힘입어 주가 급등",
+      "summary_kr": "펩겐(PepGen)은 해당 연구의 데이터가 다회 투여 연구에서 DM1(근긴장성 이디로피) 치료를 위해 보고된 스플라이싱 교정 중 역대 최고 수준이라고 밝혔다."
+    },
+    {
+      "title_en": "Australia’s largest early-phase clinical trial network expands to Sydney",
+      "url": "https://www.clinicaltrialsarena.com/sponsored/australias-largest-early-phase-clinical-trial-network-expands-to-sydney/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/Sydney-clinic-Nucleus-Network_edited.jpg",
+      "title": "호주 최대 초기 임상시험 네트워크, 시드니로 확장",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Shared fibrosis genetics uncovers potential for drug repurposing",
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/shared-fibrosis-genetics-potential-drug-repurposing/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2416468489.jpg",
+      "title": "공유된 섬유증 유전학, 약물 재창출의 잠재력 밝혀내",
+      "summary_kr": "흉터 조직의 축적인 섬유증은 대부분의 만성 염증성 질환에서 발생하며 고소득 국가 전체 사망의 거의 절반에 관여한다."
+    },
+    {
+      "title_en": "J&J targets Caplyta label expansion on Phase III bipolar mania success",
+      "url": "https://www.clinicaltrialsarena.com/news/johnson-johnson-caplyta-bipolar-type-i-phase-iii-success/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2421893997-scaled.jpg",
+      "title": "존슨앤드존슨, 임상 3상 성공에 힘입어 캡리타 적응증 확대 추진",
+      "summary_kr": "존슨앤드존슨(Johnson & Johnson)이 양극성 제1형 장애의 조증 삽화 치료를 위해 캡리타(Caplyta)의 허가 신청을 추진하며 임상적용 범위를 넓힐 예정이다."
+    },
+    {
+      "title_en": "Natera and Incyte partner on Phase II colorectal cancer trial",
+      "url": "https://www.clinicaltrialsarena.com/news/natera-incyte-phase-ii-colorectal-cancer-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-2-12-11-2026-shutterstock_2279544527.jpg",
+      "title": "나테라와 인사이트, 대장암 임상 2상 공동 연구 협력 체결",
+      "summary_kr": "나테라(Natera)와 인사이트(Incyte)가 대장암 치료를 위한 INCA33890의 중재적 임상 2상 시험을 수행하기 위해 임상 협력 계약을 체결했다."
+    },
+    {
+      "title_en": "OCT New England 2026: the next phase in China’s rise",
+      "url": "https://www.clinicaltrialsarena.com/features/oct-new-england-2026-the-next-phase-in-chinas-rise/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2626084079.jpg",
+      "title": "중국 바이오 제약 산업의 성장과 2026 뉴잉글랜드 임상시험 학회",
+      "summary_kr": "중국은 글로벌 바이오제약 분야에서 미국과의 격차를 좁혀가고 있으나, 몇 가지 마지막 과제들을 해결해야만 한다."
+    },
+    {
+      "title_en": "Democrat midterm landslide spells greater Trump oversight, marginal reforms",
+      "url": "https://www.clinicaltrialsarena.com/features/us-midterms-democrat-landslide-spells-greater-trump-oversight-marginal-reforms/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/shutterstock_2732972961.jpg",
+      "title": "민주당의 중간선거 압승, 트럼프 견제 강화와 제한적 개혁 시사",
+      "summary_kr": "미국 중간선거로 민주당의 권한이 커질 것이나, 전문가들은 유의미한 헬스케어 정책 변화는 예상하지 않고 있다."
+    },
+    {
+      "title_en": "Lipocine doses first patient in Phase III postpartum depression study",
+      "url": "https://www.clinicaltrialsarena.com/news/first-participant-dosed-lipocines-lpcn-1154-study/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-12",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-12-11-2026-shutterstock_1836398248.jpg",
+      "title": "리포신, 산후우울증 임상 3상 연구 첫 환자 투약 개시",
+      "summary_kr": "리포신(Lipocine)이 산후우울증(PPD) 치료를 위한 LPCN 1154의 BLOOM 임상 3상 연구에서 첫 환자 투약을 완료했다."
+    },
+    {
+      "title_en": "Machine-learning model spots autism-linked variants that scramble splicing",
+      "url": "https://www.thetransmitter.org/spectrum/machine-learning-model-spots-autism-linked-variants-that-scramble-splicing/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-12",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-2e.png",
+      "title": "자폐증 연관 유전 변이의 스플라이싱 이상 포착하는 머신러닝 모델 개발",
+      "summary_kr": "새로운 머신러닝 모델이 기능 해석이 어려웠던 유전체 영역의 유전적 변이를 조사할 수 있는 방법을 제공한다."
+    },
+    {
+      "title_en": "Future of AI brain models sparks debate",
+      "url": "https://www.thetransmitter.org/systems-neuroscience/future-of-ai-brain-models-sparks-debate/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-12",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/Foundational-model-debate-525.png",
+      "title": "AI 뇌 모델의 미래를 둘러싼 신경과학계의 논쟁",
+      "summary_kr": "신경과학자들은 뇌 반응을 예측하는 파운데이션 모델이 뇌의 작동 원리를 이해하는 데 도움이 될지를 두고 의견이 갈리고 있다."
+    },
+    {
+      "title_en": "Lessons from recent investigator-initiated trials of gene-editing therapies in China",
+      "url": "https://www.nature.com/articles/s41591-026-04768-x",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "중국 유전자 편집 치료제 연구자 주도 임상시험의 교훈",
+      "summary_kr": "중국에서 진행된 실험적 세포 및 유전자 치료제 임상시험 중 발생한 여러 사망 사고는 거버넌스와 감독의 공백을 드러내는 것으로 보인다. 고위험 치료제의 임상 감독을 위해 독립적인 외부 검토 체계가 새로 도입될 필요성이 제기된다."
+    },
+    {
+      "title_en": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer",
+      "url": "https://www.nature.com/articles/s41591-026-04716-9",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "비소세포폐암에서 다토포타맙 데룩스테칸의 임상적 결과를 예측하는 TROP2 정규화 막 비율",
+      "summary_kr": "이 연구에서는 액션 가능한 유전체 변이가 없는 비편평 비소세포폐암 환자에서 다토포타맙 데룩스테칸(datopotamab deruxtecan) 투여 시 무진행 생존율과 전체 생존율 향상을 예측하는 세포외 TROP2 국소화를 정량화하는 컴퓨터 병리학 바이오마커인 TROP2 정규화 막 비율을 개발하고 검증했다."
+    },
+    {
+      "title_en": "First factor XIa inhibitor nabs FDA approval for stroke prevention",
+      "url": "https://www.nature.com/articles/d41573-026-00180-9",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "최초의 팩터 XIa 억제제, 뇌졸중 예방 목적으로 미국 FDA 승인 획득",
+      "summary_kr": "최초의 팩터 XIa 억제제(factor XIa inhibitor)가 뇌졸중 예방을 위해 미국 FDA(Food and Drug Administration) 승인을 획득했다."
+    },
+    {
+      "title_en": "The expansion of kinase drug discovery: new targets, platforms and indications",
+      "url": "https://www.nature.com/articles/s41573-026-01551-y",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "키네이스 약물 발굴의 확장: 새로운 표적, 플랫폼 및 적응증",
+      "summary_kr": "지난 25년 동안 키네이스(kinase) 약물 발굴은 제약 연구 개발 분야에서 가장 활발한 영역 중 하나였다. 이 기사는 약물 플랫폼, 새로운 표적화 접근법, 확장되는 표적 스펙트럼, 승인 및 임상 동향을 아우르는 키네이스 치료 환경에 대한 포괄적인 분석을 제공한다."
+    },
+    {
+      "title_en": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602435?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "고관절 또는 슬관절 전치환술 후 정맥혈전색전증 예방",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Preventing Malaria Infections and Moving toward Malaria Elimination",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2508563?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "말라리아 감염 예방과 퇴치를 향하여",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Subretinal Gene Therapy in X-Linked Retinoschisis",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2609517?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "X연관 망막분리증에서의 망막하 유전자 치료",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Iptacopan in IgA Nephropathy — Final 24-Month Data",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2611338?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "IgA 신병증 환자에 대한 엡타코판 투여의 최종 24개월 데이터",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Perioperative Apalutamide in High-Risk Localized Prostate Cancer",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2611613?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "고위험 국소 전립선암에서의 수술 전후 아팔루타마이드 치료",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Interferon-γ Underlying Thymoma-Associated Immune Dysregulation",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2607434?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "흉선종 연관 면역 조절장애의 기저에 있는 인터페론 감마",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Autoantibodies against Type I Interferons and Death from H7N7 Avian Influenza",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2608446?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "제1형 인터페론에 대한 자가항체와 H7N7 조류 인플루엔자로 인한 사망",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Aspirin Therapy — Enough after Arthroplasty?",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2612392?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "관절성형술 후 아스피린 치료, 과연 충분한가?",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Lung Hernia with a Chest-Wall Bulge",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607906?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "흉벽 돌출을 동반한 폐 탈장",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Case 32-2026: A 50-Year-Old Man with Recurrent Cardiomyopathy",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2301034?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "재발성 심근병증을 앓는 50세 남성 증례",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "High-Flow Oxygen Therapy with Nasal Cannula",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMvcm2517207?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "비강 캐널라를 이용한 고유량 산소 요법",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Intismeran Autogene plus Pembrolizumab for Resected Stage IIB to IV Melanoma",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609762?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "절제된 IIB~IV기 흑색종 환자를 위한 인티스메란 오토젠 및 펨브롤리주맙 병용요법",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Cancer Vaccines — From Treatment to Prevention",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMe2614041?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-12",
+      "image_url": null,
+      "title": "암 백신: 치료에서 예방으로",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "The Download: Pelosi’s successor targets AI and data centers face power woes",
       "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
