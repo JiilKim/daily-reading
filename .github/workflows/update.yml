@@ -25,6 +25,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Record job start time
+        run: echo "JOB_STARTED_AT=$(date +%s)" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -50,6 +53,8 @@ jobs:
           fi
 
       - name: Run scraper
+        id: scraper
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -66,6 +71,7 @@ jobs:
             logs.json
 
       - name: Commit and push if changed
+        if: ${{ !cancelled() && steps.scraper.outcome != 'skipped' && steps.scraper.outcome != '' }}
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions-bot@github.com'
@@ -92,3 +98,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Report scraper failure after preserving results
+        if: ${{ !cancelled() && steps.scraper.outcome == 'failure' }}
+        run: exit 1
