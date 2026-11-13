@@ -19,6 +19,29 @@ from google.genai import types
 import sys
 import re
 import isodate
+import signal
+import tempfile
+
+
+class TimeBudgetReached(BaseException):
+    """Not caught by API retry handlers; finish using the last checkpoint."""
+
+
+def atomic_json_save(path, data):
+    fd, temporary = tempfile.mkstemp(prefix='.checkpoint-', dir='.')
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as stream:
+            json.dump(data, stream, ensure_ascii=False, indent=2)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+
+
+def stop_at_deadline(signum, frame):
+    raise TimeBudgetReached()
 
 # 타임존 처리를 위한 라이브러리 (Python 3.9+)
 try:
@@ -563,8 +586,30 @@ def main():
         log("기존 데이터 파일 없음. 새로 시작.", "WARNING")
     except json.JSONDecodeError:
         log("JSON 파일 깨짐. 백업 후 새로 시작.", "ERROR")
+        raise  # Do not overwrite existing data with an empty checkpoint.
     except Exception as e:
         log(f"데이터 로드 중 알 수 없는 오류: {e}", "ERROR")
+        raise
+
+    # Persist pending work before calling any external summary API.
+    completed = {art['url']: art for art in old_articles}
+    pending = {art['url']: dict(art) for art in failed_queue
+               if art.get('url') and art['url'] not in completed}
+
+    def checkpoint():
+        atomic_json_save('articles.json', {
+            'last_updated': datetime.now(PALO_ALTO_TZ).strftime('%Y-%m-%d %H:%M:%S'),
+            'failed_queue': list(pending.values()),
+            'articles': sorted(completed.values(), key=lambda x: x.get('date', ''), reverse=True),
+        })
+
+    def remember(items):
+        for item in items:
+            if item.get('url') and item['url'] not in completed:
+                pending.setdefault(item['url'], dict(item))
+        checkpoint()
+
+    checkpoint()
 
     # 2. 수집 소스 정의
     sources = [
@@ -620,13 +665,15 @@ def main():
         ('UCXql5C57vS4ogUt6CPEWWHA', '김지윤의 지식Play YouTube', 'Video')
     ]
     for ch_id, src, cat in yt_channels:
-        youtube_candidates.extend(scrape_youtube_videos(ch_id, src, cat))    
+        youtube_candidates.extend(scrape_youtube_videos(ch_id, src, cat))
+        remember(youtube_candidates)
     
     # 3-2. 신규 크롤링
-    text_candidates = []
+    # Keep yesterday's text retry queue instead of clearing it.
     
     for url, source, cat in sources:
         items = scrape_feed(url, source, cat)
+        remember(items)
         for item in items:
             if item['url'] not in seen_urls:
                 text_candidates.append(item)
@@ -663,6 +710,9 @@ def main():
                     new_failed_queue.append(art)
                 else:
                     new_articles.append(art)
+                    completed[art['url']] = dict(art)
+                    pending.pop(art['url'], None)
+            checkpoint()
             
             # 마지막 블록이 아니면 대기 (RPD 보존 + TPM 조절)
             if idx < len(article_chunks) - 1:
@@ -684,6 +734,8 @@ def main():
                 duration_min = duration // 60
                 if duration > MAX_VIDEO_DURATION_SEC:
                     log(f"  ⏭️ 스킵: 영상 길이 초과 ({int(duration_min)}분) - {art['title_en'][:15]}...", "INFO")
+                    pending.pop(art['url'], None)
+                    checkpoint()
                     continue
                 else:
                     log(f"  🆗 통과: {int(duration_min)}분 - {art['title_en'][:15]}...", "INFO")
@@ -697,6 +749,9 @@ def main():
                 art['summary_kr'] = summary_kr
                 if 'description_en' in art: del art['description_en']
                 new_articles.append(art)
+                completed[art['url']] = dict(art)
+                pending.pop(art['url'], None)
+            checkpoint()
 
     # 5. 결과 저장
     log(f"최종 결과: 성공 {len(new_articles)}건, 실패/보류 {len(new_failed_queue)}건", "INFO")
@@ -711,8 +766,7 @@ def main():
     }
 
     try:
-        with open('articles.json', 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        checkpoint()
         log("데이터 저장 완료 (articles.json)", "INFO")
     except Exception as e:
         log(f"파일 저장 실패: {e}", "ERROR")
@@ -749,4 +803,23 @@ def main():
     print("=== 스크립트 종료 ===")
 
 if __name__ == '__main__':
-    main()
+    # Linux Actions: interrupt even a blocked SDK request or retry sleep.
+    # Leave one minute for cleanup before the 5h45m scraper deadline.
+    started = float(os.environ.get('JOB_STARTED_AT', time.time()))
+    remaining = started + 345 * 60 - 60 - time.time()
+    signal.signal(signal.SIGALRM, stop_at_deadline)
+    signal.setitimer(signal.ITIMER_REAL, max(0.001, remaining))
+    try:
+        main()
+    except TimeBudgetReached:
+        print('시간 예산 도달: 마지막 체크포인트를 유지하고 정상 종료합니다. 미처리 항목은 내일 재개합니다.')
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        # Preserve logs on both deadline and unexpected errors, without hiding errors.
+        log_path = 'logs.json'
+        saved_logs = {}
+        if os.path.exists(log_path):
+            with open(log_path, encoding='utf-8') as stream:
+                saved_logs = json.load(stream)
+        saved_logs[datetime.now(PALO_ALTO_TZ).strftime('%Y-%m-%d')] = execution_logs
+        atomic_json_save(log_path, saved_logs)
