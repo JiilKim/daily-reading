@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 03:20:31",
+  "last_updated": "2026-11-16 03:07:32",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -18,36 +18,319 @@
       "category": "Video",
       "date": "2026-11-02",
       "image_url": "https://i4.ytimg.com/vi/WZOrwyK5Nmc/hqhqdefault.jpg"
-    },
-    {
-      "title_en": "HHS directs new funds, research for psychedelics work",
-      "description_en": "Following President Donald Trump’s executive order in the spring to make psychedelics research a priority, HHS on Thursday announced a flurry of new funding and studies into the field, with a special focus on ibogaine.\n\n ...",
-      "url": "https://endpoints.news/hhs-directs-new-funds-research-for-psychedelics-work/",
-      "source": "Endpoints News",
-      "category": "News",
-      "date": "2026-11-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Rezera postpones a planned $200M IPO shortly before expected debut",
-      "description_en": "Rezera, a biotech developing drugs for cardio and inflammatory diseases, has delayed its IPO that was scheduled for Friday, a company spokesperson confirmed to Endpoints News.\n\n The spokesperson cited “current market conditions” as the reason ...",
-      "url": "https://endpoints.news/rezera-postpones-a-planned-200m-ipo-shortly-before-expected-debut/",
-      "source": "Endpoints News",
-      "category": "News",
-      "date": "2026-11-14",
-      "image_url": null
-    },
-    {
-      "title_en": "Google's Gemini is getting in the health AI game",
-      "description_en": "This week, Google launched Gemini for healthcare.\n\n Google has long been a fixture in health, helping hospitals store data in Google Cloud, selling a wellness device through Fitbit and spinning out startups such as Verily ...",
-      "url": "https://endpoints.news/gemini-getting-in-the-health-ai-game/",
-      "source": "Endpoints News",
-      "category": "News",
-      "date": "2026-11-14",
-      "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "HHS directs new funds, research for psychedelics work",
+      "url": "https://endpoints.news/hhs-directs-new-funds-research-for-psychedelics-work/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "미국 보건복지부, 사이키델릭 연구 및 신규 자금 지원 확대",
+      "summary_kr": "도널드 트럼프 대통령이 봄철에 사이키델릭 연구를 우선순위로 삼는 행정명령을 내린 이후, 미국 보건복지부(HHS)는 목요일 이 분야에 대한 대규모 신규 자금 지원과 연구 계획을 발표했습니다. 이번 발표는 특히 이보가인(ibogaine) 연구에 특별한 초점을 맞추고 있습니다."
+    },
+    {
+      "title_en": "Rezera postpones a planned $200M IPO shortly before expected debut",
+      "url": "https://endpoints.news/rezera-postpones-a-planned-200m-ipo-shortly-before-expected-debut/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "레제라, 상장 앞두고 2억 달러 규모 IPO 연기",
+      "summary_kr": "심혈관 및 염증성 질환 치료제를 개발하는 바이오기업 레제라(Rezera)가 금요일로 예정되었던 2억 달러 규모의 기업공개(IPO)를 연기했다고 회사 대변인이 엔드포인트 뉴스에 확인했습니다. 회사 대변인은 연기 이유로 현재의 시장 상황을 언급했습니다."
+    },
+    {
+      "title_en": "Google's Gemini is getting in the health AI game",
+      "url": "https://endpoints.news/gemini-getting-in-the-health-ai-game/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "구글, 헬스케어 분야 인공지능 '제미나이' 출시",
+      "summary_kr": "구글은 이번 주 헬스케어용 제미나이(Gemini)를 출시했습니다. 구글은 그동안 구글 클라우드를 통한 병원 데이터 저장 지원, 핏비트(Fitbit)를 통한 웰니스 기기 판매, 베릴리(Verily) 같은 스타트업 분사 등을 통해 헬스케어 분야에서 오랜 기간 입지를 다져왔습니다."
+    },
+    {
+      "title_en": "Cell Line Identity Crisis Haunts Biomedical Research",
+      "url": "https://www.the-scientist.com/cell-line-identity-crisis-haunts-biomedical-research-75266",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57252/amanda-cd-t.png",
+      "title": "세포주(cell line) 정체성 혼란, 바이오의학 연구의 신뢰성 위협",
+      "summary_kr": "잘못 식별된 세포주(cell line)는 수십 년 동안 연구자들을 오도하여 시간과 비용을 낭비하게 만들었으며, 유망한 치료제 개발을 좌초시킬 잠재적 위험을 안고 있습니다."
+    },
+    {
+      "title_en": "Draft Rules on Animal Testing Threaten India&rsquo;s Advanced Therapy Ambitions",
+      "url": "https://www.the-scientist.com/draft-rules-on-animal-testing-threaten-india-s-advanced-therapy-ambitions-75265",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57250/india-animaltestingrules-800x560-t.jpg",
+      "title": "인도의 동물실험 규정 초안, 첨단 치료제 개발 야심에 위협",
+      "summary_kr": "새롭게 제안된 규정은 동물 실험의 범위를 넓혀 인도 내 인간 중심 신치료제 개발의 진전과 자립성을 위협할 수 있습니다."
+    },
+    {
+      "title_en": "What Jonathan the Tortoise Can Teach Us About Human Aging",
+      "url": "https://www.the-scientist.com/what-jonathan-the-tortoise-can-teach-us-about-human-aging-75269",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57268/jonathan-the-tortoise-800-x-560-t.jpg",
+      "title": "194세 거북 조나단이 인간 노화 연구에 주는 시사점",
+      "summary_kr": "194세의 거대 거북 조나단은 현존하는 가장 오래된 육상 동물로, 과학자들이 인간의 건강수명(healthspan)을 연장할 수 있는 유전적 비밀을 이해하는 데 도움을 주고 있습니다."
+    },
+    {
+      "title_en": "STAT+: With Stephen Miller as chief of staff, Kennedy’s MAHA agenda is reinvigorated",
+      "url": "https://www.statnews.com/2026/11/16/stephen-miller-chief-of-staff-boosts-power-of-kennedy-maha/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2298594379-645x645.jpg",
+      "title": "스티븐 밀러 백악관 비서실장 임명으로 활기를 띤 로버트 F. 케네디 주니어의 MAHA 의제",
+      "summary_kr": "스티븐 밀러가 백악관 비서실장으로 임명되면서 보건복지부 장관인 로버트 F. 케네디 주니어(RFK Jr.)가 활기를 얻고 있습니다. 고위 참모는 사람들에게 MAHA 추진을 본격적으로 시작할 시점이라고 전하고 있습니다."
+    },
+    {
+      "title_en": "Opinion: Medical school should start after students take the Step 1 exam",
+      "url": "https://www.statnews.com/2026/11/16/medical-school-step-1-exam-redesign-proposal/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_2158931352-645x645.jpeg",
+      "title": "의과대학 교육은 Step 1 시험 이후에 시작해야 한다는 주장",
+      "summary_kr": "레이첼 파비와 에이미 카루소 브라운은 의학교육에 대한 급진적인 재구성이 필요한 시점이라고 주장했습니다."
+    },
+    {
+      "title_en": "After difficult two years, medical school group’s leadership isn’t letting its guard down post midterms",
+      "url": "https://www.statnews.com/2026/11/16/aamc-ceo-david-skorton-qa-challenges-academic-medicine/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/IMG_6769-645x645.jpg",
+      "title": "다사다난했던 2년을 보낸 미국의과대학협회(AAMC) 지도부, 중간선거 이후에도 긴장을 늦추지 않아",
+      "summary_kr": "수많은 중대한 보건 및 과학 정책 논쟁에 얽히며 격동의 2년을 보낸 미국의과대학협회(AAMC)는 중간선거 이후에도 경계를 늦추지 않고 있습니다."
+    },
+    {
+      "title_en": "BeOne, Hengrui top list of China’s most powerful drugmakers",
+      "url": "https://www.statnews.com/2026/11/16/beone-hengrui-top-list-of-chinas-most-powerful-drugmakers/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2295105053-645x645.jpg",
+      "title": "베원과 항루이, 중국에서 가장 강력한 제약사 순위 상위권 차지",
+      "summary_kr": "새로운 STAT-WireScreen 지수가 중국에서 가장 가치 있는 상장 바이오테크 기업의 순위를 집계했습니다. 어떤 기업이 1위를 차지했는지 확인해 보세요."
+    },
+    {
+      "title_en": "Opinion: STAT+: Candles and long baths can’t fix burned-out physicians",
+      "url": "https://www.statnews.com/2026/11/16/doctors-self-care-limits-literature-systems/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/ChiefComplaint_FeaturedImage-bubblebath-645x645.jpg",
+      "title": "의사의 번아웃, 촛불과 긴 입욕으로는 해결할 수 없다",
+      "summary_kr": "의사를 위한 자기관리 관련 언어는 의사 스스로 문제를 해결하도록 책임을 전가합니다. 그러나 프랜시스 메이 하르딘은 시스템에 문제가 있다고 지적합니다."
+    },
+    {
+      "title_en": "STAT+: Apple and OpenEvidence launch experimental health chat app",
+      "url": "https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2020/07/AdobeStock_335879672-645x645.jpeg",
+      "title": "애플과 오프에비던스, 실험적 건강 챗봇 앱 출시",
+      "summary_kr": "애플과 오프에비던스(OpenEvidence)가 인공지능 기반의 실험적 건강 챗봇 앱을 중심으로 한 연구를 시작하며 두 기업의 새로운 방향 가능성을 시사했습니다."
+    },
+    {
+      "title_en": "STAT+: FDA rejects lung cancer treatment ivonescimab from Summit Therapeutics",
+      "url": "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/09/GettyImages-1237273640-1-645x645.jpg",
+      "title": "미 FDA, 서밋 테라퓨틱스의 폐암 치료제 '이보네시맙' 승인 거부",
+      "summary_kr": "미국 식품의약국(FDA)이 미국 바이오기업 서밋 테라퓨틱스와 중국 제약사 아케소(Akeso)가 공동 개발한 특정 폐암 치료제 이보네시맙(ivonescimab)의 승인을 거부했다."
+    },
+    {
+      "title_en": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-500x500.jpg",
+      "title": "벌컨 로켓 발사 실패, 스페이스X 경쟁사에 큰 타격",
+      "summary_kr": "유나이티드 런치 얼라이언스(ULA)의 20년 역사상 처음으로 임무가 완전히 실패하는 사고가 발생했으며, 이는 스페이스X 경쟁사들에게 큰 타격을 주었다."
+    },
+    {
+      "title_en": "How the world’s fires changed while humanity hit pause",
+      "url": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-500x500.jpg",
+      "title": "코로나19 봉쇄 조치 기간 동안 전 세계 화재 발생량의 변화",
+      "summary_kr": "코로나19(COVID-19) 봉쇄 조치로 인해 전 세계 화재 활동이 12.3퍼센트 감소했다."
+    },
+    {
+      "title_en": "It’s Getting Too Dry for Even Cactuses to Survive",
+      "url": "https://www.wired.com/story/droughts-are-getting-too-extreme-even-for-cactuses/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://media.wired.com/photos/6af6e9401b752946d00e4918/master/pass/extreme-heat-climate-change-cacti-cactus-extinction-biodiversity-risk-models.jpg",
+      "title": "기후변화로 선인장마저 생존 위협 받아",
+      "summary_kr": "기후변화로 가뭄이 심화되면서 수백 종의 선인장이 2100년까지 서식지의 대부분을 잃을 수 있다는 새로운 연구 결과가 나왔습니다."
+    },
+    {
+      "title_en": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
+      "url": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://media.wired.com/photos/6af5dd41ea249e5173fa2e83/master/pass/Weixin%20Image_2025-07-15_230629_400.jpg",
+      "title": "중국에서 최대 20인치 크기의 거대 신종 균류 발견",
+      "summary_kr": "디안주누스 렉스(Dianjunus rex)로 명명된 이 거대한 균류는 공룡을 멸종시킨 대멸종 직후에 나타났습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/chinese-scientists-fired-after-child-dies-gene-editing-study\" hreflang=\"en\">Chinese scientists fired after child dies in gene editing study: report</a>",
+      "url": "https://www.fiercebiotech.com/biotech/chinese-scientists-fired-after-child-dies-gene-editing-study",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "유전자 편집 연구 중 아동 사망 사건으로 중국 과학자들 해고",
+      "summary_kr": "중국 매체 보도에 따르면, 중국 당국은 유전자 편집 연구 과정에서 발생한 아동 사망에 연루된 연구원 두 명을 해고했습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/tandem-mobi-sees-fda-clearance-tubeless-aid-system\" hreflang=\"en\">Tandem Mobi sees FDA clearance for tubeless AID system</a>",
+      "url": "https://www.fiercebiotech.com/medtech/tandem-mobi-sees-fda-clearance-tubeless-aid-system",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "탠덤 다이아베스 케어, 튜브 없는 자동 인슐린 주입 기기 '탠덤 모비' FDA 허가 획득",
+      "summary_kr": "탠덤 다이아베스 케어(Tandem Diabetes Care)의 튜브 없는 자동 인슐린 주입(AID, automated insulin delivery) 기기인 탠덤 모비(Tandem Mobi) 시스템이 최대 7일간의 착용에 대해 미국 식품의약국(FDA)의 허가를 받았다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/sofinnova-books-biggest-ever-815m-fund-eye-toward-and-coming-global-leaders\" hreflang=\"en\">Sofinnova books biggest-ever $815M fund with an eye toward up-and-coming ‘global leaders’</a>",
+      "url": "https://www.fiercebiotech.com/biotech/sofinnova-books-biggest-ever-815m-fund-eye-toward-and-coming-global-leaders",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "소피노바 파트너스, 역대 최대 규모인 8억 1,500만 달러 펀드 조성",
+      "summary_kr": "생명과학 전문 벤처캐피털인 소피노바 파트너스(Sofinnova Partners)가 역대 최대 규모인 8억 1,500만 달러의 펀드를 조성했다. 이번 펀드는 주로 유럽에 기반을 둔 약 15개의 임상 단계 개발 기업을 지원하는 데 사용될 예정이다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc\" hreflang=\"en\">FDA rejects Summit’s ivonescimab, derailing US arrival of much-hyped PD-1xVEGF class</a>",
+      "url": "https://www.fiercebiotech.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "FDA, 서밋 테라퓨틱스의 이보네시맙 승인 거절… 미국 진출 차질",
+      "summary_kr": "미국 식품의약국(FDA)이 서밋 테라퓨틱스(Summit Therapeutics)의 PD-1xVEGF 계열 약물인 이보네시맙(ivonescimab)에 대해 보완요청서(CRL)를 발행했다. 이로 인해 업계에서 머크(Merck & Co.)의 키트루다(Keytruda)를 대체할 잠재력으로 주목받아 온 해당 약물의 즉각적인 미국 시장 출시가 좌절되었다."
+    },
+    {
+      "title_en": "Sofinnova closes second crossover fund at €725M for late-stage European biotechs",
+      "url": "https://endpoints.news/sofinnova-closes-second-crossover-fund-at-e725m-for-late-stage-european-biotechs/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "소피노바 파트너스, 후기 단계 유럽 바이오텍 위한 7억 2500만 유로 규모 크로스오버 펀드 조성",
+      "summary_kr": "소피노바 파트너스(Sofinnova Partners)가 후기 단계 유럽 바이오파마 및 메드테크 기업들의 자금 조달 공백을 메우기 위해 7억 2500만 유로(약 8억 1500만 달러) 규모의 두 번째 크로스오버 펀드를 조성했다."
+    },
+    {
+      "title_en": "FDA rejects Summit, Akeso's ivonescimab in narrow lung cancer setting",
+      "url": "https://endpoints.news/fda-rejects-summit-akesos-ivonescimab-in-narrow-lung-cancer-setting/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "미국 FDA, 서밋·아케소의 폐암 치료제 '이보네시맙' 승인 거부",
+      "summary_kr": "미국 식품의약국(FDA)이 서밋 테라퓨틱스(Summit Therapeutics)와 아케소(Akeso)의 새로운 암 치료제인 이보네시맙(ivonescimab)을 특정 폐암 적응증에서 거부했다. 이번 결정은 분석가들이 어느 정도 예상했던 바로, 해당 유망 약물 계열의 향후 전망을 어둡게 하지는 않을 것으로 평가된다."
+    },
+    {
+      "title_en": "One of Europe’s leading VCs banks a €725M ‘crossover’ fund",
+      "url": "https://www.biopharmadive.com/news/sofinnova-crossover-fund-ii-european-investment/874656/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": null,
+      "title": "유럽 주요 벤처캐피털 소피노바 파트너스, 7억 2500만 유로 규모 크로스오버 펀드 조성",
+      "summary_kr": "아비박스(Abivax), 아르젠엑스(Argenx), 베로나 파마(Verona Pharma) 같은 성공적인 제약사를 지원해 온 소피노바 파트너스(Sofinnova Partners)가 7억 2500만 유로 규모의 크로스오버 펀드를 결성했습니다. 확보된 자금은 후기 단계 바이오텍의 새로운 그룹을 지원하는 데 사용될 예정입니다."
+    },
+    {
+      "title_en": "Amylyx reveals data from Phase III LUCIDITY trial of avexitide",
+      "url": "https://www.clinicaltrialsarena.com/news/amylyxs-avexitide-meets-primary-endpoint-lucidity-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-2-16-11-2026-shutterstock_2026087052.jpg",
+      "title": "아밀릭스, 아벡시티드의 3상 LUCIDITY 임상 시험 데이터 공개",
+      "summary_kr": "아밀릭스 파마슈티컬스(Amylyx Pharmaceuticals)는 연구 중인 GLP-1 수용체 길항제인 아벡시티드(avexitide)가 선천성 고인슐린혈증(PBH)을 적응증으로 하는 임상 3상 LUCIDITY 시험에서 사전에 지정된 1차 유효성 평가변수를 충족했다고 발표했습니다."
+    },
+    {
+      "title_en": "Novo reports positive Phase III REDEFINE 1 results for CagriSema",
+      "url": "https://www.clinicaltrialsarena.com/news/novo-positive-redefine-1-results-cagrisema/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-16",
+      "image_url": "https://www.clinicaltrialsarena.com/wp-content/uploads/sites/22/2026/11/CTA-16-11-2026-shutterstock_2468661213.jpg",
+      "title": "노보 노디스크, 카그리세마 임상 3상 REDEFINE 1 사후 분석 결과 발표",
+      "summary_kr": "노보 노디스크(Novo Nordisk)는 과체중 또는 비내성 성인 환자를 대상으로 연구 중인 복합 제제 카그리세마(CagriSema)를 평가한 임상 3상 REDEFINE 1 시험의 사후 분석 결과를 보고했습니다."
+    },
+    {
+      "title_en": "How does the developing brain make so many different types of neurons?",
+      "url": "https://www.thetransmitter.org/qa/how-does-the-developing-brain-make-so-many-different-types-of-neurons/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-16",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-thumbnail-draft.png",
+      "title": "발달 중인 뇌는 어떻게 다양한 종류의 뉴런을 생성할까?",
+      "summary_kr": "올리버 호버트(Oliver Hobert)는 가깝거나 먼 친척 관계인 선형동물 종의 유전자 발현 패턴과 연결성을 분석하는 연구가 신경계의 구조적 및 기능적 조직화를 이해하는 데 어떻게 도움을 주는지 설명합니다."
+    },
+    {
+      "title_en": "대기업이 혁신 못하는 이유 (일론 머스크)",
+      "url": "https://www.youtube.com/shorts/KKQjwgiRv-Y",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-16",
+      "image_url": "https://i4.ytimg.com/vi/KKQjwgiRv-Y/hqhqdefault.jpg",
+      "title": "대기업이 혁신하지 못하는 이유: 일론 머스크와 론 배런이 밝히는 기업 관성",
+      "summary_kr": "일론 머스크는 현재 반도체 제조 공정에서 웨이퍼가 겪는 대표적인 비효율성에 대해 지적합니다. 공장 내에서 웨이퍼는 단순히 이동하고 대기하는 데만 전체 시간의 절반 이상을 소모하고 있습니다. 그럼에도 불구하고 반도체 공장에는 천문학적인 자본이 투입되기 때문에 기업들은 모험적인 혁신을 꺼리게 됩니다. 이미 검증되어 작동하는 제조 방식이 있다면 실패 리스크를 감수하면서 새로운 공정을 시도할 유인이 부족하기 때문입니다. 이어 배런캐피털의 론 배런 창업자는 일반적인 비즈니스 환경에 깊게 뿌리내린 조직적 관성에 대해 설명합니다. 기업 내에서 자금을 투입해 새로운 시도를 했다가 실패할 경우 담당자에게는 치명적인 오점과 낙인이 남게 됩니다. 설령 혁신적인 시도가 성공하더라도 더 많은 업무가 주어질 뿐 확실한 보상이 따르지 않는 경우가 흔합니다. 반대로 프로젝트가 실패할 경우에는 최고위직으로 승진할 수 있는 커리어의 기회가 완전히 사라지게 됩니다. 이러한 사내 평가 시스템은 직원들이 리스크를 회피하고 기존의 방식을 답습하도록 만듭니다. 결국 막대한 초기 자본 리스크와 실패를 용인하지 않는 조직 문화가 합쳐져 대기업의 혁신을 가로막는 주요 원인이 됩니다."
+    },
+    {
+      "title_en": "현장에 나가는 이유 (일론 머스크)",
+      "url": "https://www.youtube.com/shorts/4zGMapzMRUo",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-16",
+      "image_url": "https://i1.ytimg.com/vi/4zGMapzMRUo/hqhqdefault.jpg",
+      "title": "일론 머스크가 직접 현장 실무를 챙기는 이유",
+      "summary_kr": "일론 머스크는 생산 및 건설 현장을 파악하기 위해 하루에도 여러 차례 전체 현장을 직접 둘러봅니다. 그는 발전소 시설부터 일반 건물에 이르기까지 현장 전체를 하루에 적게는 서너 번, 많게는 네다섯 번씩 순회합니다. 또한 그는 현장 업무 중 일부를 반드시 자신의 손으로 직접 수행하겠다는 원칙을 고수하고 있습니다. 실제로 그는 아나콘다만큼 굵고 무거운 전력 케이블을 직접 당겨보는 작업을 수행하기도 했습니다. 이 외에도 광케이블 설치 작업, 전기 스위치 설비 작업, 발전소 관리 소프트웨어 점검 등 다양한 실무를 직접 경험했습니다. 머스크가 이처럼 다양한 현장 업무를 직접 해보는 데에는 명확한 이유가 있습니다. 그것은 현장에서 실제로 땀 흘려 일하는 실무자들의 고통과 노고에 대해 무뎌지지 않기 위함입니다. 최고경영자가 직접 몸으로 부딪쳐 봐야 업무의 실제 난이도와 문제점을 온전히 체감할 수 있습니다. 이러한 실질적인 경험은 현장의 애로사항을 정확히 파악하고 시스템을 개선하는 통찰력으로 이어집니다. 결국 현장 중심의 실천적 리더십을 통해 무엇을 개선해야 작업 환경과 생산성을 높일 수 있는지를 명확히 이해하게 됩니다."
+    },
+    {
+      "title_en": "왜 이렇게 늙으셨누.. (빌 애크먼)",
+      "url": "https://www.youtube.com/shorts/JNWyI1T2J5c",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-16",
+      "image_url": "https://i3.ytimg.com/vi/JNWyI1T2J5c/hqhqdefault.jpg",
+      "title": "빌 애크먼이 밝힌 엔비디아와 앤트로픽, 그리고 AI 투자에 대한 솔직한 견해",
+      "summary_kr": "퍼싱스퀘어의 CEO 빌 애크먼이 금융 행사를 마친 후 블룸버그 기자와의 길거리 인터뷰에서 AI 시장에 대한 자신의 견해를 밝혔습니다. 기자는 엔비디아의 핵심 인물 리스크와 AI 투자 전반에 관한 시장의 우려에 대해 질문했습니다. 이에 대해 애크먼은 젠슨 황이 매우 뛰어난 CEO라고 칭찬하면서도 엔비디아라는 기업 자체의 견고함을 신뢰한다고 언급했습니다. 과거 스티브 잡스 이후에도 지속적으로 성장한 애플의 사례처럼, 훌륭한 기업은 리더의 변화가 있더라도 성공을 이어갈 수 있다고 설명했습니다. 그는 현재 엔비디아에 직접 투자하고 있지는 않지만 늘 감탄하며 지켜보던 회사라고 덧붙였습니다. 이어 인공지능 스타트업인 앤트로픽에 대한 질문에는 직접 투자는 아니지만 지분을 보유한 펀드를 통해 간접적으로 참여하고 있다고 답했습니다. 특히 앤트로픽의 CEO 다리오 아모데이에 대해 매우 사려 깊고 신중한 인물이라며 깊은 인상을 받았다고 전했습니다. 현재 앤트로픽에 대한 심도 있는 투자 검토를 진행 중이지만 아직 결과를 확신할 단계는 아니라고 밝혔습니다. 또한 향후 AI 투자 시장에는 수많은 잠재적 위험 요소들이 도사리고 있다는 점을 인정했습니다. 애크먼은 다리오 아모데이가 강조한 기업 문화와 핵심 인재 중심의 운영 방식에 큰 감명을 받았다고 설명했습니다. 마지막으로 해당 행사에 참석하게 된 배경에 대해서는 단순히 JP모건의 주요 고객이기 때문이라며 소탈하게 답변을 마무리했습니다."
+    },
+    {
+      "title_en": "우주 비용 1/100 (일론 머스크)",
+      "url": "https://www.youtube.com/shorts/qbxpHkm2bco",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-16",
+      "image_url": "https://i2.ytimg.com/vi/qbxpHkm2bco/hqhqdefault.jpg",
+      "title": "일론 머스크가 밝히는 스타십과 우주 발사 비용 100분의 1 절감의 미래",
+      "summary_kr": "일론 머스크는 스페이스X의 차세대 로켓 스타십이 우주 산업의 판도를 바꿀 것이라고 강조합니다. 스타십은 로켓 전체를 완전히 다시 사용하는 최초의 완전 재사용 로켓으로 설계되었습니다. 이러한 기술적 혁신을 통해 우주로 화물을 보내는 비용이 기존 대비 100분의 1 수준 또는 그 이상으로 낮아질 전망입니다. 과거 2010년 미국 항공우주국(NASA)의 통계에 따르면 궤도에 화물 1kg을 올리는 데 약 18,500달러가 소요되었습니다. 이는 당시 로켓을 한 번 발사한 후 버려야 했던 일회용 구조에서 비롯된 막대한 비용이었습니다. 그러나 스페이스X가 재사용 가능한 로켓인 팰컨 9을 개발하면서 발사 비용은 1kg당 약 2,500달러 수준으로 대폭 낮아졌습니다. 일론 머스크는 차세대 스타십을 통해 궤도 진입 비용을 1kg당 100달러 미만으로 더욱 낮출 수 있다고 확신합니다. 그는 향후 2년에서 3년 이내에 1톤의 화물을 우주 궤도로 올리는 비용이 극적으로 저렴해질 것이라고 설명합니다. 심지어 이 비용은 미국 캘리포니아에서 호주까지 비행기로 항공 화물을 보내는 비용보다도 저렴해질 수 있습니다. 결과적으로 스타십의 완전 재사용 기술은 우주 접근성을 획기적으로 개선하여 민간 우주 시대를 더욱 가속화할 것입니다."
+    },
     {
       "title_en": "AstraZeneca pulls EU filing for antibody as CHMP backs Gazyvaro in lupus",
       "url": "https://endpoints.news/astrazeneca-pulls-eu-filing-for-antibody-as-chmp-backs-gazyvaro-in-lupus/",
