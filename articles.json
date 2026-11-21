@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20 02:56:08",
+  "last_updated": "2026-11-21 03:10:17",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -18,9 +18,608 @@
       "category": "Video",
       "date": "2026-11-02",
       "image_url": "https://i4.ytimg.com/vi/WZOrwyK5Nmc/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "결국 남는건 취향뿐이다 (메타 알렉산더 왕)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/gBK471LhM-w",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-21",
+      "image_url": "https://i4.ytimg.com/vi/gBK471LhM-w/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "인공지능(AI) 평가 그래프의 주요 업데이트, 코딩과 판단력의 격차 드러나",
+      "summary_kr": "비영리 인공지능 평가 기관인 METR의 새로운 보고서에 따르면 일부 인공지능(AI) 역량은 지수적 궤적을 따라 지속적으로 향상되고 있습니다. 그러나 모델들은 코딩 작업에 비해 판단력이 요구되는 작업에서는 상대적으로 능숙하지 못한 것으로 나타났습니다. 이번 보고서는 널리 알려졌던 이 조직의 타임 호라이즌 플롯을 업데이트한 결과입니다."
+    },
+    {
+      "title_en": "The Download: inside the quest to make our minds immortal",
+      "url": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "마음의 불멸을 위한 연구와 기술계 소식을 다룬 더 다운로드",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "How AI is affecting science careers",
+      "url": "https://www.nature.com/articles/d41586-026-03680-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "인공지능이 과학자들의 경력과 역할에 미치는 영향",
+      "summary_kr": "인공지능 기술이 연구자들의 역할과 필요한 기술, 그리고 고용 안정성에 미치는 변화를 논의하기 위한 무료 웨비나가 개최됩니다."
+    },
+    {
+      "title_en": "Briefing Chat: Voyager 1 is now one ‘light day’ from Earth — setting a cosmic record",
+      "url": "https://www.nature.com/articles/d41586-026-03806-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "지구로부터 1광일 거리 도달한 보이저 1호와 흡혈박쥐의 생존 비결",
+      "summary_kr": "보이저 1호 탐사선이 지구로부터 1광일 떨어진 거리에 도달하며 우주적 기록을 세웠습니다. 네이처 편집진은 탐사선의 여정과 함께 흡혈박쥐가 오직 피만으로 이루어진 식단 속에서 생존하는 방식을 논의합니다."
+    },
+    {
+      "title_en": "Fraud helps little fire ants to survive and conquer",
+      "url": "https://www.nature.com/articles/d41586-026-03776-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "중국에서 외래종 작은불개미가 생존하고 세력을 확장하는 전략",
+      "summary_kr": "중국 내 침입종인 작은불개미가 교묘한 전략과 강력한 공격을 통해 자신보다 더 큰 경쟁자들을 극복하고 생존하며 세력을 넓히고 있습니다."
+    },
+    {
+      "title_en": "‘I had felt overconfident’: senior scientists reveal mistakes that aided discovery",
+      "url": "https://www.nature.com/articles/d41586-026-03590-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "노벨상 수상자를 포함한 원로 과학자들이 고백한 발견의 순간과 실수들",
+      "summary_kr": "노벨상 수상자를 포함한 5명의 경험 많은 연구원들이 자신들의 과학적 성취를 형성했던 막다른 길, 실수, 그리고 완고한 확신의 순간들을 되돌아봅니다."
+    },
+    {
+      "title_en": "‘Incredibly frustrating’: prestigious fellowship applications close in just 21 hours",
+      "url": "https://www.nature.com/articles/d41586-026-03805-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "단 21시간 만에 마감된 훔볼트 재단 펠로십 공모에 연구자들 반발",
+      "summary_kr": "훔볼트 재단(Humboldt Foundation)의 펠로십 지원서 접수가 불과 21시간 만에 마감되어 연구자들의 큰 불만을 사고 있다. 재단 측은 지난 2년 동안 펠로십 지원이 크게 증가했다고 밝혔으나 이번 달에 몰려든 유입을 예상하지 못했다고 설명했다."
+    },
+    {
+      "title_en": "Net zero emissions won’t reverse climate change — some nations look to ‘net negative’",
+      "url": "https://www.nature.com/articles/d41586-026-03789-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "기후변화 되돌리려면 탄소중립 넘어 '순배출 마이너스' 필요",
+      "summary_kr": "지구 온도 상승을 1.5도 목표치 이하로 낮춘 뒤 온도를 다시 내리려면 대기 중에서 엄청난 양의 이산화탄소를 제거해야 한다는 현실을 각국이 직면하기 시작했다. 이에 따라 일부 국가에서는 단순한 탄소중립을 넘어선 순배출 마이너스(net negative) 방안을 모색하고 있다."
+    },
+    {
+      "title_en": "Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "수학자와 AI가 수학계 최대 난제인 리만 가설 풀었다고 주장",
+      "summary_kr": "한 수학자가 인공지능(AI)과 함께 수학계의 가장 큰 미해결 난제 중 하나인 리만 가설(Riemann hypothesis)의 증명을 도출했다고 주장했다. 학자들이 밝힌 바에 따르면 수학계의 획기적인 문제에 대한 이 증명 주장이 타당한지 확인하기 위해 엄격한 검증이 필요할 것으로 보인다."
+    },
+    {
+      "title_en": "Sleuth finds ‘impossible proteins’ in hundreds of research papers",
+      "url": "https://www.nature.com/articles/d41586-026-03799-1",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "수백 편의 연구 논문에서 존재할 수 없는 단백질을 찾아낸 연구 부정 조사관",
+      "summary_kr": "한 조사관이 수백 편의 연구 논문에서 존재할 수 없는 단백질을 발견했다고 밝혔다. 이번 조사는 광범위한 문제를 폭로하였으며 이에 따라 논문 철회와 정정이 이어지고 있다."
+    },
+    {
+      "title_en": "US science academy urges journals to fix errors more quickly",
+      "url": "https://www.nature.com/articles/d41586-026-03787-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "미국 국립과학원, 학술지들에 오류의 신속한 수정을 촉구",
+      "summary_kr": "미국 국립과학원(US science academy)이 과학 기록의 신뢰성을 강화하기 위한 권고사항을 담은 오랜 보고서를 발표했다. 보고서는 학술지들이 연구 오류를 더 신속하게 바로잡아야 한다고 촉구했다."
+    },
+    {
+      "title_en": "Author Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade",
+      "url": "https://www.nature.com/articles/s41586-026-10974-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "저자 정정: SARS-CoV-2 mRNA 백신이 종양을 면역관문 억제제에 감작시킨다는 연구",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Ruminations on a last movement",
+      "url": "https://www.nature.com/articles/d41586-026-03519-9",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "마지막 악장에 대한 단상",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
+      "url": "https://www.nature.com/articles/d41586-026-03790-w",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "인공지능으로 외계행성을 찾는 아마추어 천문학자들과 엇갈린 결과",
+      "summary_kr": "인공지능(AI) 도구들이 시민 과학자들이 이전에 알려지지 않은 외계행성 후보를 식별하는 데 도움을 주고 있으나, 그 결과의 신뢰성은 엇갈리고 있다."
+    },
+    {
+      "title_en": "How to turn impostor syndrome into a superpower",
+      "url": "https://www.nature.com/articles/d41586-026-03465-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "임팩트 있는 능력으로 탈바꿈하는 증후군: 소외감을 슈퍼파워로 만드는 법",
+      "summary_kr": "자신이 속해 있지 않다는 지속적인 불안감은 자신을 현실에 안주하게 만들고 성과를 향상시키는 데 도움을 줄 수 있다."
+    },
+    {
+      "title_en": "These gaps in weather data affect forecasts everywhere: plugging them is not charity",
+      "url": "https://www.nature.com/articles/d41586-026-03811-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "전 세계 예보에 영향을 미치는 날씨 데이터의 공백과 그 해결의 필요성",
+      "summary_kr": "저소득 국가의 관측 활동에 대한 투자는 전 세계적인 기후 재난을 예방하는 데 도움을 줄 것이다."
+    },
+    {
+      "title_en": "Daily briefing: <i>Homo erectus</i> had what it takes to thrive in the rainforest",
+      "url": "https://www.nature.com/articles/d41586-026-03797-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "호모 에렉투스는 열대우림에서 번성할 조건을 갖추고 있었다",
+      "summary_kr": "화석 치아 분석에 따르면 호모 에렉투스는 연구진이 호모 사피엔스만 적응할 수 있다고 생각했던 서식지에서도 거주할 수 있었던 것으로 나타났다. 추가로 신경과학 분야에서 저평가되고 있다고 전문가들이 생각하는 부분과 학회 네트워킹 팁이 다뤄졌다."
+    },
+    {
+      "title_en": "New Gene Editing System Tracks When CRISPR Goes Rogue",
+      "url": "https://www.the-scientist.com/new-gene-editing-system-tracks-when-crispr-goes-rogue-75288",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57347/superb-seq-crispr-800-x-560-t.jpg",
+      "title": "크리스퍼 유전자 가위의 오작동을 추적하는 새로운 유전자 편집 시스템",
+      "summary_kr": "크리스퍼(CRISPR) 유전자 편집은 잘못된 유전자에 우연한 절단을 발생시킬 수 있다. 수퍼비섹(Superb-seq) 기술은 이러한 편집 내용과 그것이 유전자 발현에 미치는 결과를 밝혀내어 크리스퍼를 더욱 안전하게 만드는 데 기여한다."
+    },
+    {
+      "title_en": "Sino Biological Launches 4RISE&trade; High-Throughput Wet-Lab Services to Accelerate AI-Driven Drug Discovery",
+      "url": "https://www.the-scientist.com/sino-biological-launches-4rise-high-throughput-wet-lab-services-to-accelerate-ai-driven-drug-discovery-75291",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57355/sino-biological-logo-t.png",
+      "title": "시노바이올로지컬, AI 기반 신약 개발 가속화 위한 4RISE 고속 습식 실험실 서비스 출시",
+      "summary_kr": "시노바이올로지컬(Sino Biological)이 AI 기반 신약 개발을 가속화하기 위해 4RISE 고속 습식 실험실(wet-lab) 서비스를 출시했다. 4RISE는 20개 이상의 개발 가능성 분석(developability assay), 1,000개 이상의 단백질 생리활성 분석, 10개 이상의 세포 기반 기능 분석을 제공한다. 이를 통해 심층적인 후보 물질 평가와 디자인 최적화를 지원한다."
+    },
+    {
+      "title_en": "Scientists control a virtual fruit fly with map of insect’s brain",
+      "url": "https://www.science.org/content/article/scientists-control-virtual-fruit-fly-map-insect-s-brain",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "과학자들, 곤충 뇌 지도로 가상 초파리 제어에 성공",
+      "summary_kr": "과학자들이 곤충의 뇌 지도를 활용해 가상 초파리를 제어하는 연구를 진행했다. 이번 모델링 연구는 뉴런 활동이 동물의 움직임을 어떻게 유발하는지 예측하는 것을 목표로 한다."
+    },
+    {
+      "title_en": "AI may have solved math’s greatest mystery. Can humans understand the answer?",
+      "url": "https://www.science.org/content/article/ai-may-have-solved-math-s-greatest-mystery-can-humans-understand-answer",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "AI가 수학의 최대 난제 해결했나... 인간이 그 답을 이해할 수 있을까",
+      "summary_kr": "앤스로픽(Anthropic) 연구원에 따르면 인공지능 모델 클로드(Claude)가 166년 된 리만 가설(Riemann hypothesis)을 풀어냈다. 하지만 방대하고 복잡한 증명 과정을 해독하는 데는 수년이 걸릴 수 있다."
+    },
+    {
+      "title_en": "Opinion: How Kennedy and MAHA could help stop measles",
+      "url": "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2259641071-645x645.jpg",
+      "title": "케네디와 MAHA가 홍역 확산을 막는 데 도움을 줄 수 있는 방법",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "STAT+: FDA rejects Capricor Therapeutics’ Duchenne therapy, a decision that was a long time coming",
+      "url": "https://www.statnews.com/2026/11/20/fda-rejects-capricor-duchenne-therapy/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/GettyImages-1227710420-1-645x645.jpg",
+      "title": "FDA, 카프리코어 테라퓨틱스의 듀켄형 근디스트로피 치료제 승인 거부",
+      "summary_kr": "미국 식품의약국(FDA)이 카프리코어 테라퓨틱스(Capricor Therapeutics)가 개발한 듀켄형 근디스트로피(Duchenne muscular dystrophy) 환자 대상 세포 치료제에 대한 승인 거부 결정을 내렸다."
+    },
+    {
+      "title_en": "ICE detention of Princeton scientist rattles academia",
+      "url": "https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP26268824755916-645x645.jpg",
+      "title": "프린스턴대 과학자의 ICE 구금 사태로 학계 충격",
+      "summary_kr": "프린스턴대학교의 대학원생이자 과학 연구원인 인물이 신경과학 학회에서 발표를 마치고 집으로 돌아오던 중 이민세관단속국(ICE)에 구금되는 사건이 발생하여 학계가 동요하고 있다."
+    },
+    {
+      "title_en": "STAT+: Is MAHA’s think tank in the tank? Tax filings show low reserves",
+      "url": "https://www.statnews.com/2026/11/20/maha-institute-tax-filings-rfk-jr-health-agenda-spending/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/08/AdobeStock_80847944-e1692042580151-645x645.jpeg",
+      "title": "MAHA 연구소, 세무 신고서로 드러난 저조한 현금 보유량",
+      "summary_kr": "세무 신고서에 따르면 MAHA 연구소(MAHA Institute)는 2025년에 100만 달러 이상을 지출했으며, 행 샜던 비용과 일반 관리비로 인해 첫해를 불과 17만 1,000달러의 현금만 남긴 채 마감했습니다."
+    },
+    {
+      "title_en": "STAT+: Medicare pilot will test ‘food is medicine’ and other lifestyle programs to counter chronic diseases",
+      "url": "https://www.statnews.com/2026/11/20/kennedy-food-is-medicine-maha-elevate-pilot/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP26288741695375-645x645.jpg",
+      "title": "메디케어 파일럿 프로그램, 만성 질환 대응을 위한 '음식이 곧 약이다' 및 라이프스타일 중재 시험",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2021/03/Pharmalot_ComingGoing_STILL-645x645.jpg",
+      "title": "제약업계 주요 인사 이동 소식",
+      "summary_kr": "제약업계의 신규 채용부터 퇴사, 승진 및 부서 이동에 이르는 최신 인사 동향을 다룹니다."
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about Sanofi eyeing Insmed, AI speeding drug development, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg",
+      "title": "사노피의 인스메드 인수 검토 및 FDA의 존슨앤드존슨 지적 등 주요 제약 뉴스",
+      "summary_kr": "사노피(Sanofi)가 인스메드(Insmed) 인수 가능성을 저울질하고 있으며, 미국 식품의약국(FDA)이 방광암 치료제 관련 오인 유발 주장과 관련해 존슨앤드존슨(J&J)을 강하게 질책하는 등 여러 제약 소식이 전해졌습니다."
+    },
+    {
+      "title_en": "STAT+: Early results for Alterome’s KRAS drug for pancreas, lung and colon cancer arrive",
+      "url": "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/AdobeStock_170266737-645x645.jpeg",
+      "title": "알테롬의 췌장암·폐암·대장암 대상 KRAS 치료제 초기 임상 결과 발표",
+      "summary_kr": "알테롬(Alterome)은 췌장암, 폐암, 대장암을 유발하는 다양한 KRAS 돌연변이를 선택적으로 표적하는 치료제의 임상 1상 예비 결과를 발표했습니다."
+    },
+    {
+      "title_en": "Researchers explore possibility of a CTE blood test",
+      "url": "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/12/6316a7fbd31d47318f538279ca535868-6316a7fbd31d47318f538279ca535868-0-645x645.jpg",
+      "title": "연구진, 만성 외상성 뇌병증 혈액 검사 가능성 탐색",
+      "summary_kr": "21명의 미식축구 선수들이 생전에 혈액을 기증하고 사후에 만성 외상성 뇌병증(CTE) 연구를 위해 뇌를 기증한 가운데, 과학자들이 발견한 내용이 공개되었습니다."
+    },
+    {
+      "title_en": "Watching as a giant star swallowed its neighbor and exploded",
+      "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png",
+      "title": "거대 별이 이웃 별을 집어삼키며 폭발하는 순간 포착",
+      "summary_kr": "최근의 밝아짐 현상은 한 별이 다른 별의 내부 궤도를 돌고 있었기 때문인 것으로 밝혀졌다."
+    },
+    {
+      "title_en": "NASA’s new Moon plan is taking shape, but some big questions remain",
+      "url": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-500x500.jpg",
+      "title": "NASA의 새로운 달 탐사 계획 구체화되지만 여전히 남은 의문들",
+      "summary_kr": "기술적인 논의와 토론이 많았으며 이 점은 계속해서 논의될 예정이다."
+    },
+    {
+      "title_en": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+      "url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-500x500.jpg",
+      "title": "미 육군, 우려와 반발 속에서 치명적인 위험성을 가진 아산화납 폭파 연기",
+      "summary_kr": "모델링 예측에 따르면 신경독성 물질인 납 연기가 최대 100마일 떨어진 곳까지 도달할 수 있는 것으로 나타났다."
+    },
+    {
+      "title_en": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/1795097197088-500x500.jpg",
+      "title": "로켓 리포트: 희비 엇갈린 주말과 엔진 마일스톤 자축하는 스토크",
+      "summary_kr": "러시아가 우크라이나 상공에서 드론 공격을 지원하는 데 도움이 되는 인공위성을 탑재한 소유즈 로켓을 발사했다."
+    },
+    {
+      "title_en": "El Niño Is Driving a Record Marine Heat Wave Off the California Coast",
+      "url": "https://www.wired.com/story/el-nino-record-california-marine-heat-wave/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": "https://media.wired.com/photos/6afc5d41fa103e595fff7d88/master/pass/GettyImages-2305167906.jpg",
+      "title": "엘니뇨로 인해 캘리포니아 연안에서 기록적인 해수면 온난화 발생",
+      "summary_kr": "이번 극한의 고온 현상은 해수면 아래 수백 미터까지 이어지고 있으며, 심각한 폭풍과 비정상적으로 높은 파도를 유발하고 있다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial\" hreflang=\"en\">Merck’s TROP2 ADC extends survival in pivotal gastroesophageal cancer trial</a>",
+      "url": "https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "머크의 TROP2 항체약물접합체, 위식도암 임상 3상에서 생존기간 연장",
+      "summary_kr": "머크 앤드 컴퍼니(Merck & Co.)의 사시투주마브 티루모테칸(sacituzumab tirumotecan)이 임상 3상 암 시험에서 전체 생존기간을 개선했으며, 이는 TROP2 표적 항체약물접합체(ADC)로서 거둔 두 번째 주요 글로벌 성과이다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/research/researchers-uncover-plastics-present-dementia-brains-after-death\" hreflang=\"en\">Researchers may have to ‘revise a lot’ of theories about dementia after uncovering plastics in brain</a>",
+      "url": "https://www.fiercebiotech.com/research/researchers-uncover-plastics-present-dementia-brains-after-death",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "연구자들, 뇌에서 미세플라스틱 발견 후 치매 이론 대수롭지 않게 볼 수 없어",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/fda-delays-belites-eye-disease-pill-decision-three-months-may\" hreflang=\"en\">FDA pushes decision on Belite’s eye disease pill back to May</a>",
+      "url": "https://www.fiercebiotech.com/biotech/fda-delays-belites-eye-disease-pill-decision-three-months-may",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "FDA, 벨라이트 안과 질환 치료제 승인 심사 결론 5월로 3개월 연기",
+      "summary_kr": "미국 식품의약국(FDA)이 희귀 유전성 안과 질환 치료제인 벨라이트 바이오(Belite Bio)의 허가 신청 심사 기간을 연장하여, 예상 최종 결정일을 내년 5월로 3개월 미뤘다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/its-very-health-sector-biopharma-gathers-london-ma-shines-will-china-clouds-loom\" hreflang=\"en\">‘It’s a very healthy sector’: Biopharma gathers in London as M&amp;A shines and China clouds loom</a>",
+      "url": "https://www.fiercebiotech.com/biotech/its-very-health-sector-biopharma-gathers-london-ma-shines-will-china-clouds-loom",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "런던에서 열린 바이오제약 행사이모저모",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/chutes-ladders-teva-loses-rd-head\" hreflang=\"en\">Chutes &amp; Ladders—Teva loses R&amp;D head as innovation pivot advances</a>",
+      "url": "https://www.fiercebiotech.com/biotech/chutes-ladders-teva-loses-rd-head",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "테바 연구개발(R&D) 수장 사임",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/bausch-lomb-and-celldex-rocked-phase-2-flops\" hreflang=\"en\">Bausch + Lomb and Celldex rocked by respective phase 2 flops</a>",
+      "url": "https://www.fiercebiotech.com/biotech/bausch-lomb-and-celldex-rocked-phase-2-flops",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "바슈롬과 셀덱스, 임상 2상 실패 여파 겪어",
+      "summary_kr": "바슈롬(Bausch + Lomb)과 셀덱스(Celldex)가 각각 독립적으로 임상 2상 실패를 보고했다. 셀덱스는 이번 부진에 대응해 해당 적응증 연구를 중단한 반면, 바슈롬은 수치적 개선과 탐색적 분석을 바탕으로 임상 3상 진입을 위한 논의의 근거를 마련했다."
+    },
+    {
+      "title_en": "Capricor's Duchenne therapy is rejected again, as FDA cites significant issues with trial",
+      "url": "https://endpoints.news/capricors-duchenne-therapy-is-rejected-again-as-fda-cites-significant-issues-with-trial/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "카프리코어의 뒤셴 치료제, FDA 임상 문제 지적 받으며 또다시 거부당해",
+      "summary_kr": "카프리코어 테라퓨틱스(Capricor Therapeutics)의 세포치료제 데라미오셀(deramiocel)이 회사의 적응증 축소 노력에도 불구하고 미국 식품의약국(FDA)으로부터 두 번째로 거부 처분을 받았다. FDA는 임상시험에서 중대한 문제점들이 있음을 지적했다."
+    },
+    {
+      "title_en": "More lawmakers stake out stances on China biotech investment",
+      "url": "https://endpoints.news/more-lawmakers-stake-out-stances-on-china-biotech-investment/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "미 의원들, 중국 바이오 투자 제한 여부 두고 입장 표명 확대",
+      "summary_kr": "내년 민주당 주도 의회 개원을 앞두고 양당의 상하원 의원들이 미국의 중국 바이오 부문 투자 제한 여부에 대한 새로운 입장을 표명하고 있다. 여러 초안에 나타난 바와 같이 관련 논의가 이어지고 있다."
+    },
+    {
+      "title_en": "Pharma layoffs continue in New Jersey; Bausch + Lomb drug misses endpoint",
+      "url": "https://endpoints.news/pharma-layoffs-continue-in-new-jersey-bausch-lomb-drug-misses-endpoint/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "뉴저지 제약사 감원 지속 및 바슈롬 약물 임상 실패",
+      "summary_kr": "미국 뉴저지주에서 제약업계 감원이 이어지는 가운데 노보(Novo)가 2027년 2월부로 플레인즈보로에서 215명의 감원을 단행할 예정이다. 아울러 GSK, 바이오베르시스(BioVersys), 유나이티드 테라퓨틱스(United Therapeutics), 사바라(Savara) 관련 소식과 함께 바슈롬(Bausch + Lomb)의 신약이 임상 목표를 달성하지 못했다는 소식이 전해졌다."
+    },
+    {
+      "title_en": "KRAS at Triple Meeting: Erasca wants to one-up RevMed, while Alterome tries a different approach",
+      "url": "https://endpoints.news/kras-at-triple-meeting-erasca-wants-to-one-up-revmed-while-alterome-tries-a-different-approach/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "KRAS 표적 치료 경쟁 심화: 에라스카와 올테롬의 접근법",
+      "summary_kr": "레볼루션 메디신스(Revolution Medicines)가 췌장암 치료제 후보물질에 대한 긍정적인 임상 데이터를 발표한 가운데, KRAS 분야에서 경쟁이 치열해지고 있다. 레볼루션 메디신스의 범RAS 약물인 라소누크(Rasonque, daraxonrasib)를 필두로 에라스카(Erasca)와 올테롬(Alterome) 등이 각각 차별화된 전략으로 경쟁에 가세하고 있다."
+    },
+    {
+      "title_en": "Merck gets another Phase 3 win for sac-TMT, this time in gastric cancer",
+      "url": "https://endpoints.news/merck-gets-another-phase-3-win-for-sac-tmt-this-time-in-gastric-cancer/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "머크, 위암 대상 임상 3상서 항체약물접합체 'sac-TMT' 성공",
+      "summary_kr": "머크(Merck)는 자사의 실험용 항체약물접합체(antibody-drug conjugate)인 sacituzumab을 평가한 임상 3상 시험이 성공을 거두었다고 밝혔다. 이번 결과는 키트루다(Keytruda)의 특허 만료에 따른 공백을 메우는 데 기여할 수 있을 것으로 기대된다."
+    },
+    {
+      "title_en": "Celldex culls eczema study after Phase 2 failure",
+      "url": "https://endpoints.news/celldex-culls-eczema-drug-after-phase-2-failure/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "셀덱스, 임상 2상 실패로 습진 치료제 연구 중단",
+      "summary_kr": "셀덱스 테라퓨틱스(Celldex Therapeutics)가 중기 임상 시험에서 실패한 습진 치료용 단일클론항체(monoclonal antibody) 개발을 중단한다고 밝혔다. 바르졸볼리맙(barzolvolimab)으로 명명된 이 약물은 습진 환자들을 대상으로 한 위약 대조 시험에서 가려움증을 줄이지 못한 것으로 나타났다."
+    },
+    {
+      "title_en": "CNS dispatches from Jefferies: Acadia’s search for deals, Alto’s psychiatry question and ProMIS’ Alzheimer’s ambitions",
+      "url": "https://endpoints.news/cns-dispatches-from-jefferies-acadias-search-for-deals-altos-psychiatry-question-and-promis-alzheimers-ambitions/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "제프리스 컨퍼런스서 다뤄진 중추신경계 제약사들의 동향",
+      "summary_kr": "런던에서 개최된 제프리스 헬스케어 컨퍼런스(Jefferies Healthcare conference)에는 중추신경계(CNS) 및 정신의학과 분야에서 활동하는 여러 제약사가 참여했다. 이번 행사를 통해 아카디아(Acadia)의 M&A 모색, 알토(Alto)의 정신과 분야 과제, 프로미스(ProMIS)의 알츠하이머병 치료제 개발 포부 등이 조명되었다."
+    },
+    {
+      "title_en": "Teva on the hunt for new R&D head; Summit's rejection came after commercial chief's exit",
+      "url": "https://endpoints.news/teva-on-the-hunt-for-new-r-summits-rejection-came-after-commercial-chiefs-exit/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "테바, 새로운 R&D 총괄 물색… 에릭 휴즈 사임",
+      "summary_kr": "테바(Teva)의 글로벌 연구개발(R&D) 책임자이자 최고치의학책임자(CMO)인 에릭 휴즈(Eric Hughes)가 사임했으며, 데이비드 가디너(David Gardiner)가 임시로 그 뒤를 잇는다. 휴즈는 2022년 버텍스(Vertex) 수석부사장(SVP)을 거쳐 테바에 합류한 바 있다."
+    },
+    {
+      "title_en": "Will the first approved psychedelic become a blockbuster?",
+      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "최초 승인 환각제는 블록버스터가 될 수 있을까?",
+      "summary_kr": "컴패스(Compass)와 우소나(Usona)가 미국 식품의약국(FDA)의 최초 승인을 받기 위해 경쟁하고 있다. 그러나 가격 책정, 보험 적용, 환자 접근성이 상업적 승자를 결정짓는 요인이 될 수 있다."
+    },
+    {
+      "title_en": "Erasca data add to pressure facing Revolution’s breakthrough cancer drug",
+      "url": "https://www.biopharmadive.com/news/erasca-kras-pancreatic-cancer-drug-results-revolution-rasonque/875314/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "에라스카의 임상 데이터, 레볼루션의 항암제에 압박 가해",
+      "summary_kr": "라스온크(Rasonque)는 역사상 가장 성공적인 항암제 출시 중 하나를 기록하고 있다. 하지만 특정 한계로 인해 3상 임상시험을 앞둔 에라스카(Erasca) 같은 기업들이 파고들 틈새가 남아 있다."
+    },
+    {
+      "title_en": "Celldex drug stumbles in eczema; Epigenetic editing startup cuts staff",
+      "url": "https://www.biopharmadive.com/news/celldex-eczema-nchroma-layoffs-isomorphic-merck-teva-vitrivax/875241/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "셀덱스 약물, 습진 임상서 난항… 후속 동향 이어져",
+      "summary_kr": "셀덱스(Celldex)의 약물이 습진 연구에서 차질을 빚었으나 월스트리트 분석가들이 방어에 나섰다. 한편, 아이소모픽 랩스(Isomorphic Labs)는 머크(Merck)와 암 연구 계약을 체결했으며 테바의 연구 책임자는 새로운 자리를 맡았다."
+    },
+    {
+      "title_en": "This week in charts: Biotech investors’ China bets are already paying off",
+      "url": "https://www.biopharmadive.com/news/biotech-china-deals-venture-returns-summit-stock/874912/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "중국 바이오 투자 성과 가시화… 올해 주요 동향 정리",
+      "summary_kr": "올해 중국 의약품을 기반으로 한 기업들이 인수합병이나 기업공개(IPO)를 향해 빠르게 나아가며 투자 성과가 나타나고 있다. 한편 서밋(Summit)은 2024년의 인기를 이어가지 못하고 있다."
+    },
+    {
+      "title_en": "Can Europe become competitive again in the global clinical trials landscape?",
+      "url": "https://www.clinicaltrialsarena.com/features/can-europe-become-competitive-again-in-the-global-clinical-trials-landscape/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "유럽, 글로벌 임상시험 시장에서 경쟁력 되찾을 수 있을까?",
+      "summary_kr": "경쟁이 치열한 환경 속에서 운영 개혁과 협력 전략이 유럽의 임상시험 경쟁력 회복에 도움을 줄 수 있다."
+    },
+    {
+      "title_en": "Lupus Foundation’s umbilical cord cell therapy trial misses primary endpoint",
+      "url": "https://www.clinicaltrialsarena.com/news/lupus-foundations-umbilical-cord-cell-therapy-trial-misses-primary-endpoint/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "루푸스 재단 제대혈 세포치료제 임상시험, 1차 평가지표 달성 실패",
+      "summary_kr": "루푸스 치료를 위한 제대혈 세포치료제 임상시험이 1차 평가지표를 달성하지 못했다. 그러나 연구진은 이번 임상 데이터가 추가적인 연구를 진행할 가치가 있다고 밝혔다."
+    },
+    {
+      "title_en": "BioVersys’ GSK-partnered antibiotic combo shows promise in Phase II TB trial",
+      "url": "https://www.clinicaltrialsarena.com/news/bioversys-gsk-partnered-tb-antibiotic-combo-phase-ii/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "바이오베시스의 GSK 협력 항생제 병용요법, 결핵 2상 임상에서 가능성 보여",
+      "summary_kr": "바이오베시스(BioVersys)가 GSK와 협력하여 개발 중인 항생제 병용요법이 결핵 2상 임상시험에서 긍정적인 결과를 보였다. 이번 결과는 항생제 내성 증가 속에서 글로벌 보건 기관들이 차세대 항균제를 개발하려는 시점과 맞물려 공개됐다."
+    },
+    {
+      "title_en": "‘Shock and pain’ after ICE detains Princeton neuroscientist",
+      "url": "https://www.thetransmitter.org/policy/carlos-brody-ice-detainment-neuroscientist/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-21",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-brody-princeton-neuroscience-institute.png",
+      "title": "미국 이민세관단속국(ICE), 프린스턴대 신경과학 대학원생 구금에 학계 충격",
+      "summary_kr": "프린스턴대학교 카를로스 브로디(Carlos Brody) 연구실의 3년 차 대학원생인 에바 이 시(Eva Yi Xie)가 워싱턴 D.C. 공항에서 미국 이민세관단속국(ICE)에 구금됐다. 그녀는 신경과학회 학회 참석 후 이동하던 중 구금되었으며, 이 사건으로 인해 학계에 충격과 우려가 제기되고 있다."
+    },
+    {
+      "title_en": "Concerns about use of placebo control in clinical trials of Obinutuzumab β for aquaporin-4 antibody positive neuromyelitis optica spectrum disorder",
+      "url": "https://www.nature.com/articles/s41591-026-04781-0",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "아쿠아포린-4 항체 양성 시신경척수염 스펙트럼 장애 치료제 오비누투주맙 베타 임상시험의 위약 대조 사용 우려",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Reply to: Concerns about use of placebo control in clinical trials of Obinutuzumab β for aquaporin-4 antibody positive neuromyelitis optica spectrum disorder",
+      "url": "https://www.nature.com/articles/s41591-026-04782-z",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-21",
+      "image_url": null,
+      "title": "오비누투주맙 베타의 아쿠아포린-4 항체 양성 시신경척수염 스펙트럼 장애 임상시험 위약 대조 사용 우려에 대한 답변",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
       "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
