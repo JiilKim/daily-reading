@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21 03:10:17",
+  "last_updated": "2026-11-22 03:10:19",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -27,9 +27,147 @@
       "category": "Video",
       "date": "2026-11-21",
       "image_url": "https://i4.ytimg.com/vi/gBK471LhM-w/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "\"칩 심을때까지 애 안낳는다\" (메타 알렉산더 왕)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/O0jhD1yAPQ0",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-22",
+      "image_url": "https://i4.ytimg.com/vi/O0jhD1yAPQ0/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "AI로 만든 가짜를 구분할 수 있을까? (메타 알렉산더 왕)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/0AXLCJWbASg",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-22",
+      "image_url": "https://i1.ytimg.com/vi/0AXLCJWbASg/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "BepiColombo finally reaches Mercury after eight-year odyssey",
+      "url": "https://www.nature.com/articles/d41586-026-03803-8",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "베피콜롬보 탐사선, 8년 간의 여정 끝에 마침내 수성에 도달",
+      "summary_kr": "유럽과 일본의 탐사선들이 수성의 표면과 주변 환경을 연구하기 위해 이 행성 주위의 서로 다른 궤도를 추적할 예정입니다."
+    },
+    {
+      "title_en": "The United States Has Lost Its Measles Elimination Status",
+      "url": "https://www.the-scientist.com/the-united-states-has-lost-its-measles-elimination-status-75293",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57359/us-measles-elimination-status-800-x-560-t.jpg",
+      "title": "미국, 홍역 퇴치 지위 상실",
+      "summary_kr": "예방접종률 하락으로 인해 전염성 바이러스 환자가 증가하면서 미국 내에서 홍역이 토착병으로 확산되었습니다."
+    },
+    {
+      "title_en": "Opinion: When should medical school start?",
+      "url": "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2023/11/LettersToEditor_v2_Illustration_MollyFerguson_112723-645x645.jpg",
+      "title": "의대 학제 개편과 소아 응급 의료 체계 개선에 대한 독자 의견",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "“Race realism” isn’t realistic—and it isn’t good science",
+      "url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-500x500.jpg",
+      "title": "인종적 현실주의는 과학적 근거가 없다",
+      "summary_kr": "현대 유전학(modern genetics)은 지능에 있어 선천적인 인종적 차이가 존재한다는 주장을 뒷받침하지 않는다."
+    },
+    {
+      "title_en": "A Space Probe Returns to Asteroids Where NASA Tested Planetary Defense Systems",
+      "url": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": "https://media.wired.com/photos/6b0013b54b02437d9d07344e/master/pass/Hera_her_CubeSats_and_their_rocky_target.png",
+      "title": "나사 우주 방어 시스템 시험 소행성에 돌아온 탐사선",
+      "summary_kr": "수년 전 나사(NASA)가 위험한 우주 암석을 억제하기 위한 시스템을 시험했던 소행성 현장으로 유럽우주국(ESA)의 탐사선이 조사를 위해 다시 향하고 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/danaher-teams-microsoft-boost-experimental-execution\" hreflang=\"en\">Danaher teams up with Microsoft to boost ‘experimental execution’</a>",
+      "url": "https://www.fiercebiotech.com/medtech/danaher-teams-microsoft-boost-experimental-execution",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "다나허, 마이크로소프트와 손잡고 실험 실행력 강화 추진",
+      "summary_kr": "다나허 코퍼레이션(Danaher Corporation)과 마이크로소프트(Microsoft)가 스마트 과학 기기와 상호 운용 가능한 에이전틱 에코시스템을 개발하기 위해 전략적 파트너십을 체결했다."
+    },
+    {
+      "title_en": "It’s Over-ton; Thoughts on Isomorphic’s latest haul; and more",
+      "url": "https://endpoints.news/its-over-ton-thoughts-on-isomorphics-latest-haul-and-more/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "바이오파마 주간 소식: 아이소모픽의 최신 투자 유치와 주요 동향",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "FDA again turns back Capricor Duchenne cell therapy",
+      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "미국 FDA, 데이터 신뢰성 문제로 카프리코어의 뒤센 근이영양증 세포치료제 승인 다시 거부",
+      "summary_kr": "미국 식품의약국(FDA)은 카프리코어(Capricor)사의 뒤센 근이영양증(Duchenne muscular dystrophy) 세포치료제 후보물질인 더라미오셀(deramiocel)의 허가 신청을 두 번째로 거부했습니다. FDA는 이례적인 성명을 통해 카프리코어가 연구 결과의 신뢰성을 훼손하는 심각한 데이터 무결성 위반(data integrity violations)을 저질렀다고 비판했습니다. 이번 거부는 2025년 이후 두 번째로 발생한 반려 조치입니다."
+    },
+    {
+      "title_en": "Papulopustular Rosacea Associated with Demodex Mites",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2609236?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "모낭충과 연관된 구진농포성 주사",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Two Ways of Seeing",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2606324?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "세상을 보는 두 가지 방식",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "From Cold War Politics to Hot Domestic Politics — The Epidemic Intelligence Service at 75",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2606018?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "냉전 정치에서 국내 정치로: 75주년을 맞은 역학조사국",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Declining Fertility Rates — The Role of Assisted Reproductive Technology",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2611049?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "category": "Paper",
+      "date": "2026-11-22",
+      "image_url": null,
+      "title": "출산율 감소와 보조생식술의 역할",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "The most misunderstood graph in AI just got a major update",
       "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
