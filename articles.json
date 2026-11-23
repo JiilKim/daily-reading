@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22 03:10:19",
+  "last_updated": "2026-11-23 04:33:20",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -20,15 +20,6 @@
       "image_url": "https://i4.ytimg.com/vi/WZOrwyK5Nmc/hqhqdefault.jpg"
     },
     {
-      "title_en": "결국 남는건 취향뿐이다 (메타 알렉산더 왕)",
-      "description_en": "",
-      "url": "https://www.youtube.com/shorts/gBK471LhM-w",
-      "source": "B_ZCF YouTube",
-      "category": "Video",
-      "date": "2026-11-21",
-      "image_url": "https://i4.ytimg.com/vi/gBK471LhM-w/hqhqdefault.jpg"
-    },
-    {
       "title_en": "\"칩 심을때까지 애 안낳는다\" (메타 알렉산더 왕)",
       "description_en": "",
       "url": "https://www.youtube.com/shorts/O0jhD1yAPQ0",
@@ -45,9 +36,267 @@
       "category": "Video",
       "date": "2026-11-22",
       "image_url": "https://i1.ytimg.com/vi/0AXLCJWbASg/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "사업은 믿음의 영역입니다 (APR 김병훈 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/3-uVrQKrsyA",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-23",
+      "image_url": "https://i4.ytimg.com/vi/3-uVrQKrsyA/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "우리가 못한거면, 아무도 못해야해 (APR 김병훈 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/Xot0qKu5Vrc",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-23",
+      "image_url": "https://i1.ytimg.com/vi/Xot0qKu5Vrc/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Build for the future climate — or waste trillions of dollars",
+      "url": "https://www.nature.com/articles/d41586-026-03722-8",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "미래 기후 변화에 대비한 인프라 투자와 개발 계획의 필요성",
+      "summary_kr": "개발 계획은 기후 예측을 기반으로 건설될 인프라를 결정하는 의사결정과 연결하는 영구적인 시스템이 필요합니다."
+    },
+    {
+      "title_en": "Bots Threaten Biobank Data Privacy. Here Is How Experts Keep It Safe",
+      "url": "https://www.the-scientist.com/bots-threaten-biobank-data-privacy-here-is-how-experts-keep-it-safe-75290",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57351/dr-maria-chatzou-dunford-t.jpg",
+      "title": "바이오뱅크 데이터 프라이버시를 위협하는 봇과 전문가들의 보안 대책",
+      "summary_kr": "과학자들은 연구를 활성화하는 동시에 유전체 데이터를 보호하기 위해 암호화부터 인공지능(AI) 기반 위협 탐지에 이르는 다양한 보안 장치를 구축하고 있습니다."
+    },
+    {
+      "title_en": "Wild Relatives Help Cranberries Beat the Freeze",
+      "url": "https://www.the-scientist.com/wild-relatives-help-cranberries-beat-the-freeze-75292",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57357/cranberries-800-x-560-2-t.jpg",
+      "title": "야생 근연종과의 교배를 통해 급격한 추위를 견뎌내는 크랜베리 품종",
+      "summary_kr": "연구진은 재배용 크랜베리를 야생 근연종과 교배하여 작물이 갑작스러운 한파에서 생존하는 데 도움을 주는 유전적 특성을 발견했습니다."
+    },
+    {
+      "title_en": "STAT+: New biotech aims to develop next generation CAR-T for multiple myeloma",
+      "url": "https://www.statnews.com/2026/11/23/caronilex-dual-targeting-car-t-overcomes-myeloma-resistance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_864994883-645x645.jpeg",
+      "title": "새로운 바이오기업, 다발골수종 치료 위한 차세대 CAR-T 개발 추진",
+      "summary_kr": "다발골수종(multiple myeloma) 환자에게는 재발이 흔하게 발생한다. 새로운 형태의 CAR-T 치료제는 종양을 회피하기 위한 표적을 추가함으로써 이러한 재발을 방지하는 것을 목표로 한다."
+    },
+    {
+      "title_en": "Opinion: If the AI bubble bursts, it could create a serious problem for health care",
+      "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_2166010459-645x645.jpeg",
+      "title": "기고: AI 거품이 꺼지면 헬스케어 분야에 심각한 문제가 생길 수 있다",
+      "summary_kr": "데이비드 애들러(David Adler)는 헬스 AI 기업의 시장 가치와 해당 기술의 의학적 가치는 서로 다른 두 가지라고 지적한다."
+    },
+    {
+      "title_en": "STAT+: A string of wins with cancer drugs sets Genmab up for its next chapter",
+      "url": "https://www.statnews.com/2026/11/23/genmab-cancer-drugs-oncology-clinical-trials/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/Genmab-Copenhagen-Office-1-Joost-Melis-645x645.jpg",
+      "title": "항암제 연이은 성공으로 새로운 도약 준비하는 젠맙",
+      "summary_kr": "덴마크의 바이오기업 젠맙(Genmab)이 한 달 동안 세 건의 후기 임상시험에서 성공을 거두며 항암제 분야에서 상승세를 타고 있다."
+    },
+    {
+      "title_en": "Opinion: A Chinese research entity FOIA’d my scientific work. I had to give it to them",
+      "url": "https://www.statnews.com/2026/11/23/foia-scientific-research-china-legal-loophole/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_830059833-645x645.jpeg",
+      "title": "기고: 중국 연구 기관이 정보공개청구를 통해 내 과학 연구 자료를 요구했고, 나는 제공해야 했다",
+      "summary_kr": "25달러의 수수료와 간단한 온라인 정보공개청구(FOIA)를 통해 중국의 한 컨설턴트가 필자의 과학 연구 자료에 접근할 수 있게 되었다."
+    },
+    {
+      "title_en": "As diabetes association’s turmoil continues, what does it mean for patients?",
+      "url": "https://www.statnews.com/2026/11/23/ada-convention-fallout-will-turmoil-impact-patients-research/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-2235427612-645x645.jpg",
+      "title": "당뇨병학회의 내홍 지속, 환자들에게 미치는 영향은?",
+      "summary_kr": "미국 당뇨병학회(American Diabetes Association)는 과거 환자 치료에 구체적인 변화를 만들어냈다. 그러나 학회의 혼란으로 인해 전문가들은 미래에 대한 우려를 표하고 있다."
+    },
+    {
+      "title_en": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
+      "url": "https://www.wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://media.wired.com/photos/6b00d5965a6f50dee6f4c70d/master/pass/Gas-Company-Lobbied-EPA-Science-2197414117.jpg",
+      "title": "메타 전력 공급업체, 규제 기관에 데이터 센터 발전소를 산성비 규제에서 면제해 줄 것을 촉구",
+      "summary_kr": "미국 환경보호청(EPA)이 특정 데이터 센터 발전소에 대한 산성비 규제 면제를 권고하기 전, 메타 데이터 센터의 가스 전력 공급업체인 윌리엄스(Williams)를 포함한 업계 관계자들과 회동했다."
+    },
+    {
+      "title_en": "Scientists Tried to Kill This Dirt, but It Wouldn’t Die",
+      "url": "https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://media.wired.com/photos/6afec80a658c126f4fca9f94/master/pass/Abiotic-metabolism%20cr-Samuel%20Velasco-Lede.jpg",
+      "title": "살균된 토양에서도 화학 반응이 지속된 원인 규명",
+      "summary_kr": "과학자들이 살균 처리한 토양에서 생물학적으로 중요한 화학 반응이 6년 동안 지속된다는 사실을 확인했습니다. 이번 연구 결과는 지구상의 생명체가 어떻게 시작되었을지에 대한 단서를 제공합니다."
+    },
+    {
+      "title_en": "How This Year’s Super El Niño Will Worsen Global Hunger",
+      "url": "https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": "https://media.wired.com/photos/6b00ddb2631c13f3e234776c/master/pass/How-This-Years-Super-El-Nino-Will-Worsen-Global-Hunger-Science-2297395830.jpg",
+      "title": "올해 슈퍼 엘니뇨가 전 세계 기아 문제를 악화시키는 방식",
+      "summary_kr": "올해 발생한 슈퍼 엘니뇨(super El Nino) 현상으로 인해 일부 지역은 더 습해지는 반면 다른 지역은 극심한 가뭄을 겪고 있습니다. 전쟁과 대외 원조 삭감에 더해 이러한 기상 현상이 겹치면서 취약국의 수백만 명이 먹을거리를 충분히 구하지 못하는 상황에 처할 수 있습니다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/eli-lilly-inks-725m-loqus23-deal-zero-huntingtons-target\" hreflang=\"en\">Lilly buys preclinical LoQus23 in $725M deal to zero in on Huntington’s target</a>",
+      "url": "https://www.fiercebiotech.com/biotech/eli-lilly-inks-725m-loqus23-deal-zero-huntingtons-target",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "릴리, 헌팅턴병 치료제 개발 위해 7억 2,500만 달러 규모의 LoQus23 인수",
+      "summary_kr": "일라이 릴리(Eli Lilly)가 전임상 단계의 헌팅턴병(Huntington's disease) 바이오기업인 로쿠스23 테라퓨틱스(LoQus23 Therapeutics)를 최대 7억 2,500만 달러에 인수하는 계약을 체결했다."
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/capricor-weathers-second-dmd-cell-therapy-snub-fda-alleges-serious-data-integrity-concerns\" hreflang=\"en\">Capricor weathers second DMD cell therapy snub as FDA alleges 'serious' data integrity concerns</a>",
+      "url": "https://www.fiercebiotech.com/biotech/capricor-weathers-second-dmd-cell-therapy-snub-fda-alleges-serious-data-integrity-concerns",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "FDA, 데이터 무결성 우려 제기하며 캡리코어의 듀시엔느 근이영양증 세포치료제 두 번째 거부",
+      "summary_kr": "미국 식품의약국(FDA)이 캡리코어 테라퓨틱스(Capricor Therapeutics)의 듀시엔느 근이영양증(Duchenne muscular dystrophy) 세포치료제인 데라미오셀(deramiocel)의 허가를 두 번째로 거부한 이유를 설명했다. FDA는 이 과정에서 심각한 데이터 무결성 우려를 제기했다."
+    },
+    {
+      "title_en": "Lilly buys Huntington's startup LoQus23 for up to $725M",
+      "url": "https://endpoints.news/lilly-buys-huntingtons-startup-loqus23-for-up-to-725m/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "릴리, 헌팅턴병 치료제 개발 바이오텍 LoQus23 최대 7억 2500만 달러에 인수",
+      "summary_kr": "일라이 릴리(Eli Lilly)가 임상 진입을 앞둔 영국의 헌팅턴병(Huntington's disease) 전문 바이오기업 LoQus23을 최대 7억 2500만 달러 규모로 인수했다. 이번 인수는 릴리의 최근 투자 행보의 일환으로 진행되었다."
+    },
+    {
+      "title_en": "Why today’s leading drug developers are fine-tuning open models on their own data",
+      "url": "https://www.biopharmadive.com/spons/why-todays-leading-drug-developers-are-fine-tuning-open-models-on-their-ow/875153/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "주요 신약 개발사들이 자체 데이터로 오픈소스 모델을 미세조정하는 이유",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "J&J’s Tremfya meets endpoints in Phase IV axial PsA trial",
+      "url": "https://www.clinicaltrialsarena.com/news/jjs-tremfya-meets-endpoints-axial-psa-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "존슨앤드존슨 트렘피아, 제4상 축성 건선관절염 임상시험에서 1차 및 주요 2차 유효성 평가변수 달성",
+      "summary_kr": "존슨앤드존슨의 완전인간형 이중작용 단일클론항체 트렘피아(Tremfya)가 활성형 건선관절염 및 축성 건선관절염 환자를 대상으로 한 제4상 STAR 연구에서 1차 및 주요 2차 유효성 평가변수를 충족했다."
+    },
+    {
+      "title_en": "MSD’s ADC gains OS win but PFS miss in Phase III stomach cancer trial",
+      "url": "https://www.clinicaltrialsarena.com/news/msd-adc-sac-tmt-os-win-pfs-miss-phase-iii-stomach-cancer-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "MSD의 항체-약물 접합체, 제3상 위암 임상시험에서 전체생존기간(OS) 개선 입증했으나 무진행생존기간(PFS)은 미달",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Hidden connections in the thalamus: Mapping the electrical synapses of the brain’s attentional gate",
+      "url": "https://www.thetransmitter.org/thalamus/shine-haas-hidden-connections-in-the-thalamus/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-23",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-thumbnail-Shine-Haas.png",
+      "title": "시상 망상핵의 전기 시냅스: 뇌의 주의 조절 관문에서 밝혀진 숨겨진 연결망",
+      "summary_kr": "새로운 연구에 따르면 성인의 시상 망상핵(thalamic reticular nucleus)에서 전기 시냅스가 유지되는 것으로 나타났다. 이 시냅스는 뉴런들을 선택적으로 연결하며, 이전까지 측정한 것보다 더 먼 거리까지 뻗어 있다. 또한 서로 다른 감각 정보 스트림을 처리하는 세포 유형들을 서로 연결하는 것으로 확인됐다."
+    },
+    {
+      "title_en": "Gene writing in vivo",
+      "url": "https://www.nature.com/articles/d41573-026-00183-6",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "생체 내 유전자 쓰기 기술",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "METTL1 inhibition impairs tumour growth",
+      "url": "https://www.nature.com/articles/d41573-026-00186-3",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "METTL1 억제제의 종양 성장 억제 효과",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Muscle myosin inhibitor rescues ischaemia",
+      "url": "https://www.nature.com/articles/d41573-026-00184-5",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "근육 미오신 억제제의 허혈 치료 효과",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "TREM2 agonist to treat Alzheimer disease",
+      "url": "https://www.nature.com/articles/d41573-026-00185-4",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "알츠하이머병 치료를 위한 TREM2 작용제",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A unified framework for scalable differential testing for spatial omics",
+      "url": "https://www.nature.com/articles/s41587-026-03284-0",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2026-11-23",
+      "image_url": null,
+      "title": "공간 오믹스 데이터를 위한 확장 가능한 통합 차별 검정 프레임워크",
+      "summary_kr": "확장 가능한 프레임워크를 통해 공간 오믹스(spatial omics) 데이터를 세포 유형 수준에서 분석할 수 있게 되었다."
+    },
+    {
+      "title_en": "결국 남는건 취향뿐이다 (메타 알렉산더 왕)",
+      "url": "https://www.youtube.com/shorts/gBK471LhM-w",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-23",
+      "image_url": "https://i4.ytimg.com/vi/gBK471LhM-w/hqhqdefault.jpg",
+      "title": "AI 시대에 인간의 창의성과 고유한 취향이 중요한 이유",
+      "summary_kr": "인공지능 기술이 고도화됨에 따라 인간 고유의 창의성이 지니는 가치가 더욱 중요해지고 있습니다. 앞으로는 AI 시스템을 어떠한 방식으로 지휘하고 활용하느냐가 창작의 성패를 가르는 핵심 관건이 됩니다. 동일한 AI를 사용하더라도 남들과 차별화되고 독창적인 결과물을 이끌어낼 수 있는 개인의 요령과 통찰이 요구됩니다. 이는 기존의 창작 소프트웨어나 소셜 미디어 생태계에서 작동해 온 창의적 작업 방식과 본질적으로 다르지 않습니다. 대중의 주목을 받는 콘텐츠를 만들기 위해서는 자신만의 특별한 요소와 개성을 더해야 합니다. 다른 사람과 구별되는 새롭고 흥미로운 관점을 제시하는 능력은 창작자에게 필수적입니다. 문화와 기술이 어떻게 변화하든 이러한 창의적 차별화의 중요성은 결코 변하지 않을 것입니다. 인간은 동시대의 문화적 흐름과 사회적 담론을 종합적으로 읽어낼 수 있는 능력을 지니고 있습니다. 이러한 맥락을 바탕으로 자신만의 참신한 시각을 찾아내는 작업은 AI가 대신할 수 없는 영역입니다. 결국 시대의 흐름 속에서 독창적인 가치를 창출하고 방향을 설정하는 일은 인간이 지속해서 수행해야 할 핵심적인 역할입니다."
+    },
     {
       "title_en": "BepiColombo finally reaches Mercury after eight-year odyssey",
       "url": "https://www.nature.com/articles/d41586-026-03803-8",
