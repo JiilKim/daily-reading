@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23 04:33:20",
+  "last_updated": "2026-11-24 08:34:29",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -54,9 +54,819 @@
       "category": "Video",
       "date": "2026-11-23",
       "image_url": "https://i1.ytimg.com/vi/Xot0qKu5Vrc/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "치과의사라서 성공했다고? (토스 이승건 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/p9ZXAZqo2Jw",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-24",
+      "image_url": "https://i1.ytimg.com/vi/p9ZXAZqo2Jw/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "퍼스트는 누가 타요 (마이리얼트립 이동건 대표)",
+      "description_en": "퍼스트는 누가 타요 (마이리얼트립 이동건 대표)",
+      "url": "https://www.youtube.com/shorts/U-pAAf-UHBk",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-24",
+      "image_url": "https://i2.ytimg.com/vi/U-pAAf-UHBk/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "대표의 그릇이 회사의 그릇이다 (APR 김병훈 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/I7gbfNCeid0",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-24",
+      "image_url": "https://i2.ytimg.com/vi/I7gbfNCeid0/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "성공은 99% 운 (토스 이승건 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/6AVSQxA_J04",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-24",
+      "image_url": "https://i3.ytimg.com/vi/6AVSQxA_J04/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
+      "description_en": "Nature, Published online: 24 November 2026;doi:10.1038/d41586-026-03719-3Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
+      "url": "https://www.nature.com/articles/d41586-026-03719-3",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Menopause can speed up brain ageing — hormone therapy might protect it",
+      "description_en": "Nature, Published online: 24 November 2026;doi:10.1038/d41586-026-03667-yStudies are revealing how menopause can also affect the progression of Alzheimer’s disease.",
+      "url": "https://www.nature.com/articles/d41586-026-03667-y",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Hexa-substituted benzene synthesis with non-classical carbocations",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/s41586-026-11449-9Hexa-substituted benzene synthesis with non-classical carbocations",
+      "url": "https://www.nature.com/articles/s41586-026-11449-9",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "COP31 went down in flames over fossil fuels — it sends an important message",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03827-0Nature reporter James Dinneen reflects on the first international climate summit to collapse since 2009.",
+      "url": "https://www.nature.com/articles/d41586-026-03827-0",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Continuous N-to-C Peptide Synthesis",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/s41586-026-11448-wContinuous N-to-C Peptide Synthesis",
+      "url": "https://www.nature.com/articles/s41586-026-11448-w",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Architecture of the poxvirus early-transcription machinery and portal complex",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/s41586-026-11458-8Architecture of the poxvirus early-transcription machinery and portal complex",
+      "url": "https://www.nature.com/articles/s41586-026-11458-8",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "‘Mozart of maths’ Terence Tao is your guide to what underpins reality",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03720-wA Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.",
+      "url": "https://www.nature.com/articles/d41586-026-03720-w",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Chemistry giant George Whitesides dies: one of the most influential researchers of his generation",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03808-3Beloved intellectual mentored hundreds of scientists and switched fields many times to solve global challenges.",
+      "url": "https://www.nature.com/articles/d41586-026-03808-3",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "How to make climate anxiety your superpower",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03818-1Climate change can provoke anxiety in many. Here’s how one Nature reporter channelled his anxiety into action.",
+      "url": "https://www.nature.com/articles/d41586-026-03818-1",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<b>I</b>t’s our duty to promote ourselves: even to other scientists. Am I wrong?",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-02203-2A jury weighs in on whether it’s a researcher’s responsibility to convince colleagues that their work matters — or whether others should come to them instead.",
+      "url": "https://www.nature.com/articles/d41586-026-02203-2",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Ayanna Howard thinks ‘everyone has to be part of’ building ethical AI tools",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03721-9The researcher and educator explains why she’s optimistic about the future of work and what individuals can do to thrive alongside artificial intelligence.",
+      "url": "https://www.nature.com/articles/d41586-026-03721-9",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Is trust in science falling, or does it just feel that way?",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03724-6Half of the scientists who took Nature’s survey felt that trust in science has dropped. They are only partly right.",
+      "url": "https://www.nature.com/articles/d41586-026-03724-6",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "How AI shocks are rattling the next generation of mathematicians — in charts",
+      "description_en": "Nature, Published online: 23 November 2026;doi:10.1038/d41586-026-03795-5Students are markedly less optimistic about the technology than their professors, according to survey results.",
+      "url": "https://www.nature.com/articles/d41586-026-03795-5",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Daily briefing: Older people are staying sharp for longer",
+      "description_en": "Nature, Published online: 20 November 2026;doi:10.1038/d41586-026-03816-3Being ‘old’ isn’t what it used to be. Plus, the first observation of a giant star swallowing its neighbour and praise for the pollination talents of flies.",
+      "url": "https://www.nature.com/articles/d41586-026-03816-3",
+      "source": "Nature",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Postdoc Portrait: Josephine Yates Builds AI Models to Decipher Biology",
+      "description_en": "This postdoctoral researcher develops biologically grounded AI models to decode gene regulation and tissue organization in health and disease.",
+      "url": "https://www.the-scientist.com/postdoc-portrait-josephine-yates-builds-ai-models-to-decipher-biology-75276",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57324/josephine-yates-800-x-5603-t.jpg"
+    },
+    {
+      "title_en": "As Measles Returns, Labs Need Reliable Diagnostic References",
+      "description_en": "As measles cases climb and more labs build their own diagnostic tests, well-characterized reference materials are what make results accurate and reliable.",
+      "url": "https://www.the-scientist.com/as-measles-returns-labs-need-reliable-diagnostic-references-75294",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57362/measles-diagnostic-test-800-x-560-t.jpg"
+    },
+    {
+      "title_en": "Nose Drops Deliver mRNA Therapeutics to the Brain",
+      "description_en": "Intranasally treating mice with mRNA restored cognition in age and Alzheimer’s disease models, offering a noninvasive delivery system to the brain.",
+      "url": "https://www.the-scientist.com/nose-drops-deliver-mrna-therapeutics-to-the-brain-75298",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57375/low-res-professor-greg-neely-and-dr-maria-bergamasco-right-in-the-dr-john-and-anne-chong-lab-for-functional-genomics-photo-stefanie-zingsheim-university-of-sydney-2-t.jpg"
+    },
+    {
+      "title_en": "US Immigration Officials Detained a Graduate Student",
+      "description_en": "A PhD student returning from a neuroscience conference is now waiting in a detention center. Her colleagues spoke out against the incident.",
+      "url": "https://www.the-scientist.com/us-immigration-officials-detained-a-graduate-student-75299",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57380/ice-phd-detention-thumbnail-t.jpg"
+    },
+    {
+      "title_en": "Tiny tracking device documents a record-breaking hummingbird journey",
+      "description_en": "Solar-powered transmitter allows researchers to follow a bird’s 6526-kilometer migration from Alabama to Alaska",
+      "url": "https://www.science.org/content/article/tiny-tracking-device-documents-record-breaking-hummingbird-journey",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "At both poles, warm water is eating away sea ice from below",
+      "description_en": "A weakened cold layer has put Antarctic sea ice on the same downward path as the Arctic’s",
+      "url": "https://www.science.org/content/article/both-poles-warm-water-eating-away-sea-ice-below",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Fire at Brazilian university scorches research into debilitating mosquito-borne disease",
+      "description_en": "More than 80,000 samples from patients with chikungunya were lost when fire struck the Federal University of Pernambuco last month",
+      "url": "https://www.science.org/content/article/fire-brazilian-university-scorches-research-debilitating-mosquito-borne-disease",
+      "source": "Science",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
+      "description_en": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care.",
+      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_21105563-645x645.jpeg"
+    },
+    {
+      "title_en": "Opinion: Why medical students should keep going to class",
+      "description_en": "“Attending lectures in person has become … the most powerful way I take care of my mental health,” medical student Brian Zhang writes.",
+      "url": "https://www.statnews.com/2026/11/24/medical-school-class-attendance-why-i-keep-going/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_719618468-645x645.jpeg"
+    },
+    {
+      "title_en": "Opinion: Genomic testing is too fragmented. Instead, we should test once and evaluate often",
+      "description_en": "“It’s time to consolidate testing by sequencing genomes once and reevaluating them when needed,” a genetic counselor writes.",
+      "url": "https://www.statnews.com/2026/11/24/genomic-testing-sequenced-once-tested-often/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_889150177-645x645.jpeg"
+    },
+    {
+      "title_en": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
+      "description_en": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster.",
+      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/261120_STATNEWS_-100-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Sanofi to buy Insmed for $41B, picking up two lung disease medicines",
+      "description_en": "Sanofi is buying U.S. biotech Insmed for $41 billion, a megadeal that will give the French pharma company two new approved medicines.",
+      "url": "https://www.statnews.com/2026/11/24/sanofi-insmed-acquisition-dupixent-rare-disease-inflammation/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/GettyImages-2281597952-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Medicare estimates $9.2 billion in savings from third round of negotiated drug prices",
+      "description_en": "The Trump administration said that the federal government will save $9.2 billion on drugs purchased through Medicare next year as a result of price negotiations.",
+      "url": "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/GettyImages-2214163374-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
+      "description_en": "A type of muscular dystrophy that was long ignored has its first drug — and it could earn BridgeBio a billion dollars a year.",
+      "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/05/AdobeStock_417740127_Editorial_Use_Only-645x645.jpeg"
+    },
+    {
+      "title_en": "STAT+: A big win for a potential competitor for Dupixent eczema treatment",
+      "description_en": "Kymera Therapeutics has a shot at giving eczema patients Dupixent-like relief in a pill, a new 244-patient Phase 2 trial finds:",
+      "url": "https://www.statnews.com/2026/11/23/biotech-news-a-big-win-for-potential-dupixent-competitor-eczema-treatment/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2024/09/Dupixent_Pen_and_Packaging-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Pharmalittle: We’re reading about Capricor’s Duchenne drug, Lilly’s 15th acquisition of 2026, and more",
+      "description_en": "The FDA again rejected a hotly debated experimental Duchenne muscular dystrophy drug from Capricor Therapeutics",
+      "url": "https://www.statnews.com/pharmalot/2026/11/23/fda-rejects-capricor-duchenne-drug-lilly-acquires-loqus23-therapeutics/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-645x645.jpg"
+    },
+    {
+      "title_en": "At first preventive services panel meeting in more than a year, votes are cast in private",
+      "description_en": "In its first meeting since 2025, an influential panel of doctors evaluating preventive medical care grappled with the ways RFK Jr. has upended science and medicine:",
+      "url": "https://www.statnews.com/2026/11/23/health-news-preventive-services-panel-votes-cast-in-private/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/GettyImages-2207187061-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Invivyd reports positive results in Sisyphean Covid antibody quest",
+      "description_en": "The biotech Invivyd reported that its monoclonal antibody strongly protected people from Covid. Is there a market for it?",
+      "url": "https://www.statnews.com/2026/11/23/invivyd-covid-monoclonal-antibody-declaration-trial-vyd2311/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2022/02/50982556968_67ea29e2bf_b-645x645.jpg"
+    },
+    {
+      "title_en": "STAT+: Kymera Therapeutics reports mid-stage eczema trial success for would-be Dupixent rival",
+      "description_en": "Kymera Therapeutics announced on Monday that its experimental therapy effectively and safely treated eczema patients’ itchy, inflamed skin.",
+      "url": "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_381378194-645x645.jpeg"
+    },
+    {
+      "title_en": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+      "description_en": "COP31 ended without a consensus deal for the first time since 2009.",
+      "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-500x500.jpg"
+    },
+    {
+      "title_en": "‘GTA 6’ Is a Birder’s Paradise",
+      "description_en": "Here’s what it’s like to grab a pair of binoculars and go in search of the 62 species of birds that populate the game.",
+      "url": "https://www.wired.com/story/gta-vi-birders-paradise/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://media.wired.com/photos/6b03f4615f8e6c0d7b84ae8c/master/pass/image2.png"
+    },
+    {
+      "title_en": "Now There’s a GLP-1 in Chocolate Form",
+      "description_en": "A telehealth clinic is offering orforglipron, the active ingredient in Eli Lilly’s prescription weight-loss pill Foundayo, in edible chocolate squares. Lilly is not amused.",
+      "url": "https://www.wired.com/story/now-theres-a-glp-1-in-chocolate-form/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://media.wired.com/photos/6afdbe23483a38e3131af67f/master/pass/111826-GLP1%20Choco.jpg"
+    },
+    {
+      "title_en": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+      "description_en": "It will take mathematicians months to understand the “alien” 17-million-line solution an Anthropic researcher produced for the Riemann hypothesis.",
+      "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://media.wired.com/photos/6b04a99395eb5d98cc1eb23a/master/pass/112326-Riemann-hypothesis-ai.jpg"
+    },
+    {
+      "title_en": "The Feds Left Iowans in the Dark About Plans to Blow Up Tons of Lead",
+      "description_en": "The US Army plans to blow up 9,500 pounds of lead azide held at an Iowa ammunition plant. Local officials say they learned most of the details through a press release.",
+      "url": "https://www.wired.com/story/the-feds-left-iowans-in-the-dark-about-plans-to-blow-up-tons-of-lead/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://media.wired.com/photos/6b00cf1fe6d43a3251b4bce0/master/pass/Local-Officials-Say-Pentagon-Told-Them-Nothing-About-Volcano-of-Exploding-Lead-Science-2305973748.jpg"
+    },
+    {
+      "title_en": "Nvidia Is Powering Brain-Computer Interfaces Now",
+      "description_en": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "source": "Wired",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": "https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg"
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas\" hreflang=\"en\">‘We’ve been a quiet company’: Why viral biotech Vyriad attracts Big Pharmas despite low profile</a>",
+      "description_en": "Vyriad's leadership may describe the biotech as a “very quiet company” when compared to some of its more buzzy peers, but the drug developer's partnerships speak for themselves.",
+      "url": "https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test\" hreflang=\"en\">FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test</a>",
+      "description_en": "The FDA has given de novo marketing authorization for Siemens Healthineers’ Atellica IM Neurofilament Light Chain (NfL) assay.",
+      "url": "https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/ge-healthcare-launches-viewpoint-ultra-simplify-ultrasound-workflows\" hreflang=\"en\">GE HealthCare launches ViewPoint Ultra to simplify ultrasound workflows</a>",
+      "description_en": "GE HealthCare has launched ViewPoint Ultra, an ultrasound workflow solution designed to help health systems standardize clinical documentation and reporting across sites and departments while supporting specialized individual care needs.",
+      "url": "https://www.fiercebiotech.com/medtech/ge-healthcare-launches-viewpoint-ultra-simplify-ultrasound-workflows",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers\" hreflang=\"en\">Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers</a>",
+      "description_en": "Sanofi has struck a deal to acquire Insmed for $41 billion, securing three commercial and late-phase respiratory assets to offset Dupixent’s looming loss of exclusivity.",
+      "url": "https://www.fiercebiotech.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/medtech/exicure-expands-work-parkinsons-x-cue-smart-glasses\" hreflang=\"en\">Exicure expands work into Parkinson’s with X-CUE smart glasses</a>",
+      "description_en": "Exicure is partnering with NeuroQ Biologics and the South Korean medtech company Laonz to expand its business into medical device technologies designed to assist patients with Parkinson’s disease.",
+      "url": "https://www.fiercebiotech.com/medtech/exicure-expands-work-parkinsons-x-cue-smart-glasses",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/select-committee-china-makes-final-push-us-biotech-vs-china\" hreflang=\"en\">House panel pushes to reverse 'hollowing out' of US biotech amid China's rise</a>",
+      "description_en": "The U.S. House Select Committee on China has published a report detailing policy recommendations to “reverse the hollowing out of the U.S. drug innovation industry.”",
+      "url": "https://www.fiercebiotech.com/biotech/select-committee-china-makes-final-push-us-biotech-vs-china",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/kymeras-oral-eczema-drug-impresses-analysts-dupixent-phase-2-efficacy\" hreflang=\"en\">Kymera’s oral eczema drug impresses analysts with Dupixent-like phase 2 efficacy</a>",
+      "description_en": "Kymera Therapeutics’ phase 2b eczema clinical trial has hit its primary endpoint and exceeded analyst expectations, teeing up further development of an oral drug candidate that could challenge Dupixent in a range of indications.",
+      "url": "https://www.fiercebiotech.com/biotech/kymeras-oral-eczema-drug-impresses-analysts-dupixent-phase-2-efficacy",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/arcus-halts-phase-3-study-cd73-inhibitor-looked-destined-fail\" hreflang=\"en\">Arcus halts phase 3 pancreatic cancer study of CD73 inhibitor that looked destined to fail</a>",
+      "description_en": "Arcus Biosciences has abandoned a phase 3 trial of quemliclustat after the small-molecule CD73 inhibitor looked unlikely to improve survival for pancreatic cancer.",
+      "url": "https://www.fiercebiotech.com/biotech/arcus-halts-phase-3-study-cd73-inhibitor-looked-destined-fail",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/invivyd-aims-q127-approval-submission-after-pemgarda-successor-shows-potential-phase-3\" hreflang=\"en\">Invivyd aims for Q1’27 submission after Pemgarda successor shows potential in phase 3</a>",
+      "description_en": "Invivyd is planning to submit an approval application for its follow-up to the FDA-authorized monoclonal antibody Pemgarda in the first quarter of 2027 after hailing “high, durable antiviral activity” in a phase 3 trial.",
+      "url": "https://www.fiercebiotech.com/biotech/invivyd-aims-q127-approval-submission-after-pemgarda-successor-shows-potential-phase-3",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "<a href=\"https://www.fiercebiotech.com/biotech/led-founders-jj-acquired-intra-cellular-ritzey-debuts-112m\" hreflang=\"en\">Led by founders of J&amp;J-acquired Intra-Cellular, Ritzey debuts with $112M for DYRK1A inhibitors</a>",
+      "description_en": "The founder of Intra-Cellular Therapies, which was bought by Johnson & Johnson last year for $14.6 billion, is jumping back into the biotech fray with a new company similarly aimed at signaling pathways in the brain.",
+      "url": "https://www.fiercebiotech.com/biotech/led-founders-jj-acquired-intra-cellular-ritzey-debuts-112m",
+      "source": "Fierce Biotech",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Sanofi to buy Insmed for $41B in industry's largest acquisition in years",
+      "description_en": "Sanofi has made it official: The French pharma plans to acquire Insmed for $41 billion in cash, marking the first megadeal in the biopharma industry since Pfizer's $43 billion takeover of ...",
+      "url": "https://endpoints.news/sanofi-to-buy-insmed-for-41b-in-industrys-largest-acquisition-in-years/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "CMS reveals Medicare's negotiated drug prices for 2028",
+      "description_en": "The US government announced final prices for 13 drugs selected for the third round of Medicare negotiations, including Eli Lilly’s GLP-1 Trulicity and Gilead’s HIV drug Biktarvy.\n\n The Centers for Medicare ...",
+      "url": "https://endpoints.news/cms-reveals-medicares-negotiated-drug-prices-for-2028/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Capricor says it will challenge FDA's rejection of Duchenne therapy",
+      "description_en": "Capricor Therapeutics will appeal the FDA’s Friday rejection of its cell therapy for Duchenne muscular dystrophy, CEO Linda Marbán said Monday.\n\n During an interview with Endpoints News, Marbán disputed data integrity concerns raised by the ...",
+      "url": "https://endpoints.news/capricor-says-it-will-challenge-fdas-rejection-of-duchenne-therapy/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "FDA approves BridgeBio rare disease drug for muscular dystrophy",
+      "description_en": "The FDA approved a new rare disease drug from BridgeBio Pharma, the first of an expected three on tap for the company.\n\n Regulators on Monday waved through BBP-418 to treat patients with limb-girdle muscular dystrophy ...",
+      "url": "https://endpoints.news/fda-approves-bridgebio-rare-disease-drug-for-muscular-dystrophy/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Optum Rx CEO bets people are ready to shop for their prescriptions",
+      "description_en": "UnitedHealth Group’s Optum Rx is getting ready for a world in which more consumers shop around for their healthcare. That might include using personal AI agents to help them find the best prices.\n\n “I believe ...",
+      "url": "https://endpoints.news/optum-rx-ceo-bets-people-are-ready-to-shop-for-their-prescriptions/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Healthcare spending on AI surpasses other sectors, report says",
+      "description_en": "Spending on AI in healthcare hit $3.7 billion in 2026, up from $1.5 billion in 2025.\n\n According to a report from Menlo Ventures, healthcare is spending more than other industries on ...",
+      "url": "https://endpoints.news/healthcare-spending-on-ai-surpasses-other-sectors-report-says/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Roche wins second FDA approval for breast cancer pill, opening up bigger market",
+      "description_en": "Roche's breast cancer pill giredestrant won its second FDA approval on Monday, opening up a much larger potential market for the Swiss drugmaker in early-stage disease.\n\n The FDA approved the drug ...",
+      "url": "https://endpoints.news/roche-wins-second-fda-approval-for-breast-cancer-pill-opening-up-bigger-market/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "House committee issues final report on US-China biotech race",
+      "description_en": "A House panel focused on economic competition with China warns that the country's growing prowess in the biotech sector, paired with multiple inefficiencies in the US, is shifting global medicine development overseas.\n\n The Select Committee ...",
+      "url": "https://endpoints.news/house-committee-issues-final-report-on-us-china-biotech-race/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Arcus stops Phase 3 study of CD73 inhibitor; Novartis' Leqvio eases heart event risk",
+      "description_en": "Plus, news about IQVIA, Quotient Sciences, CARsgen, Arnatar Therapeutics and Invivyd.\n\n Arcus Biosciences cans a Phase 3: The California drug developer ended PRISM-1, a late-stage trial of its CD73 inhibitor quemliclustat ...",
+      "url": "https://endpoints.news/arcus-stops-phase-3-study-of-cd73-inhibitor-novartis-leqvio-eases-heart-event-risk/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Avenzo begins public life, seeks to rival Bristol Myers' EGFRxHER3 bispecific",
+      "description_en": "Avenzo Therapeutics, one of the first US biotechs to go all in on the China in-licensing model four years ago, began trading on the Nasdaq on Monday after completing its reverse ...",
+      "url": "https://endpoints.news/avenzo-begins-public-life-seeks-to-rival-bristol-myers-egfrxher3-bispecific/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Kymera’s STAT6 degrader clears mid-stage test in atopic dermatitis",
+      "description_en": "Kymera Therapeutics is planning to test its oral eczema drug in a Phase 3 trial next year after the drug breezed past Wall Street’s bar for success in a mid-stage study.\n\n In the primary endpoint ...",
+      "url": "https://endpoints.news/kymeras-stat6-degrader-clears-mid-stage-test-in-atopic-dermatitis/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "After $14B Intra-Cellular success, Sharon Mates returns with new biotech Ritzey Therapeutics",
+      "description_en": "Sharon Mates is back with a new neuro and metabolic drug development startup and $112.5 million to see if she can replicate the success of her previous biotech.\n\n After landing one of ...",
+      "url": "https://endpoints.news/after-14b-intra-cellular-success-sharon-mates-returns-with-new-biotech-ritzey-therapeutics/",
+      "source": "Endpoints News",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Lilly buys Huntington’s drug developer LoQus23 in potentially $725M deal",
+      "description_en": "The acquisition hands Lilly what could become a first-of-its-kind treatment designed to inhibit a protein, “MSH3,” that can exacerbate the genetic abnormalities underlying diseases like Huntington's.",
+      "url": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Kymera eczema pill meets goals in mid-stage trial",
+      "description_en": "The protein degrader drug showed \"biologic-like efficacy,\" according to Wall Street analysts who argued it could challenge Sanofi and Regeneron’s market leader Dupixent.",
+      "url": "https://www.biopharmadive.com/news/kymera-eczema-pill-phase2-data-protein-degrader-dupixent-ebglyss/875462/",
+      "source": "BioPharmaDive",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Kymera Therapeutics’ stock up on Phase IIb oral atopic dermatitis drug data",
+      "description_en": "Kymera will now advance the oral atopic dermatitis drug to Phase III trials based on the Phase IIb data.The postKymera Therapeutics’ stock up on Phase IIb oral atopic dermatitis drug dataappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/kymera-therapeutics-stock-up-on-phase-iib-oral-atopic-dermatitis-drug-data/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Silexion activates clinical sites for Phase II/III SIL204 trial in Germany",
+      "description_en": "Silexion Therapeutics has opened its initial trial locations in Germany for its Phase II/III trial of SIL204, a RNAi therapy being investigated in LAPC.The postSilexion activates clinical sites for Phase II/III SIL204 trial in Germanyappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/silexion-activates-clinical-sites-sil204-trial-germany/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "First patients dosed in Aeovian’s Phase II RESTOR-1 trial of AV078",
+      "description_en": "Aeovian Pharmaceuticals has dosed the first patients and activated several clinical sites in its Phase II RESTOR-1 trial evaluating AV078 for refractory epilepsy associated with TSC.The postFirst patients dosed in Aeovian’s Phase II RESTOR-1 trial of AV078appeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/first-patients-dosed-aeovians-restor-1-trial-av078/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "UK’s NIHR backs largest global AI breast cancer screening trial",
+      "description_en": "If successful, EDITH could pave the way for the widespread introduction of AI-assisted breast cancer screening across the NHS.The postUK’s NIHR backs largest global AI breast cancer screening trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith-2/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Revolution’s RAS inhibitor shows frontline potential in pancreatic cancer trial",
+      "description_en": "This result, Revolution says, could have positive readthrough to the ongoing Phase III RASolute 303 trial evaluating Rasonque in frontline PDAC.The postRevolution’s RAS inhibitor shows frontline potential in pancreatic cancer trialappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/revolution-medicines-rasonque-frontline-pdac-phase-i-ii/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "HUTCHMED begins Phase III trial of ranosidenib in glioma",
+      "description_en": "HUTCHMED has initiated the registrational Phase III RANOVA clinical study evaluating ranosidenib in patients with IDH-mutated glioma in China.The postHUTCHMED begins Phase III trial of ranosidenib in gliomaappeared first onClinical Trials Arena.",
+      "url": "https://www.clinicaltrialsarena.com/news/hutchmed-begins-ranosidenib-trial-glioma/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Noncoding role of FMR1 transcripts; and more",
+      "description_en": "Here is a roundup of autism-related news and research spotted around the web for the week of 23 November.",
+      "url": "https://www.thetransmitter.org/spectrum/noncoding-role-of-fmr1-transcripts-and-more/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-24",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-spotted-20261124.png"
+    },
+    {
+      "title_en": "New pathway helps brain clock food’s nutritional content",
+      "description_en": "Specialized neurons trigger dopamine release outside the canonical dopamine signaling areas to associate flavors with nutrients.",
+      "url": "https://www.thetransmitter.org/dopamine/new-pathway-helps-brain-clock-foods-nutritional-content/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-24",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/cropped-525-nutrition-pathway.png"
+    },
+    {
+      "title_en": "Highly selective visual circuits in mouse frontal cortex",
+      "description_en": "Nature Neuroscience, Published online: 24 November 2026;doi:10.1038/s41593-026-02520-9The authors identify neurons in the frontal cortex of awake mice with highly selective visual receptive fields. These neurons prioritize encoding of binocular visual space, require V1 input and provide functional feedback throughout the visual cortex.",
+      "url": "https://www.nature.com/articles/s41593-026-02520-9",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "A shared meaning component across languages in the human brain",
+      "description_en": "Nature Neuroscience, Published online: 23 November 2026;doi:10.1038/s41593-026-02523-6Using fMRI data from speakers of 21 languages and multilingual language models, de Varda et al. show that brain encoding models trained on some languages predict responses to unseen languages, pointing to a shared meaning component across languages.",
+      "url": "https://www.nature.com/articles/s41593-026-02523-6",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Presynaptic functional organization by phase separation",
+      "description_en": "Nature Neuroscience, Published online: 23 November 2026;doi:10.1038/s41593-026-02517-4This Review by Ogunmowo and Watanabe summarizes recent findings in the field showing how presynaptic functions are enabled, organized and coordinated by phase separation and discusses future directions in this branch of neuroscience.",
+      "url": "https://www.nature.com/articles/s41593-026-02517-4",
+      "source": "Nature Neuroscience",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Formalizing combination therapy for resistant bacterial infections",
+      "description_en": "Nature Reviews Drug Discovery, Published online: 23 November 2026;doi:10.1038/s41573-026-01575-4Formalizing combination therapy for resistant bacterial infections",
+      "url": "https://www.nature.com/articles/s41573-026-01575-4",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null
+    },
+    {
+      "title_en": "Modular mRNA-encoded helper proteins enhance DNA delivery",
+      "description_en": "Nature Biotechnology, Published online: 24 November 2026;doi:10.1038/s41587-026-03351-6DNA delivery is improved with codelivered helper proteins.",
+      "url": "https://www.nature.com/articles/s41587-026-03351-6",
+      "source": "Nature Biotechnology",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null
     }
   ],
   "articles": [
+    {
+      "title_en": "Data centers are getting their own natural gas power plants",
+      "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "데이터센터, 전력망 연결 지연 피하려 자체 천연가스 발전소 구축",
+      "summary_kr": "데이터센터를 시작할 때 직면하는 가장 큰 걸림돌 중 하나는 최대 10년이 걸릴 수 있는 전력망 연결 승인 대기 시간이다. 일부 개발자들은 이를 기다리는 대신 인공지능(AI) 붐을 뒷받침하기 위해 전력망과 독립된 자체 천연가스 발전소를 건설하는 방식을 선택하고 있다."
+    },
+    {
+      "title_en": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "철학자들, 앤스로픽의 인공지능 의식 관련 주장에 의문 제기",
+      "summary_kr": "인공지능(AI) 기업 앤스로픽(Anthropic)은 공개 상장에 앞서 AI가 의식이나 지각을 가질 수 있는 가능성을 투자자들을 위한 리스크 요인으로 언급했다. 그러나 이러한 모델의 지각 및 도덕적 측면에 접근하는 방식에 대해 전설적인 철학자를 비롯한 이들은 의구심을 품고 있다."
+    },
+    {
+      "title_en": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "AI의 판단력 문제와 탄소 제거가 농작물에 미치는 위협",
+      "summary_kr": "비영리 AI 평가 단체 METR의 새로운 보고서에 따르면 일부 인공지능(AI) 능력은 기하급수적으로 향상되고 있으나 모델들이 여전히 한계를 드러내고 있다. 테크놀로지 분야의 최신 동향을 다루는 이 소식지에서는 AI의 판단력 문제와 함께 탄소 제거가 농작물에 미치는 위협 등을 다루고 있다."
+    },
+    {
+      "title_en": "Why using rocks for carbon removal could eventually reduce crop growth",
+      "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "암석을 이용한 탄소 제거 기술, 장기적으로 농작물 생장을 저해할 우려",
+      "summary_kr": "구글과 마이크로소프트 등 기술 기업들은 공기 중의 탄소를 포집해 격리하기 위해 농경지에 잘게 부은 현무암, 감람석 등의 알칼리성 물질을 뿌리는 스타트업에 막대한 자금을 투자하고 있다. 그러나 여러 영향력 있는 모델에 따르면 이러한 암석 활용 탄소 제거 방식은 궁극적으로 농작물 생장을 감소시킬 수 있다는 우려가 제기된다."
+    },
+    {
+      "title_en": "Fight AI slop without punishing legitimate researchers",
+      "url": "https://www.nature.com/articles/d41586-026-03824-3",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "정당한 연구자들을 처벌하지 않고 AI 저품질 콘텐츠에 대응하는 방안",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "The science on AI consciousness must acknowledge uncertainty",
+      "url": "https://www.nature.com/articles/d41586-026-03822-5",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "AI 의식에 관한 과학적 연구는 불확실성을 인정해야 한다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Himalayan disasters demand biodiversity conservation across borders",
+      "url": "https://www.nature.com/articles/d41586-026-03825-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "히말라야 재난 대응을 위해 국경을 초월한 생물다양성 보존 필요",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Submission caps aren’t enough to tackle AI slop",
+      "url": "https://www.nature.com/articles/d41586-026-03823-4",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "제출 건수 제한만으로는 AI 저품질 콘텐츠 문제를 해결하기에 역부족",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Pakistani astronaut to become first foreign visitor to China’s space station",
+      "url": "https://www.nature.com/articles/d41586-026-03829-y",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-24",
+      "image_url": null,
+      "title": "파키스탄 우주인, 중국 우주정거장의 첫 외국인 방문객이 될 예정",
+      "summary_kr": "파키스탄 우주인 무함마드 지샨 알리(Muhammad Zeeshan Ali)가 이번 주 중국 우주선을 타고 톈궁(Tiangong) 모듈로 비행할 예정이다. 이는 중국 우주정거장을 방문하는 최초의 외국인 사례가 된다."
+    },
     {
       "title_en": "Build for the future climate — or waste trillions of dollars",
       "url": "https://www.nature.com/articles/d41586-026-03722-8",
