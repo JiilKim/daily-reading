@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26 07:24:00",
+  "last_updated": "2026-11-27 07:27:28",
   "failed_queue": [
     {
       "title_en": "열심히 번역하고 있습니다 잘봐주세요 (샘알트먼 G20)",
@@ -180,9 +180,673 @@
       "category": "Video",
       "date": "2026-11-26",
       "image_url": "https://i4.ytimg.com/vi/GIr254yvCGE/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "성장할수록 높아지는 기준 (APR 김병훈 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/_zvWumSNcG0",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i4.ytimg.com/vi/_zvWumSNcG0/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "AI 잘 시키는 사람 특 (마이리얼트립 이동건 대표)",
+      "description_en": "AI 잘 시키는 사람 특 (마이리얼트립 이동건 대표)",
+      "url": "https://www.youtube.com/shorts/9WCDcjxB7eA",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i2.ytimg.com/vi/9WCDcjxB7eA/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "AI가 여행은 대체하지 못하는 이유 (마이리얼트립 이동건 대표)",
+      "description_en": "AI가 여행은 대체하지 못하는 이유 (마이리얼트립 이동건 대표)",
+      "url": "https://www.youtube.com/shorts/NP7IBdR0imE",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i3.ytimg.com/vi/NP7IBdR0imE/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "여행사 대표가 꼽은 최고의 항공사 (마이리얼트립 이동건 대표)",
+      "description_en": "여행사 대표가 꼽은 최고의 항공사 (마이리얼트립 이동건 대표)",
+      "url": "https://www.youtube.com/shorts/VF9L3fADITs",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i3.ytimg.com/vi/VF9L3fADITs/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "성공하는 사람 특 : 이번에도 안될거야 (토스 이승건 대표)",
+      "description_en": "",
+      "url": "https://www.youtube.com/shorts/zgD6tVKL3Qo",
+      "source": "B_ZCF YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i3.ytimg.com/vi/zgD6tVKL3Qo/hqhqdefault.jpg"
+    },
+    {
+      "title_en": "엘리트의 신념, 그 대가는 누가 치르나? | 롭 헨더슨 인터뷰",
+      "description_en": "#롭헨더슨#사치신념#산산조각난아이는어떻게자라는가\n\n위탁가정에서 예일대까지, 자수성가의 사나이 롭 헨더슨이 경험한 미국 엘리트들의 이야기!\n*광고 아님 주의*\n\n즐거움과 유익함이 가득가득, 김지윤의 지식Play!\nkimjyTV@gmail.com",
+      "url": "https://www.youtube.com/watch?v=3h2zPF0hkHY",
+      "source": "김지윤의 지식Play YouTube",
+      "category": "Video",
+      "date": "2026-11-27",
+      "image_url": "https://i4.ytimg.com/vi/3h2zPF0hkHY/hqhqdefault.jpg"
     }
   ],
   "articles": [
+    {
+      "title_en": "Cutting-edge prosthetics allow researchers to probe the human mind",
+      "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "첨단 의수 기술로 인간의 마음을 탐구하는 연구자들",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "source": "MIT Tech Rev",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "차세대 바이오닉 핸드와 인공지능의 천연가스 붐",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Brain area’s mysterious role in speech decoded at last",
+      "url": "https://www.nature.com/articles/d41586-026-03800-x",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "말하기에서 뇌 영역의 미스터리한 역할 드디어 해독",
+      "summary_kr": "베르니케 영역(Wernicke's area)은 주로 음성 언어를 처리하는 것으로 알려져 있으나, 최근 뇌 기록 연구를 통해 이 영역이 관련된 인지 과제에도 중대한 기여를 한다는 사실이 밝혀졌다."
+    },
+    {
+      "title_en": "Why the incoming US Congress should ban the development of self-improving AI",
+      "url": "https://www.nature.com/articles/d41586-026-03849-8",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "미국 신임 의회가 자기 개선형 인공지능 개발을 금지해야 하는 이유",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Editorial Expression of Concern: Dual control of nuclear EIN3 by bifurcate MAPK cascades in C<sub>2</sub>H<sub>4</sub> signalling",
+      "url": "https://www.nature.com/articles/s41586-026-11475-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "편집인의 우려 표명: C2H4 신호 전달에서 분기형 MAPK 캐스케이드에 의한 핵 내 EIN3의 이중 조절",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
+      "url": "https://www.nature.com/articles/d41586-026-03874-7",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "노화된 난자를 안정화해 가임력을 높이는 염색체 접착제",
+      "summary_kr": "나이가 들면서 감소하는 단백질을 모방한 시스템이 생쥐 실험에서 검증되었으며, 이는 향후 난임 치료를 개선하는 데 도움을 줄 수 있을 것으로 기대된다."
+    },
+    {
+      "title_en": "Navigating grief in academia: ways to find balance",
+      "url": "https://www.nature.com/articles/d41586-026-02752-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "학계에서의 슬픔 극복: 균형을 찾는 방법",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
+      "url": "https://www.nature.com/articles/d41586-026-03875-6",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "인공지능이 인터넷 암호화를 해독했는가? 과학자들을 놀라게 한 소문의 파문",
+      "summary_kr": "인공지능(AI) 기반 알고리즘이 상거래, 은행 업무, 개인정보 보호의 핵심 기술인 공개키 암호체계를 곧 해독할 수 있다는 관측이 제기되면서 과학계에 큰 충격을 주고 있다."
+    },
+    {
+      "title_en": "Orangutans face bleak future after Indonesia’s devastating wildfires",
+      "url": "https://www.nature.com/articles/d41586-026-03828-z",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "인도네시아 대형 산불 이후 암담한 미래에 직면한 오랑우탄",
+      "summary_kr": "초강력 엘니뇨 현상으로 인도네시아에서 발생한 파괴적인 산불이 심각한 멸종 위기에 처한 보르네오 오랑우탄의 서식지를 황폐화시켰다."
+    },
+    {
+      "title_en": "Daily briefing: A guide to the Riemann hypothesis",
+      "url": "https://www.nature.com/articles/d41586-026-03894-3",
+      "source": "Nature (News & Comment)",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "일일 브리핑: 리만 가설 가이드",
+      "summary_kr": "유명한 수학적 추측인 리만 가설을 이해하고 이에 대한 수학자들의 증명 반응을 다룬다. 또한 다른 사람들과 함께 식사하는 것의 이점도 함께 소개한다."
+    },
+    {
+      "title_en": "Daily briefing: Is AI ‘the end of mathematics as we know it’?",
+      "url": "https://www.nature.com/articles/d41586-026-03841-2",
+      "source": "Nature (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "일일 브리핑: 인공지능은 '우리가 알던 수학의 종말'인가?",
+      "summary_kr": "인공지능 시대를 맞아 수학자들은 자신들의 학문 분야가 맞이할 미래를 고심하고 있다. 아울러 트라우마가 뇌세포에 분자적 흔적을 남기는 현상과 과학자들이 스스로 성과를 홍보할 책임이 있는지에 대해서도 다룬다."
+    },
+    {
+      "title_en": "What Happens to Drug Patents When AI Biotech Companies Fail?",
+      "url": "https://www.the-scientist.com/what-happens-to-drug-patents-when-ai-biotech-companies-fail-75310",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57416/ai-drug-patents-800x560-t.jpg",
+      "title": "인공지능 바이오 기업 파산 시 약물 특허의 운명은?",
+      "summary_kr": "인공지능이 분자 스크리닝을 가속화하는 가운데 인공지능 자금 조달 붕괴가 발생할 경우 특허 등록된 화합물을 평가하거나 개발을 진척시키기 어려워질 수 있다."
+    },
+    {
+      "title_en": "Postdoc Portrait: Anna Anandita Develops Point-of-Care Biosensors",
+      "url": "https://www.the-scientist.com/postdoc-portrait-anna-anandita-develops-point-of-care-biosensors-75311",
+      "source": "The Scientist",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://cdn.the-scientist.com/assets/image/57418/anna-anandita-800-x-560-t.jpg",
+      "title": "포스닥 초상화: 현장 진단용 바이오센서를 개발하는 안나 아난디타",
+      "summary_kr": "본 박사후연구원은 농어촌 지역에서도 실험실 수준의 진단을 저렴하게 이용할 수 있도록 저비용 미세유체 및 나노소재 바이오센서를 설계하고 있다."
+    },
+    {
+      "title_en": "Pregnancy is the ‘perfect storm’ for eating disorders, but doctors keep missing them",
+      "url": "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/PPED-13418-645x645.jpeg",
+      "title": "임신은 섭식장애의 취약 시기이지만 의료진은 이를 자주 놓친다",
+      "summary_kr": "많은 여성들이 출산 전후로 섭식장애로 고통받고 있으나, 미국 의료 체계의 사각지대에 놓여 제대로 발견되지 않는 경우가 많다."
+    },
+    {
+      "title_en": "Opinion: Montana’s ‘right to try’ law makes patients responsible for bearing costs — and risks",
+      "url": "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2022/10/AdobeStock_110075845-645x645.jpeg",
+      "title": "몬태나주의 '시도할 권리' 법안이 환자에게 비용과 위험을 부담시킨다는 지적",
+      "summary_kr": "몬태나주가 자체적인 '시도할 권리(right to try)' 법안을 제정한 첫 주가 되었으나, 연구자들은 여전히 중요한 의문들이 남아 있다고 지적한다."
+    },
+    {
+      "title_en": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+      "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/Meta-phase-II-spindle-645x645.jpg",
+      "title": "난임 치료의 진전: 조작된 분자 접착제로 노화된 난자의 염색체 안정화",
+      "summary_kr": "연구진이 노화된 생쥐 난자의 정상적인 염색체 연결을 복원할 수 있는 단백질 시스템을 제작하여, 향후 체외수정(IVF) 결과 개선에 대한 기대를 높였다."
+    },
+    {
+      "title_en": "STAT+: The grueling struggle to find a primary care doctor in the ‘medical capital’ of America",
+      "url": "https://www.statnews.com/2026/11/26/primary-care-appointment-times-doctor-shortage/?utm_campaign=rss",
+      "source": "STAT News",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_2158931352-645x645.jpeg",
+      "title": "미국의 '의료 수도' 보스턴에서 1차 진료의를 찾기 위한 고된 사투",
+      "summary_kr": "보스턴은 미국의 의료 수도로 불리지만, 많은 주민들이 여전히 1차 진료에 접근하지 못해 치료, 검진, 의료 상담을 받는 데 어려움을 겪고 있다."
+    },
+    {
+      "title_en": "Draining peatlands is responsible for a few percent of our global warming",
+      "url": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+      "source": "Ars Technica",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1296653735-500x500.jpg",
+      "title": "이토지 배수가 전 세계 지구온난화의 수 퍼센트를 차지한다",
+      "summary_kr": "1800년대까지 거슬러 올라가는 상세한 추정치는 이토지(peatland) 배수로 인해 얼마나 많은 탄소가 방출되고 있는지 보여준다."
+    },
+    {
+      "title_en": "Daewoong secures South Korean clearance for Phase I solid tumour trial",
+      "url": "https://www.clinicaltrialsarena.com/news/daewoong-secures-ind-clearance-dwp216262-trial/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "대웅제약, 고형암 치료제 후보물질 1상 임상시험 계획 승인 획득",
+      "summary_kr": "대웅제약은 고형암을 대상으로 약물 후보물질 DWP216262의 제1상 임상시험을 평가하기 위해 한국 식품의약품안전처(MFDS)로부터 임상시험계획(IND) 승인을 획득했다."
+    },
+    {
+      "title_en": "Two pharma companies could face enforcement for not reporting trial data",
+      "url": "https://www.clinicaltrialsarena.com/news/two-pharma-companies-could-face-enforcement-for-not-reporting-trial-data/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "임상시험 데이터 미보고로 제재 직면한 두 제약사",
+      "summary_kr": "미국 식품의약국(FDA) 서한에 따르면, 두 제약사가 임상시험 데이터 보고 규정을 준수하지 않아 강제 집행 조치에 직면할 수 있는 것으로 나타났다."
+    },
+    {
+      "title_en": "BMS sees win and loss with Sotyktu in two pivotal SLE trials",
+      "url": "https://www.clinicaltrialsarena.com/news/bms-sees-win-and-loss-with-sotyktu-in-two-pivotal-sle-trials/",
+      "source": "Clinical Trials Arena",
+      "category": "News",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "BMS의 소틱투, 전신성 홍반루푸스 임상 3상에서 엇갈린 결과 기록",
+      "summary_kr": "브리스톨마이어스스큅(BMS)은 소틱투(Sotyktu)를 평가한 두 건의 전신성 홍반루푸스(SLE) 임상 3상 시험 중 두 번째 시험이 높은 위약 반응으로 인해 실패했다고 밝혔다."
+    },
+    {
+      "title_en": "Preserving neuroscience history, one memoir at a time",
+      "url": "https://www.thetransmitter.org/history-of-neuroscience/preserving-neuroscience-history-one-memoir-at-a-time/",
+      "source": "The Transmitter",
+      "category": "Neuroscience",
+      "date": "2026-11-27",
+      "image_url": "https://www.thetransmitter.org/wp-content/uploads/2026/11/History-Autobiography-profiles.525.png",
+      "title": "신경과학의 역사를 회고록으로 보존하다",
+      "summary_kr": "신경과학 자서전의 역사(The History of Neuroscience in Autobiography) 제14권이 이번 달에 출간됐다. 시리즈 편집자인 래리 스콰이어(Larry Squire)와 토마스 올브라이트(Thomas Albright)는 매체와의 인터뷰에서 이 책이 만들어진 과정과 이 분야의 개인적인 면모를 담으려는 이유에 대해 설명했다."
+    },
+    {
+      "title_en": "The absent-minded physicist who bested them all",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem8414?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "모든 이들을 능가한 건망증 심리학자",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "The original researchers would like a word",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej2312?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "원저자들의 한마디",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Priming of AGO2 by type I interferons balances inflammation and antiviral immunity",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9551?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "제1형 인터페론에 의한 AGO2 프라이밍이 염증과 항바이러스 면역의 균형을 조절",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Mitochondrial profiling links tumor genotype to metabolic and immune vulnerabilities in liver cancer",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb7608?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "미토콘드리아 프로파일링을 통한 간암 종양 유전자형과 대사 및 면역 취약성의 연관성 규명",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Shared patterns of human milk composition link mammary gland function to infant growth",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee7240?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "인간 모유 구성의 공통된 패턴과 유선 기능 및 유아 성장의 연관성",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Magic state cultivation on a superconducting quantum processor",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee7961?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "초전도 양자 프로세서에서의 매직 상태 생성",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Nutritional interventions’ impacts on human milk: Three trials in low-resource settings",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee9284?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "자원이 부족한 환경에서의 세 가지 임상시험을 통한 영양 중재가 모유에 미치는 영향",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Counter-ion confinement reverses ion selectivity in subnanometer channels",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef1323?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "반나노미터 채널에서 반대이온 구속에 의한 이온 선택성 역전 현상",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Rough fracture zone as a gateway to the 2025 Mw 8.8 Kamchatka earthquake",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef2089?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "2025년 규모 8.8 캄차카 지진의 관문으로 작용한 거친 파쇄대",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "An engineered cohesion system reduces errors in aged mammalian eggs",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei5852?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "조작된 응집 시스템을 통한 노화된 포유류 난자의 오류 감소",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A tryptophan cation radical determines radical transfer kinetics and catalytic rate in a ribonucleotide reductase",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei8950?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "리보뉴클레오티드 환원효소의 라디칼 전달 동역학 및 촉매 속도를 결정하는 트립토판 양이온 라디칼",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Millisecond-scale imaging of fragmented earthquake rupture by near-source fiber-optic sensing",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei0507?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "근거리 광섬유 센싱을 이용한 단층 파열의 밀리초 단위 이미징",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Abrupt surface water decline during 2023–2024 record warming",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei2575?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "2023-2024년 기록적인 온난화 기간 동안의 급격한 지표수 감소",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A fast radio burst at redshift 2, three billion years after the Big Bang",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz2675?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "빅뱅 후 30억 년, 적색편이 2에서의 빠른 전파 폭발",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Atomic functional site scaffolding in biopolymers with RFdiffusion3",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh2982?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "RFdiffusion3를 이용한 생체고분자의 원자 기능 부위 스캐폴딩",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Stereodivergent telomerization of linear functionalized dienes with amines",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh7895?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "선형 관능화 diene과 아민의 입체발산적 텔로머화",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Integrating established and emerging tools to assess wildlife condition from the ground, up",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed3374?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "지상에서 야생동물 상태를 평가하기 위한 기존 및 신흥 도구 통합",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "In Other Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3371?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "기타 저널",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "A new growth curve",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3372?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "새로운 성장 곡선",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Deception in motion",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek0041?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "움직임 속의 기만",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Growing magic for quantum computers",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aen1265?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "양자 컴퓨터를 위한 마법 키우기",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Genetic differences shape the metabolic fates of tumors",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem8439?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "유전적 차이가 종양의 대사 운명을 결정한다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Repairing a sisterly bond",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem7163?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "자매 같은 결합의 복원",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Science and the arts: Partners in crime",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz4986?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "과학과 예술: 공범 관계",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Genomic data need a stronger equity framework",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael9361?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "유전체 데이터에 더 강력한 형평성 체계가 필요하다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Senate-led persecution of Brazilian scientists",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4452?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "상원 주도의 브라질 과학자 박해",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Flight of the bug bots",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3699?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "곤충 로봇의 비행",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "China has been quietly importing thousands of research monkeys",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3726?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "중국, 연구용 원숭이 수천 마리 조용히 수입해",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "At both poles, warm water is eating away sea ice from below",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3727?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "양극 지방에서 따뜻한 해수가 해빙을 아래에서부터 녹이고 있어",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Are T cell engagers the next big thing in autoimmune disease treatment?",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3728?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "T세포 인게이저는 자가면역질환 치료의 차세대 대안이 될 것인가?",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Europe looks past its giant telescope to its next big bet",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3729?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "유럽, 거대 망원경 너머 차세대 대형 프로젝트 모색",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Fruit fly brain map gets a body",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3730?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "초파리 뇌 지도에 신체 부위가 결합되다",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Moving beyond hyperscale ambitions for AI infrastructure in Africa",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aen1227?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "아프리카 AI 인프라를 위한 초대형 규모 야망을 넘어",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Rebuilding science’s social contract with the public",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo0595?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "대중과 과학의 사회적 계약 재구축",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Advancing undergraduates’ skills for communicating science with the public",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee9867?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "학부생들의 대중 과학 소통 능력 향상",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "In Science Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3370?af=R",
+      "source": "Science (Paper)",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "과학 저널 속에서",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
+    {
+      "title_en": "Integrated wastewater and clinical genomic surveillance for high-resolution tracking of measles virus evolution and transmission",
+      "url": "https://www.nature.com/articles/s41591-026-04754-3",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "홍역 바이러스 진화와 전파의 고해상도 추적을 위한 통합 하수 및 임상 유전체 감시",
+      "summary_kr": "2024~2025년 남아프리카공화국의 홍역 유행 기간 동안 하수 및 감시 검체를 활용한 전장 유전체 시퀀싱(whole-genome sequencing)과 계통발생학적 분석(phylogenetic analyses)이 수행되었다. 이를 통해 기존에 감지되지 않았던 주 간 확산과 전파 연결고리가 밝혀졌다. 이러한 결과는 하수 통합 전장 유전체 감시가 홍역 모니터링 및 통제 노력을 향상시킬 수 있음을 시사한다."
+    },
+    {
+      "title_en": "Performance of intracortical microelectrode arrays in people with implanted brain–computer interfaces over a 20-year period",
+      "url": "https://www.nature.com/articles/s41591-026-04530-3",
+      "source": "Nature Medicine",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "20년 기간 동안 이식된 뇌-컴퓨터 인터페이스 사용자에서의 피질 내 미세전극 어레이 성능",
+      "summary_kr": "유타 어레이(Utah arrays)는 최대 7.3년 동안 안정적인 스파이크 활성(spiking activity)을 기록했으며, 평균적으로 완만한 신호 감소를 보였다. 분석된 어레이의 대다수에서 지속적인 움직임 디코딩(movement decoding)이 유지되었다. 이러한 결과는 피질 내 뇌-컴퓨터 인터페이스(intracortical brain-computer interfaces)의 장기적인 실현 가능성을 입증한다."
+    },
+    {
+      "title_en": "Unleashing an E3 ligase to degrade multiple targets",
+      "url": "https://www.nature.com/articles/d41573-026-00190-7",
+      "source": "Nature Drug Discovery",
+      "category": "Paper",
+      "date": "2026-11-27",
+      "image_url": null,
+      "title": "다중 표적 분해를 위한 E3 리가아제 활성화",
+      "summary_kr": "정보가 부족하여 요약본을 만들지 못했음."
+    },
     {
       "title_en": "Blend public cash and private innovation to unlock drug development",
       "url": "https://www.nature.com/articles/d41586-026-03723-7",
